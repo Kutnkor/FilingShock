@@ -32,6 +32,11 @@ LEDGER_NAME = "prospective_forecasts.jsonl"
 CATEGORY = "prospective_recorded_before_session"
 
 
+def forecast_model_key(rec: dict) -> tuple:
+    """A logical model name can cover several parameter sets; keep those forecasts distinct."""
+    return rec["event_id"], rec["model_version"], rec.get("model_parameters_sha256")
+
+
 class LedgerError(RuntimeError):
     pass
 
@@ -141,6 +146,8 @@ class ForecastLedger(HashChainedLog):
                 raise LedgerError("filing observation time is later than the generation time")
             if any(r["forecast_id"] == rec["forecast_id"] for r in existing):
                 raise LedgerError(f"forecast {rec['forecast_id']} is already recorded (never overwritten)")
+            if any(forecast_model_key(r) == forecast_model_key(rec) for r in existing):
+                raise LedgerError("this event and model parameter set are already recorded (never overwritten)")
             rec["prediction_category"] = CATEGORY
             rec["generated_at_utc"] = current.isoformat()
             return rec
@@ -250,7 +257,7 @@ def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
         raise LedgerError(f"ledger integrity check failed: {msg}")
     filings = load_filings(layout)
     pending = find_pending_filings(cfg, layout, now=clock(), filings=filings)
-    done = {(r["event_id"], r["model_version"]) for r in ledger.records()}
+    done = {forecast_model_key(r) for r in ledger.records()}
     needed = set(model_specs()["C"])
     models: dict[int, object] = {}
     results = []
@@ -278,7 +285,8 @@ def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
         if isinstance(pm, Exception):
             res["reason"] = str(pm)
             continue
-        if (res["event_id"], pm.version) in done:
+        key = (res["event_id"], pm.version, pm.parameters_sha256)
+        if key in done:
             res["status"], res["reason"] = "already_recorded", f"a record for {pm.version} exists (never overwritten)"
             continue
         if pm.max_outcome_available_utc > cutoff:        # cannot happen with annual blocks; guarded anyway
@@ -297,7 +305,7 @@ def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
             res["reason"] = str(exc)
             continue
         res["status"], res["reason"] = "recorded", None
-        done.add((res["event_id"], pm.version))
+        done.add(key)
         log.info("recorded prospective forecast %s for %s (P_C=%.3f, cutoff %s)", res["record"]["forecast_id"],
                  p["accession_number"], probs["C"]["p_cal"], cutoff)
     return results

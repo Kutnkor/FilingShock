@@ -33,3 +33,12 @@ Tests exercise independent ledger instances, simultaneous appends and duplicate 
 References: [Python file locks](https://docs.python.org/3.11/library/fcntl.html#fcntl.flock),
 [Windows byte-range locks](https://docs.python.org/3.11/library/msvcrt.html#msvcrt.locking), and
 [atomic replacement](https://docs.python.org/3.11/library/os.html#os.replace).
+
+## Forecast identity
+
+The production model name contains the year and dataset, but tuning or model-code changes can produce
+different parameters with that same name. Forecast deduplication now includes the full parameter hash;
+a repeated identical model is idempotent, while a changed model gets its own immutable forecast record.
+The original record remains available to the earliest-forecast-per-event evaluation rule.
+
+Reference: [scikit-learn model provenance and reproducibility](https://scikit-learn.org/stable/model_persistence.html).

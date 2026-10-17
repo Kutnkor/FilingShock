@@ -135,6 +135,20 @@ def test_nothing_is_recorded_at_or_after_cutoff(live_layout):
     assert ForecastLedger(layout).records() == []
 
 
+def test_changed_model_parameters_create_a_new_forecast(live_layout):
+    cfg, layout = live_layout
+    first = record_pending_forecasts(cfg, layout, _client(cfg, layout), clock=lambda: BEFORE)[0]["record"]
+    changed = cfg.with_overrides({"model.c_grid": [0.03]})
+    second = record_pending_forecasts(changed, layout, _client(changed, layout), clock=lambda: BEFORE)[0]
+    assert second["status"] == "recorded"
+    assert second["record"]["model_version"] == first["model_version"]
+    assert second["record"]["model_parameters_sha256"] != first["model_parameters_sha256"]
+    assert second["record"]["forecast_id"] != first["forecast_id"]
+    again = record_pending_forecasts(changed, layout, _client(changed, layout), clock=lambda: BEFORE)[0]
+    assert again["status"] == "already_recorded"
+    assert len(ForecastLedger(layout).records()) == 2
+
+
 def test_filings_not_yet_accepted_or_seen_are_not_pending(live_layout):
     cfg, layout = live_layout
     early = datetime(2024, 10, 30, 11, 46, tzinfo=timezone.utc)      # 07:46 ET: accepted, not yet seen
