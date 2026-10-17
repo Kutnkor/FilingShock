@@ -25,7 +25,7 @@ Concrete to this dataset and experiment; numbers come from saved artifacts (`doc
 9. **Dictionaries.** The Loughran–McDonald lists are applied point-in-time by year flag, but the base lists
    (flag 2009) were finalised in 2011; the topic lexicon was written in 2026.
 10. **Prospective forecasting.** `filingshock forecast-pending` scores 10-Qs awaiting their decision cutoff
-    through the same per-event feature functions as the historical build and appends models B and C to the
+    through the same per-event feature functions as the historical build and appends models A/B/C plus a constant to the
     hash-chained ledger, only before the cutoff and only for filings first seen by discovery before it. No
     real prospective forecast has been recorded yet (`data/forecasts/` is empty), so there is no prospective
     evidence. `filingshock score-prospective` scores a record only after its target session has closed and
@@ -47,3 +47,9 @@ Concrete to this dataset and experiment; numbers come from saved artifacts (`doc
     on the 2026 events in the filing window (to 2026-09-30) only.
 11. **Prediction ≠ causation ≠ profit.** Neither a positive nor a null predictive result says anything about
     the causal effect of disclosures or about trading profitability.
+
+12. **Local evidence integrity.** Version 0.2 serializes cooperating writers and validates record hashes,
+    timing, probabilities and outcome links. A local hash chain is not an externally timestamped or
+    signed publication record. Someone able to rewrite the whole local store can recompute a new chain.
+    The lock implementation targets local filesystems; network/distributed filesystem semantics are
+    not claimed. The Windows locking branch has not been executed in the local macOS verification.

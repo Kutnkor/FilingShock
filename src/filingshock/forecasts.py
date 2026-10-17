@@ -282,7 +282,7 @@ def forecast_record(pending: pd.Series, sf, pm, probs: dict, cfg: Config) -> dic
 
 def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
                              clock: Callable[[], datetime] | None = None) -> list[dict]:
-    """Score every pending 10-Q with the production models B and C and append one ledger record per
+    """Score every pending 10-Q with the configured production models and append one ledger record per
     (event, model version), only while the decision cutoff is still in the future.
 
     Returns one row per pending filing: status recorded | already_recorded | skipped, with the reason.

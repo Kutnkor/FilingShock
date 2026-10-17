@@ -31,7 +31,7 @@ by **+0.0006 (95% interval −0.0039 to +0.0055)**; negative values would favour
 * Eligibility funnel, event uniqueness, constant/A/B/C models with ablations, temporal folds with separate
   fit/selection/calibration/test blocks, Platt calibration, quarter-clustered bootstrap intervals.
 * Saved, reconcilable experiment artifacts; an append-only, hash-chained prospective forecast ledger.
-* A five-screen Streamlit interface; an offline sample package; 77 offline tests.
+* A five-screen Streamlit interface; an offline sample package; an offline regression suite.
 
 ## Data coverage (dataset `ds-1698abec6cff`)
 
@@ -193,7 +193,7 @@ not redistributed). See [docs/data_card.md](docs/data_card.md).
 .venv/bin/python -m pytest -q
 ```
 
-77 tests: timing (holidays, early closes, DST, after-hours dissemination), target and past-only threshold,
+Coverage: timing (holidays, early closes, DST, after-hours dissemination), target and past-only threshold,
 future-data and target-close mutation through the real event builder, restatements and YTD flows,
 extraction (ToC, hidden XBRL, page artifacts, risk semantics), alignment, folds, train-only preprocessing,
 calibration isolation, metrics, ledger integrity, prospective scoring (recorded only before the cutoff,
@@ -201,6 +201,12 @@ single-event features blind to bars at/after the target session), prospective ou
 threshold, nothing before close + settle, idempotent, research artifacts untouched, partial bars never
 stored), interface smoke tests and UI-to-artifact reconciliation.
 No test uses the network.
+
+The 0.2 reliability update adds malformed-log and probability validation, concurrent-writer and duplicate
+protection, model-manifest integrity checks, paired prospective baselines, failed-refresh provenance,
+SEC cache-path isolation, configuration validation and app-launch regressions. See the source-backed
+[engineering review](docs/engineering_review.md). Historical research results remain those of the saved
+0.1 experiment; a newer software version does not change that empirical conclusion.
 
 ## Documentation
 
