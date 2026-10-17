@@ -182,6 +182,22 @@ def cmd_verify(args) -> int:
     return EXIT_OK if res["all_ok"] else EXIT_FAIL
 
 
+def cmd_verify_ledgers(args) -> int:
+    _, layout = _ctx(args)
+    from filingshock.ledger_audit import verify_ledgers
+
+    report = verify_ledgers(layout)
+    if args.json:
+        print(json.dumps(report, indent=2))
+    else:
+        for name, state in report["logs"].items():
+            print(f"{name}: {state['status']} ({state['n_records']} records)")
+        for error in report["errors"]:
+            print(f"ERROR {error['log']}: {error['reason']}")
+        print("ledger verification passed" if report["all_ok"] else "ledger verification failed")
+    return EXIT_OK if report["all_ok"] else EXIT_FAIL
+
+
 def cmd_audit(args) -> int:
     cfg, layout = _ctx(args)
     from filingshock import audit
@@ -362,6 +378,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--reps", type=int)
     sp = add("verify-artifacts", cmd_verify, "recompute metrics from saved predictions and compare")
     sp.add_argument("--run")
+    sp = add("verify-ledgers", cmd_verify_ledgers, "verify prospective log integrity and outcome-to-forecast links")
+    sp.add_argument("--json", action="store_true", help="emit a machine-readable integrity report")
     sp = add("audit", cmd_audit, "funnel summary, per-event admissibility, timestamp reconciliation")
     sp.add_argument("--event")
     sp.add_argument("--timestamps", type=int, help="reconcile N acceptance timestamps against index headers")

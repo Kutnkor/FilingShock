@@ -132,6 +132,15 @@ A first run used the unverified API acceptance times (499 events; ΔBrier −0.0
 
 ## Reproducibility
 
+Check prospective forecast/outcome integrity without downloading data or training models:
+
+```bash
+.venv/bin/filingshock verify-ledgers --json
+```
+
+This checks both hash chains and each outcome's link to its exact forecast record. An empty log is
+reported explicitly. It does not establish an external publication timestamp or validate price sources.
+
 Every run stores its configuration, code version and dirty-file list, dataset manifest (with price and
 document hashes), folds, seeds, chosen hyperparameters, coefficients, preprocessing and calibration
 parameters, per-event predictions and metrics (`data/experiments/<run_id>/`). Re-running the primary
