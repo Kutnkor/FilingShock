@@ -57,3 +57,11 @@ forecast per event and explicitly report the paired coverage of each optional ba
 remain missing; no retrospective baseline is attached to an earlier forecast.
 
 Reference: [scikit-learn probability scoring and Brier loss](https://scikit-learn.org/stable/modules/model_evaluation.html#brier-score-loss).
+
+## Failed market refreshes
+
+A refresh failure previously replaced a good price manifest entry with an unavailable entry carrying
+a new retrieval timestamp, even though the cached bars were old. Prospective scoring relies on that
+timestamp, so freshness must describe an actual successful fetch. A failed refresh now leaves both
+the good bars and their metadata unchanged and makes the command fail visibly. Initial coverage gaps
+still get an explicit unavailable status. Regression tests are offline in `tests/test_market.py`.

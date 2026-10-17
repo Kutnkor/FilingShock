@@ -235,6 +235,11 @@ def ingest_prices(cfg: Config, layout: DataLayout, symbols: list[str], refresh: 
             store.save(sym, df, provider, "ok", extra={"requested_end": end, "unsettled_sessions_dropped": dropped})
             results[sym] = f"ok ({len(df)} rows, last {df['session'].max().date()})"
         except MarketDataUnavailable as exc:
+            entry = store.manifest_entries().get(sym, {})
+            if store.has(sym) and entry.get("status") == "ok":
+                results[sym] = f"refresh_failed (cached history preserved): {exc}"
+                log.warning("price refresh failed for %s; retaining original file and retrieval metadata: %s", sym, exc)
+                continue
             store.save(sym, pd.DataFrame(columns=BAR_COLUMNS), provider, "unavailable", str(exc))
             results[sym] = f"unavailable: {exc}"
             log.warning("price data unavailable for %s: %s", sym, exc)

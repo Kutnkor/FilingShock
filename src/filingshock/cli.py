@@ -104,7 +104,7 @@ def cmd_prices(args) -> int:
     res = step_prices(cfg, layout, refresh=args.refresh, history_end=args.history_end)
     for k, v in res.items():
         print(f"{k:6s} {v}")
-    return EXIT_OK
+    return EXIT_FAIL if any(v.startswith("refresh_failed") for v in res.values()) else EXIT_OK
 
 
 def cmd_resources(args) -> int:
