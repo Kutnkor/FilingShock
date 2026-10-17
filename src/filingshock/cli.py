@@ -58,13 +58,16 @@ def cmd_validate_setup(args) -> int:
         }
         print("data state:", json.dumps(state))
     if args.network and cfg is not None:
-        import requests
-        try:
-            r = requests.get("https://data.sec.gov/submissions/CIK0000796343.json",
-                             headers={"User-Agent": cfg.sec_user_agent}, timeout=15)
-            print("SEC reachability:", r.status_code)
-        except requests.RequestException as exc:
-            warnings.append(f"SEC not reachable: {exc}")
+        if cfg.user_agent_is_placeholder:
+            problems.append("network check requires a configured FILINGSHOCK_SEC_USER_AGENT; no request was sent")
+        else:
+            import requests
+            try:
+                r = requests.get("https://data.sec.gov/submissions/CIK0000796343.json",
+                                 headers={"User-Agent": cfg.sec_user_agent}, timeout=15)
+                print("SEC reachability:", r.status_code)
+            except requests.RequestException as exc:
+                warnings.append(f"SEC not reachable: {exc}")
     for w in warnings:
         print("WARNING:", w)
     for p in problems:

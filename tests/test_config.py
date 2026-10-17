@@ -64,3 +64,18 @@ def test_app_passes_the_selected_configuration_to_streamlit(tmp_path, monkeypatc
     assert main(["app", "--config", str(path), "--sample"]) == 0
     assert calls[0][1]["env"]["FILINGSHOCK_CONFIG"] == str(path.resolve())
     assert calls[0][1]["env"]["FILINGSHOCK_MODE"] == "sample"
+
+
+def test_network_setup_check_requires_a_real_user_agent(tmp_path, monkeypatch, capsys):
+    import requests
+
+    from filingshock.cli import EXIT_SETUP, main
+
+    def forbidden(*args, **kwargs):
+        raise AssertionError("a placeholder User-Agent must not trigger a network request")
+
+    monkeypatch.setattr(requests, "get", forbidden)
+    monkeypatch.setenv("FILINGSHOCK_DATA_DIR", str(tmp_path))
+    monkeypatch.setenv("FILINGSHOCK_SEC_USER_AGENT", " ")
+    assert main(["validate-setup", "--network"]) == EXIT_SETUP
+    assert "no request was sent" in capsys.readouterr().out
