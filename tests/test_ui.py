@@ -55,7 +55,8 @@ def test_ui_totals_reconcile_with_artifacts():
     assert reconcile_run(D.layout().experiments / d.run_id)["all_ok"]
 
 
-def test_results_panel_shows_prospective_outcomes_apart_from_research(tmp_path, monkeypatch):
+@pytest.mark.parametrize("include_baselines", [False, True])
+def test_results_panel_shows_prospective_outcomes_apart_from_research(tmp_path, monkeypatch, include_baselines):
     if not SAMPLE.exists():
         pytest.skip("no sample package present")
     from datetime import datetime, timezone
@@ -72,7 +73,8 @@ def test_results_panel_shows_prospective_outcomes_apart_from_research(tmp_path, 
         return {"forecast_id": f"pf-{i}", "event_id": f"ev-p{i}", "ticker": "ADSK", "accession_number": f"acc-{i}",
                 "observed_at_utc": "2026-10-14T11:00:00+00:00", "decision_cutoff_utc": cutoff.isoformat(),
                 "target_session": session, "target_close_utc": close.isoformat(), "threshold_abs_move": 0.031,
-                "p_B": 0.2, "p_C": 0.3, "probability": 0.3, "model_version": "logistic_l2:prod2026:ds-x"}
+                "p_B": 0.2, "p_C": 0.3, "probability": 0.3, "model_version": "logistic_l2:prod2026:ds-x",
+                **({"p_A": 0.25, "p_constant": 0.1} if include_baselines else {})}
 
     c1 = datetime(2026, 10, 14, 13, 0, tzinfo=timezone.utc)
     f1 = led.append(forecast(1, "2026-10-14", c1, c1.replace(hour=20)), now=c1.replace(hour=12))
@@ -80,7 +82,9 @@ def test_results_panel_shows_prospective_outcomes_apart_from_research(tmp_path, 
     led.append(forecast(2, "2099-01-05", c2, c2.replace(hour=21)), now=c1.replace(hour=12))
     OutcomeLog(layout).append({"forecast_id": "pf-1", "forecast_sequence": f1["sequence"], "event_id": "ev-p1",
                                "target_close_utc": f1["target_close_utc"], "outcome_status": "ok", "abs_r": 0.047,
-                               "y": 1, "brier_B": 0.64, "brier_C": 0.49}, now=datetime(2026, 10, 15, tzinfo=timezone.utc))
+                               "y": 1, "brier_B": 0.64, "brier_C": 0.49,
+                               **({"p_A": 0.25, "p_constant": 0.1, "brier_A": 0.5625, "brier_constant": 0.81}
+                                  if include_baselines else {})}, now=datetime(2026, 10, 15, tzinfo=timezone.utc))
     monkeypatch.setenv("FILINGSHOCK_DATA_DIR", str(tmp_path))
     at = _run_page("results", "research")
     assert not at.exception, [e.value for e in at.exception]
@@ -88,3 +92,6 @@ def test_results_panel_shows_prospective_outcomes_apart_from_research(tmp_path, 
     for expected in ("closed; outcome scored", "not closed yet", "4.70%", "0.4900", "Prospective only.",
                      "1 prospective event(s) scored so far"):
         assert expected in text, expected
+    if include_baselines:
+        for expected in ("P(A)", "P(constant)", "0.5625", "0.8100", "C vs A: 1 paired scored events"):
+            assert expected in text, expected

@@ -217,7 +217,8 @@ else:
         if f"p_{name}" in lt and lt[f"p_{name}"].notna().any():
             ltab[f"P({label})"] = lt[f"p_{name}"].map(lambda x: ui.pct(x, 1))
             ltab[f"Brier {label}"] = lt[f"o_brier_{name}"].map(lambda x: ui.num(x, 4))
-    ui.html_table(ltab, right={"Threshold |move|", "P(B)", "P(C)", "Realized |move|", "y", "Brier B", "Brier C"},
+    ui.html_table(ltab, right={"Threshold |move|", "P(A)", "P(B)", "P(C)", "P(constant)", "Realized |move|", "y",
+                               "Brier A", "Brier B", "Brier C", "Brier constant"},
                   caption_text=f"Prospective only. {len(lt)} record(s) in forecasts/prospective_forecasts.jsonl, integrity "
                                f"{led_msg}; {len(pout)} outcome record(s) in forecasts/prospective_outcomes.jsonl, integrity "
                                f"{po_msg}. Each forecast was generated before its decision cutoff by production models fitted "
