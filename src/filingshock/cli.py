@@ -311,12 +311,14 @@ def cmd_report(args) -> int:
 
 
 def cmd_app(args) -> int:
+    cfg = Config.load(args.config)
     cmd = [sys.executable, "-m", "streamlit", "run", str(PROJECT_ROOT / "src" / "filingshock" / "ui" / "app.py"),
            "--server.port", str(args.port), "--server.headless", "true"]
     env_note = "sample package" if args.sample else "local research data"
     print(f"Starting FilingShock ({env_note}) on http://localhost:{args.port}")
     import os
     env = dict(os.environ)
+    env["FILINGSHOCK_CONFIG"] = str(cfg.path.resolve())
     if args.sample:
         env["FILINGSHOCK_MODE"] = "sample"
     return subprocess.call(cmd, env=env, cwd=PROJECT_ROOT)

@@ -41,3 +41,26 @@ def test_missing_configuration_is_not_reported_as_missing_research_data(tmp_path
 def test_empty_user_agent_is_treated_as_unconfigured(monkeypatch):
     monkeypatch.setenv("FILINGSHOCK_SEC_USER_AGENT", " ")
     assert Config.load().user_agent_is_placeholder
+
+
+def test_app_passes_the_selected_configuration_to_streamlit(tmp_path, monkeypatch):
+    import subprocess
+
+    import yaml
+
+    from filingshock.cli import main
+
+    raw = Config.load().raw
+    raw["project"]["data_dir"] = str(tmp_path / "custom-data")
+    path = tmp_path / "custom.yaml"
+    path.write_text(yaml.safe_dump(raw))
+    calls = []
+
+    def launch(cmd, **kwargs):
+        calls.append((cmd, kwargs))
+        return 0
+
+    monkeypatch.setattr(subprocess, "call", launch)
+    assert main(["app", "--config", str(path), "--sample"]) == 0
+    assert calls[0][1]["env"]["FILINGSHOCK_CONFIG"] == str(path.resolve())
+    assert calls[0][1]["env"]["FILINGSHOCK_MODE"] == "sample"
