@@ -50,18 +50,23 @@ def _json(path: str, mtime: float):
 
 @st.cache_data(show_spinner=False)
 def _ledger(root: str, mtime: float) -> tuple[pd.DataFrame, bool, str]:
-    from filingshock.forecasts import ForecastLedger, ledger_frame
+    from filingshock.forecasts import LEDGER_COLUMNS, LedgerError, ledger_frame
     lay = DataLayout(Path(root))
-    ok, msg = ForecastLedger(lay).verify_chain()
-    return ledger_frame(lay), ok, msg
+    try:
+        return ledger_frame(lay), True, "ok"
+    except LedgerError as exc:
+        return pd.DataFrame(columns=LEDGER_COLUMNS), False, str(exc)
 
 
 @st.cache_data(show_spinner=False)
 def _prospective_outcomes(root: str, mtime: float) -> tuple[pd.DataFrame, bool, str]:
-    from filingshock.prospective_outcomes import OutcomeLog, outcomes_frame
+    from filingshock.forecasts import LedgerError
+    from filingshock.prospective_outcomes import OUTCOME_COLUMNS, outcomes_frame
     lay = DataLayout(Path(root))
-    ok, msg = OutcomeLog(lay).verify_chain()
-    return outcomes_frame(lay), ok, msg
+    try:
+        return outcomes_frame(lay), True, "ok"
+    except LedgerError as exc:
+        return pd.DataFrame(columns=OUTCOME_COLUMNS), False, str(exc)
 
 
 def parquet(p: Path) -> pd.DataFrame | None:

@@ -10,6 +10,9 @@ numbers are contiguous; the reader checks both. A partial final write must block
 than be joined to the next record. Corrupt data must produce an integrity diagnostic, not an uncaught
 JSON parser traceback. Tests: `tests/test_forecasts.py`.
 
+The UI withholds records from a corrupt forecast or outcome log and displays its integrity failure.
+It never renders unverified probabilities or realized scores. Both adapters read one verified snapshot.
+
 Reference: [Python JSON decoder and JSONDecodeError](https://docs.python.org/3.11/library/json.html).
 
 ## Concurrency and persistence design

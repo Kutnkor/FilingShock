@@ -64,3 +64,14 @@ def test_rehashed_sequence_corruption_is_rejected(tmp_path):
     assert led.verify_chain() == (False, "record 0 has an invalid sequence")
     with pytest.raises(LedgerError, match="invalid sequence"):
         led.verified_records()
+
+
+def test_corrupt_ledgers_are_withheld_from_ui(tmp_path):
+    from filingshock.prospective_outcomes import OutcomeLog
+    from filingshock.ui.data import _ledger, _prospective_outcomes
+
+    layout = DataLayout(tmp_path).ensure()
+    for log, reader in ((ForecastLedger(layout), _ledger), (OutcomeLog(layout), _prospective_outcomes)):
+        log.path.write_text("{broken}\n")
+        frame, ok, reason = reader(str(tmp_path), log.path.stat().st_mtime_ns)
+        assert frame.empty and not ok and "invalid JSON" in reason

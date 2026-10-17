@@ -164,7 +164,7 @@ def score_prospective_forecasts(cfg: Config, layout: DataLayout,
 
 
 def outcomes_frame(layout: DataLayout) -> pd.DataFrame:
-    recs = OutcomeLog(layout).records()
+    recs = OutcomeLog(layout).verified_records()
     return pd.DataFrame(recs) if recs else pd.DataFrame(columns=OUTCOME_COLUMNS)
 
 

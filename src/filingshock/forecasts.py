@@ -294,7 +294,7 @@ LEDGER_COLUMNS = ["forecast_id", "event_id", "ticker", "company_name", "accessio
 
 
 def ledger_frame(layout: DataLayout) -> pd.DataFrame:
-    recs = ForecastLedger(layout).records()
+    recs = ForecastLedger(layout).verified_records()
     return pd.DataFrame(recs) if recs else pd.DataFrame(columns=LEDGER_COLUMNS)
 
 
