@@ -46,3 +46,14 @@ Reference: [scikit-learn model provenance and reproducibility](https://scikit-le
 Production manifests are also checked against their actual canonical parameter hash when reused.
 A damaged JSON file, mismatched hash or changed parameters blocks recording instead of silently
 reusing or overwriting evidence. First creation is serialized with the same local lock primitive.
+
+## Prospective baseline comparison
+
+The saved primary result in `docs/results.md` shows Model A outperforming B/C in Brier score in this
+sample, while its interval against the constant still spans zero. This motivates recording A and the
+past-event-rate constant in future forecasts. It does not justify claiming a validated live advantage.
+Both use the same matured data blocks as the historical protocol. Outcome summaries use the earliest
+forecast per event and explicitly report the paired coverage of each optional baseline. Older records
+remain missing; no retrospective baseline is attached to an earlier forecast.
+
+Reference: [scikit-learn probability scoring and Brier loss](https://scikit-learn.org/stable/modules/model_evaluation.html#brier-score-loss).

@@ -78,7 +78,7 @@ cached and resumable; re-running a completed step does not re-download unchanged
 Prospective forecasts (live, outside the research sample): `filingshock discover --refresh`, refresh prices
 through the previous session with `filingshock prices --refresh --history-end today` (the config's fixed
 `market_data.history_end` stays the research default; bars of sessions not yet closed + 60 min are never
-stored), then `filingshock forecast-pending`. It records P(large move) from production models B and C
+stored), then `filingshock forecast-pending`. It records P(large move) from production models A, B and C plus a matured-training-prevalence constant
 (fit ≤ Y−2, calibrated on Y−1) in `data/forecasts/prospective_forecasts.jsonl`, only before the decision
 cutoff. After the target session, refresh prices again and run `filingshock score-prospective`: it scores
 each matured record against the threshold stored in it and appends realized |move|, y and Brier B/C to

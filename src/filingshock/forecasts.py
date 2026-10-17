@@ -229,6 +229,11 @@ def forecast_record(pending: pd.Series, sf, pm, probs: dict, cfg: Config) -> dic
         "reference_accession": sf.reference_accession,
         "features": sf.features, "feature_provenance": sf.provenance,
     }
+    for name in ("A", "constant"):
+        if name in probs:
+            rec[f"p_{name}"] = probs[name]["p_cal"]
+            rec[f"p_{name}_raw"] = probs[name]["p_raw"]
+            rec[f"calibration_method_{name}"] = probs[name]["calibration_method"]
     return _jsonable(rec)
 
 
@@ -313,7 +318,8 @@ def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
 
 LEDGER_COLUMNS = ["forecast_id", "event_id", "ticker", "company_name", "accession_number", "form_type", "report_date",
                   "acceptance_utc", "observed_at_utc", "decision_cutoff_utc", "target_session", "target_close_utc",
-                  "generated_at_utc", "model_version", "dataset_id", "threshold_abs_move", "p_B", "p_C", "probability",
+                  "generated_at_utc", "model_version", "dataset_id", "threshold_abs_move", "p_A", "p_B", "p_C",
+                  "p_constant", "probability",
                   "reference_accession", "prediction_category", "sequence", "record_sha256"]
 
 

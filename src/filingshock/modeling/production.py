@@ -1,6 +1,6 @@
 """Production models for prospective forecasts (research protocol sections 6-7 applied to the live year).
 
-For a pending event whose target session falls in year Y, models B and C are fitted exactly like the
+For a pending event whose target session falls in year Y, models A, B and C are fitted like the
 research fold for test year Y: fit block = events with target session in years <= Y-2 (hyperparameter
 chosen on inner train <= Y-3 / validation Y-2), Platt calibration on year Y-1. Nothing from year Y is
 used, every training and calibration outcome closed before year Y began, and the same readiness rules
@@ -30,7 +30,7 @@ from filingshock.modeling.experiment import (
 from filingshock.modeling.splits import Fold, make_fold
 from filingshock.storage import DataLayout, file_lock, read_json, write_json_atomic
 
-PRODUCTION_MODELS = ("B", "C")
+PRODUCTION_MODELS = ("A", "B", "C")
 
 
 class ProductionModelNotReady(RuntimeError):
@@ -45,6 +45,7 @@ class ProductionModel:
     fold: Fold
     models: dict[str, CalibratedModel]
     max_outcome_available_utc: pd.Timestamp
+    baseline_probability: float | None = None
     fitted_at_utc: str = field(default_factory=lambda: datetime.now(timezone.utc).isoformat(timespec="seconds"))
 
     @property
@@ -56,6 +57,9 @@ class ProductionModel:
         for name, cm in self.models.items():
             p_raw, p_cal = cm.predict(X)
             out[name] = {"p_raw": float(p_raw[0]), "p_cal": float(p_cal[0]), "calibration_method": cm.platt.method}
+        if self.baseline_probability is not None:
+            out["constant"] = {"p_raw": self.baseline_probability, "p_cal": self.baseline_probability,
+                               "calibration_method": "none (training prevalence)"}
         return out
 
     def parameters(self) -> dict:
@@ -65,6 +69,7 @@ class ProductionModel:
                 "training_data_through_year": self.year - 2, "inner_validation_year": self.year - 2,
                 "calibration_year": self.year - 1, "fold": self.fold.describe(),
                 "max_outcome_available_utc": str(self.max_outcome_available_utc),
+                "baseline_probability": self.baseline_probability,
                 "models": {name: {"features": cm.features, **cm.parameters(), "selection_attempts": cm.attempts}
                            for name, cm in self.models.items()}}
 
@@ -86,10 +91,13 @@ def fit_production_model(cfg: Config, layout: DataLayout, year: int) -> Producti
     specs = model_specs()
     catalog = set(c for cols in specs.values() for c in cols)
     seed = int(mcfg["random_seed"])
+    names = PRODUCTION_MODELS if cfg.get("prospective", {}).get("include_market_baseline", True) else ("B", "C")
     models = {m: fit_calibrated_model(m, PRIMARY_FAMILY, specs[m], itr, iva, fit, cal, mcfg, seed, catalog)
-              for m in PRODUCTION_MODELS}
-    matured = pd.concat([fit, cal])["outcome_available_utc"].max()
-    return ProductionModel(year, data_manifest["dataset_id"], cfg["features"]["version"], fold, models, matured)
+              for m in names}
+    prior = pd.concat([fit, cal])
+    matured = prior["outcome_available_utc"].max()
+    return ProductionModel(year, data_manifest["dataset_id"], cfg["features"]["version"], fold, models, matured,
+                           baseline_probability=float(prior["y"].mean()))
 
 
 def save_production_manifest(layout: DataLayout, pm: ProductionModel) -> Path:

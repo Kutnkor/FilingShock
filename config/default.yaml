@@ -98,3 +98,6 @@ splits:                             # PROTOCOL
   min_train_events: 60
   min_train_positives: 10
   min_calibration_positives: 4
+
+prospective:                        # operational extension; does not change historical experiments
+  include_market_baseline: true     # record A alongside B/C; constant uses matured fit + calibration labels

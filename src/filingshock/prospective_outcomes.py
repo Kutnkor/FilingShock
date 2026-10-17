@@ -31,7 +31,8 @@ POOLED_MIN_EVENTS = 20          # pooled Brier scores are reported only from thi
 SETTLE = pd.Timedelta(minutes=BAR_SETTLE_MINUTES)
 OUTCOME_COLUMNS = ["forecast_id", "forecast_record_sha256", "forecast_sequence", "event_id", "ticker",
                    "target_session", "target_close_utc", "model_version", "threshold_abs_move", "outcome_status",
-                   "open", "close", "r_open_to_close", "abs_r", "y", "p_B", "p_C", "brier_B", "brier_C",
+                   "open", "close", "r_open_to_close", "abs_r", "y", "p_A", "p_B", "p_C", "p_constant",
+                   "brier_A", "brier_B", "brier_C", "brier_constant",
                    "price_retrieved_at_utc", "scored_at_utc", "prediction_category", "sequence", "record_sha256"]
 
 
@@ -83,6 +84,10 @@ def outcome_record(forecast: dict, oc: Outcome, price_entry: dict, provider: str
         "price_retrieved_at_utc": price_entry.get("retrieved_at"), "price_file_sha256": price_entry.get("sha256"),
         "code_version": __version__,
     }
+    for name in ("A", "constant"):
+        probability = forecast.get(f"p_{name}")
+        rec[f"p_{name}"] = probability
+        rec[f"brier_{name}"] = (probability - y) ** 2 if y is not None and probability is not None else None
     return _jsonable(rec)
 
 
@@ -177,10 +182,21 @@ def prospective_summary(outcomes: pd.DataFrame, min_events: int = POOLED_MIN_EVE
     first = valid.sort_values("forecast_sequence").drop_duplicates("event_id", keep="first") if len(valid) else valid
     out = {"n_outcome_records": int(len(outcomes)),
            "n_invalid_target_bar": int((outcomes["outcome_status"] == "target_bar_invalid").sum()) if len(outcomes) else 0,
-           "n_scored_events": int(len(first)), "min_events_for_pooled": min_events, "pooled": None}
+           "n_scored_events": int(len(first)), "min_events_for_pooled": min_events, "pooled": None,
+           "baseline_comparisons": {}}
     if len(first) >= min_events:
         y = first["y"].astype(float)
         bB, bC = first["brier_B"].astype(float).mean(), first["brier_C"].astype(float).mean()
         out["pooled"] = {"n_events": int(len(first)), "n_positive": int(y.sum()), "prevalence": float(y.mean()),
                          "brier_B": float(bB), "brier_C": float(bC), "delta_brier_C_minus_B": float(bC - bB)}
+    for name in ("A", "constant"):
+        field = f"brier_{name}"
+        paired = first.dropna(subset=[field, "brier_C"]) if field in first else first.iloc[:0]
+        result = {"n_paired_events": int(len(paired)), "pooled": None}
+        if len(paired) >= min_events:
+            baseline = float(paired[field].mean())
+            candidate = float(paired["brier_C"].mean())
+            result["pooled"] = {"brier_baseline": baseline, "brier_C": candidate,
+                                "delta_brier_C_minus_baseline": candidate - baseline}
+        out["baseline_comparisons"][name] = result
     return out

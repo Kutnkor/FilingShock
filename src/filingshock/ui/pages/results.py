@@ -188,7 +188,8 @@ else:
     pout = data.prospective_outcomes if data.prospective_outcomes is not None else pd.DataFrame(columns=OUTCOME_COLUMNS)
     now = pd.Timestamp.now(tz="UTC")
     lt = led.sort_values("sequence").merge(
-        pout[["forecast_id", "outcome_status", "abs_r", "y", "brier_B", "brier_C"]].add_prefix("o_"),
+        pout.reindex(columns=["forecast_id", "outcome_status", "abs_r", "y", "brier_A", "brier_B", "brier_C",
+                              "brier_constant"]).add_prefix("o_"),
         left_on="forecast_id", right_on="o_forecast_id", how="left")
 
     def session_state(r) -> str:
@@ -212,6 +213,10 @@ else:
         "Model": lt["model_version"],
         "Session": lt.apply(session_state, axis=1),
     })
+    for name, label in (("A", "A"), ("constant", "constant")):
+        if f"p_{name}" in lt and lt[f"p_{name}"].notna().any():
+            ltab[f"P({label})"] = lt[f"p_{name}"].map(lambda x: ui.pct(x, 1))
+            ltab[f"Brier {label}"] = lt[f"o_brier_{name}"].map(lambda x: ui.num(x, 4))
     ui.html_table(ltab, right={"Threshold |move|", "P(B)", "P(C)", "Realized |move|", "y", "Brier B", "Brier C"},
                   caption_text=f"Prospective only. {len(lt)} record(s) in forecasts/prospective_forecasts.jsonl, integrity "
                                f"{led_msg}; {len(pout)} outcome record(s) in forecasts/prospective_outcomes.jsonl, integrity "
@@ -220,6 +225,17 @@ else:
                                "session closes against the threshold stored in the forecast record (never recomputed); "
                                "y = 1 if realized |move| > threshold, Brier = (p − y)². None of this enters the metrics above.")
     ps = prospective_summary(pout)
+    for name, comparison in ps["baseline_comparisons"].items():
+        summary = comparison["pooled"]
+        if summary:
+            ui.facts([(f"Prospective C vs {name}",
+                       f"{comparison['n_paired_events']} paired events · Brier C {ui.num(summary['brier_C'], 4)} · "
+                       f"baseline {ui.num(summary['brier_baseline'], 4)} · "
+                       f"C − baseline {ui.num(summary['delta_brier_C_minus_baseline'], 4, signed=True)}")])
+        else:
+            ui.caption(f"C vs {name}: {comparison['n_paired_events']} paired scored events; "
+                       f"needs {ps['min_events_for_pooled']} for a pooled comparison. Older forecasts without this "
+                       "baseline are excluded from that comparison, never backfilled.")
     pooled = ps["pooled"]
     if pooled:
         ui.facts([

@@ -110,6 +110,7 @@ def test_pending_event_is_recorded_before_cutoff(live_layout):
     assert rec["model_version"] == "logistic_l2:prod2024:ds-synthetic" and rec["dataset_id"] == "ds-synthetic"
     assert (rec["training_data_through_year"], rec["calibration_year"]) == (2022, 2023)
     assert 0 < rec["p_B"] < 1 and 0 < rec["p_C"] < 1 and rec["probability"] == rec["p_C"]
+    assert 0 < rec["p_A"] < 1 and 0 < rec["p_constant"] < 1
     assert rec["reference_accession"] == REFERENCE and rec["target_session"] == "2024-10-30"
     # threshold = 2 x mean |open-to-close| of the 60 valid sessions before the target session
     bars = PriceStore(layout, "yfinance").load("TEST")
@@ -328,6 +329,8 @@ def test_outcome_uses_the_threshold_stored_in_the_forecast(live_layout):
     assert out["threshold_abs_move"] == th and out["threshold_source"] == "forecast_record"
     assert out["abs_r"] == pytest.approx(1.5 * th) and out["y"] == 1 and out["outcome_status"] == "ok"
     assert out["brier_B"] == pytest.approx((rec["p_B"] - 1) ** 2) and out["brier_C"] == pytest.approx((rec["p_C"] - 1) ** 2)
+    assert out["brier_A"] == pytest.approx((rec["p_A"] - 1) ** 2)
+    assert out["brier_constant"] == pytest.approx((rec["p_constant"] - 1) ** 2)
     # a threshold recomputed from today's store would have said y = 0
     q = bar_quality(store.load("TEST"), 0.5)
     recomputed = historical_threshold(q[q["session"] < TARGET], TargetSpec.from_config(cfg)).threshold
@@ -406,6 +409,41 @@ def test_pooled_prospective_brier_needs_enough_events():
     assert p["n_events"] == 3 and p["n_positive"] == 1
     assert p["brier_C"] == pytest.approx((0.16 + 0.01 + 0.09) / 3)              # earliest record per event
     assert p["delta_brier_C_minus_B"] == pytest.approx(p["brier_C"] - (0.64 + 0.04 + 0.04) / 3)
+
+
+def test_optional_baselines_use_paired_earliest_forecasts_only():
+    from filingshock.prospective_outcomes import prospective_summary
+
+    rows = pd.DataFrame([
+        {"event_id": "old", "forecast_sequence": 0, "outcome_status": "ok", "y": 1,
+         "brier_B": 0.1, "brier_C": 0.2},
+        {"event_id": "new", "forecast_sequence": 1, "outcome_status": "ok", "y": 0,
+         "brier_B": 0.2, "brier_C": 0.3, "brier_A": 0.4, "brier_constant": 0.5},
+        {"event_id": "old", "forecast_sequence": 2, "outcome_status": "ok", "y": 1,
+         "brier_B": 0.1, "brier_C": 0.0, "brier_A": 0.9, "brier_constant": 0.9},
+    ])
+    summary = prospective_summary(rows, min_events=1)
+    assert summary["n_scored_events"] == 2
+    paired = summary["baseline_comparisons"]["A"]
+    assert paired["n_paired_events"] == 1
+    assert paired["pooled"]["brier_C"] == pytest.approx(0.3)
+    assert paired["pooled"]["delta_brier_C_minus_baseline"] == pytest.approx(-0.1)
+
+
+def test_production_baselines_ignore_future_year_labels(live_layout):
+    from filingshock.modeling.production import fit_production_model
+
+    cfg, layout = live_layout
+    _synthetic_dataset(layout, years=range(2016, 2025))
+    first = fit_production_model(cfg, layout, 2024)
+    outcomes = pd.read_parquet(layout.processed / "outcomes.parquet")
+    future = outcomes["event_id"].str.startswith("ev-syn-2024-")
+    outcomes.loc[future, "y"] = 1 - outcomes.loc[future, "y"]
+    write_parquet_atomic(layout.processed / "outcomes.parquet", outcomes)
+    second = fit_production_model(cfg, layout, 2024)
+    features = pd.read_parquet(layout.processed / "features.parquet").head(1)
+    assert first.predict(features) == second.predict(features)
+    assert first.baseline_probability == pytest.approx(outcomes.loc[~future, "y"].mean())
 
 
 def test_score_prospective_cli(live_layout, monkeypatch, capsys):
