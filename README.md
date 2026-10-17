@@ -166,6 +166,12 @@ Fixed, survivor-heavy cohort; availability times are proxies; 31% of events coin
 release; small independent sample; no observed concurrent news; single data vintage; manual audits by one
 reviewer; no real prospective forecast recorded yet. Details: [docs/limitations.md](docs/limitations.md).
 
+## License
+
+FilingShock's original source code is licensed under the [MIT License](LICENSE).
+Third-party data, SEC filing content, dictionaries, and dependencies retain their respective
+terms; the MIT License does not grant additional rights to those materials.
+
 ## Data sources and licences
 
 SEC EDGAR (public records); Yahoo Finance via yfinance (not redistributable — never committed; use
