@@ -1,0 +1,887 @@
+{
+  "mdna": [
+    {
+      "block_idx": 244,
+      "char_end": 17,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Business Overview"
+    },
+    {
+      "block_idx": 245,
+      "char_end": 333,
+      "char_start": 19,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "PTC is a global software company that enables manufacturers and product companies to digitally transform how they design, manufacture, and service the physical products that the world relies on. Headquartered in Boston, Massachusetts, PTC employs over 7,000 people and supports more than 30,000 customers globally."
+    },
+    {
+      "block_idx": 246,
+      "char_end": 400,
+      "char_start": 335,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "We primarily serve customers in the following industry verticals:"
+    },
+    {
+      "block_idx": 248,
+      "char_end": 413,
+      "char_start": 402,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Industrials"
+    },
+    {
+      "block_idx": 250,
+      "char_end": 445,
+      "char_start": 415,
+      "is_heading": true,
+      "ordinal": 4,
+      "text": "Federal, Aerospace and Defense"
+    },
+    {
+      "block_idx": 252,
+      "char_end": 472,
+      "char_start": 447,
+      "is_heading": true,
+      "ordinal": 5,
+      "text": "Electronics and High Tech"
+    },
+    {
+      "block_idx": 254,
+      "char_end": 484,
+      "char_start": 474,
+      "is_heading": true,
+      "ordinal": 6,
+      "text": "Automotive"
+    },
+    {
+      "block_idx": 256,
+      "char_end": 522,
+      "char_start": 486,
+      "is_heading": true,
+      "ordinal": 7,
+      "text": "Medical Technology and Life Sciences"
+    },
+    {
+      "block_idx": 257,
+      "char_end": 988,
+      "char_start": 524,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Our customers are focused on improving their competitiveness in the face of global competition and increasing product complexity, and our suite of software offerings is a strategic enabler of this and their digital transformation initiatives. We enable our customers to establish a strong product data foundation and leverage that foundation to drive cross-functional collaboration, accelerate new product introduction timelines and deliver higher product quality."
+    },
+    {
+      "block_idx": 258,
+      "char_end": 1319,
+      "char_start": 990,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Our offerings include CAD (Computer-Aided Design) solutions for product data authoring and PLM (Product Lifecycle Management) solutions for product data management and process orchestration. Within the overall PLM category, our offerings also include ALM (Application Lifecycle Management) and SLM (Service Lifecycle Management)."
+    },
+    {
+      "block_idx": 259,
+      "char_end": 1983,
+      "char_start": 1321,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Our product portfolio enables end-to-end digital thread initiatives that leverage a connected flow of product data across design, manufacturing, service, and, ultimately, reuse. A digital thread enables product companies to break down silos, streamline workflows, and achieve interoperability across departments, functions and systems with a single version of truth. It also secures the quality, consistency and traceability of product-related data, ensuring that the data is up-to-date, accessible, reliable and actionable. With a digital thread, the right data is delivered to the right people at the right time and in the right context across the value chain."
+    },
+    {
+      "block_idx": 260,
+      "char_end": 2388,
+      "char_start": 1985,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "Our business is based on a subscription model, with 93% of our 2024 revenue recurring in nature. Compared to a perpetual license model, our subscription model naturally drives higher customer engagement and retention and provides better business predictability. This, in turn, enables us to make steady and sustained investments to support our customers and pursue mid-to-long-term growth opportunities."
+    },
+    {
+      "block_idx": 261,
+      "char_end": 2416,
+      "char_start": 2390,
+      "is_heading": true,
+      "ordinal": 12,
+      "text": "Forward-Looking Statements"
+    },
+    {
+      "block_idx": 262,
+      "char_end": 5127,
+      "char_start": 2418,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Statements in this document that are not historic facts, including statements about our future operating, financial and growth expectations, and potential stock repurchases, are forward-looking statements that involve risks and uncertainties that could cause actual results to differ materially from those projected. These risks include: the macroeconomic and/or global manufacturing climates may not improve or may deteriorate due to, among other factors, the effects of recently imposed import tariffs, threats of additional and reciprocal import tariffs, global trade tensions and uncertainty, volatile foreign exchange rates, high interest rates or increases in interest rates, inflation, tightening of credit standards and availability, geopolitical uncertainty, including the effects of the conflicts between Russia and Ukraine and in the Middle East, and tensions between the U.S. and China, any of which could cause customers to delay or reduce purchases of new software, adopt competing software solutions, reduce the number of subscriptions they carry, or delay payments to us, which would adversely affect our ARR (Annual Run Rate) and/or financial results and cash flow and growth; our investments in our software solutions, including the integration of artificial intelligence (AI) capabilities into our software solutions, may not drive expansion of those solutions and/or generate the ARR and/or cash flow we expect if customers are slower to adopt those solutions than we expect or if they adopt competing solutions; customers may not build the product data foundations essential for the AI-driven transformation of their business when or as we expect, which could adversely affect our ARR and/or financial results and cash flow and growth; our go-to-market realignment and related initiatives may disrupt our business to a greater extent than we expect or may not generate the ARR and/or financial results or cash flow when or as we expect; other uses of cash or our credit facility limits could limit or preclude the return of excess cash to shareholders via share repurchases, or could change the amount and timing of any share repurchases; and foreign exchange rates may differ materially from those we expect. In addition, our assumptions concerning our future GAAP and non-GAAP effective income tax rates are based on estimates and other factors that could change, including changes to tax laws in the U.S. and other countries and the geographic mix of our revenue, expenses, and profits. Other risks and uncertainties that could cause actual results to differ materially from those projected are described below throughout or referenced in Part II, Item 1A. Risk Factors of this report."
+    },
+    {
+      "block_idx": 266,
+      "char_end": 5174,
+      "char_start": 5129,
+      "is_heading": true,
+      "ordinal": 14,
+      "text": "Our Operating and Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 267,
+      "char_end": 5762,
+      "char_start": 5176,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Our discussion of results includes discussion of our ARR (Annual Run Rate) operating measure, non-GAAP financial measures, and disclosure of our results on a constant currency basis. ARR and our non-GAAP financial measures are described below in Operating and Non-GAAP Financial Measures. The methodology used to calculate constant currency disclosures is described in Results of Operations - Impact of Foreign Currency Exchange on Results of Operations. You should read those sections to understand our operating measure, non-GAAP financial measures, and constant currency disclosures."
+    },
+    {
+      "block_idx": 268,
+      "char_end": 5782,
+      "char_start": 5764,
+      "is_heading": true,
+      "ordinal": 16,
+      "text": "Executive Overview"
+    },
+    {
+      "block_idx": 269,
+      "char_end": 6068,
+      "char_start": 5784,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Despite the overall selling environment, which has been challenging for a couple of years now and reflects heightened macroeconomic uncertainly related to global trade tensions and tariffs, ARR grew 14% (9% constant currency) to $2.42 billion as of the end of Q3'25 compared to Q3'24."
+    },
+    {
+      "block_idx": 270,
+      "char_end": 6457,
+      "char_start": 6070,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Cash provided by operating activities grew 14% to $244 million in Q3'25 compared to Q3'24. Free cash flow grew 14% to $242 million in Q3'25 compared to Q3'24. Our cash flow growth is attributable to resilient top-line growth due to our subscription business model and operational discipline. In Q3'25, we repaid $157 million of debt and repurchased $75 million of our outstanding shares."
+    },
+    {
+      "block_idx": 271,
+      "char_end": 6912,
+      "char_start": 6459,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Revenue grew 24% (22% constant currency) to $644 million in Q3'25 compared to Q3'24. Under ASC 606, the timing of revenue recognition for on-premises subscription revenue can vary significantly, impacting reported revenue and growth rates. Operating margin grew by 1410 basis points in Q3'25 compared to Q3'24, reflecting higher revenue as well as continued operating discipline. Diluted earnings per share grew 106% to $1.17 in Q3'25 compared to Q3'24."
+    },
+    {
+      "block_idx": 274,
+      "char_end": 6935,
+      "char_start": 6914,
+      "is_heading": true,
+      "ordinal": 20,
+      "text": "Results of Operations"
+    },
+    {
+      "block_idx": 278,
+      "char_end": 7215,
+      "char_start": 6937,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "See Operating and Non-GAAP Financial Measures below for a reconciliation of our GAAP results to our non-GAAP financial measures and Impact of Foreign Currency Exchange on Results of Operations below for a description of how we calculate our results on a constant currency basis."
+    },
+    {
+      "block_idx": 280,
+      "char_end": 7331,
+      "char_start": 7217,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Recurring revenue is comprised of on-premises subscription, perpetual support, SaaS, and hosting services revenue."
+    },
+    {
+      "block_idx": 283,
+      "char_end": 7393,
+      "char_start": 7333,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Impact of Foreign Currency Exchange on Results of Operations"
+    },
+    {
+      "block_idx": 284,
+      "char_end": 7902,
+      "char_start": 7395,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Approximately 55% of our revenue and 35% of our expenses are transacted in currencies other than the U.S. Dollar. Because we report our results of operations in U.S. Dollars, currency translation, particularly changes in the Euro, Yen, Shekel, and Rupee relative to the U.S. Dollar, affects our reported results. Our constant currency disclosures are calculated by multiplying the results in local currency for the quarterly periods for FY'25 and FY'24 by the exchange rates in effect on September 30, 2024."
+    },
+    {
+      "block_idx": 285,
+      "char_end": 8476,
+      "char_start": 7904,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "If reported results for the nine months ended June 30, 2025 were converted into U.S. Dollars using the rates in effect as of September 30, 2024, ARR would have been lower by $43 million, revenue would have been higher by $33 million, and expenses would have been higher by $11 million. If reported results for the nine months ended June 30, 2024 were converted into U.S. Dollars using the rates in effect as of September 30, 2024, ARR would have been higher by $44 million, revenue would have been higher by $26 million, and expenses would have been higher by $10 million."
+    },
+    {
+      "block_idx": 286,
+      "char_end": 8485,
+      "char_start": 8478,
+      "is_heading": true,
+      "ordinal": 26,
+      "text": "Revenue"
+    },
+    {
+      "block_idx": 287,
+      "char_end": 9800,
+      "char_start": 8487,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Under ASC 606, the volume, mix, and duration of contract types (support, SaaS, on-premises subscription) starting or renewing in any given period can have a material impact on revenue in the period, and as a result can impact the comparability of reported revenue period over period. We recognize revenue for the license portion of on-premises subscription contracts when we deliver the licenses to the customer, typically on the start date, and we recognize revenue on the support portion of on-premises subscription contracts and stand-alone support contracts ratably over the term. We continue to convert existing support contracts to on-premises subscriptions, resulting in a shift to up-front recognition of on-premises subscription license revenue in the period converted compared to ratable recognition for a perpetual support contract. Revenue from our cloud services (primarily SaaS) contracts is recognized ratably. We expect that over time a higher portion of our revenue will be recognized ratably as we expand our SaaS offerings, release additional cloud functionality into our products, and migrate customers from on-premises subscriptions to SaaS. Given the different mix, duration and volume of new and renewing contracts in any period, year-over-year or sequential revenue can vary significantly."
+    },
+    {
+      "block_idx": 288,
+      "char_end": 9829,
+      "char_start": 9802,
+      "is_heading": true,
+      "ordinal": 28,
+      "text": "Revenue by Line of Business"
+    },
+    {
+      "block_idx": 290,
+      "char_end": 10101,
+      "char_start": 9831,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "Software revenue growth in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods was driven by license revenue growth, which reflects the higher total value and longer average duration of contracts that renewed in the current-year periods."
+    },
+    {
+      "block_idx": 291,
+      "char_end": 10268,
+      "char_start": 10103,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Support and cloud services revenue growth in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods was mainly driven by growth in PLM."
+    },
+    {
+      "block_idx": 292,
+      "char_end": 10493,
+      "char_start": 10270,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Professional services revenue decreased in Q3'25 and the first nine months of FY'25 as we continue to execute on our strategy of leveraging partners to deliver services rather than contracting to deliver services ourselves."
+    },
+    {
+      "block_idx": 295,
+      "char_end": 10528,
+      "char_start": 10495,
+      "is_heading": true,
+      "ordinal": 32,
+      "text": "Software Revenue by Product Group"
+    },
+    {
+      "block_idx": 297,
+      "char_end": 10818,
+      "char_start": 10530,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "PLM software revenue growth in Q3'25 was driven by the higher total value and longer average duration of contracts that renewed in the period. PLM software revenue growth in the first nine months of FY'25 was driven by revenue growth across all geographic regions, primarily in Windchill."
+    },
+    {
+      "block_idx": 298,
+      "char_end": 10927,
+      "char_start": 10820,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "PLM ARR grew 14% (10% constant currency) from Q3'24 to Q3'25, primarily driven by Windchill and Codebeamer."
+    },
+    {
+      "block_idx": 299,
+      "char_end": 11212,
+      "char_start": 10929,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "CAD software revenue growth in Q3'25 was driven by the higher total value and longer average duration of contracts that renewed in the period. CAD software revenue growth in the first nine months of FY'25 was driven by revenue growth across all geographic regions, primarily in Creo."
+    },
+    {
+      "block_idx": 300,
+      "char_end": 11300,
+      "char_start": 11214,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "CAD ARR grew 13% (8% constant currency) from Q3'24 to Q3'25, primarily driven by Creo."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 11314,
+      "char_start": 11302,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Gross Margin"
+    },
+    {
+      "block_idx": 304,
+      "char_end": 11415,
+      "char_start": 11316,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Non-GAAP financial measures are reconciled to GAAP results under Non-GAAP Financial Measures below."
+    },
+    {
+      "block_idx": 305,
+      "char_end": 11700,
+      "char_start": 11417,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "License gross margin growth in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods were in line with license revenue growth. Cost of license revenue in Q3'25 and the first nine months of FY'25 remained consistent with the corresponding FY'24 periods."
+    },
+    {
+      "block_idx": 306,
+      "char_end": 12088,
+      "char_start": 11702,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Support and cloud services gross margin growth in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods was in line with support and cloud services revenue growth. Cost of support and cloud services revenue grew 5% in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods, primarily due to higher compensation-related costs."
+    },
+    {
+      "block_idx": 307,
+      "char_end": 12666,
+      "char_start": 12090,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Professional services gross margin decreased in Q3'25 compared to Q3'24, primarily driven by a sharper decrease in professional services revenue than in professional services expense. Professional services gross margin in the first nine months of FY'25 was consistent with the corresponding FY'24 period, with costs decreasing in line with professional services revenue. The decreases in professional services revenue and costs are due to our continued execution on our strategy of leveraging partners to deliver services rather than contracting to deliver services ourselves."
+    },
+    {
+      "block_idx": 310,
+      "char_end": 12686,
+      "char_start": 12668,
+      "is_heading": true,
+      "ordinal": 42,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 312,
+      "char_end": 12741,
+      "char_start": 12688,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Total headcount increased 3% between Q3'24 and Q3'25."
+    },
+    {
+      "block_idx": 313,
+      "char_end": 12831,
+      "char_start": 12743,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Operating expenses in Q3'25 increased compared to Q3'24, primarily due to the following:"
+    },
+    {
+      "block_idx": 315,
+      "char_end": 12978,
+      "char_start": 12833,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "a $9 million increase in total compensation expense (including stock-based compensation expense), driven by severance costs and headcount growth."
+    },
+    {
+      "block_idx": 316,
+      "char_end": 13118,
+      "char_start": 12980,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Operating expenses in the first nine months of FY'25 increased compared to the first nine months of FY'24, primarily due to the following:"
+    },
+    {
+      "block_idx": 318,
+      "char_end": 13494,
+      "char_start": 13120,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "a $12 million increase in total compensation expense (including stock-based compensation expense), driven by a $19 million increase in severance costs primarily related to our go-to-market realignment (which is mainly included in Sales and marketing), offset by lower compensation charges in General and administrative driven by our FY'24 chief executive officer succession;"
+    },
+    {
+      "block_idx": 320,
+      "char_end": 13783,
+      "char_start": 13496,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "a $6 million increase in outside services, driven by consulting services related to our go-to-market realignment and other corporate initiatives; and a $4 million impairment charge recognized in Q2'25 related to the lease asset associated with the subleased portion of our Boston office."
+    },
+    {
+      "block_idx": 323,
+      "char_end": 13801,
+      "char_start": 13785,
+      "is_heading": true,
+      "ordinal": 49,
+      "text": "Interest Expense"
+    },
+    {
+      "block_idx": 325,
+      "char_end": 14146,
+      "char_start": 13803,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Interest expense in both FY'25 and FY'24 includes interest on our revolving credit facility, term loan, senior notes that were redeemed in Q2'25, and senior notes due in 2028. Interest expense decreased in Q3'25 and the first nine months of FY'25 compared to the corresponding FY'24 periods due to lower debt balances and lower interest rates."
+    },
+    {
+      "block_idx": 326,
+      "char_end": 14170,
+      "char_start": 14148,
+      "is_heading": true,
+      "ordinal": 51,
+      "text": "Other Income (Expense)"
+    },
+    {
+      "block_idx": 330,
+      "char_end": 14552,
+      "char_start": 14172,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Other income (expense), net increased in Q3'25 compared to Q3'24, driven by foreign currency exchange gains in Q3'25. Other income (expense), net increased in the first nine months of FY'25 compared to the comparable FY'24 period due to a $2.0 million impairment charge recognized in Q2'24 related to an available-for-sale debt security and lower foreign currency exchange losses."
+    },
+    {
+      "block_idx": 331,
+      "char_end": 14566,
+      "char_start": 14554,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 333,
+      "char_end": 15235,
+      "char_start": 14568,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "The effective tax rate for Q3'25 and the first nine months of FY'25 was higher than the effective tax rate for the corresponding prior-year periods primarily due to changes in the geographic mix of income before taxes and the effects of IRS procedural guidance issued in April 2024 requiring IRS consent for certain previously automatic changes of accounting method on our estimated taxable income for FY'24. Additionally, for the first nine months of FY'25 and FY'24, rates were impacted by a benefit of $10.4 million and an expense of $3.6 million, respectively, associated with the impact of changes in tax reserves related to prior years in foreign jurisdictions."
+    },
+    {
+      "block_idx": 334,
+      "char_end": 15842,
+      "char_start": 15237,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "In FY'24, we requested consent from the IRS to change the accounting method for the treatment of certain deductions. If we do not receive this consent, it would have a material adverse impact on cash flow for the year in which our request is denied and our future tax payments could be higher than currently estimated, which would also adversely impact our operating cash flow. In accordance with GAAP, our financial statements currently reflect the fact that we have not yet received the consent, including an accrual for the income tax payable in Accrued income taxes on the Consolidated Balance Sheets."
+    },
+    {
+      "block_idx": 335,
+      "char_end": 16413,
+      "char_start": 15844,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "On July 4, 2025, the \"One Big Beautiful Bill Act\" (the \"Act\") was enacted into law. The Act includes changes to U.S. tax law that will be applicable to us beginning in FY'26. These changes include provisions allowing accelerated tax deductions for qualified property and research expenditures. We are in the process of evaluating the impact of the Act to our consolidated financial statements and cash flow, but currently expect such changes will have a material positive cash impact in FY'26 and FY'27. As our review is not yet complete, our expectations could change."
+    },
+    {
+      "block_idx": 336,
+      "char_end": 16457,
+      "char_start": 16415,
+      "is_heading": true,
+      "ordinal": 57,
+      "text": "Critical Accounting Policies and Estimates"
+    },
+    {
+      "block_idx": 337,
+      "char_end": 16759,
+      "char_start": 16459,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "There were no material changes to our critical accounting policies and estimates as set forth under the heading Critical Accounting Policies and Estimates in Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations of our 2024 Annual Report on Form 10-K."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 16793,
+      "char_start": 16761,
+      "is_heading": true,
+      "ordinal": 59,
+      "text": "Recent Accounting Pronouncements"
+    },
+    {
+      "block_idx": 339,
+      "char_end": 17221,
+      "char_start": 16795,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "In accordance with recently issued accounting pronouncements, we will be required to comply with certain changes in accounting rules and regulations. Refer to Note 1. Basis of Presentation to the Condensed Consolidated Financial Statements of this Quarterly Report on Form 10-Q, which is incorporated herein by reference, for all recently issued accounting pronouncements, none of which are expected to have a material effect."
+    },
+    {
+      "block_idx": 342,
+      "char_end": 17254,
+      "char_start": 17223,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 17298,
+      "char_start": 17256,
+      "is_heading": true,
+      "ordinal": 62,
+      "text": "Cash, Cash Equivalents and Restricted Cash"
+    },
+    {
+      "block_idx": 345,
+      "char_end": 17470,
+      "char_start": 17300,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "We invest our cash with highly rated financial institutions. Cash and cash equivalents include highly liquid investments with original maturities of three months or less."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 18229,
+      "char_start": 17472,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "Due to the stability of our subscription model and consistency of annual, up-front billing, we aim to maintain a low cash balance. A significant portion of our cash is generated and held outside the U.S. As of June 30, 2025, we had cash and cash equivalents of $5.2 million in the U.S., $73.6 million in Europe, $103.0 million in Asia Pacific (including India) and $17.5 million in other countries. We have substantial cash requirements in the U.S. but believe that the combination of our existing U.S. cash and cash equivalents, cash available under our revolving credit facility, future U.S. operating cash flows, and our ability to repatriate cash to the U.S. will be sufficient to meet our ongoing U.S. operating expenses and known capital requirements."
+    },
+    {
+      "block_idx": 347,
+      "char_end": 18268,
+      "char_start": 18231,
+      "is_heading": true,
+      "ordinal": 65,
+      "text": "Cash Provided by Operating Activities"
+    },
+    {
+      "block_idx": 348,
+      "char_end": 18923,
+      "char_start": 18270,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Cash provided by operating activities increased $111.8 million in the first nine months of FY'25 compared to the same period in FY'24. Growth was driven by higher collections as well as lower interest payments, partially offset by higher tax payments and payments related to our go-to-market realignment. Interest payments were $53.3 million lower in the first nine months of FY'25 compared to the first nine months of FY'24, driven by a Q1'24 payment of $30.0 million of imputed interest on a deferred acquisition payment associated with our FY'23 acquisition of ServiceMax as well as lower interest payments in FY'25 due mainly to lower debt balances."
+    },
+    {
+      "block_idx": 349,
+      "char_end": 18958,
+      "char_start": 18925,
+      "is_heading": true,
+      "ordinal": 67,
+      "text": "Cash Used in Investing Activities"
+    },
+    {
+      "block_idx": 350,
+      "char_end": 19229,
+      "char_start": 18960,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Cash used in investing activities in the first nine months of FY'25 was driven by outflows from the settlement of net investment hedges. Cash used in investing activities in the first nine months of FY'24 was driven by the acquisition of pure-systems for $93.5 million."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 19264,
+      "char_start": 19231,
+      "is_heading": true,
+      "ordinal": 69,
+      "text": "Cash Used in Financing Activities"
+    },
+    {
+      "block_idx": 352,
+      "char_end": 20128,
+      "char_start": 19266,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Cash used in financing activities in the first nine months of FY'25 included net payments of $516.7 million on our outstanding debt, including the redemption of our 2025 senior notes primarily using a draw on our credit facility, and the repurchase of $225.0 million of our common stock. Cash used in financing activities in the first nine months of FY'24 included $620.0 million paid to settle the ServiceMax deferred acquisition payment, partially offset by net borrowings of $109.0 million to fund the ServiceMax deferred acquisition payment and the pure-systems acquisition. Payments of withholding taxes in connection with vesting of stock-based awards were lower in the first nine months of FY'25 compared to the comparable prior-year period, primarily driven by vesting of certain awards in connection with the chief executive officer succession in Q2'24."
+    },
+    {
+      "block_idx": 355,
+      "char_end": 20146,
+      "char_start": 20130,
+      "is_heading": true,
+      "ordinal": 71,
+      "text": "Outstanding Debt"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 20380,
+      "char_start": 20148,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "As of June 30, 2025, we were in compliance with all financial and operating covenants of the credit facility and the note indenture. As of June 30, 2025, the annual rate for borrowings outstanding under the credit facility was 5.6%."
+    },
+    {
+      "block_idx": 358,
+      "char_end": 20771,
+      "char_start": 20382,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Our credit facility and our senior notes are described in Note 10. Debt to the Condensed Consolidated Financial Statements of this Quarterly Report on Form 10-Q. As of June 30, 2025, $25.0 million of our debt associated with the credit facility term loan was classified as current. In Q2'25, we redeemed the 2025 senior notes using a draw on our revolving credit facility and cash on hand."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 20792,
+      "char_start": 20773,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "Future Expectations"
+    },
+    {
+      "block_idx": 360,
+      "char_end": 21117,
+      "char_start": 20794,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "We believe that existing cash and cash equivalents, together with cash generated from operations and amounts available under the credit facility, will be sufficient to meet our working capital and capital expenditure requirements through at least the next twelve months and to meet our known long-term capital requirements."
+    },
+    {
+      "block_idx": 361,
+      "char_end": 21292,
+      "char_start": 21119,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Our long-term goal is to return excess cash to shareholders via share repurchases. We currently intend to repurchase approximately $300 million of our common stock in FY'25."
+    },
+    {
+      "block_idx": 362,
+      "char_end": 21858,
+      "char_start": 21294,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Our expected uses and sources of cash could change, our cash position could be reduced, and we could incur additional debt obligations if we retire other debt, engage in strategic transactions, or repurchase shares, any of which could be commenced, suspended, or completed at any time. Any such repurchases or retirement of debt will depend on prevailing market conditions, our liquidity requirements, contractual restrictions and other factors. The amounts involved in any debt retirement or issuance, share repurchases, or strategic transactions may be material."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 21901,
+      "char_start": 21860,
+      "is_heading": true,
+      "ordinal": 78,
+      "text": "Operating and Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 366,
+      "char_end": 21920,
+      "char_start": 21903,
+      "is_heading": true,
+      "ordinal": 79,
+      "text": "Operating Measure"
+    },
+    {
+      "block_idx": 367,
+      "char_end": 21925,
+      "char_start": 21922,
+      "is_heading": true,
+      "ordinal": 80,
+      "text": "ARR"
+    },
+    {
+      "block_idx": 368,
+      "char_end": 22135,
+      "char_start": 21927,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "ARR (Annual Run Rate) represents the annualized value of our portfolio of active subscription software, SaaS, hosting, and support contracts as of the end of the reporting period. We calculate ARR as follows:"
+    },
+    {
+      "block_idx": 370,
+      "char_end": 22526,
+      "char_start": 22137,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "We consider a contract to be active when the product or service contractual term commences (the \"start date\") until the right to use the product or service ends (the \"expiration date\"). Even if the contract with the customer is executed before the start date, the contract will not count toward ARR until the customer right to receive the benefit of the products or services has commenced."
+    },
+    {
+      "block_idx": 372,
+      "char_end": 22841,
+      "char_start": 22528,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "For contracts that include annual values that change over time, we include in ARR only the annualized value of components of the contract that are considered active as of the date of the ARR calculation. We do not include any future committed increases in the contract value as of the date of the ARR calculation."
+    },
+    {
+      "block_idx": 374,
+      "char_end": 23023,
+      "char_start": 22843,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "As ARR includes only contracts that are active at the end of the reporting period, ARR does not reflect assumptions or estimates regarding future customer renewals or non-renewals."
+    },
+    {
+      "block_idx": 376,
+      "char_end": 23233,
+      "char_start": 23025,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Active contracts are annualized by dividing the total active contract value by the contract duration in days (expiration date minus start date), then multiplying that by 365 days (or 366 days for leap years)."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 23766,
+      "char_start": 23235,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "We believe ARR is a valuable operating measure to assess the health of a subscription business because it is aligned with the amount that we invoice the customer on an annual basis. We generally invoice customers annually for the current year of the contract. A customer with a one-year contract will typically be invoiced for the total value of the contract at the beginning of the contractual term, while a customer with a multi-year contract will be invoiced for each annual period at the beginning of each year of the contract."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 23949,
+      "char_start": 23768,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "ARR increases by the annualized value of active contracts that commence in a reporting period and decreases by the annualized value of contracts that expire in the reporting period."
+    },
+    {
+      "block_idx": 379,
+      "char_end": 24379,
+      "char_start": 23951,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "As ARR is not annualized recurring revenue, it is not calculated based on recognized or unearned revenue and is not affected by variability in the timing of revenue under ASC 606, particularly for on-premises license subscriptions where a substantial portion of the total value of the contract is recognized as revenue at a point in time upon the later of when the software is made available, or the subscription term commences."
+    },
+    {
+      "block_idx": 380,
+      "char_end": 24634,
+      "char_start": 24381,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "ARR should be viewed independently of recognized and unearned revenue and is not intended to be combined with, or to replace, either of those items. Investors should consider our ARR operating measure only in conjunction with our GAAP financial results."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 24663,
+      "char_start": 24636,
+      "is_heading": true,
+      "ordinal": 90,
+      "text": "Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 384,
+      "char_end": 24939,
+      "char_start": 24665,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "Our non-GAAP financial measures and the reasons we use them and exclude the items identified below are described in Management's Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for the year ended September 30, 2024."
+    },
+    {
+      "block_idx": 385,
+      "char_end": 25092,
+      "char_start": 24941,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "The non-GAAP financial measures presented in the discussion of our results of operations and the respective most directly comparable GAAP measures are:"
+    },
+    {
+      "block_idx": 387,
+      "char_end": 25133,
+      "char_start": 25094,
+      "is_heading": true,
+      "ordinal": 93,
+      "text": "non-GAAP gross margin-GAAP gross margin"
+    },
+    {
+      "block_idx": 389,
+      "char_end": 25182,
+      "char_start": 25135,
+      "is_heading": true,
+      "ordinal": 94,
+      "text": "non-GAAP operating income-GAAP operating income"
+    },
+    {
+      "block_idx": 391,
+      "char_end": 25231,
+      "char_start": 25184,
+      "is_heading": true,
+      "ordinal": 95,
+      "text": "non-GAAP operating margin-GAAP operating margin"
+    },
+    {
+      "block_idx": 393,
+      "char_end": 25268,
+      "char_start": 25233,
+      "is_heading": true,
+      "ordinal": 96,
+      "text": "non-GAAP net income-GAAP net income"
+    },
+    {
+      "block_idx": 395,
+      "char_end": 25378,
+      "char_start": 25270,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "non-GAAP diluted earnings per share-GAAP diluted earnings per share free cash flow-cash flow from operations"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 25879,
+      "char_start": 25380,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "The non-GAAP financial measures other than free cash flow exclude, as applicable: stock-based compensation expense; amortization of acquired intangible assets; acquisition and transaction-related charges included in General and administrative expenses; Impairment and other charges (credits), net; non-operating charges (credits), net; and income tax adjustments as defined in our Annual Report on Form 10-K for the fiscal year ended September 30, 2024 and as reflected in the reconciliation tables."
+    },
+    {
+      "block_idx": 399,
+      "char_end": 26461,
+      "char_start": 25881,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "In Q2'25, we changed the income statement caption of Restructuring and other charges (credits), net to Impairment and other charges (credits), net to reflect that the amounts presented are mainly impairment charges rather than restructuring charges. We correspondingly revised the caption with respect to the list of items excluded from our non-GAAP financial measures and, as reflected below, the list of items covered under that caption to reflect the primary charges and credits included in the adjustment. All charges and credits under the captioned line item remain the same."
+    },
+    {
+      "block_idx": 400,
+      "char_end": 26791,
+      "char_start": 26463,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "Impairment and other charges (credits), net are charges associated with disposal or exit activities, including lease impairment and abandonment charges, net charges or income related to impaired or exited facilities, restructuring severance charges resulting from substantial employee reduction actions, and other related costs."
+    },
+    {
+      "block_idx": 401,
+      "char_end": 27344,
+      "char_start": 26793,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "The items excluded from the non-GAAP financial measures often have a material impact on our financial results, some of those items are recurring, and other items often recur. Accordingly, the non-GAAP financial measures included in this Quarterly Report on Form 10-Q should be considered in addition to, and not as a substitute for or superior to, the comparable measures prepared in accordance with GAAP. The following tables reconcile each of these non-GAAP financial measures to its most closely comparable GAAP measure on our financial statements."
+    },
+    {
+      "block_idx": 406,
+      "char_end": 27469,
+      "char_start": 27346,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "In the first nine months of FY'24, we recognized an impairment loss of $2.0 million on an available-for-sale debt security."
+    },
+    {
+      "block_idx": 408,
+      "char_end": 27891,
+      "char_start": 27471,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "Income tax adjustments reflect the tax effects of non-GAAP adjustments which are calculated by applying the applicable tax rate by jurisdiction to the non-GAAP adjustments listed above. Additionally, in the first nine months of FY'25 and FY'24, adjustments exclude a $10.4 million benefit and a $3.6 million charge, respectively, related to the tax impact of tax reserves related to prior years in foreign jurisdictions."
+    },
+    {
+      "block_idx": 409,
+      "char_end": 27941,
+      "char_start": 27893,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Operating margin impact of non-GAAP adjustments:"
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 425,
+      "char_end": 476,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "In addition to other information set forth in this report, you should carefully consider the risk factors described in Part I. Item 1A. Risk Factors in our 2024 Annual Report on Form 10-K, which could materially affect our business, financial condition or future results. Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial also may materially and adversely affect our business, financial condition and/or operating results."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000950170-25-100879",
+    "cik": 857005,
+    "download_status": "ok",
+    "mdna_end_block": 413,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 26746,
+    "mdna_n_paragraphs": 69,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 13,
+    "mdna_n_words": 4140,
+    "mdna_start_block": 243,
+    "mdna_status": "extracted",
+    "n_blocks": 446,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "ptc-20250630.htm",
+    "risk_end_block": 426,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 476,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 74,
+    "risk_start_block": 424,
+    "risk_status": "short_reference",
+    "source_sha256": "ebf9aad7af03106edaebfe3fea7ad7bb167a26501e729ac19ca634e522a11fce",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/857005/000095017025100879/ptc-20250630.htm"
+  }
+}

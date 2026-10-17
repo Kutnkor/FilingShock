@@ -1,0 +1,18 @@
+{
+  "aligner_version": "fs-align-1.0",
+  "code_version": "0.1.0",
+  "config_hash": "0f997089afc7a8f6",
+  "created_at_utc": "2026-10-17T09:01:45+00:00",
+  "dataset_id": "ds-1698abec6cff",
+  "feature_version": "fs-features-1.0",
+  "first_target_session": "2010-01-29",
+  "last_target_session": "2026-09-23",
+  "lm_dictionary_file": "Loughran-McDonald_MasterDictionary_1993-2025.csv",
+  "n_companies_final": 14,
+  "n_discovered": 1282,
+  "n_final_events": 573,
+  "parser_version": "fs-parser-1.1",
+  "price_files": {},
+  "price_provider": "yfinance",
+  "sample_package_note": "Price-derived values removed; counts describe the full research dataset."
+}

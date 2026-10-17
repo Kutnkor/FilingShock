@@ -1,0 +1,767 @@
+{
+  "mdna": [
+    {
+      "block_idx": 259,
+      "char_end": 1732,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "The following discussion and analysis of our financial condition, results of operations and cash flows should be read in conjunction with the (1) unaudited condensed consolidated financial statements and the related notes thereto included elsewhere in this Quarterly Report on Form 10-Q, and (2) the audited consolidated financial statements and notes thereto and management's discussion and analysis of financial condition and results of operations for the year ended December 31, 2024 included in the Annual Report on Form 10-K filed with the Securities and Exchange Commission (the \"SEC\"), on January 30, 2025. This Quarterly Report on Form 10-Q contains \"forward-looking statements\" within the meaning of Section 21E of the Securities Exchange Act of 1934, as amended (the \"Exchange Act\"). These statements are often identified by the use of words such as \"may,\" \"will,\" \"expect,\" \"believe,\" \"anticipate,\" \"intend,\" \"could,\" \"estimate,\" or \"continue,\" and similar expressions or variations. Forward-looking statements are subject to risks, uncertainties and other factors that could cause actual results and the timing of certain events to differ materially from future results expressed or implied by the forward-looking statements. Factors that could cause or contribute to such differences include, but are not limited to those identified herein, and those discussed in the section titled \"Risk Factors\" in Part I, Item 1A of our Annual Report on Form 10-K filed with the SEC on January 30, 2025 and in Part II, Item 1A of this Quarterly Report on Form 10-Q and in our other SEC filings. We disclaim any obligation to update any forward-looking statements to reflect events or circumstances after the date of such statements."
+    },
+    {
+      "block_idx": 260,
+      "char_end": 2435,
+      "char_start": 1734,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "Investors and others should note that we announce material financial information to our investors using our investor relations website (https://www.servicenow.com/company/investor-relations.html), SEC filings, press releases, public conference calls and webcasts. We use these channels, as well as social media, to communicate with our investors and the public about our Company, our services and other issues. It is possible that the information we post on social media could be deemed to be material information. Therefore, we encourage investors, the media and others interested in our Company to review the information we post on the social media channels listed on our investor relations website."
+    },
+    {
+      "block_idx": 261,
+      "char_end": 3226,
+      "char_start": 2437,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "Our free cash flow and non-GAAP consolidated income from operations measures included in the section entitled \"Key Business Metrics-Free Cash Flow,\" and \"Key Business Metrics-Non-GAAP Consolidated Income from Operations\" are not in accordance with U.S. Generally Accepted Accounting Principles (\"GAAP\"). These non-GAAP financial measures are not intended to be considered in isolation or as a substitute for, or superior to, financial information prepared and presented in accordance with GAAP. These measures may be different from non-GAAP financial measures used by other companies, limiting their usefulness for comparison purposes. We encourage investors to carefully consider our results under GAAP, as well as our supplemental non-GAAP results, to more fully understand our business."
+    },
+    {
+      "block_idx": 262,
+      "char_end": 3236,
+      "char_start": 3228,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Overview"
+    },
+    {
+      "block_idx": 263,
+      "char_end": 4011,
+      "char_start": 3238,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "ServiceNow was founded on a simple premise: to make work flow better. Our intelligent platform, the Now Platform, is a cloud-based solution that helps enterprises and organizations across public and private sectors digitize workflows, in line with our purpose of making the world work better for everyone. Our workflow applications built on the Now Platform are organized along four primary areas: Technology, CRM and Industry, Core Business and Creator. The Now Platform is the AI platform for digital transformation. Transformations enabled by the Now Platform rapidly automate business processes across an entire enterprise by seamlessly connecting disparate departments, systems and silos to unlock productivity and improve experiences for both employees and customers."
+    },
+    {
+      "block_idx": 264,
+      "char_end": 4695,
+      "char_start": 4013,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "We are closely monitoring the ongoing conflicts in Russia/Ukraine and the Middle East. While these events are still evolving and the outcomes remain highly uncertain, we do not believe these conflicts will have a material impact on our business and results of operations. However, if the conflicts continue or worsen, leading to greater global economic disruptions and uncertainty, our business and results of operations could be materially impacted. Our customers in these regions represented an immaterial portion of our net assets as of June 30, 2025 and December 31, 2024, and of our total consolidated revenues for each of the three and six months ended June 30, 2025 and 2024."
+    },
+    {
+      "block_idx": 267,
+      "char_end": 5551,
+      "char_start": 4697,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Additionally, other macroeconomic events, including interest rates, global inflation and tariffs, have led to economic uncertainty in the global economy. To mitigate risk, our cash and cash equivalents are distributed across several large financial institutions and are not concentrated in one financial institution. We have not experienced any impact to our liquidity or to our current and projected business operations and financial condition due to recent macroeconomic events. Further, we have policy restrictions on the types of securities that can be purchased as part of our available-for-sale debt securities portfolio. These restrictions take industry and company concentration limits into consideration among other things. We will continue to monitor the direct and indirect impact of macroeconomic events on our business and financial results."
+    },
+    {
+      "block_idx": 268,
+      "char_end": 5798,
+      "char_start": 5553,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "See the \"Risk Factors\" section in Part I, Item 1A of our Annual Report on Form 10-K filed with the SEC on January 30, 2025 for further discussion of the possible impact of conflicts and macroeconomic events on our business and financial results."
+    },
+    {
+      "block_idx": 269,
+      "char_end": 5820,
+      "char_start": 5800,
+      "is_heading": true,
+      "ordinal": 8,
+      "text": "Key Business Metrics"
+    },
+    {
+      "block_idx": 270,
+      "char_end": 6432,
+      "char_start": 5822,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Remaining performance obligations. Transaction price allocated to remaining performance obligations (\"RPO\") represents contracted revenue that has not yet been recognized, which includes deferred revenue and non-cancellable amounts that will be invoiced and recognized as revenue in future periods. RPO excludes contracts that are billed in arrears, such as certain time and materials contracts, as we apply the \"right to invoice\" practical expedient under relevant accounting guidance. Current remaining performance obligations (\"cRPO\") represents RPO that will be recognized as revenue in the next 12 months."
+    },
+    {
+      "block_idx": 271,
+      "char_end": 6676,
+      "char_start": 6434,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "As of June 30, 2025, our RPO was $23.9 billion, of which 46% represented cRPO. RPO and cRPO increased by 29% and 24%, respectively, compared to June 30, 2024. Factors that may cause our RPO to vary from period to period include the following:"
+    },
+    {
+      "block_idx": 272,
+      "char_end": 7039,
+      "char_start": 6678,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "\u2022Foreign currency exchange rates. While a majority of our contracts have historically been in U.S. Dollars, an increasing percentage of our contracts in recent periods has been in foreign currencies, particularly the Euro and British Pound Sterling. Fluctuations in foreign currency exchange rates as of the balance sheet date will cause variability in our RPO."
+    },
+    {
+      "block_idx": 273,
+      "char_end": 7342,
+      "char_start": 7041,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "\u2022Mix of offerings. In a minority of cases, we allow our customers to host our software by themselves or through a third-party service provider. In self-hosted offerings, we recognize a portion of the revenue upfront upon the delivery of the software and as a result, such revenue is excluded from RPO."
+    },
+    {
+      "block_idx": 274,
+      "char_end": 7551,
+      "char_start": 7344,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "\u2022Subscription start date. From time to time, we enter into contracts with a subscription start date in the future and these amounts are included in RPO if such contracts are signed by the balance sheet date."
+    },
+    {
+      "block_idx": 275,
+      "char_end": 8114,
+      "char_start": 7553,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "\u2022Timing of contract renewals. While customers typically renew their contracts at the end of the contract term, from time to time, customers may do so either before or after the scheduled expiration date. For example, in cases where we are successful in selling additional products or services to an existing customer, a customer may decide to renew its existing contract early to ensure that all its contracts expire on the same date. In other cases, prolonged negotiations or other factors may result in a contract not being renewed until after it has expired."
+    },
+    {
+      "block_idx": 276,
+      "char_end": 8747,
+      "char_start": 8116,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "\u2022Contract duration. While we typically enter into multi-year subscription services, the duration of our contracts varies. Further, we continue to see an increase in the number of 12-month agreements entered into with the U.S. federal government throughout the year, with the highest number of agreements entered into in the quarter ended September 30, driven primarily by timing of their annual budget expenditures. We sometimes also enter into contracts with durations that have a 12-month or shorter term to enable the contracts to co-terminate with the existing contract. The contract duration will cause variability in our RPO."
+    },
+    {
+      "block_idx": 279,
+      "char_end": 10450,
+      "char_start": 8749,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Number of customers with ACV greater than $5 million. We count the total number of customers with annual contract value (\"ACV\") greater than $5 million as of the end of the period. We had 528 and 442 customers with ACV greater than $5 million as of June 30, 2025 and 2024, respectively. For purposes of customer count, a customer is defined as an entity that has a unique Dunn & Bradstreet Global Ultimate (\"GULT\") Data Universal Numbering System (\"DUNS\") number and an active subscription contract as of the measurement date. The DUNS number is a global standard for business identification and tracking. We make exceptions for holding companies, government entities and other organizations for which the GULT, in our judgment, does not accurately represent the ServiceNow customer. For example, while all U.S. government agencies roll up to \"Government of the United States\" under the GULT, we count each government agency that we contract with as a separate customer. Our customer count is subject to adjustments for acquisitions, spin-offs and other market activity; accordingly, we restate previously disclosed number of customers with ACV greater than $5 million calculations to allow for comparability. ACV is calculated based on the foreign exchange rate in effect at the time the contract was signed. Foreign exchange rate fluctuations could cause some variability in the number of customers with ACV greater than $5 million. We believe information regarding the total number of customers with ACV greater than $5 million provides useful information to investors because it is an indicator of our growing customer base and demonstrates the value customers are receiving from the Now Platform."
+    },
+    {
+      "block_idx": 280,
+      "char_end": 11188,
+      "char_start": 10452,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Free cash flow. We define free cash flow, a non-GAAP financial measure, as GAAP net cash provided by operating activities plus cash outflows for legal settlements and business combination and other related costs including compensation expense, reduced by purchases of property and equipment. Purchases of property and equipment are otherwise included in cash used in investing activities under GAAP. We believe information regarding free cash flow provides useful information to investors because it is an indicator of the strength and performance of our business operations. However, our calculation of free cash flow may not be comparable to similar measures used by other companies. A calculation of free cash flow is provided below:"
+    },
+    {
+      "block_idx": 282,
+      "char_end": 11680,
+      "char_start": 11190,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "We have historically seen higher collections in the quarter ended March 31 due to seasonality in timing of entering into customer contracts, which is significantly higher in the quarter ended December 31. Additionally, we have historically seen higher disbursements in the quarters ended March 31 and September 30 due to payouts under our annual commission plans, purchases under our employee stock purchase plan, payouts under our bonus plans and coupon payments related to our 2030 Notes."
+    },
+    {
+      "block_idx": 283,
+      "char_end": 12636,
+      "char_start": 11682,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Non-GAAP consolidated income from operations. Non-GAAP consolidated income from operations is identified as an additional measure of profit or loss. This non-GAAP measure is used by the chief operating decision maker to allocate resources and assess performance. We define non-GAAP consolidated income from operations as income from operations excluding certain non-cash or non-recurring items, including stock-based compensation expense, amortization of purchased intangibles, legal settlements, business combination and other related costs including compensation expense, impairment of assets and severance costs. We believe these adjustments provide useful supplemental information to investors and facilitate the analysis of our operating results and comparison of those results across reporting periods. The following table shows the reconciliation of our reported consolidated income from operations to non-GAAP consolidated income from operations."
+    },
+    {
+      "block_idx": 287,
+      "char_end": 14368,
+      "char_start": 12638,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "Renewal rate. We calculate our renewal rate by subtracting our attrition rate from 100%. Our attrition rate for a period is equal to the ACV from customers lost during the period, divided by the sum of (i) the total ACV from all customers that renewed during the period, excluding changes in price or users, and (ii) the total ACV from all customers lost during the period. Accordingly, our renewal rate is calculated based on ACV and is not based on the number of customers that have renewed. Further, our renewal rate does not reflect increased or decreased purchases from our customers to the extent such customers are not lost customers or lapsed renewals. A lost customer is a customer that did not renew an expiring contract and that, in our judgment, will not be renewed. Typically, a customer that reduces its subscription upon renewal is not considered a lost customer. However, in instances where the subscription decrease represents the majority of the customer's ACV, we may deem the renewal as a lost customer. For our renewal rate calculation, we define a customer as an entity with a separate production instance of our service and an active subscription contract as of the measurement date, instead of an entity with a unique GULT or DUNS number. We adjust our renewal rate for acquisitions, consolidations and other customer events that cause the merging of two or more accounts occurring at the time of renewal. Our renewal rate was 98% for each of the three and six months ended June 30, 2025 and 2024. As our renewal rate is impacted by the timing of renewals, which could occur in advance of, or subsequent to the original contract end date, period-to-period comparison of renewal rates may not be meaningful."
+    },
+    {
+      "block_idx": 288,
+      "char_end": 14405,
+      "char_start": 14370,
+      "is_heading": true,
+      "ordinal": 21,
+      "text": "Components of Results of Operations"
+    },
+    {
+      "block_idx": 289,
+      "char_end": 14415,
+      "char_start": 14407,
+      "is_heading": true,
+      "ordinal": 22,
+      "text": "Revenues"
+    },
+    {
+      "block_idx": 290,
+      "char_end": 15535,
+      "char_start": 14417,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Subscription revenues. Subscription revenues are primarily comprised of fees that give customers access to the ordered subscription service for both self-hosted offerings and cloud-based subscription offerings, and related standard and enhanced support and updates, if any, to the subscription service during the subscription term. For our cloud-based offerings, we recognize revenue ratably over the subscription term. For self-hosted offerings, a substantial portion of the sales price is recognized upon delivery of the software, which may cause greater variability in our subscription revenues and subscription gross margin. Pricing includes multiple instances, hosting and support services, data backup and disaster recovery services, as well as future updates, when and if available, offered during the subscription term. We typically invoice our customers for subscription fees in annual increments upon execution of the initial contract or subsequent renewal. Our contracts are generally non-cancellable during the subscription term, though a customer can terminate for breach if we materially fail to perform."
+    },
+    {
+      "block_idx": 291,
+      "char_end": 16147,
+      "char_start": 15537,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Professional services and other revenues. Our arrangements for professional services are primarily on a time-and-materials basis, and we generally invoice our customers monthly in arrears for the professional services based on actual hours and expenses incurred. Some of our professional services arrangements are on a fixed fee basis. Professional services revenues are recognized as services are delivered. Other revenues primarily consist of fees from customer training delivered on-site or through publicly available classes. Typical payment terms require our customers to pay us within 30 days of invoice."
+    },
+    {
+      "block_idx": 292,
+      "char_end": 16914,
+      "char_start": 16149,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "We sell our subscription services primarily through our direct sales organization. We also sell services through managed service providers and resale partners. We also generate revenues from certain professional services and from training of customers and partner personnel, through both our direct team and indirect sales channel. Revenues from our direct sales organization represented 78% of our total revenues for each of the three and six months ended June 30, 2025 and 79% and 78% of our total revenues for the three and six months ended June 30, 2024, respectively. For purposes of calculating revenues from our direct sales organization, revenues from systems integrators and managed services providers are included as part of the direct sales organization."
+    },
+    {
+      "block_idx": 295,
+      "char_end": 18639,
+      "char_start": 16916,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "Seasonality. We have historically experienced seasonality in terms of when we enter into customer agreements. We sign a significantly higher percentage of agreements with new customers, as well as expansion with existing customers, in the fourth quarter of each year. The increase in customer agreements for the fourth quarter is primarily a result of both large enterprise account buying patterns typical in the software industry, which are driven primarily by the expiration of annual authorized budgeted expenditures, and the terms of our commission plans, which incentivize our direct sales organization to meet their annual quotas by December 31. Furthermore, we usually sign a significant portion of these agreements during the last month, and often the last two weeks, of each quarter. This seasonality of entering into customer agreements is sometimes not immediately apparent in our revenues, due to the fact that we recognize subscription revenues from our cloud offering contracts over the term of the subscription agreement, which is generally 12 to 36 months. In addition, we continue to see an increase in the number of 12-month agreements entered into with the U.S. federal government throughout the year, with the highest number of agreements entered into in the third quarter driven primarily by the timing of their annual budget expenditures. This larger mix of contracts with 12-month renewal terms in the third quarter will generally cause variability in our RPO and cRPO in subsequent quarters until they are renewed. Although these seasonal factors may be common in the technology industry, historical patterns should not be considered a reliable indicator of our future sales activity or performance."
+    },
+    {
+      "block_idx": 296,
+      "char_end": 18657,
+      "char_start": 18641,
+      "is_heading": true,
+      "ordinal": 27,
+      "text": "Cost of Revenues"
+    },
+    {
+      "block_idx": 297,
+      "char_end": 19414,
+      "char_start": 18659,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "Cost of subscription revenues. Cost of subscription revenues consists primarily of expenses related to hosting our services and providing support to our customers. These expenses are comprised of data center capacity costs, which include colocation costs associated with our data centers as well as interconnectivity between data centers, depreciation related to our infrastructure hardware equipment dedicated for customer use, amortization of intangible assets, expenses associated with software, public cloud service costs, IT services and dedicated customer support, personnel-related costs directly associated with data center operations and customer support, including salaries, benefits, bonuses and stock-based compensation and allocated overhead."
+    },
+    {
+      "block_idx": 298,
+      "char_end": 19791,
+      "char_start": 19416,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "Cost of professional services and other revenues. Cost of professional services and other revenues consists primarily of personnel-related costs directly associated with our professional services and training departments, including salaries, benefits, bonuses and stock-based compensation, the costs of contracted third-party partners, travel expenses and allocated overhead."
+    },
+    {
+      "block_idx": 299,
+      "char_end": 20363,
+      "char_start": 19793,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Professional services are performed directly by our services team, as well as by contracted third-party partners. Fees paid by us to third-party partners are primarily recognized as cost of revenues as the professional services are delivered. Cost of revenues associated with our professional services engagements contracted with third-party partners as a percentage of professional services and other revenues was 33% and 34% for the three and six months ended June 30, 2025, respectively, and 21% and 18% for the three and six months ended June 30, 2024, respectively."
+    },
+    {
+      "block_idx": 300,
+      "char_end": 20384,
+      "char_start": 20365,
+      "is_heading": true,
+      "ordinal": 31,
+      "text": "Sales and Marketing"
+    },
+    {
+      "block_idx": 301,
+      "char_end": 21045,
+      "char_start": 20386,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "Sales and marketing expenses consist primarily of personnel-related expenses directly associated with our sales and marketing staff, including salaries, benefits, bonuses and stock-based compensation. Sales and marketing expenses also include the amortization of commissions paid to our sales employees, including related payroll taxes and fringe benefits. In addition, sales and marketing expenses include branding expenses, marketing program expenses, which include events such as Knowledge, and costs associated with purchasing advertising and marketing data, software and subscription services dedicated for sales and marketing use and allocated overhead."
+    },
+    {
+      "block_idx": 302,
+      "char_end": 21071,
+      "char_start": 21047,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 303,
+      "char_end": 21579,
+      "char_start": 21073,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "Research and development expenses consist primarily of personnel-related expenses directly associated with our research and development staff, including salaries, benefits, bonuses, stock-based compensation and allocated overhead. Research and development expenses also include data center capacity costs, costs associated with outside services contracted for research and development purposes and depreciation of infrastructure hardware equipment that is used solely for research and development purposes."
+    },
+    {
+      "block_idx": 304,
+      "char_end": 21607,
+      "char_start": 21581,
+      "is_heading": true,
+      "ordinal": 35,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 305,
+      "char_end": 21999,
+      "char_start": 21609,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "General and administrative expenses consist primarily of personnel-related expenses for our executive, finance, legal, human resources, facilities and administrative personnel, including salaries, benefits, bonuses, stock-based compensation, external legal, accounting and other professional services fees, other corporate expenses, amortization of intangible assets and allocated overhead."
+    },
+    {
+      "block_idx": 308,
+      "char_end": 22027,
+      "char_start": 22001,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Provision for Income Taxes"
+    },
+    {
+      "block_idx": 309,
+      "char_end": 22716,
+      "char_start": 22029,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Provision for income taxes consists of federal, state and foreign income taxes. Our income tax provision for the three and six months ended June 30, 2025 is primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates, offset by excess tax benefits of stock-based compensation. We continue to maintain a valuation allowance against our California deferred tax assets due to the uncertainty regarding realizability of these deferred tax assets as they have not met the \"more likely than not\" realization criteria, particularly as we expect research and development tax credit generation to exceed our ability to use the credits in future years."
+    },
+    {
+      "block_idx": 310,
+      "char_end": 22785,
+      "char_start": 22718,
+      "is_heading": true,
+      "ordinal": 39,
+      "text": "Comparison of the Three and Six Months Ended June 30, 2025 and 2024"
+    },
+    {
+      "block_idx": 311,
+      "char_end": 22795,
+      "char_start": 22787,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "Revenues"
+    },
+    {
+      "block_idx": 313,
+      "char_end": 23389,
+      "char_start": 22797,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Subscription revenues increased by $571 million and $1,053 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily driven by increased purchases by new and existing customers. Included in subscription revenues is $109 million and $68 million of revenues recognized upfront from the delivery of software associated with self-hosted offerings during the three months ended June 30, 2025 and 2024, respectively, and $266 million and $194 million during the six months ended June 30, 2025 and 2024, respectively."
+    },
+    {
+      "block_idx": 314,
+      "char_end": 23688,
+      "char_start": 23391,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "We expect subscription revenues for the year ending December 31, 2025 to increase in absolute dollars and remain relatively flat as a percentage of revenue as we continue to add new customers and existing customers increase their usage of our products compared to the year ended December 31, 2024."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 23863,
+      "char_start": 23690,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Our expectations for revenues, cost of revenues and operating expenses for the remainder of 2025 are based on the 30-day average of foreign exchange rates for June 30, 2025."
+    },
+    {
+      "block_idx": 316,
+      "char_end": 24166,
+      "char_start": 23865,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Professional services and other revenues increased by $17 million and $20 million during the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to an increase in services and trainings provided to new and existing customers."
+    },
+    {
+      "block_idx": 317,
+      "char_end": 24391,
+      "char_start": 24168,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "We expect professional services and other revenues for the year ending December 31, 2025 to increase in absolute dollars and to remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024."
+    },
+    {
+      "block_idx": 320,
+      "char_end": 24437,
+      "char_start": 24393,
+      "is_heading": true,
+      "ordinal": 46,
+      "text": "Cost of Revenues and Gross Profit Percentage"
+    },
+    {
+      "block_idx": 322,
+      "char_end": 25436,
+      "char_start": 24439,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Cost of subscription revenues increased by $156 million and $276 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to increased headcount and increased costs to support the growth of our subscription offerings including costs to support customers in regulated markets. Personnel-related costs, including stock-based compensation and overhead expenses, increased by $82 million and $144 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024. Depreciation expense related to infrastructure hardware equipment and expenses associated with software, maintenance, third-party cloud services and other costs, which together support the expansion of data center capacity, increased by $65 million and $126 million, respectively, for the three and six months ended June 30, 2025 compared to the three and six months ended June 30, 2024."
+    },
+    {
+      "block_idx": 323,
+      "char_end": 26168,
+      "char_start": 25438,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "We expect our cost of subscription revenues for the year ending December 31, 2025 to increase in absolute dollars as we provide subscription services to more customers and increase usage within our customer instances and increase slightly as a percentage of revenue compared to the year ended December 31, 2024. We will continue to incur incremental costs to attract customers in regulated markets by adopting public cloud offerings as well as increased support for customers impacted by new and evolving data residency requirements. To the extent future acquisitions are consummated, our cost of subscription revenues may increase due to additional non-cash charges associated with the amortization of intangible assets acquired."
+    },
+    {
+      "block_idx": 324,
+      "char_end": 26512,
+      "char_start": 26170,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Our subscription gross profit percentage was 80% and 81% for the three and six months ended June 30, 2025, respectively, and 82% for each of the three and six months ended June 30, 2024. We expect our subscription gross profit percentage to decrease slightly for the year ending December 31, 2025 compared to the year ended December 31, 2024."
+    },
+    {
+      "block_idx": 325,
+      "char_end": 26839,
+      "char_start": 26514,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Cost of professional services and other revenues increased by $16 million and $27 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily driven by an increase in partner ecosystem spend to further help accelerate customer value realization."
+    },
+    {
+      "block_idx": 326,
+      "char_end": 27505,
+      "char_start": 26841,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Our professional services and other gross profit percentage was 3% for the three months ended June 30, 2025 compared to 2% for the three months ended June 30, 2024. Our professional services and other gross loss percentage was 2% for the six months ended June 30, 2025 compared to a gross profit percentage of 2% for the six months ended June 30, 2024, and was primarily driven by partner ecosystem spend to further help accelerate customer value realization increasing at a faster rate than revenue. We expect our professional services and other gross loss percentage to increase for the year ending December 31, 2025 compared to the year ended December 31, 2024."
+    },
+    {
+      "block_idx": 329,
+      "char_end": 27526,
+      "char_start": 27507,
+      "is_heading": true,
+      "ordinal": 52,
+      "text": "Sales and Marketing"
+    },
+    {
+      "block_idx": 331,
+      "char_end": 28750,
+      "char_start": 27528,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "Sales and marketing expenses increased by $168 million and $299 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to increased headcount resulting in an increase in personnel-related costs including stock-based compensation and overhead expenses of $103 million and $203 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024. Amortization expenses associated with deferred commissions increased by $15 million and $28 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to an increase in contracts with new customers, expansion and renewal contracts. Other sales and marketing program expenses, which include branding, costs associated with purchasing advertising, marketing events and market data, increased by $32 million and $43 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to increased program costs and travel costs for our annual Knowledge user conference."
+    },
+    {
+      "block_idx": 332,
+      "char_end": 29051,
+      "char_start": 28752,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "We expect sales and marketing expenses for the year ending December 31, 2025 to increase in absolute dollars and to decrease slightly as a percentage of revenue compared to the year ended December 31, 2024, as we continue to see leverage from increased sales productivity and marketing efficiencies."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 29077,
+      "char_start": 29053,
+      "is_heading": true,
+      "ordinal": 55,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 335,
+      "char_end": 29585,
+      "char_start": 29079,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "Research and development (\"R&D\") expenses increased by $91 million and $188 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to increased headcount, resulting in an increase in personnel-related costs including stock-based compensation and overhead expenses of $85 million and $168 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024."
+    },
+    {
+      "block_idx": 336,
+      "char_end": 29926,
+      "char_start": 29587,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "We expect R&D expenses for the year ending December 31, 2025 to increase in absolute dollars but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024, as we continue to improve the existing functionality of our services, develop new applications to fill market needs and enhance our core platform."
+    },
+    {
+      "block_idx": 337,
+      "char_end": 29954,
+      "char_start": 29928,
+      "is_heading": true,
+      "ordinal": 58,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 339,
+      "char_end": 30295,
+      "char_start": 29956,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "General and administrative (\"G&A\") expenses increased by $39 million and $46 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to impairment of assets of $30 million and an increase in personnel-related costs, including stock-based compensation."
+    },
+    {
+      "block_idx": 342,
+      "char_end": 30556,
+      "char_start": 30297,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "We expect G&A expenses for the year ending December 31, 2025 to increase in absolute dollars and to remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024, as we continue to see leverage from continued G&A productivity."
+    },
+    {
+      "block_idx": 343,
+      "char_end": 30582,
+      "char_start": 30558,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "Stock-based Compensation"
+    },
+    {
+      "block_idx": 345,
+      "char_end": 30837,
+      "char_start": 30584,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Stock-based compensation increased by $55 million and $103 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily due to additional grants to current and new employees."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 31372,
+      "char_start": 30839,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "Stock-based compensation is inherently difficult to forecast due to fluctuations in our stock price. Based upon our stock price as of June 30, 2025, we expect stock-based compensation to continue to increase in absolute dollars for the year ending December 31, 2025 as we continue to issue stock-based awards to our employees, but remain relatively flat as a percentage of revenue compared to the year ended December 31, 2024. We expect stock-based compensation as a percentage of revenue to decline over time as we continue to grow."
+    },
+    {
+      "block_idx": 347,
+      "char_end": 31399,
+      "char_start": 31374,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "Foreign Currency Exchange"
+    },
+    {
+      "block_idx": 348,
+      "char_end": 31720,
+      "char_start": 31401,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Our international operations have provided and will continue to provide a significant portion of our total revenues. Revenues outside North America represented 38% and 37% of total revenues for the three and six months ended June 30, 2025, respectively, and 37% for each of the three and six months ended June 30, 2024."
+    },
+    {
+      "block_idx": 349,
+      "char_end": 31936,
+      "char_start": 31722,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "We primarily transact in certain foreign currencies for sales outside of the United States. The movement of the U.S. Dollar had an immaterial impact on our revenues for the three and six months ended June 30, 2025."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 32199,
+      "char_start": 31938,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "In addition, we primarily transact in several foreign currencies for cost of revenues and operating expenses outside of the United States. The movement of the U.S. Dollar had an immaterial impact on our expenses for the three and six months ended June 30, 2025."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 32216,
+      "char_start": 32201,
+      "is_heading": true,
+      "ordinal": 68,
+      "text": "Interest Income"
+    },
+    {
+      "block_idx": 355,
+      "char_end": 32518,
+      "char_start": 32218,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Interest income increased by $12 million and $26 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024, primarily driven by an increase in investment income from our managed portfolio resulting from higher portfolio balances."
+    },
+    {
+      "block_idx": 356,
+      "char_end": 32538,
+      "char_start": 32520,
+      "is_heading": true,
+      "ordinal": 70,
+      "text": "Other Expense, net"
+    },
+    {
+      "block_idx": 358,
+      "char_end": 32719,
+      "char_start": 32540,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Other expense, net decreased by $7 million and $4 million for the three and six months ended June 30, 2025, respectively, compared to the three and six months ended June 30, 2024."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 33654,
+      "char_start": 32721,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "To mitigate our risks associated with fluctuations in foreign currency exchange rates, we enter into foreign currency forward contracts with maturities of 12 months or less to hedge a portion of our net outstanding monetary assets and liabilities. These hedging contracts may reduce, but cannot entirely eliminate, the impact of adverse currency exchange rate movements. The gains recognized for foreign currency forward contracts from derivatives not designated as hedging instruments in other expense, net of $86 million and $120 million, offset the remeasurement losses of the related foreign currency denominated assets and liabilities of $87 million and $125 million for the three and six months ended June 30, 2025, respectively. The gains (losses) recognized for foreign currency forward contracts from derivatives not designated as hedging instruments were immaterial for each of the three and six months ended June 30, 2024."
+    },
+    {
+      "block_idx": 360,
+      "char_end": 33682,
+      "char_start": 33656,
+      "is_heading": true,
+      "ordinal": 73,
+      "text": "Provision for Income Taxes"
+    },
+    {
+      "block_idx": 362,
+      "char_end": 34096,
+      "char_start": 33684,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "Our income tax provision was $86 million and $181 million for the three and six months ended June 30, 2025, respectively, and $72 million and $150 million for the three and six months ended June 30, 2024, respectively. The income tax provision was primarily attributable to the mix of earnings and losses in countries with differing statutory tax rates, offset by excess tax benefits of stock-based compensation."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 34129,
+      "char_start": 34098,
+      "is_heading": true,
+      "ordinal": 75,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 364,
+      "char_end": 35337,
+      "char_start": 34131,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "We generate cash inflows from operations primarily from selling subscription services which are generally paid in advance of provisioning services, and expend cash outflows to develop new services and core technologies that further enhance the Now Platform, engage our customers and enhance their experience, and enable and transform our business operations. Subscription services arrangements typically have a three-year duration, and we have experienced a renewal rate of 98% over the last three years. Cash outflows from operations are principally comprised of the salaries, bonuses, commissions, and benefits for our workforce, licenses and services arrangements that are integral to our business operations and data centers and operating lease arrangements that underlie our facilities. We have generated positive operating cash flows for more than ten years as we continue to grow our business in pursuit of our business strategy, and we expect to grow our business and generate positive cash flows from operations during 2025. When assessing sources of liquidity, we also include cash and cash equivalents, short-term investments and long-term investments totaling $10.8 billion as of June 30, 2025."
+    },
+    {
+      "block_idx": 367,
+      "char_end": 35950,
+      "char_start": 35339,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Our capital requirements are principally comprised of capital expenditures to support data center capacity expansion, non-contract workforce salaries, bonuses, commissions and benefits and, to a lesser extent, cancellable and non-cancellable licenses, operating leases and services arrangements that are integral to our business operations. We also acquire technology and businesses to expand our service offerings and functionality. Operating lease obligations totaling $1,085 million are principally associated with leased facilities and have varying maturities with $656 million due over the next five years."
+    },
+    {
+      "block_idx": 368,
+      "char_end": 36716,
+      "char_start": 35952,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Our supply chain finance (\"SCF\") program provides suppliers with the opportunity to sell their receivables due from us to a global financial institution. A supplier's election to receive early payment at a discounted amount from the financial institution does not change the amount that we must remit to the financial institution on our payment date, which is generally 90 days from the invoice date. As of June 30, 2025, our outstanding payment obligations to suppliers participating in the SCF program totaled $49 million. These obligations are included in accounts payable in our condensed consolidated balance sheets, and all activity related to these obligations is presented within operating activities in the condensed consolidated statements of cash flows."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 37670,
+      "char_start": 36718,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "We may repurchase our shares of common stock in the open market, in privately negotiated transactions or by other means, with the objective to return value to our stockholders and manage the dilution from future employee equity grants and employee stock purchase programs. In May 2023, our board of directors authorized a program to repurchase up to $1.5 billion of our common stock and authorized an additional $3.0 billion in repurchases under the program in January 2025. During the three and six months ended June 30, 2025, the Company repurchased 0.4 million and 0.7 million shares of our common stock for $361 million and $659 million, respectively. All repurchases were made in open market transactions. Repurchases of common stock are recognized as treasury stock and held for future issuance. As of June 30, 2025, approximately $2.6 billion of the authorized amount under the share repurchase program remained available for future repurchases."
+    },
+    {
+      "block_idx": 370,
+      "char_end": 37885,
+      "char_start": 37672,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "We have also issued long-term debt to finance our business. In August 2020, we issued 1.40% fixed rate ten-year notes with an aggregate principal amount of $1.5 billion due on September 1, 2030 (the \"2030 Notes\")."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 38519,
+      "char_start": 37887,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Our operating cash flows, together with our other sources of liquidity, are available to service our liabilities as well as our cancellable and non-cancellable arrangements. We anticipate cash flows generated from operations, cash, cash equivalents and investments will be sufficient to meet our liquidity needs for at least the next 12 months. As we look beyond the next 12 months, we seek to continue to grow cash flows necessary to fund our operations and grow our business. If we require additional capital resources, we may seek to finance our operations from the current funds available or additional equity or debt financing."
+    },
+    {
+      "block_idx": 373,
+      "char_end": 38541,
+      "char_start": 38521,
+      "is_heading": true,
+      "ordinal": 82,
+      "text": "Operating Activities"
+    },
+    {
+      "block_idx": 374,
+      "char_end": 38816,
+      "char_start": 38543,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Net cash provided by operating activities was $2,393 million for the six months ended June 30, 2025 compared to $1,961 million for the six months ended June 30, 2024. The net increase in operating cash flows was primarily due to higher collections driven by revenue growth."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 38838,
+      "char_start": 38818,
+      "is_heading": true,
+      "ordinal": 84,
+      "text": "Investing Activities"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 39472,
+      "char_start": 38840,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Net cash used in investing activities was $640 million for the six months ended June 30, 2025 compared to $1,105 million for the six months ended June 30, 2024. The net decrease in cash used in investing activities was primarily due to a $506 million decrease in net purchases of investments and a $46 million increase in realized gains on foreign currency forward contracts from derivatives not designated as hedging instruments, partially offset by a $50 million increase in purchases of non-marketable investments, a $35 million increase in business combinations and a $4 million increase in purchases of other intangible assets."
+    },
+    {
+      "block_idx": 379,
+      "char_end": 39494,
+      "char_start": 39474,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "Financing Activities"
+    },
+    {
+      "block_idx": 380,
+      "char_end": 40082,
+      "char_start": 39496,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Net cash used in financing activities was $944 million for the six months ended June 30, 2025 compared to $580 million for the six months ended June 30, 2024. The net increase in cash used in financing activities is due to an increase in repurchases of common stock of $484 million and an $86 million increase in taxes paid related to net share settlement of equity awards, partially offset by a $184 million decrease in business combination related to the second installment payment in the acquisition of G2K Group GmbH and a $22 million increase in proceeds from employee stock plans."
+    },
+    {
+      "block_idx": 381,
+      "char_end": 40152,
+      "char_start": 40084,
+      "is_heading": true,
+      "ordinal": 88,
+      "text": "Critical Accounting Policies and Significant Judgments and Estimates"
+    },
+    {
+      "block_idx": 382,
+      "char_end": 40377,
+      "char_start": 40154,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "There have been no significant changes to our critical accounting policies and estimates as described in our Annual Report on Form 10-K for the year ended December 31, 2024, which was filed with the SEC on January 30, 2025."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 397,
+      "char_end": 600,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "The Company's business, financial condition, results of operations and stock price can be affected by a number of factors, whether currently known or unknown, including those described under the section \"Risk Factors\" in Part I, Item 1A of our Annual Report on Form 10-K for the year ended December 31, 2024. When any one or more of these risks materialize from time to time, the Company's business, financial condition, results of operations and stock price can be materially adversely affected. There have been no material changes to the Company's risk factors since our Annual Report on Form 10-K."
+    }
+  ],
+  "summary": {
+    "accession_number": "0001373715-25-000276",
+    "cik": 1373715,
+    "download_status": "ok",
+    "mdna_end_block": 383,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 39562,
+    "mdna_n_paragraphs": 65,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 12,
+    "mdna_n_words": 6067,
+    "mdna_start_block": 258,
+    "mdna_status": "extracted",
+    "n_blocks": 424,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "now-20250630.htm",
+    "risk_end_block": 398,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 600,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 98,
+    "risk_start_block": 396,
+    "risk_status": "no_material_changes",
+    "source_sha256": "e070881302942f3a7ade2f98ec3426b94fd4f5b4cff093c7ffcdfa5c2bad318f",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371525000276/now-20250630.htm"
+  }
+}

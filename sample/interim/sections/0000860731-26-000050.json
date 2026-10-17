@@ -1,0 +1,1031 @@
+{
+  "mdna": [
+    {
+      "block_idx": 301,
+      "char_end": 53,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "CAUTIONARY NOTE CONCERNING FORWARD-LOOKING STATEMENTS"
+    },
+    {
+      "block_idx": 302,
+      "char_end": 3554,
+      "char_start": 55,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "This document contains \"forward-looking statements\" within the meaning of Section 27A of the Securities Act of 1933 and Section 21E of the Securities Exchange Act of 1934 that are not historical in nature and typically address future or anticipated events, trends, expectations or beliefs with respect to our financial condition, results of operations or business. Forward-looking statements often contain words such as \"believes,\" \"expects,\" \"anticipates,\" \"foresees,\" \"forecasts,\" \"estimates,\" \"plans,\" \"intends,\" \"continues,\" \"may,\" \"will,\" \"should,\" \"projects,\" \"might,\" \"could\" or other similar words or phrases. Similarly, statements that describe our business strategy, outlook, objectives, plans, intentions or goals also are forward-looking statements. We believe there is a reasonable basis for our forward-looking statements, but they are inherently subject to risks and uncertainties and actual results could differ materially from the expectations and beliefs reflected in the forward-looking statements. We presently consider the following to be among the important factors that could cause actual results to differ materially from our expectations and beliefs: (1) changes in the budgets or regulatory environments of our clients, including local, state and federal government agencies, that could negatively impact information technology spending; (2) disruption to our business and harm to our competitive position resulting from cyber-attacks, evolving use of artificial intelligence (\"AI\"), security vulnerabilities and software updates, or changes in our ability to access third-party software and services; (3) our ability to protect client information from security breaches or misuse through AI and to provide uninterrupted operations of data centers; (4) our ability to achieve growth or operational synergies through the integration of acquired businesses, while avoiding unanticipated costs and disruptions to existing operations; (5) material portions of our business require the Internet infrastructure to be adequately maintained; (6) our ability to actively monitor developments in AI regulation and ethical standards as we expect that future changes in the regulatory landscape may affect our product development timelines, compliance costs, and market opportunities related to AI; (7) our ability to achieve our financial forecasts due to various factors, including project delays by our clients, reductions in transaction size, fewer transactions, delays in delivery of new products or releases or a decline in our renewal rates for service agreements; (8) general economic, political and market conditions, including inflation and changes in interest rates; (9) technological and market risks associated with the development of new technologies, products or services or of new versions of existing or acquired products or services; (10) competition in the industry in which we conduct business and the impact of competition on pricing, client retention and pressure for new products or services; (11) the ability to attract and retain qualified personnel and dealing with rising labor costs, the loss or retirement of key members of management or other key personnel; and (12) costs of compliance and any failure to comply with government and stock exchange regulations. These factors and other risks that affect our business are described in Item 1A, \"Risk Factors\". We expressly disclaim any obligation to publicly update or revise our forward-looking statements."
+    },
+    {
+      "block_idx": 303,
+      "char_end": 3563,
+      "char_start": 3556,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "GENERAL"
+    },
+    {
+      "block_idx": 304,
+      "char_end": 4326,
+      "char_start": 3565,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "We provide integrated information management solutions and services for the public sector. We develop and market a broad line of software products and services to address the information technology (\"IT\") needs of public sector entities. We provide subscription-based services such as software as a service (\"SaaS\") and transaction-based services primarily related to digital government services and payment processing. In addition, we provide professional IT services to our clients, including software and hardware installation, data conversion, training, and for certain clients, product modifications, along with continuing maintenance and support for clients using our systems. Additionally, we provide property appraisal services for taxing jurisdictions."
+    },
+    {
+      "block_idx": 305,
+      "char_end": 5267,
+      "char_start": 4328,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "We report our results in two reportable segments. Our reportable segments are organized on the basis of a combination of the products and services they deliver to clients and the function that the public sector client performs. Operating segments that have met the aggregation criteria have been combined into our two reportable segments. The Enterprise Software (\"ES\") reportable segment provides public sector entities with software systems and services to meet their information technology and automation needs for mission-critical \"back-office\" functions such as: public administration solutions, courts and public safety solutions, education solutions, and property and recording solutions. The Platform Technologies (\"PT\") reportable segment provides public sector entities with platform and transformative solutions including digital solutions, payment processing, streamlined data processing, and improved operations and workflows."
+    },
+    {
+      "block_idx": 306,
+      "char_end": 6160,
+      "char_start": 5269,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "The Chief Operating Decision Maker (\"CODM\") uses segment operating income or loss to assess performance and to allocate resources (including employees, property, and financial or capital resources) for each segment, predominantly in the annual budget and forecasting process. During the fiscal periods presented, we had no significant transactions between reportable segments. Corporate unallocated amounts are comprised of non-cash amortization of intangible assets associated with acquisitions, depreciation associated with unallocated property and equipment assets, compensation costs for the executive management team and certain shared services staff such as internal infrastructure costs and share-based compensation expense for the entire company. Corporate unallocated amounts also include incidental revenues and expenses related to a company-wide user conference and rental income."
+    },
+    {
+      "block_idx": 308,
+      "char_end": 6750,
+      "char_start": 6162,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Revenue from certain product offerings, along with related expenses, for the prior period has been reclassified to conform to their current period presentation. Furthermore, certain depreciation and amortization expenses for the prior periods have been reclassified to corporate unallocated to be consistent with the current year presentation that better aligns with the Corporate classification of certain assets on the condensed consolidated balance sheets as Corporate. These changes had no impact on the Company's consolidated results of operations, financial position, or cash flows."
+    },
+    {
+      "block_idx": 309,
+      "char_end": 6867,
+      "char_start": 6752,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "See Note 3, \"Segment and Related Information,\" in the notes to the financial statements for additional information."
+    },
+    {
+      "block_idx": 310,
+      "char_end": 6888,
+      "char_start": 6869,
+      "is_heading": true,
+      "ordinal": 8,
+      "text": "Recent Acquisitions"
+    },
+    {
+      "block_idx": 312,
+      "char_end": 7251,
+      "char_start": 6890,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "On April 14, 2026, we completed the acquisition of the remaining equity of BFTR, LLC (\"For the Record\" or \"FTR\"), a provider of cloud connected software that captures, stores, and manages courtroom audio and video with secure chain of custody. The actual operating results of FTR are included in the operating results of the ES segment beginning April 14, 2026."
+    },
+    {
+      "block_idx": 314,
+      "char_end": 8156,
+      "char_start": 7253,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "On December 2, 2025, we acquired Edu.Link, Inc. (\"Edulink\"), a SaaS company focused on educator evaluation, performance management, professional development, and compliance tracking geared specifically to the unique needs of K-12 schools. On November 19, 2025, we acquired CloudGavel, LLC (\"CG\"), a SaaS company specializing in cloud electronic warrant solutions that allows for real time interaction for judges and law enforcement personnel. On July 28, 2025, we acquired Emergency Networking, Inc. (\"EN\"), a SaaS company specializing in cloud-native software for fire departments and emergency medical services agencies. On January 31, 2025, we acquired MyGov, LLC (\"MyGov\"), a provider of SaaS platform solutions for community development. The actual operating results of Edulink, CG, EN, and MyGov, from their respective dates of acquisition, are included in the operating results of the ES segment."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 8191,
+      "char_start": 8158,
+      "is_heading": true,
+      "ordinal": 11,
+      "text": "Convertible Senior Notes due 2031"
+    },
+    {
+      "block_idx": 316,
+      "char_end": 9015,
+      "char_start": 8193,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "On May 14, 2026, we issued 0.50% Convertible Senior Notes due in 2031 for the aggregate principal amount of $1.44 billion (the \"2031 Notes\"). The 2031 Notes were issued pursuant to, and are governed by, an indenture (the \"Indenture\"), dated as of May 14, 2026, between the Company and U.S. Bank Trust Company, National Association, as trustee. The net proceeds from the issuance of the 2031 Notes were $1.41 billion, net of initial purchasers' discounts of $25.2 million and debt issuance costs of $4.4 million. On May 14, 2026, we used approximately $320.7 million of the net proceeds of the offering of the 2031 Notes to repurchase 1,026,900 shares of our common stock. Including this repurchase, we repurchased approximately 2.4 million shares under our share repurchase program, for the six months ended June 30, 2026."
+    },
+    {
+      "block_idx": 317,
+      "char_end": 9272,
+      "char_start": 9017,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "The 2031 Notes accrue interest at a rate of 0.50% per annum, payable semi-annually in arrears on January 15 and July 15 of each year, beginning on January 15, 2027. The 2031 Notes mature on July 15, 2031, unless earlier repurchased, redeemed or converted."
+    },
+    {
+      "block_idx": 318,
+      "char_end": 9356,
+      "char_start": 9274,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "As of June 30, 2026, the aggregate amount due of the 2031 Notes was $1.44 billion."
+    },
+    {
+      "block_idx": 319,
+      "char_end": 9391,
+      "char_start": 9358,
+      "is_heading": true,
+      "ordinal": 15,
+      "text": "Convertible Senior Notes due 2026"
+    },
+    {
+      "block_idx": 320,
+      "char_end": 9892,
+      "char_start": 9393,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "On March 15, 2026, we repaid the $600.0 million aggregate principal amount of its 0.25% Convertible Senior Notes due 2026 (the \"2026 Notes\") in cash at maturity. No conversions of the 2026 Notes occurred prior to or at maturity as our common stock price did not exceed the conversion price during the relevant periods for redemption, and no other conversion conditions were met. As a result, the entire principal amount was settled in cash, and no shares of common stock were issued upon settlement."
+    },
+    {
+      "block_idx": 321,
+      "char_end": 9915,
+      "char_start": 9894,
+      "is_heading": true,
+      "ordinal": 17,
+      "text": "2026 Credit Agreement"
+    },
+    {
+      "block_idx": 322,
+      "char_end": 10846,
+      "char_start": 9917,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "On May 28, 2026, we entered into a $1.0 billion credit agreement (the \"2026 Credit Agreement\") with the various lender parties thereto and Wells Fargo Bank, National Association, as Administrative Agent, Swingline Lender, and Issuing Lender. The 2026 Credit Agreement provides for an unsecured revolving credit facility in an aggregate principal amount of up to $1.0 billion, including sub-facilities for standby letters of credit and swingline loans. The 2026 Credit Agreement matures on May 28, 2031, and loans may be prepaid at any time, without premium or penalty, subject to certain minimum amounts and payment of any SOFR breakage costs. We incurred fees of $2.2 million in connection with the 2026 Credit Agreement. The 2026 Credit Agreement replaced the Company's existing $700.0 million unsecured credit facility under the 2024 Credit Agreement dated September 25, 2024, which was scheduled to mature September 25, 2029."
+    },
+    {
+      "block_idx": 324,
+      "char_end": 11140,
+      "char_start": 10848,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "We have no outstanding borrowings under the 2026 Credit Agreement, with an available borrowing capacity of $1.0 billion as of June 30, 2026. See Note 8, \"Debt,\" to the condensed consolidated financial statements for discussions of the 2026 Notes, the 2031 Notes and the 2026 Credit Agreement."
+    },
+    {
+      "block_idx": 325,
+      "char_end": 11159,
+      "char_start": 11142,
+      "is_heading": true,
+      "ordinal": 20,
+      "text": "Operating Results"
+    },
+    {
+      "block_idx": 326,
+      "char_end": 11551,
+      "char_start": 11161,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "For the three and six months ended June 30, 2026, total revenues increased 8.2% and 8.4%, respectively, compared to the prior period, primarily due to an increase in subscriptions revenue. Revenues from recent acquisitions contributed $11.4 million and $15.3 million to the total revenue increase for the three and six months ended June 30, 2026, respectively, compared to the prior period."
+    },
+    {
+      "block_idx": 327,
+      "char_end": 12050,
+      "char_start": 11553,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Subscriptions revenue grew 12.0% and 13.3%, respectively, for the three and six months ended June 30, 2026, compared to the prior period, primarily due to an ongoing shift toward SaaS arrangements for both new and existing clients, along with growth in certain transaction-based revenues. Revenues from recent acquisitions contributed $8.1 million and $11.7 million to the subscriptions revenue increase for the three and six months ended June 30, 2026, respectively, compared to the prior period."
+    },
+    {
+      "block_idx": 328,
+      "char_end": 12256,
+      "char_start": 12052,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Our total employee count increased to 7,879 as of June 30, 2026, including 237 employees who joined us through acquisitions completed since June 30, 2025. Our employee count was 7,542 as of June 30, 2025."
+    },
+    {
+      "block_idx": 329,
+      "char_end": 12287,
+      "char_start": 12258,
+      "is_heading": true,
+      "ordinal": 24,
+      "text": "Annualized Recurring Revenues"
+    },
+    {
+      "block_idx": 330,
+      "char_end": 12959,
+      "char_start": 12289,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Annualized recurring revenues (\"ARR\") - Subscriptions and maintenance are considered recurring revenue sources. ARR is calculated by annualizing the current quarter's recurring revenues from subscriptions and maintenance as reported in our statement of income. Management believes ARR is an indicator of the annual run rate of our recurring revenues, as well as a measure of the effectiveness of the strategies we deploy to drive revenue growth over time. ARR is a metric widely used by companies in the technology sector and by investors, which we believe offers insight into the stability of our subscriptions and maintenance revenues to be recognized within the year."
+    },
+    {
+      "block_idx": 331,
+      "char_end": 13901,
+      "char_start": 12961,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "Subscriptions revenues primarily consist of revenues derived from our SaaS arrangements and transaction-based fees. These revenues are considered recurring because revenues from these sources are expected to re-occur in similar annual amounts for the term of our relationship with the client. Transaction-based fees are generally the result of multi-year contracts with our clients that result in fees generated by payment transactions and digital government services and are collected on a recurring basis during the contract term. Transaction-based revenues are historically highest in the second quarter, which coincides with peak outdoor recreation seasons and statutory filing deadlines in many jurisdictions, and lowest in the fourth quarter due to fewer business days and lower transaction volumes around holidays. Because ARR is an annualized revenue amount, the metric can fluctuate from quarter to quarter due to this seasonality."
+    },
+    {
+      "block_idx": 332,
+      "char_end": 14245,
+      "char_start": 13903,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "ARR was $2.24 billion and $2.07 billion as of June 30, 2026, and 2025, respectively. ARR increased approximately 8% compared to the prior period primarily due to an increase in subscriptions revenue resulting from an ongoing shift toward SaaS arrangements for both new and existing clients and expansion in transaction-based fee arrangements."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 14289,
+      "char_start": 14247,
+      "is_heading": true,
+      "ordinal": 28,
+      "text": "CRITICAL ACCOUNTING POLICIES AND ESTIMATES"
+    },
+    {
+      "block_idx": 334,
+      "char_end": 15388,
+      "char_start": 14291,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "Our discussion and analysis of our financial condition and results of operations is based upon our condensed consolidated financial statements. These condensed consolidated financial statements have been prepared following the requirements of GAAP for the interim period and require us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses, and related disclosure of contingent assets and liabilities. On an ongoing basis, we evaluate our estimates, including those related to revenue recognition and potential impairment of intangible assets and goodwill. As these are condensed financial statements, one should also read expanded information about our critical accounting policies and estimates provided in Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations\", included in our Form 10-K for the year ended December 31, 2025. There have been no material changes to our critical accounting policies and estimates from the information provided in our Form 10-K for the year ended December 31, 2025."
+    },
+    {
+      "block_idx": 335,
+      "char_end": 15407,
+      "char_start": 15390,
+      "is_heading": true,
+      "ordinal": 30,
+      "text": "Reclassifications"
+    },
+    {
+      "block_idx": 336,
+      "char_end": 15789,
+      "char_start": 15409,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "As of January 1, 2026, we have elected to combine software license and royalties revenue and hardware and other revenue into a single revenue category, along with a corresponding adjustment within cost of revenues on the condensed consolidated statement of income for all reporting periods presented to simplify presentation and enhance the usefulness of our financial statements."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 15824,
+      "char_start": 15791,
+      "is_heading": true,
+      "ordinal": 32,
+      "text": "ANALYSIS OF RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 340,
+      "char_end": 15834,
+      "char_start": 15826,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Revenues"
+    },
+    {
+      "block_idx": 341,
+      "char_end": 15849,
+      "char_start": 15836,
+      "is_heading": true,
+      "ordinal": 34,
+      "text": "Subscriptions"
+    },
+    {
+      "block_idx": 342,
+      "char_end": 15984,
+      "char_start": 15851,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "The following table sets forth a comparison of our subscriptions revenue for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 16163,
+      "char_start": 15986,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Subscriptions revenue consists of revenues derived from our SaaS arrangements and transaction-based fees primarily related to digital government services and payment processing."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 16174,
+      "char_start": 16165,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "SaaS fees"
+    },
+    {
+      "block_idx": 347,
+      "char_end": 16332,
+      "char_start": 16176,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "The following table sets forth a comparison of our subscriptions revenue derived from SaaS fees for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 349,
+      "char_end": 16929,
+      "char_start": 16334,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "For the three and six months ended June 30, 2026, SaaS fees grew 22% and 23%, respectively, compared to the prior period. The growth is primarily due to sales to new clients and expansions with existing clients, along with new SaaS revenues from existing on-premises clients converting to our SaaS offerings. Annual price increases for existing clients also contributed to the growth. SaaS revenues from recent acquisitions contributed $8.1 million and $11.6 million to the total SaaS revenue increase for the three and six months ended June 30, 2026, respectively, compared to the prior period."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 16953,
+      "char_start": 16931,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "Transaction-based fees"
+    },
+    {
+      "block_idx": 351,
+      "char_end": 17124,
+      "char_start": 16955,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "The following table sets forth a comparison of our subscriptions revenue derived from transaction-based fees for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 353,
+      "char_end": 17672,
+      "char_start": 17126,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "For the three and six months ended June 30, 2026, transaction-based fees grew 4% and 5%, respectively, compared to the prior period. The increase in transaction-based fees compared to prior period are from new transaction clients and volume increases from online payments and e-filing services, somewhat offset by the decline in revenues of approximately $12.5 million and $24.8 million, for the three and six months ended June 30, 2026, respectively, due to the wind-down in the fourth quarter of 2025 of one state's payment processing contract."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 17685,
+      "char_start": 17674,
+      "is_heading": true,
+      "ordinal": 43,
+      "text": "Maintenance"
+    },
+    {
+      "block_idx": 355,
+      "char_end": 17818,
+      "char_start": 17687,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "The following table sets forth a comparison of our maintenance revenue for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 18256,
+      "char_start": 17820,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "We provide maintenance and support services for on-premises clients that license our software products and certain third-party software. Maintenance revenue decreased 6% and 5%, respectively, for the three and six months ended June 30, 2026, compared to the prior period primarily due to the impact of clients converting from on-premises license arrangements to SaaS since June 30, 2025, partially offset by maintenance price increases."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 18279,
+      "char_start": 18258,
+      "is_heading": true,
+      "ordinal": 46,
+      "text": "Professional services"
+    },
+    {
+      "block_idx": 360,
+      "char_end": 18422,
+      "char_start": 18281,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "The following table sets forth a comparison of our professional services revenue for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 362,
+      "char_end": 18897,
+      "char_start": 18424,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Professional services revenue primarily consists of professional services billed in connection with implementing our software, converting client data, training client personnel, custom development activities, consulting, and property appraisal services. New clients who implement our software generally contract with us to provide the related professional services. Existing clients also periodically purchase additional training, consulting and minor programming services."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 19370,
+      "char_start": 18899,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Professional services revenue increased 8% and 1%, respectively, for the three and six months ended June 30, 2026, compared to the prior period. The increase in professional services revenues compared to prior period is primarily due to the timing of time and material projects and the timing of specific reserves taken in prior periods, partially offset by an intentional reduction in custom development, as well as efficiencies in the delivery of professional services."
+    },
+    {
+      "block_idx": 364,
+      "char_end": 19377,
+      "char_start": 19372,
+      "is_heading": true,
+      "ordinal": 50,
+      "text": "Other"
+    },
+    {
+      "block_idx": 365,
+      "char_end": 19500,
+      "char_start": 19379,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "The following table sets forth a comparison of other revenue for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 367,
+      "char_end": 20032,
+      "char_start": 19502,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Other revenue primarily consists of software licenses, royalties and computer hardware. Other revenue increased 14% and 10%, respectively, for the three and six months ended June 30, 2026, compared to the prior period. Other revenue increased primarily due to an increase in computer hardware revenue. The increase is somewhat offset by the decline in revenue from software licenses due to the ongoing shift in the mix of new software contracts to SaaS. Refer to the SaaS fees section for further details on our revenue mix shift."
+    },
+    {
+      "block_idx": 368,
+      "char_end": 20076,
+      "char_start": 20034,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "Cost of revenues and overall gross margins"
+    },
+    {
+      "block_idx": 369,
+      "char_end": 20228,
+      "char_start": 20078,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "The following table sets forth a comparison of the key components of our cost of revenues for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 372,
+      "char_end": 20283,
+      "char_start": 20230,
+      "is_heading": true,
+      "ordinal": 55,
+      "text": "Subscriptions, maintenance, and professional services"
+    },
+    {
+      "block_idx": 373,
+      "char_end": 20459,
+      "char_start": 20285,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "The following table sets forth a comparison of our costs of subscriptions, maintenance, and professional services for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 375,
+      "char_end": 21128,
+      "char_start": 20461,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "Cost of subscriptions, maintenance and professional services primarily consist of personnel costs related to implementation of our software, conversion of client data, training client personnel, public cloud hosting costs, support activities, and various other services such as custom development, ongoing operation of our SaaS solutions, property appraisal outsourcing activities, digital government services, and other transaction-based services such as e-filing. Other costs included are merchant and interchange fees required to process credit/debit card transactions and bank fees to process automated clearinghouse transactions related to our payments business."
+    },
+    {
+      "block_idx": 376,
+      "char_end": 22075,
+      "char_start": 21130,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "The cost of subscriptions, maintenance, and professional services for both the three and six months ended June 30, 2026, increased 5%, compared to the prior period. For the three months ended June 30, 2026, the increase is primarily due to a $19.0 million increase in merchant fees related to higher activity and an increase in interchange fee rates, an increase of $5.5 million in hosting costs as we expand our SaaS client base and transition from our proprietary data centers to the public cloud, and a $3.3 million increase from recent acquisitions. The increases were partially offset by an $11.0 million reduction in merchant fees, following the wind-down in the fourth quarter of 2025 of a state payment processing contract, and the redeployment of resources to research and development due to continued migration of clients to our SaaS products and the consolidation of versions of on-premises software products with support obligations."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 22854,
+      "char_start": 22077,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "For the six months ended June 30, 2026, the increase is primarily due to a $36.0 million increase in merchant fees related to higher activity and an increase in interchange fee rates, an increase of $11.4 million in hosting costs as we expand our SaaS client base and transition from our proprietary data centers to the public cloud, and a $4.3 million increase from recent acquisitions. The increases were partially offset by a $21.5 million reduction in merchant fees following the wind-down in the fourth quarter of 2025 of a state payment processing contract, and the redeployment of resources to research and development due to continued migration of clients to our SaaS products and the consolidation of versions of on-premises software products with support obligations."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 22892,
+      "char_start": 22856,
+      "is_heading": true,
+      "ordinal": 60,
+      "text": "Amortization of software development"
+    },
+    {
+      "block_idx": 379,
+      "char_end": 23042,
+      "char_start": 22894,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "The following table sets forth a comparison of our amortization of software development for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 381,
+      "char_end": 23487,
+      "char_start": 23044,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Amortization of software development costs included in cost of revenues primarily consists of personnel costs which were previously capitalized. We begin to amortize capitalized costs when a product is available for general release to clients. Amortization expense is determined on a product-by-product basis at a rate not less than straight-line basis over the software's remaining estimated economic life of, generally, three to seven years."
+    },
+    {
+      "block_idx": 382,
+      "char_end": 23692,
+      "char_start": 23489,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "For the three and six months ended June 30, 2026, amortization of software development costs increased 1% and 3%, respectively, compared to the prior period due to new products released in the past year."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 23727,
+      "char_start": 23694,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "Amortization of acquired software"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 23874,
+      "char_start": 23729,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "The following table sets forth a comparison of our amortization of acquired software for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 387,
+      "char_end": 24075,
+      "char_start": 23876,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Amortization expense related to acquired software attributable to business combinations is included with cost of revenues. The estimated useful lives of acquired software range from five to 10 years."
+    },
+    {
+      "block_idx": 388,
+      "char_end": 24388,
+      "char_start": 24077,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "For the three and six months ended June 30, 2026, amortization of acquired software declined 8% and 6%, respectively, compared to the prior period due to assets becoming fully amortized in the fourth quarter of 2025, partially offset by amortization of acquired software from new acquisitions completed in 2026."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 24395,
+      "char_start": 24390,
+      "is_heading": true,
+      "ordinal": 68,
+      "text": "Other"
+    },
+    {
+      "block_idx": 390,
+      "char_end": 24516,
+      "char_start": 24397,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "The following table sets forth a comparison of other costs for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 392,
+      "char_end": 24869,
+      "char_start": 24518,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Other costs primarily consist of costs related to software licenses and computer hardware. Software license costs primarily consist of direct third-party software costs. Computer hardware costs primarily consist of the costs of purchased inventory and other direct fulfillment costs. We do not have any direct costs associated with royalties revenues."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 25068,
+      "char_start": 24871,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Other costs for the three and six months ended June 30, 2026, increased 11% and 25%, respectively, compared to the prior period. The increase was primarily driven by higher computer hardware sales."
+    },
+    {
+      "block_idx": 394,
+      "char_end": 25212,
+      "char_start": 25070,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "The following table sets forth a comparison of gross profit and overall gross margin for the periods presented as of June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 396,
+      "char_end": 25801,
+      "char_start": 25214,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Overall gross margin. For the three and six months ended June 30, 2026, our blended gross margin increased 1.8% and 1.4%, respectively, compared to the prior period. For the three and six months ended June 30, 2026, the increase in overall gross margin compared to the prior period is primarily attributable to a shift in our revenue mix toward higher-margin SaaS revenues. That increase in the overall gross margin is partially offset by declines in software licenses and maintenance revenues and increases in merchant fees, hosting costs, and software development amortization expense."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 25830,
+      "char_start": 25803,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "Sales and marketing expense"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 26256,
+      "char_start": 25832,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Sales and marketing (\"S&M\") expense consists primarily of salaries, employee benefits, travel, share-based compensation expense, commissions and related overhead costs for sales and marketing employees, as well as professional fees, trade show activities, advertising costs and other marketing costs. The following table sets forth a comparison of our S&M expense for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 400,
+      "char_end": 26677,
+      "char_start": 26258,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "S&M expense as a percentage of revenues was 6.2% for both the three and six months ended June 30, 2026 compared to 6.1% and 6.3%, respectively, for the three and six months ended June 30, 2025. S&M expense increased 10% and 8%, respectively, compared to the prior period. The increase in S&M expense is primarily attributed to an increase in commission expense and higher personnel expense compared to the prior period."
+    },
+    {
+      "block_idx": 402,
+      "char_end": 26713,
+      "char_start": 26679,
+      "is_heading": true,
+      "ordinal": 77,
+      "text": "General and administrative expense"
+    },
+    {
+      "block_idx": 403,
+      "char_end": 27349,
+      "char_start": 26715,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "General and administrative (\"G&A\") expense consists primarily of personnel salaries and share-based compensation expense for general corporate functions including senior management, finance, accounting, legal, human resources and corporate development, as well as third-party professional fees, travel-related expenses, insurance, allocation of depreciation, facilities and IT support costs, amortization of software development for internal use, acquisition-related expenses and other administrative expenses. The following table sets forth a comparison of our G&A expense for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 405,
+      "char_end": 28446,
+      "char_start": 27351,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "G&A expense as a percentage of revenue was 14.5% and 14.1%, respectively, for the three and six months ended June 30, 2026 compared to 12.8% and 13.4%, respectively, for the three and six months ended June 30, 2025. G&A expense increased 22% and 14%, respectively, for the three and six months ended June 30, 2026, compared to the prior period. For the three months ended June 30, 2026, the increase in G&A expense was primarily attributable to a $7.1 million increase in professional fees primarily from ligation-related expenses, a $3.3 million increase in share-based compensation expense, a $2.3 million increase in acquisition and restructuring costs, and a $2.4 million increase in G&A expense from recent acquisitions. For the six months ended June 30, 2026, the G&A expense increase is attributable to a $6.9 million increase in professional services primarily from litigation-related expenses, a $4.7 million write-off of previously capitalized software projects, a $1.7 million increase in software/hardware expense, and a $2.6 million increase in G&A expense from recent acquisitions."
+    },
+    {
+      "block_idx": 406,
+      "char_end": 28480,
+      "char_start": 28448,
+      "is_heading": true,
+      "ordinal": 80,
+      "text": "Research and development expense"
+    },
+    {
+      "block_idx": 407,
+      "char_end": 28944,
+      "char_start": 28482,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Research and development expense consists primarily of salaries, employee benefits and related overhead costs associated with product development. Research and development expense consists mainly of costs associated with development of new functionality in our current products that do not qualify for capitalization. The following table sets forth a comparison of our research and development expense for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 409,
+      "char_end": 29453,
+      "char_start": 28946,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Research and development expense increased 24%, for both the three and six months ended June 30, 2026, compared to the prior period, with the majority of the increase due to the redeployment of resources to research and development resulting from the continued migration of clients to our SaaS products and version consolidation of on-premises software products with support obligations, together with increased investments in a number of new Tyler product development initiatives across our product suites."
+    },
+    {
+      "block_idx": 410,
+      "char_end": 29488,
+      "char_start": 29455,
+      "is_heading": true,
+      "ordinal": 83,
+      "text": "Amortization of other intangibles"
+    },
+    {
+      "block_idx": 411,
+      "char_end": 30142,
+      "char_start": 29490,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "Other intangibles represents the portion of purchase price allocated to the identified intangible assets for client-related intangibles, trade names and leases acquired. The remaining excess purchase price is allocated to goodwill that is not subject to amortization. Amortization expense related to acquired software is included with cost of revenues, while amortization expense of other intangibles is recorded as operating expense. The estimated useful lives of other intangibles range from one to 25 years. The following table sets forth a comparison of amortization of other intangibles for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 413,
+      "char_end": 30408,
+      "char_start": 30144,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Amortization of other intangibles increased 12% and 6%, respectively, for the three and six months ended June 30, 2026, compared to the prior period, primarily due to amortization of other intangibles from acquisitions completed in 2026 and fourth quarter of 2025."
+    },
+    {
+      "block_idx": 415,
+      "char_end": 30434,
+      "char_start": 30410,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "Segment Operating Income"
+    },
+    {
+      "block_idx": 416,
+      "char_end": 30587,
+      "char_start": 30436,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "The following table sets forth a comparison of the operating income by reportable segments for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 418,
+      "char_end": 30599,
+      "char_start": 30589,
+      "is_heading": true,
+      "ordinal": 88,
+      "text": "ES segment"
+    },
+    {
+      "block_idx": 419,
+      "char_end": 31403,
+      "char_start": 30601,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "For the three and six months ended June 30, 2026, the ES segment operating income increased 3% and 10%, respectively. For the three months ended June 30, 2026, the increase is primarily driven by a $50.5 million rise in subscriptions revenues resulting from the continued shift toward SaaS arrangements for both new and existing clients, as well as growth in certain transaction-based revenues. This increase was partially offset by higher expenses, including a $16.2 million increase in merchant fees, a $9.1 million increase in personnel expenses, a $5.3 million increase in professional fees primarily from litigation-related expenses, and a $4.8 million increase in hosting fees. Partially offsetting the increase is a $8.6 million decline in maintenance revenue and professional services revenues."
+    },
+    {
+      "block_idx": 420,
+      "char_end": 32053,
+      "char_start": 31405,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "For the six months ended June 30, 2026, the increase is primarily driven by an $117.1 million rise in subscriptions revenues resulting from the continued shift toward SaaS arrangements for both new and existing clients, as well as growth in certain transaction-based revenues. This increase was partially offset by higher expenses, including a $31.4 million increase in merchant fees, a $19.1 million increase in personnel expenses, a $9.3 million increase in hosting fees, a $6.2 million increase in professional services. Also partially offsetting the increase is a $13.5 million decline in maintenance revenue and professional services revenues."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 32065,
+      "char_start": 32055,
+      "is_heading": true,
+      "ordinal": 91,
+      "text": "PT segment"
+    },
+    {
+      "block_idx": 422,
+      "char_end": 32194,
+      "char_start": 32067,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "For the three and six months ended June 30, 2026, the PT segment operating income increased 31% and decreased 9%, respectively."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 32768,
+      "char_start": 32196,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "For the three months ended June 30, 2026, the increase in segment operating income is primarily driven by a $7.9 million increase in professional services revenue, due to timing of time and material projects and timing of specific reserves taken in prior periods, and other revenue from hardware sales. The increase is offset by a decline of approximately $12.5 million in transaction-based revenues, partially offset by a corresponding $11.0 million reduction in merchant fees, following the wind-down in the fourth quarter of 2025 of a state payment processing contract."
+    },
+    {
+      "block_idx": 424,
+      "char_end": 33418,
+      "char_start": 32770,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "For the six months ended June 30, 2026, the decrease in segment operating income is primarily driven by higher G&A expenses, including a $4.7 million write-off related to previously capitalized software projects. Also contributing to the decrease is a decline of approximately $24.8 million in transaction-based revenues, partially offset by a corresponding $21.5 million reduction in merchant fees, following the wind-down in the fourth quarter of 2025 of a state payment processing contract. Offsetting the decline in the PT operating income was a $6.4 million increase in the professional services revenue and other revenues from hardware sales."
+    },
+    {
+      "block_idx": 425,
+      "char_end": 33579,
+      "char_start": 33420,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "See Note 3, \"Segment and Related Information,\" for a reconciliation between our operating segment and consolidated financial results for the periods presented."
+    },
+    {
+      "block_idx": 426,
+      "char_end": 33597,
+      "char_start": 33581,
+      "is_heading": true,
+      "ordinal": 96,
+      "text": "Interest expense"
+    },
+    {
+      "block_idx": 427,
+      "char_end": 33727,
+      "char_start": 33599,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "The following table sets forth a comparison of our interest expense for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 429,
+      "char_end": 34044,
+      "char_start": 33729,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Interest expense is comprised of interest expense and non-usage and other fees associated with our borrowings. Interest expense in the three and six months ended June 30, 2026, increased 136% and 61%, respectively, compared to the prior period as a result of the 2031 Notes issued during the second quarter of 2026."
+    },
+    {
+      "block_idx": 431,
+      "char_end": 34088,
+      "char_start": 34046,
+      "is_heading": true,
+      "ordinal": 99,
+      "text": "Gain on remeasurement of equity investment"
+    },
+    {
+      "block_idx": 432,
+      "char_end": 34244,
+      "char_start": 34090,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "The following table sets forth a comparison of our gain on remeasurement of equity investment for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 434,
+      "char_end": 34533,
+      "char_start": 34246,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "For the three and six months ended June 30, 2026, the Company recognized a gain of $25.0 million as a result of remeasuring the previously held equity investment to its fair value on the acquisition date in connection with the FTR acquisition completed during the second quarter of 2026."
+    },
+    {
+      "block_idx": 435,
+      "char_end": 34552,
+      "char_start": 34535,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "Other income, net"
+    },
+    {
+      "block_idx": 436,
+      "char_end": 34684,
+      "char_start": 34554,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "The following table sets forth a comparison of our other income, net, for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 438,
+      "char_end": 35008,
+      "char_start": 34686,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Other income, net, is primarily comprised of interest income from invested cash. The change in other income, net, in the three and six months ended June 30, 2026, compared to the prior period is due to decreased interest income generated from lower invested cash balances during the first quarter of 2026 compared to 2025."
+    },
+    {
+      "block_idx": 439,
+      "char_end": 35030,
+      "char_start": 35010,
+      "is_heading": true,
+      "ordinal": 105,
+      "text": "Income tax provision"
+    },
+    {
+      "block_idx": 440,
+      "char_end": 35164,
+      "char_start": 35032,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "The following table sets forth a comparison of our income tax provision for the three and six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 442,
+      "char_end": 35454,
+      "char_start": 35166,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "The increase in the effective tax rate for the three and six months ended June 30, 2026, as compared to the prior period, is primarily due to decreases in excess tax benefits related to share-based compensation, partially offset by a nontaxable gain on remeasurement of equity investment."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 35866,
+      "char_start": 35456,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "The effective income tax rates for the periods presented are different from the statutory United States federal income tax rate of 21% primarily due to state income taxes, liabilities for uncertain tax positions, and non-deductible business expenses, partially offset by excess tax benefits related to share-based compensation, research tax credits, and a nontaxable gain on remeasurement of equity investment."
+    },
+    {
+      "block_idx": 445,
+      "char_end": 35901,
+      "char_start": 35868,
+      "is_heading": true,
+      "ordinal": 109,
+      "text": "FINANCIAL CONDITION AND LIQUIDITY"
+    },
+    {
+      "block_idx": 446,
+      "char_end": 36904,
+      "char_start": 35903,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "As of June 30, 2026, we have cash and cash equivalents of $895.4 million, compared to $1.0 billion as of December 31, 2025. We also have $119.9 million invested in investment grade corporate bonds, U.S. Treasuries and asset-backed securities as of June 30, 2026. These investments have varying maturity dates through 2027 and are held as available-for-sale. Net cash provided by operating activities continues to be our primary source of funds to finance operating needs and capital expenditures. Other potential capital resources include cash on hand, public and private issuances of debt or equity securities, and our revolving credit facility. It is possible that our ability to access the capital and credit markets in the future may be limited by economic conditions or other factors. We believe that our cash on hand, cash provided by operating activities, and available credit are sufficient to fund our working capital requirements and capital expenditures for at least the next twelve months."
+    },
+    {
+      "block_idx": 447,
+      "char_end": 37011,
+      "char_start": 36906,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "The following table sets forth a summary of cash flows for the six months ended June 30 ($ in thousands):"
+    },
+    {
+      "block_idx": 449,
+      "char_end": 38183,
+      "char_start": 37013,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "For the six months ended June 30, 2026, operating activities provided cash of $231.7 million, compared to $154.5 million in the six months ended June 30, 2025. Operating activities that provided cash were primarily comprised of net income of $174.7 million, with adjustments for non-cash depreciation and amortization charges of $74.8 million, non-cash share-based compensation expense of $80.8 million, non-cash gain on the remeasurement of equity investment of $25.0 million and non-cash amortization of operating lease right-of-use assets of $5.9 million. Changes in working capital, excluding cash, reduced cash provided by operating activities by approximately $79.5 million mainly due to higher accounts receivable. We have higher accounts receivable at June 30 because our annual maintenance billing cycle peaks in the second quarter. Also contributing to the decrease in working capital are timing of payments to and receipts from our government partners, timing of prepaid expenses, and timing of lease payments. These decreases were offset by an increase in deferred revenue and timing of deferred taxes associated with stock option activity during the period."
+    },
+    {
+      "block_idx": 450,
+      "char_end": 38728,
+      "char_start": 38185,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "Investing activities used cash of $202.4 million in the six months ended June 30, 2026, compared to $108.9 million used in the six months ended June 30, 2025. The cost of acquisitions, net of cash acquired during the period, was $214.3 million. We invested $51.5 million and received $73.8 million in proceeds from investment grade corporate bonds, U.S. Treasuries and asset-backed securities. Approximately $8.3 million was invested in property and equipment. Lastly, approximately $2.1 million of software development costs were capitalized."
+    },
+    {
+      "block_idx": 451,
+      "char_end": 39969,
+      "char_start": 38730,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "Financing activities used cash of $149.3 million in the six months ended June 30, 2026, compared to $2.8 million used in the six months ended June 30, 2025. On May 14, 2026, we issued $1.44 billion aggregate principal amount of 2031 Notes. The net proceeds from the issuance of the 2031 Notes were $1.41 billion, net of initial purchasers' discounts of $25.2 million and debt issuance costs of $4.4 million. In connection with the issuance of the 2031 Notes, the Company entered into privately negotiated Capped Call transactions (the \"Capped Calls\") with certain financial institutions at an aggregate cost of approximately $187.2 million. On March 15, 2026, the Company repaid the $600.0 million aggregate principal amount of the 2026 Notes in cash. In the six months ended June 30, 2026, we repurchased approximately $755.0 million of our common stock, excluding excise taxes, paid $22.1 million, net of cash proceeds received from stock option exercises, to satisfy employee tax-withholding obligation associated with settlement of equity awards, and received $9.2 million from employee stock purchase plan activity. Lastly, the Company incurred fees of $2.2 million in connection with the 2026 Credit Agreement signed on May 26, 2026."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 41312,
+      "char_start": 39971,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "On February 3, 2026, our Board of Directors authorized the repurchase of $1.0 billion of our common stock, which replaced and superseded all previous authorizations. On July 24, 2026, the Board of Directors authorized an additional $1.5 billion share repurchase plan. The plan allows us to repurchase shares at our discretion, and there is no expiration date. The plan replaces and supersedes any previous authorizations, except that the Company's Chief Executive Officer and Chief Financial Officer may continue to cause the Company to repurchase any amounts not yet repurchased under previous authorizations. Our share repurchase program allows us to repurchase shares at our discretion. Market conditions, as well as the volume of employee stock option exercises, influence the timing of the repurchases and the number of shares repurchased. Share repurchases are generally funded using our existing cash balances and borrowings under our credit facility and may occur through open market purchases and transactions structured through investment banking institutions, privately negotiated transactions and/or other mechanisms. There is no expiration date specified for the authorization. As of July 29, 2026, we have remaining authorization from our Board of Directors to repurchase up to approximately $1.745 billion of our common stock."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 42001,
+      "char_start": 41314,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "As of June 30, 2026, we had an aggregate principal amount of $1.44 billion of our 2031 Notes and no borrowings under the 2026 Credit Agreement, that has available borrowing capacity of $1.0 billion. On March 15, 2026, the Company repaid the $600.0 million aggregate principal amount of its 2026 Notes at maturity with the entire principal amount settled in cash, and no shares of common stock were issued upon settlement. In the six months ended June 30, 2026, and 2025, we paid interest of $2.1 million and $1.0 million, respectively. See Note 8, \"Debt,\" to the condensed consolidated financial statements for discussions of the 2026 Notes, the 2031 Notes and the 2026 Credit Agreement."
+    },
+    {
+      "block_idx": 455,
+      "char_end": 42232,
+      "char_start": 42003,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "On April 14, 2026, we completed the acquisition of the remaining equity of BFTR, LLC. The transaction had a cash purchase price, net of cash acquired of approximately $212.7 million, subject to customary post-closing adjustments."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 42376,
+      "char_start": 42234,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "We made income tax payments, net of refunds, of $16.5 million and $46.3 million in the six months ended June 30, 2026, and 2025, respectively."
+    },
+    {
+      "block_idx": 457,
+      "char_end": 42814,
+      "char_start": 42378,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "We anticipate that 2026 capital spending will be between $18.0 million and $20.0 million, including approximately $6.0 million of capitalized software development. We expect the majority of the other capital spending will consist of computer equipment and software for infrastructure replacements and expansion. Capital spending and cash tax payments are expected to be funded from existing cash balances and cash flows from operations."
+    },
+    {
+      "block_idx": 458,
+      "char_end": 43209,
+      "char_start": 42816,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "From time to time we engage in discussions with potential acquisition candidates. In order to pursue such opportunities, which could require significant commitments of capital, we may be required to incur debt or to issue additional potentially dilutive securities in the future. No assurance can be given as to our future acquisition opportunities and how such opportunities will be financed."
+    },
+    {
+      "block_idx": 459,
+      "char_end": 43477,
+      "char_start": 43211,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "We lease office facilities, transportation, and other equipment for use in our operations. Most of our leases are non-cancelable operating lease agreements with remaining terms of one to nine years. Some of these leases include options to extend for up to six years."
+    },
+    {
+      "block_idx": 460,
+      "char_end": 43984,
+      "char_start": 43479,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "There were no material changes to our future minimum contractual obligations since December 31, 2025, as previously disclosed in our 2025 Annual Report on Form 10-K filed with the SEC on February 18, 2026. Our estimated future obligations consist of debt, uncertain tax positions, leases, and purchase commitments as of June 30, 2026. Refer to Note 8, \"Debt,\" Note 11, \"Income Tax,\" Note 15, \"Leases,\" and Note 16, \"Commitments,\" to the condensed consolidated financial statements for related discussions."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 475,
+      "char_end": 1108,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "In addition to the other information set forth in this report, one should carefully consider the discussion of various risks and uncertainties contained in Part I, \"Item 1A. Risk Factors\" in our 2025 Annual Report on Form 10-K filed on February 18, 2026. We believe those risk factors are the most relevant to our business and could cause our results to differ materially from the forward-looking statements made by us. Please note, however, that those are not the only risk factors facing us. Additional risks that we do not consider material, or of which we are not currently aware, may also have an adverse impact on us. Our business, financial condition and results of operations could be seriously harmed if any of these risks or uncertainties actually occur or materialize. In that event, the market price for our common stock could decline, and our shareholders may lose all or part of their investment. During the six months ended June 30, 2026, there were no material changes in the information regarding risk factors contained in our Annual Report on Form 10-K for the year ended December 31, 2025."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000860731-26-000050",
+    "cik": 860731,
+    "download_status": "ok",
+    "mdna_end_block": 461,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 42880,
+    "mdna_n_paragraphs": 88,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 23,
+    "mdna_n_words": 6514,
+    "mdna_start_block": 300,
+    "mdna_status": "extracted",
+    "n_blocks": 502,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "tyl-20260630.htm",
+    "risk_end_block": 477,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 1108,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 187,
+    "risk_start_block": 474,
+    "risk_status": "no_material_changes",
+    "source_sha256": "d8c7f81ada53eef1aaff47b5d255611064905369ef4f210e387a740c3ec52c32",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/860731/000086073126000050/tyl-20260630.htm"
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "by_company": {
+    "ADBE": {
+      "discovered": 68,
+      "final": 50
+    },
+    "ADSK": {
+      "discovered": 68,
+      "final": 49
+    },
+    "ANSS": {
+      "discovered": 63,
+      "final": 0
+    },
+    "CA": {
+      "discovered": 39,
+      "final": 0
+    },
+    "CDNS": {
+      "discovered": 69,
+      "final": 44
+    },
+    "COUP": {
+      "discovered": 25,
+      "final": 0
+    },
+    "CRM": {
+      "discovered": 68,
+      "final": 45
+    },
+    "CTXS": {
+      "discovered": 54,
+      "final": 0
+    },
+    "CVLT": {
+      "discovered": 67,
+      "final": 17
+    },
+    "GEN": {
+      "discovered": 75,
+      "final": 44
+    },
+    "INTU": {
+      "discovered": 67,
+      "final": 29
+    },
+    "MANH": {
+      "discovered": 69,
+      "final": 21
+    },
+    "MSFT": {
+      "discovered": 68,
+      "final": 50
+    },
+    "NOW": {
+      "discovered": 58,
+      "final": 35
+    },
+    "NUAN": {
+      "discovered": 49,
+      "final": 0
+    },
+    "ORCL": {
+      "discovered": 68,
+      "final": 47
+    },
+    "PTC": {
+      "discovered": 67,
+      "final": 47
+    },
+    "SNPS": {
+      "discovered": 69,
+      "final": 50
+    },
+    "SPLK": {
+      "discovered": 47,
+      "final": 0
+    },
+    "TYL": {
+      "discovered": 68,
+      "final": 45
+    },
+    "VMW": {
+      "discovered": 56,
+      "final": 0
+    }
+  },
+  "n_companies_final": 14,
+  "note": "Funnel of the full research dataset; the sample package contains only a subset of events.",
+  "stages": [
+    {
+      "description": "Periodic reports discovered in the filing window",
+      "excluded": 0,
+      "reasons": {},
+      "remaining": 1282,
+      "stage": "discovered"
+    },
+    {
+      "description": "Original 10-Q (amendments and 10-Ks are outside the primary study)",
+      "excluded": 342,
+      "reasons": {
+        "amendment_not_primary_form": 28,
+        "form_10-K_outside_primary_study": 314
+      },
+      "remaining": 940,
+      "stage": "supported_form"
+    },
+    {
+      "description": "Accepted after the prior close and available by the decision cutoff",
+      "excluded": 182,
+      "reasons": {
+        "accepted_during_regular_session": 180,
+        "available_after_decision_cutoff": 2
+      },
+      "remaining": 758,
+      "stage": "eligible_timing"
+    },
+    {
+      "description": "One filing per company and target session",
+      "excluded": 1,
+      "reasons": {
+        "duplicate_company_target_session": 1
+      },
+      "remaining": 757,
+      "stage": "unique_event"
+    },
+    {
+      "description": "Target-session bar and 60-session threshold history are valid",
+      "excluded": 178,
+      "reasons": {
+        "price_history_unavailable_from_provider": 178
+      },
+      "remaining": 579,
+      "stage": "valid_price_history"
+    },
+    {
+      "description": "MD&A section extracted from the current filing",
+      "excluded": 0,
+      "reasons": {},
+      "remaining": 579,
+      "stage": "mdna_extracted"
+    },
+    {
+      "description": "Prior-year same-quarter 10-Q found and its MD&A extracted",
+      "excluded": 6,
+      "reasons": {
+        "reference_missing:prior_year_same_quarter_10q_not_found": 6
+      },
+      "remaining": 573,
+      "stage": "reference_usable"
+    },
+    {
+      "description": "Final experiment sample (common to all models)",
+      "excluded": 0,
+      "reasons": {},
+      "remaining": 573,
+      "stage": "final_sample"
+    }
+  ]
+}

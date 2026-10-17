@@ -1,0 +1,4565 @@
+[
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20788385180543728,
+        "val_log_loss": 0.6040073282953541
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20179954256942836,
+        "val_log_loss": 0.5877297893336901
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.200550155907721,
+        "val_log_loss": 0.5879534341030628
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2078846666088316,
+        "val_log_loss": 0.6203436633892262
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22146910650726376,
+        "val_log_loss": 0.682977219493954
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.206795158599513,
+        "val_log_loss": 0.6011513706929066
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20242980799791271,
+        "val_log_loss": 0.590677522788645
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20650256306731588,
+        "val_log_loss": 0.6124926048637472
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21930229705490312,
+        "val_log_loss": 0.6833836135506941
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.23550777484717675,
+        "val_log_loss": 0.8339491347792128
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20643544248664034,
+        "val_log_loss": 0.5995184509540116
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20115541105064375,
+        "val_log_loss": 0.5859025638853819
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2008025020227176,
+        "val_log_loss": 0.5954498134854723
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20921860118561406,
+        "val_log_loss": 0.6481827289377656
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22278677072247524,
+        "val_log_loss": 0.7697718427669309
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20676029313282268,
+        "val_log_loss": 0.6011113688443683
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20227941781949757,
+        "val_log_loss": 0.5904954511166591
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20596727693155517,
+        "val_log_loss": 0.6113018143236351
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2182632270770359,
+        "val_log_loss": 0.6777763286690391
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.23545586082296985,
+        "val_log_loss": 0.8157257951411999
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20529103372921845,
+        "val_log_loss": 0.5965774700121907
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1991611307297414,
+        "val_log_loss": 0.5808926667601843
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.19943810760304123,
+        "val_log_loss": 0.5934720967524996
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20769266888790786,
+        "val_log_loss": 0.656488521833637
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2195473482298945,
+        "val_log_loss": 0.8084659190190601
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20804909557031462,
+        "val_log_loss": 0.6042199273097064
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20503336410410772,
+        "val_log_loss": 0.5968736102558314
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20979800581083705,
+        "val_log_loss": 0.6219845368198382
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.22218320625160912,
+        "val_log_loss": 0.6962086372794072
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2429258214896558,
+        "val_log_loss": 0.8438216850527454
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.19544517841526093,
+        "val_log_loss": 0.5737469955991025
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.19544517841526093,
+        "val_log_loss": 0.5737469955991025
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.19124662917351212,
+        "val_log_loss": 0.5753448568956404
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.19544517841526093,
+        "val_log_loss": 0.5737469955991025
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.19124662917351212,
+        "val_log_loss": 0.5753448568956404
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2063032034485311,
+        "val_log_loss": 0.6222705808862029
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.2063032034485311,
+        "val_log_loss": 0.6222705808862029
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.214407220109663,
+        "val_log_loss": 0.6846056675703995
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2063032034485311,
+        "val_log_loss": 0.6222705808862029
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.214407220109663,
+        "val_log_loss": 0.6846056675703995
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2026149439789189,
+        "val_log_loss": 0.6157108507364476
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.2026149439789189,
+        "val_log_loss": 0.6157108507364476
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.20011115850954578,
+        "val_log_loss": 0.692152811901315
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2026149439789189,
+        "val_log_loss": 0.6157108507364476
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.20011115850954578,
+        "val_log_loss": 0.692152811901315
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2014
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.220847432655633,
+        "val_log_loss": 0.6360387053230663
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2290811098379003,
+        "val_log_loss": 0.6544044970585904
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.24133673709962677,
+        "val_log_loss": 0.6840295591717538
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.24983822144871118,
+        "val_log_loss": 0.7066170807080017
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.25195235938326904,
+        "val_log_loss": 0.7098363876401876
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.22124753660656282,
+        "val_log_loss": 0.6362452745550501
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.23067870616165992,
+        "val_log_loss": 0.6565982325782146
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.24704477604805397,
+        "val_log_loss": 0.6968579277512076
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2641531027070042,
+        "val_log_loss": 0.7473303715439656
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.278238881523763,
+        "val_log_loss": 0.7920851005541724
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2191772326913361,
+        "val_log_loss": 0.6319633464031533
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.22417403843374933,
+        "val_log_loss": 0.6443030366643447
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.23431801666367372,
+        "val_log_loss": 0.6755514968449597
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.25152556926941194,
+        "val_log_loss": 0.7271241586886513
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.28359429857460783,
+        "val_log_loss": 0.8107145938295113
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.221316923527567,
+        "val_log_loss": 0.6363918777011612
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.23093276087416276,
+        "val_log_loss": 0.6570598202656783
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.24827907262401955,
+        "val_log_loss": 0.6989399972029278
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.26769463118796294,
+        "val_log_loss": 0.7550007397466866
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.28370702313585794,
+        "val_log_loss": 0.8123951846414728
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21874440886264207,
+        "val_log_loss": 0.6308893537847553
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2251659367407934,
+        "val_log_loss": 0.6474248668571551
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.23843601863686176,
+        "val_log_loss": 0.6928552094203411
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2546358662254158,
+        "val_log_loss": 0.7627773279022907
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.27078376287194567,
+        "val_log_loss": 0.8295326438084781
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2219980353068119,
+        "val_log_loss": 0.6381539008416013
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2311556549244002,
+        "val_log_loss": 0.6576123390126684
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.24682269877882598,
+        "val_log_loss": 0.695257624045715
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2644321420971936,
+        "val_log_loss": 0.7463095243085209
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.28204998820528226,
+        "val_log_loss": 0.8070967685106983
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.21409109160859469,
+        "val_log_loss": 0.6174516540936481
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.23336378078044223,
+        "val_log_loss": 0.6703245563219109
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.30253005020629026,
+        "val_log_loss": 0.8837987816660503
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.23414064664866516,
+        "val_log_loss": 0.6719655779657688
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.30209877654637685,
+        "val_log_loss": 0.8817671511705722
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2102707875036814,
+        "val_log_loss": 0.6057375202567926
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.20393081632497373,
+        "val_log_loss": 0.5799891812509705
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.21333030848397946,
+        "val_log_loss": 0.5981223974577102
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.20223497902664173,
+        "val_log_loss": 0.5762371032602259
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2036317175434328,
+        "val_log_loss": 0.5720448447365574
+      }
+    ],
+    "chosen": [
+      3,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2042628769463612,
+        "val_log_loss": 0.602753673517566
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.22909039794252242,
+        "val_log_loss": 0.6770391003359243
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.25567546644682626,
+        "val_log_loss": 0.8411576757170695
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.22871556520509626,
+        "val_log_loss": 0.6766419137169147
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.24811886508336628,
+        "val_log_loss": 0.8326780625661063
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2015
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21193022144693532,
+        "val_log_loss": 0.6185466115367565
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20990047035341855,
+        "val_log_loss": 0.6190283302899805
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20420924371727253,
+        "val_log_loss": 0.6134413316030616
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.19614182298297392,
+        "val_log_loss": 0.6001420249939731
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.18689543634263872,
+        "val_log_loss": 0.5839214446154997
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2087469970785133,
+        "val_log_loss": 0.6105338093684648
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20410091094133648,
+        "val_log_loss": 0.6031488135156333
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.19765108604183304,
+        "val_log_loss": 0.5915327507552538
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.19087933808802005,
+        "val_log_loss": 0.5759823319770584
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.18354498338569966,
+        "val_log_loss": 0.555981435738745
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.207945556773669,
+        "val_log_loss": 0.6103611688745436
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2054923363345743,
+        "val_log_loss": 0.6116989540552079
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.21028057671952863,
+        "val_log_loss": 0.6329835695346505
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.22607674082903845,
+        "val_log_loss": 0.6867890299655808
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.25167646985987646,
+        "val_log_loss": 0.80809298898694
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20878897590196333,
+        "val_log_loss": 0.6106318617142208
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20425906712312308,
+        "val_log_loss": 0.6033714066768431
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.19850084227723944,
+        "val_log_loss": 0.5926058351654966
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.194122375466213,
+        "val_log_loss": 0.5813998128043438
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.19226651897753852,
+        "val_log_loss": 0.5712870642287677
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.208837623181163,
+        "val_log_loss": 0.6123702145889314
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20698603281298164,
+        "val_log_loss": 0.6151369831780735
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20918226422104408,
+        "val_log_loss": 0.6305855166195654
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21547119962454644,
+        "val_log_loss": 0.6510269020107451
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22460210372837972,
+        "val_log_loss": 0.6728809051902077
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20785699669910987,
+        "val_log_loss": 0.6084503537153496
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20268361838994348,
+        "val_log_loss": 0.5997676891635907
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.198343834788961,
+        "val_log_loss": 0.5917677238864456
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.19869063530724806,
+        "val_log_loss": 0.5916804080949599
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.20558435475358466,
+        "val_log_loss": 0.6083601979124086
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.21965471466997075,
+        "val_log_loss": 0.6395416911988764
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.23064069428234937,
+        "val_log_loss": 0.6753842466055031
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.26233858569132007,
+        "val_log_loss": 0.7634166639677353
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.22849886793056431,
+        "val_log_loss": 0.6646627014921215
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2662605399338536,
+        "val_log_loss": 0.7656425653365417
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.21934079313103336,
+        "val_log_loss": 0.6356939682762979
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.2375830367415393,
+        "val_log_loss": 0.664787761358674
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.26958970029903484,
+        "val_log_loss": 0.811219606461093
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.22266672691293746,
+        "val_log_loss": 0.620267807474577
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.26859461327752715,
+        "val_log_loss": 0.7822486094248322
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.21799963506504033,
+        "val_log_loss": 0.6336074556895939
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.23409920223970507,
+        "val_log_loss": 0.6821172580349295
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.2708117833635779,
+        "val_log_loss": 0.8381810260513813
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.23871655937177072,
+        "val_log_loss": 0.7137578587417117
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.25357736886102294,
+        "val_log_loss": 0.8516254357430414
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2016
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1410099291550391,
+        "val_log_loss": 0.4595733562839069
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.13974200348778765,
+        "val_log_loss": 0.4526458961983511
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.13585181329870222,
+        "val_log_loss": 0.438933364358816
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.13007832156983395,
+        "val_log_loss": 0.42233846940188663
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.12474246873693261,
+        "val_log_loss": 0.40687159606266776
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.13222633689492175,
+        "val_log_loss": 0.43697535910650936
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.12479374519226892,
+        "val_log_loss": 0.41406274271220217
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.11652432340231732,
+        "val_log_loss": 0.38819152877465884
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.11269508351493979,
+        "val_log_loss": 0.3738633127246613
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.11585907384745515,
+        "val_log_loss": 0.3767461173186542
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1314712461933909,
+        "val_log_loss": 0.434401112038914
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.12515049480522322,
+        "val_log_loss": 0.41369997780534595
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.11906313083618202,
+        "val_log_loss": 0.392630593594149
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1174457541800088,
+        "val_log_loss": 0.38188821403138995
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.12439913867635642,
+        "val_log_loss": 0.3896317519096918
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.13235908691845108,
+        "val_log_loss": 0.4373696904264397
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.12528691264922462,
+        "val_log_loss": 0.41567067820262815
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.11813641646243885,
+        "val_log_loss": 0.3929001735707622
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.11666297864677126,
+        "val_log_loss": 0.3846017136978563
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.12288865684182879,
+        "val_log_loss": 0.3965270012062589
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1304964557463339,
+        "val_log_loss": 0.4319431403567807
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.12248023501299814,
+        "val_log_loss": 0.40679662446956216
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.11313026135030742,
+        "val_log_loss": 0.37670197729773136
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.10814305230338193,
+        "val_log_loss": 0.354120312103041
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.11161131783250401,
+        "val_log_loss": 0.3467363902727718
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.13286240767579247,
+        "val_log_loss": 0.4384315302259081
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1264150208988473,
+        "val_log_loss": 0.4176129443450571
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.12024022379204823,
+        "val_log_loss": 0.3960509114320249
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.12009102349059378,
+        "val_log_loss": 0.38916897506838566
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.13277296366809072,
+        "val_log_loss": 0.4102523446605746
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.11810320465100146,
+        "val_log_loss": 0.40108512182594763
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.11234024635062567,
+        "val_log_loss": 0.3661890973026278
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.10188226736506327,
+        "val_log_loss": 0.3282542348787245
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.10386526343398543,
+        "val_log_loss": 0.34140557904665225
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.09739730871625464,
+        "val_log_loss": 0.3154406711438068
+      }
+    ],
+    "chosen": [
+      3,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.10930756735074156,
+        "val_log_loss": 0.37919059542106015
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.10351653877195734,
+        "val_log_loss": 0.3499101611983186
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.11435903481840237,
+        "val_log_loss": 0.34745018906328445
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.09284627999733305,
+        "val_log_loss": 0.3172627575258732
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.0924717977877245,
+        "val_log_loss": 0.2843924496482425
+      }
+    ],
+    "chosen": [
+      3,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.11674049207081738,
+        "val_log_loss": 0.39634222868132635
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.10252484468278744,
+        "val_log_loss": 0.3540404984863011
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.09933571864840883,
+        "val_log_loss": 0.3253158456026842
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.0930173325760962,
+        "val_log_loss": 0.325109644880658
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.10074591878158323,
+        "val_log_loss": 0.322409592330981
+      }
+    ],
+    "chosen": [
+      3,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2017
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16720198289987706,
+        "val_log_loss": 0.5130937154452694
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16099396211691058,
+        "val_log_loss": 0.49746298435673664
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.15602848818006276,
+        "val_log_loss": 0.48371108333020263
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.15307954806204924,
+        "val_log_loss": 0.4740355121169999
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1542533103471499,
+        "val_log_loss": 0.4729417645896283
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16713829266489796,
+        "val_log_loss": 0.5099543605378039
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16356864095670443,
+        "val_log_loss": 0.50182095431876
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.159274628704321,
+        "val_log_loss": 0.499326312989844
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.15343577069666597,
+        "val_log_loss": 0.4920096062684067
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.14907519007045975,
+        "val_log_loss": 0.48229691671615976
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16460802532225027,
+        "val_log_loss": 0.5021178124426644
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1588896926087639,
+        "val_log_loss": 0.4876266751731857
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1527880913226129,
+        "val_log_loss": 0.48148263579306194
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1480223153148495,
+        "val_log_loss": 0.47538472632946094
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.14566696539154667,
+        "val_log_loss": 0.46120695641578346
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16725847044013473,
+        "val_log_loss": 0.5103288879440379
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16342303834813157,
+        "val_log_loss": 0.5013224585087706
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.15838697006146302,
+        "val_log_loss": 0.49640441285226233
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.15110321625819734,
+        "val_log_loss": 0.4850705260727934
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.14431323151590597,
+        "val_log_loss": 0.4696300565851952
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16628964669813764,
+        "val_log_loss": 0.507080115225488
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16206515276225106,
+        "val_log_loss": 0.4977123647440274
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1567638047269159,
+        "val_log_loss": 0.495440523612103
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.15215538896283198,
+        "val_log_loss": 0.4932469968002451
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.15214238451105042,
+        "val_log_loss": 0.4965855844338273
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16518325800292666,
+        "val_log_loss": 0.5044035254244729
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16018125478238132,
+        "val_log_loss": 0.4920147876552594
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.15509068703450915,
+        "val_log_loss": 0.4875021819035883
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.14966234151819155,
+        "val_log_loss": 0.48082406717467235
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.14548469057964475,
+        "val_log_loss": 0.46818759983758335
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.16179582304886164,
+        "val_log_loss": 0.5025184187637048
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.16684635272834275,
+        "val_log_loss": 0.5069700874568882
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.1882844932654216,
+        "val_log_loss": 0.5500928939424252
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.16344053903441125,
+        "val_log_loss": 0.4974597212463691
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.19193722669712687,
+        "val_log_loss": 0.5923097994509602
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.16336129841166844,
+        "val_log_loss": 0.5038863276722199
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.1356699525875693,
+        "val_log_loss": 0.44075546795510345
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.11950442921408595,
+        "val_log_loss": 0.3950604165144459
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.11949818992086894,
+        "val_log_loss": 0.3930076649203165
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.10955857377562098,
+        "val_log_loss": 0.3582318837092267
+      }
+    ],
+    "chosen": [
+      3,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1692736292347956,
+        "val_log_loss": 0.5214915773228467
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.15751674650468386,
+        "val_log_loss": 0.4943434027014662
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.15506204696297346,
+        "val_log_loss": 0.49392501667878813
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.15421749554147599,
+        "val_log_loss": 0.4854351950059456
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.16518218830927184,
+        "val_log_loss": 0.520004298513692
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2018
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17686458508111466,
+        "val_log_loss": 0.5348936837999518
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17025429452145843,
+        "val_log_loss": 0.5206416404495084
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16914218395264108,
+        "val_log_loss": 0.5192996988330614
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1752264527439871,
+        "val_log_loss": 0.5337844321407678
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.18692702944105785,
+        "val_log_loss": 0.5600887590418445
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17354364213227264,
+        "val_log_loss": 0.5264718332879738
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17309283631989403,
+        "val_log_loss": 0.526210647020904
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.18843666953738045,
+        "val_log_loss": 0.5622712808566286
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2148354974051402,
+        "val_log_loss": 0.6279745192463263
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2474936146776803,
+        "val_log_loss": 0.7189355743071199
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17113489884714744,
+        "val_log_loss": 0.5223536504237409
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16800529866370992,
+        "val_log_loss": 0.5176422567774214
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17780892269619006,
+        "val_log_loss": 0.542684541308247
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20197052473499003,
+        "val_log_loss": 0.6041181864199437
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.24221787476201193,
+        "val_log_loss": 0.7191452157808069
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17340483304101223,
+        "val_log_loss": 0.5261319062127698
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17108364149036975,
+        "val_log_loss": 0.5214745962524917
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1834745677398815,
+        "val_log_loss": 0.5499574500607428
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2098817199948156,
+        "val_log_loss": 0.6129394446949751
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.24560428912890667,
+        "val_log_loss": 0.707675505658924
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17239040958598925,
+        "val_log_loss": 0.5248519258607084
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1718155276213297,
+        "val_log_loss": 0.5254584776273116
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1870480572708804,
+        "val_log_loss": 0.5622582049806234
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21500706652865617,
+        "val_log_loss": 0.6321924996911402
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.25227494984832455,
+        "val_log_loss": 0.7377388569103569
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17262783362982703,
+        "val_log_loss": 0.524774119301439
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17297678069367997,
+        "val_log_loss": 0.5270369818886432
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.19012929703415507,
+        "val_log_loss": 0.5683739526445979
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2187899251868552,
+        "val_log_loss": 0.643397583628592
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.25842184348498237,
+        "val_log_loss": 0.762118065345219
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1721067594974062,
+        "val_log_loss": 0.5228308872724622
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.19198510411052544,
+        "val_log_loss": 0.5571129086056456
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.23273546715005072,
+        "val_log_loss": 0.6692542315925651
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.21326812312462867,
+        "val_log_loss": 0.6150037351246048
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2477515279308599,
+        "val_log_loss": 0.7457759732983549
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1586215496252157,
+        "val_log_loss": 0.49339489004432013
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.1880094373709144,
+        "val_log_loss": 0.5600666863644017
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.21893321819379216,
+        "val_log_loss": 0.6752538001361934
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2184928742074031,
+        "val_log_loss": 0.6500283017015832
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2526663065079879,
+        "val_log_loss": 0.8439075009800997
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.15956910731200058,
+        "val_log_loss": 0.49461099787919455
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.15169184578235884,
+        "val_log_loss": 0.4735813827802486
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.16516625521961353,
+        "val_log_loss": 0.5590653504761011
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.17914022971145507,
+        "val_log_loss": 0.5465375139702171
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.20550462566853753,
+        "val_log_loss": 0.6938568800758749
+      }
+    ],
+    "chosen": [
+      2,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2019
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17040576107220098,
+        "val_log_loss": 0.5252462102476062
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16881218937264308,
+        "val_log_loss": 0.5235230939155414
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1692605803540042,
+        "val_log_loss": 0.5242234719013931
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1699636695914151,
+        "val_log_loss": 0.522470680591226
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17065903308750827,
+        "val_log_loss": 0.521019370917887
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1688925252887051,
+        "val_log_loss": 0.5240881121575852
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16834610872650646,
+        "val_log_loss": 0.5279862166335348
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17167820393159652,
+        "val_log_loss": 0.5392094516228964
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.17431455593228964,
+        "val_log_loss": 0.545286623467386
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17476560085989312,
+        "val_log_loss": 0.5461048510433506
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16875969041716185,
+        "val_log_loss": 0.5226719311508715
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16695825005572315,
+        "val_log_loss": 0.5212856839862985
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16741386258716517,
+        "val_log_loss": 0.5246064138395169
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16815942704214804,
+        "val_log_loss": 0.5279554589299256
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17014862008044127,
+        "val_log_loss": 0.5373182161601936
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16963463655531635,
+        "val_log_loss": 0.5261818400834629
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17014711587602813,
+        "val_log_loss": 0.5327502542038063
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17520672637206666,
+        "val_log_loss": 0.5468550914018707
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.17931486900032798,
+        "val_log_loss": 0.5543902184986365
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.18090993434509361,
+        "val_log_loss": 0.5552634295031916
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1689390043204381,
+        "val_log_loss": 0.5227006289354444
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16757954200920522,
+        "val_log_loss": 0.5241474510636734
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16832683742164703,
+        "val_log_loss": 0.5331782307489904
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16868433062095728,
+        "val_log_loss": 0.5405994601031551
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16844460661370306,
+        "val_log_loss": 0.5476943382471801
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16815328399971005,
+        "val_log_loss": 0.5231893502834168
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16741273581993296,
+        "val_log_loss": 0.5250427531766884
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17224817791753574,
+        "val_log_loss": 0.5349501046105061
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.17680544145341764,
+        "val_log_loss": 0.5425100270068918
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17858883296182715,
+        "val_log_loss": 0.546468032376016
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1661113726227378,
+        "val_log_loss": 0.4991708544072345
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.17788457763393936,
+        "val_log_loss": 0.5163884953369328
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.19132764045933487,
+        "val_log_loss": 0.5478945862940326
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.18931407792997218,
+        "val_log_loss": 0.550508956345664
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.20116728860198665,
+        "val_log_loss": 0.5847004292543839
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.15598090619488153,
+        "val_log_loss": 0.48693003728542805
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.15848285220794164,
+        "val_log_loss": 0.4748578378051913
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.16872008475807035,
+        "val_log_loss": 0.4857784689663458
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.16998257622919763,
+        "val_log_loss": 0.4971246649297001
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.19706718214855087,
+        "val_log_loss": 0.5721941449168946
+      }
+    ],
+    "chosen": [
+      2,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1550287554666479,
+        "val_log_loss": 0.48031430153030186
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.1600168090550137,
+        "val_log_loss": 0.48175389814129455
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.17516695718579045,
+        "val_log_loss": 0.5344760005849729
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.1747937575762544,
+        "val_log_loss": 0.5197303044006554
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.19353403871431002,
+        "val_log_loss": 0.6392837628450729
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2020
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17602416602926313,
+        "val_log_loss": 0.5335357979235993
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16903960936551837,
+        "val_log_loss": 0.5210584126808003
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16516024633210794,
+        "val_log_loss": 0.5165639078574572
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16452676536162444,
+        "val_log_loss": 0.51605814812547
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16691651929254164,
+        "val_log_loss": 0.5187619716664288
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17286731420755624,
+        "val_log_loss": 0.5281285961465652
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16677126617042648,
+        "val_log_loss": 0.5165848124080082
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16557331229226363,
+        "val_log_loss": 0.5147587652042913
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1665355943780943,
+        "val_log_loss": 0.5145358041805653
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16976438152703002,
+        "val_log_loss": 0.5157083749549797
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16922507957445043,
+        "val_log_loss": 0.5198360390299682
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16225420948126495,
+        "val_log_loss": 0.5070049698126124
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1624987338282735,
+        "val_log_loss": 0.5104978069733881
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16706962298234268,
+        "val_log_loss": 0.5220546285818598
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1759499956444309,
+        "val_log_loss": 0.5405060177410849
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17303470418630196,
+        "val_log_loss": 0.5286518789154125
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1677874052009049,
+        "val_log_loss": 0.519725680513494
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1690457994120962,
+        "val_log_loss": 0.5256635240699299
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1728274537011606,
+        "val_log_loss": 0.5345543843067831
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17847486544338978,
+        "val_log_loss": 0.543491583533489
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17141835733635793,
+        "val_log_loss": 0.5249357179089815
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16363682210461952,
+        "val_log_loss": 0.5106503849215519
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.1606745064635089,
+        "val_log_loss": 0.5061367928555651
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16128694572563007,
+        "val_log_loss": 0.5060237725042048
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16551903097442222,
+        "val_log_loss": 0.5099003900583797
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17033054915741377,
+        "val_log_loss": 0.5229273830174928
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16448808820200364,
+        "val_log_loss": 0.5126659038988235
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16487713485561215,
+        "val_log_loss": 0.5160771968222565
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16771492586286144,
+        "val_log_loss": 0.522734009506251
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17312194850450113,
+        "val_log_loss": 0.5313819209077061
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.18454953927295398,
+        "val_log_loss": 0.5606367856026792
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.18121414433944763,
+        "val_log_loss": 0.5567780865458971
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.1958835396302441,
+        "val_log_loss": 0.627571048170016
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.18141414414356213,
+        "val_log_loss": 0.5538856861367266
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.20114910843270142,
+        "val_log_loss": 0.6518945377330873
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.18275690523368512,
+        "val_log_loss": 0.5660549108070937
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.18232487665677188,
+        "val_log_loss": 0.581105530985743
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.16929892907153532,
+        "val_log_loss": 0.5708198211383244
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.1820760931293831,
+        "val_log_loss": 0.5767693422044625
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.171501568188005,
+        "val_log_loss": 0.5854913230312564
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.17182988240464186,
+        "val_log_loss": 0.5328015996065073
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.16601366316380184,
+        "val_log_loss": 0.527105762864352
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.16216068879115653,
+        "val_log_loss": 0.5128199977053866
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.18280716610213743,
+        "val_log_loss": 0.591286642781774
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.16281270812469056,
+        "val_log_loss": 0.5555092391827205
+      }
+    ],
+    "chosen": [
+      2,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2021
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.15328575982977777,
+        "val_log_loss": 0.48480057143724725
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.15257056218480855,
+        "val_log_loss": 0.479399905444607
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.14667373875440698,
+        "val_log_loss": 0.4602024988149064
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1422264236943512,
+        "val_log_loss": 0.44304160024525235
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.14312882933524101,
+        "val_log_loss": 0.43800729783091225
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.15886099463923356,
+        "val_log_loss": 0.49730378633816247
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.161397476149864,
+        "val_log_loss": 0.4989783809097314
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.15939478822816996,
+        "val_log_loss": 0.4894690297300606
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.15669001493083365,
+        "val_log_loss": 0.481864292170453
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1556662336354064,
+        "val_log_loss": 0.48426995638301973
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1605662613676209,
+        "val_log_loss": 0.49975627606141887
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17021675198016767,
+        "val_log_loss": 0.5155621311306395
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.18103809729783762,
+        "val_log_loss": 0.5333783366857434
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.18944581658610601,
+        "val_log_loss": 0.5531532887264538
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.19640004382785348,
+        "val_log_loss": 0.5823027625204835
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.15916012997816223,
+        "val_log_loss": 0.4975358922393393
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16336628726187138,
+        "val_log_loss": 0.5016007416324227
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16406522581915087,
+        "val_log_loss": 0.496801447039889
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16189855629877845,
+        "val_log_loss": 0.4914381075997248
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16001219599826452,
+        "val_log_loss": 0.4932807210610983
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.15892679227254472,
+        "val_log_loss": 0.4979926255846432
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16248968235647915,
+        "val_log_loss": 0.5030384071751328
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16255480242628742,
+        "val_log_loss": 0.4998443307323646
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16344150425587503,
+        "val_log_loss": 0.5015112301987182
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.16696937396327696,
+        "val_log_loss": 0.5176233485300664
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.15946006474024232,
+        "val_log_loss": 0.49712743309911017
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.16479057634445626,
+        "val_log_loss": 0.5042721670059196
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16679163595240595,
+        "val_log_loss": 0.5032104678847628
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.16748742484256826,
+        "val_log_loss": 0.5020151072066936
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1684303366839058,
+        "val_log_loss": 0.5076745127499256
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.17191920633731156,
+        "val_log_loss": 0.5314229484186322
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.17218408190142326,
+        "val_log_loss": 0.5441707607357485
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.17871388016361436,
+        "val_log_loss": 0.584787310518503
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.1708085658567027,
+        "val_log_loss": 0.5504871324208378
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.18197898251533884,
+        "val_log_loss": 0.6255040856792383
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1834019485479274,
+        "val_log_loss": 0.5542240568333094
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.19319204427857925,
+        "val_log_loss": 0.5852471011882753
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.18289688315589997,
+        "val_log_loss": 0.5879478276531146
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.18831328509313724,
+        "val_log_loss": 0.5870177558595623
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.18953168943205762,
+        "val_log_loss": 0.6859247798219121
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.1776297232376609,
+        "val_log_loss": 0.5406036965568494
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.18352272008737167,
+        "val_log_loss": 0.5686137812762764
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.1805860192076995,
+        "val_log_loss": 0.5892591764437123
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.17662577386011838,
+        "val_log_loss": 0.5576804136445107
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.16857065224501303,
+        "val_log_loss": 0.5956255244815338
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2022
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.19387738124582227,
+        "val_log_loss": 0.5720030216555758
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.19408137475202059,
+        "val_log_loss": 0.571680369285042
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.19682582537416254,
+        "val_log_loss": 0.5793903112636437
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20252188820721706,
+        "val_log_loss": 0.5958859563159598
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2100914539803308,
+        "val_log_loss": 0.6166987758480784
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1980200997648774,
+        "val_log_loss": 0.5792776499074886
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20294835271789718,
+        "val_log_loss": 0.5870398546539011
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.21039437476782374,
+        "val_log_loss": 0.6018855705098937
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2187922441606546,
+        "val_log_loss": 0.6212842190119854
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22792673676123254,
+        "val_log_loss": 0.6437121806119248
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20529370252768087,
+        "val_log_loss": 0.5985260001094175
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21215992528997288,
+        "val_log_loss": 0.6108969109991346
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.21966628270821315,
+        "val_log_loss": 0.6237192746016276
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.22794197232087418,
+        "val_log_loss": 0.6383982401926631
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.23781470827505227,
+        "val_log_loss": 0.6585041481577966
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.19732517160460883,
+        "val_log_loss": 0.5772812621516922
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20144469389996222,
+        "val_log_loss": 0.5823685505231236
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2081906576326934,
+        "val_log_loss": 0.5943395392517901
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21646674360903648,
+        "val_log_loss": 0.6122007864083164
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22576453725573836,
+        "val_log_loss": 0.6337993098178262
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.20440272328244183,
+        "val_log_loss": 0.595872042748965
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21220464191578625,
+        "val_log_loss": 0.6106132515971766
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.22119575064909613,
+        "val_log_loss": 0.6274753110779356
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.23050090474136237,
+        "val_log_loss": 0.6455740351908031
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.24065872989680523,
+        "val_log_loss": 0.6667485732694762
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.19989609362152186,
+        "val_log_loss": 0.584721927202861
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20420002787622327,
+        "val_log_loss": 0.5914838955760746
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20960788938356084,
+        "val_log_loss": 0.6012949604306859
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21621590350638958,
+        "val_log_loss": 0.6152140287208647
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.22441119437032508,
+        "val_log_loss": 0.6338329110947063
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.20614504220055913,
+        "val_log_loss": 0.6065774133126514
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.22004098994847573,
+        "val_log_loss": 0.6387269446864259
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.23015622772963043,
+        "val_log_loss": 0.6621463025701684
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2260966205351469,
+        "val_log_loss": 0.6574343835727539
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.26228569801250956,
+        "val_log_loss": 0.7671540255012445
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.21065694919234876,
+        "val_log_loss": 0.6148947311221303
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.24192993735549453,
+        "val_log_loss": 0.6863030999752734
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.24964383797063786,
+        "val_log_loss": 0.6948703895851164
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2471615319162129,
+        "val_log_loss": 0.6995406228749433
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.24815504708871916,
+        "val_log_loss": 0.7067338539342257
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2143647475407619,
+        "val_log_loss": 0.6223346442379375
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.24615392058671193,
+        "val_log_loss": 0.6866937303456049
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.24532194650149608,
+        "val_log_loss": 0.6818050574824115
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.23896485373575263,
+        "val_log_loss": 0.6704552422489634
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.25832246613073695,
+        "val_log_loss": 0.7228993983965772
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2023
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.16929554319692555,
+        "val_log_loss": 0.515392025408142
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.168553553588971,
+        "val_log_loss": 0.5147340881883188
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17186959538104493,
+        "val_log_loss": 0.5312835454390017
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.1767860735177088,
+        "val_log_loss": 0.5600651094805197
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1803743495108687,
+        "val_log_loss": 0.5871174526640373
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17664949450542441,
+        "val_log_loss": 0.5383927413040683
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1784976291907459,
+        "val_log_loss": 0.5520934038253362
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.18110491996602623,
+        "val_log_loss": 0.5823454722992206
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.18404299018365838,
+        "val_log_loss": 0.62129328180504
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1869933864005505,
+        "val_log_loss": 0.6577445357621753
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.1745860206831611,
+        "val_log_loss": 0.5322700496613846
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17425759297303486,
+        "val_log_loss": 0.5415352889056999
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.17423977449286085,
+        "val_log_loss": 0.5701973254036273
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.17500616358192753,
+        "val_log_loss": 0.6122008753876358
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.17689385324234763,
+        "val_log_loss": 0.658604551804722
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17647374872179353,
+        "val_log_loss": 0.5384296535107511
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.1784756108842998,
+        "val_log_loss": 0.5538767414128976
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.18129922505523818,
+        "val_log_loss": 0.587390146021062
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.18397421220931434,
+        "val_log_loss": 0.6276370405102826
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.18665922120274756,
+        "val_log_loss": 0.6643130986288687
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.17190491636025715,
+        "val_log_loss": 0.5263317635133492
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.17053130414028655,
+        "val_log_loss": 0.532262653906734
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.16997824565553157,
+        "val_log_loss": 0.5552300658311647
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.17068062934830194,
+        "val_log_loss": 0.5906144985941642
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1721933138671994,
+        "val_log_loss": 0.6269874145597755
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.18018090112059898,
+        "val_log_loss": 0.5463901367743543
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.18384411967444017,
+        "val_log_loss": 0.5640769832757261
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.18787310650992572,
+        "val_log_loss": 0.5993783811744381
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.19183643546716228,
+        "val_log_loss": 0.6439804651611974
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.1955652114310691,
+        "val_log_loss": 0.6860380180735836
+      }
+    ],
+    "chosen": 0.01,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.17855406433891757,
+        "val_log_loss": 0.539443460027625
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.17581818472328117,
+        "val_log_loss": 0.5418770784184143
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.193980502152587,
+        "val_log_loss": 0.6335007343305797
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.1809527579826601,
+        "val_log_loss": 0.5616182681852645
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2081954868630984,
+        "val_log_loss": 0.695408775430235
+      }
+    ],
+    "chosen": [
+      1,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.17684721379675625,
+        "val_log_loss": 0.537611849800645
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.17320684995584187,
+        "val_log_loss": 0.5304944986471559
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.19452151570290097,
+        "val_log_loss": 0.660118532892257
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.17107601644662276,
+        "val_log_loss": 0.5349798024341705
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2012596611408422,
+        "val_log_loss": 0.720656444335518
+      }
+    ],
+    "chosen": [
+      2,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.17157804989374634,
+        "val_log_loss": 0.5230984924461801
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.1592284068843201,
+        "val_log_loss": 0.497179445102621
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.17280130997834797,
+        "val_log_loss": 0.6300773882704378
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.15052452260291202,
+        "val_log_loss": 0.4938350076226898
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.1552166312332175,
+        "val_log_loss": 0.5845852796218526
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2024
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21179823437230413,
+        "val_log_loss": 0.608590966239126
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20733299006769157,
+        "val_log_loss": 0.5977541463749884
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20642339194504786,
+        "val_log_loss": 0.596735713261737
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20694547570881744,
+        "val_log_loss": 0.6001403513107761
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.20763311371277704,
+        "val_log_loss": 0.603840607827806
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21300484627520502,
+        "val_log_loss": 0.6117666776710844
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20943774691062592,
+        "val_log_loss": 0.6032564724220584
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2109743308096128,
+        "val_log_loss": 0.6079641499348458
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2139055539211762,
+        "val_log_loss": 0.6172290405248386
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21613753580603626,
+        "val_log_loss": 0.6254199814265698
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21456577594461185,
+        "val_log_loss": 0.617407423571736
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2088204685678184,
+        "val_log_loss": 0.6066013080858415
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20723985204983286,
+        "val_log_loss": 0.6093656343321221
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20877166773211797,
+        "val_log_loss": 0.6216567009879664
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2106995365203528,
+        "val_log_loss": 0.6345455453866751
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2126179272980034,
+        "val_log_loss": 0.6107518459082111
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20865115204098567,
+        "val_log_loss": 0.6010432909805865
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20976174791192514,
+        "val_log_loss": 0.6043311360498891
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21252039711963824,
+        "val_log_loss": 0.6129241586443368
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21468167886280648,
+        "val_log_loss": 0.6208078303272005
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21335865056853712,
+        "val_log_loss": 0.6145065184938453
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20835923608873416,
+        "val_log_loss": 0.6054116919807305
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20787706135874773,
+        "val_log_loss": 0.6095372600659891
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21019751876847984,
+        "val_log_loss": 0.6206906206588775
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21276314771225951,
+        "val_log_loss": 0.6317147865833737
+      }
+    ],
+    "chosen": 0.03,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21478414295484288,
+        "val_log_loss": 0.6161717509701121
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21029242138782386,
+        "val_log_loss": 0.6056561105981975
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2091620930073114,
+        "val_log_loss": 0.6046011848728507
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2096362025802741,
+        "val_log_loss": 0.6085775518768525
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21021357579119923,
+        "val_log_loss": 0.6130082050540339
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2028405725899948,
+        "val_log_loss": 0.5848000832169326
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.20533030390067586,
+        "val_log_loss": 0.5917724864050408
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.20129130266311465,
+        "val_log_loss": 0.6027274660163024
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.19489256421185291,
+        "val_log_loss": 0.5665151536831711
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2077527917899787,
+        "val_log_loss": 0.6252430172177597
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.19755728458487862,
+        "val_log_loss": 0.5741415297340178
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.18777363762362664,
+        "val_log_loss": 0.548937204441842
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.19325536260330428,
+        "val_log_loss": 0.5607724254231573
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.18435610183019063,
+        "val_log_loss": 0.5372903047198805
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.1954256995577287,
+        "val_log_loss": 0.5646496628191584
+      }
+    ],
+    "chosen": [
+      3,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2118514926677027,
+        "val_log_loss": 0.6084185551609995
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.2073720225633499,
+        "val_log_loss": 0.5973943612015429
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.21695423525487958,
+        "val_log_loss": 0.6222712715575256
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2159070230118133,
+        "val_log_loss": 0.6181592136766403
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.22889245615102524,
+        "val_log_loss": 0.6652035980176118
+      }
+    ],
+    "chosen": [
+      2,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2025
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2241075015279954,
+        "val_log_loss": 0.6336663791009807
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21443272854566262,
+        "val_log_loss": 0.6111027006189161
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20899340332517585,
+        "val_log_loss": 0.5974812487015392
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20760015875641083,
+        "val_log_loss": 0.5927094316947183
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.20760695153604714,
+        "val_log_loss": 0.5916444404971983
+      }
+    ],
+    "chosen": 1.0,
+    "family": "logistic_l2",
+    "model": "A",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.22371645980470692,
+        "val_log_loss": 0.6340575688750317
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2169082715763158,
+        "val_log_loss": 0.618888650254589
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.21466520781938547,
+        "val_log_loss": 0.6132013134588994
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.21456270289185206,
+        "val_log_loss": 0.6117501803842482
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21518233487997204,
+        "val_log_loss": 0.6124759819387282
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.2175383421031884,
+        "val_log_loss": 0.6190475214908787
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.20852179686346167,
+        "val_log_loss": 0.5977291189773876
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2063051389852629,
+        "val_log_loss": 0.5909857132537468
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2071266701092005,
+        "val_log_loss": 0.592171200607009
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.20830967876362763,
+        "val_log_loss": 0.5953330840468326
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "C",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.22511635886873263,
+        "val_log_loss": 0.6373595372070157
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21943690418761036,
+        "val_log_loss": 0.6247757398514571
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.2184529978295164,
+        "val_log_loss": 0.6217158389564301
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2192203632114002,
+        "val_log_loss": 0.6217610698800504
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.2202976530442836,
+        "val_log_loss": 0.6229423231179626
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "B+length",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.21945710359132364,
+        "val_log_loss": 0.6233533205789225
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.2106453924124699,
+        "val_log_loss": 0.6026393633957352
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.20736349514148167,
+        "val_log_loss": 0.5934140838465964
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.20706489273760517,
+        "val_log_loss": 0.5913508697466865
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.20736072705149314,
+        "val_log_loss": 0.5917263251045698
+      }
+    ],
+    "chosen": 0.3,
+    "family": "logistic_l2",
+    "model": "B+dictionary",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": 0.01,
+        "val_brier": 0.22145117933818778,
+        "val_log_loss": 0.6290360748856785
+      },
+      {
+        "param": 0.03,
+        "val_brier": 0.21497675488634857,
+        "val_log_loss": 0.6145909526390178
+      },
+      {
+        "param": 0.1,
+        "val_brier": 0.21475116043846848,
+        "val_log_loss": 0.6131677997907664
+      },
+      {
+        "param": 0.3,
+        "val_brier": 0.2170102376275027,
+        "val_log_loss": 0.6168005270987162
+      },
+      {
+        "param": 1.0,
+        "val_brier": 0.21919451176049792,
+        "val_log_loss": 0.6209945042396032
+      }
+    ],
+    "chosen": 0.1,
+    "family": "logistic_l2",
+    "model": "B+paragraph_change",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2209804222940833,
+        "val_log_loss": 0.6262553592129452
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.2095851082470328,
+        "val_log_loss": 0.5964888821751778
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.21894995019350452,
+        "val_log_loss": 0.6147055504980985
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.2182203152253321,
+        "val_log_loss": 0.6136892194678253
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.25220052237184576,
+        "val_log_loss": 0.6940729213268577
+      }
+    ],
+    "chosen": [
+      2,
+      0.03
+    ],
+    "family": "hgb_shallow",
+    "model": "A",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.2355974337171487,
+        "val_log_loss": 0.66365939412455
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.21445917521769362,
+        "val_log_loss": 0.6213693020809606
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.20740578233772272,
+        "val_log_loss": 0.6057666167196444
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.21682557308897357,
+        "val_log_loss": 0.6176978128008188
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.2197211461524566,
+        "val_log_loss": 0.6378858463583342
+      }
+    ],
+    "chosen": [
+      2,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "B",
+    "test_year": 2026
+  },
+  {
+    "attempts": [
+      {
+        "param": [
+          1,
+          0.03
+        ],
+        "val_brier": 0.23547249696478073,
+        "val_log_loss": 0.6644857846153
+      },
+      {
+        "param": [
+          2,
+          0.03
+        ],
+        "val_brier": 0.22770484021689688,
+        "val_log_loss": 0.6442510412276303
+      },
+      {
+        "param": [
+          2,
+          0.1
+        ],
+        "val_brier": 0.20884801194683913,
+        "val_log_loss": 0.601389803856521
+      },
+      {
+        "param": [
+          3,
+          0.03
+        ],
+        "val_brier": 0.22509544060277217,
+        "val_log_loss": 0.6393202379366479
+      },
+      {
+        "param": [
+          3,
+          0.1
+        ],
+        "val_brier": 0.21584559054504696,
+        "val_log_loss": 0.6167622722915627
+      }
+    ],
+    "chosen": [
+      2,
+      0.1
+    ],
+    "family": "hgb_shallow",
+    "model": "C",
+    "test_year": 2026
+  }
+]

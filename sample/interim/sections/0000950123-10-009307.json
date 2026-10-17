@@ -1,0 +1,1063 @@
+{
+  "mdna": [
+    {
+      "block_idx": 216,
+      "char_end": 69,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Forward-Looking Statements and Factors That May Affect Future Results"
+    },
+    {
+      "block_idx": 217,
+      "char_end": 1532,
+      "char_start": 71,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "The discussion below contains forward-looking statements, which are subject to safe harbors under the Securities Act of 1933, as amended, or the Securities Act, and the Exchange Act. Forward-looking statements include references to our ability to utilize our deferred tax assets, as well as statements including words such as \"expects,\" \"plans,\" \"anticipates,\" \"believes,\" \"estimates,\" \"predicts,\" \"projects,\" and similar expressions. In addition, statements that refer to projections of our future financial performance, anticipated growth and trends in our businesses and in our industries, the anticipated impacts of acquisitions, and other characterizations of future events or circumstances are forward-looking statements. These statements are only predictions, based on our current expectations about future events and may not prove to be accurate. We do not undertake any obligation to update these forward-looking statements to reflect events occurring or circumstances arising after the date of this report. These forward-looking statements involve risks and uncertainties, and our actual results, performance, or achievements could differ materially from those expressed or implied by the forward-looking statements on the basis of several factors, including those that we discuss in Risk Factors, set forth in Part I, Item 1A, of our annual report on Form 10-K for the fiscal year ended April 3, 2009. We encourage you to read that section carefully."
+    },
+    {
+      "block_idx": 218,
+      "char_end": 1549,
+      "char_start": 1534,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "Fiscal Calendar"
+    },
+    {
+      "block_idx": 219,
+      "char_end": 1853,
+      "char_start": 1551,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "We have a 52/53-week fiscal accounting year ending on the Friday closest to March 31. The three months ended January 1, 2010 and January 2, 2009 both consisted of 13 weeks. The nine months ended January 1, 2010 consisted of 39 weeks, whereas the nine months ended January 2, 2009 consisted of 40 weeks."
+    },
+    {
+      "block_idx": 220,
+      "char_end": 1863,
+      "char_start": 1855,
+      "is_heading": true,
+      "ordinal": 4,
+      "text": "OVERVIEW"
+    },
+    {
+      "block_idx": 221,
+      "char_end": 1877,
+      "char_start": 1865,
+      "is_heading": true,
+      "ordinal": 5,
+      "text": "Our Business"
+    },
+    {
+      "block_idx": 222,
+      "char_end": 2389,
+      "char_start": 1879,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Symantec is a global leader in providing security, storage and systems management solutions to help businesses and consumers secure and manage their information. We provide customers worldwide with software and services that protect, manage and control information risks related to security, data protection, storage, compliance, and systems management. We help our customers manage cost, complexity and compliance by protecting their IT infrastructure as they seek to maximize value from their IT investments."
+    },
+    {
+      "block_idx": 223,
+      "char_end": 2413,
+      "char_start": 2391,
+      "is_heading": true,
+      "ordinal": 7,
+      "text": "Our Operating Segments"
+    },
+    {
+      "block_idx": 224,
+      "char_end": 3609,
+      "char_start": 2415,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Our operating segments are significant strategic business units that offer different products and services, distinguished by customer needs. Since the March 2008 quarter, we have operated in five operating segments: Consumer, Security and Compliance, Storage and Server Management, Services, and Other. During the first quarter of fiscal 2010, we changed our reporting segments to better align to our operating structure, resulting in the Enterprise Vault products that were formerly included in the Security and Compliance segment being moved to the Storage and Server Management segment. Also, Software-as-a-Service (\"SaaS\") offerings moved to either the Security and Compliance segment or the Storage and Server Management segment from the Services segment, based on the nature of the service delivered. The predominant amount of SaaS revenue went to the Security and Compliance segment. We revised the segment information for the prior year to conform to the new presentation. For further descriptions of our operating segments, see Note 10 of the Notes to Condensed Consolidated Financial Statements in this quarterly report. Our reportable segments are the same as our operating segments."
+    },
+    {
+      "block_idx": 225,
+      "char_end": 3639,
+      "char_start": 3611,
+      "is_heading": true,
+      "ordinal": 9,
+      "text": "Financial Results and Trends"
+    },
+    {
+      "block_idx": 226,
+      "char_end": 5399,
+      "char_start": 3641,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Revenue increased for the three months ended January 1, 2010 and decreased for the nine months ended January 1, 2010, in each case as compared to the same periods last year. The revenue increase for the three months ended January 1, 2010 is largely a result of the positive impact of foreign currency fluctuations, as described further below, as well as strong performance by our Consumer segment. The challenging economic environment meant that corporate IT budgets have been reduced and spending has slowed from previous levels. Smaller IT budgets have led some of our corporate customers to purchase smaller volumes of our products, particularly in the Storage and Server Management segment. In addition, our storage business within the Storage and Server Management segment has been adversely affected for the last several quarters by the deceleration of demand in the server market, which has particularly affected new license sales of our storage products on the Sun platform. If the economic conditions affecting global markets continue or IT spending remains tight, we may continue to experience slower or negative revenue growth and our business and operating results might suffer. In light of these economic conditions, we will continue to align our cost structure with our revenue expectations. Additionally, during the three and nine months ended January 1, 2010, we experienced significantly higher year-over-year OEM placement fee payments resulting from an increase in PC unit shipments. These increased payments had an adverse impact on our operating income and operating margins during the fiscal 2010 periods, particularly for our consumer segment. We expect to see the revenue benefit from these increased placement fees in future periods."
+    },
+    {
+      "block_idx": 229,
+      "char_end": 6386,
+      "char_start": 5401,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "Fluctuations in the U.S. dollar compared to foreign currencies positively impacted our international revenue by approximately $64 million for the three months ended January 1, 2010 and negatively impacted our international revenue by approximately $25 million for the nine months ended January 1, 2010, as compared to the same periods last year. Our operating expenses during the three months ended January 1, 2010 were unfavorably impacted by a weaker U.S. dollar as compared to the same period last year while operating expenses during the nine months ended January 1, 2010 were favorably impacted by a stronger U.S. dollar as compared to the same period last year. We are unable to predict the extent to which revenue in future periods will be impacted by changes in foreign currency exchange rates. If our level of international sales and expenses increase in the future, changes in foreign exchange rates may have a potentially greater impact on our revenue and operating results."
+    },
+    {
+      "block_idx": 230,
+      "char_end": 6683,
+      "char_start": 6388,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "As discussed above under \"Fiscal Calendar,\" the nine months ended January 1, 2010 consisted of 39 weeks, whereas the nine months ended January 2, 2009 consisted of 40 weeks. The extra 14th week contributed additional revenue to the July 4, 2008 quarter when compared to the July 3, 2009 quarter."
+    },
+    {
+      "block_idx": 231,
+      "char_end": 7590,
+      "char_start": 6685,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Our net income was $300 million and $523 million for the three and nine months ended January 1, 2010, respectively, as compared to our net loss of $6.8 billion and $6.5 billion for the three and nine months ended January 2, 2009, respectively. Net income for the three and nine months ended January 1, 2010 was positively impacted by a $78.5 million tax benefit in the third quarter of fiscal 2010 resulting from the December 2009 decision in the U.S. Tax Court relating to the Veritas 2000 and 2001 tax years. In addition, net income for the three and nine months ended January 1, 2010 was impacted by $43 million and $46 million of net gain, respectively, from the liquidation of certain foreign legal entities. Our net loss for the three and nine months ended January 2, 2009 was largely a result of the $7.0 billion non-cash goodwill impairment charge incurred during the third quarter of fiscal 2009."
+    },
+    {
+      "block_idx": 232,
+      "char_end": 7621,
+      "char_start": 7592,
+      "is_heading": true,
+      "ordinal": 14,
+      "text": "Critical Accounting Estimates"
+    },
+    {
+      "block_idx": 233,
+      "char_end": 8234,
+      "char_start": 7623,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "There have been no changes in the matters for which we make critical accounting estimates in the preparation of our condensed consolidated financial statements during the nine months ended January 1, 2010 as compared to those disclosed in Management's Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended April 3, 2009. While there have been no such changes, we have revised our description of the critical accounting estimates made in the valuation of goodwill, intangible assets and long-lived assets, as provided below."
+    },
+    {
+      "block_idx": 234,
+      "char_end": 8298,
+      "char_start": 8236,
+      "is_heading": true,
+      "ordinal": 16,
+      "text": "Valuation of goodwill, intangible assets and long-lived assets"
+    },
+    {
+      "block_idx": 235,
+      "char_end": 9526,
+      "char_start": 8300,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "When we acquire businesses, we allocate the purchase price to tangible assets and liabilities and identifiable intangible assets acquired. Any residual purchase price is recorded as goodwill. The allocation of the purchase price requires management to make significant estimates in determining the fair values of assets acquired and liabilities assumed, especially with respect to intangible assets. These estimates are based on historical experience and information obtained from the management of the acquired companies. These estimates can include, but are not limited to, the cash flows that an asset is expected to generate in the future, the appropriate weighted-average cost of capital, and the cost savings expected to be derived from acquiring an asset. These estimates are inherently uncertain and unpredictable, and if different estimates were used the purchase price for the acquisition could be allocated to the acquired assets differently from the allocation that we have made. In addition, unanticipated events and circumstances may occur which may affect the accuracy or validity of such estimates, and if such events occur we may be required to record a charge against the value ascribed to an acquired asset."
+    },
+    {
+      "block_idx": 236,
+      "char_end": 10743,
+      "char_start": 9528,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Goodwill. We review goodwill for impairment on an annual basis on the first day of the fourth quarter of each fiscal year, and on an interim basis whenever events or changes in circumstances indicate that the carrying value may not be recoverable in accordance with our accounting policy. Before performing the goodwill impairment test, we first assess the value of long-lived assets in each reporting unit, including tangible and intangible assets. We then perform a two-step impairment test on goodwill. In the first step, we compare the estimated fair value of each reporting unit to its allocated carrying value (book value). If the carrying value of the reporting unit exceeds the fair value of the equity assigned to that unit, there is an indicator of impairment and we must perform the second step of the impairment test. This second step involves determining the implied fair value of that reporting unit's goodwill in a manner similar to the purchase price allocation for an acquired business. If the carrying value of the reporting unit's goodwill exceeds its implied fair value, then we would record an impairment loss equal to the excess. Our reporting units are consistent with our operating segments."
+    },
+    {
+      "block_idx": 237,
+      "char_end": 11934,
+      "char_start": 10745,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "The process of estimating the fair value of our reporting units requires significant judgment at many points during the analysis. Many assets and liabilities, such as accounts receivable and property and equipment, are not specifically allocated to an individual reporting unit. In determining the carrying value of the reporting units, we apply judgment to allocate the assets and liabilities, and this allocation affects the carrying value of the respective reporting units. Similarly, we use judgment to allocate goodwill to the reporting units based on relative fair values. The use of relative fair values has been necessary for certain reporting units due to changes in our operating structure in prior years. To determine a reporting unit's fair value, we use the income approach under which we calculate the fair value of each reporting unit based on the estimated discounted future cash flows of that unit. We evaluate the reasonableness of this approach with the market approach, which involves a review of the carrying value of our assets relative to our market capitalization and to the valuation of publicly traded companies operating in the same or similar lines of business."
+    },
+    {
+      "block_idx": 241,
+      "char_end": 12880,
+      "char_start": 11936,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "Applying the income approach requires that we make a number of important estimates and assumptions. We estimate the future cash flows of each reporting unit based on historical and forecasted revenue and operating costs. This, in turn, involves further estimates, such as estimates of future growth rates and foreign exchange rates. In addition, we apply a discount rate to the estimated future cash flows for the purpose of the valuation. This discount rate is based on the estimated weighted-average cost of capital for each reporting unit and may change from year to year. For example, in our valuation process in the fourth quarter of fiscal 2009 we used a higher discount rate than in the prior year due to increased risk associated with the declining global economic conditions. Changes in these key estimates and assumptions, or in other assumptions used in this process, could materially affect our impairment analysis for a given year."
+    },
+    {
+      "block_idx": 242,
+      "char_end": 13473,
+      "char_start": 12882,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "As of April 3, 2009, the last day of fiscal 2009, our goodwill balance was $4.6 billion. Based on the impairment analysis performed on January 3, 2009, we determined that the fair value of each of our reporting units exceeded the carrying value of the unit by not less than 20% of the carrying value. While discount rates are only one of several important estimates used in the analysis, we determined that an increase of one percentage point in the discount rate used for each respective reporting unit would not have resulted in an impairment indicator for any unit in the current quarter."
+    },
+    {
+      "block_idx": 243,
+      "char_end": 13731,
+      "char_start": 13475,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "A number of factors, many of which we have no ability to control, could affect our financial condition, operating results and business prospects and could cause actual results to differ from the estimates and assumptions we employed. These factors include:"
+    },
+    {
+      "block_idx": 245,
+      "char_end": 14937,
+      "char_start": 13733,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Intangible Assets. We assess the impairment of identifiable intangible assets whenever events or changes in circumstances indicate that an asset's carrying amount may not be recoverable. In addition, for intangible assets with indefinite lives, we review such assets for impairment on an annual basis consistent with the timing of the annual evaluation for goodwill. An impairment loss would be recognized when the sum of the undiscounted estimated future cash flows expected to result from the use of the asset and its eventual disposition is less than its carrying amount. Such impairment loss would be measured as the difference between the carrying amount of the asset and its fair value. Our cash flow assumptions are based on historical and forecasted revenue, operating costs, and other relevant factors. If management's estimates of future operating results change, or if there are changes to other assumptions, the estimate of the fair value of our acquired product rights and other identifiable intangible assets could change significantly. Such change could result in impairment charges in future periods, which could have a significant impact on our operating results and financial condition."
+    },
+    {
+      "block_idx": 246,
+      "char_end": 15325,
+      "char_start": 14939,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "We record impairment charges on developed technology or acquired product rights when we determine that the net realizable value of the assets may not be recoverable. To determine the net realizable value of the assets, we use the estimated future gross revenue from each product. Our estimated future gross revenue of each product is based on company forecasts and is subject to change."
+    },
+    {
+      "block_idx": 247,
+      "char_end": 16326,
+      "char_start": 15327,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Long-Lived Assets (including Assets Held for Sale). We record impairment charges on long-lived assets to be held and used when we determine that the carrying value of the long-lived assets may not be recoverable. Based on the existence of one or more indicators of impairment, we measure any impairment of long-lived assets based on a projected undiscounted cash flow method using assumptions determined by management to be commensurate with the risk inherent in our current business model. Our estimates of cash flows require significant judgment based on our historical results and anticipated results and are subject to many triggering factors which could change and cause a material impact to our operating results or financial condition. We record impairment charges on long-lived assets to be held for sale when we determine that the carrying value of the long-lived assets may not be recoverable. In determining our fair value, we obtain market value appraisal information from third-parties."
+    },
+    {
+      "block_idx": 250,
+      "char_end": 16366,
+      "char_start": 16328,
+      "is_heading": true,
+      "ordinal": 26,
+      "text": "Recently Issued Authoritative Guidance"
+    },
+    {
+      "block_idx": 251,
+      "char_end": 16577,
+      "char_start": 16368,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Information with respect to Recently Issued Authoritative Guidance is in Note 1 of Notes to Condensed Consolidated Financial Statements in this Form 10-Q, which information is incorporated herein by reference."
+    },
+    {
+      "block_idx": 252,
+      "char_end": 16600,
+      "char_start": 16579,
+      "is_heading": true,
+      "ordinal": 28,
+      "text": "RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 253,
+      "char_end": 16619,
+      "char_start": 16602,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Total Net Revenue"
+    },
+    {
+      "block_idx": 255,
+      "char_end": 16976,
+      "char_start": 16621,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Net revenue increased for the three months ended January 1, 2010, as compared to the same period last year, due to a $95 million increase in Content, subscription, and maintenance revenue partially offset by a $61 million decrease in License revenue. The net increase was primarily driven by the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 256,
+      "char_end": 17334,
+      "char_start": 16978,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Net revenue decreased for the nine months ended January 1, 2010, as compared to the same period last year, due to a $314 million decrease in License revenue partially offset by an $86 million increase in Content, subscription, and maintenance revenue. The net decrease was primarily driven by the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 257,
+      "char_end": 17488,
+      "char_start": 17336,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "The changes in revenue for the three and nine months ended January 1, 2010 discussed above are further described in the segment discussions that follow."
+    },
+    {
+      "block_idx": 258,
+      "char_end": 17536,
+      "char_start": 17490,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Content, subscription, and maintenance revenue"
+    },
+    {
+      "block_idx": 260,
+      "char_end": 17889,
+      "char_start": 17538,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "Content, subscription, and maintenance revenue increased for the three and nine months ended January 1, 2010, as compared to the same period last year, as a result of strength in our Consumer segment, as well as revenue from our fiscal 2009 acquisitions of Message Labs and PC Tools, and the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 261,
+      "char_end": 17906,
+      "char_start": 17891,
+      "is_heading": true,
+      "ordinal": 35,
+      "text": "License revenue"
+    },
+    {
+      "block_idx": 263,
+      "char_end": 18293,
+      "char_start": 17908,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "License revenue decreased for the three and nine months ended January 1, 2010, as compared to the same periods last year, primarily due to the global economic slowdown and customers emphasizing purchases of smaller volumes of new licenses consistent with their near term needs during the periods presented, as well as for the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 266,
+      "char_end": 18338,
+      "char_start": 18295,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Net revenue and operating income by segment"
+    },
+    {
+      "block_idx": 267,
+      "char_end": 18356,
+      "char_start": 18340,
+      "is_heading": true,
+      "ordinal": 38,
+      "text": "Consumer segment"
+    },
+    {
+      "block_idx": 269,
+      "char_end": 18672,
+      "char_start": 18358,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "Consumer revenue increased for the three and nine months ended January 1, 2010, as compared to the same period last year, primarily due to increases in revenue from acquired security products, our core consumer products in the electronic channel, and the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 270,
+      "char_end": 19103,
+      "char_start": 18674,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Our electronic channel sales are derived from OEMs, subscriptions, upgrades, online sales, and renewals. For the three and nine months ended January 1, 2010, electronic channel revenue increased as compared to the same periods last year. Electronic sales accounted for approximately 80% of Consumer revenue for the three and nine months ended January 1, 2010, which is comparable to the percentage for the same periods last year."
+    },
+    {
+      "block_idx": 271,
+      "char_end": 19492,
+      "char_start": 19105,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Operating income for the Consumer segment decreased for the three and nine months ended January 1, 2010, as compared to the same periods last year, as expense growth outpaced revenue growth. Total expenses for the segment increased primarily as a result of the higher OEM placement fees discussed above and costs associated with our development of our new proprietary eCommerce platform."
+    },
+    {
+      "block_idx": 272,
+      "char_end": 19525,
+      "char_start": 19494,
+      "is_heading": true,
+      "ordinal": 42,
+      "text": "Security and Compliance segment"
+    },
+    {
+      "block_idx": 274,
+      "char_end": 20021,
+      "char_start": 19527,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Security and Compliance revenue increased for the three months ended January 1, 2010, as compared to the same period last year, primarily due to increases in revenue from our Symantec Hosted Services business, our data loss prevention products and the items discussed above under \"Financial Results and Trends.\" These increases were partially offset by decreases in revenue as a result of decreased demand due to continued tight IT spending discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 275,
+      "char_end": 20298,
+      "char_start": 20023,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Security and Compliance revenue decreased for the nine months ended January 2, 2009, as compared to the same period last year, as a result of the items discussed above under \"Financial Results and Trends,\" partially offset by increases in revenue from acquired product lines."
+    },
+    {
+      "block_idx": 276,
+      "char_end": 20839,
+      "char_start": 20300,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "Operating income for the Security and Compliance segment decreased for the three months ended January 1, 2010, as compared to the same period last year, as the increases in expenses more than offset the revenue increase. Operating income for the segment decreased for the nine months ended January 1, 2010, as compared to the same periods last year, as revenue decreased while expenses increased. For the three and nine months ended January 1, 2010, total expenses increased as a result of costs from our Symantec Hosted Services business."
+    },
+    {
+      "block_idx": 279,
+      "char_end": 20878,
+      "char_start": 20841,
+      "is_heading": true,
+      "ordinal": 46,
+      "text": "Storage and Server Management segment"
+    },
+    {
+      "block_idx": 281,
+      "char_end": 21280,
+      "char_start": 20880,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Storage and Server Management revenue decreased for the three and nine months ended January 1, 2010, as compared to the same periods last year, primarily due to our customers continuing to buy smaller volumes of new licenses consistent with their near term needs, particularly with respect to our storage management products, as well as the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 282,
+      "char_end": 21564,
+      "char_start": 21282,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Operating income for the Storage and Server Management segment increased for the three and nine months ended January 1, 2010, as compared to the same periods last year, as the decrease in expenses more than offset the decrease in revenue due to our ongoing focus on cost efficiency."
+    },
+    {
+      "block_idx": 283,
+      "char_end": 21582,
+      "char_start": 21566,
+      "is_heading": true,
+      "ordinal": 49,
+      "text": "Services segment"
+    },
+    {
+      "block_idx": 285,
+      "char_end": 21978,
+      "char_start": 21584,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Services revenue was consistent for the three months ended January 1, 2010, as compared to the same period last year. Services revenue decreased for the nine months ended January 1, 2010, as compared to the same period last year, primarily due to a reduction in consulting revenue associated with new license sales, in addition to the items discussed above under \"Financial Results and Trends.\""
+    },
+    {
+      "block_idx": 286,
+      "char_end": 22356,
+      "char_start": 21980,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Operating income for the Services segment decreased for the three months ended January 1, 2010, as compared to the same period last year, as expenses increased while revenue remained consistent. Operating income for the Services segment increased for the nine months ended January 1, 2010, as compared to the same period last year, as expense discipline led to better margins."
+    },
+    {
+      "block_idx": 287,
+      "char_end": 22371,
+      "char_start": 22358,
+      "is_heading": true,
+      "ordinal": 52,
+      "text": "Other segment"
+    },
+    {
+      "block_idx": 289,
+      "char_end": 22400,
+      "char_start": 22373,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "* Percentage not meaningful"
+    },
+    {
+      "block_idx": 290,
+      "char_end": 23001,
+      "char_start": 22402,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Revenue from our Other segment consists primarily of sunset products and products nearing the end of their life cycle. The operating loss of our Other segment includes general and administrative expenses; amortization of acquired product rights, other intangible assets, and other assets; charges such as stock-based compensation and restructuring; and certain indirect costs that are not charged to the other operating segments. The operating loss of our Other segment for the three and nine months ended January 2, 2009 primarily consisted of a non-cash goodwill impairment charge of $7.0 billion."
+    },
+    {
+      "block_idx": 293,
+      "char_end": 23035,
+      "char_start": 23003,
+      "is_heading": true,
+      "ordinal": 55,
+      "text": "Net revenue by geographic region"
+    },
+    {
+      "block_idx": 295,
+      "char_end": 23643,
+      "char_start": 23037,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "Revenue for three months ended January 1, 2010, as compared to the same period last year, increased 12% for the Asia Pacific/Japan region, while EMEA increased 3% and the Americas was relatively consistent. Revenue for the nine months ended January 1, 2010, as compared to the same period last year, increased 3% for the Asia Pacific/Japan region, while EMEA decreased 9% and the Americas decreased 4%. The reasons for the changes during the periods above are discussed under \"Financial Results and Trends,\" particularly with respect to the impact of foreign currency fluctuations on the periods presented."
+    },
+    {
+      "block_idx": 296,
+      "char_end": 24195,
+      "char_start": 23645,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "Our international sales are and will continue to be a significant portion of our net revenue. As a result, net revenue will continue to be affected by foreign currency exchange rates as compared to the U.S. dollar. We are unable to predict the extent to which revenue in future periods will be impacted by changes in foreign currency exchange rates. If international sales become a greater portion of our total sales in the future, changes in foreign currency exchange rates may have a potentially greater impact on our revenue and operating results."
+    },
+    {
+      "block_idx": 297,
+      "char_end": 24212,
+      "char_start": 24197,
+      "is_heading": true,
+      "ordinal": 58,
+      "text": "Cost of Revenue"
+    },
+    {
+      "block_idx": 299,
+      "char_end": 24528,
+      "char_start": 24214,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Cost of revenue consists primarily of the amortization of acquired product rights, fee-based technical support costs, costs of billable services, payments to OEMs under revenue-sharing arrangements, manufacturing and direct material costs, and royalties paid to third parties under technology licensing agreements."
+    },
+    {
+      "block_idx": 300,
+      "char_end": 24761,
+      "char_start": 24530,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Cost of revenue decreased for the three and nine months ended January 1, 2010, as compared to the same periods last year, primarily due to a decrease in amortization of acquired product rights related to our acquisition of Veritas."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 24809,
+      "char_start": 24763,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "Cost of content, subscription, and maintenance"
+    },
+    {
+      "block_idx": 303,
+      "char_end": 25356,
+      "char_start": 24811,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Cost of content, subscription, and maintenance consists primarily of fee-based technical support costs, costs of billable services, and payments to OEMs under revenue-sharing agreements. Cost of content, subscription, and maintenance as a percentage of related revenue remained relatively consistent for the three and nine months ended January 1, 2010, as compared to the same periods last year, as increases in royalty and technical support costs were partially offset by decreases in services and distribution costs for the respective periods."
+    },
+    {
+      "block_idx": 304,
+      "char_end": 25374,
+      "char_start": 25358,
+      "is_heading": true,
+      "ordinal": 63,
+      "text": "Cost of licenses"
+    },
+    {
+      "block_idx": 308,
+      "char_end": 25712,
+      "char_start": 25376,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "Cost of licenses consists primarily of royalties paid to third parties under technology licensing agreements and manufacturing and direct material costs. Cost of licenses remained relatively consistent as a percentage of the related revenue for the three and nine months ended January 1, 2010, as compared to the same periods last year."
+    },
+    {
+      "block_idx": 309,
+      "char_end": 25753,
+      "char_start": 25714,
+      "is_heading": true,
+      "ordinal": 65,
+      "text": "Amortization of acquired product rights"
+    },
+    {
+      "block_idx": 311,
+      "char_end": 26264,
+      "char_start": 25755,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Acquired product rights are comprised of developed technologies and patents from acquired companies. The decrease in amortization for the three and nine months ended January 1, 2010 as compared to the same periods last year is primarily due to certain acquired product rights from our acquisition of Veritas becoming fully amortized during the first quarter of our fiscal 2010. This decrease was partially offset by additional amortization from product rights acquired through acquisitions during fiscal 2009."
+    },
+    {
+      "block_idx": 312,
+      "char_end": 26284,
+      "char_start": 26266,
+      "is_heading": true,
+      "ordinal": 67,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 313,
+      "char_end": 26313,
+      "char_start": 26286,
+      "is_heading": true,
+      "ordinal": 68,
+      "text": "Operating expenses overview"
+    },
+    {
+      "block_idx": 314,
+      "char_end": 27022,
+      "char_start": 26315,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "As discussed above under \"Financial Results and Trends,\" our operating expenses for the nine months ended January 1, 2010 include 39 weeks of activity as compared to 40 weeks for the same period last year, which had a favorable impact on our operating expenses for the nine month, year-over-year periods. Our operating expenses during the three months ended January 1, 2010 were unfavorably impacted by a weaker U.S. dollar as compared to the same period last year while operating expenses during the nine months ended January 1, 2010 were favorably impacted by a stronger U.S. dollar as compared to the same period last year. Both periods were favorably impacted by the restructuring plans discussed below."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 27052,
+      "char_start": 27024,
+      "is_heading": true,
+      "ordinal": 70,
+      "text": "Sales and marketing expenses"
+    },
+    {
+      "block_idx": 317,
+      "char_end": 27753,
+      "char_start": 27054,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Sales and marketing expenses increased during the three months ended January 1, 2010 and decreased during the nine months ended January 1, 2010, as compared to the same periods last year, as a result of the items discussed above under \"Operating expenses overview.\" Sales and marketing expenses increased as a result of increased OEM placement fees and costs associated with the deployment of our new proprietary eCommerce platform during the three months ended January 1, 2010. For the nine months ended January 1, 2010, expenses decreased as a result of lower commissions partially offset by increases in OEM fees and costs associated with the deployment of our new proprietary eCommerce platform."
+    },
+    {
+      "block_idx": 318,
+      "char_end": 27788,
+      "char_start": 27755,
+      "is_heading": true,
+      "ordinal": 72,
+      "text": "Research and development expenses"
+    },
+    {
+      "block_idx": 320,
+      "char_end": 28060,
+      "char_start": 27790,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Research and development expenses increased during the three months ended January 1, 2010 and decreased during the nine months ended January 1, 2010, as compared to the same periods last year, as a result of the items discussed above under \"Operating expenses overview.\""
+    },
+    {
+      "block_idx": 323,
+      "char_end": 28097,
+      "char_start": 28062,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "General and administrative expenses"
+    },
+    {
+      "block_idx": 325,
+      "char_end": 28376,
+      "char_start": 28099,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "As a percentage of net revenue, general and administrative expenses remained relatively consistent for the three and nine months ended January 1, 2010, as compared to the same periods last year, largely a result of the items discussed above under \"Operating expenses overview.\""
+    },
+    {
+      "block_idx": 326,
+      "char_end": 28427,
+      "char_start": 28378,
+      "is_heading": true,
+      "ordinal": 76,
+      "text": "Amortization of other purchased intangible assets"
+    },
+    {
+      "block_idx": 328,
+      "char_end": 28888,
+      "char_start": 28429,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Other purchased intangible assets are comprised of customer relationships and tradenames. Amortization for the three and nine months ended January 1, 2010, compared to the same periods last year, increased as a result of our fiscal 2009 acquisitions. As a percentage of net revenue, amortization of other purchased intangible assets remained relatively consistent for the three and nine months ended January 1, 2010, as compared to the same periods last year."
+    },
+    {
+      "block_idx": 329,
+      "char_end": 28903,
+      "char_start": 28890,
+      "is_heading": true,
+      "ordinal": 78,
+      "text": "Restructuring"
+    },
+    {
+      "block_idx": 331,
+      "char_end": 29370,
+      "char_start": 28905,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "In connection with the restructuring plans, which we refer to as our 2009 Restructuring Plan (\"2009 Plan\") and our 2008 Restructuring Plan (\"2008 Plan\"), as described in Note 7 of the Notes to Condensed Consolidated Financial Statements, restructuring charges were $5 million and $64 million for the three and nine months ended January 1, 2010, respectively, compared to $47 million and $73 million for the three and nine months ended January 2, 2009, respectively."
+    },
+    {
+      "block_idx": 332,
+      "char_end": 29756,
+      "char_start": 29372,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "The restructuring charges for the three months ended January 1, 2010 consisted of severance and business structure changes related to the 2008 Plan and transition and transformation costs related to the outsourcing of certain back office functions. The restructuring charges for the three months ended January 2, 2009 primarily consisted of severance charges related to the 2009 Plan."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 30212,
+      "char_start": 29758,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "The restructuring charges for the nine months ended January 1, 2010 primarily consisted of severance and charges related to the 2008 Plan and transition and transformation costs related to the outsourcing of certain back office functions. The restructuring charges for the nine months ended January 2, 2009 consisted of severance charges related to the 2009 Plan, facilities charges related to acquisitions and severance charges related to the 2008 Plan."
+    },
+    {
+      "block_idx": 334,
+      "char_end": 30588,
+      "char_start": 30214,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Total remaining severance charges are estimated to range from $15 million to $30 million, primarily for the 2008 Plan. Total remaining costs for the transition and transformation activities associated with outsourcing back office functions are estimated to be approximately $20 million to $25 million. Total remaining costs for the 2009 Plan are not expected to be material."
+    },
+    {
+      "block_idx": 337,
+      "char_end": 30660,
+      "char_start": 30590,
+      "is_heading": true,
+      "ordinal": 83,
+      "text": "Impairment of goodwill and Loss and impairment of assets held for sale"
+    },
+    {
+      "block_idx": 339,
+      "char_end": 31277,
+      "char_start": 30662,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "In accordance with the authoritative guidance on goodwill and other intangibles, we evaluate goodwill for impairment at least annually and any time business conditions indicate a potential change in recoverability. During the third quarter of fiscal 2009, we concluded that there were impairment indicators, including the challenging economic environment and a decline in our market capitalization, which required us to perform an interim goodwill impairment analysis. As a result of that analysis, we estimated and recorded a non-cash goodwill impairment charge of $7.0 billion in the third quarter of fiscal 2009."
+    },
+    {
+      "block_idx": 340,
+      "char_end": 31817,
+      "char_start": 31279,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "During the three and nine months ended January 1, 2010, we sold a property for $42 million, which resulted in a loss of $10 million. During the three and nine months ended January 2, 2009, we recognized impairment of $17 million and $43 million, respectively, on certain land and buildings classified as held for sale. The impairment was recorded in accordance with the authoritative guidance that requires a long-lived asset classified as held for sale to be measured at the lower of its carrying amount or fair value, less cost to sell."
+    },
+    {
+      "block_idx": 341,
+      "char_end": 31851,
+      "char_start": 31819,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "Non-operating Income and Expense"
+    },
+    {
+      "block_idx": 343,
+      "char_end": 31880,
+      "char_start": 31853,
+      "is_heading": true,
+      "ordinal": 87,
+      "text": "* Percentage not meaningful"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 32780,
+      "char_start": 31882,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "The decrease in interest income during the three and nine months ended January 1, 2010, as compared to the same periods last year, is due to a lower average yield on our invested cash and short-term investment balances. The decrease in interest income is partially offset by higher average cash balances for the three months ended January 1, 2010 and to a lesser extent for the nine months ended January 1, 2010. Interest expense for the three and nine months ended January 1, 2010, as compared to the same periods last year, remained relatively consistent. Other income, net for the three and nine months ended January 1, 2010 includes net gains of $43 million and $46 million, respectively, from the liquidation of certain foreign legal entities. The liquidations resulted in the release of cumulative translation adjustments from accumulated other comprehensive income related to these entities."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 32818,
+      "char_start": 32782,
+      "is_heading": true,
+      "ordinal": 89,
+      "text": "(Benefit) provision for income taxes"
+    },
+    {
+      "block_idx": 347,
+      "char_end": 33048,
+      "char_start": 32820,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "The effective tax rate was approximately (8)% and (0.3)% for the three months ended January 1, 2010 and January 2, 2009, respectively, and 13% and (3)% for the nine months ended January 1, 2010 and January 2, 2009, respectively."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 34230,
+      "char_start": 33050,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "The tax expense for the three and nine months ended January 1, 2010 was significantly reduced by the following benefits recognized in the third quarter of fiscal 2010: (1) $78.5 million tax benefit arising from the Veritas v. Commissioner Tax Court decision (see further discussion below), (2) $9 million tax benefit from the reduction of our valuation allowance for certain deferred tax assets, and (3) $5 million benefit to adjust taxes provided in prior periods. The change in the valuation allowance follows discussions with Irish Revenue in the quarter, the result of which accelerates the timing of the use of certain Irish tax loss carryforwards in the future. The tax expense for the nine months ended January 1, 2010 is otherwise increased by a $7 million tax expense recognized in the first quarter of fiscal 2010 as a result of the May 2009 Ninth Circuit Court of Appeals decision in Xilinx v. Commissioner (see further discussion below). The tax expense for the three and nine months ended January 2, 2009 was materially impacted by the inclusion of a $44 million tax benefit associated with the $7.0 billion impairment of goodwill in the third quarter of fiscal 2009."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 34850,
+      "char_start": 34232,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "The provision for the three and nine months ended January 1, 2010 otherwise reflects a forecast tax rate of 31%. The provision for the three and nine months ended January 2, 2009 otherwise reflected a forecast tax rate of 35%. The forecast tax rates for all periods presented reflect the benefits of lower-taxed foreign earnings, domestic manufacturing incentives, and research and development credits, partially offset by state income taxes and non-deductible stock based compensation. The forecast tax rate in fiscal 2010 is lower than in fiscal 2009 primarily due to higher benefits from low-taxed foreign earnings."
+    },
+    {
+      "block_idx": 352,
+      "char_end": 36301,
+      "char_start": 34852,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "On May 27, 2009, the U.S. Court of Appeals for the Ninth Circuit overturned a 2005 U.S. Tax Court ruling in Xilinx v. Commissioner, holding that stock-based compensation related to research and development (\"R&D\") must be shared by the participants of a R&D cost sharing arrangement. The Ninth Circuit held that related parties to such an arrangement must share stock option costs, notwithstanding the U.S. Tax Court's finding that unrelated parties in such an arrangement would not share such costs. Symantec has a similar R&D cost sharing arrangement in place. The Ninth Circuit's reversal of the U.S. Tax Court's decision changed our estimate of stock option related tax benefits previously recognized under the authoritative guidance on income taxes. As a result of the Ninth Circuit's ruling, we increased our liability for unrecognized tax benefits, recording a tax expense of approximately $7 million and a reduction of additional paid-in capital of approximately $30 million in the first quarter of fiscal 2010. On January 13, 2010, the Ninth Circuit Court of Appeals withdrew its issued opinion. We will monitor any further actions by the Ninth Circuit over the balance of the fourth quarter of fiscal 2010 in assessing the need to adjust our liability for unrecognized tax benefits. Accordingly, we believe that there is a reasonable possibility of a $37 million change to our total unrecognized tax benefits within the next twelve months."
+    },
+    {
+      "block_idx": 353,
+      "char_end": 37299,
+      "char_start": 36303,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "On March 29, 2006, we received a Notice of Deficiency from the IRS claiming that we owe $867 million of additional taxes, excluding interest and penalties, for the 2000 and 2001 tax years based on an audit of Veritas. On June 26, 2006, we filed a petition with the U.S. Tax Court protesting the IRS claim for such additional taxes. In the fourth quarter of fiscal 2007, we agreed to pay $7 million out of $35 million originally assessed by the IRS in connection with several of the lesser issues covered in the assessment. The IRS agreed to waive the assessment of penalties. During July 2008, we completed the trial phase of the Tax Court case, which dealt with the remaining issue covered in the assessment. At trial, the IRS changed its position with respect to this remaining issue, which decreased the remaining amount at issue from $832 million to $545 million, excluding interest. We filed our post-trial briefs in October 2008 and rebuttal briefs in November 2008 with the U.S. Tax Court."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 38191,
+      "char_start": 37301,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "On December 10, 2009, the U.S. Tax Court issued its opinion, finding that our transfer pricing methodology, with appropriate adjustments, was the best method for assessing the value of the transaction at issue between Veritas and its offshore subsidiary. The Tax Court judge provided guidance as to how adjustments would be made to correct the application of the method used by Veritas. We remeasured and decreased our liability for unrecognized tax benefits accordingly, resulting in a $78.5 million tax benefit in the third quarter of fiscal 2010. Final computations as directed by the Ruling are not complete and, accordingly, we may make further adjustments to our tax liability in the future. The Tax Court ruling is subject to appeal. We have $110 million on deposit with the IRS pertaining to this matter. We do not anticipate making any further federal tax payments for these years."
+    },
+    {
+      "block_idx": 355,
+      "char_end": 38743,
+      "char_start": 38193,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "On December 2, 2009, we received a Revenue Agent's Report from the IRS for the Veritas 2002 through 2005 tax years assessing additional taxes due. We agree with $30 million of the tax assessment, excluding interest, but will contest the other $80 million of tax assessed and all penalties. The unagreed issues concern transfer pricing matters comparable to the one that was resolved in our favor in the Veritas v. Commissioner Tax Court decision. On January 15, 2010 we filed a protest with the IRS in connection with the $80 million of tax assessed."
+    },
+    {
+      "block_idx": 356,
+      "char_end": 38920,
+      "char_start": 38745,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "We continue to monitor the progress of ongoing tax controversies and the impact, if any, of the expected tolling of the statute of limitations in various taxing jurisdictions."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 38945,
+      "char_start": 38922,
+      "is_heading": true,
+      "ordinal": 98,
+      "text": "Loss from joint venture"
+    },
+    {
+      "block_idx": 361,
+      "char_end": 39434,
+      "char_start": 38947,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "On February 5, 2008, Symantec formed Huawei-Symantec, Inc. (\"joint venture\") with a subsidiary of Huawei Technologies Co., Ltd. (\"Huawei\"). The joint venture is domiciled in Hong Kong with principal operations in Chengdu, China. The joint venture develops, manufactures, markets and supports security and storage appliances to global telecommunications carriers and enterprise customers. We record our proportionate share of the joint venture's net income or loss one quarter in arrears."
+    },
+    {
+      "block_idx": 362,
+      "char_end": 40027,
+      "char_start": 39436,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "For the three and nine months ended January 1, 2010, we recorded a loss of approximately $12 million and $37 million related to our share of the joint venture's net loss incurred for the period from July 1, 2009 to September 30, 2009, and the period from January 1, 2009 to September 30, 2009, respectively. For the three and nine months ended January 2, 2009, we recorded a loss of approximately $16 million and $33 million related to our share of the joint venture's net loss for the period from July 1, 2008 to September 30, 2008, and February 5, 2008 to September 30, 2008, respectively."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 40764,
+      "char_start": 40029,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "The joint venture adopted new authoritative guidance on revenue arrangements with multiple deliverables during its period ended December 31, 2009, which will be applied to the beginning of its fiscal year. The expected impact of adopting the new authoritative guidance on the joint venture's financial statements will be a decrease in its net loss of approximately $21 million to $24 million for its fiscal year ended December 31, 2009. We expect to include our proportionate share of the decrease in net loss of approximately $10 million to $12 million in our Annual Report on Form 10-K for our fiscal year ending April 2, 2010. Approximately $1 million to $2 million of the decrease in net loss will impact our fiscal fourth quarter."
+    },
+    {
+      "block_idx": 364,
+      "char_end": 40797,
+      "char_start": 40766,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "LIQUIDITY AND CAPITAL RESOURCES"
+    },
+    {
+      "block_idx": 365,
+      "char_end": 40814,
+      "char_start": 40799,
+      "is_heading": true,
+      "ordinal": 103,
+      "text": "Sources of Cash"
+    },
+    {
+      "block_idx": 366,
+      "char_end": 41113,
+      "char_start": 40816,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "We have historically relied on cash flow from operations, borrowings under a credit facility, issuances of convertible notes, and equity securities for our liquidity needs. Key sources of cash include earnings from operations, existing cash and cash equivalents, and our revolving credit facility."
+    },
+    {
+      "block_idx": 367,
+      "char_end": 41627,
+      "char_start": 41115,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "In fiscal 2007, we entered into a five-year $1 billion senior unsecured revolving credit facility that expires in July 2011. In order to be able to draw on the credit facility, we must maintain certain covenants, including a specified ratio of debt to earnings (before interest, taxes, depreciation, amortization and impairment) as well as certain other non-financial covenants. As of January 1, 2010, we were in compliance with all required covenants and there was no outstanding balance on the credit facility."
+    },
+    {
+      "block_idx": 368,
+      "char_end": 41929,
+      "char_start": 41629,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "As of January 1, 2010, we had cash and cash equivalents of $2.6 billion and short-term investments of $18 million resulting in a net liquidity position of approximately $3.6 billion, which is defined as unused availability of the credit facility, cash and cash equivalents and short-term investments."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 42166,
+      "char_start": 41931,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "We believe that our existing cash and investment balances, our borrowing capacity, and cash generated from operations will be sufficient to meet our working capital and capital expenditures requirements for at least the next 12 months."
+    },
+    {
+      "block_idx": 370,
+      "char_end": 42180,
+      "char_start": 42168,
+      "is_heading": true,
+      "ordinal": 108,
+      "text": "Uses of Cash"
+    },
+    {
+      "block_idx": 371,
+      "char_end": 42438,
+      "char_start": 42182,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "Our principal cash requirements include working capital, capital expenditures, payments of principal and interest on our debt and payments of taxes. In addition, we regularly evaluate our ability to repurchase stock, pay debts and acquire other businesses."
+    },
+    {
+      "block_idx": 372,
+      "char_end": 42744,
+      "char_start": 42440,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "Line of Credit. There were no borrowings under our credit facility for the nine months ended January 1, 2010. For the nine months ended January 2, 2009, we repaid the entire $200 million principal amount, plus $3 million of accrued interest, that we borrowed during fiscal 2008 under the credit facility."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 43064,
+      "char_start": 42746,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "Acquisition-Related. For the nine months ended January 1, 2010, we acquired a company for an aggregate payment of $19 million, net of cash acquired. For the nine months ended January 2, 2009, we acquired MessageLabs, PC Tools, and several other companies for an aggregate payment of $1.0 billion, net of cash acquired."
+    },
+    {
+      "block_idx": 376,
+      "char_end": 43573,
+      "char_start": 43066,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "Convertible Senior Notes. In June 2006, we issued $1.1 billion principal amount of 0.75% Convertible Senior Notes due June 15, 2011, and $1.0 billion principal amount of 1.00% Convertible Senior Notes (collectively the \"Senior Notes\") due June 15, 2013, to initial purchasers in a private offering for resale to qualified institutional buyers pursuant to SEC Rule 144A. For the nine months ended January 1, 2010 and January 2, 2009, we have not repaid any of this debt other than the related interest costs."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 43926,
+      "char_start": 43575,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "Stock Repurchases. For the nine months ended January 1, 2010, we repurchased 23 million shares, or $364 million, of our common stock. For the nine months ended January 2, 2009, we repurchased 35 million shares, or $600 million, of our common stock. As of January 1, 2010, we had $936 million remaining under the plan authorized for future repurchases."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 43938,
+      "char_start": 43928,
+      "is_heading": true,
+      "ordinal": 114,
+      "text": "Cash Flows"
+    },
+    {
+      "block_idx": 379,
+      "char_end": 44069,
+      "char_start": 43940,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "The following table summarizes, for the periods indicated, selected items in our Condensed Consolidated Statements of Cash Flows:"
+    },
+    {
+      "block_idx": 381,
+      "char_end": 44091,
+      "char_start": 44071,
+      "is_heading": true,
+      "ordinal": 116,
+      "text": "Operating Activities"
+    },
+    {
+      "block_idx": 382,
+      "char_end": 44626,
+      "char_start": 44093,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "Net cash provided by operating activities was $990 million for the nine months ended January 1, 2010, which resulted from net income of $523 million adjusted for non-cash items, including depreciation and amortization charges of $640 million and stock-based compensation expense of $124 million. These amounts were partially offset by a decrease in income taxes payable of $118 million primarily related to the outcome of the Veritas v. Commissioner Tax Court decision (see Note 12) and a decrease in deferred revenue of $95 million."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 45057,
+      "char_start": 44628,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "Net cash provided by operating activities was $1.1 billion for the nine months ended January 2, 2009, which resulted from a net loss of $6.5 billion adjusted for non-cash items, including goodwill impairment of $7.0 billion, depreciation and amortization charges of $697 million and stock-based compensation expense of $123 million. These amounts were partially offset by an increase in trade accounts receivable of $157 million."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 45079,
+      "char_start": 45059,
+      "is_heading": true,
+      "ordinal": 119,
+      "text": "Investing Activities"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 45346,
+      "char_start": 45081,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "Net cash provided by investing activities was $52 million for the nine months ended January 1, 2010 and was primarily due to net proceeds from the sale of available-for-sale securities of $188 million, partially offset by $149 million paid for capital expenditures."
+    },
+    {
+      "block_idx": 386,
+      "char_end": 45706,
+      "char_start": 45348,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "Net cash used in investing activities was $764 million for the nine months ended January 2, 2009 and was due to $1.0 billion paid for acquisitions, net of cash acquired, and $215 million paid for capital expenditures, partially offset by net proceeds of $456 million from the sale of short-term investments which were used to partially fund our acquisitions."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 45728,
+      "char_start": 45708,
+      "is_heading": true,
+      "ordinal": 122,
+      "text": "Financing Activities"
+    },
+    {
+      "block_idx": 388,
+      "char_end": 45986,
+      "char_start": 45730,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "Net cash used in financing activities of $304 million for the nine months ended January 2, 2010 was due to repurchases of common stock of $364 million, partially offset by net proceeds from sales of common stock through employee stock plans of $73 million."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 46339,
+      "char_start": 45988,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "Net cash used in financing activities of $616 million for the nine months ended January 2, 2009 was primarily due to repurchases of common stock of $600 million and the repayment of $200 million on our senior unsecured revolving credit facility, partially offset by net proceeds from sales of common stock through employee stock plans of $189 million."
+    },
+    {
+      "block_idx": 392,
+      "char_end": 46364,
+      "char_start": 46341,
+      "is_heading": true,
+      "ordinal": 125,
+      "text": "Contractual Obligations"
+    },
+    {
+      "block_idx": 393,
+      "char_end": 46729,
+      "char_start": 46366,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "There have been no significant changes in our contractual obligations during the nine months ended January 1, 2010, as compared to the contractual obligations disclosed in Management's Discussion and Analysis of Financial Condition and Results of Operations, set forth in Part II, Item 7, of our Annual Report on Form 10-K for the fiscal year ended April 3, 2009."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 407,
+      "char_end": 283,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "A description of the risks associated with our business, financial condition, and results of operations is set forth in Part I, Item 1A, of our Annual Report on Form 10-K for the fiscal year ended April 3, 2009. There have been no material changes in our risks from such description."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000950123-10-009307",
+    "cik": 849399,
+    "download_status": "ok",
+    "mdna_end_block": 394,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 45222,
+    "mdna_n_paragraphs": 82,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 24,
+    "mdna_n_words": 7178,
+    "mdna_start_block": 215,
+    "mdna_status": "extracted",
+    "n_blocks": 434,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "f54769e10vq.htm",
+    "risk_end_block": 410,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 283,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 50,
+    "risk_start_block": 406,
+    "risk_status": "no_material_changes",
+    "source_sha256": "fb3bb78290f6fa13902f4703371fc30a999e37e4e387d9929627d0b0ddf99acc",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/849399/000095012310009307/f54769e10vq.htm"
+  }
+}

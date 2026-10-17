@@ -1,0 +1,943 @@
+{
+  "mdna": [
+    {
+      "block_idx": 276,
+      "char_end": 17,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Business Overview"
+    },
+    {
+      "block_idx": 277,
+      "char_end": 168,
+      "char_start": 19,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "PTC is a global software company headquartered in Boston, Massachusetts. We employ over 7,000 people and support more than 30,000 customers globally."
+    },
+    {
+      "block_idx": 278,
+      "char_end": 235,
+      "char_start": 170,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "We primarily serve customers in the following industry verticals:"
+    },
+    {
+      "block_idx": 280,
+      "char_end": 248,
+      "char_start": 237,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Industrials"
+    },
+    {
+      "block_idx": 282,
+      "char_end": 280,
+      "char_start": 250,
+      "is_heading": true,
+      "ordinal": 4,
+      "text": "Federal, Aerospace and Defense"
+    },
+    {
+      "block_idx": 284,
+      "char_end": 307,
+      "char_start": 282,
+      "is_heading": true,
+      "ordinal": 5,
+      "text": "Electronics and High Tech"
+    },
+    {
+      "block_idx": 286,
+      "char_end": 319,
+      "char_start": 309,
+      "is_heading": true,
+      "ordinal": 6,
+      "text": "Automotive"
+    },
+    {
+      "block_idx": 288,
+      "char_end": 357,
+      "char_start": 321,
+      "is_heading": true,
+      "ordinal": 7,
+      "text": "Medical Technology and Life Sciences"
+    },
+    {
+      "block_idx": 289,
+      "char_end": 1522,
+      "char_start": 359,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Our customers are focused on improving their competitiveness in the face of global competition and increasing product complexity, and our suite of software offerings is a strategic enabler of this and their digital transformation initiatives. Given the breadth and openness of our portfolio, we enable the Intelligent Product Lifecycle: establishing a strong product data foundation in the engineering department and democratizing the access and use of that data across the enterprise to drive cross-functional collaboration, accelerate new product introduction timelines, and deliver higher product quality. By embracing the Intelligent Product Lifecycle, our customers establish the quality, consistency, and traceability of product data, ensuring the data is up-to-date, accessible, reliable, and actionable. Our customers can then go on to use this data to break down silos, streamline workflows, and achieve interoperability across departments, functions, and systems. This includes the growing emphasis on AI-driven transformation across our customers' teams, operations, and processes. A product data foundation is the backbone of AI-driven transformation."
+    },
+    {
+      "block_idx": 290,
+      "char_end": 1965,
+      "char_start": 1524,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Our business is based on a subscription model and approximately 95% of our 2025 and 2026 year-to-date revenue was recurring in nature. Compared to a perpetual license model, our subscription model naturally drives higher customer engagement and retention and provides better business predictability. This, in turn, enables us to make steady and sustained investments to support our customers and pursue mid-to-long-term growth opportunities."
+    },
+    {
+      "block_idx": 291,
+      "char_end": 1993,
+      "char_start": 1967,
+      "is_heading": true,
+      "ordinal": 10,
+      "text": "Forward-Looking Statements"
+    },
+    {
+      "block_idx": 292,
+      "char_end": 5032,
+      "char_start": 1995,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "Statements in this document that are not historic facts, including statements about our future operating, financial and growth expectations, and potential stock repurchases are forward-looking statements that involve risks and uncertainties that could cause actual results to differ materially from those projected. These risks include: the macroeconomic and/or global manufacturing climates may not improve or may deteriorate due to, among other factors, the effects of import tariffs, threats of additional and reciprocal import tariffs, global trade and geopolitical tensions and uncertainty, including the recent military conflict in Iran, volatile foreign exchange rates, high interest rates or increases in interest rates, inflation, and tightening of credit standards and availability, any of which could cause customers to delay or reduce purchases of new software, adopt competing software solutions, reduce the number of subscriptions they carry, or delay payments to us, which would adversely affect our ARR (Annual Run Rate) and/or financial results and cash flow and growth; our investments in our software solutions, including the integration of artificial intelligence (AI) capabilities into our software solutions, may not drive expansion of those solutions and/or generate the ARR and/or cash flow we expect if those capabilities are not made available when or as we expect, if customers are slower to adopt those solutions than we expect, or if customers adopt competing solutions; customers may not build the product data foundations essential for the AI-driven transformation of their business when or as we expect, which could adversely affect our ARR and/or financial results and cash flow and growth; our go-to-market realignment and related initiatives may not generate the ARR and/or financial results or cash flow when or as we expect; the proceeds we receive under the Transition Services Agreement entered into in connection with the divestiture of the Kepware and ThingWorx businesses may be lower than expected and/or may not offset our expenses and/or the cash flow impact of the divestiture to the extent expected; the divestiture and/or performance of the Transition Services Agreement may disrupt our business to a greater extent than we expect; other uses of cash or our credit facility limits could limit or preclude the return of excess cash to shareholders by way of share repurchases, or could change the amount and timing of any share repurchases; and foreign exchange rates may differ materially from those we expect. In addition, our assumptions concerning our future GAAP and non-GAAP effective income tax rates are based on estimates and other factors that could change, including changes to tax laws in the U.S. and other countries and the geographic mix of our revenue, expenses, and profits. Other risks and uncertainties that could cause actual results to differ materially from those projected are described below throughout or referenced in Part II, Item 1A. Risk Factors of this report."
+    },
+    {
+      "block_idx": 296,
+      "char_end": 5079,
+      "char_start": 5034,
+      "is_heading": true,
+      "ordinal": 12,
+      "text": "Our Operating and Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 297,
+      "char_end": 5649,
+      "char_start": 5081,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Our discussion of results includes discussion of our ARR operating measure, non-GAAP financial measures, and disclosure of our results on a constant currency basis. ARR and our non-GAAP financial measures are described below in Operating and Non-GAAP Financial Measures. The methodology used to calculate constant currency disclosures is described in Results of Operations - Impact of Foreign Currency Exchange on Results of Operations. You should read those sections to understand our operating measure, non-GAAP financial measures, and constant currency disclosures."
+    },
+    {
+      "block_idx": 298,
+      "char_end": 5952,
+      "char_start": 5651,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Given the divestiture of our Kepware and ThingWorx businesses in Q2'26, we are also providing ARR excluding those divested businesses, which removes ARR attributable to those businesses from the applicable prior periods to facilitate meaningful period-to-period comparisons of our continuing business."
+    },
+    {
+      "block_idx": 299,
+      "char_end": 5972,
+      "char_start": 5954,
+      "is_heading": true,
+      "ordinal": 15,
+      "text": "Executive Overview"
+    },
+    {
+      "block_idx": 300,
+      "char_end": 6268,
+      "char_start": 5974,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "ARR was $2.41 billion as of the end of Q3'26, flat with Q3'25, and grew 2% on a constant currency basis, with growth impacted by the Q2'26 divestiture of the Kepware and ThingWorx businesses. ARR growth excluding the divested businesses in Q3'26 compared to Q3'25 was 7% (9% constant currency)."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 6906,
+      "char_start": 6270,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Cash provided by operating activities grew 7% to $261 million in Q3'26 compared to Q3'25. Free cash flow grew 3% to $249 million in Q3'26 compared to Q3'25, impacted by higher capital expenditures related to moving a major R&D center to a new office. In Q3'26, we made $9 million of divestiture-related payments. Our cash flow growth is attributable to resilient top-line growth due to our subscription business model and operational discipline. In Q3'26, we repurchased $525 million of outstanding shares, of which $500 million was paid in the quarter, partially funded by $225 million of net debt borrowings under our credit facility."
+    },
+    {
+      "block_idx": 302,
+      "char_end": 7488,
+      "char_start": 6908,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Revenue decreased 7% (8% constant currency) in Q3'26 compared to Q3'25, reflecting the divestiture of the Kepware and ThingWorx businesses in Q2'26 as well as lower license revenue due primarily to the shortened duration of a single large contract renewal and expansion. There was $46 million of revenue attributable to Kepware and ThingWorx in Q3'25. Operating margin decreased by approximately 480 basis points in Q3'26 compared to Q3'25 and diluted earnings per share decreased 12% to $1.03 in Q3'26 compared to Q3'25, primarily due to lower revenue in Q3'26 compared to Q3'25."
+    },
+    {
+      "block_idx": 305,
+      "char_end": 7511,
+      "char_start": 7490,
+      "is_heading": true,
+      "ordinal": 19,
+      "text": "Results of Operations"
+    },
+    {
+      "block_idx": 309,
+      "char_end": 7791,
+      "char_start": 7513,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "See Operating and Non-GAAP Financial Measures below for a reconciliation of our GAAP results to our non-GAAP financial measures and Impact of Foreign Currency Exchange on Results of Operations below for a description of how we calculate our results on a constant currency basis."
+    },
+    {
+      "block_idx": 311,
+      "char_end": 8014,
+      "char_start": 7793,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "ARR excluding divested businesses excludes ARR attributable to the Kepware and ThingWorx businesses from the prior\u2010year period to facilitate period\u2010to\u2010period comparison following the Q2'26 divestiture of those businesses."
+    },
+    {
+      "block_idx": 313,
+      "char_end": 8130,
+      "char_start": 8016,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Recurring revenue is comprised of on-premises subscription, perpetual support, SaaS, and hosting services revenue."
+    },
+    {
+      "block_idx": 316,
+      "char_end": 8192,
+      "char_start": 8132,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Impact of Foreign Currency Exchange on Results of Operations"
+    },
+    {
+      "block_idx": 317,
+      "char_end": 8701,
+      "char_start": 8194,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Approximately 55% of our revenue and 30% of our expenses are transacted in currencies other than the U.S. Dollar. Because we report our results of operations in U.S. Dollars, currency translation, particularly changes in the Euro, Yen, Shekel, and Rupee relative to the U.S. Dollar, affects our reported results. Our constant currency disclosures are calculated by multiplying the results in local currency for the quarterly periods for FY'26 and FY'25 by the exchange rates in effect on September 30, 2025."
+    },
+    {
+      "block_idx": 318,
+      "char_end": 9274,
+      "char_start": 8703,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "If reported results for the nine months ended June 30, 2026 were converted into U.S. Dollars using the rates in effect as of September 30, 2025, ARR would have been higher by $36 million, revenue would have been higher by $9 million, and expenses would have been materially consistent. If reported results for the nine months ended June 30, 2025 were converted into U.S. Dollars using the rates in effect as of September 30, 2025, ARR would have been lower by $12 million, revenue would have been higher by $61 million, and expenses would have been higher by $21 million."
+    },
+    {
+      "block_idx": 319,
+      "char_end": 9283,
+      "char_start": 9276,
+      "is_heading": true,
+      "ordinal": 26,
+      "text": "Revenue"
+    },
+    {
+      "block_idx": 320,
+      "char_end": 10085,
+      "char_start": 9285,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Under ASC 606, the value, mix, and duration of contract types (support, SaaS, on-premises subscription) commencing in any given period can have a material impact on revenue in the period, and as a result can impact the comparability of reported revenue period over period. We recognize revenue for the license portion of on-premises subscription contracts when we deliver the licenses to the customer, typically on the start date, and we recognize revenue on the support portion of on-premises subscription contracts and stand-alone support contracts ratably over the term. Revenue from our cloud services (primarily SaaS) contracts is recognized ratably. Given the different value, mix, and duration of contracts commencing in any period, year-over-year or sequential revenue can vary significantly."
+    },
+    {
+      "block_idx": 321,
+      "char_end": 10114,
+      "char_start": 10087,
+      "is_heading": true,
+      "ordinal": 28,
+      "text": "Revenue by Line of Business"
+    },
+    {
+      "block_idx": 323,
+      "char_end": 10403,
+      "char_start": 10116,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "Software revenue growth in Q3'26 and the first nine months of FY'26 was impacted by the divestiture of the Kepware and ThingWorx businesses. Software revenue attributable to Kepware and ThingWorx was $45 million and $131 million in Q3'25 and the first nine months of FY'25, respectively."
+    },
+    {
+      "block_idx": 324,
+      "char_end": 10682,
+      "char_start": 10405,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "In addition to the impact of the divestiture, software revenue in Q3'26 was also impacted by a decrease in license revenue, reflecting the shortened duration of a single large contract renewal and expansion in the period, offset by growth in support and cloud services revenue."
+    },
+    {
+      "block_idx": 325,
+      "char_end": 11021,
+      "char_start": 10684,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Software revenue growth in the first nine months of FY'26 was driven by license revenue growth, which reflects the value and duration of contracts that commenced in the period. Support and cloud services revenue growth in the first nine months of FY'26 compared to the corresponding FY'25 period was driven by growth in both CAD and PLM."
+    },
+    {
+      "block_idx": 326,
+      "char_end": 11233,
+      "char_start": 11023,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "Professional services revenue decreased in the first nine months of FY'26 as we continue to execute our strategy of leveraging partners to deliver services rather than contracting to deliver services ourselves."
+    },
+    {
+      "block_idx": 329,
+      "char_end": 11268,
+      "char_start": 11235,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Software Revenue by Product Group"
+    },
+    {
+      "block_idx": 331,
+      "char_end": 11463,
+      "char_start": 11270,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "PLM software revenue decreased in Q3'26 compared to Q3'25, primarily driven by the impact of the divestiture of the Kepware and ThingWorx businesses, as well as lower license revenue in Europe."
+    },
+    {
+      "block_idx": 332,
+      "char_end": 11642,
+      "char_start": 11465,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "PLM software revenue growth in the first nine months of FY'26 was driven by Windchill license revenue growth in the Americas and Europe, offset by the impact of the divestiture."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 11911,
+      "char_start": 11644,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "PLM ARR decreased 4% (2% constant currency) from Q3'25 to Q3'26, reflecting the impact of the divestiture of the Kepware and ThingWorx businesses. PLM ARR excluding the divested businesses grew 8% (10% constant currency), primarily driven by Windchill and Codebeamer."
+    },
+    {
+      "block_idx": 334,
+      "char_end": 12391,
+      "char_start": 11913,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "PLM ARR decreased 4% (4% constant currency) in the Americas, 4% (2% constant currency) in Europe and 2% (5% increase in constant currency) in Asia Pacific from Q3'25 to Q3'26. PLM ARR excluding the divested businesses grew 9% (9% constant currency) in the Americas, 9% (16% constant currency) in Asia Pacific, and 6% (9% constant currency) in Europe from Q3'25 to Q3'26, primarily driven by Windchill in all regions, with contribution from Codebeamer in Europe and Asia Pacific."
+    },
+    {
+      "block_idx": 335,
+      "char_end": 12580,
+      "char_start": 12393,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "CAD software revenue was flat year-over-year in Q3'26 due to lower license revenue. CAD software revenue growth in the first nine months of FY'26 was driven by Creo growth in all regions."
+    },
+    {
+      "block_idx": 336,
+      "char_end": 12869,
+      "char_start": 12582,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "CAD ARR grew 6% (8% constant currency) from Q3'25 to Q3'26, primarily driven by Creo. CAD ARR grew 8% (8% constant currency) in the Americas, 5% (11% constant currency) in Asia Pacific, and 4% (7% constant currency) in Europe from Q3'25 to Q3'26, primarily driven by Creo in all regions."
+    },
+    {
+      "block_idx": 337,
+      "char_end": 12883,
+      "char_start": 12871,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "Gross Margin"
+    },
+    {
+      "block_idx": 340,
+      "char_end": 12984,
+      "char_start": 12885,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Non-GAAP financial measures are reconciled to GAAP results under Non-GAAP Financial Measures below."
+    },
+    {
+      "block_idx": 341,
+      "char_end": 13303,
+      "char_start": 12986,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "License gross margin changes in Q3'26 and the first nine months of FY'26 compared to the corresponding FY'25 periods were in line with changes in license revenue. Cost of license revenue was higher in the first nine months of FY'26 compared to the first nine months of FY'25, primarily due to higher royalty expenses."
+    },
+    {
+      "block_idx": 344,
+      "char_end": 13692,
+      "char_start": 13305,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Support and cloud services gross margin growth in Q3'26 and the first nine months of FY'26 compared to the corresponding FY'25 periods was in line with support and cloud services revenue growth. Cost of support and cloud services revenue increased 7% in the first nine months of FY'26, primarily due to higher cloud and software subscription-related costs and compensation-related costs."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 14210,
+      "char_start": 13694,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Professional services gross margin increased in Q3'26 compared to Q3'25 due to an increase in professional services revenue. Professional services gross margin decreased in the first nine months of FY'26, primarily due to a sharper decrease in professional services revenue than in professional services expense. The decrease in professional services revenue and costs is due to our continued execution of our strategy of leveraging partners to deliver services rather than contracting to deliver services ourselves."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 14230,
+      "char_start": 14212,
+      "is_heading": true,
+      "ordinal": 45,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 348,
+      "char_end": 14351,
+      "char_start": 14232,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Total headcount in Q3'26 decreased 5% compared to Q3'25 due to the divestiture of the Kepware and ThingWorx businesses."
+    },
+    {
+      "block_idx": 349,
+      "char_end": 14427,
+      "char_start": 14353,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Operating expenses in Q3'26 decreased compared to Q3'25, primarily due to:"
+    },
+    {
+      "block_idx": 351,
+      "char_end": 14607,
+      "char_start": 14429,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "income under the Transition Services Agreement associated with the divestiture of the Kepware and ThingWorx businesses, which is primarily included in General and administrative;"
+    },
+    {
+      "block_idx": 352,
+      "char_end": 14629,
+      "char_start": 14609,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "partially offset by:"
+    },
+    {
+      "block_idx": 354,
+      "char_end": 14699,
+      "char_start": 14631,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "higher stock-based compensation expense and travel-related expenses."
+    },
+    {
+      "block_idx": 355,
+      "char_end": 14839,
+      "char_start": 14701,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Operating expenses in the first nine months of FY'26 increased compared to the first nine months of FY'25, primarily due to the following:"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 14977,
+      "char_start": 14841,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "$40 million in charges associated with the divestiture of the Kepware and ThingWorx businesses (included in General and administrative);"
+    },
+    {
+      "block_idx": 359,
+      "char_end": 15215,
+      "char_start": 14979,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "a $30 million increase in compensation expense (excluding stock-based compensation expense and severance expense), driven by headcount growth prior to the divestiture, annual merit increases, and expense related to accrued cash bonuses;"
+    },
+    {
+      "block_idx": 361,
+      "char_end": 15468,
+      "char_start": 15217,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "a $22 million increase in stock-based compensation, driven by the timing and value of grants and the increase in the number of performance-based grants, offset by lower stock-based bonus expense; and an $11 million increase in travel-related expenses;"
+    },
+    {
+      "block_idx": 366,
+      "char_end": 15490,
+      "char_start": 15470,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "partially offset by:"
+    },
+    {
+      "block_idx": 368,
+      "char_end": 15784,
+      "char_start": 15492,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "a $20 million decrease in severance costs primarily related to our FY'25 go-to-market realignment (which was mainly included in Sales and marketing); and income under the Transition Services Agreement associated with the divestiture, which is primarily included in General and administrative."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 15802,
+      "char_start": 15786,
+      "is_heading": true,
+      "ordinal": 57,
+      "text": "Interest Expense"
+    },
+    {
+      "block_idx": 373,
+      "char_end": 16250,
+      "char_start": 15804,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "Interest expense in FY'26 and FY'25 includes interest on our revolving credit facility, term loan, and senior notes due in 2028. Interest expense in the first nine months of FY'25 also included interest on our senior notes due in 2025, which were redeemed in Q2'25. Interest expense decreased in Q3'26 and the first nine months of FY'26 compared to the corresponding FY'25 periods due to lower debt balances during FY'26 and lower interest rates."
+    },
+    {
+      "block_idx": 374,
+      "char_end": 16264,
+      "char_start": 16252,
+      "is_heading": true,
+      "ordinal": 59,
+      "text": "Other Income"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 16483,
+      "char_start": 16266,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Other income, net was higher in the first nine months of FY'26 compared to the first nine months of FY'25 due to the Q2'26 recognition of a $463 million gain on the divestiture of the Kepware and ThingWorx businesses."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 16497,
+      "char_start": 16485,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 379,
+      "char_end": 17342,
+      "char_start": 16499,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "The effective tax rate for the three months ended June 30, 2026 was lower than the effective tax rate for the corresponding prior-year period, primarily due to changes in the geographic mix of income before taxes. For the three and nine months ended June 30, 2026, the provision for income taxes included $14 million of tax expense related to the Varian Medical Systems, Inc. v. Commissioner tax court ruling and a $7 million tax benefit related to a strategic solar energy investment, each as discussed in Note 9. Income Taxes. For the first nine months of FY'26, the provision for income taxes also included a $96 million tax expense related to the Kepware and ThingWorx divestiture and a $7 million tax benefit related to the reversal of a prior-year tax charge associated with IRS procedural guidance, as described in Note 9. Income Taxes."
+    },
+    {
+      "block_idx": 380,
+      "char_end": 17680,
+      "char_start": 17344,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "The effective tax rate for the first nine months of FY'25 reflected increased tax expense associated with the IRS procedural guidance described in Note 9. Income Taxes. Additionally, the first nine months of FY'25 included a benefit of $10 million related to changes in tax reserves associated with prior years in foreign jurisdictions."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 18071,
+      "char_start": 17682,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "On July 4, 2025, the \"One Big Beautiful Bill Act\" (the \"Act\") was enacted into law. The Act includes changes to U.S. tax law that are applicable to us beginning in FY'26. These changes include provisions allowing accelerated tax deductions for qualified property and research expenditures. Our financials reflect the impact of the provisions of the Act that are applicable beginning FY'26."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 18115,
+      "char_start": 18073,
+      "is_heading": true,
+      "ordinal": 65,
+      "text": "Critical Accounting Policies and Estimates"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 18417,
+      "char_start": 18117,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "There were no material changes to our critical accounting policies and estimates as set forth under the heading Critical Accounting Policies and Estimates in Part II, Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations of our 2025 Annual Report on Form 10-K."
+    },
+    {
+      "block_idx": 386,
+      "char_end": 18451,
+      "char_start": 18419,
+      "is_heading": true,
+      "ordinal": 67,
+      "text": "Recent Accounting Pronouncements"
+    },
+    {
+      "block_idx": 387,
+      "char_end": 19078,
+      "char_start": 18453,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "In accordance with recently issued accounting pronouncements, we will be required to comply with certain changes in accounting rules and regulations. Refer to Note 1. Basis of Presentation to the Condensed Consolidated Financial Statements of this Quarterly Report on Form 10-Q, which is incorporated herein by reference, for all recently issued accounting pronouncements. We are evaluating the impact of ASU 2025-06, Intangibles-Goodwill and Other-Internal-Use Software (Subtopic 350-40): Targeted Improvements to the Accounting for Internal-Use Software and have not yet determined whether they will have a material impact."
+    },
+    {
+      "block_idx": 388,
+      "char_end": 19111,
+      "char_start": 19080,
+      "is_heading": true,
+      "ordinal": 69,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 390,
+      "char_end": 19155,
+      "char_start": 19113,
+      "is_heading": true,
+      "ordinal": 70,
+      "text": "Cash, Cash Equivalents and Restricted Cash"
+    },
+    {
+      "block_idx": 391,
+      "char_end": 19351,
+      "char_start": 19157,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Our cash and cash equivalents are invested with highly rated financial institutions. Cash and cash equivalents include highly liquid investments with original maturities of three months or less."
+    },
+    {
+      "block_idx": 392,
+      "char_end": 20299,
+      "char_start": 19353,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Due to the stability of our subscription model and consistency of annual, up-front billing, we aim to maintain a low cash balance. Cash balances are higher as of the end of Q3'26 than as of the end of Q4'25, which primarily reflects the timing of expected tax payments associated with the Kepware and ThingWorx divestiture. A significant portion of our cash is generated and held outside the U.S. As of June 30, 2026, we had cash and cash equivalents of $33 million in the U.S., $158 million in Europe, $144 million in Asia Pacific (including India) and $16 million in other countries. We have substantial cash requirements in the U.S. but believe that the combination of our existing U.S. cash and cash equivalents, cash available under our revolving credit facility, future U.S. operating cash inflows, and our ability to repatriate cash to the U.S. will be sufficient to meet our ongoing U.S. operating expenses and known capital requirements."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 20338,
+      "char_start": 20301,
+      "is_heading": true,
+      "ordinal": 73,
+      "text": "Cash Provided by Operating Activities"
+    },
+    {
+      "block_idx": 394,
+      "char_end": 20667,
+      "char_start": 20340,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "Cash provided by operating activities increased $88 million in the first nine months of FY'26 compared to the same period in FY'25. Growth was driven by higher collections and lower interest payments, partially offset by higher tax payments, higher payroll and related payments, and $24 million of divestiture-related payments."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 20716,
+      "char_start": 20669,
+      "is_heading": true,
+      "ordinal": 75,
+      "text": "Cash Provided by (Used in) Investing Activities"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 20972,
+      "char_start": 20718,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Cash provided by investing activities in the first nine months of FY'26 was driven by $523 million in consideration received for the divestiture of the Kepware and ThingWorx businesses, partially offset by a $50 million strategic solar energy investment."
+    },
+    {
+      "block_idx": 399,
+      "char_end": 21007,
+      "char_start": 20974,
+      "is_heading": true,
+      "ordinal": 77,
+      "text": "Cash Used in Financing Activities"
+    },
+    {
+      "block_idx": 400,
+      "char_end": 21489,
+      "char_start": 21009,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Cash used in financing activities in the first nine months of FY'26 was driven by $1,326 million of repurchases of common stock, partially offset by $225 million of net borrowings on our credit facility. Cash used in financing activities in the first nine months of FY'25 included net payments of $517 million on our outstanding debt, including the redemption of our 2025 senior notes primarily using a draw on our credit facility, and $225 million of repurchases of common stock."
+    },
+    {
+      "block_idx": 401,
+      "char_end": 21507,
+      "char_start": 21491,
+      "is_heading": true,
+      "ordinal": 79,
+      "text": "Outstanding Debt"
+    },
+    {
+      "block_idx": 403,
+      "char_end": 21741,
+      "char_start": 21509,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "As of June 30, 2026, we were in compliance with all financial and operating covenants of the credit facility and the note indenture. As of June 30, 2026, the annual rate for borrowings outstanding under the credit facility was 5.0%."
+    },
+    {
+      "block_idx": 404,
+      "char_end": 22022,
+      "char_start": 21743,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Our credit facility and our senior notes are described in Note 10. Debt to the Condensed Consolidated Financial Statements of this Quarterly Report on Form 10-Q. As of June 30, 2026, $25 million of our debt associated with the credit facility term loan was classified as current."
+    },
+    {
+      "block_idx": 405,
+      "char_end": 22041,
+      "char_start": 22024,
+      "is_heading": true,
+      "ordinal": 82,
+      "text": "Share Repurchases"
+    },
+    {
+      "block_idx": 406,
+      "char_end": 22706,
+      "char_start": 22043,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Our Articles of Organization authorize us to issue up to 500 million shares of our common stock. Our Board of Directors has authorized us to repurchase up to $2 billion of our common stock in the period October 1, 2024 through September 30, 2026, and up to $2 billion of our common stock in the period October 1, 2026 through September 30, 2028. All shares of our common stock repurchased are automatically restored to the status of authorized and unissued. In Q2'26, we entered into an ASR to repurchase $375 million of our outstanding common stock as described in Note 4. Earnings per Share (EPS) and Common Stock. Final settlement of the ASR occurred in Q3'26."
+    },
+    {
+      "block_idx": 407,
+      "char_end": 22727,
+      "char_start": 22708,
+      "is_heading": true,
+      "ordinal": 84,
+      "text": "Future Expectations"
+    },
+    {
+      "block_idx": 408,
+      "char_end": 23069,
+      "char_start": 22729,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "We believe that our existing cash and cash equivalents, together with cash generated from operations and amounts available under our credit facility, will be sufficient to meet our working capital, capital expenditure, and committed cash requirements for at least the next twelve months, as well as our known long-term capital requirements."
+    },
+    {
+      "block_idx": 411,
+      "char_end": 23635,
+      "char_start": 23071,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "Our expected uses and sources of cash could change, our cash position could be reduced, and we could incur additional debt obligations if we retire other debt, engage in strategic transactions, or repurchase shares, any of which could be commenced, suspended, or completed at any time. Any such repurchases or retirement of debt will depend on prevailing market conditions, our liquidity requirements, contractual restrictions and other factors. The amounts involved in any debt retirement or issuance, share repurchases, or strategic transactions may be material."
+    },
+    {
+      "block_idx": 412,
+      "char_end": 23678,
+      "char_start": 23637,
+      "is_heading": true,
+      "ordinal": 87,
+      "text": "Operating and Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 413,
+      "char_end": 23697,
+      "char_start": 23680,
+      "is_heading": true,
+      "ordinal": 88,
+      "text": "Operating Measure"
+    },
+    {
+      "block_idx": 414,
+      "char_end": 23702,
+      "char_start": 23699,
+      "is_heading": true,
+      "ordinal": 89,
+      "text": "ARR"
+    },
+    {
+      "block_idx": 415,
+      "char_end": 23912,
+      "char_start": 23704,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "ARR (Annual Run Rate) represents the annualized value of our portfolio of active subscription software, SaaS, hosting, and support contracts as of the end of the reporting period. We calculate ARR as follows:"
+    },
+    {
+      "block_idx": 417,
+      "char_end": 24303,
+      "char_start": 23914,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "We consider a contract to be active when the product or service contractual term commences (the \"start date\") until the right to use the product or service ends (the \"expiration date\"). Even if the contract with the customer is executed before the start date, the contract will not count toward ARR until the customer right to receive the benefit of the products or services has commenced."
+    },
+    {
+      "block_idx": 419,
+      "char_end": 24618,
+      "char_start": 24305,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "For contracts that include annual values that change over time, we include in ARR only the annualized value of components of the contract that are considered active as of the date of the ARR calculation. We do not include any future committed increases in the contract value as of the date of the ARR calculation."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 24800,
+      "char_start": 24620,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "As ARR includes only contracts that are active at the end of the reporting period, ARR does not reflect assumptions or estimates regarding future contract renewals or non-renewals."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 25010,
+      "char_start": 24802,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "Active contracts are annualized by dividing the total active contract value by the contract duration in days (expiration date minus start date), then multiplying that by 365 days (or 366 days for leap years)."
+    },
+    {
+      "block_idx": 424,
+      "char_end": 25543,
+      "char_start": 25012,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "We believe ARR is a valuable operating measure to assess the health of a subscription business because it is aligned with the amount that we invoice the customer on an annual basis. We generally invoice customers annually for the current year of the contract. A customer with a one-year contract will typically be invoiced for the total value of the contract at the beginning of the contractual term, while a customer with a multi-year contract will be invoiced for each annual period at the beginning of each year of the contract."
+    },
+    {
+      "block_idx": 425,
+      "char_end": 25726,
+      "char_start": 25545,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "ARR increases by the annualized value of active contracts that commence in a reporting period and decreases by the annualized value of contracts that expire in the reporting period."
+    },
+    {
+      "block_idx": 426,
+      "char_end": 26156,
+      "char_start": 25728,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "As ARR is not annualized recurring revenue, it is not calculated based on recognized or unearned revenue and is not affected by variability in the timing of revenue under ASC 606, particularly for on-premises license subscriptions where a substantial portion of the total value of the contract is recognized as revenue at a point in time upon the later of when the software is made available, or the subscription term commences."
+    },
+    {
+      "block_idx": 427,
+      "char_end": 26411,
+      "char_start": 26158,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "ARR should be viewed independently of recognized and unearned revenue and is not intended to be combined with, or to replace, either of those items. Investors should consider our ARR operating measure only in conjunction with our GAAP financial results."
+    },
+    {
+      "block_idx": 430,
+      "char_end": 26440,
+      "char_start": 26413,
+      "is_heading": true,
+      "ordinal": 99,
+      "text": "Non-GAAP Financial Measures"
+    },
+    {
+      "block_idx": 431,
+      "char_end": 26716,
+      "char_start": 26442,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "Our non-GAAP financial measures and the reasons we use them and exclude the items identified below are described in Management's Discussion and Analysis of Financial Condition and Results of Operations in our Annual Report on Form 10-K for the year ended September 30, 2025."
+    },
+    {
+      "block_idx": 432,
+      "char_end": 26869,
+      "char_start": 26718,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "The non-GAAP financial measures presented in the discussion of our results of operations and the respective most directly comparable GAAP measures are:"
+    },
+    {
+      "block_idx": 434,
+      "char_end": 26910,
+      "char_start": 26871,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "non-GAAP gross margin-GAAP gross margin"
+    },
+    {
+      "block_idx": 436,
+      "char_end": 26959,
+      "char_start": 26912,
+      "is_heading": true,
+      "ordinal": 103,
+      "text": "non-GAAP operating income-GAAP operating income"
+    },
+    {
+      "block_idx": 438,
+      "char_end": 27008,
+      "char_start": 26961,
+      "is_heading": true,
+      "ordinal": 104,
+      "text": "non-GAAP operating margin-GAAP operating margin"
+    },
+    {
+      "block_idx": 440,
+      "char_end": 27045,
+      "char_start": 27010,
+      "is_heading": true,
+      "ordinal": 105,
+      "text": "non-GAAP net income-GAAP net income"
+    },
+    {
+      "block_idx": 442,
+      "char_end": 27155,
+      "char_start": 27047,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "non-GAAP diluted earnings per share-GAAP diluted earnings per share free cash flow-cash flow from operations"
+    },
+    {
+      "block_idx": 445,
+      "char_end": 27656,
+      "char_start": 27157,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "The non-GAAP financial measures other than free cash flow exclude, as applicable: stock-based compensation expense; amortization of acquired intangible assets; acquisition and transaction-related charges included in General and administrative expenses; Impairment and other charges (credits), net; non-operating charges (credits), net; and income tax adjustments as defined in our Annual Report on Form 10-K for the fiscal year ended September 30, 2025 and as reflected in the reconciliation tables."
+    },
+    {
+      "block_idx": 446,
+      "char_end": 28212,
+      "char_start": 27658,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "The items excluded from the non-GAAP financial measures often have a material impact on our financial results, certain of those items are recurring, and other items often recur. Accordingly, the non-GAAP financial measures included in this Quarterly Report on Form 10-Q should be considered in addition to, and not as a substitute for or superior to, the comparable measures prepared in accordance with GAAP. The following tables reconcile each of these non-GAAP financial measures to the most closely comparable GAAP measure on our financial statements."
+    },
+    {
+      "block_idx": 451,
+      "char_end": 28640,
+      "char_start": 28214,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "In Q2'26, we recognized gains of $462.6 million on the sale of the Kepware and ThingWorx businesses and $2.0 million related to the finalization of contingent consideration associated with the FY'22 sale of a portion of our PLM services business. In Q1'26, we recognized a $0.8 million financing charge related to a debt commitment agreement associated with our anticipated divestiture of the Kepware and ThingWorx businesses."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 29011,
+      "char_start": 28642,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "Income tax adjustments reflect the tax effects of non-GAAP adjustments which are calculated by applying the applicable tax rate by jurisdiction to the non-GAAP adjustments listed above. Additionally, in the first nine months of FY'25, adjustments exclude a $10.4 million benefit related to the tax impact of tax reserves related to prior years in foreign jurisdictions."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 29061,
+      "char_start": 29013,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "Operating margin impact of non-GAAP adjustments:"
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 470,
+      "char_end": 474,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "In addition to the information set forth in this report, you should carefully consider the risk factors described in Part I. Item 1A. Risk Factors in our 2025 Annual Report on Form 10-K, which could materially affect our business, financial condition or future results. Additional risks and uncertainties not currently known to us or that we currently deem to be immaterial also may materially and adversely affect our business, financial condition and/or operating results."
+    }
+  ],
+  "summary": {
+    "accession_number": "0001193125-26-328444",
+    "cik": 857005,
+    "download_status": "ok",
+    "mdna_end_block": 458,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 27831,
+    "mdna_n_paragraphs": 75,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 13,
+    "mdna_n_words": 4336,
+    "mdna_start_block": 275,
+    "mdna_status": "extracted",
+    "n_blocks": 493,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "ptc-20260630.htm",
+    "risk_end_block": 471,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 474,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 74,
+    "risk_start_block": 469,
+    "risk_status": "short_reference",
+    "source_sha256": "a4c9224278b9dd24472874e4e652f76466bc79af22f74033da9beff4bafb9bac",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526328444/ptc-20260630.htm"
+  }
+}

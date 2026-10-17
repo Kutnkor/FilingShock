@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filingshock"
+version = "0.1.0"
+description = "Do changes in corporate disclosures improve forecasts of next-session price-move magnitude?"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2", "numpy>=1.26", "pyarrow>=15", "scikit-learn>=1.5", "streamlit>=1.40", "altair>=5",
+  "beautifulsoup4>=4.12", "lxml>=5", "requests>=2.31", "yfinance>=0.2.40", "exchange_calendars>=4.5",
+  "PyYAML>=6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+report = ["vl-convert-python>=1.6"]        # PNG figure export (filingshock report)
+screenshots = ["playwright>=1.40"]          # scripts/capture_screenshots.py (uses installed Chrome)
+
+[project.scripts]
+filingshock = "filingshock.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+filingshock = ["ui/*.css"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["network: tests that contact external services (deselected by default)"]
+addopts = "-m 'not network'"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]

@@ -1,0 +1,1087 @@
+{
+  "mdna": [
+    {
+      "block_idx": 267,
+      "char_end": 2361,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "The following discussion should be read in conjunction with the condensed consolidated financial statements and notes thereto included in this Quarterly Report on Form 10-Q (this \"Quarterly Report\") and in conjunction with our Annual Report on Form 10-K for the fiscal year ended December 31, 2025 (our \"Annual Report\"). This Quarterly Report contains statements that are not historical in nature, are predictive, or that depend upon or refer to future events or conditions or contain other forward-looking statements. Statements including, but not limited to, statements regarding the extent, timing and mix of future revenues and customer demand; the deployment of our products and services; the impact of the macroeconomic and geopolitical environment, including but not limited to, expanded trade controls, tariffs, conflicts around the world, volatility in foreign currency exchange rates, inflation, increased energy costs, supply chain constraints and changes in interest rates; the impact of government actions; future costs, expenses, tax rates and uses of cash; legal, administrative and tax proceedings; obligations under our BIS and DOJ settlement agreements; restructuring actions and associated charges and benefits; pending acquisitions, the accounting for acquisitions and integration of acquired businesses; and other statements using words such as \"anticipates,\" \"believes,\" \"could,\" \"estimates,\" \"expects,\" \"forecasts,\" \"intends,\" \"may,\" \"plans,\" \"projects,\" \"should,\" \"targets,\" \"will\" and \"would,\" and words of similar import and the negatives thereof, constitute forward-looking statements. These statements are predictions based upon our current expectations about future events. Actual results could vary materially as a result of certain factors, including, but not limited to, those expressed in these statements. We refer you to the \"Results of Operations,\" \"Quantitative and Qualitative Disclosures About Market Risk,\" and \"Liquidity and Capital Resources\" sections contained in this Quarterly Report, the \"Risk Factors\" section contained in our Annual Report and this Quarterly Report, and the risks discussed in our other Securities and Exchange Commission (\"SEC\") filings, which identify important risks and uncertainties that could cause actual results to differ materially from those contained in the forward-looking statements."
+    },
+    {
+      "block_idx": 268,
+      "char_end": 2901,
+      "char_start": 2363,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "We urge you to consider these factors carefully in evaluating the forward-looking statements contained in this Quarterly Report. All subsequent written or oral forward-looking statements attributable to our company or persons acting on our behalf are expressly qualified in their entirety by these cautionary statements. The forward-looking statements included in this Quarterly Report are made only as of the date of this Quarterly Report. We disclaim any obligation to update these forward-looking statements, except as required by law."
+    },
+    {
+      "block_idx": 269,
+      "char_end": 3097,
+      "char_start": 2903,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "As used in this Quarterly Report on Form 10-Q, \"we,\" \"us,\" \"our company\" and \"Cadence\" mean Cadence Design Systems, Inc. and our subsidiaries, unless the context indicates or requires otherwise."
+    },
+    {
+      "block_idx": 270,
+      "char_end": 3116,
+      "char_start": 3099,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Business Overview"
+    },
+    {
+      "block_idx": 271,
+      "char_end": 3788,
+      "char_start": 3118,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "Cadence\u00ae is a global technology leader that develops computational, AI-driven software, accelerated hardware, and silicon intellectual property (\"IP\") products and solutions. Our customers include companies that design and manufacture semiconductors, as well as companies that design and manufacture electromechanical systems containing various types of semiconductor and other electronics. Our products and solutions empower our customers to design, verify and bring to life new and innovative products. Our mission is to empower the world's most innovative companies to deliver extraordinary electronic products that drive the global economy and improve everyday life."
+    },
+    {
+      "block_idx": 272,
+      "char_end": 4402,
+      "char_start": 3790,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "Semiconductors, also referred to as integrated circuits (\"ICs\"), or chips, are integral components in a wide range of products across multiple industries, including both industrial and consumer end markets. As our customers tackle the challenges of designing increasingly intricate systems, they rely on our advanced AI-driven computational software, hardware, IP, and services to manage this complexity without proportional cost increases. Our products and solutions are critical for optimizing the performance, power, and area (\"PPA\") of semiconductors and electronic systems while accelerating time-to-market."
+    },
+    {
+      "block_idx": 273,
+      "char_end": 5165,
+      "char_start": 4404,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "In alignment with our intelligent system design (\"ISD\") strategy, we organize our offerings into three tightly integrated product categories: Core EDA, Semiconductor IP, and System Design and Analysis (\"SD&A\"). Core EDA encompasses the software, hardware, and services essential for the design and verification of a wide range of semiconductors. Our Semiconductor IP portfolio includes silicon subsystems, software, and related services that accelerate the semiconductor design process. The SD&A category provides solutions and services that enable the design and verification of complete electronic systems, from printed circuit boards to complex system assemblies. These offerings are tightly integrated to provide complete design solutions for our customers."
+    },
+    {
+      "block_idx": 274,
+      "char_end": 5317,
+      "char_start": 5167,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "For additional information about our products, see the discussion in Item 1, \"Business,\" under the heading \"Product Categories,\" in our Annual Report."
+    },
+    {
+      "block_idx": 275,
+      "char_end": 5602,
+      "char_start": 5319,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Management uses certain performance indicators to manage our business, including revenue, certain elements of operating expenses and cash flow from operations, and we describe these items further below under the headings \"Results of Operations\" and \"Liquidity and Capital Resources.\""
+    },
+    {
+      "block_idx": 277,
+      "char_end": 5616,
+      "char_start": 5604,
+      "is_heading": true,
+      "ordinal": 9,
+      "text": "Acquisitions"
+    },
+    {
+      "block_idx": 278,
+      "char_end": 5897,
+      "char_start": 5618,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "As part of our ISD strategy, we invest in and acquire complementary businesses, joint ventures, services and technologies and IP rights. The size and timing of these investments and acquisitions may affect comparability of revenue, expenses and cash flows between fiscal periods."
+    },
+    {
+      "block_idx": 279,
+      "char_end": 6684,
+      "char_start": 5899,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "On February 23, 2026, we completed our acquisition of the design and engineering (\"D&E\") business of Hexagon Smart Solutions AB. This acquisition accelerates our ISD strategy by expanding our SD&A portfolio, building upon our acquisition of BETA CAE in fiscal 2024. The acquisition includes substantially all of the subsidiaries and related assets comprising Hexagon's design and engineering business. For the three and six months ended June 30, 2026, revenue associated with contracts assumed with our acquisition of the D&E business was primarily classified as product and maintenance revenue in our SD&A product category, and cost of revenue associated with these contracts was primarily classified as cost of product and maintenance in our condensed consolidated income statements."
+    },
+    {
+      "block_idx": 280,
+      "char_end": 6728,
+      "char_start": 6686,
+      "is_heading": true,
+      "ordinal": 12,
+      "text": "Macroeconomic and Geopolitical Environment"
+    },
+    {
+      "block_idx": 281,
+      "char_end": 7143,
+      "char_start": 6730,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Because we operate globally, our business is subject to the effects of economic downturns or recessions in the regions in which we do business, volatility in foreign currency exchange rates relative to the U.S. dollar, inflation, increased energy costs, supply chain constraints, changing interest rates, expanded trade control laws and regulations, imposition of new or higher tariffs and geopolitical conflicts."
+    },
+    {
+      "block_idx": 282,
+      "char_end": 8195,
+      "char_start": 7145,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Trade control laws and regulations have been amended over the past years, including through the imposition of certain export control restrictions concerning advanced node IC production in China and the inclusion of additional Chinese technology companies on the BIS \"Entity List\" and regulations governing the sale of certain technologies. In furtherance of these regulations, effective September 29, 2025, BIS issued an interim final rule that extended the export restrictions imposed on entities identified on the Entity List or the Military End-User List and other certain sanctioned parties, to entities that are 50% or more owned by one or more such entities. However, on November 11, 2025, BIS published a one-year suspension of the new rule that is currently set to expire on November 9, 2026, absent a future extension. We expect the impact of these current expanded trade control laws and regulations on our business to be limited, but we will continue to monitor future developments. These laws, regulations and rules are subject to change."
+    },
+    {
+      "block_idx": 283,
+      "char_end": 9489,
+      "char_start": 8197,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "In addition, U.S. President Trump has imposed new and higher U.S. tariffs on imports from many countries, including China, Canada and Mexico. In February 2026, the U.S. Supreme Court struck down tariffs previously imposed under the International Emergency Economic Powers Act. However, tariffs imposed pursuant to other statutes remain in effect, and the administration has announced new tariff measures under alternative legal authorities and has continued to implement and pursue significant changes to U.S. trade policies, treaties and tariffs and conduct investigations on imports from foreign countries. In response, China and other countries have announced retaliatory tariffs on imports of U.S. goods and other countermeasures, though certain retaliatory measures have been suspended pursuant to bilateral negotiations and trade framework agreements. We are monitoring these developments, including any pauses, escalations, exemptions, court rulings, refunds, replacements and new investigations, with respect to the threatened or imposed tariffs and trade policy, and will continue to assess their potential impact on our business either directly, such as on our hardware business and cost of imported components, or due to downstream effects on our customers and the broader economy."
+    },
+    {
+      "block_idx": 284,
+      "char_end": 9885,
+      "char_start": 9491,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "We also continuously monitor geopolitical conflicts around the world, including the conflict with Iran and other conflicts in the Middle East, and assess their impact on our business. To date, these conflicts have not materially limited our ability to develop or support our products and have not had a material impact on our results of operations, financial condition, liquidity or cash flows."
+    },
+    {
+      "block_idx": 285,
+      "char_end": 10267,
+      "char_start": 9887,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "While our business model provides some resilience against these factors, we will continue to monitor the direct and indirect impacts of these or similar circumstances on our business and financial results. For additional information on the potential impact of macroeconomic conditions on our business, see the \"Risk Factors\" section in our Annual Report and this Quarterly Report."
+    },
+    {
+      "block_idx": 286,
+      "char_end": 10298,
+      "char_start": 10269,
+      "is_heading": true,
+      "ordinal": 18,
+      "text": "Critical Accounting Estimates"
+    },
+    {
+      "block_idx": 287,
+      "char_end": 10967,
+      "char_start": 10300,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "In preparing our condensed consolidated financial statements, we make assumptions, judgments and estimates that can have a significant impact on our revenue, operating income and net income, as well as on the value of certain assets and liabilities on our condensed consolidated balance sheets. We base our assumptions, judgments and estimates on historical experience and various other factors that we believe to be reasonable under the circumstances. Actual results could differ materially from these estimates under different assumptions or conditions. At least quarterly, we evaluate our assumptions, judgments and estimates, and make changes as deemed necessary."
+    },
+    {
+      "block_idx": 288,
+      "char_end": 11227,
+      "char_start": 10969,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "For additional information about our critical accounting estimates, see the discussion in Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" under the heading \"Critical Accounting Estimates\" in our Annual Report."
+    },
+    {
+      "block_idx": 289,
+      "char_end": 11253,
+      "char_start": 11229,
+      "is_heading": true,
+      "ordinal": 21,
+      "text": "New Accounting Standards"
+    },
+    {
+      "block_idx": 290,
+      "char_end": 11401,
+      "char_start": 11255,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "For additional information about the adoption of new accounting standards, see Note 1 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 292,
+      "char_end": 11424,
+      "char_start": 11403,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Results of Operations"
+    },
+    {
+      "block_idx": 293,
+      "char_end": 11602,
+      "char_start": 11426,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Our financial results reflect the following for the three and six months ended June 30, 2026 compared to the three and six months ended June 30, 2025 (unless otherwise stated):"
+    },
+    {
+      "block_idx": 294,
+      "char_end": 11716,
+      "char_start": 11604,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "\u2022Growth in revenue from our hardware, software and IP offerings, including revenue from our recent acquisitions;"
+    },
+    {
+      "block_idx": 295,
+      "char_end": 11951,
+      "char_start": 11718,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "\u2022Increases in operating expenses related to marketing, sales and research and development activities from continued investment in research and development and technical sales support, including additional headcount from acquisitions;"
+    },
+    {
+      "block_idx": 296,
+      "char_end": 12034,
+      "char_start": 11953,
+      "is_heading": true,
+      "ordinal": 27,
+      "text": "\u2022Increased amortization of acquired intangibles from our recent acquisitions; and"
+    },
+    {
+      "block_idx": 297,
+      "char_end": 12114,
+      "char_start": 12036,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "\u2022A loss related to a contingent liability recognized in the prior-year period."
+    },
+    {
+      "block_idx": 298,
+      "char_end": 12123,
+      "char_start": 12116,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Revenue"
+    },
+    {
+      "block_idx": 299,
+      "char_end": 12626,
+      "char_start": 12125,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "We primarily generate revenue from licensing our software and IP, selling or leasing our hardware products, providing maintenance for our software, hardware and IP, providing engineering and cloud services and earning royalties generated from the use of our IP. The timing of our revenue is significantly affected by the mix of software, hardware and IP products generating revenue in any given period and whether the revenue is recognized over time or at a point in time, upon completion of delivery."
+    },
+    {
+      "block_idx": 300,
+      "char_end": 13653,
+      "char_start": 12628,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Recurring revenue includes revenue recognized over time from our Core EDA software licensing arrangements, services, royalties, maintenance on IP licenses and hardware, and operating leases of hardware. Other recurring revenue includes revenue recognized at a point in time for short-term software arrangements that are typically renewed at least annually and revenue recognized at varying points in time over the term of other arrangements with non-cancelable commitments, whereby the customer commits to a fixed dollar amount over a specified period of time that can be used to purchase from a list of products. Arrangements that require future decisions on the performance obligations to be delivered do not meet the definition of a revenue contract until the customer executes a separate selection form to identify the products and services that they are purchasing. Each separate selection form under the arrangement is treated as an individual contract and accounted for based on the respective performance obligations."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 14131,
+      "char_start": 13655,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "The remainder of our revenue is recognized at a point in time and is characterized as up-front revenue. Up-front revenue is primarily generated by our sales of hardware products, individual IP licenses and SD&A software licenses with a term greater than one year. The percentage of our recurring and up-front revenue and fluctuations in revenue within our geographies in any single fiscal period are primarily impacted by delivery of hardware and IP products to our customers."
+    },
+    {
+      "block_idx": 302,
+      "char_end": 14300,
+      "char_start": 14133,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "The following table shows the percentage of our revenue that is classified as recurring or up-front for the three and six months ended June 30, 2026 and June 30, 2025:"
+    },
+    {
+      "block_idx": 304,
+      "char_end": 14455,
+      "char_start": 14302,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "The following table shows the percentage of recurring revenue for the twelve-month periods ending concurrently with our five most recent fiscal quarters:"
+    },
+    {
+      "block_idx": 306,
+      "char_end": 14716,
+      "char_start": 14457,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "The percentage of revenue characterized as recurring compared to revenue characterized as up-front may vary between fiscal quarters. On an annual basis, we expect recurring and up-front revenue as a percentage of total revenue to remain relatively consistent."
+    },
+    {
+      "block_idx": 308,
+      "char_end": 14735,
+      "char_start": 14718,
+      "is_heading": true,
+      "ordinal": 36,
+      "text": "Revenue by Period"
+    },
+    {
+      "block_idx": 309,
+      "char_end": 14876,
+      "char_start": 14737,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "The following table shows our revenue for the three months ended June 30, 2026 and June 30, 2025 and the change in revenue between periods:"
+    },
+    {
+      "block_idx": 311,
+      "char_end": 15015,
+      "char_start": 14878,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "The following table shows our revenue for the six months ended June 30, 2026 and June 30, 2025 and the change in revenue between periods:"
+    },
+    {
+      "block_idx": 313,
+      "char_end": 15345,
+      "char_start": 15017,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "Product and maintenance revenue increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, due to growth in revenue from our software, hardware and IP product offerings as a result of existing customers' continued investment in complex designs for their products."
+    },
+    {
+      "block_idx": 314,
+      "char_end": 15482,
+      "char_start": 15347,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Services revenue may fluctuate from period to period based on the timing of fulfillment of our services and IP performance obligations."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 15615,
+      "char_start": 15484,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "No single customer accounted for 10% or more of total revenue during the three and six months ended June 30, 2026 or June 30, 2025."
+    },
+    {
+      "block_idx": 316,
+      "char_end": 15644,
+      "char_start": 15617,
+      "is_heading": true,
+      "ordinal": 42,
+      "text": "Revenue by Product Category"
+    },
+    {
+      "block_idx": 317,
+      "char_end": 15783,
+      "char_start": 15646,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "The following table shows the percentage of revenue contributed by each of our product categories for the past five consecutive quarters:"
+    },
+    {
+      "block_idx": 319,
+      "char_end": 16261,
+      "char_start": 15785,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Revenue from any one product category as a percentage of total revenue may fluctuate from period to period based on the mix of products and services sold in a given period, the timing of revenue recognition, particularly for our hardware, IP and SD&A software products for which revenue is recognized up-front, which are affected by demand for, and our ability to deliver, existing products and services as well as the introduction or acquisition of new products and services."
+    },
+    {
+      "block_idx": 321,
+      "char_end": 16283,
+      "char_start": 16263,
+      "is_heading": true,
+      "ordinal": 45,
+      "text": "Revenue by Geography"
+    },
+    {
+      "block_idx": 322,
+      "char_end": 16449,
+      "char_start": 16285,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "The following table shows revenue by geographic region for the three and six months ended June 30, 2026 and June 30, 2025 and the change in revenue between periods:"
+    },
+    {
+      "block_idx": 324,
+      "char_end": 16941,
+      "char_start": 16451,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "During the three months ended June 30, 2026, as compared to the three months ended June 30, 2025, revenue growth in the United States, China, Japan, Other Asia and EMEA was primarily driven by growth in revenue from our software product offerings and by increased demand for, and our ability to deliver, our IP offerings to our customers in these geographies. Our ability to deliver our hardware offerings also contributed to period over period revenue growth in China, Other Asia and EMEA."
+    },
+    {
+      "block_idx": 325,
+      "char_end": 17181,
+      "char_start": 16943,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "During the three months ended June 30, 2026, as compared to the three months ended June 30, 2025, the decrease in revenue in Other Americas was primarily driven by the timing of design services provided to our customers in that geography."
+    },
+    {
+      "block_idx": 327,
+      "char_end": 17746,
+      "char_start": 17183,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "During the six months ended June 30, 2026, as compared to the six months ended June 30, 2025, revenue from our software product offerings contributed to growth in each of our six geographies. Revenue growth in the United States, Other Americas, China, Japan and EMEA also benefited from increased customer demand for, and our ability to deliver, our hardware product offerings to our customers in these geographies. Our ability to deliver our IP offerings also contributed to period over period revenue growth in Other Americas, China, Japan, Other Asia and EMEA."
+    },
+    {
+      "block_idx": 328,
+      "char_end": 18148,
+      "char_start": 17748,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Additionally, for the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, the increase in revenue in China was partially attributable to export license requirements that were temporarily imposed by BIS on EDA Software and Technology from May to July of fiscal 2025, which impacted our ability to deliver software offerings to our customers in China."
+    },
+    {
+      "block_idx": 330,
+      "char_end": 18201,
+      "char_start": 18150,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Revenue by Geography as a Percent of Total Revenue:"
+    },
+    {
+      "block_idx": 332,
+      "char_end": 18579,
+      "char_start": 18203,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Most of our revenue is transacted in the U.S. dollar. However, certain revenue transactions are denominated in foreign currencies. For an additional description of how changes in foreign exchange rates affect our condensed consolidated financial statements, see the discussion under Item 3, \"Quantitative and Qualitative Disclosures About Market Risk - Foreign Currency Risk.\""
+    },
+    {
+      "block_idx": 333,
+      "char_end": 18596,
+      "char_start": 18581,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "Cost of Revenue"
+    },
+    {
+      "block_idx": 336,
+      "char_end": 18629,
+      "char_start": 18598,
+      "is_heading": true,
+      "ordinal": 54,
+      "text": "Cost of Product and Maintenance"
+    },
+    {
+      "block_idx": 337,
+      "char_end": 19432,
+      "char_start": 18631,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Cost of product and maintenance includes costs associated with the sale and lease of our hardware products and licensing of our software and IP products, certain employee salary and benefits and other employee-related costs, cost of our customer support services, amortization of technology-related acquired intangibles, costs of technical documentation and royalties payable to third-party vendors. Cost of product and maintenance depends primarily on our hardware product sales in any given period, but is also affected by employee salary and benefits and other employee-related costs, reserves for inventory, and the timing and extent to which we acquire intangible assets, license third-party technology or IP, and sell our products that include such acquired or licensed assets, technology or IP."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 19493,
+      "char_start": 19434,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "A summary of cost of product and maintenance is as follows:"
+    },
+    {
+      "block_idx": 342,
+      "char_end": 19685,
+      "char_start": 19495,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "The changes in product and maintenance-related costs for the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, were due to the following:"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 20115,
+      "char_start": 19687,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "Costs associated with our hardware products include components, assembly, testing, applicable reserves and overhead. These costs make our cost of hardware products higher, as a percentage of revenue, than our cost of software and IP products. Hardware costs may vary from period to period based on the mix of hardware products delivered to customers during each period and the timing of charges for excess or obsolete inventory."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 20609,
+      "char_start": 20117,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Amortization of acquired intangibles included in cost of product and maintenance may fluctuate from period to period depending on the timing of newly acquired assets relative to assets becoming fully amortized in any given period. The increase in amortization of intangibles during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, is primarily due to definite-lived intangible assets acquired with our acquisition of the D&E business."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 20627,
+      "char_start": 20611,
+      "is_heading": true,
+      "ordinal": 60,
+      "text": "Cost of Services"
+    },
+    {
+      "block_idx": 347,
+      "char_end": 21184,
+      "char_start": 20629,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "Cost of services primarily includes employee salary, benefits and other employee-related costs to perform work on revenue-generating projects, costs to maintain the infrastructure necessary to manage a services organization and provide cloud-based offerings, and direct costs associated with certain design services. Cost of services may fluctuate from period to period based on our utilization of design services engineers on revenue-generating projects rather than internal development projects and the timing of design service projects being completed."
+    },
+    {
+      "block_idx": 348,
+      "char_end": 21204,
+      "char_start": 21186,
+      "is_heading": true,
+      "ordinal": 62,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 349,
+      "char_end": 21859,
+      "char_start": 21206,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "Our operating expenses include marketing and sales, research and development, and general and administrative expenses. Factors that tend to cause our operating expenses to fluctuate include changes in the number of employees due to hiring and acquisitions, industry trends for salary and other employee benefits, the timing and nature of restricted stock grants, foreign exchange rate movements, acquisition-related costs, and volatility in variable compensation programs that are driven by operating results. We expect our operating expenses will increase during the remainder of fiscal 2026, as compared to fiscal 2025, due to our recent acquisitions."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 22374,
+      "char_start": 21861,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "Many of our operating expenses are transacted in various foreign currencies. We recognize lower expenses in periods when the U.S. dollar strengthens in value against other currencies and we recognize higher expenses when the U.S. dollar weakens against other currencies. For an additional description of how changes in foreign exchange rates affect our condensed consolidated financial statements, see the discussion in Item 3, \"Quantitative and Qualitative Disclosures About Market Risk - Foreign Currency Risk.\""
+    },
+    {
+      "block_idx": 352,
+      "char_end": 22482,
+      "char_start": 22376,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Our operating expenses for the three and six months ended June 30, 2026 and June 30, 2025 were as follows:"
+    },
+    {
+      "block_idx": 355,
+      "char_end": 22625,
+      "char_start": 22484,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Our operating expenses, as a percentage of total revenue, for the three and six months ended June 30, 2026 and June 30, 2025 were as follows:"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 22646,
+      "char_start": 22627,
+      "is_heading": true,
+      "ordinal": 67,
+      "text": "Marketing and Sales"
+    },
+    {
+      "block_idx": 358,
+      "char_end": 22828,
+      "char_start": 22648,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "The increase in marketing and sales expense for the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, was due to the following:"
+    },
+    {
+      "block_idx": 360,
+      "char_end": 23361,
+      "char_start": 22830,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Salary, benefits and other employee-related costs and stock-based compensation included in marketing and sales expense increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to our continued investment in attracting and retaining talent dedicated to technical sales support, including additional headcount from acquisitions. We expect to continue attracting and retaining talent dedicated to technical sales support through hiring and acquisitions."
+    },
+    {
+      "block_idx": 362,
+      "char_end": 23387,
+      "char_start": 23363,
+      "is_heading": true,
+      "ordinal": 70,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 363,
+      "char_end": 23574,
+      "char_start": 23389,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "The increase in research and development expense for the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, was due to the following:"
+    },
+    {
+      "block_idx": 365,
+      "char_end": 23991,
+      "char_start": 23576,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Salary, benefits and other employee-related costs and stock-based compensation included in research and development expense increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to our continued investment in attracting and retaining talent for research and development activities, including additional headcount from acquisitions."
+    },
+    {
+      "block_idx": 366,
+      "char_end": 24379,
+      "char_start": 23993,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Facilities and other infrastructure costs included in research and development expense increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to our growing workforce. We expect to continue attracting and retaining talent dedicated to research and development activities through hiring and acquisitions."
+    },
+    {
+      "block_idx": 367,
+      "char_end": 24407,
+      "char_start": 24381,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 368,
+      "char_end": 24596,
+      "char_start": 24409,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "The changes in general and administrative expense for the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, were due to the following:"
+    },
+    {
+      "block_idx": 370,
+      "char_end": 24959,
+      "char_start": 24598,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Professional services increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to increased consulting services associated with acquisition-related activities. We expect to continue to utilize professional services as we continue to acquire and integrate companies and businesses."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 25347,
+      "char_start": 24961,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Salary, benefits and other employee-related costs and stock-based compensation included in general and administrative expense increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to headcount from acquisitions and incremental expense from equity awards granted to certain members of senior management."
+    },
+    {
+      "block_idx": 372,
+      "char_end": 25365,
+      "char_start": 25349,
+      "is_heading": true,
+      "ordinal": 78,
+      "text": "Operating Margin"
+    },
+    {
+      "block_idx": 373,
+      "char_end": 25586,
+      "char_start": 25367,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "Operating margin represents income from operations as a percentage of total revenue. Our operating margin for the three and six months ended June 30, 2026 and the three and six months ended June 30, 2025 was as follows:"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 26255,
+      "char_start": 25588,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Our operating margin may fluctuate from period to period depending on the mix of products and services sold during each period, the timing and magnitude of restructuring plans and other significant, infrequent expenses. During the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, our operating margin increased, primarily due to the loss related to a contingent liability recognized during the three and six months ended June 30, 2025, partially offset by incremental expenses from our recent acquisitions, including amortization of acquired intangibles, that exceed incremental revenue for the periods presented."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 26406,
+      "char_start": 26257,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "For additional information about the loss related to a contingent liability, see Note 14 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 26424,
+      "char_start": 26408,
+      "is_heading": true,
+      "ordinal": 82,
+      "text": "Interest Expense"
+    },
+    {
+      "block_idx": 380,
+      "char_end": 26851,
+      "char_start": 26426,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Interest expense increased during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, primarily due to incremental interest expense related to borrowings under our revolving credit facility at various times during the periods presented. For additional information relating to our debt arrangements, see Note 5 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 381,
+      "char_end": 26870,
+      "char_start": 26853,
+      "is_heading": true,
+      "ordinal": 84,
+      "text": "Other Income, Net"
+    },
+    {
+      "block_idx": 382,
+      "char_end": 27468,
+      "char_start": 26872,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Other income, net consists primarily of interest earned on cash, cash equivalents and investments in debt securities, realized and unrealized gains and losses from our investments in equity securities of other companies, gains and losses from investments held in the Nonqualified Deferred Compensation (\"NQDC\") trust and foreign exchange gains and losses. Other income, net may fluctuate from period to period based on levels of cash deposits, gains and losses from the sale of investments, changes in the fair value of our marketable equity securities and movements in exchange gains and losses."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 27593,
+      "char_start": 27470,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "For additional information about other income, net, see Note 9 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 27607,
+      "char_start": 27595,
+      "is_heading": true,
+      "ordinal": 87,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 27763,
+      "char_start": 27609,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "The following table presents the provision for income taxes and the effective tax rate for the three and six months ended June 30, 2026 and June 30, 2025:"
+    },
+    {
+      "block_idx": 387,
+      "char_end": 28335,
+      "char_start": 27765,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "Our provision for income taxes for the three and six months ended June 30, 2026 was primarily attributable to federal, state and foreign income taxes on our anticipated fiscal 2026 income. We also recognized tax benefits of $3.1 million and $16.7 million related to stock-based compensation that vested or was exercised during the respective periods. The increase in our provision for income taxes during the three and six months ended June 30, 2026, as compared to the three and six months ended June 30, 2025, was primarily attributable to an increase in our earnings."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 28692,
+      "char_start": 28337,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Our provision for income taxes for the three and six months ended June 30, 2025 was primarily attributable to federal, state and foreign income taxes on our then anticipated fiscal 2025 income. We also recognized tax benefits of $2.8 million and $21.4 million related to stock-based compensation that vested or was exercised during the respective periods."
+    },
+    {
+      "block_idx": 390,
+      "char_end": 29927,
+      "char_start": 28694,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "Our future effective tax rates may also be materially impacted by tax amounts associated with our foreign earnings at rates different from the United States federal statutory rate, research credits, the tax impact of stock-based compensation, accounting for uncertain tax positions, business combinations, closure of statutes of limitations or settlement of tax audits and changes in tax law. A significant amount of our foreign earnings is generated by our subsidiaries organized in Ireland and Hungary. Our future effective tax rates may be adversely affected if our earnings were to be lower in countries where we have lower statutory tax rates relative to earnings in countries where we have higher statutory tax rates. We currently expect that our fiscal 2026 effective tax rate will be approximately 26%. We expect that our quarterly effective tax rates will vary from our fiscal 2026 effective tax rate as a result of recognizing the income tax effects of stock-based awards in the quarterly periods that the awards vest or are settled and other items that we cannot anticipate. For additional discussion about how our effective tax rate could be affected by various risks, see the \"Risk Factors\" section in our Annual Report."
+    },
+    {
+      "block_idx": 391,
+      "char_end": 29960,
+      "char_start": 29929,
+      "is_heading": true,
+      "ordinal": 92,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 393,
+      "char_end": 29987,
+      "char_start": 29962,
+      "is_heading": true,
+      "ordinal": 93,
+      "text": "Cash and Cash Equivalents"
+    },
+    {
+      "block_idx": 394,
+      "char_end": 30152,
+      "char_start": 29989,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "As of June 30, 2026, our principal sources of liquidity consisted of $1.4 billion of cash and cash equivalents as compared to $3.0 billion as of December 31, 2025."
+    },
+    {
+      "block_idx": 395,
+      "char_end": 30541,
+      "char_start": 30154,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "Our primary sources of cash and cash equivalents during the six months ended June 30, 2026 were cash generated from operations, proceeds from our revolving credit facility, proceeds from the sale and maturity of investments and proceeds from the issuance of common stock resulting from stock purchases under our employee stock purchase plan and stock options exercised during the period."
+    },
+    {
+      "block_idx": 396,
+      "char_end": 30915,
+      "char_start": 30543,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "Our primary uses of cash and cash equivalents during the six months ended June 30, 2026 were payments related to business combinations, operating costs and expenses, payments on our revolving credit facility, repurchases of our common stock, payment of employee taxes on vesting of restricted stock, purchases of property, plant and equipment and purchases of investments."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 31594,
+      "char_start": 30917,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "Approximately 84% of our cash and cash equivalents was held by our foreign subsidiaries as of June 30, 2026. Our cash and cash equivalents held by our foreign subsidiaries may vary from period to period due to the timing of collections and repatriation of foreign earnings. We expect that current cash and cash equivalent balances and cash flows that are generated from operations and financing activities will be sufficient to meet the needs of our domestic and international operating activities and other capital and liquidity requirements, including acquisitions, investments and share repurchases, for at least the next 12 months and thereafter for the foreseeable future."
+    },
+    {
+      "block_idx": 398,
+      "char_end": 31615,
+      "char_start": 31596,
+      "is_heading": true,
+      "ordinal": 98,
+      "text": "Net Working Capital"
+    },
+    {
+      "block_idx": 399,
+      "char_end": 32069,
+      "char_start": 31617,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "Net working capital is comprised of current assets less current liabilities, as shown on our condensed consolidated balance sheets. Our net working capital varies from period to period due to changes in operating assets and liabilities and the timing of investing and financing activities. The decrease in our working capital as of June 30, 2026, as compared to December 31, 2025, was primarily due to an increase in cash paid in business combinations."
+    },
+    {
+      "block_idx": 400,
+      "char_end": 32107,
+      "char_start": 32071,
+      "is_heading": true,
+      "ordinal": 100,
+      "text": "Cash Flows from Operating Activities"
+    },
+    {
+      "block_idx": 401,
+      "char_end": 32229,
+      "char_start": 32109,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "Cash flows provided by operating activities during the six months ended June 30, 2026 and June 30, 2025 were as follows:"
+    },
+    {
+      "block_idx": 404,
+      "char_end": 32861,
+      "char_start": 32231,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "Cash flows provided by operating activities include net income, adjusted for certain non-cash items, as well as changes in the balances of certain assets and liabilities. Our cash flows from operating activities are significantly influenced by business levels and the payment terms set forth in our customer agreements. The increase in cash flows from operating activities for the six months ended June 30, 2026, as compared to the six months ended June 30, 2025, was primarily due to improved operating results, the timing of cash receipts from customers and the timing of cash disbursements for operating assets and liabilities."
+    },
+    {
+      "block_idx": 405,
+      "char_end": 32903,
+      "char_start": 32863,
+      "is_heading": true,
+      "ordinal": 103,
+      "text": "Cash Flows Used for Investing Activities"
+    },
+    {
+      "block_idx": 406,
+      "char_end": 33022,
+      "char_start": 32905,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Cash flows used for investing activities during the six months ended June 30, 2026 and June 30, 2025 were as follows:"
+    },
+    {
+      "block_idx": 408,
+      "char_end": 33513,
+      "char_start": 33024,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "Cash used for investing activities increased during the six months ended June 30, 2026, as compared to the six months ended June 30, 2025, primarily due to an increase in payments for business combinations, partially offset by an increase in proceeds from the sale and maturity of investments. We expect to continue our investing activities, including purchasing property, plant and equipment, purchasing intangible assets, acquiring other companies and businesses, and making investments."
+    },
+    {
+      "block_idx": 409,
+      "char_end": 33643,
+      "char_start": 33515,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "For additional information relating to our acquisitions, see Note 2 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 410,
+      "char_end": 33685,
+      "char_start": 33645,
+      "is_heading": true,
+      "ordinal": 107,
+      "text": "Cash Flows Used for Financing Activities"
+    },
+    {
+      "block_idx": 411,
+      "char_end": 33804,
+      "char_start": 33687,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "Cash flows used for financing activities during the six months ended June 30, 2026 and June 30, 2025 were as follows:"
+    },
+    {
+      "block_idx": 413,
+      "char_end": 34023,
+      "char_start": 33806,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "Cash flows used for financing activities decreased during the six months ended June 30, 2026, as compared to the six months ended June 30, 2025, primarily due to a decrease in payments for repurchases of common stock."
+    },
+    {
+      "block_idx": 414,
+      "char_end": 34080,
+      "char_start": 34025,
+      "is_heading": true,
+      "ordinal": 110,
+      "text": "Other Factors Affecting Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 415,
+      "char_end": 34107,
+      "char_start": 34082,
+      "is_heading": true,
+      "ordinal": 111,
+      "text": "Revolving Credit Facility"
+    },
+    {
+      "block_idx": 416,
+      "char_end": 35205,
+      "char_start": 34109,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "In August 2024, we entered into a five-year senior unsecured revolving credit facility with a group of lenders led by Bank of America, N.A., as administrative agent (the \"Credit Facility\"). The Credit Facility provides for borrowings up to $1.25 billion, with the right to request increased capacity up to an additional $500.0 million upon receipt of lender commitments, for total maximum borrowings of $1.75 billion. The Credit Facility expires on August 14, 2029. Any outstanding loans drawn under the Credit Facility are due at maturity on August 14, 2029, subject to an option to extend the maturity date. Outstanding borrowings may be repaid at any time prior to maturity. Interest rates under the Credit Facility are variable, so interest expense is impacted by changes in the interest rates, particularly for periods when there are outstanding borrowings under the revolving credit facility. Interest is payable quarterly. As of June 30, 2026, there were no borrowings outstanding under the Credit Facility, and we were in compliance with all covenants associated with the Credit Facility."
+    },
+    {
+      "block_idx": 417,
+      "char_end": 35219,
+      "char_start": 35207,
+      "is_heading": true,
+      "ordinal": 113,
+      "text": "Senior Notes"
+    },
+    {
+      "block_idx": 418,
+      "char_end": 35861,
+      "char_start": 35221,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "In September 2024, we issued $2.5 billion aggregate principal amount of senior notes, consisting of $500.0 million aggregate principal amount of 4.200% Senior Notes due 2027 (the \"2027 Notes\"), $1.0 billion aggregate principal amount of 4.300% Senior Notes due 2029 (the \"2029 Notes\") and $1.0 billion aggregate principal amount of 4.700% Senior Notes due 2034 (the \"2034 Notes\" and together with the 2027 Notes and the 2029 Notes, the \"Senior Notes\"). Interest on the Senior Notes is payable semi-annually in arrears in March and September of each year. As of June 30, 2026, we were in compliance with all covenants under the Senior Notes."
+    },
+    {
+      "block_idx": 419,
+      "char_end": 35996,
+      "char_start": 35863,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "For additional information relating to our debt arrangements, see Note 5 in the notes to condensed consolidated financial statements."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 36022,
+      "char_start": 35998,
+      "is_heading": true,
+      "ordinal": 116,
+      "text": "Stock Repurchase Program"
+    },
+    {
+      "block_idx": 422,
+      "char_end": 36914,
+      "char_start": 36024,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "We are authorized to repurchase shares of our common stock under a publicly announced program. In May 2025, our Board of Directors increased the prior authorization to repurchase shares of our common stock by authorizing an additional $1.5 billion. The actual timing and amount of repurchases are subject to business and market conditions, corporate and regulatory requirements, stock price, acquisition opportunities and other factors. Our repurchase authorization does not obligate us to acquire a minimum number of shares, does not have an expiration date and may be modified, suspended or terminated without prior notice. As of June 30, 2026, $1.0 billion of the share repurchase authorization remained available to repurchase shares of our common stock. See Part II, Item 2, \"Unregistered Sales of Equity Securities and Use of Proceeds\" for additional information on share repurchases."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 36944,
+      "char_start": 36916,
+      "is_heading": true,
+      "ordinal": 118,
+      "text": "Other Liquidity Requirements"
+    },
+    {
+      "block_idx": 424,
+      "char_end": 37189,
+      "char_start": 36946,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "During the six months ended June 30, 2026, there were no material changes to our other liquidity requirements as reported in Item 7, \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" in our Annual Report."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 460,
+      "char_end": 865,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "Our operations and financial results are subject to various risks and uncertainties, including those described in the \"Risk Factors\" sections in our Annual Report and this Quarterly Report, that could adversely affect our business, financial condition, results of operations, cash flows, liquidity, revenue, growth, prospects, demand, reputation, and the trading price of our common stock, and make an investment in us speculative or risky. We have updated two of the risk factors since our Annual Report, as set forth in our Quarterly Report on Form 10-Q for the quarterly period ended March 31, 2026 and below. The risks described in our Annual Report and this Quarterly Report do not include all of the risks that we face, and there may be additional risks or uncertainties that are currently unknown or not believed to be material that occur or become material."
+    },
+    {
+      "block_idx": 461,
+      "char_end": 1094,
+      "char_start": 867,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "Uncertainty in the global economy and instability within international relations, including changes in governmental policies relating to technology, may negatively affect our business and reduce our bookings levels and revenue."
+    },
+    {
+      "block_idx": 462,
+      "char_end": 2948,
+      "char_start": 1096,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "Uncertainty caused by challenging global political and economic conditions, including inflation, interest rates, bank failures, government deficit concerns, government shutdowns or political stalemates, geopolitical conflicts and other adverse changes to international relationships among countries in which we or our customers operate or do business, protectionist measures or decline in corporate or consumer spending could negatively impact our customers' businesses, reducing the number of new chip designs and their overall research and development spending, including their spending on our products and services, and as a result decrease demand for our products and services. Adverse developments that affect financial institutions, transactional counterparties or other third parties, such as bank failures and failure by the U.S. Congress to increase the U.S. federal debt ceiling on a timely basis, or concerns or speculation about any similar events or risks, have led and could lead to further credit downgrades and market-wide liquidity problems, which in turn may cause customers and other third parties to become unable to meet their obligations under various types of financial arrangements as well as general disruptions or instability in the financial markets. Public health emergencies and reactionary measures by governments and businesses have also had, and could in the future have, the effect of curtailing economic activity and causing substantial volatility and disruption in global markets. Decreased bookings for our products and services, customer bankruptcies, consolidation among our customers, or problems or delays with our hardware suppliers or with the supply or delivery of our hardware products could also adversely affect our ability to grow our business or adversely affect our future revenue and financial results."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 5363,
+      "char_start": 2950,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "Tensions are rising around the world, and there are a number of ongoing armed conflicts, including in Iran, other parts of the Middle East and Ukraine. There is inherent risk, based on the complex relationships between certain countries and within regions, that political, diplomatic or military events could result in trade disruptions and other disruptions in the markets and industries we serve and our supply chain. A significant disruption in any area where we or our customers operate or do business or that is critical to our or their supply chain could reduce customer demand, make our products and services more expensive or unavailable for customers, increase the cost of our products and services, have a negative impact on customer spending, make our products less competitive, or otherwise have a materially adverse impact on our future revenue and profits, our customers' and suppliers' businesses, and our results of operations. In addition, there is currently significant uncertainty in the global economy and the future relationship among the United States and various other countries, caused by increased geopolitical instabilities and changes in global trade policies. For example, the ongoing geopolitical and economic uncertainty between the United States and China, where we conduct business and have derived a substantial percentage of our revenue, the unknown impact of current and future U.S. and Chinese trade regulations, including tariffs and other trade restrictions, and geopolitical risks with respect to Taiwan, which serves as a central hub for the technology industry supply chain, could, directly or indirectly, materially harm our business, financial condition and results of operations. Similarly, many of our suppliers, vendors and other entities with whom we do business have strong ties to doing business in China and other countries impacted by recent tariffs and other trade restrictions. Their ability to supply materials to us, buy products or services from us, or otherwise work with us is affected by their ability to do business in impacted countries. Moreover, these tariffs and any other trade restrictions imposed on our suppliers could adversely affect our business, financial condition and results of operations through reduced demand for our products and services, cancelled orders, supply chain disruptions, increased transaction costs and increased expenses."
+    },
+    {
+      "block_idx": 464,
+      "char_end": 5895,
+      "char_start": 5365,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "Our future business and financial results, including demand for our products and services, are subject to considerable uncertainties that could impact our stock price. Further, political or economic conflicts between various global actors, and responsive measures that have been or could be taken, have created and can further create significant global economic uncertainty that could prolong or expand such conflicts, which could have a lasting impact on regional and global economies and harm our business and operating results."
+    },
+    {
+      "block_idx": 466,
+      "char_end": 6163,
+      "char_start": 5897,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "Cyberattacks that compromise the confidentiality, integrity or availability of our or our third-party providers' information technology systems or confidential information could materially harm our reputation, business, financial condition and results of operations."
+    },
+    {
+      "block_idx": 467,
+      "char_end": 7001,
+      "char_start": 6165,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "We rely on hardware, software, digital infrastructure and computing networks for both internal and customer-facing operations that are critical to our business (collectively, \"IT Systems\"). We own and manage certain IT Systems but also rely on third parties for IT Systems and related products and services, including cloud computing. In addition, we and certain third-party providers collect, maintain and process data about our customers, employees, business partners and others, including information that relates to individuals and/or constitutes \"personal data,\" \"personal information,\" \"personally identifiable information\" or similar terms under applicable data privacy laws (collectively \"Personal Information\"), as well as proprietary data such as trade secrets (together with Personal Information, \"Confidential Information\")."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 9078,
+      "char_start": 7003,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "We face numerous, evolving cybersecurity risks that threaten the confidentiality, integrity and availability of our IT Systems, Confidential Information, products and services, including from diverse threat actors, such as state-sponsored organizations, opportunistic hackers and malicious insiders, as well as through diverse attack vectors, such as social engineering (including phishing), malware (including ransomware) and denial-of-service attacks, and due to human or technological error, such as misconfigurations, \"bugs\" or other vulnerabilities in software or hardware. Additionally, advances in technology, an increased level of sophistication and expertise of hackers, widespread access to generative AI, and new discoveries in the field of cryptography increase the risk of significant compromises or breaches of our IT Systems or security measures implemented to protect our systems. From time to time, we and certain of our third-party service providers experience varying degrees of cyberattacks and other security incidents. Any such incidents could compromise our or our providers' IT Systems, which could cause system disruptions or slowdowns and lead to the Confidential Information stored on our or third-party systems being accessed, publicly disclosed, lost or stolen. Any actual or perceived unauthorized access or disclosure to our Confidential Information poses significant risk to our business as it could result in reputational and financial harm and further subject us to liability to our customers, suppliers, business partners and others. For example, as described in our Quarterly Report on Form 10-Q for the period ended March 31, 2026, we learned that a threat actor obtained a limited amount of Confidential Information from certain of our IT systems including a limited amount of test files, configuration setting files and source code files which are not material to our business. We notified law enforcement, and we believe that the incident was contained. There was no operational disruption, and customer environments were not impacted."
+    },
+    {
+      "block_idx": 469,
+      "char_end": 10802,
+      "char_start": 9080,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Cyberattacks are expected to accelerate on a global basis in frequency and magnitude as threat actors are becoming increasingly sophisticated in using techniques and tools - including AI - that circumvent security controls, evade detection and remove forensic evidence. Techniques used to obtain unauthorized access or to sabotage information systems change frequently and include zero-day software vulnerabilities that are unknown until exploited by threat actors. As a result, we may be unable to promptly or effectively detect, investigate, remediate or recover from future attacks or incidents, or to avoid a material adverse impact to our IT Systems, Confidential Information or business. Furthermore, state-supported and geopolitical-related cyberattacks against companies such as ours may increase due to geopolitical conditions. A cyberattack on our IT Systems or IT Systems of one of our third-party providers or customers could result in material adverse impacts due to any or all of the following: compromise to our Cadence Cloud portfolio, which includes both our managed and customer-managed environments, and our data centers and those of our customers and end users; corruption or stealing of Confidential Information such as proprietary information related to our (or our customers') business, products, services and infrastructure or Personal Information; manipulation or stealing of financial data and assets; and/or disruption of our systems and services and those of our customers and others. As a result, we could be exposed to a risk of loss or misuse of Confidential Information, loss of financial assets, business interruption, regulatory investigations, litigation and other liabilities and costs."
+    },
+    {
+      "block_idx": 470,
+      "char_end": 11924,
+      "char_start": 10804,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Because we make extensive use of third-party suppliers and service providers, such as cloud services that support our internal and customer-facing operations, successful cyberattacks that disrupt or result in unauthorized access to third party providers' IT Systems, including those that store our Confidential Information, can materially impact our operations and financial results. Moreover, hardware, software or applications we develop or procure from third parties or through open source solutions may contain defects in design or manufacture or other vulnerabilities and are susceptible to compromise. In addition, we have acquired and continue to acquire companies with less sophisticated security measures, and it takes time to align their security practices to meet our information security policies, procedures and controls, which exposes us to increased cybersecurity and other integration risks. There can be no assurance that our cybersecurity risk management strategy, program, policies, processes and controls will be fully implemented, complied with or effective in protecting any systems or information."
+    },
+    {
+      "block_idx": 471,
+      "char_end": 12886,
+      "char_start": 11926,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "An actual or perceived breach of IT Systems or Confidential Information managed by us or a vendor could significantly impact our business through diminished market perception of the effectiveness of our security measures, legal or regulatory actions, substantial fines, penalties and required changes to our business practices, damage to our reputation or our business, loss of existing customers and our ability to obtain new customers (including government customers), significant restoration, remediation and compliance costs, and cause harm to our financial condition. Any or all of the foregoing could materially adversely affect our business, financial condition and results of operations. Also, we cannot guarantee that any costs and liabilities incurred in relation to an attack or incident will be covered by our existing insurance policies or that applicable insurance will be available to us in the future on economically reasonable terms or at all."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000813672-26-000092",
+    "cik": 813672,
+    "download_status": "ok",
+    "mdna_end_block": 425,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 36109,
+    "mdna_n_paragraphs": 87,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 26,
+    "mdna_n_words": 5510,
+    "mdna_start_block": 266,
+    "mdna_status": "extracted",
+    "n_blocks": 499,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "cdns-20260630.htm",
+    "risk_end_block": 473,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 12866,
+    "risk_n_paragraphs": 11,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 1871,
+    "risk_start_block": 459,
+    "risk_status": "extracted",
+    "source_sha256": "d9d8aab649bce680af87118dbe06ef614589a25f0af155de01e4fa8d5832522f",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/813672/000081367226000092/cdns-20260630.htm"
+  }
+}

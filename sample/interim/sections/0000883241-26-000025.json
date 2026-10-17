@@ -1,0 +1,2447 @@
+{
+  "mdna": [
+    {
+      "block_idx": 350,
+      "char_end": 3311,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "This Quarterly Report on Form 10-Q (this Quarterly Report) includes forward-looking statements, which involve risks, uncertainties and other factors that could cause Synopsys, Inc.'s (Synopsys, we, our or us) actual results, time frames or achievements to differ materially from those expressed or implied in such forward-looking statements. Readers are urged to carefully review and consider the various disclosures regarding these risks and uncertainties made in this Quarterly Report, including those identified below in Part II, Item 1A, Risk Factors, and in other documents we file from time to time with the Securities and Exchange Commission (SEC). Forward-looking statements include any statements that are not statements of historical fact and include, but are not limited to, statements concerning our short-term and long-term financial targets, expectations and objectives; our businesses, business segments, strategies, partnerships, initiatives and opportunities, including, among other things, the reallocation of resources in our Design IP segment to higher growth opportunities and planned restructuring activities; industry growth and technological trends, such as artificial intelligence (AI), including our development and planned commercialization thereof; business and market outlook; the potential impact of the uncertain macroeconomic environment and global economic conditions on our financial results; the impact of current and future U.S. and foreign trade regulations, government actions and regulatory changes, such as export control restrictions and tariffs; the ANSYS, Inc. (Ansys) integration and its expected impact, including expected synergies and the timing thereof, our ability to create joint solutions as a combined company, and related accounting changes; planned and recently completed acquisitions or divestitures, and their anticipated timing and impact; our key customers, customer concentration, customer engagement, customer demand and market expansion; results and strategies related to our products, technology and services, including product development and our planned product releases and capabilities; the expected realization of our contracted but unsatisfied or partially unsatisfied performance obligations (backlog); planned stock repurchases; our expected tax rate; and the status, expected outcome or expected impact of litigation and/or regulatory investigations. Forward-looking statements may be identified by words including, but not limited to, \"may,\" \"will,\" \"could,\" \"would,\" \"can,\" \"should,\" \"anticipate,\" \"expect,\" \"intend,\" \"believe,\" \"estimate,\" \"project,\" \"continue,\" \"forecast,\" \"likely,\" \"potential,\" \"seek,\" or the negatives of such terms and similar expressions. The information included herein represents our estimates and assumptions as of the date of this filing. Unless required by law, we undertake no obligation to update publicly any forward-looking statements, or to update the reasons actual results could differ materially from those anticipated in these forward-looking statements, even if new information becomes available in the future. All subsequent written or oral forward-looking statements attributable to Synopsys or persons acting on our behalf are expressly qualified in their entirety by these cautionary statements."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 3940,
+      "char_start": 3313,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "The following summary and overview of our financial condition and results of operations are qualified in their entirety by the more complete discussions and should be read together with our condensed consolidated financial statements and the related notes thereto contained in Part I, Item 1 of this Quarterly Report, the risk factors set forth in Part II, Item 1A of this Quarterly Report, and with our audited consolidated financial statements and the related notes thereto contained in our Annual Report on Form 10-K for the fiscal year ended October 31, 2025, as filed with the SEC on December 22, 2025 (our Annual Report)."
+    },
+    {
+      "block_idx": 352,
+      "char_end": 3950,
+      "char_start": 3942,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "Overview"
+    },
+    {
+      "block_idx": 353,
+      "char_end": 3981,
+      "char_start": 3952,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Financial Performance Summary"
+    },
+    {
+      "block_idx": 354,
+      "char_end": 4560,
+      "char_start": 3983,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "For the third quarter of fiscal 2026, our results reflect continued, strong execution and the resiliency of our business, including 42% revenue growth compared to the third quarter of fiscal 2025, due to broad-based strength across our business, led by electronic design automation (EDA), Design IP returning to year-over-year growth, and a strong quarter from Ansys. Results for the third quarter of fiscal 2026 reflected a full quarter of revenue from Ansys, compared to a partial quarter contribution in the prior year period following our acquisition of Ansys in July 2025."
+    },
+    {
+      "block_idx": 355,
+      "char_end": 4651,
+      "char_start": 4562,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "The following table sets forth some of our key quarterly unaudited financial information:"
+    },
+    {
+      "block_idx": 359,
+      "char_end": 4767,
+      "char_start": 4653,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Financial performance summary for the three months ended July 31, 2026 compared to the same period of fiscal 2025:"
+    },
+    {
+      "block_idx": 360,
+      "char_end": 5068,
+      "char_start": 4769,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "\u2022Revenues were $2.5 billion, an increase of $737.1 million or 42%, which includes an increase of $622.2 million in revenue from Ansys for the full quarter in fiscal 2026 versus the partial quarter in fiscal 2025. The remaining growth came organically due to broad-based strength across our business."
+    },
+    {
+      "block_idx": 361,
+      "char_end": 5609,
+      "char_start": 5070,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "\u2022Total cost of revenue and operating expenses was $2.1 billion, an increase of $544.8 million or 35%, reflecting an increase of $330.0 million in amortization expense related to intangible assets acquired from the Ansys Merger (as defined below), as well as an increase of $174.3 million in employee-related costs, which includes an increase of $169.2 million from Ansys, primarily due to the inclusion of Ansys' results for a full period for the three months ended July 31, 2026 versus a partial period for the same period in fiscal 2025."
+    },
+    {
+      "block_idx": 362,
+      "char_end": 5724,
+      "char_start": 5611,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Financial performance summary for the nine months ended July 31, 2026 compared to the same period of fiscal 2025:"
+    },
+    {
+      "block_idx": 363,
+      "char_end": 6019,
+      "char_start": 5726,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "\u2022Revenues were $7.2 billion, an increase of $2.4 billion or 49%, which includes an increase of $2.2 billion in revenue from Ansys for the full period in fiscal 2026 versus the partial period in fiscal 2025. The remaining growth came organically due to broad-based strength across our business."
+    },
+    {
+      "block_idx": 364,
+      "char_end": 6828,
+      "char_start": 6021,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "\u2022Total cost of revenue and operating expenses was $6.5 billion, an increase of $2.5 billion or 62%, reflecting increases of $1.1 billion in amortization expense related to intangible assets acquired from the Ansys Merger, $768.9 million in employee-related costs, which includes an increase of $794.8 million from Ansys, primarily due to the inclusion of Ansys' results for a full period for the nine months ended July 31, 2026 versus a partial period for the same period in fiscal 2025, partially offset by a decrease in employee-related costs due to headcount reductions as a result of the 2026 Plan (as defined in Restructuring Charges below). The increase in total cost of revenue and operating expenses was also driven by $236.3 million of restructuring charges for the nine months ended July 31, 2026."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 6846,
+      "char_start": 6830,
+      "is_heading": true,
+      "ordinal": 12,
+      "text": "Business Summary"
+    },
+    {
+      "block_idx": 366,
+      "char_end": 7272,
+      "char_start": 6848,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Synopsys delivers industry-leading silicon design, IP, simulation and analysis (S&A) solutions and design services. We partner closely with our customers across a wide range of industries to maximize their R&D capability and productivity, powering innovation today that ignites the ingenuity of tomorrow. For more information about our business segments and product groups, see Part I, Item 1, Business in our Annual Report."
+    },
+    {
+      "block_idx": 367,
+      "char_end": 8098,
+      "char_start": 7274,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "We have consistently grown our revenue since 2005, despite periods of global economic uncertainty. We achieved these results because of our solid execution, leading technologies and strong customer relationships, and because we generally recognize our revenue for software licenses over the arrangement period, which typically approximates two to three years. See Note 2. Summary of Significant Accounting Policies and Basis of Presentation of the Notes to Consolidated Financial Statements in our Annual Report for a discussion on our revenue recognition policy. The revenue we recognize in a particular period generally results from selling efforts in prior periods rather than the current period. As a result, decreases as well as increases in customer spending do not immediately affect our revenue in a significant way."
+    },
+    {
+      "block_idx": 368,
+      "char_end": 9400,
+      "char_start": 8100,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Our growth strategy is focused on expanding our total addressable market by maximizing the capabilities of R&D teams across industries spanning semiconductor, high-tech, industrial, aerospace, and more with engineering solutions from silicon to systems. Our priorities are to maintain and expand our technology leadership, drive sustainable growth and efficiently scale to accelerate our strategy. Our revenue growth from period to period is expected to vary based on the mix of our time-based and upfront products. Our upfront products have grown at a faster rate than our time-based products in recent periods, which has resulted in, and may in the future result in, increased fluctuation in our business, operating results and overall financial position on a quarterly basis. Such fluctuation may be more pronounced depending on demand from our larger customers. See Part II, Item 1A, Risk Factors, \"Our operating results may fluctuate in the future, which may adversely affect our stock price\" of this Quarterly Report for further discussion on potential fluctuations in our operating results. Based on our leading technologies, customer relationships, business model, diligent expense management, and acquisition strategy, we believe that we will continue to execute our strategies successfully."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 9422,
+      "char_start": 9402,
+      "is_heading": true,
+      "ordinal": 16,
+      "text": "Acquisition of Ansys"
+    },
+    {
+      "block_idx": 372,
+      "char_end": 9949,
+      "char_start": 9424,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "On July 17, 2025 (the Acquisition Date), we completed our acquisition of Ansys pursuant to the terms of the previously announced Agreement and Plan of Merger, dated as of January 15, 2024 (the Merger Agreement) by and among Synopsys, Ansys and ALTA Acquisition Corp. (Merger Sub), a Delaware corporation and a wholly owned subsidiary of Synopsys (the Ansys Merger). See Note 4. Acquisition of Ansys of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for more information on the Ansys Merger."
+    },
+    {
+      "block_idx": 373,
+      "char_end": 10032,
+      "char_start": 9951,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "See Part II, Item 1A, Risk Factors for more on risks related to the Ansys Merger."
+    },
+    {
+      "block_idx": 374,
+      "char_end": 10081,
+      "char_start": 10034,
+      "is_heading": true,
+      "ordinal": 19,
+      "text": "Impact of the Current Macroeconomic Environment"
+    },
+    {
+      "block_idx": 375,
+      "char_end": 11108,
+      "char_start": 10083,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "The current macroeconomic environment reflects the effects of, among other things, changes in U.S. and global trade policy, including the tariffs enacted beginning in 2025 by the U.S. and other governments and subsequent tariff and trade policy revisions, sustained global inflationary pressures and elevated interest rates, potential economic slowdowns or recessions, supply chain disruptions, geopolitical pressures and instability, and fluctuations in foreign exchange rates. This uncertain macroeconomic environment has resulted in increased volatility in global markets. While we have seen continued strength in the artificial intelligence and high-performance computing sectors, certain industries such as industrial, automotive and consumer electronics have experienced more modest growth. The current uncertain macroeconomic environment has led some of our customers to postpone their decision making, delay their drawdowns under non-cancellable commitments, decrease their spending and/or delay their payments to us."
+    },
+    {
+      "block_idx": 376,
+      "char_end": 11834,
+      "char_start": 11110,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "Growth trends have varied across geographies during fiscal 2026, and the near-term environment, including in China, continues to be affected by macroeconomic factors and Trade Restrictions (as defined below). See the discussion below under the heading \"Impact of Global Trade Policy and the Current Geopolitical Environment\" and in Part II, Item 1A, Risk Factors, \"We are subject to governmental export and import requirements that could subject us to liability and restrict our ability to sell our products and services, which could impair our ability to compete in international markets\" for further discussion of the impact of Trade Restrictions, including export control regulations and geopolitical events, on Synopsys."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 12695,
+      "char_start": 11836,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "While our time-based model provides stability to our business, operating results and overall financial position, the broader implications of these macroeconomic or geopolitical events, particularly in the long term, remain uncertain. Further, the negative impact of these events or disruptions may be deferred due to our business model. See Part II, Item 1A, Risk Factors, \"Uncertainty in the macroeconomic environment, and its potential impact on the semiconductor and electronics industries, may negatively affect our business, operating results and financial condition\" and \"Our operating results may fluctuate in the future, which may adversely affect our stock price\" for further discussion of the impact of global economic uncertainty on our business, operations and financial condition and potential fluctuations in our operating results, respectively."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 12767,
+      "char_start": 12697,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Impact of Global Trade Policy and the Current Geopolitical Environment"
+    },
+    {
+      "block_idx": 379,
+      "char_end": 13532,
+      "char_start": 12769,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "We are actively monitoring changes to global trade policy, such as changes to U.S. Export Regulations (as defined below) and developments related to the tariffs enacted by the U.S. government. Beginning in fiscal 2025, the U.S. government has imposed a number of new and higher U.S. tariffs on imports from countries around the world. Certain countries responded to the U.S. tariffs by imposing or threatening retaliatory tariffs. There may be additional changes to tariffs or new tariffs and other aspects of global trade policy in fiscal 2026 in the U.S. and other countries due to global trade negotiations and other factors. These changes in global trade policy have not had a material impact on our business, operating results or financial condition to date."
+    },
+    {
+      "block_idx": 380,
+      "char_end": 15378,
+      "char_start": 13534,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "The Bureau of Industry and Security of the U.S. Department of Commerce (BIS) has continued to publish changes to U.S. export control regulations (the U.S. Export Regulations), including, among other things, the inclusion of certain Chinese technology companies on the Entity List, restrictions on the export of electronic computer-aided design (ECAD) software specially designed for the development of certain ICs, as well as controls on ECAD software for advanced semiconductor packaging involving multiple chips or chiplets, and certain other restrictions on China's access to certain semiconductor and advanced computing technology. U.S.-China relations remain fluid, in particular with respect to trade policy and export restrictions relating to dual-use technologies. China export control restrictions, including certain BIS restrictions that were imposed in the third quarter of 2025 and subsequently rescinded as disclosed in our prior filings, negatively impacted our business in China, including in our Design IP segment, and may continue to impact design starts or other aspects of our business in China in the future. The evolving nature of U.S. Export Regulations, including the potential for new and expanded license requirements of this or similar nature, creates uncertainty regarding the current and future impacts on our business. We anticipate additional changes to the U.S. Export Regulations or other U.S. or non-U.S. export, sanctions, or similar trade requirements (collectively, the Trade Restrictions) in the future, but we cannot forecast the scope or timing of such changes, nor the impact on our business. We will continue to monitor such developments, including potential additional Trade Restrictions, new or expanded license requirements, and other regulatory or policy changes by the U.S. and foreign governments."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 15790,
+      "char_start": 15380,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "For more on risks related to government export and import restrictions such as the U.S. government's Entity List and other U.S. Export Regulations, see Part II, Item 1A, Risk Factors, \"We are subject to governmental export and import requirements that could subject us to liability and restrict our ability to sell our products and services, which could impair our ability to compete in international markets.\""
+    },
+    {
+      "block_idx": 384,
+      "char_end": 16526,
+      "char_start": 15792,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "We are also monitoring other geopolitical pressures around the world, including, among others, changes in China-Taiwan and U.S.-China relations, the conflicts in Ukraine and the Middle East and other regional or global military conflicts or instability. Any significant disruption caused by these or other geopolitical pressures or conflicts could materially affect our employees, business, operating results, financial condition or customers in those regions of the world. For example, Synopsys has employees, operations, customers and strategic partners in the Middle East. While we are actively monitoring the ongoing conflicts, they have not had a material impact on our business, operating results or financial condition to date."
+    },
+    {
+      "block_idx": 385,
+      "char_end": 16700,
+      "char_start": 16528,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "See Part II, Item 1A, Risk Factors for further discussion of the impact of global economic and geopolitical uncertainty on our business, operations and financial condition."
+    },
+    {
+      "block_idx": 386,
+      "char_end": 16719,
+      "char_start": 16702,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Business Segments"
+    },
+    {
+      "block_idx": 387,
+      "char_end": 17485,
+      "char_start": 16721,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Design Automation. This segment includes our advanced silicon design, verification products and services, and Ansys products, and system integration products and services. This segment also includes digital, custom and field programmable gate array (FPGA) integrated circuit (IC) design software, verification software and hardware products, and manufacturing software products. Designers use our EDA products to accelerate and automate the chip design process, reduce errors and enable more powerful and robust designs, with improved productivity for faster time to market. Engineers use our S&A solutions to virtually test and optimize designs across various physics domains, such as structural analysis, thermal analysis, and computational fluid dynamics (CFD)."
+    },
+    {
+      "block_idx": 388,
+      "char_end": 18029,
+      "char_start": 17487,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Design IP. This segment includes our logic libraries, embedded memories, wired interface IP, memory interface IP, and security IP that serve companies primarily in the semiconductor and electronics industries. We are a leading provider of high-quality, silicon-proven IP solutions for system-on-chips (SoCs). This includes IP that has been optimized to address specific application requirements for the mobile, automotive, digital home, Internet of Things and AI/data center markets, enabling designers to quickly develop SoCs in these areas."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 18060,
+      "char_start": 18031,
+      "is_heading": true,
+      "ordinal": 32,
+      "text": "Critical Accounting Estimates"
+    },
+    {
+      "block_idx": 390,
+      "char_end": 18586,
+      "char_start": 18062,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "A critical accounting estimate is defined as one that has a material impact on our financial condition and results of operations and requires us to make difficult, complex or subjective judgments, often as a result of the need to make estimates about matters that are inherently uncertain. Where applicable, we base these estimates and assumptions on historical experience and evaluate them on an ongoing basis to ensure that they remain reasonable under current conditions. Actual results could differ from those estimates."
+    },
+    {
+      "block_idx": 391,
+      "char_end": 18998,
+      "char_start": 18588,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "We believe the critical accounting policies that reflect more significant judgments and estimates used in the preparation of our consolidated financial statements regarding critical accounting estimates are Revenue Recognition and Business Combinations. There have been no material changes in our critical accounting estimates during the nine months ended July 31, 2026 since our Annual Report for fiscal 2025."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 19021,
+      "char_start": 19000,
+      "is_heading": true,
+      "ordinal": 35,
+      "text": "Results of Operations"
+    },
+    {
+      "block_idx": 394,
+      "char_end": 19255,
+      "char_start": 19023,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "We completed the acquisition of Ansys on July 17, 2025. Accordingly, period-to-period comparisons discussed below are affected by the inclusion of Ansys' results for partial periods in fiscal 2025 versus full periods in fiscal 2026."
+    },
+    {
+      "block_idx": 395,
+      "char_end": 19264,
+      "char_start": 19257,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Revenue"
+    },
+    {
+      "block_idx": 396,
+      "char_end": 19580,
+      "char_start": 19266,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Our revenues are generated from two business segments: the Design Automation segment and the Design IP segment. See Note 17. Segment Disclosure of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for more information about our reportable segments and revenue by geographic regions."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 19707,
+      "char_start": 19582,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "Further disaggregation of the revenues into various products and services within these two segments is summarized as follows:"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 19734,
+      "char_start": 19709,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "Design Automation Segment"
+    },
+    {
+      "block_idx": 399,
+      "char_end": 20926,
+      "char_start": 19736,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "\u2022EDA solutions include digital, custom and FPGA IC design software, verification software and hardware products, Ansys semiconductor products, system integration products and services, and obligations to provide unspecified updates and support services. EDA products and services are typically sold through Technology Subscription License (TSL) arrangements that grant customers the right to access and use all of the licensed products at the outset of an arrangement; software updates are generally made available throughout the entire term of the arrangement. The duration of our TSL contracts is generally two to three years, though it may vary for specific arrangements. We have concluded that the software licenses in TSL contracts are not distinct from the obligation to provide unspecified software updates to the licensed software throughout the license term, because the multiple software licenses and support represent inputs to a single, combined offering, and timely, relevant software updates are integral to maintaining the utility of the software licenses. We recognize revenue for the combined performance obligation under TSL contracts ratably over the term of the license."
+    },
+    {
+      "block_idx": 400,
+      "char_end": 22011,
+      "char_start": 20928,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "\u2022In the case of arrangements involving the sale of hardware products, we generally have two performance obligations. The first performance obligation is to transfer the hardware product, which includes software integral to the functionality of the hardware product. The second performance obligation is to provide maintenance on the hardware and its embedded software, which includes rights to technical support, hardware repairs and software updates that are all provided over the same term and have the same time-based pattern of transfer to the customer. The portion of the transaction price allocated to the hardware product is generally recognized as revenue at the time of shipment because the customer obtains control of the product at that point in time. We have concluded that control generally transfers at that point in time because the customer has the ability to direct the use of the asset and an obligation to pay for the hardware. The portion of the transaction price allocated to the maintenance obligation is recognized as revenue ratably over the maintenance term."
+    },
+    {
+      "block_idx": 401,
+      "char_end": 23900,
+      "char_start": 22013,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "\u2022S&A solutions allow engineers to virtually test and optimize designs across various physics domains, such as structural analysis, thermal analysis, and CFD. S&A software solutions are offered as subscription solutions and also as perpetual licenses. Software subscription arrangements include bundles of time-based software licenses with support services, which includes rights to technical support and software updates that are provided over the support term and are transferred to the customer over time. In such subscription arrangements, the updates to time-based software licenses are not considered integral to maintaining the utility of the software. We consider the license and support services as separate performance obligations. In these instances, we allocate the total consideration received for the revenue arrangement to the separate performance obligations based on the standalone selling prices of the time-based software license and support service. The time-based software license revenue is presented as upfront products revenue, recognized at a point of time upon the later of the delivery date or the beginning of the license period, and the revenue related to the support service is presented as maintenance and service revenue and is recognized over the term of the arrangement. Perpetual license arrangements typically include a perpetual license sold with support services, which includes a stand-ready obligation to provide technical support and software updates over the support term. We allocate the total consideration received for the bundled perpetual and support service arrangements based on the standalone selling prices of the perpetual license and support service. Revenue from perpetual licenses is presented as upfront product revenue and is recognized at a point in time upon the later of the delivery date or the beginning of the license period."
+    },
+    {
+      "block_idx": 403,
+      "char_end": 24644,
+      "char_start": 23902,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Revenue from support service is classified as maintenance and service revenue and is recognized ratably over the term of the contract, as we satisfy the support service performance obligation. For our reseller business, we evaluate whether we are the principal or agent for reporting purposes. Beginning in the second quarter of fiscal 2026, we have enhanced our channel partner arrangements to improve oversight and pricing visibility. Specifically, we now have visibility into end-customer pricing, improved delivery control over key distributors, and are able to provide routine maintenance to the end customers. As a result, we report our revenue from reseller arrangements on a gross basis beginning in the second quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 404,
+      "char_end": 25070,
+      "char_start": 24646,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "\u2022Revenue from professional service contracts is recognized over time, generally using costs incurred or hours expended to measure progress. We have a history of reasonably estimating project status and the costs necessary to complete projects. A number of internal and external factors can affect these estimates, including labor rates, utilization and efficiency variances and specification and testing requirement changes."
+    },
+    {
+      "block_idx": 405,
+      "char_end": 25089,
+      "char_start": 25072,
+      "is_heading": true,
+      "ordinal": 46,
+      "text": "Design IP Segment"
+    },
+    {
+      "block_idx": 406,
+      "char_end": 26064,
+      "char_start": 25091,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "\u2022Design IP includes our logic libraries, embedded memories, wired interface IP, memory interface IP and security IP. These arrangements generally have two performance obligations which consist of transferring of the licensed IP and providing related support, which includes rights to technical support and software updates that are provided over the support term and are transferred to the customer over time. Revenue allocated to the IP licenses is recognized at a point in time upon the later of the delivery date or the beginning of the license period, and revenue allocated to support is recognized over the support term. Royalties are recognized as revenue in the quarter in which the applicable customer sells its products that incorporate our IP. Payments for IP contracts are generally received upon delivery of the IP. Revenue related to the customization of certain IP is recognized over time, generally using costs incurred or hours expended to measure progress."
+    },
+    {
+      "block_idx": 407,
+      "char_end": 26711,
+      "char_start": 26066,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Our customer arrangements can involve multiple products and various license rights, and our customers negotiate with us over many aspects of these arrangements. For example, they generally request a broader portfolio of solutions, support and services and seek more favorable terms such as expanded license usage, future purchase rights and other unique rights at an overall lower total cost. No single factor typically drives our customers' buying decisions, and we compete on all fronts to serve customers in highly competitive markets. Customers generally negotiate the total value of the arrangement rather than just unit pricing or volumes."
+    },
+    {
+      "block_idx": 408,
+      "char_end": 26726,
+      "char_start": 26713,
+      "is_heading": true,
+      "ordinal": 49,
+      "text": "Total Revenue"
+    },
+    {
+      "block_idx": 410,
+      "char_end": 27357,
+      "char_start": 26728,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Our revenues are subject to fluctuations, primarily due to customer requirements including customer demand, timing requirements and the value of contract renewals. For example, we experience fluctuations in our revenues due to factors such as the timing of IP product sales, Flexible Spending Account (FSA) drawdowns, royalties, and hardware products sales. As revenues from sales of IP products, hardware products and S&A product licenses are recognized upfront, customer demand and timing requirements for such IP products, hardware products and S&A product licenses could result in increased variability of our total revenues."
+    },
+    {
+      "block_idx": 411,
+      "char_end": 28094,
+      "char_start": 27359,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Contracted but unsatisfied or partially unsatisfied performance obligations (backlog) were $10.9 billion as of July 31, 2026, which includes $1.9 billion in non-cancellable FSA commitments from customers where actual product selection and quantities of specific products or services are to be determined by customers at a later date. We have elected to exclude future sales-based royalty payments from the remaining performance obligations. Approximately 49% of the backlog as of July 31, 2026, excluding non-cancellable FSA, is expected to be recognized as revenue over the next 12 months, with the remainder to be recognized thereafter. The majority of the remaining backlog is expected to be recognized in the following three years."
+    },
+    {
+      "block_idx": 414,
+      "char_end": 28716,
+      "char_start": 28096,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "The amount and composition of unsatisfied performance obligations will fluctuate period to period. We do not believe the amount of unsatisfied performance obligations is indicative of future sales or revenue, or that such obligations at the end of any given period correlates with actual sales performance of a particular geography or particular products and services. For more information regarding our revenue during the three and nine months ended July 31, 2026, including our contract balances as of such date, see Note 5. Revenue of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report."
+    },
+    {
+      "block_idx": 415,
+      "char_end": 29207,
+      "char_start": 28718,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "The increase in total revenues for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily attributable to increases in revenue from Ansys, which contributed $622.2 million and $2.2 billion for the respective periods, reflecting a full period of revenue from Ansys, compared to a partial period contribution in the prior year following our acquisition of Ansys. Overall revenue growth also reflected broad-based strength across our business."
+    },
+    {
+      "block_idx": 416,
+      "char_end": 29375,
+      "char_start": 29209,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "For a discussion of revenue by geographic areas, see Note 17. Segment Disclosure of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report."
+    },
+    {
+      "block_idx": 417,
+      "char_end": 29404,
+      "char_start": 29377,
+      "is_heading": true,
+      "ordinal": 55,
+      "text": "Time-Based Products Revenue"
+    },
+    {
+      "block_idx": 419,
+      "char_end": 29726,
+      "char_start": 29406,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "The increase in time-based products revenue for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily attributable to increases of $71.6 million and $228.7 million, respectively, from Ansys, and higher TSL license revenue from arrangements entered into in prior periods."
+    },
+    {
+      "block_idx": 420,
+      "char_end": 29752,
+      "char_start": 29728,
+      "is_heading": true,
+      "ordinal": 57,
+      "text": "Upfront Products Revenue"
+    },
+    {
+      "block_idx": 422,
+      "char_end": 29973,
+      "char_start": 29754,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "Changes in upfront products revenue are generally attributable to normal fluctuations in the extent and timing of customer requirements, which can drive the amount of upfront orders and revenue in any particular period."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 30311,
+      "char_start": 29975,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "The increase in upfront products revenue for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily attributable to increases of $161.4 million and $693.7 million, respectively, from Ansys, partially offset by a decrease in license revenue due to the Optical Solutions Group divestiture."
+    },
+    {
+      "block_idx": 424,
+      "char_end": 30573,
+      "char_start": 30313,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Upfront products revenue as a percentage of total revenue will likely fluctuate based on the timing of IP, hardware and S&A product sales. Such fluctuations will continue to be impacted by the timing of shipments and FSA drawdowns due to customer requirements."
+    },
+    {
+      "block_idx": 426,
+      "char_end": 30606,
+      "char_start": 30575,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "Maintenance and Service Revenue"
+    },
+    {
+      "block_idx": 428,
+      "char_end": 30911,
+      "char_start": 30608,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "The increase in maintenance revenue for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily attributable to increases of $367.0 million and $1.2 billion, respectively, from Ansys, and an increase in the volume of arrangements that include maintenance."
+    },
+    {
+      "block_idx": 429,
+      "char_end": 31215,
+      "char_start": 30913,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "The increase in professional service and other revenue for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily attributable to the timing of IP customization projects, as well as increases of $22.2 million and $63.5 million, respectively, from Ansys."
+    },
+    {
+      "block_idx": 430,
+      "char_end": 31232,
+      "char_start": 31217,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "Cost of Revenue"
+    },
+    {
+      "block_idx": 432,
+      "char_end": 31398,
+      "char_start": 31234,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Our cost of revenue consists of three categories: cost of products revenue, cost of maintenance and service revenue, and amortization of acquired intangible assets."
+    },
+    {
+      "block_idx": 433,
+      "char_end": 31682,
+      "char_start": 31400,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Cost of products revenue. Cost of products revenue includes costs related to products sold and software licensed, hardware-related costs including inventory provisions, allocated operating costs related to product support and distribution, and royalties paid to third-party vendors."
+    },
+    {
+      "block_idx": 434,
+      "char_end": 31915,
+      "char_start": 31684,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Cost of maintenance and service revenue. Cost of maintenance and service revenue includes costs to deliver our maintenance services, such as hotline and on-site support, production services and documentation of maintenance updates."
+    },
+    {
+      "block_idx": 435,
+      "char_end": 32162,
+      "char_start": 31917,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Amortization of acquired intangible assets. Amortization of acquired intangible assets, included in cost of revenue, consists of the amortization of core/developed technology and certain contract rights intangible assets related to acquisitions."
+    },
+    {
+      "block_idx": 437,
+      "char_end": 32906,
+      "char_start": 32164,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "The increase in costs of products revenue and costs of maintenance and service revenue for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $20.9 million in employee-related costs from Ansys for the full quarter in fiscal 2026 versus the partial quarter in fiscal 2025, $20.8 million in hardware-related costs including inventory provisions, $17.2 million in costs to fulfill IP consulting arrangements, and $7.2 million in IT and facility costs. The increase in amortization of acquired intangible assets for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to an increase of $202.7 million in connection with the Ansys Merger."
+    },
+    {
+      "block_idx": 438,
+      "char_end": 33647,
+      "char_start": 32908,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "The increase in costs of products revenue and costs of maintenance and service revenue for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $75.4 million in employee-related costs from Ansys for the full period in fiscal 2026 versus the partial period in fiscal 2025, $48.2 million in costs to fulfill IP consulting arrangements, $43.1 million in hardware-related costs including inventory provisions, and $29.6 million in IT and facility costs. The increase in amortization of acquired intangible assets for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to an increase of $687.1 million in connection with the Ansys Merger."
+    },
+    {
+      "block_idx": 439,
+      "char_end": 33667,
+      "char_start": 33649,
+      "is_heading": true,
+      "ordinal": 71,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 440,
+      "char_end": 33693,
+      "char_start": 33669,
+      "is_heading": true,
+      "ordinal": 72,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 442,
+      "char_end": 34328,
+      "char_start": 33695,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "The increase in research and development expenses for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $91.5 million in employee-related costs due to the inclusion of Ansys for the full quarter in fiscal 2026 versus the partial quarter in fiscal 2025 and $27.8 million in IT and facility costs, partially offset by a decrease of $20.5 million in the change in the fair value of our executive deferred compensation plan assets and a decrease in employee-related costs due to headcount reductions as a result of the 2026 Plan (as defined in Restructuring Charges below)."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 34784,
+      "char_start": 34330,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "The increase in research and development expenses for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $334.4 million in employee-related costs from Ansys for the full period in fiscal 2026 versus the partial period in fiscal 2025 and $102.2 million in IT and facility costs, partially offset by a decrease in employee-related costs due to headcount reductions as a result of the 2026 Plan."
+    },
+    {
+      "block_idx": 444,
+      "char_end": 34805,
+      "char_start": 34786,
+      "is_heading": true,
+      "ordinal": 75,
+      "text": "Sales and Marketing"
+    },
+    {
+      "block_idx": 446,
+      "char_end": 35141,
+      "char_start": 34807,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "The increase in sales and marketing expenses for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $92.6 million in employee-related costs from Ansys for the full quarter in fiscal 2026 versus the partial quarter in fiscal 2025 and $9.6 million in IT and facility costs."
+    },
+    {
+      "block_idx": 447,
+      "char_end": 35588,
+      "char_start": 35143,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "The increase in sales and marketing expenses for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to increases of $357.6 million in employee-related costs from Ansys for the full period in fiscal 2026 versus the partial period in fiscal 2025 and $49.5 million in IT and facility costs, offset in part by a decrease in employee-related costs due to headcount decreases as a result of the 2026 Plan."
+    },
+    {
+      "block_idx": 449,
+      "char_end": 35616,
+      "char_start": 35590,
+      "is_heading": true,
+      "ordinal": 78,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 451,
+      "char_end": 36483,
+      "char_start": 35618,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "The decrease in general and administrative expenses for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily attributable to lower consulting and professional fees of $86.7 million, which were higher in the third quarter of fiscal 2025 primarily due to expenses incurred in connection with the Ansys Merger. Additionally, employee-related costs were lower in the three months ended July 31, 2026 primarily due to $53.6 million of stock-based compensation expense accelerated in connection with the Ansys Merger in the third quarter of fiscal 2025. These decreases were partially offset by higher employee-related costs from Ansys of $17.8 million, excluding the accelerated stock-based compensation expense for the Ansys Merger, due to the impact of the full quarter in fiscal 2026 versus the partial quarter in fiscal 2025."
+    },
+    {
+      "block_idx": 452,
+      "char_end": 37326,
+      "char_start": 36485,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "The decrease in general and administrative expenses for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to lower consulting and professional fees of $140.7 million, which were higher during the nine months ended July 31, 2025 primarily due to expenses incurred in connection with the Ansys Merger. Excluding the accelerated stock-based compensation expense for the Ansys Merger of $53.6 million in the third quarter of fiscal 2025, employee-related costs were higher, primarily due to the contribution from Ansys of $81.0 million, due to the impact of the full period in fiscal 2026 versus the partial period in fiscal 2025. Additionally, the overall decrease was partially offset by increases of $9.3 million in depreciation and maintenance expense and $5.2 million in IT and facility costs."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 37370,
+      "char_start": 37328,
+      "is_heading": true,
+      "ordinal": 81,
+      "text": "Amortization of Acquired Intangible Assets"
+    },
+    {
+      "block_idx": 454,
+      "char_end": 37573,
+      "char_start": 37372,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Amortization of acquired intangible assets, included in operating expenses, consists of the amortization of trademarks, trade names and customer relationships intangible assets related to acquisitions."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 38018,
+      "char_start": 37575,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "The increase in amortization of acquired intangible assets for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily due to increases in amortization expense related to intangible assets acquired from the Ansys Merger. See Note 6. Goodwill and Intangible Assets of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for a schedule of future amortization amounts."
+    },
+    {
+      "block_idx": 457,
+      "char_end": 38041,
+      "char_start": 38020,
+      "is_heading": true,
+      "ordinal": 84,
+      "text": "Restructuring Charges"
+    },
+    {
+      "block_idx": 459,
+      "char_end": 39000,
+      "char_start": 38043,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "In November 2025, we initiated a restructuring plan for involuntary employee terminations as part of a business reorganization (the 2026 Plan) with total charges expected to be in the range of $300.0 million and $350.0 million. In August 2026, our Board of Directors (the Board) approved updated estimates of charges related to the 2026 Plan ranging from $425.0 million to $500.0 million, consisting primarily of severance and other one-time termination benefits, and other costs such as certain site closures as part of Synopsys' global site strategy. The 2026 Plan is anticipated to be completed by the end of fiscal 2027, with majority of the workforce reduction in fiscal 2026. We recorded restructuring charges of $2.2 million and $236.3 million for the three and nine months ended July 31, 2026, respectively. See Note 10. Restructuring Charges of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for more information."
+    },
+    {
+      "block_idx": 460,
+      "char_end": 39018,
+      "char_start": 39002,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "Interest Expense"
+    },
+    {
+      "block_idx": 462,
+      "char_end": 39255,
+      "char_start": 39020,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "The decrease in interest expense for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to the repayment and termination of the Term Loan Agreement during the first quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 39811,
+      "char_start": 39257,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "The increase in interest expense for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to interest on the Senior Notes issued in the second quarter of fiscal 2025 and the borrowing under the Term Loan Agreement in the third quarter of fiscal 2025 in connection with the Ansys Merger. See Note 11. Senior Notes, Bridge Commitment Letter, Term Loan and Revolving Credit Facilities of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for further detail on our debt obligations."
+    },
+    {
+      "block_idx": 464,
+      "char_end": 39840,
+      "char_start": 39813,
+      "is_heading": true,
+      "ordinal": 89,
+      "text": "Other Income (Expense), Net"
+    },
+    {
+      "block_idx": 467,
+      "char_end": 40285,
+      "char_start": 39842,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "The increase in other income (expense), net for the three months ended July 31, 2026 as compared to the same period in fiscal 2025 was primarily due to a pre-tax gain of $425.4 million on sale of our Processor IP Solutions (Processor IP) business on June 1, 2026, partially offset by lower interest income as a result of lower average cash balances and a decrease in the change in fair value of our executive deferred compensation plan assets."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 40711,
+      "char_start": 40287,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "The increase in other income (expense), net for the nine months ended July 31, 2026 as compared to the same period in fiscal 2025 was primarily due to a pre-tax gain of $425.4 million on the sale of our Processor IP business on June 1, 2026, partially offset by lower interest income as a result of lower average cash balances and the gain recognized from the sale of an office building in the second quarter of fiscal 2025."
+    },
+    {
+      "block_idx": 469,
+      "char_end": 40738,
+      "char_start": 40713,
+      "is_heading": true,
+      "ordinal": 92,
+      "text": "Segment Operating Results"
+    },
+    {
+      "block_idx": 470,
+      "char_end": 41233,
+      "char_start": 40740,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "We do not allocate certain operating expenses managed at a consolidated level to our reportable segments. These unallocated expenses consist primarily of amortization of acquired intangible assets, stock-based compensation expense, changes in the fair value of deferred compensation plan, restructuring charges, and acquisition/divestiture related items. See Note 17. Segment Disclosure of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for more information."
+    },
+    {
+      "block_idx": 471,
+      "char_end": 41260,
+      "char_start": 41235,
+      "is_heading": true,
+      "ordinal": 94,
+      "text": "Design Automation Segment"
+    },
+    {
+      "block_idx": 473,
+      "char_end": 41582,
+      "char_start": 41262,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "The increase in adjusted operating income for the three and nine months ended July 31, 2026 compared to the same periods in fiscal 2025 was primarily due to an increase in revenue from arrangements booked in prior periods, partially offset by a decrease in license revenue due to the Optical Solutions Group divestiture."
+    },
+    {
+      "block_idx": 474,
+      "char_end": 41601,
+      "char_start": 41584,
+      "is_heading": true,
+      "ordinal": 96,
+      "text": "Design IP Segment"
+    },
+    {
+      "block_idx": 476,
+      "char_end": 41829,
+      "char_start": 41603,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "The increase in adjusted operating income for the three months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to an increase in the revenue of IP products driven by timing of customer demands."
+    },
+    {
+      "block_idx": 477,
+      "char_end": 42086,
+      "char_start": 41831,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "The decrease in adjusted operating income for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to higher expenses and lower revenue as we continue to reallocate resources to the highest growth opportunities."
+    },
+    {
+      "block_idx": 478,
+      "char_end": 42100,
+      "char_start": 42088,
+      "is_heading": true,
+      "ordinal": 99,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 479,
+      "char_end": 42367,
+      "char_start": 42102,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "Our effective tax rate increased in the three months ended July 31, 2026 as compared to the same period in fiscal 2025, which was primarily due to the release of a full valuation allowance against California research credits during the third quarter of fiscal 2025."
+    },
+    {
+      "block_idx": 481,
+      "char_end": 42878,
+      "char_start": 42369,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "Our effective tax rate increased in the nine months ended July 31, 2026 as compared to the same period in fiscal 2025, which was primarily due to the release of a full valuation allowance against California research credits during the third quarter of fiscal 2025 and the recognition of a capital loss on the sale of our ownership in OpenLight during the first quarter of fiscal 2025, as well as a lower benefit from stock-based compensation and the foreign-derived intangible income deduction in fiscal 2026."
+    },
+    {
+      "block_idx": 482,
+      "char_end": 43014,
+      "char_start": 42880,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "See Note 19. Income Taxes of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for further discussion."
+    },
+    {
+      "block_idx": 483,
+      "char_end": 43047,
+      "char_start": 43016,
+      "is_heading": true,
+      "ordinal": 103,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 484,
+      "char_end": 43202,
+      "char_start": 43049,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Our principal sources of liquidity are funds generated from our business operations and funds that may be drawn down under our revolving credit facility."
+    },
+    {
+      "block_idx": 485,
+      "char_end": 43759,
+      "char_start": 43204,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "As of July 31, 2026, we held $3.6 billion in cash, cash equivalents and short-term investments. We also held $4.5 million in restricted cash primarily associated with deposits for office leases and employee loan programs. Our cash equivalents consisted primarily of taxable money market mutual funds, time deposits and highly liquid investments with maturities of three months or less. Our short-term investments include U.S. government securities and other U.S. government obligations, with an overall weighted-average credit rating of approximately AA+."
+    },
+    {
+      "block_idx": 486,
+      "char_end": 44130,
+      "char_start": 43761,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "As of July 31, 2026, approximately $1.7 billion of our cash and cash equivalents were domiciled in various foreign jurisdictions. We have provided for foreign withholding taxes on the undistributed earnings of certain of our foreign subsidiaries to the extent such earnings are no longer considered to be indefinitely reinvested in the operations of those subsidiaries."
+    },
+    {
+      "block_idx": 487,
+      "char_end": 44578,
+      "char_start": 44132,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "As of July 31, 2026, we had $9.9 billion outstanding balance of the Senior Notes and $99.5 million outstanding balance under the deferred payment agreement related to the 2025 Rate Lock agreements. See Note 11. Senior Notes, Bridge Commitment Letter, Term Loan and Revolving Credit Facilities and Note 8. Financial Assets and Liabilities of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report for further discussion."
+    },
+    {
+      "block_idx": 488,
+      "char_end": 44849,
+      "char_start": 44580,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "There were no other significant changes to our material cash requirements, including contractual and other obligations, as presented in Part II, Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report."
+    },
+    {
+      "block_idx": 489,
+      "char_end": 45498,
+      "char_start": 44851,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "Based on past performance and current expectations, we believe that our existing cash, cash equivalents and short-term investments and sources of liquidity, as well as the debt financing, will be sufficient to satisfy our cash requirements, including repayment of outstanding debt, over the next twelve-month period and beyond. Our future cash requirements will depend on many factors, including our rate of revenue growth, the expansion of our sales and marketing activities, the timing and extent of our spending to support our research and development efforts, and our investments in or acquisitions of businesses, applications or technologies."
+    },
+    {
+      "block_idx": 490,
+      "char_end": 45698,
+      "char_start": 45500,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "The following sections discuss changes in our condensed consolidated statements of cash flows and other commitments of our liquidity and capital resources during the nine months ended July 31, 2026."
+    },
+    {
+      "block_idx": 491,
+      "char_end": 45710,
+      "char_start": 45700,
+      "is_heading": true,
+      "ordinal": 111,
+      "text": "Cash Flows"
+    },
+    {
+      "block_idx": 493,
+      "char_end": 45749,
+      "char_start": 45712,
+      "is_heading": true,
+      "ordinal": 112,
+      "text": "Cash Provided by Operating Activities"
+    },
+    {
+      "block_idx": 494,
+      "char_end": 46282,
+      "char_start": 45751,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "We expect cash from our operating activities to fluctuate as a result of a number of factors, including the timing of billings and collections, operating results, and the timing and amount of tax and other liability payments. Cash provided by operations is dependent primarily upon the payment terms of our license agreements. We generally receive cash from upfront arrangements much sooner than from time-based products revenue, in which the license fee is typically paid either quarterly or annually over the term of the license."
+    },
+    {
+      "block_idx": 496,
+      "char_end": 46830,
+      "char_start": 46284,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "The increase in net cash provided by operating activities for the nine months ended July 31, 2026 compared to the same period in fiscal 2025 was primarily due to contributions from Ansys, organic growth in our business (excluding Ansys), higher accounts receivable collections, and the non-recurring unrealized loss from settlement of the interest rate treasury lock of $121.6 million in the second quarter of fiscal 2025, partially offset by higher disbursements for operations, including vendor payments, and lower net income of $257.5 million."
+    },
+    {
+      "block_idx": 497,
+      "char_end": 46879,
+      "char_start": 46832,
+      "is_heading": true,
+      "ordinal": 115,
+      "text": "Cash Provided by (Used in) Investing Activities"
+    },
+    {
+      "block_idx": 498,
+      "char_end": 47920,
+      "char_start": 46881,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "Net cash provided by investing activities was $353.8 million for the nine months ended July 31, 2026 compared to net cash used in investing activities of $16.4 billion for the same period in fiscal 2025. The cash provided by investing activities for the nine months ended July 31, 2026 was primarily driven by the net proceeds of $440.0 million from the sale of the Processor IP business and $69.8 million from the net proceeds from the purchases, sales and maturities of investments, partially offset by the net cash outflows in the purchase of property and equipment of $156.1 million. The cash used in investing activities for the nine months ended July 31, 2025 was primarily driven by cash paid for acquisitions, net of cash acquired, of $16.7 billion mainly for the Ansys Merger, partially offset by proceeds of $142.5 million from the deferred consideration and final working capital adjustment payment received in connection with the Software Integrity Divestiture and proceeds of $74.3 million from the sale of an office building."
+    },
+    {
+      "block_idx": 499,
+      "char_end": 47969,
+      "char_start": 47922,
+      "is_heading": true,
+      "ordinal": 117,
+      "text": "Cash Provided by (Used in) Financing Activities"
+    },
+    {
+      "block_idx": 500,
+      "char_end": 48842,
+      "char_start": 47971,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "Net cash used in financing activities was $1.9 billion for the nine months ended July 31, 2026 compared to net cash provided by financing activities of $14.2 billion for the same period in fiscal 2025. Net cash used in financing activities for the nine months ended July 31, 2026, consisted of the repayment of the remaining $3.5 billion of the Term Loans and purchases of treasury stock of $300.0 million, partially offset by net proceeds of $2.0 billion from the sale of our common stock pursuant to a securities purchase agreement with NVIDIA Corporation in the first quarter of fiscal 2026. For the nine months ended July 31, 2025, the cash provided by financing activities was primarily driven by the net proceeds of $14.3 billion from the issuance of Senior Notes and the borrowing under the Term Loan Agreement in connection with the financing of the Ansys Merger."
+    },
+    {
+      "block_idx": 501,
+      "char_end": 48925,
+      "char_start": 48844,
+      "is_heading": true,
+      "ordinal": 119,
+      "text": "Bridge Commitment Letter, Term Loan, Revolving Credit Facilities and Senior Notes"
+    },
+    {
+      "block_idx": 502,
+      "char_end": 49450,
+      "char_start": 48927,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "In January 2024, we entered into a bridge commitment letter with certain financial institutions that committed to provide, subject to the satisfaction of customary closing conditions, an aggregate principal amount of $16.0 billion (the Bridge Commitment) for the purpose of financing a portion of the aggregate Cash Consideration and related fees and expenses in the Ansys Merger, as well as the other transactions contemplated by the Merger Agreement. On the Acquisition Date, we reduced the total Bridge Commitment to $0."
+    },
+    {
+      "block_idx": 503,
+      "char_end": 50060,
+      "char_start": 49452,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "In February 2024, we entered into a term loan facility credit agreement (the Term Loan Agreement) in connection with the financing of the Ansys Merger. In July 2025, we borrowed the full $4.3 billion available under the Term Loan Agreement to fund a portion of the Cash Consideration and to pay transaction fees, premiums and expenses related to the Ansys Merger. The Term Loan Agreement contained a financial covenant requiring that Synopsys maintain a maximum consolidated leverage ratio, as well as certain other non-financial covenants. As of July 31, 2026, the term loans were fully paid and terminated."
+    },
+    {
+      "block_idx": 504,
+      "char_end": 50497,
+      "char_start": 50062,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "In March 2025, we issued $10.0 billion in aggregate principal amount of senior notes (the Senior Notes) with net proceeds of approximately $9.9 billion. The net proceeds of the Senior Notes were used to fund a portion of the Cash Consideration and to pay related transaction fees and expenses in the Ansys Merger. Based on the trading prices of the Senior Notes, the fair value of our Senior Notes was $9.7 billion as of July 31, 2026."
+    },
+    {
+      "block_idx": 505,
+      "char_end": 51352,
+      "char_start": 50499,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "In February 2024, we entered into a Sixth Amendment Agreement, which amended and restated our previous revolving credit agreement, dated as of December 14, 2022 (as amended and restated, the Revolving Credit Agreement). The Revolving Credit Agreement provides an unsecured $850.0 million committed multicurrency revolving credit facility and an unsecured uncommitted incremental revolving loan facility of up to $150.0 million. The maturity date of the revolving credit facility is December 14, 2027, which may be extended at our option. The Revolving Credit Agreement contains a financial covenant requiring us to maintain a maximum consolidated leverage ratio, as well as other non-financial covenants. As of July 31, 2026, there was no outstanding balance under the Revolving Credit Agreement, and we were in compliance with all covenants thereunder."
+    },
+    {
+      "block_idx": 506,
+      "char_end": 51606,
+      "char_start": 51354,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "In July 2018, we entered into a 12-year 220.0 million Renminbi (approximately $33.0 million) credit agreement with a lender in China to support our facilities expansion. As of July 31, 2026, we had $10.9 million outstanding balance under the agreement."
+    },
+    {
+      "block_idx": 508,
+      "char_end": 51816,
+      "char_start": 51608,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "For additional information, see Note 11. Senior Notes, Bridge Commitment Letter, Term Loan and Revolving Credit Facilities of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report."
+    },
+    {
+      "block_idx": 509,
+      "char_end": 51842,
+      "char_start": 51818,
+      "is_heading": true,
+      "ordinal": 126,
+      "text": "Stock Repurchase Program"
+    },
+    {
+      "block_idx": 510,
+      "char_end": 52472,
+      "char_start": 51844,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "In fiscal 2022, the Board approved and publicly announced a stock repurchase program (the Program) with authorization to purchase up to $1.5 billion of our common stock. In February 2026, the Board approved a replenishment of the Program with authorization to purchase up to $2.0 billion of our common stock. As of July 31, 2026, $1.7 billion remained available for future stock repurchases under the Program. The pace of our repurchase activity will depend on factors such as our working capital needs, our cash requirements for acquisitions, our debt repayment obligations, our stock price, and economic and market conditions."
+    },
+    {
+      "block_idx": 511,
+      "char_end": 53039,
+      "char_start": 52474,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "In March 2026, we entered into an accelerated stock repurchase agreement (the March 2026 ASR) to repurchase an aggregate of $250.0 million of our common stock. Pursuant to the March 2026 ASR, we made a prepayment of $250.0 million to receive initial deliveries of shares valued at $212.5 million. The remaining balance of $37.5 million was settled on June 1, 2026, resulting in the delivery of an additional 51,437 shares. Total shares repurchased under the March 2026 ASR were approximately 564.7 thousand shares, at an average purchase price of $442.69 per share."
+    },
+    {
+      "block_idx": 512,
+      "char_end": 53293,
+      "char_start": 53041,
+      "is_heading": false,
+      "ordinal": 129,
+      "text": "During the second quarter of fiscal 2026, we also repurchased on the open market approximately 126.7 thousand shares of our common stock pursuant to the Program, at an average price of $394.78 per share for an aggregate purchase price of $50.0 million."
+    },
+    {
+      "block_idx": 513,
+      "char_end": 53718,
+      "char_start": 53295,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "The IR Act was enacted in the United States on August 16, 2022. The IR Act imposes a 1% excise tax on the fair market value of stock repurchases made by covered corporations after December 31, 2022. The total taxable value of shares repurchased is reduced by the fair market value of any newly issued shares during the taxable year. As of July 31, 2026, this has not had any impact on our consolidated financial statements."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 536,
+      "char_end": 38,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Factors that May Affect Future Results"
+    },
+    {
+      "block_idx": 537,
+      "char_end": 931,
+      "char_start": 40,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "Descriptions of risks associated with our business are set forth below. Some of these risks are highlighted in the following discussion and in Management's Discussion and Analysis of Financial Condition and Results of Operations, Legal Proceedings, Controls and Procedures and Quantitative and Qualitative Disclosures About Market Risk of this Quarterly Report. The occurrence of any of these risks or additional risks and uncertainties not presently known to us or that we currently believe to be immaterial could materially and adversely affect our business, financial condition, operating results and stock price. These risks and uncertainties could cause our actual results to differ materially from the results contemplated by the forward-looking statements contained in this Quarterly Report. Investors should carefully consider all relevant risks before investing in our common stock."
+    },
+    {
+      "block_idx": 538,
+      "char_end": 947,
+      "char_start": 933,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "Industry Risks"
+    },
+    {
+      "block_idx": 539,
+      "char_end": 1147,
+      "char_start": 949,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "Uncertainty in the macroeconomic environment, and its potential impact on the semiconductor and electronics industries, may negatively affect our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 540,
+      "char_end": 2079,
+      "char_start": 1149,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "The current macroeconomic environment reflects the effects of, among other things, changes in U.S. and global trade policy, including the tariffs enacted beginning in 2025 by the U.S. and other governments and subsequent tariff and trade policy revisions, sustained global inflationary pressures and elevated interest rates, potential economic slowdowns or recessions, supply chain disruptions, geopolitical pressures and instability, and fluctuations in foreign exchange rates. This uncertain macroeconomic environment has resulted in volatility in credit, equity and foreign currency markets and has led some of our customers to postpone their decision making, delay their drawdowns under non-cancellable commitments, decrease their spending and/or delay their payments to us. Such caution by customers has, among other things, limited our ability to maintain or increase our sales or recognize revenue from committed contracts."
+    },
+    {
+      "block_idx": 541,
+      "char_end": 2608,
+      "char_start": 2081,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "If these macroeconomic uncertainties persist or if economic conditions deteriorate, then the global economy, including the semiconductor and electronics industries that are the core customers for our Design Automation and Design IP segments, could see their growth slow or fail to grow at all. Additionally, uncertain macroeconomic conditions could also have the effect of increasing other risks and uncertainties facing our business, which could have a material adverse effect on our operating results and financial condition."
+    },
+    {
+      "block_idx": 542,
+      "char_end": 3435,
+      "char_start": 2610,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Adverse economic conditions affect demand for devices that our products help create, such as the ICs incorporated in personal computers, smartphones, automobiles, servers and more. Longer-term reduced demand for these or other products could result in reduced demand for design solutions and significant decreases in our average selling prices and product sales over time. In addition, if our customers or distributors build elevated inventory levels, we could experience a decrease in demand for our products. If any of these events or disruptions were to occur, the demand for our products and services could be adversely affected along with our business, operating results and financial condition. Additionally, due to our business model, the negative impact of these events or disruptions may not be immediately realized."
+    },
+    {
+      "block_idx": 543,
+      "char_end": 4223,
+      "char_start": 3437,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "Further economic uncertainty could also adversely affect the banking and financial services industry and result in bank failures or credit downgrades of the banks we rely on for foreign currency forward contracts, credit and banking transactions, and deposit services, or cause them to default on their obligations. A deterioration of conditions in worldwide credit markets could limit our ability to obtain external financing to fund our operations, capital expenditures or pending acquisitions. In addition, difficult economic conditions may also result in a higher rate of losses on our accounts receivable due to credit defaults. Any of the foregoing could cause adverse effects on our business, operating results and financial condition, and could cause our stock price to decline."
+    },
+    {
+      "block_idx": 544,
+      "char_end": 4318,
+      "char_start": 4225,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "The growth of our business depends primarily on the semiconductor and electronics industries."
+    },
+    {
+      "block_idx": 545,
+      "char_end": 5573,
+      "char_start": 4320,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "The growth of the EDA industry as a whole and our sales in our Design Automation and Design IP segments are primarily dependent on the semiconductor and electronics industries. A substantial portion of our business and revenue depends upon the commencement of new design projects by semiconductor manufacturers, systems companies and their customers. The increasing complexity of designs of SoCs, ICs, electronic systems and customers' concerns about managing costs have previously led to, and in the future could lead to, a decrease in design starts and design activity in general. If growth in the semiconductor and electronics industries or certain sectors within these industries slows or stalls, including, among other things, due to the factors creating an uncertain macroeconomic environment as discussed above, then demand for our products and services could decrease and our business, operating results and financial condition could be adversely affected. For example, while we have seen continued strength in the artificial intelligence and high-performance computing sectors, certain industries such as industrial, automotive and consumer electronics have experienced more modest growth, which has affected our business and operating results."
+    },
+    {
+      "block_idx": 548,
+      "char_end": 6777,
+      "char_start": 5575,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Furthermore, the semiconductor and electronics industries have become increasingly complex and interconnected ecosystems. Many of our customers outsource the manufacturing of their semiconductor designs to foundries. Our customers also frequently incorporate third-party IP, whether provided by us or other vendors, into their designs to improve the efficiency of their design process. We work closely with major foundries to ensure that our EDA, IP and manufacturing solutions are compatible with their manufacturing processes. Similarly, we work closely with other major providers of semiconductor IP, particularly microprocessor IP, to optimize our EDA tools for use with their IP designs and to ensure that their IP and our own IP products work effectively together, as we may each provide for the design of separate components on the same chip. If we fail to optimize our EDA and IP solutions for use with major foundries' manufacturing processes or major IP providers' products, or if our access to such foundry processes or third-party IP products is hampered, then our solutions may become less desirable to our customers, resulting in an adverse effect on our business and financial condition."
+    },
+    {
+      "block_idx": 549,
+      "char_end": 6981,
+      "char_start": 6779,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "We operate in highly competitive industries, and if we do not continue to meet our customers' demand for innovative technology at lower costs, our products may not be competitive or may become obsolete."
+    },
+    {
+      "block_idx": 550,
+      "char_end": 7717,
+      "char_start": 6983,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "In our Design Automation segment, we compete against a variety of different EDA vendors, including publicly-traded companies that offer a variety of products and services as well as other EDA vendors, including new entrants to the market, that offer products focused on one or more discrete phases of the IC design process. Moreover, some of our customers internally develop design tools and capabilities that compete with our products. For our Ansys S&A software solutions, our competitors include publicly-traded companies, small geographically-focused firms, startups, and solutions produced in-house by end users. In our Design IP segment, we compete against silicon IP providers as well as our customers' internally developed IP."
+    },
+    {
+      "block_idx": 551,
+      "char_end": 8310,
+      "char_start": 7719,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "The industries in which we operate are highly competitive, with new competitors entering these markets both domestically and internationally. For example, China has implemented national policies favoring Chinese companies and has formed government-backed investment funds as it seeks to build independent EDA capabilities and compete internationally in the semiconductor industry. The demand for our products and services is dynamic and depends on a number of factors, including, among other things, demand for our customers' products, design starts and our customers' budgetary constraints."
+    },
+    {
+      "block_idx": 552,
+      "char_end": 9749,
+      "char_start": 8312,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Technology in these industries evolves rapidly and is characterized by frequent product introductions and improvements as well as changes in industry standards and customer requirements. The adoption of AI technologies has brought new demands and also challenges in terms of disruption to both our business models and existing technology offerings. For example, in response to recent market trends and the underperformance of our Design IP segment, we are in the process of reallocating resources in our IP business to certain higher growth opportunities. Our efforts in reallocating these resources and developing these new technology solutions may not succeed or generate expected returns, which may result in an adverse impact on our business and financial results. Additionally, semiconductor device functionality requirements continually increase while feature widths decrease, which substantially increases the complexity, cost and risk of chip design and manufacturing. At the same time, our customers and potential customers continue to demand a lower total cost of design, which can lead to the consolidation of their purchases from one vendor or displacement of their purchases by internal development. In order to succeed in this environment, we must successfully meet our customers' technology requirements and increase the value of our products, while also striving to reduce their overall costs and our own operating costs."
+    },
+    {
+      "block_idx": 553,
+      "char_end": 10028,
+      "char_start": 9751,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "We compete principally on the basis of technology, product quality and features, license or usage terms, post-contract customer support, interoperability among products, and price and payment terms. Specifically, we believe the following competitive factors affect our success:"
+    },
+    {
+      "block_idx": 554,
+      "char_end": 10256,
+      "char_start": 10030,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "\u2022Our ability to anticipate and lead critical development cycles and technological shifts, innovate rapidly and efficiently, improve our existing software and hardware products, and successfully develop or acquire new products;"
+    },
+    {
+      "block_idx": 555,
+      "char_end": 10416,
+      "char_start": 10258,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "\u2022Our ability to offer products that provide both a high level of integration into a comprehensive platform and a high level of individual product performance;"
+    },
+    {
+      "block_idx": 556,
+      "char_end": 10498,
+      "char_start": 10418,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "\u2022Our ability to enhance the value of our offerings through more favorable terms;"
+    },
+    {
+      "block_idx": 558,
+      "char_end": 10589,
+      "char_start": 10500,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "\u2022Our ability to manage an efficient supply chain to ensure hardware product availability;"
+    },
+    {
+      "block_idx": 559,
+      "char_end": 10649,
+      "char_start": 10591,
+      "is_heading": true,
+      "ordinal": 20,
+      "text": "\u2022Our ability to compete on the basis of payment terms; and"
+    },
+    {
+      "block_idx": 560,
+      "char_end": 10726,
+      "char_start": 10651,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "\u2022Our ability to provide engineering and design consulting for our products."
+    },
+    {
+      "block_idx": 561,
+      "char_end": 11025,
+      "char_start": 10728,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "If we fail to successfully manage any of these competitive factors, fail to successfully balance the conflicting demands for innovative technology and lower overall costs, or fail to address new competitive forces, our business, operating results and financial condition may be adversely affected."
+    },
+    {
+      "block_idx": 562,
+      "char_end": 11251,
+      "char_start": 11027,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "We are subject to governmental export and import requirements that could subject us to liability and restrict our ability to sell our products and services, which could impair our ability to compete in international markets."
+    },
+    {
+      "block_idx": 563,
+      "char_end": 11907,
+      "char_start": 11253,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "We are subject to export controls, laws and regulations that restrict selling, shipping or transmitting certain of our products and services and transferring certain of our technology outside the United States. We are also subject to certain requirements for enhanced denied party screening processes, which have led to, and in the future may continue to lead to, elongated transaction cycles with certain customers. These requirements also restrict domestic release of software and technology to certain foreign nationals. In addition, we are subject to customs and other import requirements that regulate imports that may be important for our business."
+    },
+    {
+      "block_idx": 564,
+      "char_end": 12601,
+      "char_start": 11909,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Any failure to comply with the U.S. Export Regulations or other U.S. or non-U.S. export, sanctions, or similar trade requirements (collectively, the Trade Restrictions) could subject us to substantial civil and criminal penalties, including fines and the possible loss of the ability to engage in exporting and other international transactions. Due to the nature of our business and technology, governmental agencies from time to time review certain transactions for compliance with applicable Trade Restrictions. For example, we have received administrative subpoenas from the BIS requesting production of information and documentation relating to transactions with certain Chinese entities."
+    },
+    {
+      "block_idx": 565,
+      "char_end": 14023,
+      "char_start": 12603,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "The Trade Restrictions have evolved significantly and may continue to evolve in ways that may adversely impact our business or the business of our customers. In particular, the United States has published significant changes to Trade Restrictions and we anticipate additional changes to Trade Restrictions in the future. For example, the United States government has implemented controls on advanced computing ICs, computer commodities that contain such ICs, and certain semiconductor manufacturing items, as well as controls on transactions involving items for supercomputer and semiconductor manufacturing end-users. These controls expand the scope of foreign-produced items subject to license requirements for certain entities on the Entity List maintained by the BIS. Future changes to the Trade Restrictions, including changes in the enforcement and scope of such regulations, or the implementation of new or expanded license requirements, may create delays in the introduction of our products or services in international markets or could prevent our customers with international operations from deploying our products or services globally. In some cases, such changes also could prevent the export or import of our products to certain destinations or persons. Trade Restrictions also may encourage customers or other parties to substitute or develop alternative products that are not subject to such restrictions."
+    },
+    {
+      "block_idx": 566,
+      "char_end": 14225,
+      "char_start": 14025,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Consolidation among our customers and within the industries in which we operate, as well as our dependence on a relatively small number of large customers, may negatively impact our operating results."
+    },
+    {
+      "block_idx": 567,
+      "char_end": 15590,
+      "char_start": 14227,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "A number of business combinations and strategic partnerships among our customers have occurred over the last several years, and more could occur in the future. Consolidation among our customers could lead to fewer customers or the loss of customers, increased customer bargaining power or reduced customer spending on products and services. Further, we depend on a relatively small number of large customers for a large portion of our revenues. For example, challenges with a major foundry customer negatively impacted our financial results for fiscal year 2025. Consolidation among our customers, particularly our large customers, could also reduce demand for our products and services if customers streamline research and development or operations, or reduce or delay purchasing decisions. Our customers operate in highly competitive industries due to, among other factors, continued pressure from current and new competitors and technological change in their industries. Failure by our customers to successfully manage these competitive factors could adversely affect their business, operating results and financial condition, which could result in reduced spending on our products or services. Reduced customer spending or the loss of customers, particularly our large customers, could adversely affect our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 568,
+      "char_end": 16137,
+      "char_start": 15592,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "In addition, we and our competitors may acquire businesses and technologies to complement and expand our respective product offerings. Consolidated competitors could have considerable financial resources and channel influence as well as broad geographic reach, which may enable them to be more competitive in, among other things, product differentiation, breadth of technology portfolio, pricing, marketing, services or support. Such consolidations or acquisitions could negatively impact our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 571,
+      "char_end": 16164,
+      "char_start": 16139,
+      "is_heading": true,
+      "ordinal": 30,
+      "text": "Business Operations Risks"
+    },
+    {
+      "block_idx": 572,
+      "char_end": 16259,
+      "char_start": 16166,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "The global nature of our operations exposes us to increased risks and compliance obligations."
+    },
+    {
+      "block_idx": 573,
+      "char_end": 16841,
+      "char_start": 16261,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "We derive roughly half of our revenue from sales outside the United States, and we expect our orders and revenue to continue to depend on sales to customers outside the U.S. We have also continually expanded our non-U.S. operations. This strategy requires us to recruit and retain qualified technical and managerial employees, manage multiple remote locations performing complex software development projects, and ensure intellectual property protection outside of the U.S. Our international operations and sales subject us to a number of increased risks, including, among others:"
+    },
+    {
+      "block_idx": 574,
+      "char_end": 16911,
+      "char_start": 16843,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "\u2022Economic slowdowns, recessions or uncertainty in financial markets;"
+    },
+    {
+      "block_idx": 575,
+      "char_end": 17038,
+      "char_start": 16913,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "\u2022Uncertain economic, legal and political conditions in China, Europe, the Middle East and other regions where we do business;"
+    },
+    {
+      "block_idx": 576,
+      "char_end": 17195,
+      "char_start": 17040,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "\u2022Government trade restrictions, including tariffs, export controls, economic sanctions or other trade barriers, and changes to existing trade arrangements;"
+    },
+    {
+      "block_idx": 577,
+      "char_end": 17269,
+      "char_start": 17197,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "\u2022Ineffective or weaker legal protection of intellectual property rights;"
+    },
+    {
+      "block_idx": 578,
+      "char_end": 17468,
+      "char_start": 17271,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "\u2022Difficulties in adapting to cultural differences in the conduct of business, which may include business practices prohibited by the Foreign Corrupt Practices Act or other anti-corruption laws; and"
+    },
+    {
+      "block_idx": 579,
+      "char_end": 17602,
+      "char_start": 17470,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "\u2022Financial risks such as longer payment cycles, changes in currency exchange rates and difficulty in collecting accounts receivable."
+    },
+    {
+      "block_idx": 580,
+      "char_end": 19259,
+      "char_start": 17604,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "Furthermore, if any of the foreign economies in which we do business deteriorate or if we fail to effectively manage our global operations, our business and operating results will be harmed. There is inherent risk, based on the complex relationships between certain Asian countries such as China and the United States, that political, diplomatic or military events could result in trade disruptions, including tariffs, trade embargoes, export restrictions and other trade barriers. A significant trade disruption, export restriction, or the establishment or increase of any trade barrier in any area where we do business could reduce customer demand and cause customers to search for substitute products and services, make our products and services more expensive or unavailable for customers, increase the cost of our products and services, have a negative impact on customer confidence and spending, make our products less competitive, or otherwise have an adverse impact on our backlog, future revenue and profits and our customers' and suppliers' business, operating results and financial condition. For example and as described above, the ongoing geopolitical and economic uncertainty between the U.S. and China, the unknown impact of current and future U.S. and Chinese trade regulations, including tariffs, and other geopolitical risks with respect to China and Taiwan may cause disruptions in the markets and industries we serve and our supply chain, decreased demand from customers for products using our solutions or other disruptions, which could, directly or indirectly, materially harm our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 581,
+      "char_end": 20161,
+      "char_start": 19261,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "In response to the U.S. imposing tariffs and trade barriers or taking other actions, other countries, such as China, have in the past and may in the future impose tariffs and trade barriers that could limit our ability to offer our products and services in such jurisdictions. Current and potential customers who are concerned or affected by such tariffs or restrictions may respond by developing their own products or replacing our solutions, including seeking alternatives from foreign competitors or open-source solutions not subject to these restrictions, which would have an adverse effect on our business. In addition, government or customer efforts, attitudes, laws or policies regarding technology independence may lead to non-U.S. customers favoring their domestic technology solutions that could compete with or replace our products, which would also have an adverse effect on our business."
+    },
+    {
+      "block_idx": 582,
+      "char_end": 21707,
+      "char_start": 20163,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Our global operations are subject to numerous U.S. and foreign laws and regulations such as those related to anti-corruption, tax, corporate governance, imports and exports, government contracts, economic sanctions, financial and other disclosures, privacy and labor relations. These laws and regulations are complex and may have differing or conflicting legal standards, making compliance difficult and costly. For example, we contract with governmental entities and customers operating in heavily regulated industries, which subjects us to complex and evolving contractual and regulatory requirements, including broad audit and investigation rights and routine compliance audits. In addition, there is uncertainty regarding how proposed, contemplated or future changes to these complex laws and regulations could affect our business. We may incur substantial expense in complying with the new obligations to be imposed by these laws and regulations, and we may be required to make significant changes in our business operations, all of which may adversely affect our revenues and our business overall. Any violation of these laws, regulations and requirements could subject us to, among other things, investigations, fines, enforcement actions, disgorgement of profits, damages, civil and criminal penalties, or injunctions, and may result in our inability to conduct business in one or more countries. Furthermore, any violation individually or in the aggregate could have a material adverse effect on our operations and financial condition."
+    },
+    {
+      "block_idx": 585,
+      "char_end": 22337,
+      "char_start": 21709,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Our Ansys business distributes its products through a global network of independent channel partners. Difficulties in ongoing relationships with channel partners, such as failure to meet performance criteria, differences in handling customer relationships or the loss of a major channel partner, could adversely affect the performance of our Ansys business. Channel partners may also result in additional compliance burdens for us and any failure by them to comply with various U.S. and foreign laws could subject us to, among other things, investigations, fines, enforcement actions, civil or criminal penalties or injunctions."
+    },
+    {
+      "block_idx": 587,
+      "char_end": 23163,
+      "char_start": 22339,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Our financial results are also affected by fluctuations in foreign currency exchange rates. A weakening U.S. dollar relative to other currencies increases expenses of our foreign subsidiaries when they are translated into U.S. dollars in our consolidated statements of income. Likewise, a strengthening U.S. dollar relative to other currencies, including the renminbi or Yen, reduces revenue of our foreign subsidiaries upon translation and consolidation. Exchange rates are subject to significant and rapid fluctuations due to a number of factors, including interest rate changes and political and economic uncertainty. Therefore, we cannot predict the prospective impact of exchange rate fluctuations. We may be unable to hedge all of our foreign currency risk, which could have a negative impact on our operating results."
+    },
+    {
+      "block_idx": 588,
+      "char_end": 23259,
+      "char_start": 23165,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Our operating results may fluctuate in the future, which may adversely affect our stock price."
+    },
+    {
+      "block_idx": 589,
+      "char_end": 23496,
+      "char_start": 23261,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "Our operating results are subject to quarterly and annual fluctuations, which may adversely affect our stock price. Our historical results should not be viewed as indicative of our future performance due to these periodic fluctuations."
+    },
+    {
+      "block_idx": 590,
+      "char_end": 23633,
+      "char_start": 23498,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Many factors have in the past and may in the future cause our backlog, revenue or earnings to fluctuate, including, among other things:"
+    },
+    {
+      "block_idx": 591,
+      "char_end": 23942,
+      "char_start": 23635,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "\u2022Changes in demand for our products and services-especially products, such as hardware and IP, generating upfront revenue-due to fluctuations in demand for our customers' products and due to constraints in our customers' budgets for research and development as well as EDA, IP and S&A products and services;"
+    },
+    {
+      "block_idx": 592,
+      "char_end": 24026,
+      "char_start": 23944,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "\u2022Product competition in the semiconductor, electronics or S&A-targeted industries;"
+    },
+    {
+      "block_idx": 593,
+      "char_end": 24219,
+      "char_start": 24028,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "\u2022Our ability to innovate and introduce new products and services or effectively reallocate resources across our businesses to target the highest growth opportunities and meet customer demand;"
+    },
+    {
+      "block_idx": 594,
+      "char_end": 24424,
+      "char_start": 24221,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "\u2022Failures or delays in completing sales due to our lengthy sales cycle, which often includes a substantial customer evaluation and approval process because of the complexity of our products and services;"
+    },
+    {
+      "block_idx": 595,
+      "char_end": 24566,
+      "char_start": 24426,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "\u2022Our ability to implement effective cost control measures and business transformation initiatives, including those related to our workforce;"
+    },
+    {
+      "block_idx": 596,
+      "char_end": 24741,
+      "char_start": 24568,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "\u2022Our dependence on a relatively small number of large customers for a large portion of our revenue, and the impact of timing requirements and the value of contract renewals;"
+    },
+    {
+      "block_idx": 597,
+      "char_end": 24833,
+      "char_start": 24743,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "\u2022Such key customers continuing to renew licenses and purchase additional products from us;"
+    },
+    {
+      "block_idx": 598,
+      "char_end": 24966,
+      "char_start": 24835,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "\u2022Changes to the amount, composition and valuation of, and any impairments to or write-offs of, our assets or strategic investments;"
+    },
+    {
+      "block_idx": 599,
+      "char_end": 25133,
+      "char_start": 24968,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "\u2022Changes in the mix of our products sold, as increased sales of our products with lower gross margins, such as our hardware products, may reduce our overall margins;"
+    },
+    {
+      "block_idx": 600,
+      "char_end": 25217,
+      "char_start": 25135,
+      "is_heading": true,
+      "ordinal": 56,
+      "text": "\u2022Variability in the timing of IP drawdowns, which can be difficult to predict; and"
+    },
+    {
+      "block_idx": 601,
+      "char_end": 25348,
+      "char_start": 25219,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "\u2022Expenses related to our acquisition and integration of businesses and technologies, including those related to the Ansys Merger."
+    },
+    {
+      "block_idx": 602,
+      "char_end": 25505,
+      "char_start": 25350,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "The timing of revenue recognition may also cause our revenue and earnings to fluctuate. The timing of revenue recognition is affected by factors including:"
+    },
+    {
+      "block_idx": 604,
+      "char_end": 25629,
+      "char_start": 25507,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "\u2022Cancellations or changes in levels of orders or the mix between upfront products revenue and time-based products revenue;"
+    },
+    {
+      "block_idx": 605,
+      "char_end": 25759,
+      "char_start": 25631,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "\u2022Delay of one or more orders for a particular period, particularly orders generating upfront products revenue, such as hardware;"
+    },
+    {
+      "block_idx": 606,
+      "char_end": 25939,
+      "char_start": 25761,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "\u2022Delay in the completion of professional services projects that require significant modification or customization and are accounted for using the percentage of completion method;"
+    },
+    {
+      "block_idx": 607,
+      "char_end": 26058,
+      "char_start": 25941,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "\u2022Delay in the completion and delivery of IP products in development as to which customers have paid for early access;"
+    },
+    {
+      "block_idx": 608,
+      "char_end": 26163,
+      "char_start": 26060,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "\u2022Customer contract amendments or renewals that provide discounts or defer revenue to later periods; and"
+    },
+    {
+      "block_idx": 609,
+      "char_end": 26358,
+      "char_start": 26165,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "\u2022The levels of our hardware and IP revenues, which are generally recognized upfront and are primarily dependent upon our ability to provide the latest technology and meet customer requirements."
+    },
+    {
+      "block_idx": 610,
+      "char_end": 26741,
+      "char_start": 26360,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "These factors, or any other factors or risks discussed herein, could negatively impact our backlog, revenue or earnings and cause our stock price to decline. Additionally, our results may fail to meet or exceed the expectations of securities analysts and investors, or such analysts may change their recommendation regarding our stock, which could cause our stock price to decline."
+    },
+    {
+      "block_idx": 611,
+      "char_end": 27267,
+      "char_start": 26743,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Our stock price has been, and may continue to be, volatile, which may make it more difficult for our stockholders to sell their shares at a time or a price that is favorable to them. Such volatility has attracted, and may in the future attract, securities litigation and activist stockholders seeking to influence our company. Responding to such activities may be costly, time-consuming and could divert management's attention, further contributing to volatility in our stock price and adversely impacting stockholder value."
+    },
+    {
+      "block_idx": 612,
+      "char_end": 27456,
+      "char_start": 27269,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "We may not realize the potential financial or strategic benefits of the transactions we complete, including the Ansys Merger, or find suitable target businesses and technology to acquire."
+    },
+    {
+      "block_idx": 613,
+      "char_end": 28162,
+      "char_start": 27458,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Acquisitions and strategic investments are an important part of our growth strategy. We have completed a significant number of acquisitions in recent years, including the Ansys Merger, which was completed in July 2025. We expect to make additional acquisitions and strategic investments in the future, but we may not find suitable acquisition or investment targets, or we may not be able to consummate desired acquisitions or investments due to, among other things, financial constraints, unfavorable credit markets, commercially unacceptable terms, failure to obtain regulatory approvals, competitive bid dynamics, outbound investment restrictions or other risks, which could harm our operating results."
+    },
+    {
+      "block_idx": 614,
+      "char_end": 28342,
+      "char_start": 28164,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Any acquisitions and strategic investments we may undertake, including the Ansys Merger, are difficult, time-consuming, and pose a number of risks, including, but not limited to:"
+    },
+    {
+      "block_idx": 615,
+      "char_end": 28473,
+      "char_start": 28344,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "\u2022Potential negative impact on our net income resulting from acquisition or investment-related costs or on our earnings per share;"
+    },
+    {
+      "block_idx": 616,
+      "char_end": 28634,
+      "char_start": 28475,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "\u2022Failure of acquired products to achieve projected sales or problems in integrating the acquired products with our products or in creating new joint solutions;"
+    },
+    {
+      "block_idx": 617,
+      "char_end": 28749,
+      "char_start": 28636,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "\u2022Difficulties entering into new markets in which we are inexperienced or our competitors have stronger positions;"
+    },
+    {
+      "block_idx": 618,
+      "char_end": 28953,
+      "char_start": 28751,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "\u2022Potential downward pressure on operating margins due to lower operating margins of acquired businesses, increased headcount costs, and other expenses associated with adding and supporting new products;"
+    },
+    {
+      "block_idx": 619,
+      "char_end": 29012,
+      "char_start": 28955,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "\u2022Difficulties in retaining and integrating key employees;"
+    },
+    {
+      "block_idx": 620,
+      "char_end": 29146,
+      "char_start": 29014,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "\u2022Substantial reductions of our cash resources and/or the incurrence of debt, which may be at higher than anticipated interest rates;"
+    },
+    {
+      "block_idx": 621,
+      "char_end": 29249,
+      "char_start": 29148,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "\u2022Failure to realize expected synergies or cost savings, including within the anticipated time frames;"
+    },
+    {
+      "block_idx": 622,
+      "char_end": 29406,
+      "char_start": 29251,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "\u2022Difficulties in integrating or expanding sales, marketing and distribution functions and administrative systems, including IT and human resources systems;"
+    },
+    {
+      "block_idx": 623,
+      "char_end": 29522,
+      "char_start": 29408,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "\u2022Dilution of our current stockholders through the issuance of common stock as a part of transaction consideration;"
+    },
+    {
+      "block_idx": 624,
+      "char_end": 29611,
+      "char_start": 29524,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "\u2022Difficulties in negotiating, governing and realizing value from strategic investments;"
+    },
+    {
+      "block_idx": 626,
+      "char_end": 29772,
+      "char_start": 29613,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "\u2022Assumption of unknown liabilities, including tax, litigation, cybersecurity and commercial-related risks, and the related expenses and diversion of resources;"
+    },
+    {
+      "block_idx": 627,
+      "char_end": 29888,
+      "char_start": 29774,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "\u2022Incurrence of costs and use of additional resources to remedy issues identified prior to or after an acquisition;"
+    },
+    {
+      "block_idx": 628,
+      "char_end": 30086,
+      "char_start": 29890,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "\u2022Disruption of ongoing business operations, including diversion of management's attention and uncertainty for employees and customers, particularly during the post-acquisition integration process;"
+    },
+    {
+      "block_idx": 629,
+      "char_end": 30206,
+      "char_start": 30088,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "\u2022Potential negative impacts on our relationships with customers, distributors, business partners and channel partners;"
+    },
+    {
+      "block_idx": 630,
+      "char_end": 30381,
+      "char_start": 30208,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "\u2022Exposure to new operational risks, regulations and business customs to the extent acquired businesses are located in regions where we are not currently conducting business;"
+    },
+    {
+      "block_idx": 631,
+      "char_end": 30621,
+      "char_start": 30383,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "\u2022The need to implement controls, processes and policies appropriate for a public company at acquired companies that may have previously lacked such controls, processes and policies in areas such as cybersecurity, IT, privacy and more; and"
+    },
+    {
+      "block_idx": 632,
+      "char_end": 30825,
+      "char_start": 30623,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "\u2022Requirements imposed by government regulators in connection with their review of an acquisition, including required divestitures or restrictions on the conduct of our business or the acquired business."
+    },
+    {
+      "block_idx": 633,
+      "char_end": 31052,
+      "char_start": 30827,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Furthermore, the anticipated benefits we expect from the Ansys Merger are based on projections and assumptions about our combined business with Ansys, which may not materialize as expected or which may prove to be inaccurate."
+    },
+    {
+      "block_idx": 634,
+      "char_end": 31620,
+      "char_start": 31054,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "In the case of the Ansys Merger, the foregoing risks may be magnified due to the scale of the merger. In addition, current and future changes to the U.S. and foreign regulatory approval processes and requirements related to acquisitions or divestitures may cause approvals to take longer than anticipated, not be forthcoming or contain burdensome conditions, which may prevent our planned transactions or jeopardize, delay or reduce the anticipated benefits of such transactions and impede the integration of such acquisitions and execution of our business strategy."
+    },
+    {
+      "block_idx": 635,
+      "char_end": 32797,
+      "char_start": 31622,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "We have also divested and may in the future divest certain product lines or technologies that no longer fit our long-term strategies, including, for example, the divestiture of our Processor IP business in June 2026. Divestitures may adversely impact our business, operating results and financial condition if we are unable to achieve the anticipated benefits or cost savings from such divestitures, or if we are unable to offset impacts from the loss of revenue associated with the divested product lines or technologies. Additionally, if we sell or otherwise dispose of certain product lines or assets, we may be unable to do so on satisfactory terms within our anticipated timeframe or at all. Further, whether such divestitures are ultimately consummated or not, their pendency could have a number of negative effects on our current business, including disrupting our regular operations, diverting the attention of our workforce and management team and increasing undesired workforce turnover. It could also disrupt existing business relationships, make it harder to develop new business relationships, or otherwise negatively impact the way that we operate our business."
+    },
+    {
+      "block_idx": 636,
+      "char_end": 32986,
+      "char_start": 32799,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "If we do not manage the foregoing risks, the transactions that we complete or are unable to complete may have an adverse effect on our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 637,
+      "char_end": 33156,
+      "char_start": 32988,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "Cybersecurity threats or other security breaches could compromise sensitive information belonging to us or our customers and could harm our business and our reputation."
+    },
+    {
+      "block_idx": 638,
+      "char_end": 34572,
+      "char_start": 33158,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "We store sensitive data, including intellectual property, our proprietary business information and that of our customers, and personal information, in our data centers, on our networks or on the cloud. In addition, our operations depend upon our information technology (IT) systems. We maintain a variety of information security policies, procedures, and controls to protect our business and proprietary information, prevent data loss and other security breaches and incidents, keep our IT systems operational and reduce the impact of a security breach or incident, but these security measures cannot provide and have not provided absolute security. In the normal course of business, our systems are and have been the target of malicious cyberattack attempts and have been and may be subject to compromise due to employee error, malfeasance or other disruptions that have and could result in unauthorized disclosure or loss of sensitive information. To date, we have not identified material cyber security incidents or incurred any material expenses with any incidents. However, any breach or compromise could adversely impact our business and operations, expose us or our customers to litigation, investigations, loss of data, increase costs, or result in loss of customer confidence and damage to our reputation, any of which could adversely affect our business and our ability to sell our products and services."
+    },
+    {
+      "block_idx": 641,
+      "char_end": 36367,
+      "char_start": 34574,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "Industry incidences of cyberattacks and other cybersecurity breaches have increased and are likely to continue to increase, and we have had and may in the future experience incidents involving third-party software solutions and third-party vendors. We are using an increasing number of third-party software solutions, including cloud-based solutions, which increase potential threat vectors, such as by exploitation of misconfigurations or vulnerabilities. We also use third-party vendors that provide software or hardware, have access to our network, and/or store sensitive data, and these third parties are subject to their own cybersecurity threats. Our standard vendor terms and conditions include provisions requiring the use of appropriate security measures to prevent unauthorized use or disclosure of our data, as well as other safeguards. Despite these measures, there is no guarantee that a compromise of our third-party vendors will not occur and in turn result in a compromise of our own IT systems or data. In addition, if we select a vendor that uses cloud storage as part of their service or product offerings, or if we are selected as a vendor for our cloud-based solutions, our proprietary information could be misappropriated by third parties despite our attempts to validate the security of such services. Many of our employees work remotely, which magnifies the importance of maintaining the integrity of our remote access security measures. We also periodically acquire new businesses with less mature security programs, and it takes significant time, effort and expense to align security practices to meet our information security policies, procedures and controls. During this time, we may also experience increased incidences of cyberattacks or other security breaches."
+    },
+    {
+      "block_idx": 642,
+      "char_end": 37476,
+      "char_start": 36369,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "The techniques used to obtain unauthorized access to networks or to sabotage systems of companies such as ours change frequently, increasingly leverage technologies such as AI, and generally are not recognized until launched against a target. We may be unable to anticipate these emerging techniques, react in a timely manner, or implement adequate preventative measures, or we may not have sufficient logging available to fully investigate the incident. Our security measures vary in maturity across the business and may be and have been circumvented. For example, we have identified instances where employees have used non-approved applications for business purposes, some of which do not meet our security standards. In addition, we have discovered unauthorized third-party access to our and our customers' proprietary information in various incidents by cybercriminals suspected of being financially motivated and/or state-sponsored actors. We believe these incidents are contained, and where appropriate, we have informed affected customers, federal law enforcement, and applicable regulatory agencies."
+    },
+    {
+      "block_idx": 643,
+      "char_end": 37865,
+      "char_start": 37478,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "Any security breach of our own or a third-party vendor's systems could cause us to be non-compliant with applicable laws or regulations, subject us to legal claims or proceedings, disrupt our operations, damage our reputation, and cause a loss of confidence in our products and services, any of which could adversely affect our business and our ability to sell our products and services."
+    },
+    {
+      "block_idx": 644,
+      "char_end": 38931,
+      "char_start": 37867,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "Our software products and hosted solutions are also targeted by hackers and may be compromised by, among other things, phishing, exploits of our code or our system configurations, malicious code such as viruses and worms, distributed denial-of-service attacks, sophisticated attacks conducted or sponsored by nation-states, advanced persistent threat intrusions, ransomware and other malware. We leverage many security best practices throughout the software development lifecycle, but our security development practices vary in maturity across the business and may not be effective against all cybersecurity threats. Furthermore, due to geopolitical incidents, including regional military conflicts, state-supported and geopolitical-related cybersecurity incidents against companies such as ours have increased. Attacks on our products could potentially disrupt the proper functioning of our software, cause errors in the output of our customers' work, allow unauthorized access to our or our customers' proprietary information or cause other destructive outcomes."
+    },
+    {
+      "block_idx": 645,
+      "char_end": 39011,
+      "char_start": 38933,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "If we fail to protect our proprietary technology, our business will be harmed."
+    },
+    {
+      "block_idx": 646,
+      "char_end": 39859,
+      "char_start": 39013,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Our success depends in part upon protecting our proprietary technology. Our efforts to protect our technology may be costly and unsuccessful. We rely on agreements with customers, employees and other third parties as well as intellectual property laws worldwide to protect our proprietary technology. These agreements may be breached, and we may not have adequate remedies for any breach. Additionally, despite our measures to prevent piracy, other parties may illegally copy or use our products, which could result in lost revenue. Some foreign countries do not currently provide effective legal protection for intellectual property and our ability to prevent the unauthorized use of our products in those countries is therefore limited. Our trade secrets may also be stolen, otherwise become known, or be independently developed by competitors."
+    },
+    {
+      "block_idx": 647,
+      "char_end": 40350,
+      "char_start": 39861,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "From time to time, we may need to commence litigation or other legal proceedings in order to assert claims of infringement of our intellectual property, defend our products from piracy, protect our trade secrets or know-how, or determine the enforceability, scope and validity of the proprietary rights of others. Intellectual property litigation is lengthy, expensive and uncertain. Legal fees related to such litigation will increase our operating expenses and may reduce our net income."
+    },
+    {
+      "block_idx": 651,
+      "char_end": 40590,
+      "char_start": 40352,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "If we do not obtain or maintain appropriate patent, copyright or trade secret protection for any reason, or cannot fully defend our intellectual property rights in certain jurisdictions, our business and operating results would be harmed."
+    },
+    {
+      "block_idx": 652,
+      "char_end": 40724,
+      "char_start": 40592,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "We may not be successful in our AI initiatives, which could adversely affect our business, operating results or financial condition."
+    },
+    {
+      "block_idx": 653,
+      "char_end": 41470,
+      "char_start": 40726,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "We have incorporated, and are continuing to develop and deploy, AI into our products and the operations of our business. While these AI initiatives can present significant benefits, the AI landscape is rapidly evolving and may create risks and challenges for our business. If we fail to develop and timely offer products with AI features, if such products fail to meet our customers' demands, if these products fail to operate as expected, or if our competitors incorporate AI into their products more quickly or more successfully than we do, we may experience brand or reputational harm and lose our competitive position, our products may become obsolete, and our business, operating results or financial condition could be adversely affected."
+    },
+    {
+      "block_idx": 654,
+      "char_end": 42463,
+      "char_start": 41472,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "While AI technology may drive future growth in the semiconductor and electronics industries as well as our business, worldwide markets for AI-enabled products may not develop in the manner or time periods we anticipate, or at all. If domestic or global economies worsen, overall spending on the development of AI-related products may decrease, which would adversely impact demand for our products in these markets. Even if the demand for AI-enabled products develops in the manner or in the time periods we anticipate, if we do not have timely, competitively priced, market-accepted products available to meet our customers' needs to develop products for the AI markets, we may miss a significant opportunity and our business, operating results and financial condition could be materially and adversely affected. In addition, because the markets for AI-related products are still emerging, demand for these products may be unpredictable and may vary significantly from one period to another."
+    },
+    {
+      "block_idx": 655,
+      "char_end": 43829,
+      "char_start": 42465,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "The technologies underlying AI and its uses are expected to be subject to new laws and regulations or new applications of existing laws and regulations, including in the areas of intellectual property, privacy, data protection and cybersecurity, among others. In addition, unfavorable developments with evolving laws and regulations affecting AI-related products may limit global adoption, impede our strategy and negatively impact our long-term expectations in this area. For example, there is significant uncertainty in the U.S. courts as to how AI technologies affect IP ownership, including copyright protections, and the use of AI-related technology in the development of our products or implementation of AI features in our products could expose us or our customers to claims of copyright infringement or misappropriation. We may not be able to anticipate how to respond to or comply with these rapidly evolving frameworks, and we may need to expend resources to adjust our offerings in certain jurisdictions if the legal frameworks are inconsistent across jurisdictions. The cost of complying with such frameworks could be significant and may increase our operating expenses. Because AI technology is highly complex and rapidly developing, it is not possible to predict all legal, operational or technological risks that may arise relating to the use of AI."
+    },
+    {
+      "block_idx": 656,
+      "char_end": 43947,
+      "char_start": 43831,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "If we fail to timely recruit and/or retain senior management and key employees globally, our business may be harmed."
+    },
+    {
+      "block_idx": 657,
+      "char_end": 44705,
+      "char_start": 43949,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "We depend in large part upon the services of our senior management team and key employees to drive our future success, and certain of these personnel depart our company from time to time, with the frequency and number of such departures varying widely. For example, we have experienced significant changes to our executive leadership team due to planned succession and other departures. The departure of key employees could result in significant disruptions to our operations, including, among other things, adversely affecting the timeliness of our product releases, the successful implementation and completion of our initiatives, the adequacy of our internal control over financial reporting, and our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 658,
+      "char_end": 45412,
+      "char_start": 44707,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "To be successful, we must also attract senior management and key employees who join us organically and through acquisitions, such as the Ansys Merger. There are a limited number of qualified engineers. Competition for these individuals and other qualified employees is intense and has increased globally, including in major markets such as Asia. Our employees are often recruited aggressively by our competitors and our customers worldwide. Any failure to recruit and/or retain senior management and key employees could harm our business, operating results and financial condition. Additionally, efforts to recruit and/or retain such employees could be costly and negatively impact our operating expenses."
+    },
+    {
+      "block_idx": 660,
+      "char_end": 45780,
+      "char_start": 45414,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "We issue equity awards from employee equity plans as a key component of our overall compensation. We face pressure to limit the use of such equity-based compensation due to dilutive effects on stockholders. If we are unable to offer attractive compensation packages in the future, it could limit our ability to attract and retain senior management and key employees."
+    },
+    {
+      "block_idx": 661,
+      "char_end": 45959,
+      "char_start": 45782,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "We may pursue new product and technology initiatives or expand into adjacent markets, and if we fail to successfully carry out these initiatives, we could be adversely impacted."
+    },
+    {
+      "block_idx": 662,
+      "char_end": 46533,
+      "char_start": 45961,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "As part of the evolution of our business, we have made substantial investments to develop new products and enhancements to existing products through our acquisitions and research and development efforts. If we are unable to anticipate technological changes in our industry by introducing new or enhanced products in a timely and cost-effective manner, or if we fail to introduce products that meet market demand, we may lose our competitive position, our products may become obsolete, and our business, operating results or financial condition could be adversely affected."
+    },
+    {
+      "block_idx": 663,
+      "char_end": 46753,
+      "char_start": 46535,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "Additionally, we have in the past and may in the future invest in efforts to expand into adjacent markets. These efforts may not be successful due to a variety of factors, including, but not limited to, our ability to:"
+    },
+    {
+      "block_idx": 664,
+      "char_end": 46842,
+      "char_start": 46755,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "\u2022Attract a new customer base, including in industries in which we have less experience;"
+    },
+    {
+      "block_idx": 665,
+      "char_end": 46931,
+      "char_start": 46844,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "\u2022Successfully develop new sales and marketing strategies to meet customer requirements;"
+    },
+    {
+      "block_idx": 666,
+      "char_end": 47031,
+      "char_start": 46933,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "\u2022Accurately predict, prepare for and promptly respond to technological developments in new fields;"
+    },
+    {
+      "block_idx": 667,
+      "char_end": 47076,
+      "char_start": 47033,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "\u2022Compete with new and existing competitors;"
+    },
+    {
+      "block_idx": 668,
+      "char_end": 47180,
+      "char_start": 47078,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "\u2022Balance our investment in adjacent markets with investment in our existing products and services; and"
+    },
+    {
+      "block_idx": 669,
+      "char_end": 47241,
+      "char_start": 47182,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "\u2022Attract and retain employees with expertise in new fields."
+    },
+    {
+      "block_idx": 670,
+      "char_end": 47533,
+      "char_start": 47243,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "Difficulties in any of our new product development efforts or our efforts to enter adjacent markets, including as a result of delays or disruptions, or export control or other trade and investment restrictions, could adversely affect our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 671,
+      "char_end": 47706,
+      "char_start": 47535,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "We may have to invest more resources in research and development than anticipated, which could increase our operating expenses and negatively affect our operating results."
+    },
+    {
+      "block_idx": 672,
+      "char_end": 49221,
+      "char_start": 47708,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "We devote substantial resources to research and development. We may be required to invest significantly greater resources than anticipated due to certain competitive factors, including, among others, the emergence of new competitors, technological advances in the semiconductor industry or by competitors, our acquisitions or our entry into new markets. If we are required to invest significantly greater resources than anticipated without a corresponding increase in revenue, our operating results could decline. If customers reduce or slow the need to upgrade or enhance their product offerings, our revenue and operating results may be adversely affected. Additionally, our periodic research and development expenses may be independent of our level of revenue, which could negatively impact our financial results. New products may not adequately address the changing needs of the marketplace. New software products may contain undetected errors, defects or vulnerabilities. The occurrence of any defects or errors in our products could result in lost or delayed market acceptance and sales of our products, delays in payment by customers, loss of customers or market share, product returns, damage to our reputation, diversion of our resources, increased service and warranty expenses or financial concessions, increased insurance costs and potential liability for damages. Finally, there can be no guarantee that our research and development investments will result in products that create additional revenue."
+    },
+    {
+      "block_idx": 673,
+      "char_end": 49333,
+      "char_start": 49223,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "Product errors or defects could expose us to liability and harm our reputation and we could lose market share."
+    },
+    {
+      "block_idx": 674,
+      "char_end": 50412,
+      "char_start": 49335,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "Software products frequently contain errors or defects, especially when first introduced, when new versions are released, or when integrated with technologies developed by acquired companies. Product errors, including those resulting from third-party suppliers, could affect the performance or interoperability of our products, could delay the development or release of new products or new versions of products and could adversely affect market acceptance or perception of our products. In addition, any allegations of manufacturability issues resulting from use of our IP products could, even if untrue, adversely affect our reputation and our customers' willingness to license IP products from us. Any such errors or delays in releasing new products or new versions of products or allegations of unsatisfactory performance could cause us to lose customers, increase our service costs, subject us to liability for damages and divert our resources from other tasks, any one of which could materially and adversely affect our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 677,
+      "char_end": 50528,
+      "char_start": 50414,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "Our hardware products, which primarily consist of prototyping and emulation systems, subject us to distinct risks."
+    },
+    {
+      "block_idx": 678,
+      "char_end": 50627,
+      "char_start": 50530,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "The growth in sales of our hardware products subjects us to risks, including, but not limited to:"
+    },
+    {
+      "block_idx": 679,
+      "char_end": 50944,
+      "char_start": 50629,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "\u2022Delays in production and delivery of our hardware products, including due to, among other things, difficulty scaling production capacity and yield to meet customer demand, or a dependence on a sole supplier for certain hardware products, which may reduce our control over product availability, quality and pricing;"
+    },
+    {
+      "block_idx": 680,
+      "char_end": 51189,
+      "char_start": 50946,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "\u2022Increasingly variable revenue and less predictable revenue forecasts, due to fluctuations in hardware revenue, which is recognized upfront upon shipment, as opposed to most sales of software products for which revenue is recognized over time;"
+    },
+    {
+      "block_idx": 681,
+      "char_end": 51400,
+      "char_start": 51191,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "\u2022Potential reductions in overall margins, as the gross margin for our hardware products, is typically lower than that of our software products and may be subject to certain trade regulation, including tariffs;"
+    },
+    {
+      "block_idx": 682,
+      "char_end": 51611,
+      "char_start": 51402,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "\u2022Longer sales cycles, which create risks of insufficient, excess or obsolete inventory and variations in inventory valuation, which can adversely affect our business, operating results and financial condition;"
+    },
+    {
+      "block_idx": 683,
+      "char_end": 51819,
+      "char_start": 51613,
+      "is_heading": false,
+      "ordinal": 129,
+      "text": "\u2022Decreases or delays in customer purchases in favor of next-generation releases or competitive products, which may lead to excess or obsolete inventory or require us to discount our older hardware products;"
+    },
+    {
+      "block_idx": 684,
+      "char_end": 51981,
+      "char_start": 51821,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "\u2022Longer warranty periods than those of our software products, which may require us to replace hardware components under warranty, thus increasing our costs; and"
+    },
+    {
+      "block_idx": 685,
+      "char_end": 52113,
+      "char_start": 51983,
+      "is_heading": false,
+      "ordinal": 131,
+      "text": "\u2022Potential impacts on our supply chain, including the factors creating an uncertain macroeconomic environment, as described above."
+    },
+    {
+      "block_idx": 686,
+      "char_end": 52232,
+      "char_start": 52115,
+      "is_heading": false,
+      "ordinal": 132,
+      "text": "If we do not manage these risks related to our hardware products, our business and operating results would be harmed."
+    },
+    {
+      "block_idx": 687,
+      "char_end": 52349,
+      "char_start": 52234,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "From time to time, we are subject to claims that our products infringe on third-party intellectual property rights."
+    },
+    {
+      "block_idx": 688,
+      "char_end": 53152,
+      "char_start": 52351,
+      "is_heading": false,
+      "ordinal": 134,
+      "text": "We are from time to time subject to claims alleging our infringement of third-party intellectual property rights, including patent rights. Under our customer agreements and other license agreements, we agree in many cases to indemnify our customers if our products are alleged to infringe on a third party's intellectual property rights. Infringement claims have in the past and could in the future result in costly and time-consuming litigation, require us to enter into royalty arrangements, subject us to damages or injunctions restricting our sale of products, invalidate a patent or family of patents, require us to refund license fees to our customers or to forgo future payments, or require us to redesign certain of our products, any one of which could harm our business and operating results."
+    },
+    {
+      "block_idx": 689,
+      "char_end": 53347,
+      "char_start": 53154,
+      "is_heading": false,
+      "ordinal": 135,
+      "text": "We may not be able to continue to obtain licenses to third-party software and intellectual property on reasonable terms or at all, which may disrupt our business and harm our financial results."
+    },
+    {
+      "block_idx": 690,
+      "char_end": 54389,
+      "char_start": 53349,
+      "is_heading": false,
+      "ordinal": 136,
+      "text": "We license third-party software and other intellectual property for use in product research and development and, in several instances, for inclusion in our products. We also license third-party software, including the software of our competitors, to test the interoperability of our products with other industry products and in connection with our professional services. These licenses may need to be renegotiated or renewed from time to time, or we may need to obtain new licenses in the future. Third parties may stop adequately supporting or maintaining their technology, or they or their technology may be acquired by our competitors. If we are unable to obtain licenses to these third-party software and intellectual property on reasonable terms or at all, we may not be able to sell the affected products, our customers' use of the products may be interrupted, or our product development processes and professional services offerings may be disrupted, which could in turn harm our financial results, our customers, and our reputation."
+    },
+    {
+      "block_idx": 692,
+      "char_end": 54760,
+      "char_start": 54391,
+      "is_heading": false,
+      "ordinal": 137,
+      "text": "The inclusion of third-party intellectual property in our products can also subject us and our customers to infringement claims. We may not be able to sufficiently limit our potential liability contractually. Regardless of outcome, infringement claims may require us to use significant resources and may divert management's attention from the operation of our business."
+    },
+    {
+      "block_idx": 693,
+      "char_end": 55301,
+      "char_start": 54762,
+      "is_heading": false,
+      "ordinal": 138,
+      "text": "Some of our products and technology, including those we acquire, have in the past and may in the future include software licensed under open source licenses. Some open source licenses could require us, under certain circumstances, to make available or grant licenses to any modifications or derivative works we create based on the open source software. The risks associated with open source usage may not be eliminated despite our best efforts and may, if not properly addressed, result in unanticipated obligations that harm our business."
+    },
+    {
+      "block_idx": 694,
+      "char_end": 55360,
+      "char_start": 55303,
+      "is_heading": false,
+      "ordinal": 139,
+      "text": "Our significant debt may limit our financial flexibility."
+    },
+    {
+      "block_idx": 695,
+      "char_end": 55556,
+      "char_start": 55362,
+      "is_heading": false,
+      "ordinal": 140,
+      "text": "We have incurred a substantial amount of debt in connection with the Ansys Merger, including the Senior Notes. Accordingly, as of July 31, 2026, we had approximately $10.0 billion of total debt."
+    },
+    {
+      "block_idx": 696,
+      "char_end": 55704,
+      "char_start": 55558,
+      "is_heading": false,
+      "ordinal": 141,
+      "text": "Our substantial indebtedness could have adverse effects on our business, operating results and financial condition, including, among other things:"
+    },
+    {
+      "block_idx": 697,
+      "char_end": 55793,
+      "char_start": 55706,
+      "is_heading": false,
+      "ordinal": 142,
+      "text": "\u2022increasing our vulnerability to changing economic, regulatory and industry conditions;"
+    },
+    {
+      "block_idx": 698,
+      "char_end": 55922,
+      "char_start": 55795,
+      "is_heading": false,
+      "ordinal": 143,
+      "text": "\u2022limiting our ability to compete and our flexibility in planning for, or reacting to, changes in our business and the industry;"
+    },
+    {
+      "block_idx": 699,
+      "char_end": 56017,
+      "char_start": 55924,
+      "is_heading": false,
+      "ordinal": 144,
+      "text": "\u2022placing us at a competitive disadvantage compared to our competitors with less indebtedness;"
+    },
+    {
+      "block_idx": 700,
+      "char_end": 56242,
+      "char_start": 56019,
+      "is_heading": false,
+      "ordinal": 145,
+      "text": "\u2022increasing our interest expense and potentially requiring us to dedicate a substantial portion of our cash flow from operations to payments on our debt, thereby reducing the availability of cash to fund our business needs;"
+    },
+    {
+      "block_idx": 701,
+      "char_end": 56361,
+      "char_start": 56244,
+      "is_heading": false,
+      "ordinal": 146,
+      "text": "\u2022limiting our ability to return equity through our stock repurchase program or pay dividends to our stockholders; and"
+    },
+    {
+      "block_idx": 702,
+      "char_end": 56512,
+      "char_start": 56363,
+      "is_heading": false,
+      "ordinal": 147,
+      "text": "\u2022limiting our ability to borrow additional funds in the future to fund growth, acquisitions, working capital, capital expenditures or other purposes."
+    },
+    {
+      "block_idx": 703,
+      "char_end": 57560,
+      "char_start": 56514,
+      "is_heading": false,
+      "ordinal": 148,
+      "text": "Our ability to make scheduled payments of the principal of, to pay interest on, or to refinance our indebtedness will depend on, among other factors, our financial position and performance as well as prevailing market conditions and other factors beyond our control. We may not continue to generate cash flow from operations in the future sufficient to service our debt and make necessary capital expenditures and meet other liquidity needs. If we are unable to generate such cash flow, we may be required to adopt one or more alternatives, such as selling assets, restructuring debt or obtaining additional equity capital or debt refinancing on terms that may be onerous. We may not be able to engage in any of these activities or engage in these activities on desirable terms, which could result in a default on our debt obligations, which, if not cured or waived, could accelerate the repayment obligations under all of our outstanding debt, which could have a material adverse effect on our business, operating results or financial condition."
+    },
+    {
+      "block_idx": 704,
+      "char_end": 58255,
+      "char_start": 57562,
+      "is_heading": false,
+      "ordinal": 149,
+      "text": "In addition, the level and quality of our earnings, operations, business and management, among other things, will impact the determination of our credit ratings by credit rating agencies. A decrease in the ratings assigned to us may negatively impact our access to the debt capital markets and increase our cost of borrowing. There can be no assurance that we will be able to obtain any future required financing on acceptable terms, if at all. In addition, there can be no assurance that we will be able to maintain the current credit worthiness or prospective credit rating of the combined company. Any actual or anticipated changes, or adverse conditions in the debt capital markets, could:"
+    },
+    {
+      "block_idx": 705,
+      "char_end": 58332,
+      "char_start": 58257,
+      "is_heading": false,
+      "ordinal": 150,
+      "text": "\u2022adversely affect the trading price of, or market for, our debt securities;"
+    },
+    {
+      "block_idx": 706,
+      "char_end": 58389,
+      "char_start": 58334,
+      "is_heading": false,
+      "ordinal": 151,
+      "text": "\u2022increase interest expense under our credit facilities;"
+    },
+    {
+      "block_idx": 707,
+      "char_end": 58483,
+      "char_start": 58391,
+      "is_heading": false,
+      "ordinal": 152,
+      "text": "\u2022increase the cost of, and adversely affect our ability to refinance, our existing debt; and"
+    },
+    {
+      "block_idx": 708,
+      "char_end": 58540,
+      "char_start": 58485,
+      "is_heading": false,
+      "ordinal": 153,
+      "text": "\u2022adversely affect our ability to raise additional debt."
+    },
+    {
+      "block_idx": 709,
+      "char_end": 58727,
+      "char_start": 58542,
+      "is_heading": false,
+      "ordinal": 154,
+      "text": "The covenants contained in the agreements governing our indebtedness may impose restrictions on us and certain of our subsidiaries that may affect our ability to operate our businesses."
+    },
+    {
+      "block_idx": 711,
+      "char_end": 59546,
+      "char_start": 58729,
+      "is_heading": false,
+      "ordinal": 155,
+      "text": "The agreements that govern our indebtedness and the indenture governing the Senior Notes each contain various affirmative and negative covenants. Such covenants, subject to certain significant exceptions, restrict our ability and the ability of certain of our subsidiaries to, among other things, engage in mergers, consolidations and acquisitions, grant liens, enter into certain sale and leaseback transactions and incur debt at subsidiaries. Our ability to comply with these provisions may be affected by events beyond our control. Failure to comply with these covenants could result in an event of default, which, if not cured or waived, could accelerate repayment obligations under all of our outstanding debt, which could have a material adverse effect on our business, operating results or financial condition."
+    },
+    {
+      "block_idx": 712,
+      "char_end": 59574,
+      "char_start": 59548,
+      "is_heading": true,
+      "ordinal": 156,
+      "text": "Legal and Regulatory Risks"
+    },
+    {
+      "block_idx": 713,
+      "char_end": 59773,
+      "char_start": 59576,
+      "is_heading": false,
+      "ordinal": 157,
+      "text": "Changes in tax laws and regulations or interpretations thereof, or any change in the application of existing laws and regulations may adversely affect our effective tax rates and financial results."
+    },
+    {
+      "block_idx": 714,
+      "char_end": 60390,
+      "char_start": 59775,
+      "is_heading": false,
+      "ordinal": 158,
+      "text": "Our operations are subject to taxation in the U.S. and in multiple foreign jurisdictions. Tax laws in these jurisdictions are subject to change as new laws or regulations are passed or new interpretations are made available. Changes in tax law, regulations or interpretation could have a material adverse impact on our tax expense and our financial position and cash flows. For additional details on developments in tax laws and regulations applicable to us, see Note 19. Income Taxes of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report under the heading \"Legislative Developments.\""
+    },
+    {
+      "block_idx": 715,
+      "char_end": 61198,
+      "char_start": 60392,
+      "is_heading": false,
+      "ordinal": 159,
+      "text": "We have a wide range of statutory tax rates in the multiple jurisdictions in which we operate. Changes in our geographical earnings mix, including those resulting from our intercompany transfer pricing or from changes in the rules governing transfer pricing, could materially impact our effective tax rate. In addition, we maintain significant deferred tax assets related to certain tax credits and capitalized research and development expenditures. Our ability to use these deferred tax assets is dependent upon having sufficient future taxable income in the relevant jurisdiction. Changes to tax laws and regulations, and changes in our forecasts of future income could result in an adjustment to the deferred tax asset and a related charge to earnings that could materially affect our financial results."
+    },
+    {
+      "block_idx": 716,
+      "char_end": 62117,
+      "char_start": 61200,
+      "is_heading": false,
+      "ordinal": 160,
+      "text": "Our income and non-income tax filings are subject to review and audit by the Internal Revenue Service and state, local and foreign taxing authorities. We exercise significant judgment in determining our worldwide provision for income taxes and, in the ordinary course of our business, there may be transactions and calculations where the ultimate tax determination is uncertain. We may also be liable for potential tax liabilities of businesses we acquire. The final determination in an audit may be materially different than the treatment reflected in our historical income tax provisions and accruals. An assessment of additional taxes could adversely affect tax expense and materially affect our financial results. For further discussion on our ongoing audits, see Note 19. Income Taxes of the Notes to Condensed Consolidated Financial Statements in this Quarterly Report under the heading \"Non-U.S. Examinations.\""
+    },
+    {
+      "block_idx": 717,
+      "char_end": 62266,
+      "char_start": 62119,
+      "is_heading": false,
+      "ordinal": 161,
+      "text": "Our business is subject to evolving corporate governance and public disclosure regulations and expectations that could expose us to numerous risks."
+    },
+    {
+      "block_idx": 718,
+      "char_end": 64539,
+      "char_start": 62268,
+      "is_heading": false,
+      "ordinal": 162,
+      "text": "We are subject to changing rules and regulations promulgated by a number of governmental and self-regulatory organizations, including, among others, the SEC, the Nasdaq Stock Market, the Financial Accounting Standards Board, other federal agencies, states and the international governing bodies such as the European Union. These rules and regulations continue to evolve in scope and complexity making compliance difficult and uncertain. Changing rules and regulations as well as customer, employee and stakeholder expectations have resulted in, and are likely to continue to result in, increased general and administrative expenses and increased management time and attention spent complying with or meeting such regulations and expectations. For example, developing and acting on evolving sustainability reporting standards, including California's climate-related disclosure laws and the European Union's Corporate Sustainability Reporting Directive, as well as customer requirements, may be costly, difficult and time consuming. We may also communicate certain initiatives and goals regarding environmental matters, human capital matters, responsible sourcing, social investments and other responsible business matters in our public disclosures. These initiatives and goals could be difficult and expensive to implement, the technologies needed to implement them may not be cost effective and may not advance at a sufficient pace, and ensuring the accuracy, adequacy, or completeness of the disclosure of our responsible initiatives can be costly, difficult and time consuming. Further, statements about our responsible business initiatives and goals, and progress against those goals, may be based on standards for measuring progress that are still developing, internal controls and processes that continue to evolve, and assumptions that are subject to change. We could also face scrutiny from certain stakeholders, regulators or authorities for the scope or nature of such initiatives or goals, or for any revisions to these goals. If our data, processes and reporting are incomplete or inaccurate, or if we fail to achieve progress with respect to these goals on a timely basis, or at all, our business, financial performance and growth could be adversely affected."
+    },
+    {
+      "block_idx": 721,
+      "char_end": 64692,
+      "char_start": 64541,
+      "is_heading": false,
+      "ordinal": 163,
+      "text": "We and our directors and officers are subject to litigation proceedings that are expensive and could divert management attention and harm our business."
+    },
+    {
+      "block_idx": 722,
+      "char_end": 65282,
+      "char_start": 64694,
+      "is_heading": false,
+      "ordinal": 164,
+      "text": "We and our directors and officers are subject to legal claims or regulatory matters involving stockholder, consumer, employment, customer, supplier, competition and other issues on a global basis. Litigation is subject to inherent uncertainties, and unfavorable rulings could occur. An unfavorable ruling could include monetary damages or, in cases for which injunctive relief is sought, an injunction prohibiting us from manufacturing or selling one or more products. If we were to receive an unfavorable ruling on a matter, our business and operating results could be materially harmed."
+    },
+    {
+      "block_idx": 723,
+      "char_end": 65775,
+      "char_start": 65284,
+      "is_heading": false,
+      "ordinal": 165,
+      "text": "For example, as previously disclosed, we and our directors and officers have been named as defendants in securities class action complaints. The stock market in general, and Nasdaq and technology companies in particular, have experienced extreme price and volume fluctuations that have often been unrelated or disproportionate to the operating performance of companies. See \"Our operating results may fluctuate in the future, which may adversely affect our stock price\" for more information."
+    },
+    {
+      "block_idx": 724,
+      "char_end": 67034,
+      "char_start": 65777,
+      "is_heading": false,
+      "ordinal": 166,
+      "text": "In addition, certain of our directors and officers may be involved in ongoing securities or other lawsuits, including in the context of their roles with other public companies, and our directors or officers may in the future become involved in such litigation. Securities litigation, including the cost to defend against, and any potential adverse outcome resulting from any such proceeding, can be expensive, time-consuming, damage our reputation and divert our management's and directors' attention from other business concerns, which could seriously harm our business. As noted above, in 2025, shareholder class action complaints were filed against Synopsys and certain of our current directors and officers and in 2025 and 2026, shareholder derivative actions were filed against certain of our current directors and officers. The complaints allege, among other matters, that certain material misstatements or omissions related to the performance of our Design IP segment were made in violation of federal securities laws. There is no guarantee that we will be successful in our efforts to defend against these complaints. Further information regarding certain of these matters is contained in Part II, Item 1, Legal Proceedings of this Quarterly Report."
+    },
+    {
+      "block_idx": 730,
+      "char_end": 67049,
+      "char_start": 67036,
+      "is_heading": true,
+      "ordinal": 167,
+      "text": "General Risks"
+    },
+    {
+      "block_idx": 731,
+      "char_end": 67199,
+      "char_start": 67051,
+      "is_heading": false,
+      "ordinal": 168,
+      "text": "Catastrophic events and the effects of climate change, pandemics or other unexpected events may disrupt our business and harm our operating results."
+    },
+    {
+      "block_idx": 732,
+      "char_end": 69053,
+      "char_start": 67201,
+      "is_heading": false,
+      "ordinal": 169,
+      "text": "Due to the global nature of our business, our operating results may be negatively impacted by catastrophic events and the effects of climate change, pandemics or other unexpected events throughout the world. We rely on a global network of infrastructure applications, enterprise applications and technology systems for our development, marketing, operational, support and sales activities. A disruption or failure of these systems in the event of a major earthquake, fire, extreme temperatures, drought, flood, telecommunications failure, cybersecurity attack, terrorist attack, epidemic or pandemic, or other catastrophic or climate change-related events could cause system interruptions, delays in our product development and loss of critical data and could prevent us from fulfilling our customers' orders. In particular, our sales and infrastructure are vulnerable to regional or worldwide health conditions, including the effects of the outbreak of contagious diseases, such as the government-imposed restrictions that curtailed global economic activity and caused substantial volatility in global financial markets during the COVID-19 pandemic. Moreover, our corporate headquarters, a significant portion of our research and development activities, our data centers, and certain other critical business operations are located in California, near major earthquake faults and sites of recent wildfires, which may become more frequent, along with other extreme weather events, due to climate change. A catastrophic event or other extreme weather event that results in the destruction or disruption of our data centers or of third-party data centers that we rely on, or of our critical business or IT systems, would severely affect our ability to conduct normal business operations and, as a result, our operating results would be adversely affected."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000883241-26-000025",
+    "cik": 883241,
+    "download_status": "ok",
+    "mdna_end_block": 515,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 52493,
+    "mdna_n_paragraphs": 95,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 16,
+    "mdna_n_words": 8039,
+    "mdna_start_block": 349,
+    "mdna_status": "extracted",
+    "n_blocks": 754,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "snps-20260731.htm",
+    "risk_end_block": 734,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 68459,
+    "risk_n_paragraphs": 163,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 10136,
+    "risk_start_block": 535,
+    "risk_status": "extracted",
+    "source_sha256": "71659dbb4385cd7354cbb7df034dad0318827e92bc68250a673fd201e5e48fa3",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/883241/000088324126000025/snps-20260731.htm"
+  }
+}

@@ -1,0 +1,2615 @@
+{
+  "mdna": [
+    {
+      "block_idx": 333,
+      "char_end": 407,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "Management's Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is intended to provide readers of our condensed consolidated financial statements with the perspectives of management. This should allow the readers of this report to obtain a comprehensive understanding of our businesses, strategies, current trends, and future prospects. Our MD&A includes the following sections:"
+    },
+    {
+      "block_idx": 334,
+      "char_end": 1035,
+      "char_start": 409,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "\u2022 Executive Overview: High-level discussion of our operating results and some of the trends that affect our business.\u2022 Critical Accounting Policies and Estimates: Significant changes since our most recent Annual Report on Form 10-K that we believe are important to understanding the assumptions and judgments underlying our financial statements.\u2022 Results of Operations: A more detailed discussion of our revenue and expenses.\u2022 Liquidity and Capital Resources: Discussion of key aspects of our condensed consolidated statements of cash flows, changes in our condensed consolidated balance sheets, and our financial commitments."
+    },
+    {
+      "block_idx": 335,
+      "char_end": 1327,
+      "char_start": 1037,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "You should note that this MD&A contains forward-looking statements that involve risks and uncertainties. Please see the section entitled \"Forward-Looking Statements\" immediately preceding Part I of this Quarterly Report for important information to consider when evaluating such statements."
+    },
+    {
+      "block_idx": 336,
+      "char_end": 1536,
+      "char_start": 1329,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "You should read this MD&A in conjunction with the financial statements and related notes in Part I, Item 1 of this Quarterly Report and our Annual Report on Form 10-K for the fiscal year ended July 31, 2024."
+    },
+    {
+      "block_idx": 337,
+      "char_end": 1930,
+      "char_start": 1538,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "In the Results of Operations section of this MD&A, where we describe two or more factors that contributed to changes in revenue and operating income, we have, where possible, quantified the impact of those factors. Where a change is the result of multiple factors that are interrelated and cannot be separately quantified, we have identified the interrelated factors without quantifying them."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 2807,
+      "char_start": 1932,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "In July 2024, our management approved, committed to, and initiated a plan of reorganization (the Plan) focused on reallocating resources to our key growth areas. The Plan included the exit of employees and the closing of real estate sites in certain markets in service to growing technology teams and capabilities in strategic locations. The actions associated with the Plan were substantially complete in the first quarter of fiscal 2025. Total restructuring costs associated with the Plan are estimated to be approximately $238 million. During the nine months ended April 30, 2025, we recorded a $14 million charge in connection with the Plan. This charge is primarily related to severance, employee benefits, and site closure costs and is recorded to restructuring in our condensed consolidated statements of operations. See Note 13, \"Restructuring,\" for more information."
+    },
+    {
+      "block_idx": 339,
+      "char_end": 3174,
+      "char_start": 2809,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "On August 1, 2024, we renamed our Small Business & Self-Employed segment as the Global Business Solutions segment. This new name better aligns with the global reach of the Mailchimp and QuickBooks platform, our focus on serving both small and mid-market businesses, and our vision to become the end-to-end platform that customers use to grow and run their business."
+    },
+    {
+      "block_idx": 340,
+      "char_end": 3988,
+      "char_start": 3176,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "On August 1, 2024, we reorganized certain technology and customer success functions in our Global Business Solutions, Consumer, and ProTax segments that support and benefit our overall platform and are managed at that level rather than at the segment level. As a result of these reorganizations, costs associated with these functions are no longer included in segment operating income and are now included in other corporate expenses. For the three and nine months ended April 30, 2024, we reclassified expenses totaling $353 million and $1.0 billion from Global Business Solutions, $327 million and $521 million from Consumer, and $10 million and $26 million from ProTax to other corporate expenses, respectively, to conform to the current presentation. See Note 12, \"Segment Information,\" for more information."
+    },
+    {
+      "block_idx": 341,
+      "char_end": 4008,
+      "char_start": 3990,
+      "is_heading": true,
+      "ordinal": 8,
+      "text": "EXECUTIVE OVERVIEW"
+    },
+    {
+      "block_idx": 342,
+      "char_end": 4440,
+      "char_start": 4010,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "This overview provides a high-level discussion of our operating results and some of the trends that affect our business. We believe that an understanding of these trends is important in order to understand our financial results, as well as our future prospects. This summary is not intended to be exhaustive, nor is it a substitute for the detailed discussion and analysis provided elsewhere in this Quarterly Report on Form 10-Q."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 4454,
+      "char_start": 4442,
+      "is_heading": true,
+      "ordinal": 10,
+      "text": "About Intuit"
+    },
+    {
+      "block_idx": 346,
+      "char_end": 4799,
+      "char_start": 4456,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "Intuit helps consumers and small and mid-market businesses prosper by delivering financial management, compliance, and marketing products and services. We also provide specialized tax products to accounting professionals. We organize our businesses into four reportable segments - Global Business Solutions, Consumer, Credit Karma, and ProTax."
+    },
+    {
+      "block_idx": 347,
+      "char_end": 6286,
+      "char_start": 4801,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "Global Business Solutions: This segment serves small and mid-market businesses around the world, and the accounting professionals who assist and advise them. Our QuickBooks offerings include financial and business management online services and desktop software, payroll solutions, time tracking, merchant payment processing and bill pay solutions, checking accounts through an FDIC member bank partner, financing for small and mid-market businesses, and bookkeeping services. Our Mailchimp offerings include marketing automation and customer relationship management.Consumer: This segment serves consumers and includes do-it-yourself and assisted TurboTax income tax preparation products and services sold in the U.S. and Canada. Credit Karma: This segment serves consumers with a personal finance platform that provides personalized recommendations of credit card, home, auto, and personal loan, and insurance products; online savings and checking accounts through an FDIC member bank partner; and access to their credit scores and reports, credit and identity monitoring, credit report dispute, credit building tools, and tools to help understand net worth and make financial progress. ProTax: This segment serves professional accountants in the U.S. and Canada, who are essential to both small business success and tax preparation and filing. Our professional tax offerings include Lacerte, ProSeries, and ProConnect Tax Online in the U.S., and ProFile and ProTax Online in Canada."
+    },
+    {
+      "block_idx": 348,
+      "char_end": 6320,
+      "char_start": 6288,
+      "is_heading": true,
+      "ordinal": 13,
+      "text": "Our Business and Growth Strategy"
+    },
+    {
+      "block_idx": 349,
+      "char_end": 7080,
+      "char_start": 6322,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "The era of artificial intelligence (AI) is one of the most significant technological shifts in decades, igniting global innovations at an incredible pace. Intuit made an early bet on AI, declaring its AI-driven expert platform strategy in 2019 to deliver on its mission of powering prosperity for consumers and small and mid-market businesses. Our strategy, combined with our five Big Bets that focus on the largest customer problems and growth opportunities, positions us for durable growth in the future. Our scale of data, our investment in AI capabilities such as knowledge engineering, machine learning, and generative AI (GenAI), and our network of AI-powered virtual experts give us significant advantage as we deliver reimagined customer experiences."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 7518,
+      "char_start": 7082,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "With the introduction of GenAI, we are transforming how we strive to serve our customers by delivering \"done for you\" experiences, where we do the hard work for them, and connecting them with AI-powered human expertise to fuel their success. We use powerful and relevant contextual data sets spanning small and mid-market businesses, consumer finance, and tax to deliver personalized financial insights to customers across our platform."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 7980,
+      "char_start": 7520,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Additionally, our investment in AI, GenAI, data, and world-class developer tools in particular, provides a foundation for us to accelerate productivity, innovate at scale, and move with speed to deliver benefits to our customers. This includes utilizing our own financial large language models (LLMs), as well as models from other leaders in GenAI, which together unlock new opportunities to serve our customers with accuracy and speed in a cost-efficient way."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 8197,
+      "char_start": 7982,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "As we execute our global AI-driven expert platform strategy, we prioritize resources on our five Big Bets across the company. These priorities focus on solving the problems that matter most to customers and include:"
+    },
+    {
+      "block_idx": 355,
+      "char_end": 8669,
+      "char_start": 8199,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "\u2022Revolutionizing speed to benefit: When customers use our products and services, we use the power of AI to deliver value instantly and aim to make interactions with our offerings frictionless, without the need for customers to manually enter data. We are accelerating the application of AI as we strive to deliver \"done for you\" experiences to our customers. This is foundational, and execution against this priority positions us to succeed with our other four Big Bets."
+    },
+    {
+      "block_idx": 356,
+      "char_end": 9229,
+      "char_start": 8671,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "\u2022Connecting people to experts: The largest problem our customers face is lack of confidence to file their own taxes or to manage their books. To build their confidence, we connect our customers to experts. We offer customers access to experts to help them make important decisions - and experts, such as accountants, gain access to new customers so they can grow their businesses. We are also expanding our virtual expert network and broadening the segments we serve beyond tax and accounting to play a more meaningful role in our customers' financial lives."
+    },
+    {
+      "block_idx": 357,
+      "char_end": 9502,
+      "char_start": 9231,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "\u2022Unlocking smart money decisions: To address the challenges of high-cost debt and lack of savings, we are creating one consumer platform with TurboTax and Credit Karma that members can use to help optimize spend, get fast access to money, and grow their wealth over time."
+    },
+    {
+      "block_idx": 358,
+      "char_end": 10032,
+      "char_start": 9504,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "\u2022Be the center of small business growth: Globally, we are focused on helping customers grow their businesses by offering a broad, seamless set of tools that are designed to help them get and retain customers, get paid faster, manage and get access to capital, pay employees with confidence, and use third-party apps to help run their businesses. Our money solutions enable customers to manage their money and improve cash flow. This is an important driver to improving the success of our small and mid-market business customers."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 10431,
+      "char_start": 10034,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "\u2022Disrupt the mid-market: We aim to disrupt the mid-market with a tailor-made platform designed to address the more complex needs of mid-market businesses. This includes our core financial management solutions, as well as our marketing and workforce solutions and money offerings. Together, these offerings enable us to increase retention of these larger customers and accelerate mid-market demand."
+    },
+    {
+      "block_idx": 360,
+      "char_end": 10464,
+      "char_start": 10433,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Industry Trends and Seasonality"
+    },
+    {
+      "block_idx": 361,
+      "char_end": 10481,
+      "char_start": 10466,
+      "is_heading": true,
+      "ordinal": 24,
+      "text": "Industry Trends"
+    },
+    {
+      "block_idx": 362,
+      "char_end": 10981,
+      "char_start": 10483,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "AI, including GenAI, is transforming multiple industries, in particular financial technology. Disruptive start-ups, emerging ecosystems, and mega-platforms are harnessing new technology to create personalized experiences, deliver data-driven insights, and increase speed of service. These shifts are creating a more dynamic and highly competitive environment where customer expectations are shifting around the world as more services become digitized and the array of choices continues to increase."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 10994,
+      "char_start": 10983,
+      "is_heading": true,
+      "ordinal": 26,
+      "text": "Seasonality"
+    },
+    {
+      "block_idx": 364,
+      "char_end": 11377,
+      "char_start": 10996,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Our Consumer and ProTax offerings have a significant and distinct seasonal pattern as sales and revenue from our income tax preparation products and services are typically heavily concentrated in the period from November through April. This seasonal pattern typically results in higher net revenues during our second and third quarters ending January 31 and April 30, respectively."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 11533,
+      "char_start": 11379,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "We expect the seasonality of our Consumer and ProTax businesses to continue to have a significant impact on our quarterly financial results in the future."
+    },
+    {
+      "block_idx": 366,
+      "char_end": 11559,
+      "char_start": 11535,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Key Challenges and Risks"
+    },
+    {
+      "block_idx": 367,
+      "char_end": 12420,
+      "char_start": 11561,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Our growth strategy depends upon our ability to innovate, develop, and introduce emerging technologies, including AI and GenAI, to drive broad adoption of our products and services and enter new markets. Our future growth also increasingly depends on the strength of our third-party business relationships and our ability to continue to develop, maintain, and strengthen new and existing relationships. To remain competitive and continue to grow, we are investing significant resources in our product development, marketing, and sales capabilities, and we expect to continue to do so in the future. Much of our future success also depends on our ability to continue to attract, retain, and develop highly skilled employees, including those in technical and leadership roles who are critical to our strategic growth, in a highly competitive talent environment."
+    },
+    {
+      "block_idx": 368,
+      "char_end": 12981,
+      "char_start": 12422,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "As we offer more online services, the ongoing operation and availability of our platforms and systems and those of our external service providers is becoming increasingly important. Because we help customers manage their financial lives, we face risks associated with the hosting, collection, use, and retention of personal customer information and data. We are investing significant management attention and resources in our information technology infrastructure and in our privacy and security capabilities, and we expect to continue to do so in the future."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 13477,
+      "char_start": 12983,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "We operate in industries that are experiencing an increasing amount of fraudulent activities by malicious third parties. We implement additional security measures, and we continue to work with state and federal governments to implement industry- wide security and anti-fraud measures, including sharing information regarding suspicious activity. We continue to invest in security measures and to work with the broader industry and government to protect our customers against this type of fraud."
+    },
+    {
+      "block_idx": 373,
+      "char_end": 13777,
+      "char_start": 13479,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "Our operations are impacted by a rapidly-evolving regulatory environment and face increasingly heightened scrutiny. We are subject to numerous federal, state, and local, as well as foreign laws and regulations covering a broad and increasing range of subjects, both in the U.S. and internationally."
+    },
+    {
+      "block_idx": 374,
+      "char_end": 14012,
+      "char_start": 13779,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "For a complete discussion of the most significant risks and uncertainties affecting our business, please see \"Forward-Looking Statements\" immediately preceding Part I and \"Risk Factors\" in Item 1A of Part II of this Quarterly Report."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 14043,
+      "char_start": 14014,
+      "is_heading": true,
+      "ordinal": 35,
+      "text": "Overview of Financial Results"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 14706,
+      "char_start": 14045,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "The most important financial indicators that we use to assess our business are revenue growth for the company as a whole and for each reportable segment; operating income growth for the company as a whole; earnings per share; and cash flow from operations. We also track certain non-financial drivers of revenue growth and, when material, identify them in the applicable discussions of segment results below. Service offerings are a significant part of our business. Our total service revenue was $13.9 billion, or 85% of our total revenue, in fiscal 2024, and we expect our total service revenue as a percentage of our total revenue to grow over the long term."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 14786,
+      "char_start": 14708,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "Key highlights for the first nine months of fiscal 2025 include the following:"
+    },
+    {
+      "block_idx": 379,
+      "char_end": 14830,
+      "char_start": 14788,
+      "is_heading": true,
+      "ordinal": 38,
+      "text": "CRITICAL ACCOUNTING POLICIES AND ESTIMATES"
+    },
+    {
+      "block_idx": 380,
+      "char_end": 15934,
+      "char_start": 14832,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "In preparing our condensed consolidated financial statements, we make estimates, assumptions, and judgments that can have a significant impact on our net revenue, operating income or loss, and net income or loss, as well as on the value of certain assets and liabilities on our condensed consolidated balance sheets. We believe that the estimates, assumptions, and judgments involved in the accounting policies described in Management's Discussion and Analysis of Financial Condition and Results of Operations in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended July 31, 2024 have the greatest potential impact on our financial statements, so we consider them to be our critical accounting policies and estimates. There were no significant changes in those critical accounting policies and estimates during the first nine months of fiscal 2025. Senior management has reviewed the development and selection of our critical accounting policies and estimates and their disclosure in this Quarterly Report on Form 10-Q with the Audit and Risk Committee of our Board of Directors."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 15957,
+      "char_start": 15936,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 15981,
+      "char_start": 15959,
+      "is_heading": true,
+      "ordinal": 41,
+      "text": "Current Fiscal Quarter"
+    },
+    {
+      "block_idx": 386,
+      "char_end": 16657,
+      "char_start": 15983,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Total net revenue for the third quarter of fiscal 2025 increased $1.0 billion, or 15%, compared with the same quarter of fiscal 2024. Our Global Business Solutions segment revenue increased during the quarter due to growth in our Online Ecosystem revenue. Consumer segment revenue increased due to growth in our higher-priced and additional service offerings, such as TurboTax Live and our early tax refund offerings. Credit Karma segment revenue increased during the quarter due to strength in our credit card, personal loan, and auto insurance verticals. See \"Segment Results\" later in this Item 2 for more information about the results for all of our reportable segments."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 17093,
+      "char_start": 16659,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Operating income for the third quarter of fiscal 2025 increased $615 million, or 20%, compared with the same quarter of fiscal 2024. The increase in operating income was due to the increase in revenue described above, partially offset by an increase in expenses. Expenses increased due to increases in staffing, marketing, and outside services. See \"Cost of Revenue\" and \"Operating Expenses\" later in this Item 2 for more information."
+    },
+    {
+      "block_idx": 388,
+      "char_end": 17723,
+      "char_start": 17095,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Net income for the third quarter of fiscal 2025 increased $431 million, or 18%, compared with the same quarter of fiscal 2024. The increase in net income was due to the increase in operating income described, partially offset by an increase in income tax expense. The increase in income tax expense is due to the increase in operating income described above and a decrease in excess tax benefits related to share-based compensation. Diluted net income per share increased to $10.02 for the third quarter of fiscal 2025 compared to $8.42 for the same quarter of fiscal 2024, relatively consistent with the increase in net income."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 17744,
+      "char_start": 17725,
+      "is_heading": true,
+      "ordinal": 45,
+      "text": "Fiscal Year to Date"
+    },
+    {
+      "block_idx": 390,
+      "char_end": 18422,
+      "char_start": 17746,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Total net revenue for the first nine months of fiscal 2025 increased $1.9 billion, or 14%, compared with the same period of fiscal 2024. Our Global Business Solutions segment revenue increased during the period due to growth in our Online Ecosystem revenue. Consumer segment revenue increased due to growth in our higher-priced and additional service offerings, such as TurboTax Live and our early tax refund offerings. Credit Karma segment revenue increased during the quarter due to strength in our credit card, personal loan, and auto insurance verticals. See \"Segment Results\" later in this Item 2 for more information about the results for all of our reportable segments."
+    },
+    {
+      "block_idx": 391,
+      "char_end": 18887,
+      "char_start": 18424,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Operating income for the first nine months of fiscal 2025 increased $803 million, or 21%, compared with the same period of fiscal 2024. The increase in operating income was due to the increase in revenue described above, partially offset by an increase in expenses. Expenses increased due to increases in staffing, marketing, outside services, and share-based compensation. See \"Cost of Revenue\" and \"Operating Expenses\" later in this Item 2 for more information."
+    },
+    {
+      "block_idx": 392,
+      "char_end": 19510,
+      "char_start": 18889,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Net income for the first nine months of fiscal 2025 increased $505 million, or 17%, compared with the same period of fiscal 2024. The increase in net income was due to the increase in operating income described, partially offset by an increase in income tax expense. The increase in income tax expense is due to the increase in operating income described above and a decrease in excess tax benefits related to share-based compensation. Diluted net income per share increased to $12.33 for the first nine months of fiscal 2025 compared to $10.51 for the same period in fiscal 2024, in line with the increase in net income."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 19527,
+      "char_start": 19512,
+      "is_heading": true,
+      "ordinal": 49,
+      "text": "Segment Results"
+    },
+    {
+      "block_idx": 394,
+      "char_end": 20183,
+      "char_start": 19529,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "The information below is organized in accordance with our four reportable segments. See \"Executive Overview - About Intuit\" earlier in this Item 2 and Note 12 to the condensed consolidated financial statements in Part I, Item 1 of this Quarterly Report for more information. All of our segments operate and sell to customers primarily in the U.S. Total international net revenue was approximately 5% and 7% of consolidated net revenue for the three and nine months ended April 30, 2025, respectively. Total international net revenue was approximately 6% and 8% of consolidated net revenue for the three and nine months ended April 30, 2024, respectively."
+    },
+    {
+      "block_idx": 395,
+      "char_end": 20939,
+      "char_start": 20185,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "On August 1, 2024, we reorganized certain technology and customer success functions in our Global Business Solutions, Consumer, and ProTax segments that support and benefit our overall platform and are managed at that level rather than at the segment level. As a result of these reorganizations, costs associated with these functions are no longer included in segment operating income and are now included in other corporate expenses. For the three and nine months ended April 30, 2024, we reclassified expenses totaling $353 million and $1.0 billion from Global Business Solutions, $327 million and $521 million from Consumer, and $10 million and $26 million from ProTax to other corporate expenses, respectively, to conform to the current presentation."
+    },
+    {
+      "block_idx": 399,
+      "char_end": 22971,
+      "char_start": 20941,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Segment operating income or loss is segment net revenue less segment cost of revenue and operating expenses. See \"Executive Overview - Industry Trends and Seasonality\" earlier in this Item 2 for a description of the seasonality of our business. We include expenses such as corporate selling and marketing, general and administrative, and non-employment related legal and litigation settlement costs, which are not allocated to specific segments, in unallocated corporate items as part of other corporate expenses. As part of our platform strategy, we also include customer success and product development for our Global Business Solutions, Consumer, and ProTax segments in unallocated corporate items as we do not allocate these expenses to the segments because they are managed at the platform level. Customer success includes the costs of tax and bookkeeping experts that support our TurboTax Live and QuickBooks Live offerings. For our Credit Karma reportable segment, segment expenses include certain direct expenses related to selling and marketing, product development, and general and administrative. Unallocated corporate items for all segments include share-based compensation, amortization of acquired technology, amortization of other acquired intangible assets, goodwill and intangible asset impairment charges, professional fees and transaction charges related to business combinations, and restructuring charges. These unallocated corporate costs for all segments totaled $6.5 billion in the first nine months of fiscal 2025 and $5.8 billion in the first nine months of fiscal 2024. Unallocated corporate items increased in the fiscal 2025 period, primarily due to increases in cost of service revenue, selling and marketing expense, and general and administrative expense. See Note 12 to the condensed consolidated financial statements in Part I, Item 1 of this Quarterly Report for reconciliations of total segment operating income or loss to consolidated operating income or loss for each fiscal period presented."
+    },
+    {
+      "block_idx": 402,
+      "char_end": 22998,
+      "char_start": 22973,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "Global Business Solutions"
+    },
+    {
+      "block_idx": 403,
+      "char_end": 23103,
+      "char_start": 23000,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Global Business Solutions segment revenue includes both Online Ecosystem and Desktop Ecosystem revenue."
+    },
+    {
+      "block_idx": 404,
+      "char_end": 23148,
+      "char_start": 23105,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Our Online Ecosystem includes revenue from:"
+    },
+    {
+      "block_idx": 405,
+      "char_end": 23312,
+      "char_start": 23150,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "\u2022QuickBooks Online, QuickBooks Live, QuickBooks Online Advanced, QuickBooks Self-Employed, and QuickBooks Solopreneur financial and business management offerings;"
+    },
+    {
+      "block_idx": 406,
+      "char_end": 23341,
+      "char_start": 23314,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "\u2022QuickBooks Online Payroll;"
+    },
+    {
+      "block_idx": 407,
+      "char_end": 23456,
+      "char_start": 23343,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "\u2022Merchant payment processing and bill pay services for small and mid-market businesses that use online offerings;"
+    },
+    {
+      "block_idx": 408,
+      "char_end": 23539,
+      "char_start": 23458,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "\u2022Mailchimp's marketing automation and customer relationship management offerings;"
+    },
+    {
+      "block_idx": 409,
+      "char_end": 23566,
+      "char_start": 23541,
+      "is_heading": true,
+      "ordinal": 60,
+      "text": "\u2022QuickBooks Checking; and"
+    },
+    {
+      "block_idx": 410,
+      "char_end": 23615,
+      "char_start": 23568,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "\u2022Financing for small and mid-market businesses."
+    },
+    {
+      "block_idx": 411,
+      "char_end": 23661,
+      "char_start": 23617,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Our Desktop Ecosystem includes revenue from:"
+    },
+    {
+      "block_idx": 412,
+      "char_end": 23892,
+      "char_start": 23663,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "\u2022QuickBooks Desktop software subscriptions (QuickBooks Desktop Pro Plus, QuickBooks Desktop Premier Plus, and QuickBooks Enterprise, and ProAdvisor Program memberships for the accounting professionals who serve small businesses);"
+    },
+    {
+      "block_idx": 413,
+      "char_end": 23983,
+      "char_start": 23894,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "\u2022Desktop payroll products (QuickBooks Assisted Payroll, and QuickBooks Enhanced Payroll);"
+    },
+    {
+      "block_idx": 414,
+      "char_end": 24086,
+      "char_start": 23985,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "\u2022Merchant payment processing services for small and mid-market businesses that use desktop offerings;"
+    },
+    {
+      "block_idx": 415,
+      "char_end": 24112,
+      "char_start": 24088,
+      "is_heading": true,
+      "ordinal": 66,
+      "text": "\u2022Financial supplies; and"
+    },
+    {
+      "block_idx": 416,
+      "char_end": 24161,
+      "char_start": 24114,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "\u2022Financing for small and mid-market businesses."
+    },
+    {
+      "block_idx": 417,
+      "char_end": 24950,
+      "char_start": 24163,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Segment service revenue is primarily derived from our Online Ecosystem revenue and revenue from the services, support, and when-and-if-available product upgrades and enhancements that are provided as part of our QuickBooks Desktop subscriptions, services and support for our desktop payroll offerings, and merchant payment processing services. Segment product and other revenue is primarily derived from revenue related to delivery of software licenses, version protection updates, and payroll software updates for our QuickBooks Desktop subscriptions and desktop payroll offerings, which are part of our Desktop Ecosystem. Our money offerings consist of our merchant payment processing services, financing for small and mid-market businesses (QuickBooks Capital), and bill pay services."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 25031,
+      "char_start": 24952,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Revenue classified by significant service and product offerings was as follows:"
+    },
+    {
+      "block_idx": 423,
+      "char_end": 25349,
+      "char_start": 25033,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Revenue for our Global Business Solutions segment increased $462 million, or 19%, in the third quarter of fiscal 2025 and $1.1 billion, or 16%, in the first nine months of fiscal 2025 compared with the same periods of fiscal 2024. The increase in both periods was primarily due to growth in Online Ecosystem revenue."
+    },
+    {
+      "block_idx": 424,
+      "char_end": 25375,
+      "char_start": 25351,
+      "is_heading": true,
+      "ordinal": 71,
+      "text": "Online Ecosystem Revenue"
+    },
+    {
+      "block_idx": 425,
+      "char_end": 26377,
+      "char_start": 25377,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Online Ecosystem revenue increased $349 million, or 20%, in the third quarter of fiscal 2025 compared with the same period of fiscal 2024. QuickBooks Online Accounting revenue increased $184 million, or 21%, in the third quarter of fiscal 2025 due to the interrelated factors of higher effective prices, customer growth, and a shift in mix to our higher-priced offerings. Online Services revenue increased $165 million, or 18%, in the third quarter of fiscal 2025, due to increases in revenue from our money offerings of $92 million and our payroll offerings of $76 million. Revenue increases were due to the interrelated factors described below. Money revenue increased $92 million due to a $57 million increase in payments revenue from payments customer growth, an increase in total payment volume per customer, and higher effective payments prices, and a $35 million increase from QuickBooks Capital. Online payroll revenue increased due to customer growth, mix-shift, and higher effective prices."
+    },
+    {
+      "block_idx": 426,
+      "char_end": 27507,
+      "char_start": 26379,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Online Ecosystem revenue increased $1.0 billion, or 20%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024. QuickBooks Online Accounting revenue increased $533 million, or 21%, in the first nine months of fiscal 2025 due to the interrelated factors of higher effective prices, customer growth, and a shift in mix to our higher-priced offerings. Online Services revenue increased $491 million, or 19%, in the first nine months of fiscal 2025, due to increases in revenue from our money offerings of $268 million, our payroll offerings of $208 million, and Mailchimp of $22 million. Revenue increases were due to the interrelated factors described below. Money revenue increased $268 million due to a $175 million increase in payments revenue from payments customer growth, an increase in total payment volume per customer, and higher effective payments prices, and a $93 million increase from QuickBooks Capital. Online payroll revenue increased due to customer growth, mix-shift, and higher effective prices. Mailchimp revenue increased due to higher effective prices and paid customer growth."
+    },
+    {
+      "block_idx": 427,
+      "char_end": 27534,
+      "char_start": 27509,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "Desktop Ecosystem Revenue"
+    },
+    {
+      "block_idx": 428,
+      "char_end": 28072,
+      "char_start": 27536,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Desktop Ecosystem revenue increased $113 million, or 18%, in the third quarter of fiscal 2025 and $64 million, or 3%, in the first nine months of fiscal 2025 compared with the same periods of fiscal 2024. For both periods, the increase was due to higher effective prices and changes we made to our QuickBooks desktop offerings beginning in early fiscal 2024 to complete the transition to a recurring subscription model, which more closely aligns our Desktop license and related product updates to our Desktop subscription billing model."
+    },
+    {
+      "block_idx": 429,
+      "char_end": 28436,
+      "char_start": 28074,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Global Business Solutions segment operating income increased $384 million, or 21%, in the third quarter of fiscal 2025 compared with the same period of fiscal 2024, due to the increase in revenue described above, partially offset by increases in staffing expenses of $26 million, outside services expenses of $9 million, and sales-related expenses of $7 million."
+    },
+    {
+      "block_idx": 430,
+      "char_end": 28799,
+      "char_start": 28438,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Global Business Solutions segment operating income increased $935 million, or 18%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024, due to the increase in revenue described above, partially offset by increases in staffing expenses of $45 million, marketing expenses of $21 million, and sales-related expenses of $15 million."
+    },
+    {
+      "block_idx": 431,
+      "char_end": 29329,
+      "char_start": 28801,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit our overall platform and are managed at that level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the three and nine months ended April 30, 2024, we reclassified $353 million and $1.0 billion, respectively, from Global Business Solutions to other corporate expenses to conform to the current presentation."
+    },
+    {
+      "block_idx": 434,
+      "char_end": 29339,
+      "char_start": 29331,
+      "is_heading": true,
+      "ordinal": 79,
+      "text": "Consumer"
+    },
+    {
+      "block_idx": 435,
+      "char_end": 29500,
+      "char_start": 29341,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Consumer segment service revenue is derived primarily from TurboTax Online and TurboTax Live offerings, electronic tax filing services, and connected services."
+    },
+    {
+      "block_idx": 436,
+      "char_end": 29645,
+      "char_start": 29502,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Consumer segment product and other revenue is derived primarily from TurboTax desktop tax return preparation software and related form updates."
+    },
+    {
+      "block_idx": 438,
+      "char_end": 29922,
+      "char_start": 29647,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Revenue for our Consumer segment increased $401 million, or 9%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024 due to growth in our higher-priced and additional service offerings, such as TurboTax Live and our early tax refund offerings."
+    },
+    {
+      "block_idx": 439,
+      "char_end": 30192,
+      "char_start": 29924,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Consumer segment operating income increased $277 million, or 8%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024 due to the increase in revenue described above, partially offset by an increase in marketing expenses of $124 million."
+    },
+    {
+      "block_idx": 440,
+      "char_end": 30705,
+      "char_start": 30194,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit our overall platform and are managed at that level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the three and nine months ended April 30, 2024, we reclassified $327 million and $521 million, respectively, from Consumer to other corporate expenses to conform to the current presentation."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 30719,
+      "char_start": 30707,
+      "is_heading": true,
+      "ordinal": 85,
+      "text": "Credit Karma"
+    },
+    {
+      "block_idx": 444,
+      "char_end": 31173,
+      "char_start": 30721,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "Credit Karma segment revenue is primarily derived from cost-per-action transactions, which include the delivery of qualified links that result in completed actions such as credit card issuances and personal loan funding; cost-per-click and cost-per-lead transactions, which include user clicks on advertisements or advertisements that allow for the generation of leads, and primarily relate to mortgage and insurance businesses; and Credit Karma Money."
+    },
+    {
+      "block_idx": 446,
+      "char_end": 31488,
+      "char_start": 31175,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Revenue for our Credit Karma segment increased $136 million, or 31%, in the third quarter of fiscal 2025 compared to the same period in fiscal 2024, due to increases in revenue from our credit card vertical of $63 million, our personal loan vertical of $55 million, and our auto insurance vertical of $14 million."
+    },
+    {
+      "block_idx": 447,
+      "char_end": 31809,
+      "char_start": 31490,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "Revenue for our Credit Karma segment increased $391 million, or 32%, in the first nine months of fiscal 2025 compared to the same period of fiscal 2024, due to increases in revenue from our credit card vertical of $151 million, our personal loan vertical of $150 million, and our auto insurance vertical of $73 million."
+    },
+    {
+      "block_idx": 448,
+      "char_end": 32077,
+      "char_start": 31811,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "Credit Karma segment operating income increased $97 million, or 88%, in the third quarter of fiscal 2025 compared to the same period of fiscal 2024, due to the increase in revenue described above, partially offset by an increase in marketing expenses of $42 million."
+    },
+    {
+      "block_idx": 449,
+      "char_end": 32351,
+      "char_start": 32079,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Credit Karma segment operating income increased $275 million, or 98%, in the first nine months of fiscal 2025 compared to the same period of fiscal 2024, due to the increase in revenue described above, partially offset by an increase in marketing expenses of $107 million."
+    },
+    {
+      "block_idx": 452,
+      "char_end": 32359,
+      "char_start": 32353,
+      "is_heading": true,
+      "ordinal": 91,
+      "text": "ProTax"
+    },
+    {
+      "block_idx": 453,
+      "char_end": 32524,
+      "char_start": 32361,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "ProTax segment service revenue is derived primarily from ProConnect Tax Online tax products, electronic tax filing services, connected services, and bank products."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 32693,
+      "char_start": 32526,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "ProTax segment product and other revenue is derived primarily from Lacerte, ProSeries, and ProFile desktop tax preparation software products, and related form updates."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 32884,
+      "char_start": 32695,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "Revenue for our ProTax segment increased $19 million, or 3%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024 due to higher average revenue per customer."
+    },
+    {
+      "block_idx": 457,
+      "char_end": 33143,
+      "char_start": 32886,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "Segment operating income increased $13 million, or 3%, in the first nine months of fiscal 2025 compared with the same period of fiscal 2024, due to the increase in revenue described above, partially offset by an increase in marketing expenses of $4 million."
+    },
+    {
+      "block_idx": 458,
+      "char_end": 33652,
+      "char_start": 33145,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "In August 2024, we reorganized certain technology and customer success functions that support and benefit our overall platform and are managed at that level rather than at the segment level. As a result, these costs are no longer included in segment operating income and are now included in other corporate expenses. For the three and nine months ended April 30, 2024, we reclassified $10 million and $26 million, respectively, from ProTax to other corporate expenses to conform to the current presentation."
+    },
+    {
+      "block_idx": 462,
+      "char_end": 34453,
+      "char_start": 33654,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "Our cost of revenue has three components: (1) cost of service revenue, which includes the direct costs associated with our online and service offerings, such as staffing costs for ongoing production support, customer support, and tax and bookkeeping experts that support our TurboTax Live and QuickBooks Live offerings, costs for data processing and storage capabilities from cloud providers, and costs related to credit score providers; (2) cost of product and other revenue, which includes the direct costs of manufacturing and shipping or electronically downloading our desktop software and financial supplies products; and (3) amortization of acquired technology, which represents the cost of amortizing developed technologies that we have obtained through acquisitions, over their useful lives."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 34649,
+      "char_start": 34455,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Cost of service revenue as a percentage of service revenue was relatively consistent in both the third quarter and first nine months of fiscal 2025 compared with the same periods of fiscal 2024."
+    },
+    {
+      "block_idx": 464,
+      "char_end": 34998,
+      "char_start": 34651,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "Cost of product and other revenue as a percentage of product and other revenue was consistent in both the third quarter and first nine months of fiscal 2025 compared with the same periods of fiscal 2024. Costs of product and other revenue are expensed as incurred, and we do not defer any of these costs when product and other revenue is deferred."
+    },
+    {
+      "block_idx": 466,
+      "char_end": 35022,
+      "char_start": 35000,
+      "is_heading": true,
+      "ordinal": 100,
+      "text": "Current Fiscal Quarter"
+    },
+    {
+      "block_idx": 467,
+      "char_end": 35525,
+      "char_start": 35024,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "Total operating expenses as a percentage of total net revenue decreased in the third quarter of fiscal 2025 compared to the same period of fiscal 2024. Total net revenue for the third quarter of fiscal 2025 increased $1.0 billion, or 15%, while total operating expenses for the quarter increased $275 million, or 11%. The increase in total operating expenses was due to increases of $106 million for marketing expenses, $95 million for staffing expenses, and $28 million for outside services expenses."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 35546,
+      "char_start": 35527,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "Fiscal Year to Date"
+    },
+    {
+      "block_idx": 469,
+      "char_end": 36089,
+      "char_start": 35548,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "Total operating expenses as a percentage of total net revenue decreased in the first nine months of fiscal 2025 compared to the same period of fiscal 2024. Total net revenue for the first nine months of fiscal 2025 increased $1.9 billion, or 14%, while total operating expenses for the period increased $824 million, or 12%. The increase in total operating expenses was due to increases of $332 million for marketing expenses, $223 million for staffing expenses, $106 million for outside services, and $45 million for sales-related expenses."
+    },
+    {
+      "block_idx": 470,
+      "char_end": 36124,
+      "char_start": 36091,
+      "is_heading": true,
+      "ordinal": 104,
+      "text": "Non-Operating Income and Expenses"
+    },
+    {
+      "block_idx": 471,
+      "char_end": 36142,
+      "char_start": 36126,
+      "is_heading": true,
+      "ordinal": 105,
+      "text": "Interest Expense"
+    },
+    {
+      "block_idx": 472,
+      "char_end": 36541,
+      "char_start": 36144,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "Interest expense of $188 million for the first nine months of fiscal 2025 consisted of interest on our senior unsecured notes, secured revolving credit facilities, unsecured revolving credit facility, and commercial paper program. Interest expense of $182 million for the first nine months of fiscal 2024 consisted of interest on our senior unsecured notes and secured revolving credit facilities."
+    },
+    {
+      "block_idx": 476,
+      "char_end": 36573,
+      "char_start": 36543,
+      "is_heading": true,
+      "ordinal": 107,
+      "text": "Interest and Other Income, Net"
+    },
+    {
+      "block_idx": 478,
+      "char_end": 36741,
+      "char_start": 36575,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "(1)Interest income for the three and nine months ended April 30, 2025 increased compared to the same periods of fiscal 2024 due to higher average investable balances."
+    },
+    {
+      "block_idx": 479,
+      "char_end": 37154,
+      "char_start": 36743,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "(2)In accordance with authoritative guidance, we record gains and losses associated with executive deferred compensation plan assets in interest and other income and gains and losses associated with the related liabilities in operating expenses. The total amounts recorded in operating expenses for each period are approximately equal to the total amounts recorded in interest and other income in those periods."
+    },
+    {
+      "block_idx": 480,
+      "char_end": 37267,
+      "char_start": 37156,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "(3)During the nine months ended April 30, 2025, we recorded $43 million in net losses on long-term investments."
+    },
+    {
+      "block_idx": 481,
+      "char_end": 37281,
+      "char_start": 37269,
+      "is_heading": true,
+      "ordinal": 111,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 482,
+      "char_end": 37516,
+      "char_start": 37283,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "We compute our provision for or benefit from income taxes by applying the estimated annual effective tax rate to income or loss from recurring operations and adding the effects of any discrete income tax items specific to the period."
+    },
+    {
+      "block_idx": 483,
+      "char_end": 37908,
+      "char_start": 37518,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "For the three and nine months ended April 30, 2025, we recognized excess tax benefits on share-based compensation of $18 million and $75 million, respectively, in our provision for income taxes. For the three and nine months ended April 30, 2024, we recognized excess tax benefits on share-based compensation of $40 million and $123 million, respectively, in our provision for income taxes."
+    },
+    {
+      "block_idx": 484,
+      "char_end": 38421,
+      "char_start": 37910,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "Our effective tax rates for the three and nine months ended April 30, 2025 were approximately 23% and 22%, respectively. Excluding discrete tax items primarily related to share-based compensation, our effective tax rate for both periods was approximately 24%. The difference from the federal statutory rate of 21% was primarily due to state income taxes and non-deductible share-based compensation, which were partially offset by the tax benefit we received from the federal research and experimentation credit."
+    },
+    {
+      "block_idx": 485,
+      "char_end": 38934,
+      "char_start": 38423,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "Our effective tax rates for the three and nine months ended April 30, 2024 were approximately 22% and 19%, respectively. Excluding discrete tax items primarily related to share-based compensation, our effective tax rate for both periods was approximately 24%. The difference from the federal statutory rate of 21% was primarily due to state income taxes and non-deductible share-based compensation, which were partially offset by the tax benefit we received from the federal research and experimentation credit."
+    },
+    {
+      "block_idx": 486,
+      "char_end": 39685,
+      "char_start": 38936,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "In 2021, the Organisation for Economic Co-operation and Development (OECD) announced Pillar Two Model Rules, which call for the taxation of large multinational corporations at a minimum rate of 15%. Many non-U.S. tax jurisdictions have either recently enacted legislation to adopt certain components of the Pillar Two Model Rules beginning in fiscal 2025 with the adoption of additional components in later years or announced their plans to enact legislation in future years. The currently enacted Pillar Two Model Rules are not expected to have a significant impact to our provision for income taxes. We continue to monitor developments and evaluate impacts, if any, of these provisions on our results of operations and cash flows for future years."
+    },
+    {
+      "block_idx": 487,
+      "char_end": 39945,
+      "char_start": 39687,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "In the current global tax policy environment, the U.S. and other domestic and foreign governments continue to consider, and in some cases enact, changes in corporate tax laws. As changes occur, we account for finalized legislation in the period of enactment."
+    },
+    {
+      "block_idx": 488,
+      "char_end": 39978,
+      "char_start": 39947,
+      "is_heading": true,
+      "ordinal": 118,
+      "text": "LIQUIDITY AND CAPITAL RESOURCES"
+    },
+    {
+      "block_idx": 489,
+      "char_end": 39988,
+      "char_start": 39980,
+      "is_heading": true,
+      "ordinal": 119,
+      "text": "Overview"
+    },
+    {
+      "block_idx": 490,
+      "char_end": 41155,
+      "char_start": 39990,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "At April 30, 2025, our cash, cash equivalents, and investments totaled $6.2 billion, an increase of $2.1 billion from July 31, 2024 driven by cash from operations partially offset by cash used in financing and investing activities. See the discussion of all factors under \"Statements of Cash Flows\" below. Our primary sources of liquidity have been cash from operations, which entails the collection of accounts receivable for products and services, the issuance of senior unsecured notes, and borrowings under our credit facilities. Our primary uses of cash have been for research and development programs, selling and marketing activities, capital projects, acquisitions of businesses, debt service costs and debt repayment, repurchases of our common stock under our stock repurchase programs, and the payment of cash dividends. As discussed in \"Executive Overview - Industry Trends and Seasonality\" earlier in this Item 2, our business is subject to significant seasonality. The balance of our cash, cash equivalents, and investments generally fluctuates with that seasonal pattern. We believe the seasonality of our business is likely to continue in the future."
+    },
+    {
+      "block_idx": 494,
+      "char_end": 41268,
+      "char_start": 41157,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "The following table summarizes selected measures of our liquidity and capital resources at the dates indicated:"
+    },
+    {
+      "block_idx": 496,
+      "char_end": 41566,
+      "char_start": 41270,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "We have historically generated significant cash from operations, and we expect to continue to do so in the future. Our cash, cash equivalents, and investments totaled $6.2 billion at April 30, 2025. None of those funds were restricted and approximately 93% of those funds were located in the U.S."
+    },
+    {
+      "block_idx": 497,
+      "char_end": 42333,
+      "char_start": 41568,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "On January 30, 2025, we entered into a credit agreement with certain lenders providing for a $4.5 billion unsecured short-term revolving credit facility (2025 Credit Facility) to fund a portion of our TurboTax early tax refund offering. We terminated the 2025 Credit Facility on March 3, 2025. See Note 6 to the financial statements in Part I, Item 1 of this Quarterly Report for more information. Our $1.5 billion unsecured revolving credit facility and our commercial paper program are available to us for general corporate purposes. At April 30, 2025, no amounts were outstanding under the unsecured revolving credit facility or the commercial paper program. See Note 6 to the financial statements in Part I, Item 1 of this Quarterly Report for more information."
+    },
+    {
+      "block_idx": 498,
+      "char_end": 42580,
+      "char_start": 42335,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "Our secured revolving credit facilities are available to fund the lending products and services we offer to qualified small and mid-market businesses. At April 30, 2025, $949 million was outstanding under our secured revolving credit facilities."
+    },
+    {
+      "block_idx": 499,
+      "char_end": 42683,
+      "char_start": 42582,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "We expect to pay approximately $800 million in income taxes during the fourth quarter of fiscal 2025."
+    },
+    {
+      "block_idx": 500,
+      "char_end": 43223,
+      "char_start": 42685,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "Based on past performance and current expectations, we believe that our cash and cash equivalents, investments, cash generated from operations, borrowing capacity under our credit facilities and commercial paper program, and access to external financing will be sufficient to meet anticipated seasonal working capital needs, contractual obligations, commitments, debt service requirements, capital expenditure requirements, and other liquidity requirements associated with our operations for the next 12 months and the foreseeable future."
+    },
+    {
+      "block_idx": 501,
+      "char_end": 43437,
+      "char_start": 43225,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "We expect to return excess cash generated by operations to our stockholders through repurchases of our common stock and payment of cash dividends, after taking into account our operating and strategic cash needs."
+    },
+    {
+      "block_idx": 502,
+      "char_end": 43693,
+      "char_start": 43439,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "We evaluate, on an ongoing basis, the merits of acquiring technology or businesses, or establishing strategic relationships with and investing in other companies. Our strong liquidity profile enables us to quickly respond to these types of opportunities."
+    },
+    {
+      "block_idx": 503,
+      "char_end": 43719,
+      "char_start": 43695,
+      "is_heading": true,
+      "ordinal": 129,
+      "text": "Statements of Cash Flows"
+    },
+    {
+      "block_idx": 504,
+      "char_end": 44033,
+      "char_start": 43721,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "The following table summarizes selected items from our condensed consolidated statements of cash flows for the first nine months of fiscal 2025 and fiscal 2024. See the financial statements in Part I, Item 1 of this Quarterly Report for complete condensed consolidated statements of cash flows for those periods."
+    },
+    {
+      "block_idx": 509,
+      "char_end": 44108,
+      "char_start": 44035,
+      "is_heading": true,
+      "ordinal": 131,
+      "text": "Stock Repurchase Programs, Treasury Shares, and Dividends on Common Stock"
+    },
+    {
+      "block_idx": 510,
+      "char_end": 45035,
+      "char_start": 44110,
+      "is_heading": false,
+      "ordinal": 132,
+      "text": "As described in Note 10 to the condensed consolidated financial statements in Part I, Item 1 of this Quarterly Report, during the first nine months of fiscal 2025, we repurchased 3.3 million shares of our common stock under repurchase programs that our Board of Directors has authorized. On August 20, 2024, our Board of Directors approved an increase in the authorization under the existing stock repurchase program under which we are authorized to repurchase up to an additional $3 billion of our common stock. At April 30, 2025, we had authorization from our Board of Directors for up to $2.8 billion in stock repurchases. We currently expect to continue repurchasing our common stock on a quarterly basis; however, future stock repurchases under the current program are at the discretion of management, and authorization of future stock repurchase programs is subject to the final determination of our Board of Directors."
+    },
+    {
+      "block_idx": 511,
+      "char_end": 45767,
+      "char_start": 45037,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "We have continued to pay quarterly cash dividends on shares of our outstanding common stock. During the nine months ended April 30, 2025, we declared quarterly cash dividends that totaled $3.12 per share of outstanding common stock for a total of $891 million. In May 2025, our Board of Directors declared a quarterly cash dividend of $1.04 per share of outstanding common stock payable on July 18, 2025 to stockholders of record at the close of business on July 10, 2025. We currently expect to continue to pay comparable cash dividends on a quarterly basis. However, future declarations of dividends and the establishment of future record dates and payment dates are subject to the final determination of our Board of Directors."
+    },
+    {
+      "block_idx": 512,
+      "char_end": 45807,
+      "char_start": 45769,
+      "is_heading": true,
+      "ordinal": 134,
+      "text": "Commitments for Senior Unsecured Notes"
+    },
+    {
+      "block_idx": 513,
+      "char_end": 45964,
+      "char_start": 45809,
+      "is_heading": false,
+      "ordinal": 135,
+      "text": "In June 2020, we issued $2 billion of senior unsecured notes, of which $1.5 billion is outstanding as of April 30, 2025, and is comprised of the following:"
+    },
+    {
+      "block_idx": 514,
+      "char_end": 46010,
+      "char_start": 45966,
+      "is_heading": false,
+      "ordinal": 136,
+      "text": "\u2022$500 million of 0.950% notes due July 2025;"
+    },
+    {
+      "block_idx": 515,
+      "char_end": 46060,
+      "char_start": 46012,
+      "is_heading": true,
+      "ordinal": 137,
+      "text": "\u2022$500 million of 1.350% notes due July 2027; and"
+    },
+    {
+      "block_idx": 516,
+      "char_end": 46133,
+      "char_start": 46062,
+      "is_heading": false,
+      "ordinal": 138,
+      "text": "\u2022$500 million of 1.650% notes due July 2030 (together, the 2020 Notes)."
+    },
+    {
+      "block_idx": 517,
+      "char_end": 46345,
+      "char_start": 46135,
+      "is_heading": false,
+      "ordinal": 139,
+      "text": "Interest is payable semiannually on January 15 and July 15 of each year. At April 30, 2025, our maximum commitment for interest payments was $65 million for the remaining duration of the outstanding 2020 Notes."
+    },
+    {
+      "block_idx": 518,
+      "char_end": 47332,
+      "char_start": 46347,
+      "is_heading": false,
+      "ordinal": 140,
+      "text": "The 2020 Notes are senior unsecured obligations of Intuit and rank equally with all existing and future unsecured and unsubordinated indebtedness of Intuit and are redeemable by us at any time, subject to a make-whole premium. Upon the occurrence of change of control transactions that are accompanied by certain downgrades in the credit ratings of the 2020 Notes, we will be required to repurchase the 2020 Notes at a repurchase price equal to 101% of the aggregate outstanding principal plus any accrued and unpaid interest to but not including the date of repurchase. The indenture governing the 2020 Notes requires us to comply with certain covenants. For example, the 2020 Notes limit our ability to create certain liens and enter into sale and leaseback transactions. As of April 30, 2025, we were compliant with all covenants governing the 2020 Notes. See Note 6 to the condensed consolidated financial statements in Part I, Item 1 of this Quarterly Report for more information."
+    },
+    {
+      "block_idx": 521,
+      "char_end": 47427,
+      "char_start": 47334,
+      "is_heading": false,
+      "ordinal": 141,
+      "text": "In September 2023, we issued $4 billion of senior unsecured notes comprised of the following:"
+    },
+    {
+      "block_idx": 522,
+      "char_end": 47478,
+      "char_start": 47429,
+      "is_heading": false,
+      "ordinal": 142,
+      "text": "\u2022$750 million of 5.250% notes due September 2026;"
+    },
+    {
+      "block_idx": 523,
+      "char_end": 47529,
+      "char_start": 47480,
+      "is_heading": false,
+      "ordinal": 143,
+      "text": "\u2022$750 million of 5.125% notes due September 2028;"
+    },
+    {
+      "block_idx": 524,
+      "char_end": 47586,
+      "char_start": 47531,
+      "is_heading": true,
+      "ordinal": 144,
+      "text": "\u2022$1,250 million of 5.200% notes due September 2033; and"
+    },
+    {
+      "block_idx": 525,
+      "char_end": 47666,
+      "char_start": 47588,
+      "is_heading": false,
+      "ordinal": 145,
+      "text": "\u2022$1,250 million of 5.500% notes due September 2053 (together, the 2023 Notes)."
+    },
+    {
+      "block_idx": 526,
+      "char_end": 47882,
+      "char_start": 47668,
+      "is_heading": false,
+      "ordinal": 146,
+      "text": "Interest is payable semiannually on March 15 and September 15 of each year. At April 30, 2025, our maximum commitment for interest payments was $2.7 billion for the remaining duration of the outstanding 2023 Notes."
+    },
+    {
+      "block_idx": 527,
+      "char_end": 48525,
+      "char_start": 47884,
+      "is_heading": false,
+      "ordinal": 147,
+      "text": "The 2023 Notes are senior unsecured obligations of Intuit and rank equally with all existing and future unsecured and unsubordinated indebtedness of Intuit and are redeemable by us at any time, subject to a make-whole premium. The indenture governing the 2023 Notes requires us to comply with certain covenants. For example, the 2023 Notes limit our ability to create certain liens and enter into sale and leaseback transactions. As of April 30, 2025, we were compliant with all covenants governing the 2023 Notes. See Note 6 to the condensed consolidated financial statements in Part I, Item 1 of this Quarterly Report for more information."
+    },
+    {
+      "block_idx": 528,
+      "char_end": 48544,
+      "char_start": 48527,
+      "is_heading": true,
+      "ordinal": 148,
+      "text": "Credit Facilities"
+    },
+    {
+      "block_idx": 529,
+      "char_end": 48583,
+      "char_start": 48546,
+      "is_heading": true,
+      "ordinal": 149,
+      "text": "Unsecured Revolving Credit Facilities"
+    },
+    {
+      "block_idx": 530,
+      "char_end": 48887,
+      "char_start": 48585,
+      "is_heading": false,
+      "ordinal": 150,
+      "text": "On February 5, 2024, we terminated our amended and restated credit agreement dated November 1, 2021 (2021 Credit Facility), and entered into a credit agreement with certain lenders providing for a $1.5 billion unsecured revolving credit facility that expires on February 5, 2029 (2024 Credit Facility)."
+    },
+    {
+      "block_idx": 531,
+      "char_end": 49985,
+      "char_start": 48889,
+      "is_heading": false,
+      "ordinal": 151,
+      "text": "Under the 2024 Credit Facility, we may, subject to certain customary conditions, including approval of relevant lenders, on one or more occasions, increase commitments under the 2024 Credit Facility by an amount not to exceed $1 billion in the aggregate, and, on one or more occasions, extend the maturity date of the 2024 Credit Facility by one year. The 2024 Credit Facility includes a $500 million sublimit for borrowing swingline loans and a $250 million sublimit for the issuance of letters of credit. Advances under the 2024 Credit Facility accrue interest at rates equal to (a) in the case of U.S. dollar borrowings, at our election, either (i) the alternate base rate plus a margin that ranges from 0.0% to 0.125%, or (ii) the adjusted term Secured Overnight Finance Rate (SOFR) plus a margin that ranges from 0.7% to 1.125%, or (b) in the case of foreign currency borrowings, the interest benchmark for the relevant currency specified in the credit agreement plus a margin that ranges from 0.7% to 1.125%. Actual margins under either election are based on our senior debt credit ratings."
+    },
+    {
+      "block_idx": 532,
+      "char_end": 50554,
+      "char_start": 49987,
+      "is_heading": false,
+      "ordinal": 152,
+      "text": "The 2024 Credit Facility includes customary affirmative and negative covenants, including a financial covenant that requires us to maintain a ratio of total gross debt to earnings before interest, taxes, depreciation, and amortization (EBITDA), as defined in the agreement, of not greater than 4.00 to 1.00 as measured on a rolling twelve month basis as of the last day of each fiscal quarter. As of April 30, 2025, we were compliant with all covenants governing the 2024 Credit Facility. At April 30, 2025, no amounts were outstanding under the 2024 Credit Facility."
+    },
+    {
+      "block_idx": 533,
+      "char_end": 50686,
+      "char_start": 50556,
+      "is_heading": false,
+      "ordinal": 153,
+      "text": "We monitor counterparty risk associated with the institutional lenders that are providing the unsecured revolving credit facility."
+    },
+    {
+      "block_idx": 534,
+      "char_end": 50958,
+      "char_start": 50688,
+      "is_heading": false,
+      "ordinal": 154,
+      "text": "On January 30, 2025, we entered into a credit agreement with certain lenders providing for a $4.5 billion unsecured short-term revolving credit facility to fund a portion of our TurboTax early tax refund offering. We terminated the 2025 Credit Facility on March 3, 2025."
+    },
+    {
+      "block_idx": 535,
+      "char_end": 51257,
+      "char_start": 50960,
+      "is_heading": false,
+      "ordinal": 155,
+      "text": "Advances under the 2025 Credit Facility accrued interest at rates equal to, at our election, either (i) the alternate base rate plus a margin of 0.125%, or (ii) the adjusted daily simple SOFR or term SOFR plus a margin of 1.125%. Unused portions of the commitment accrued a fee of 0.10% per annum."
+    },
+    {
+      "block_idx": 536,
+      "char_end": 51294,
+      "char_start": 51259,
+      "is_heading": true,
+      "ordinal": 156,
+      "text": "Secured Revolving Credit Facilities"
+    },
+    {
+      "block_idx": 537,
+      "char_end": 52909,
+      "char_start": 51296,
+      "is_heading": false,
+      "ordinal": 157,
+      "text": "On February 19, 2019, a subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2019 Secured Facility). The 2019 Secured Facility is secured by cash and receivables of the subsidiary and is non-recourse to Intuit Inc. We have entered into several amendments to this facility, most recently on January 31, 2025. These amendments primarily increase the facility limit, extend the commitment term and final maturity date, and update the benchmark interest rate. Under the amended 2019 Secured Facility, the facility limit is $500 million, of which $300 million is committed and $200 million is uncommitted. Advances accrue interest at adjusted daily simple SOFR plus 1.25%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.25% to 0.75%, depending on the total unused committed balance. The commitment term is through August 31, 2027, and the final maturity date is August 31, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants that require the subsidiary to maintain specified financial ratios. As of April 30, 2025, we were compliant with all covenants governing the 2019 Secured Facility. At April 30, 2025, $440 million was outstanding under the 2019 Secured Facility and the weighted-average interest rate was 5.76%, which includes the fee on the unused committed portion. The outstanding balance is secured by cash and receivables of the subsidiary totaling $1.6 billion as of April 30, 2025."
+    },
+    {
+      "block_idx": 540,
+      "char_end": 54434,
+      "char_start": 52911,
+      "is_heading": false,
+      "ordinal": 158,
+      "text": "On October 12, 2022, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2022 Secured Facility). The 2022 Secured Facility is secured by cash and receivables of the subsidiary and is non-recourse to Intuit Inc. We have entered into several amendments to this facility, most recently on March 11, 2025. These amendments primarily extend the commitment term and final maturity date, increase the commitment amount, and reduce the interest rate. Under the amended 2022 Secured Facility, the facility limit is $500 million, of which $400 million is committed and $100 million is uncommitted. Advances accrue interest at SOFR plus 1.1%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through April 30, 2027, and the final maturity date is May 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants that require the subsidiary to maintain specified financial ratios. As of April 30, 2025, we were compliant with all covenants governing the 2022 Secured Facility. At April 30, 2025, $300 million was outstanding under the 2022 Secured Facility and the weighted-average interest rate was 5.58%. The outstanding balance is secured by cash and receivables of the subsidiary totaling $1.0 billion as of April 30, 2025."
+    },
+    {
+      "block_idx": 541,
+      "char_end": 55812,
+      "char_start": 54436,
+      "is_heading": false,
+      "ordinal": 159,
+      "text": "On November 1, 2024, another subsidiary of Intuit entered into a secured revolving credit facility with a lender to fund the lending products and services we offer to qualified small and mid-market businesses (the 2024 Secured Facility). The 2024 Secured Facility is secured by cash and receivables of the subsidiary and is non-recourse to Intuit Inc. We entered into an amendment to the 2024 Secured Facility on February 6, 2025, which increased the commitment amount. Under the amended 2024 Secured Facility, the facility limit is $300 million, all of which is committed. Advances accrue interest at SOFR plus 1.15%. Unused portions of the committed credit facility accrue a fee at a rate ranging from 0.2% to 0.4%, depending on the total unused committed balance. The commitment term is through November 1, 2027, and the final maturity date is November 1, 2028. The agreement includes certain affirmative and negative covenants, including financial covenants that require the subsidiary to maintain specified financial ratios. As of April 30, 2025, we were compliant with all covenants governing the 2024 Secured Facility. At April 30, 2025, $209 million was outstanding under the 2024 Secured Facility and the weighted-average interest rate was 5.65%. The outstanding balance is secured by cash and receivables of the subsidiary totaling $548 million as of April 30, 2025."
+    },
+    {
+      "block_idx": 542,
+      "char_end": 55944,
+      "char_start": 55814,
+      "is_heading": false,
+      "ordinal": 160,
+      "text": "We monitor counterparty risk associated with the institutional lenders that are providing the secured revolving credit facilities."
+    },
+    {
+      "block_idx": 543,
+      "char_end": 55970,
+      "char_start": 55946,
+      "is_heading": true,
+      "ordinal": 161,
+      "text": "Commercial Paper Program"
+    },
+    {
+      "block_idx": 544,
+      "char_end": 56615,
+      "char_start": 55972,
+      "is_heading": false,
+      "ordinal": 162,
+      "text": "Under our established commercial paper program, we may issue and sell unsecured short-term promissory notes (commercial paper) up to $1.5 billion. The maturities of the commercial paper may vary but will not exceed 397 days from the date of issuance. During the three months ended April 30, 2025, we temporarily increased the capacity of our commercial paper program from $1.5 billion to $2.0 billion to support our seasonal working capital needs. As of April 30, 2025, the capacity of the commercial paper program was $1.5 billion. At each of the periods ended April 30, 2025 and July 31, 2024, no amounts were outstanding under this program."
+    },
+    {
+      "block_idx": 545,
+      "char_end": 56650,
+      "char_start": 56617,
+      "is_heading": true,
+      "ordinal": 163,
+      "text": "Cash Held by Foreign Subsidiaries"
+    },
+    {
+      "block_idx": 546,
+      "char_end": 57257,
+      "char_start": 56652,
+      "is_heading": false,
+      "ordinal": 164,
+      "text": "Our cash, cash equivalents, and investments totaled $6.2 billion at April 30, 2025. Approximately 7% of those funds were held by our foreign subsidiaries and subject to repatriation tax considerations. These foreign funds were located primarily in India, Canada, and the United Kingdom. We do not expect to pay incremental U.S. taxes on repatriation. We have recorded income tax expense for Canada, India, and Israel withholding taxes on earnings that are not permanently reinvested. In the event that funds from foreign operations are repatriated to the U.S., we would pay withholding taxes at that time."
+    },
+    {
+      "block_idx": 547,
+      "char_end": 57282,
+      "char_start": 57259,
+      "is_heading": true,
+      "ordinal": 165,
+      "text": "CONTRACTUAL OBLIGATIONS"
+    },
+    {
+      "block_idx": 548,
+      "char_end": 57588,
+      "char_start": 57284,
+      "is_heading": false,
+      "ordinal": 166,
+      "text": "We presented our contractual obligations at July 31, 2024 in our Annual Report on Form 10-K for the fiscal year then ended. Except for those disclosed below, there were no material changes outside the ordinary course of business to our contractual obligations during the nine months ended April 30, 2025."
+    },
+    {
+      "block_idx": 549,
+      "char_end": 57624,
+      "char_start": 57590,
+      "is_heading": true,
+      "ordinal": 167,
+      "text": "Unconditional Purchase Obligations"
+    },
+    {
+      "block_idx": 550,
+      "char_end": 58099,
+      "char_start": 57626,
+      "is_heading": false,
+      "ordinal": 168,
+      "text": "In December 2024, we amended an existing cloud services agreement to extend the term through 2032. Under the amended agreement, we have an annual minimum purchase commitment that ranges from $256 million to $411 million per contract year, and a total minimum purchase commitment of $3.5 billion over the eight-year term. There were no other significant changes outside the ordinary course of business in our purchase obligations during the nine months ended April 30, 2025."
+    },
+    {
+      "block_idx": 551,
+      "char_end": 58133,
+      "char_start": 58101,
+      "is_heading": true,
+      "ordinal": 169,
+      "text": "RECENT ACCOUNTING PRONOUNCEMENTS"
+    },
+    {
+      "block_idx": 552,
+      "char_end": 58381,
+      "char_start": 58135,
+      "is_heading": false,
+      "ordinal": 170,
+      "text": "For a description of recent accounting pronouncements, if any, and the potential impact of these pronouncements on our condensed consolidated financial statements, see Note 1 to the financial statements in Part I, Item 1 of this Quarterly Report."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 574,
+      "char_end": 1050,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "Our businesses routinely encounter and address risks, many of which could cause our future results to be materially different than we presently anticipate. Below, we describe significant factors, events and uncertainties that make an investment in our securities risky, categorized solely for ease of reference as strategic, operational, legal and compliance, and financial risks. The following events and consequences could have a material adverse effect on our business, growth, prospects, financial condition, results of operations, cash flows, liquidity, reputation and credit rating, and the trading price of our common stock could decline. We could also be affected by other events, factors or uncertainties that are presently unknown to us or that we do not currently consider to present significant risks to our business. These risks may be amplified by the effects of global developments and conditions or events, including macroeconomic and geopolitical conditions, which have caused significant global economic instability and uncertainty."
+    },
+    {
+      "block_idx": 575,
+      "char_end": 1067,
+      "char_start": 1052,
+      "is_heading": true,
+      "ordinal": 1,
+      "text": "STRATEGIC RISKS"
+    },
+    {
+      "block_idx": 576,
+      "char_end": 1143,
+      "char_start": 1069,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "We face intense competitive pressures that may harm our operating results."
+    },
+    {
+      "block_idx": 577,
+      "char_end": 2181,
+      "char_start": 1145,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "We face intense competition in all of our businesses, and we expect competition to continue to intensify in the future. Our competitors and potential competitors range from large and established entities to emerging start-ups. Our competitors may introduce superior products and services, successfully use and deploy new technologies such as artificial intelligence (AI) that may reduce customer demand for our products or services, reduce prices, have greater technical, marketing and other resources, have greater name recognition, have larger installed bases of customers, have well-established relationships with our current and potential customers, advertise aggressively or beat us to market with new products and services. In addition, we face competition from existing companies with large established consumer user bases and broad-based platforms, who may change or expand the focus of their business strategies and marketing to target our customers, including small businesses, tax and personal financial management customers."
+    },
+    {
+      "block_idx": 578,
+      "char_end": 2973,
+      "char_start": 2183,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "We also face competition from companies with a variety of business models and monetization strategies, including increased competition from providers of free and low cost offerings, particularly in our tax, accounting, payments and consumer finance platform businesses. We have also introduced free offerings in several categories, but we may not be able to attract and retain customers as effectively as our competitors with different business models. In addition, other providers of free offerings may provide features that we do not offer and customers who have formerly paid for our products and services may elect to use our competitors' free offerings instead. These competitive factors may diminish our revenue and profitability, and harm our ability to acquire and retain customers."
+    },
+    {
+      "block_idx": 579,
+      "char_end": 3997,
+      "char_start": 2975,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "Our consumer tax business also faces significant, increasing competition from the public sector, where we face the risk of federal and state taxing authorities implementing revenue-raising strategies that involve developing and providing government tax software or other government return preparation systems at public expense. These or similar programs have been and may continue to be introduced or expanded in the future, which may change the voluntary compliance tax system in ways that could cause us to lose customers and revenue. For example, the IRS has stated that it will make a free direct filing system, which it piloted in 2024, a permanent option in 2025 and will explore ways to expand eligibility for the program, including partnering with more states. Additionally, the legacy IRS Free File Program enables the IRS to offer free commercial tax software directly to qualifying taxpayers, and taxpayer adoption of this program could expand with increased awareness of and government support for the program."
+    },
+    {
+      "block_idx": 580,
+      "char_end": 4341,
+      "char_start": 3999,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Through these or other programs, federal and state governments are or could become publicly funded direct competitors of the U.S. tax services industry and of Intuit. Government funded services that curtail or eliminate the role of taxpayers in preparing their own taxes could potentially have material and adverse revenue implications on us."
+    },
+    {
+      "block_idx": 581,
+      "char_end": 4538,
+      "char_start": 4343,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "Future revenue growth depends upon our ability to adapt to technological change and successfully extend our platform, introduce new and enhanced products, features, services, and business models."
+    },
+    {
+      "block_idx": 582,
+      "char_end": 5639,
+      "char_start": 4540,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "We operate in industries that are characterized by rapidly changing technology, evolving industry standards and frequent new product introductions. To meet the evolving needs and expectations of our customers and partners and attract and retain top technical talent, we must continue to innovate, develop and extend our platform, introduce new products and features, and enhance our ability to solve customer problems with emerging technologies, such as artificial intelligence. If we are not able to do this successfully, we may face a competitive disadvantage. We have and will continue to devote significant resources to continue to develop our skills, tools and capabilities to capitalize on existing and emerging technologies, including artificial intelligence. There can be no assurance that we or our customers will realize the expected benefits from these investments. Legislation or regulatory changes in these areas may mandate changes in our products that make them less attractive to users and hinder our ability to leverage emerging technologies and build out our platform capabilities."
+    },
+    {
+      "block_idx": 586,
+      "char_end": 6506,
+      "char_start": 5641,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Our consumer and professional tax businesses depend significantly on revenue from customers who return each year to use our updated tax preparation and filing software and services, including customers who use our free consumer tax products and whose tax scenarios evolve in subsequent years to require paid services. Encouraging customers to continue using our products in successive years can become more challenging unless new product releases provide features and functionality that have meaningful incremental value. As we continue to introduce and expand our new business models our customers may not perceive value in the additional benefits and services we offer and may choose not to pay for those additional benefits or we may be unsuccessful in increasing customer adoption of these offerings or our risk profile may change, resulting in loss of revenue."
+    },
+    {
+      "block_idx": 587,
+      "char_end": 7017,
+      "char_start": 6508,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "When customers consent to the use of their data across our platform, we work to provide additional benefits to them through our existing offerings and the creation of new products and services. The growth of our business depends, in part, on our ability to successfully provide customers value in this way. If we are unable to clearly demonstrate the value of these new or upgraded products or services, our ability to build new data-driven products and services may be limited and our revenues may be harmed."
+    },
+    {
+      "block_idx": 588,
+      "char_end": 7952,
+      "char_start": 7019,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "In some cases, we may expend a significant amount of resources and management attention on offerings that do not ultimately succeed in their markets. We have encountered difficulty in launching new products and services in the past. If we misjudge customer needs in the future, our new products and services may not succeed and our revenues and earnings may be harmed. We have also invested, and in the future, expect to invest in new business models, technologies, geographies, strategies and initiatives. Such endeavors may involve significant risks and uncertainties, including a rapidly changing regulatory environment, distraction of management from current operations, expenses associated with the initiatives, inadequate return on investments, and social or ethical scrutiny. Because these new initiatives are inherently risky, they may not be successful and may harm our financial condition, operating results, or reputation."
+    },
+    {
+      "block_idx": 589,
+      "char_end": 8016,
+      "char_start": 7954,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "We rely on intellectual property in our products and services."
+    },
+    {
+      "block_idx": 590,
+      "char_end": 9138,
+      "char_start": 8018,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Many of our products and services include our own intellectual property, as well as the intellectual property of third parties, which we license under agreements that may need to be renewed or renegotiated from time to time. We may not be able to obtain licenses to these third-party technologies or content on reasonable terms, or at all. If we are unable to obtain the rights necessary to use this intellectual property in our products and services, we may not be able to provide the affected offerings, and customers who are currently using the affected product may be disrupted, which may in turn harm our future financial results, damage our brand, and result in customer loss. Also, we and our customers have been and may continue to be subject to infringement claims as a result of the third-party intellectual property incorporated in our offerings, including through our use of AI. Although we try to mitigate this risk and we may not be ultimately liable for any potential infringement, pending claims require us to use significant resources, require management attention and could result in loss of customers."
+    },
+    {
+      "block_idx": 591,
+      "char_end": 9767,
+      "char_start": 9140,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Some of our offerings include third-party software that is licensed under \"open source\" licenses, some of which may include a requirement that, under certain circumstances, we make available, or grant licenses to, any modifications or derivative works we create based upon the open source software. Although we have established internal review and approval processes to mitigate these risks, we cannot be sure that all open source software is submitted for approval prior to use in our products. Many of the risks associated with usage of open source may not be eliminated and, if not properly addressed, may harm our business."
+    },
+    {
+      "block_idx": 592,
+      "char_end": 9909,
+      "char_start": 9769,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Our intellectual property rights are valuable, and any inability to protect them could reduce the value of our products, services and brand."
+    },
+    {
+      "block_idx": 593,
+      "char_end": 10834,
+      "char_start": 9911,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Our patents, trademarks, trade secrets, copyrights, domain names and other intellectual property rights are important assets for us. We aggressively protect our intellectual property rights by relying on federal, state and common law rights in the U.S. and internationally, as well as a variety of administrative procedures. We also rely on contractual restrictions to protect our proprietary rights in products and services. The efforts that we take to protect our proprietary rights may not always be sufficient or effective. In addition, there is uncertainty about the validity and enforceability of intellectual property rights that may result from our use of generative AI. Protecting our intellectual property rights is costly and time consuming and may not be successful in every location. Any significant impairment of our intellectual property rights could harm our business, our brand, and our ability to compete."
+    },
+    {
+      "block_idx": 594,
+      "char_end": 11572,
+      "char_start": 10836,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Policing unauthorized use and copying of our products is difficult, expensive, and time consuming. Current U.S. laws that prohibit copying give us only limited practical protection from software piracy and the laws of many other countries provide very little protection. We frequently encounter unauthorized copies of our software being sold through online marketplaces. Although we continue to evaluate and put in place technology solutions to attempt to lessen the impact of piracy and engage in efforts to educate consumers and public policy leaders on these issues and cooperate with industry groups in their efforts to combat piracy, we expect piracy to be a persistent problem that results in lost revenues and increased expenses."
+    },
+    {
+      "block_idx": 597,
+      "char_end": 11648,
+      "char_start": 11574,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Our business depends on our strong reputation and the value of our brands."
+    },
+    {
+      "block_idx": 598,
+      "char_end": 13083,
+      "char_start": 11650,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Developing and maintaining awareness of our brands and platform strategy is critical to achieving widespread acceptance of our existing and future products and services and is an important element in attracting new customers and expanding our business with existing customers. Adverse publicity (whether or not justified) relating to events or activities attributed to us, members of our workforce, agents, third parties we rely on, or our users, may tarnish our reputation and reduce the value of our brands. Perceived social harm or unfairness of outcomes relating to the use of new and evolving technologies such as AI in our offerings, may result in reputational harm and liability, and may cause us to incur additional research and development costs to resolve such issues. Our brand value also depends on our ability to provide secure and trustworthy products and services, as well as our ability to protect and use our customers' data in a manner that meets their expectations. In addition, a security incident that results in unauthorized disclosure of our customers' sensitive data could cause material reputational harm. Damage to our reputation and loss of brand equity may reduce demand for our products or services and thus have an adverse effect on our future financial results, as well as require additional resources to rebuild our reputation and restore the value of the brands and could also reduce our stock price."
+    },
+    {
+      "block_idx": 599,
+      "char_end": 13230,
+      "char_start": 13085,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "Our efforts related to environment, social, and governance matters expose us to risks that could adversely affect our reputation and performance."
+    },
+    {
+      "block_idx": 600,
+      "char_end": 14197,
+      "char_start": 13232,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "Our environmental, social and governance efforts are subject to numerous risks that may be outside of our control, including our ability to recruit, develop and retain the talent we need, evolving regulatory requirements, and the ability of our suppliers to meet our requirements and standards. In addition, standards for tracking and reporting these matters continue to evolve and we may not be able to implement new and changing standards in ways that meet the expectations of all of our stakeholders. Our failure or perceived failure to meet evolving stakeholder expectations could harm our reputation, adversely impact our ability to attract and retain employees or customers, and expose us to increased scrutiny from the investment community and enforcement authorities. Our reputation also may be harmed by negative perceptions that our customers, employees and other stakeholders may have about our action or inaction on social, ethical, or political issues."
+    },
+    {
+      "block_idx": 601,
+      "char_end": 14378,
+      "char_start": 14199,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Our acquisition and divestiture activities may disrupt our ongoing business, may involve increased expenses and may present risks not contemplated at the time of the transactions."
+    },
+    {
+      "block_idx": 602,
+      "char_end": 14618,
+      "char_start": 14380,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "We have acquired and may continue to acquire companies, products, technologies and talent that complement our strategic direction, both in and outside the United States. Acquisitions involve significant risks and uncertainties, including:"
+    },
+    {
+      "block_idx": 603,
+      "char_end": 14794,
+      "char_start": 14620,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "\u2022inability to successfully integrate the acquired technology, data assets and operations into our business and maintain uniform standards, controls, policies, and procedures;"
+    },
+    {
+      "block_idx": 604,
+      "char_end": 14893,
+      "char_start": 14796,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "\u2022inability to realize synergies or anticipated benefits within the expected time frame or at all;"
+    },
+    {
+      "block_idx": 605,
+      "char_end": 14961,
+      "char_start": 14895,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "\u2022disruption of our ongoing business and distraction of management;"
+    },
+    {
+      "block_idx": 606,
+      "char_end": 15079,
+      "char_start": 14963,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "\u2022challenges retaining the key employees, customers, resellers and other business partners of the acquired operation;"
+    },
+    {
+      "block_idx": 607,
+      "char_end": 15278,
+      "char_start": 15081,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "\u2022the internal control environment of an acquired entity may not be consistent with our standards or with regulatory requirements, and may require significant time and resources to align or rectify;"
+    },
+    {
+      "block_idx": 608,
+      "char_end": 15489,
+      "char_start": 15280,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "\u2022unidentified issues not discovered in our due diligence process, including product or service quality issues, security policies, standards, and practices, intellectual property issues and legal contingencies;"
+    },
+    {
+      "block_idx": 609,
+      "char_end": 15650,
+      "char_start": 15491,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "\u2022failure to successfully further develop an acquired business or technology and any resulting impairment of amounts currently capitalized as intangible assets;"
+    },
+    {
+      "block_idx": 610,
+      "char_end": 15797,
+      "char_start": 15652,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "\u2022risks associated with businesses we acquire or invest in, which may differ from or be more significant than the risks our other businesses face;"
+    },
+    {
+      "block_idx": 611,
+      "char_end": 15980,
+      "char_start": 15799,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "\u2022in the case of foreign acquisitions and investments, the impact of particular economic, tax, currency, political, legal and regulatory risks associated with specific countries; and"
+    },
+    {
+      "block_idx": 612,
+      "char_end": 16279,
+      "char_start": 15982,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "\u2022to the extent we use debt to fund acquisitions or for other purposes, our interest expense and leverage will increase significantly, and to the extent we issue equity securities as consideration in an acquisition, current shareholders' percentage ownership and earnings per share will be diluted."
+    },
+    {
+      "block_idx": 613,
+      "char_end": 16491,
+      "char_start": 16281,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "We have divested and may in the future divest certain assets or businesses that no longer fit with our strategic direction or growth targets. Divestitures involve significant risks and uncertainties, including:"
+    },
+    {
+      "block_idx": 614,
+      "char_end": 16548,
+      "char_start": 16493,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "\u2022inability to find potential buyers on favorable terms;"
+    },
+    {
+      "block_idx": 615,
+      "char_end": 16642,
+      "char_start": 16550,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "\u2022failure to effectively transfer liabilities, contracts, facilities and employees to buyers;"
+    },
+    {
+      "block_idx": 616,
+      "char_end": 16737,
+      "char_start": 16644,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "\u2022requirements that we retain or indemnify buyers against certain liabilities and obligations;"
+    },
+    {
+      "block_idx": 617,
+      "char_end": 16838,
+      "char_start": 16739,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "\u2022the possibility that we will become subject to third-party claims arising out of such divestiture;"
+    },
+    {
+      "block_idx": 618,
+      "char_end": 17013,
+      "char_start": 16840,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "\u2022challenges in identifying and separating the intellectual property, systems and data to be divested from the intellectual property, systems and data that we wish to retain;"
+    },
+    {
+      "block_idx": 621,
+      "char_end": 17107,
+      "char_start": 17015,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "\u2022inability to reduce fixed costs previously associated with the divested assets or business;"
+    },
+    {
+      "block_idx": 622,
+      "char_end": 17169,
+      "char_start": 17109,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "\u2022challenges in collecting the proceeds from any divestiture;"
+    },
+    {
+      "block_idx": 623,
+      "char_end": 17237,
+      "char_start": 17171,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "\u2022disruption of our ongoing business and distraction of management;"
+    },
+    {
+      "block_idx": 624,
+      "char_end": 17308,
+      "char_start": 17239,
+      "is_heading": true,
+      "ordinal": 43,
+      "text": "\u2022loss of key employees who leave us as a result of a divestiture; and"
+    },
+    {
+      "block_idx": 625,
+      "char_end": 17697,
+      "char_start": 17310,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "\u2022if customers or partners of the divested business do not receive the same level of service from the new owners, or the new owners do not handle the customer data with the same level of care, our other businesses may be adversely affected, to the extent that these customers or partners also purchase other products offered by us or otherwise conduct business with our retained business."
+    },
+    {
+      "block_idx": 626,
+      "char_end": 18846,
+      "char_start": 17699,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "In addition, any acquisition or divestiture that we announce may not be completed if closing conditions are not satisfied. Evolving regulatory expectations may make it more challenging to obtain any required regulatory approval. Because acquisitions and divestitures are inherently risky, our transactions may not be successful and may, in some cases, harm our operating results or financial condition. In particular, if we are unable to successfully operate together with any company that we acquire to achieve shared growth opportunities or combine reporting or other processes within the expected time frame or at all, there may be a material and adverse effect on the benefits that we expect to achieve as a result of the acquisition, and we could experience additional costs or loss of revenue. Moreover, adverse changes in market conditions and other factors, including those listed above, may cause an acquisition to be dilutive to Intuit's operating earnings per share for a period of time. Any dilution of our non-GAAP diluted earnings per share could cause the price of shares of Intuit Common Stock to decline or grow at a reduced rate."
+    },
+    {
+      "block_idx": 627,
+      "char_end": 18865,
+      "char_start": 18848,
+      "is_heading": true,
+      "ordinal": 46,
+      "text": "OPERATIONAL RISKS"
+    },
+    {
+      "block_idx": 628,
+      "char_end": 19050,
+      "char_start": 18867,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Security incidents, improper access to or disclosure of our data or customers' data, or other cyberattacks on our systems could harm our reputation, business, and financial condition."
+    },
+    {
+      "block_idx": 629,
+      "char_end": 19664,
+      "char_start": 19052,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "We host, collect, use and retain large amounts of sensitive and personal customer and workforce data, including credit card information, tax return information, bank account numbers, credit report information, login credentials and passwords, personal and business financial data and transactions data, social security numbers and payroll information, as well as our confidential, nonpublic business information. Although we expend significant resources to implement security protections designed to shield this data against potential theft and security incidents, such measures cannot provide absolute security."
+    },
+    {
+      "block_idx": 630,
+      "char_end": 21628,
+      "char_start": 19666,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Our technologies, systems, and networks have been subject to, and are increasingly likely to continue to be the target of, cyberattacks, computer viruses, ransomware or other malware, worms, social engineering, malicious software programs, insider threats, denial-of-service attacks and other cybersecurity threats that have in the past, and could in the future, result in the unauthorized release, gathering, monitoring, use, loss or destruction of sensitive and personal data of our customers and our workforce, or Intuit's sensitive business data or cause temporary or sustained unavailability of our data, software, and systems. Cybersecurity incidents can be caused by malicious third parties, acting alone or in groups, or more sophisticated organizations, including nation-states or state-sponsored organizations, and the risks could be elevated in connection with significant armed conflicts, acts of war or terrorism. Customers who fail to update their systems, continue to run software that we no longer support, fail to install security patches on a timely basis or inadequately use security controls create vulnerabilities and make it more difficult for us to detect and prevent these kinds of attacks. We are increasingly incorporating open source software into our products, and there may be vulnerabilities in open source software that make it susceptible to cyberattacks. In addition, techniques used to obtain unauthorized access to sensitive information change frequently and, as technologies like AI develop rapidly, malicious third parties are using these technologies to create new sophisticated attack methods that are increasingly automated, targeted and coordinated and more difficult to defend against. We have and may in the future be a more frequent target of cyberattacks because cyber-criminals tend to focus their efforts on well-known offerings that are popular among customers and hold sensitive personal or financial information."
+    },
+    {
+      "block_idx": 631,
+      "char_end": 22601,
+      "char_start": 21630,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Further, the security measures that we implement may not be able to prevent unauthorized access to our products and our customers' account data. Malicious third parties have in the past, and may in the future, be able to fraudulently induce members of our workforce, customers, vendors, partners, or users by social engineering means, such as email phishing, to disclose sensitive information in order to gain access to our systems. Unauthorized access to or disclosure of customer data may occur due to inadequate use of security controls by our customers or our workforce. Accounts created with weak or recycled passwords could allow cyber-attackers to gain access to customer data. Unauthorized persons could gain access to customer accounts if customers do not maintain effective access controls of their systems and software. Inadvertent exposure of data or access to our systems may also be caused by members of our workforce, including by their error or use of AI."
+    },
+    {
+      "block_idx": 632,
+      "char_end": 23678,
+      "char_start": 22603,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Criminals may also use stolen identity information obtained outside of our systems to gain unauthorized access to our customers' data. We have experienced such instances in the past and as the accessibility of stolen identity information increases, generally, we may experience further instances of unauthorized access to our systems through the use of stolen identity information of our customers or our workforce in the future. Further, our customers may choose to use the same login credentials across multiple products and services unrelated to our products. Such customers' login credentials may be stolen from products offered by third-party service providers unrelated to us and the stolen identity information may be used by a malicious third party to access our products, which could result in disclosure of confidential information. In addition, our hybrid workplace model, where our workforce spends a portion of their time working remotely, increases the potential attack surfaces and introduces operational complexity that exacerbates our security-related risks."
+    },
+    {
+      "block_idx": 636,
+      "char_end": 24847,
+      "char_start": 23680,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Further, because we have created an ecosystem where customers can have one identity across multiple Intuit products, a security incident may give access to increased amounts of customer data. From time to time, we detect, or receive notices from customers or public or private agencies that they have detected, actual or perceived vulnerabilities in our infrastructure, our software or third-party software components that are distributed with our products or fraudulent activity by unauthorized persons utilizing our products with stolen customer identity information. The existence of such vulnerabilities or fraudulent activity, even if they do not result in a security breach, may undermine customer confidence as well as the confidence of government agencies that regulate our offerings. Such perceived vulnerabilities could also seriously harm our business by tarnishing our reputation and brand and limiting the adoption of our products and services and could cause our stock price to decline. In some cases, such vulnerabilities may not be immediately detected, which could exacerbate the risk of a security incident and the related effects on our businesses."
+    },
+    {
+      "block_idx": 637,
+      "char_end": 25277,
+      "char_start": 24849,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "While we maintain cybersecurity insurance, our insurance may not be sufficient to cover all liabilities described herein. The occurrence of any of the foregoing may result in disclosure of confidential information, loss of customer confidence in our products, possible litigation, material harm to our reputation and financial condition, disruption of our or our customers' business operations, and a decline in our stock price."
+    },
+    {
+      "block_idx": 638,
+      "char_end": 25841,
+      "char_start": 25279,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Additionally, Credit Karma is subject to an order issued in 2014 by the Federal Trade Commission (FTC) that, among other things, requires maintenance of a comprehensive security program relating to the development and management of new and existing products and services and biennial independent security assessments for 20 years from the date of the order. Credit Karma's failure to fulfill the requirements of the FTC's order could result in fines, penalties, enforcement inquiries, investigations and claims, and negatively impact our business and reputation."
+    },
+    {
+      "block_idx": 639,
+      "char_end": 26036,
+      "char_start": 25843,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "A cybersecurity incident affecting the third parties we rely on could expose us or our customers to a risk of loss or misuse of confidential information and significantly damage our reputation."
+    },
+    {
+      "block_idx": 640,
+      "char_end": 26548,
+      "char_start": 26038,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "We depend on a number of third parties, including vendors, developers and partners who are critical to our business. We or our customers may grant access to customer data to these third parties to help deliver customer benefits, or to host certain of our and our customers' sensitive and personal data. In addition, we share sensitive, nonpublic business information (including, for example, materials relating to financial, business and legal strategies) with other vendors in the ordinary course of business."
+    },
+    {
+      "block_idx": 641,
+      "char_end": 27803,
+      "char_start": 26550,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "While we conduct background checks of our workforce, conduct reviews of partners, developers and vendors and use commercially available technologies to limit access to systems and data, it is possible that malicious third parties may misrepresent their intended use of data or may circumvent our controls, resulting in accidental or intentional disclosure or misuse of our customer or workforce data. Further, while we conduct due diligence on the security and business controls of our third-party partners, we may not have the ability to effectively monitor or oversee the implementation of these control measures. Malicious third parties may be able to circumvent these security and business controls or exploit vulnerabilities that may exist in these controls, resulting in the disclosure or misuse of sensitive business and personal customer or workforce information and data. In addition, malicious actors may attempt to use the information technology supply chain to compromise our systems by, for example, introducing malware through software updates. This risk is exacerbated with the advancement of technologies like AI, which malicious third parties are using to create new, sophisticated and more frequent attacks on our third-party partners."
+    },
+    {
+      "block_idx": 642,
+      "char_end": 28543,
+      "char_start": 27805,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "A security incident involving third parties we rely on may have serious negative consequences for our businesses, including disclosure of sensitive customer or workforce data, or confidential or competitively sensitive information regarding our business, including intellectual property and other proprietary data; make our products more vulnerable to fraudulent activity; cause temporary or sustained unavailability of our software and systems; result in possible litigation, fines, penalties and damages; result in loss of customer confidence; cause material harm to our reputation and brands; lead to further regulation and oversight by federal or state agencies; cause adverse financial condition; and result in a reduced stock price."
+    },
+    {
+      "block_idx": 643,
+      "char_end": 28720,
+      "char_start": 28545,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Concerns about the current cybersecurity environment, generally, could deter current and potential customers from adopting our products and services and damage our reputation."
+    },
+    {
+      "block_idx": 644,
+      "char_end": 29933,
+      "char_start": 28722,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "The continued occurrence of cybersecurity incidents affecting governments, businesses and consumers in general indicates that we operate in an external environment where cybersecurity incidents are becoming increasingly common. If the global cybersecurity environment worsens, and there are increased instances of security breaches of third-party offerings where consumers' data and sensitive information is compromised, consumers may be less willing to use online offerings, particularly offerings like ours in which customers often share sensitive financial data. Additionally, political uncertainty and military actions may subject us and our service providers to heightened risks of security incidents. In addition, the increased availability of data obtained as a result of cybersecurity incidents affecting third-party offerings could make our own products more vulnerable to fraudulent activity. Even if our products are not affected directly by such incidents, any such incident could damage our reputation and deter current and potential customers from adopting our products and services or lead customers to cease using online and connected software products to transact financial business altogether."
+    },
+    {
+      "block_idx": 645,
+      "char_end": 30225,
+      "char_start": 29935,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "If we are unable to effectively combat the increasing amount and sophistication of fraudulent activities by malicious third parties, we may suffer losses, which may be substantial, and lose the confidence of our customers and government agencies and our revenues and earnings may be harmed."
+    },
+    {
+      "block_idx": 648,
+      "char_end": 31975,
+      "char_start": 30227,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Many of the industries in which we operate have been experiencing an increasing amount of fraudulent activities by malicious third parties, and those fraudulent activities are becoming increasingly sophisticated. We have been and may from time to time become targeted by such malicious third parties engaging in fraudulent activities. Any such fraudulent activities may adversely impact our tax, payroll, payments, lending, marketing automation and personal financial management businesses, and the risk is heightened when our workforce is working remotely under our hybrid work model. In addition to any losses that may result from such fraud, which may be substantial, a loss of confidence by our customers or by governmental agencies in our ability to prevent fraudulent activity may seriously harm our business and damage our brand. If we cannot adequately combat such fraudulent activity, governmental authorities may refuse to allow us to continue to offer the affected services, or these services may otherwise be adversely impacted, which could include federal or state tax authorities refusing to allow us to process our customers' tax returns electronically, resulting in a significant adverse impact on our business, earnings, and revenue. As fraudulent activities become more pervasive and increasingly sophisticated, our fraud detection and prevention measures must become correspondingly more complex to combat them across the various industries in which we operate. Accordingly, we have implemented and may continue to implement risk control mechanisms that could make it more difficult for legitimate customers to obtain and use our products. These control mechanisms could result in lost revenue and negatively impact our earnings."
+    },
+    {
+      "block_idx": 649,
+      "char_end": 32134,
+      "char_start": 31977,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "If we fail to process transactions effectively or fail to adequately protect against disputed or potential fraudulent activities, our business may be harmed."
+    },
+    {
+      "block_idx": 650,
+      "char_end": 33281,
+      "char_start": 32136,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "Our operations process a significant volume and dollar value of transactions on a daily basis, especially in our money and personal financial management businesses. Despite our efforts to ensure that effective processing systems and controls are in place to handle transactions appropriately, it is possible that we may make errors or that funds may be misappropriated due to fraud. The likelihood of any such error or misappropriation is magnified as we increase the volume and speed of the transactions we process. If we are unable to effectively manage our systems and processes, or if there is an error in our products, we may be unable to process customer data in an accurate, reliable and timely manner, which may harm our reputation, the willingness of customers to use our products, and our financial results. In our payments processing service business, if a disputed transaction between a merchant and its customer is not resolved in favor of the merchant, we may be required to pay those amounts to the payment or credit card network and these payments may exceed the amount of the customer reserves established to make such payments."
+    },
+    {
+      "block_idx": 651,
+      "char_end": 33500,
+      "char_start": 33283,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Business interruption or failure of our information technology and communication systems may impair the availability of our products and services, which may damage our reputation and harm our future financial results."
+    },
+    {
+      "block_idx": 652,
+      "char_end": 34501,
+      "char_start": 33502,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Our reputation and ability to attract, retain and serve our customers is dependent upon the reliable performance of our products and our underlying technical infrastructure. As we continue to grow our online services, we become more dependent on the continuing operation and availability of our information technology and communications systems and those of our external service providers, including, for example, third-party Internet-based or cloud computing services. We do not have redundancy for all of our systems, and our disaster recovery planning may not account for all eventualities. We have designed a significant portion of our software and computer systems to utilize data processing and storage capabilities provided by public cloud providers. If any public cloud service that we use is unavailable to us for any reason, our customers may not be able to access certain of our cloud products or features, which could significantly impact our operations, business, and financial results."
+    },
+    {
+      "block_idx": 653,
+      "char_end": 34784,
+      "char_start": 34503,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Failure of our systems or those of our third-party service providers, may result in interruptions in our service and loss of data or processing capabilities, all of which may cause a loss in customers, refunds of product fees, material harm to our reputation and operating results."
+    },
+    {
+      "block_idx": 654,
+      "char_end": 35486,
+      "char_start": 34786,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Our tax businesses must effectively handle extremely heavy customer demand during critical peak periods. We face significant risks in maintaining adequate service levels during these peak periods when we have historically derived a substantial portion of our overall revenue from the tax businesses. Any interruptions in our online tax preparation or electronic filing service at any time during the tax season, particularly during a peak period, could result in significantly decreased revenue, lost customers, unexpected refunds of customer charges, negative publicity and increased operating costs, any of which could significantly harm our business, financial condition and results of operations."
+    },
+    {
+      "block_idx": 655,
+      "char_end": 36207,
+      "char_start": 35488,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "We rely on internal systems and external systems maintained by manufacturers, distributors and other service providers to take and fulfill customer orders, handle customer service requests and host certain online activities. Any interruption or failure of our internal or external systems may prevent us or our service providers from accepting and fulfilling customer orders or cause company and customer data to be unintentionally disclosed. Our continuing efforts to upgrade and expand our network security and other information systems as well as our high-availability capabilities are costly, and problems with the design or implementation of system enhancements may harm our business and our results of operations."
+    },
+    {
+      "block_idx": 656,
+      "char_end": 37006,
+      "char_start": 36209,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Our business operations, information technology and communications systems are vulnerable to damage or interruption from natural disasters, effects of climate change, human error, malicious attacks, fire, power loss, telecommunications failures, computer viruses and malware, computer denial of service attacks, terrorist attacks, public health emergencies and other events beyond our control. For example, we operate under a hybrid workplace model where our workforce spends a portion of their time working in our offices and a portion of their time working remotely. This model has introduced risks of disruptions to our operations, which may impair our ability to perform critical functions or could make it considerably more difficult to develop, enhance and support our products and services."
+    },
+    {
+      "block_idx": 659,
+      "char_end": 37668,
+      "char_start": 37008,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "In addition, since our corporate headquarters and other critical business operations are located near major seismic faults, our recovery in the event of a major earthquake or other catastrophic event may require us to expend significant time and resources and may adversely affect our financial condition and operating results. Further, the adverse effects of any such adverse event would be exacerbated if experienced at the same time as another unexpected and adverse event. In the event of a major natural or man-made disaster, our insurance coverage may not completely compensate us for our losses and our future financial results may be materially harmed."
+    },
+    {
+      "block_idx": 660,
+      "char_end": 37980,
+      "char_start": 37670,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "We regularly invest resources to update and improve our internal information technology systems and software platforms. Should our investments not succeed, or if delays or other issues with new or existing internal technology systems and software platforms disrupt our operations, our business could be harmed."
+    },
+    {
+      "block_idx": 661,
+      "char_end": 39174,
+      "char_start": 37982,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "We rely on our network infrastructure, data hosting, public cloud and software-as-a-service providers, and internal technology systems for many of our development, marketing, operational, support, sales, accounting and financial reporting activities. We are continually investing resources to update and improve these systems and environments in order to meet existing needs, as well as the growing and changing requirements of our business and customers. If we experience prolonged delays or unforeseen difficulties in updating and upgrading our systems and architecture, we may experience outages, defects or other performance problems, and may not be able to deliver certain offerings and develop new offerings and enhancements that we need to remain competitive. Such improvements and upgrades are often complex, costly and time consuming. In addition, such improvements can be challenging to integrate with our existing technology systems, or may uncover problems with our existing technology systems. Unsuccessful implementation of hardware or software updates and improvements could result in outages, disruption in our business operations, loss of revenue or damage to our reputation."
+    },
+    {
+      "block_idx": 662,
+      "char_end": 39309,
+      "char_start": 39176,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "If we are unable to develop, manage and maintain critical third-party business relationships, our business may be adversely affected."
+    },
+    {
+      "block_idx": 663,
+      "char_end": 41076,
+      "char_start": 39311,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Our growth is increasingly dependent on the strength of our business relationships and our ability to continue to develop, manage and maintain new and existing relationships with third-party partners. We rely on various third-party partners, including software and service providers, platforms, suppliers, credit reporting bureaus, vendors, manufacturers, distributors, accountants, contractors, financial institutions, core processors, licensing partners and development partners, among others, in many areas of our business in order to deliver our offerings and operate our business. Credit Karma generates revenue from its relationships with financial institutions and other partners, which are subject to particular risks that affect their willingness to offer their products on Credit Karma's platform, such as adverse economic conditions, evolving limitations on their capacity to offer products on the platform, the introduction of competing products on their platforms, and an increasing complexity in the regulatory environment. We also rely on third parties to support the operation of our business by maintaining our physical facilities, equipment, power systems and infrastructure. In certain instances, these third-party relationships are sole source or limited source relationships and can be difficult to replace or substitute depending on the level of integration of the third party's products or services into, or with, our offerings and/or the general availability of such third party's products and services. In addition, there may be few or no alternative third-party providers or vendors in the market. Further, there can be no assurance that we will be able to adequately retain third-party contractors engaged to help us operate our business."
+    },
+    {
+      "block_idx": 664,
+      "char_end": 42124,
+      "char_start": 41078,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Additionally, the business operations of our third-party partners and the third-party partners who support them have been and could continue to be disrupted, including as a result of uncertain macroeconomic conditions and global health crises, such as pandemics and endemics. If our third-party partners are unable to help us operate our business or prevent us from delivering critical services to our customers or accepting and fulfilling customer orders, our business and financial results may be negatively impacted. The failure of third parties to provide acceptable and high quality products, services and technologies or to update their products, services and technologies may result in a disruption to our business operations and our customers, which may reduce our revenues and profits, cause us to lose customers and damage our reputation. Alternative arrangements and services may not be available to us on commercially reasonable terms or at all, or we may experience business interruptions upon a transition to an alternative partner."
+    },
+    {
+      "block_idx": 665,
+      "char_end": 42958,
+      "char_start": 42126,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "In particular, we have relationships with banks, credit unions and other financial institutions that support certain critical services we offer to our customers. If macroeconomic conditions or other factors cause any of these institutions to fail, consolidate, stop providing certain services or institute cost-cutting efforts, or give rise to speculation relating to such events, we may be unable to offer those services to our customers, in which case our business and financial results may suffer. For example, if one of the counterparty financial institutions with whom we have significant deposits were to become insolvent, placed into receivership, or file for bankruptcy, our ability to recover our assets from such counterparty may be limited, which could negatively impact our results of operations and financial condition."
+    },
+    {
+      "block_idx": 666,
+      "char_end": 43523,
+      "char_start": 42960,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Although we have strict standards for our suppliers and business partners to comply with the law and company policies regarding workplace and employment practices, data use and security, environmental compliance, intellectual property licensing and other applicable regulatory and compliance requirements, we cannot control their day-to-day practices. Any violation of laws or implementation of practices regarded as unethical could result in supply chain disruptions, canceled orders, terminations of or damage to key relationships, and damage to our reputation."
+    },
+    {
+      "block_idx": 667,
+      "char_end": 44069,
+      "char_start": 43525,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "We increasingly utilize the distribution platforms of third parties like Apple's App Store and Google's Play Store for the distribution of certain of our product offerings. Although we benefit from the strong brand recognition and large user base of these distribution platforms to attract new customers, the platform owners have wide discretion to change the pricing structure, terms of service and other policies with respect to us and other developers. Any adverse changes by these third parties could adversely affect our financial results."
+    },
+    {
+      "block_idx": 671,
+      "char_end": 44243,
+      "char_start": 44071,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Competition for our key employees is intense and we may not be able to attract, retain and develop the highly skilled employees we need to support our strategic objectives."
+    },
+    {
+      "block_idx": 672,
+      "char_end": 45749,
+      "char_start": 44245,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Much of our future success depends on the continued service and availability of skilled employees, including members of our executive team, and those in technical and other key positions. Experienced individuals with skill sets in software as a service, financial technology, mobile technologies, data science, artificial intelligence and data security are in high demand and we have faced and will continue to face intense competition globally to attract and retain a diverse workforce with these and other skills that are critical to our success. This is especially the case in California and India where a significant number of our employees are located. The compensation and incentives we have available to attract, retain and motivate employees may not meet the expectations of current and prospective employees as the competition for talent intensifies. For example, our equity awards may become less effective if our stock price decreases or increases at a slower rate than our talent competitors. In addition, our ability to issue significant additional equity to attract or retain employees may be limited by the risks of dilution to our existing stockholders and the related increase in our expenses. We may experience higher compensation costs to retain and recruit senior management and highly-skilled employees that may not be offset by improved productivity or revenue. Other factors may make it more challenging for us to continue to successfully attract, retain and develop key employees."
+    },
+    {
+      "block_idx": 673,
+      "char_end": 45930,
+      "char_start": 45751,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Uncertainty in the development, deployment, and use of artificial intelligence in our platform and products and by our customers may result in harm to our business and reputation."
+    },
+    {
+      "block_idx": 674,
+      "char_end": 47281,
+      "char_start": 45932,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "We continue to build and invest in systems and tools that incorporate AI technologies, including generative AI for customers, experts, and our workforce. We also use third parties to support this work. As with many innovations, AI presents risks, uncertainties, and challenges that could adversely impact our business. The development, adoption, and use for generative AI technologies are still in their early stages, and ineffective or inadequate AI development or deployment practices by Intuit or third-party developers or vendors could result in unintended consequences. For example, AI algorithms that we use may be flawed or may be based on datasets that are biased or insufficient. In addition, any latency, disruption, or failure in our AI systems or infrastructure could result in delays or errors in our offerings. Developing, testing, and deploying resource-intensive AI systems may require additional investment and increase our costs. There also may be real or perceived social harm, unfairness, or other outcomes that undermine public confidence in the use and deployment of AI. In addition, third parties may deploy AI technologies in a manner that reduces customer demand for our products and services. Any of the foregoing may result in decreased demand for our products or harm to our business, results of operations or reputation."
+    },
+    {
+      "block_idx": 675,
+      "char_end": 47975,
+      "char_start": 47283,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "The legal and regulatory landscape surrounding AI technologies is rapidly evolving and uncertain including in the areas of intellectual property, cybersecurity, and privacy and data protection. In addition, there is uncertainty around the validity and enforceability of intellectual property rights related to our use, development, and deployment of AI. Compliance with new or changing laws, regulations or industry standards relating to AI may impose significant operational costs and may limit our ability to develop, deploy or use AI technologies. Failure to appropriately respond to this evolving landscape may result in legal liability, regulatory action, or brand and reputational harm."
+    },
+    {
+      "block_idx": 676,
+      "char_end": 48123,
+      "char_start": 47977,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "If we experience significant product accuracy or quality problems or delays in product launches, it may harm our revenue, earnings and reputation."
+    },
+    {
+      "block_idx": 677,
+      "char_end": 51578,
+      "char_start": 48125,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "Our customers rely on the accuracy of our offerings. All of our tax products and many of our non-tax products have rigid development timetables that increase the risk of errors in our products and the risk of launch delays. Our tax preparation software product development cycle is particularly challenging due to the need to incorporate unpredictable, ambiguous, and potentially late tax law and tax form changes each year and because our customers expect high levels of accuracy and a timely launch of these products to prepare and file their taxes by the tax filing deadline. Due to the complexity of our products and the condensed development cycles under which we operate, our products may contain errors that could unexpectedly interfere with the operation of the software or result in incorrect calculations. The complexity of the tax laws on which our products are based may also make it difficult for us to consistently deliver offerings that contain the features, functionality and level of accuracy that our customers expect. When we encounter problems, we may be required to modify our code, work with state tax administrators to communicate with affected customers, assist customers with amendments, distribute patches to customers who have already purchased the product and recall or repackage existing product inventory in our distribution channels. If we encounter development challenges or discover errors in our products either late in our development cycle or after release, it may cause us to delay our product launch date or suspend product availability until such issues can be fixed. Any major defects, launch delays or product suspensions may lead to loss of customers and revenue, negative publicity, customer and employee dissatisfaction, reduced retailer shelf space and promotions, and increased operating expenses, such as inventory replacement costs, legal fees or other payments, including those resulting from our accuracy guarantee in our tax preparation products. For example, an error in our tax products could cause a compliance error for taxpayers, including the over or underpayment of their federal or state tax liability. While our accuracy guarantee commits us to reimburse penalties and interest paid by customers due solely to calculation errors in our tax preparation products, such errors may result in additional burdens on third parties that we may need to address or that may cause us to suspend the availability of our products until such errors are addressed. This could also affect our reputation, the willingness of customers to use our products, and our financial results. Further, as we develop our platform to connect people to experts, such as connecting TurboTax customers with tax experts through our TurboTax Live offering, or connecting QuickBooks customers with bookkeepers through our QuickBooks Live offering, we face the risk that these experts may provide advice that is erroneous, ineffective or otherwise unsuitable. Any such deficiency in the advice given by these experts may cause harm to our customers, a loss of customer confidence in our offerings or harm to our reputation or financial results. Moreover, as we continue to incorporate emerging technologies, like AI, into our offerings, they may not function as designed or have unintended consequences, any of which could subject us to new or enhanced competitive harm, legal liability, regulatory scrutiny or reputational harm."
+    },
+    {
+      "block_idx": 681,
+      "char_end": 51712,
+      "char_start": 51580,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Our international operations are subject to increased risks which may harm our business, operating results, and financial condition."
+    },
+    {
+      "block_idx": 682,
+      "char_end": 51917,
+      "char_start": 51714,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "In addition to uncertainty about our ability to generate revenues from our foreign operations and expand into international markets, there are risks inherent in doing business internationally, including:"
+    },
+    {
+      "block_idx": 683,
+      "char_end": 52216,
+      "char_start": 51919,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "\u2022different or more restrictive privacy, data protection, data localization, and other laws that could require us to make changes to our products, services and operations, such as mandating that certain types of data collected in a particular country be stored and/or processed within that country;"
+    },
+    {
+      "block_idx": 684,
+      "char_end": 52390,
+      "char_start": 52218,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "\u2022difficulties in developing, staffing, and simultaneously managing a large number of varying foreign operations as a result of distance, language, and cultural differences;"
+    },
+    {
+      "block_idx": 685,
+      "char_end": 52436,
+      "char_start": 52392,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "\u2022stringent local labor laws and regulations;"
+    },
+    {
+      "block_idx": 686,
+      "char_end": 52486,
+      "char_start": 52438,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "\u2022credit risk and higher levels of payment fraud;"
+    },
+    {
+      "block_idx": 687,
+      "char_end": 52566,
+      "char_start": 52488,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "\u2022profit repatriation restrictions, and foreign currency exchange restrictions;"
+    },
+    {
+      "block_idx": 688,
+      "char_end": 52999,
+      "char_start": 52568,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "\u2022geopolitical events, including natural disasters or severe weather events (including those caused or exacerbated by climate change), acts of war and terrorism (including the conflict in the Middle East) and any related military, political or economic responses, and public health emergencies, including divergent governmental responses thereto affecting the jurisdictions in which we operate or maintain a workforce or facilities;"
+    },
+    {
+      "block_idx": 689,
+      "char_end": 53114,
+      "char_start": 53001,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "\u2022compliance with sanctions and import or export regulations, including those arising from the Russia-Ukraine war;"
+    },
+    {
+      "block_idx": 690,
+      "char_end": 53320,
+      "char_start": 53116,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "\u2022compliance with the U.S. Foreign Corrupt Practices Act, the U.K. Bribery Act, and laws and regulations of other jurisdictions prohibiting corrupt payments to government officials and other third parties;"
+    },
+    {
+      "block_idx": 691,
+      "char_end": 53361,
+      "char_start": 53322,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "\u2022antitrust and competition regulations;"
+    },
+    {
+      "block_idx": 692,
+      "char_end": 53401,
+      "char_start": 53363,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "\u2022potentially adverse tax developments;"
+    },
+    {
+      "block_idx": 693,
+      "char_end": 53473,
+      "char_start": 53403,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "\u2022economic uncertainties relating to European sovereign and other debt;"
+    },
+    {
+      "block_idx": 694,
+      "char_end": 53524,
+      "char_start": 53475,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "\u2022trade barriers and changes in trade regulations;"
+    },
+    {
+      "block_idx": 695,
+      "char_end": 53616,
+      "char_start": 53526,
+      "is_heading": true,
+      "ordinal": 101,
+      "text": "\u2022political or social unrest, economic instability, repression, or human rights issues; and"
+    },
+    {
+      "block_idx": 696,
+      "char_end": 53703,
+      "char_start": 53618,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "\u2022risks related to other government regulation or required compliance with local laws."
+    },
+    {
+      "block_idx": 697,
+      "char_end": 54411,
+      "char_start": 53705,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "Violations of the rapidly evolving and complex foreign and U.S. laws and regulations that apply to our international operations may result in fines, criminal actions or sanctions against us, our officers or our broader workforce, prohibitions on the conduct of our business and damage to our reputation. Although we have implemented policies and procedures designed to promote compliance with these laws, we cannot be sure that our workforce, contractors and agents are in compliance with our policies. These risks inherent in our international operations and expansion increase our costs of doing business internationally and may result in harm to our business, operating results, and financial condition."
+    },
+    {
+      "block_idx": 698,
+      "char_end": 54463,
+      "char_start": 54413,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Climate change may have an impact on our business."
+    },
+    {
+      "block_idx": 699,
+      "char_end": 56155,
+      "char_start": 54465,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "While we seek to mitigate our business risks associated with climate change by establishing robust environmental programs and partnering with organizations that are also focused on mitigating their own climate-related risks, we recognize that there are inherent climate-related risks wherever business is conducted. Any of our primary workplace locations may be vulnerable to the adverse effects of climate change. For example, our offices globally have historically experienced, and are projected to continue to experience, climate-related events at an increasing frequency, including drought, water scarcity, heat waves, cold waves, wildfires and resultant air quality impacts and power shutoffs associated with wildfire prevention. Furthermore, it is more difficult to mitigate the impact of these events on our employees to the extent they work from home. Changing market dynamics, global policy developments and the increasing frequency and impact of extreme weather events on critical infrastructure in the U.S. and elsewhere have the potential to disrupt our business, the business of our third-party suppliers and the business of our customers, and may cause us to experience higher attrition, losses and additional costs to maintain or resume operations. We also expect to face increasing regulatory requirements and regulatory scrutiny related to climate matters, resulting in higher associated compliance costs. Additionally, failure to uphold, meet or make timely forward progress against our public commitments and goals related to climate action could adversely affect our reputation with suppliers and customers, financial performance or ability to recruit and retain talent."
+    },
+    {
+      "block_idx": 702,
+      "char_end": 56183,
+      "char_start": 56157,
+      "is_heading": true,
+      "ordinal": 106,
+      "text": "LEGAL AND COMPLIANCE RISKS"
+    },
+    {
+      "block_idx": 703,
+      "char_end": 56312,
+      "char_start": 56185,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "Increasing and changing regulation of our businesses may adversely affect our ability to operate or harm our operating results."
+    },
+    {
+      "block_idx": 704,
+      "char_end": 57031,
+      "char_start": 56314,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "We are subject to an increasing number of local, state, federal, and international laws, regulations, and rules and standards. These relate to, without limitation, labor, advertising and marketing, tax, financial services, artificial intelligence, data privacy and security, electronic funds transfer, money transmission, lending, digital content, consumer protection, real estate, billing, e-commerce, promotions, quality of services, intellectual property ownership and infringement, import and export requirements, anti-bribery and anti-corruption, insurance, foreign exchange controls and cash repatriation restrictions, antitrust and competition, environmental, health and safety, and other regulated activities."
+    },
+    {
+      "block_idx": 705,
+      "char_end": 58499,
+      "char_start": 57033,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "These laws and regulations are not consistent across jurisdictions and are subject to change and evolving interpretations, and new or amended laws, regulations, executive orders, directives, policies, and enforcement priorities may affect our business. As we expand our products and services and evolve our business models, we have, and may in the future, become subject to additional changing regulations and heightened regulatory scrutiny. Our ability to adopt emerging technologies, including AI, and to innovate for our customers and operate our business may be harmed by the uncertainty and complexity created by the evolving legal and regulatory environment. For example, in August 2024, the European Union's Artificial Intelligence Act (\"AI Act\") went into force regulating AI systems that affect individuals located in the EU. Around the same time, California also enacted various laws relating to transparency, privacy, and fairness in the use and development of AI. Compliance with these laws, and similar emerging laws, may add significant costs to our business and may require us to change certain business practices to comply. In addition, some of our offerings, such as our lending and payments products, require licenses to operate. Our inability to obtain or maintain a license, or to comply with current or new license requirements, may materially harm our ability to operate in specific jurisdictions or subject us to regulatory fines or penalties."
+    },
+    {
+      "block_idx": 706,
+      "char_end": 59945,
+      "char_start": 58501,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "The tax preparation industry continues to receive heightened attention from federal and state governments. New legislation, regulation, public policy considerations, changes in the cybersecurity environment, litigation by the government or private entities, changes to or new interpretations of existing laws may result in greater oversight of the tax preparation industry, restrict the types of products and services that we can offer or the prices we can charge, or otherwise cause us to change the way we operate our tax businesses or offer our tax products and services. We may not be able to respond quickly to such regulatory, legislative and other developments, and these changes may in turn increase our cost of doing business and limit our revenue opportunities. In addition, if our practices are not consistent with new interpretations of existing laws, we may become subject to lawsuits, penalties, and other liabilities that did not previously apply. We are also required to comply with a variety of state revenue agency standards in order to successfully operate our tax preparation and electronic filing services. Changes in state-imposed requirements by one or more of the states, including the required use of specific technologies or technology standards, may significantly increase the costs of providing those services to our customers and may prevent us from delivering a quality product to our customers in a timely manner."
+    },
+    {
+      "block_idx": 707,
+      "char_end": 60462,
+      "char_start": 59947,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "Any perceived or actual failure to comply with applicable laws, regulations, and rules could negatively impact our reputation and expose us to legal liability, fines, penalties, or require us to change our products or business operations. In addition, evolving laws and regulations may require us to change our business practices or modify our compliance programs in order to continue operating our businesses. Any of the foregoing may adversely affect our ability to operate and may harm our results of operations."
+    },
+    {
+      "block_idx": 708,
+      "char_end": 60691,
+      "char_start": 60464,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "Complex and evolving privacy and data protection regulations or changing customer expectations could result in claims, changes to our business practices, penalties or increased cost of operations or otherwise harm our business."
+    },
+    {
+      "block_idx": 709,
+      "char_end": 61700,
+      "char_start": 60693,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "Regulations related to data privacy, cybersecurity, the collection, processing, storage, transfer and use of data, and the use of AI are evolving. Many jurisdictions in which we operate globally have enacted, or are in the process of enacting, data privacy legislation or regulations aimed at creating and enhancing individual privacy rights. For example, the General Data Protection Regulation (GDPR) regulates the collection, use, and retention of personal information by our offerings in the EU. In addition, in the absence of a unified federal privacy standard, a growing number of U.S. states have enacted or introduced data privacy laws and regulations. Several countries have established specific legal requirements for cross-border data transfers and governmental authorities and privacy advocates around the world continue to propose new regulatory actions concerning data protection. Moreover, several jurisdictions are considering regulatory frameworks for AI that implicate data protection laws."
+    },
+    {
+      "block_idx": 710,
+      "char_end": 62145,
+      "char_start": 61702,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "In our efforts to meet the various data privacy regulations that apply to us, we have made and continue to make certain operational changes to our products, business practices, and use of certain third party tools and vendors. Additionally, customer sensitivity to privacy continues to increase and our privacy statements and practices may create additional customer expectations about the collection, use, and sharing of personal information."
+    },
+    {
+      "block_idx": 711,
+      "char_end": 62719,
+      "char_start": 62147,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "In addition, the evolution of global privacy treaties and frameworks has created compliance uncertainty and increased complexity. For example, the judicial invalidation of the EU-U.S. Privacy Shield frameworks that we relied on to transfer data has created additional compliance challenges for the transfer of EU personal data to the U.S. While the European Commission recently issued a decision that allows personal data to flow from the European Union to U.S. companies, the future of this framework is uncertain because it faces legal challenges in the European courts."
+    },
+    {
+      "block_idx": 712,
+      "char_end": 63931,
+      "char_start": 62721,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "Each of these privacy, security and data protection requirements could impose significant limitations on us, require changes to our business, require notification to customers or workers of a security incident, restrict our use or storage of personal information, limit our use of third-party tools and vendors, or cause changes in customer purchasing behavior that may make our business more costly, less efficient or impossible to conduct, and may require us to modify our current or future products or services, which may make customers less likely to purchase our products and may harm our future financial results. Additionally, any actual or alleged noncompliance with these laws and regulations, or failure to meet customer expectations could result in negative publicity or harm to our reputation and subject us to investigations, claims or other remedies, including demands that we modify or cease existing business practices, and expose us to significant fines, penalties and other damages. We have incurred, and may continue to incur, significant expenses to comply with existing privacy and security standards and protocols imposed by law, regulation, industry standards or contractual obligations."
+    },
+    {
+      "block_idx": 716,
+      "char_end": 64144,
+      "char_start": 63933,
+      "is_heading": false,
+      "ordinal": 117,
+      "text": "We are frequently a party to litigation and regulatory inquiries which could result in an unfavorable outcome and have an adverse effect on our business, financial condition, results of operation and cash flows."
+    },
+    {
+      "block_idx": 717,
+      "char_end": 65068,
+      "char_start": 64146,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "We are subject to various legal proceedings (including class action lawsuits), claims and regulatory inquiries that have arisen out of the ordinary conduct of our business and are not yet resolved and additional proceedings, claims and inquiries may arise in the future. The number and significance of these proceedings, claims and inquiries may increase as our businesses evolve. Any proceedings, claims or inquiries initiated by or against us, whether successful or not, may be time consuming; result in costly litigation, damage awards, consent decrees, injunctive relief or increased costs of business; require us to change our business practices or products; require significant amounts of management time; result in diversion of significant operations resources; or otherwise harm our business and future financial results. For further information about specific litigation, see Part II, Item 1, \"Legal Proceedings.\""
+    },
+    {
+      "block_idx": 718,
+      "char_end": 65225,
+      "char_start": 65070,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "Third parties claiming that we infringe their proprietary rights may cause us to incur significant legal expenses and prevent us from selling our products."
+    },
+    {
+      "block_idx": 719,
+      "char_end": 66675,
+      "char_start": 65227,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "We may become increasingly subject to infringement claims, including patent, copyright, trade secret, and trademark infringement claims. Litigation may be necessary to determine the validity and scope of the intellectual property rights of others. We have received a number of allegations of intellectual property infringement claims in the past and expect to receive more claims in the future based on allegations that our offerings infringe upon the intellectual property held by third parties. Some of these claims are the subject of pending litigation against us and against some of our customers. These claims may involve patent holding companies or other adverse intellectual property owners who have no relevant product revenues of their own, and against whom our own intellectual property may provide little or no deterrence. The ultimate outcome of any allegation is uncertain and, regardless of outcome, any such claim, with or without merit, may be time consuming to defend, result in costly litigation, divert management's time and attention from our business, require us to stop selling, delay shipping or redesign our products, or require us to pay monetary damages for royalty or licensing fees, or to satisfy indemnification obligations that we have with some of our customers. Our failure to obtain necessary licenses or other rights, or litigation arising out of intellectual property claims made against us may harm our business."
+    },
+    {
+      "block_idx": 720,
+      "char_end": 66763,
+      "char_start": 66677,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "We are subject to risks associated with information disseminated through our services."
+    },
+    {
+      "block_idx": 721,
+      "char_end": 68165,
+      "char_start": 66765,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "The laws relating to the liability of online services companies for information such as online content disseminated through their services are subject to frequent challenges, and there has been an increasing demand for repealing or limiting the protections afforded by these laws through either judicial decision or legislation. In spite of settled law in the U.S., claims are made against online services companies by parties who disagree with the content. Where our online content is accessed on the internet outside of the U.S., challenges may be brought under foreign laws which do not provide the same protections for online services companies as in the U.S. These challenges in either U.S. or foreign jurisdictions may require altering or limiting some of our services or may require additional contractual terms to avoid liabilities for our customers' misconduct and may further give rise to legal claims alleging defamation, libel, invasion of privacy, negligence, copyright or trademark infringement, or other theories based on the nature and content of the materials disseminated through the services. Certain of our services include content generated by users of our online services. Although this content is not generated by us, claims of defamation or other injury may be made against us for that content. Any costs incurred as a result of this potential liability may harm our business."
+    },
+    {
+      "block_idx": 722,
+      "char_end": 68182,
+      "char_start": 68167,
+      "is_heading": true,
+      "ordinal": 123,
+      "text": "FINANCIAL RISKS"
+    },
+    {
+      "block_idx": 723,
+      "char_end": 68342,
+      "char_start": 68184,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "The results of operations of our tax business may fluctuate from period to period due to the seasonality of the business and other factors beyond our control."
+    },
+    {
+      "block_idx": 724,
+      "char_end": 68829,
+      "char_start": 68344,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "Our tax offerings have significant seasonal patterns. Revenue from income tax preparation products and services has historically been heavily concentrated from November through April, as the tax filing deadline for the IRS and many states is traditionally in April. This seasonality has caused significant fluctuations in our quarterly financial results. In addition, unanticipated changes to federal and state tax filing deadlines may further exacerbate the impact of the seasonality."
+    },
+    {
+      "block_idx": 725,
+      "char_end": 70075,
+      "char_start": 68831,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "Our financial results from our tax offerings may also fluctuate from quarter to quarter and year to year due to a variety of other factors, some of which may affect the timing of revenue recognition. These include the timing of the availability of federal and state tax forms from taxing agencies and the ability of those agencies to receive electronic tax return submissions; changes to our offerings that result in the inclusion or exclusion of ongoing services; changes in product pricing strategies or product sales mix; changes in customer behavior; and the timing of our discontinuation of support for older product offerings. Other factors, including unanticipated changes to the tax code or the administration of government programs and payments by tax authorities, may cause variations from year to year in the number of tax filers. Any of the foregoing could negatively impact the number of tax returns we prepare and file and the operating results of our tax business. Other factors that may affect our quarterly or annual financial results include the timing of acquisitions, divestitures, and goodwill and acquired intangible asset impairment charges. Any fluctuations in our operating results may adversely affect our stock price."
+    },
+    {
+      "block_idx": 729,
+      "char_end": 70201,
+      "char_start": 70077,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "If actual customer refunds for our offerings exceed the amount we have reserved, our future financial results may be harmed."
+    },
+    {
+      "block_idx": 730,
+      "char_end": 70783,
+      "char_start": 70203,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "Like many software companies, we refund customers for product returns and subscription and service cancellations. We establish reserves against revenue in our financial statements based on estimated customer refunds. We closely monitor this refund activity in an effort to maintain adequate reserves. In the past, customer refunds have not differed significantly from these reserves. However, if we experience actual customer refunds or an increase in risks of collecting customer payments that significantly exceed the amount we have reserved, it may result in lower net revenue."
+    },
+    {
+      "block_idx": 731,
+      "char_end": 70893,
+      "char_start": 70785,
+      "is_heading": false,
+      "ordinal": 129,
+      "text": "Unanticipated changes in our income tax rates or other indirect tax may affect our future financial results."
+    },
+    {
+      "block_idx": 732,
+      "char_end": 72039,
+      "char_start": 70895,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "Our future effective income tax rates may be favorably or unfavorably affected by unanticipated changes in the valuation of our deferred tax assets and liabilities, by changes in our stock price, or by changes in tax laws or their interpretation. There are several proposed changes to U.S. and non-U.S. tax legislation and the ultimate enactment of any of them could have a negative impact on our effective tax rate. Foreign governments may enact tax laws, including in response to guidelines issued by international organizations such as the Organisation for Economic Co-operation and Development, that could result in further changes to global taxation and materially affect our financial position and results of operations. In addition, we are subject to the continuous examination of our income tax returns by the Internal Revenue Service and other tax authorities. We regularly assess the likelihood of adverse outcomes resulting from these examinations to determine the adequacy of our provision for income taxes. These continuous examinations may result in unforeseen tax-related liabilities, which may harm our future financial results."
+    },
+    {
+      "block_idx": 733,
+      "char_end": 72738,
+      "char_start": 72041,
+      "is_heading": false,
+      "ordinal": 131,
+      "text": "An increasing number of states and foreign jurisdictions have adopted laws or administrative practices that impose new taxes on all or a portion of gross revenue or other similar amounts or impose additional obligations to collect transaction taxes such as sales, consumption, value added, or similar taxes. We may not have sufficient lead time to build systems and processes to collect these taxes properly, or at all. Failure to comply with such laws or administrative practices, or a successful assertion by such states or foreign jurisdictions requiring us to collect taxes where we do not, could result in material tax liabilities, including for past sales, as well as penalties and interest."
+    },
+    {
+      "block_idx": 734,
+      "char_end": 72828,
+      "char_start": 72740,
+      "is_heading": false,
+      "ordinal": 132,
+      "text": "Adverse global macroeconomic conditions could harm our business and financial condition."
+    },
+    {
+      "block_idx": 735,
+      "char_end": 76712,
+      "char_start": 72830,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "Adverse macroeconomic conditions, and perceptions or expectations about current or future conditions, such as volatility or distress in the financial markets, recession or inflationary pressures, slowing growth, rising interest rates, rising unemployment, rising consumer debt levels, reduced consumer confidence or economic activity, government fiscal and tax policies, U.S. and international trade relationships, government shutdowns and austerity programs could negatively affect our business and financial condition. These macroeconomic conditions or global events, such as political instability and war, have caused, and could, in the future, cause disruptions and volatility in global financial markets, increased rates of default and bankruptcy, decreases in consumer and small business spending and other unforeseen consequences. It is difficult to predict the impact of such events on our partners, customers, members, or economic markets more broadly, which have been and will continue to be highly dependent upon the actions of governments and businesses in response to macroeconomic events, and the effectiveness of those actions. Additionally, adverse developments that affect financial institutions, such as bank failures, or concerns or speculation about similar events or risks, could lead to liquidity challenges and further instability in the financial markets, which may in turn cause third parties, including customers, to become unable to meet their obligations under various types of financial arrangements. Moreover, because the majority of our revenue is derived from sales within the U.S., economic conditions in the U.S. have an even greater impact on us than companies with a more diverse international presence. Macroeconomic conditions, and perceptions or expectations about current or future conditions, could cause potential new customers not to purchase or to delay purchasing our products and services, and could cause our existing customers to discontinue purchasing or delay upgrades of our existing products and services. In addition, some financial institutions and other partners have decreased or suspended their activity on Credit Karma's platform and may continue to do so, and increased interest rates may make offers from Credit Karma's partners less attractive to Credit Karma's members. Members may decrease their engagement on the platform or their creditworthiness could be negatively impacted, reducing members' ability to qualify for credit cards and loans. Decreased consumer spending levels could also reduce payment processing volumes, causing reductions in our payments revenue. High unemployment and changes in the tax code and the government programs that are administered by tax authorities have caused, and could in the future cause, a significant decrease in the number of tax returns filed, which may have a significant effect on the number of tax returns we prepare and file. In addition, weakness in the end-user consumer and small business markets could negatively affect the cash flow of our distributors and resellers who could, in turn, delay paying their obligations to us, which could increase our credit risk exposure and cause delays in our recognition of revenue or future sales to these customers. Adverse economic conditions may also increase the costs of operating our business, including vendor, supplier and workforce expenses. Additionally, any inability to access the capital markets when needed due to volatility or illiquidity in the markets or increased regulatory liquidity and capital requirements may strain our liquidity positions. Such conditions may also expose us to fluctuations in foreign currency exchange rates or interest rates that could materially and adversely affect our financial results. Any of the foregoing could harm our business and negatively impact our future financial results."
+    },
+    {
+      "block_idx": 739,
+      "char_end": 76862,
+      "char_start": 76714,
+      "is_heading": false,
+      "ordinal": 134,
+      "text": "We provide access to capital to small and mid-market businesses, which exposes us to risk, and may cause us material financial or reputational harm."
+    },
+    {
+      "block_idx": 740,
+      "char_end": 78241,
+      "char_start": 76864,
+      "is_heading": false,
+      "ordinal": 135,
+      "text": "We provide qualified small and mid-market businesses with access to capital from third-party lenders and then we purchase some or all of those loans from the lender. This activity exposes us to the risk of the borrowers' inability to repay such loans. We have entered into credit arrangements with financial institutions as a source of funding to purchase some or all of the loans. Any termination or interruption in the financial institutions' ability to lend to us could interrupt our ability to provide capital to these businesses. Further, the credit decisioning, pricing, loss forecasting, scoring and other models used to evaluate loan applications may contain errors or may not adequately assess creditworthiness of the borrowers, or may be otherwise ineffective, resulting in incorrect approvals or denials of loans. It is also possible that loan applicants could provide false or incorrect information. Moreover, adverse macroeconomic conditions, such as inflation and rising interest rates, have impacted and may continue to impact these businesses, which are disproportionately adversely affected by economic downturns, and may increase the likelihood that the borrowers are unable to repay their loans. If any of the foregoing events were to occur, our reputation, relationships with borrowers, collections of loans receivable and financial results could be harmed."
+    },
+    {
+      "block_idx": 741,
+      "char_end": 78361,
+      "char_start": 78243,
+      "is_heading": false,
+      "ordinal": 136,
+      "text": "Amortization of acquired intangible assets and impairment charges may cause significant fluctuation in our net income."
+    },
+    {
+      "block_idx": 742,
+      "char_end": 79552,
+      "char_start": 78363,
+      "is_heading": false,
+      "ordinal": 137,
+      "text": "Our acquisitions have resulted in significant expenses, including amortization and impairment of acquired technology and other acquired intangible assets, and impairment of goodwill. Total costs and expenses in these categories were $629 million in fiscal 2024; $646 million in fiscal 2023; and $556 million in fiscal 2022. Although under current accounting rules goodwill is not amortized, we may incur impairment charges related to the goodwill already recorded and to goodwill arising out of future acquisitions. We test the impairment of goodwill annually in our fourth fiscal quarter or more frequently if indicators of impairment arise. The timing of the formal annual test may result in charges to our statement of operations in our fourth fiscal quarter that may not have been reasonably foreseen in prior periods. At April 30, 2025, we had $13.8 billion in goodwill and $5.4 billion in net acquired intangible assets on our condensed consolidated balance sheet, both of which may be subject to impairment charges in the future. New acquisitions, and any impairment of the value of acquired intangible assets, may have a significant negative impact on our future financial results."
+    },
+    {
+      "block_idx": 743,
+      "char_end": 79704,
+      "char_start": 79554,
+      "is_heading": false,
+      "ordinal": 138,
+      "text": "We have incurred indebtedness and may incur other debt in the future, which may adversely affect our financial condition and future financial results."
+    },
+    {
+      "block_idx": 744,
+      "char_end": 80222,
+      "char_start": 79706,
+      "is_heading": false,
+      "ordinal": 139,
+      "text": "As of April 30, 2025, we had an aggregate of $6.4 billion of indebtedness outstanding under our senior unsecured notes, senior unsecured credit facility, and secured credit facilities. No amounts were outstanding under our commercial paper program as of April 30, 2025. Under the agreements governing our indebtedness, we are permitted to incur additional debt. This debt, and any debt that we may incur in the future, may adversely affect our financial condition and future financial results by, among other things:"
+    },
+    {
+      "block_idx": 745,
+      "char_end": 80357,
+      "char_start": 80224,
+      "is_heading": false,
+      "ordinal": 140,
+      "text": "\u2022increasing our vulnerability to downturns in our business, to competitive pressures and to adverse economic and industry conditions;"
+    },
+    {
+      "block_idx": 746,
+      "char_end": 80615,
+      "char_start": 80359,
+      "is_heading": false,
+      "ordinal": 141,
+      "text": "\u2022requiring the dedication of a portion of our expected cash from operations to service our indebtedness, thereby reducing the amount of expected cash flow available for other purposes, including capital expenditures, share repurchases and acquisitions; and"
+    },
+    {
+      "block_idx": 747,
+      "char_end": 80721,
+      "char_start": 80617,
+      "is_heading": false,
+      "ordinal": 142,
+      "text": "\u2022limiting our flexibility in planning for, or reacting to, changes in our businesses and our industries."
+    },
+    {
+      "block_idx": 748,
+      "char_end": 81151,
+      "char_start": 80723,
+      "is_heading": false,
+      "ordinal": 143,
+      "text": "If we are unable to generate sufficient cash flow from operations in the future to service our debt, we may be required, among other things, to seek additional financing in the debt or equity markets, refinance or restructure all or a portion of our indebtedness, sell selected assets or reduce or delay planned capital, operating or investment expenditures. Such measures may not be sufficient to enable us to service our debt."
+    },
+    {
+      "block_idx": 749,
+      "char_end": 81986,
+      "char_start": 81153,
+      "is_heading": false,
+      "ordinal": 144,
+      "text": "Additionally, the agreements governing our indebtedness impose restrictions on us and require us to comply with certain covenants. For example, our credit facilities restrict the ability of our subsidiaries to incur indebtedness and require us to maintain compliance with specified financial ratios. Our ability to comply with these ratios may be affected by events beyond our control. In addition, our credit facilities and the indenture governing our senior unsecured notes limit our ability to create liens on our and subsidiaries' assets and engage in sale and leaseback transactions. If we breach any of these covenants and do not obtain a waiver from the lenders or the noteholders, as applicable, then, subject to applicable cure periods, any or all of our outstanding indebtedness may be declared immediately due and payable."
+    },
+    {
+      "block_idx": 750,
+      "char_end": 82594,
+      "char_start": 81988,
+      "is_heading": false,
+      "ordinal": 145,
+      "text": "Under the terms of our 2020 Notes, we may be required to repurchase the notes for cash prior to their maturity in connection with the occurrence of certain changes of control that are accompanied by certain downgrades in the credit ratings of the notes. The repayment obligations under the notes may have the effect of discouraging, delaying or preventing a takeover of our company. If we were required to pay the notes prior to their scheduled maturity, it could have a negative impact on our cash position and liquidity and impair our ability to invest financial resources in other strategic initiatives."
+    },
+    {
+      "block_idx": 751,
+      "char_end": 83266,
+      "char_start": 82596,
+      "is_heading": false,
+      "ordinal": 146,
+      "text": "In addition, changes by any rating agency to our credit rating may negatively impact the value and liquidity of both our debt and equity securities. If our credit ratings are downgraded or other negative action is taken, the interest rate payable by us under our unsecured revolving credit facility may increase. In addition, adverse economic conditions or any downgrades in our credit ratings may affect our ability to obtain additional financing in the future and may negatively impact the terms of any such financing. There can be no assurance that any refinancing or additional financing would be available on terms that are favorable or acceptable to us, if at all."
+    },
+    {
+      "block_idx": 755,
+      "char_end": 83400,
+      "char_start": 83268,
+      "is_heading": false,
+      "ordinal": 147,
+      "text": "We cannot guarantee that our share repurchase program will be fully consummated or that it will enhance long-term stockholder value."
+    },
+    {
+      "block_idx": 756,
+      "char_end": 84053,
+      "char_start": 83402,
+      "is_heading": false,
+      "ordinal": 148,
+      "text": "We have a stock repurchase program under which we are authorized to repurchase our common stock. The repurchase program does not have an expiration date and we are not obligated to repurchase a specified number or dollar value of shares. Our repurchase program may be suspended or terminated at any time. Even if our stock repurchase program is fully implemented, it may not enhance long-term stockholder value. Also, the amount, timing, and execution of our stock repurchase programs may fluctuate based on our priorities for the use of cash for other purposes and because of changes in cash flows, tax laws, and the market price of our common stock."
+    },
+    {
+      "block_idx": 757,
+      "char_end": 84124,
+      "char_start": 84055,
+      "is_heading": false,
+      "ordinal": 149,
+      "text": "Our stock price may be volatile and your investment could lose value."
+    },
+    {
+      "block_idx": 758,
+      "char_end": 85712,
+      "char_start": 84126,
+      "is_heading": false,
+      "ordinal": 150,
+      "text": "Our stock price is subject to changes in recommendations or earnings estimates by financial analysts, changes in investors' or analysts' valuation measures for our stock, our credit ratings and market trends unrelated to our performance. Furthermore, speculation in the press or investment community about our strategic position, financial condition, results of operations, business, security of our products, or legal proceedings can cause changes in our stock price. These factors, as well as general economic and political conditions, including the effects of a general slowdown in the global economy, inflationary pressures, pandemics and endemics, significant armed conflicts, acts of war and terrorism, and the timing of announcements in the public market regarding new products, product enhancements or technological advances by our competitors or us, and any announcements by us of acquisitions, major transactions, or management changes may cause volatility in our stock price. Moreover, inflationary pressures, pandemics and endemics, and significant armed conflicts, acts of war and terrorism have caused, and in the future may cause, increased volatility in the global financial markets and, in turn, our stock price. Further, any changes in the amounts or frequency of share repurchases or dividends may also adversely affect our stock price. A significant drop in our stock price could expose us to the risk of securities class action lawsuits, which may result in substantial costs and divert management's attention and resources, which may adversely affect our business."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000896878-25-000022",
+    "cik": 896878,
+    "download_status": "ok",
+    "mdna_end_block": 555,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 56957,
+    "mdna_n_paragraphs": 129,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 30,
+    "mdna_n_words": 8816,
+    "mdna_start_block": 332,
+    "mdna_status": "extracted",
+    "n_blocks": 782,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "intu-20250430.htm",
+    "risk_end_block": 761,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 85180,
+    "risk_n_paragraphs": 145,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 14,
+    "risk_n_words": 12777,
+    "risk_start_block": 573,
+    "risk_status": "extracted",
+    "source_sha256": "5e8c55f2049c3e8a743f964fd8667d9728065c77d7b0feab8d75aaad476cd81f",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/896878/000089687825000022/intu-20250430.htm"
+  }
+}

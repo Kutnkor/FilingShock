@@ -1,0 +1,124 @@
+/* FilingShock design tokens (docs/design_decisions.md). One accent; diff colours encode editing status only. */
+:root {
+  --fs-ink: #1b1f24;
+  --fs-ink-2: #464e5a;
+  --fs-ink-3: #5d6571;
+  --fs-bg: #f7f6f2;
+  --fs-surface: #ffffff;
+  --fs-surface-2: #f1efe9;
+  --fs-rule: #d9d5cb;
+  --fs-accent: #1f4e79;
+  --fs-accent-soft: #e3ebf3;
+  --fs-info: #24527d;      --fs-info-bg: #e9f0f6;
+  --fs-warn: #7d5200;      --fs-warn-bg: #fbf2df;
+  --fs-error: #8f2525;     --fs-error-bg: #faeaea;
+  --fs-unavail: #545b65;   --fs-unavail-bg: #ecebe8;
+  --fs-added: #0d6455;     --fs-added-bg: #e3f2ee;
+  --fs-removed: #74461b;   --fs-removed-bg: #f5ebdf;
+  --fs-edited: #46398a;    --fs-edited-bg: #edeaf8;
+  --fs-moved: #464e5a;     --fs-moved-bg: #eeeeeb;
+  --fs-s1: 4px; --fs-s2: 8px; --fs-s3: 12px; --fs-s4: 16px; --fs-s5: 24px; --fs-s6: 32px;
+  --fs-radius: 3px;
+  --fs-serif: "Iowan Old Style", "Charter", "Georgia", "Times New Roman", serif;
+  --fs-mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+  --fs-motion: 120ms;
+  --fs-measure: 68ch;
+}
+
+/* layout density: keep the work area large */
+.block-container { padding-top: 2.2rem; padding-bottom: 3rem; max-width: 1440px; }
+@media (max-width: 640px) { .block-container { padding-left: 16px; padding-right: 16px; } }
+
+:focus-visible { outline: 2px solid var(--fs-accent) !important; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+
+.fs-num { font-variant-numeric: tabular-nums; }
+.fs-muted { color: var(--fs-ink-3); }
+
+/* page heading with context */
+.fs-head { margin: 0 0 var(--fs-s3) 0; }
+.fs-head h1 { font-size: 1.55rem; line-height: 1.2; margin: 0; padding: 0; font-weight: 650; color: var(--fs-ink); }
+.fs-head p { margin: var(--fs-s1) 0 0 0; color: var(--fs-ink-2); font-size: 0.95rem; max-width: 90ch; }
+
+/* event identity strip */
+.fs-strip { display: flex; flex-wrap: wrap; gap: var(--fs-s2) var(--fs-s5); align-items: baseline;
+  border-top: 1px solid var(--fs-rule); border-bottom: 1px solid var(--fs-rule);
+  padding: var(--fs-s2) 0; margin: var(--fs-s2) 0 var(--fs-s4) 0; font-size: 0.9rem; }
+.fs-strip .fs-strip-title { font-weight: 650; font-size: 1.02rem; color: var(--fs-ink); }
+.fs-strip span.k { color: var(--fs-ink-3); margin-right: var(--fs-s1); }
+.fs-strip span.v { color: var(--fs-ink); font-variant-numeric: tabular-nums; }
+
+/* compact fact list */
+.fs-facts { display: grid; grid-template-columns: minmax(7rem, 12rem) 1fr; gap: 4px var(--fs-s4); margin: 0 0 var(--fs-s3) 0; font-size: 0.9rem; }
+.fs-facts dt { color: var(--fs-ink-3); }
+.fs-facts dd { margin: 0; color: var(--fs-ink); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+
+/* chips (status labels always carry text, never colour alone) */
+.fs-chip { display: inline-block; font-size: 0.74rem; line-height: 1; padding: 4px 6px; border-radius: var(--fs-radius);
+  border: 1px solid currentColor; font-weight: 600; letter-spacing: 0.01em; white-space: nowrap; vertical-align: middle; }
+.fs-chip.added { color: var(--fs-added); background: var(--fs-added-bg); }
+.fs-chip.removed { color: var(--fs-removed); background: var(--fs-removed-bg); }
+.fs-chip.edited { color: var(--fs-edited); background: var(--fs-edited-bg); }
+.fs-chip.moved, .fs-chip.same { color: var(--fs-moved); background: var(--fs-moved-bg); }
+.fs-chip.info { color: var(--fs-info); background: var(--fs-info-bg); }
+.fs-chip.warn { color: var(--fs-warn); background: var(--fs-warn-bg); }
+.fs-chip.error { color: var(--fs-error); background: var(--fs-error-bg); }
+.fs-chip.unavail { color: var(--fs-unavail); background: var(--fs-unavail-bg); }
+.fs-chip.accent { color: var(--fs-accent); background: var(--fs-accent-soft); }
+
+/* status messages */
+.fs-msg { border-left: 3px solid var(--fs-info); background: var(--fs-info-bg); padding: var(--fs-s3) var(--fs-s4);
+  margin: var(--fs-s2) 0 var(--fs-s4) 0; font-size: 0.92rem; color: var(--fs-ink); max-width: 110ch; }
+.fs-msg strong { display: block; margin-bottom: 2px; }
+.fs-msg.warn { border-color: var(--fs-warn); background: var(--fs-warn-bg); }
+.fs-msg.error { border-color: var(--fs-error); background: var(--fs-error-bg); }
+.fs-msg.unavail { border-color: var(--fs-unavail); background: var(--fs-unavail-bg); }
+
+/* probability display */
+.fs-prob { display: flex; flex-wrap: wrap; gap: var(--fs-s5); align-items: flex-end; margin: var(--fs-s2) 0 var(--fs-s3) 0; }
+.fs-prob .big { font-size: 2.4rem; line-height: 1; font-weight: 650; color: var(--fs-accent); font-variant-numeric: tabular-nums; }
+.fs-prob .lab { font-size: 0.82rem; color: var(--fs-ink-3); margin-top: 4px; max-width: 34ch; }
+.fs-prob .alt { font-size: 1.25rem; font-weight: 600; color: var(--fs-ink-2); font-variant-numeric: tabular-nums; }
+
+/* document comparison */
+.fs-cmp-head { display: grid; grid-template-columns: 1fr 1fr; gap: var(--fs-s4); position: sticky; top: 3.2rem; z-index: 5;
+  background: var(--fs-bg); padding: var(--fs-s2) 0; border-bottom: 1px solid var(--fs-rule); font-size: 0.85rem; }
+.fs-cmp-row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--fs-s4); border-bottom: 1px solid var(--fs-rule); padding: var(--fs-s3) 0; }
+.fs-cmp-cell { font-family: var(--fs-serif); font-size: 0.98rem; line-height: 1.55; color: var(--fs-ink); max-width: var(--fs-measure);
+  background: var(--fs-surface); padding: var(--fs-s2) var(--fs-s3); border: 1px solid var(--fs-rule); border-radius: var(--fs-radius); overflow-wrap: anywhere; }
+.fs-cmp-cell.empty { background: transparent; border-style: dashed; color: var(--fs-ink-3); font-family: inherit; font-size: 0.85rem; }
+.fs-cmp-cell.heading { font-weight: 700; font-family: inherit; }
+.fs-cmp-cell.added { border-left: 4px solid var(--fs-added); }
+.fs-cmp-cell.removed { border-left: 4px solid var(--fs-removed); }
+.fs-cmp-cell.edited { border-left: 4px solid var(--fs-edited); }
+.fs-cmp-meta { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: var(--fs-s2); align-items: center; font-size: 0.8rem; color: var(--fs-ink-3); }
+.fs-cmp-meta code { font-family: var(--fs-mono); font-size: 0.78rem; color: var(--fs-ink-2); background: none; padding: 0; }
+.fs-stack { border-bottom: 1px solid var(--fs-rule); padding: var(--fs-s3) 0; }
+.fs-stack .fs-cmp-cell { margin-top: var(--fs-s2); max-width: none; }
+.fs-side-label { font-size: 0.75rem; font-weight: 650; color: var(--fs-ink-3); text-transform: uppercase; letter-spacing: 0.04em; margin-top: var(--fs-s2); }
+ins.fs-ins { text-decoration: underline; text-decoration-thickness: 2px; text-decoration-color: var(--fs-added);
+  background: var(--fs-added-bg); color: var(--fs-ink); }
+del.fs-del { text-decoration: line-through; text-decoration-color: var(--fs-removed); background: var(--fs-removed-bg); color: var(--fs-ink-2); }
+mark.fs-hit { background: #fff2a8; color: inherit; padding: 0 1px; }
+@media (max-width: 760px) {
+  .fs-cmp-row, .fs-cmp-head { grid-template-columns: 1fr; }
+  .fs-cmp-head { position: static; }
+}
+
+/* summary counts */
+.fs-counts { display: flex; flex-wrap: wrap; gap: var(--fs-s2) var(--fs-s4); font-size: 0.88rem; margin: var(--fs-s2) 0; }
+.fs-counts b { font-variant-numeric: tabular-nums; }
+
+/* outcome reveal */
+.fs-outcome { border: 1px solid var(--fs-rule); background: var(--fs-surface); padding: var(--fs-s4); border-radius: var(--fs-radius); }
+
+/* tables rendered in HTML */
+table.fs-table { border-collapse: collapse; width: 100%; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+table.fs-table th { text-align: left; color: var(--fs-ink-3); font-weight: 600; border-bottom: 1px solid var(--fs-rule); padding: 6px 8px; white-space: nowrap; }
+table.fs-table td { border-bottom: 1px solid var(--fs-rule); padding: 6px 8px; vertical-align: top; }
+table.fs-table td.r, table.fs-table th.r { text-align: right; }
+table.fs-table tr.primary td { background: var(--fs-accent-soft); }
+.fs-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+.fs-caption { font-size: 0.8rem; color: var(--fs-ink-3); margin: 2px 0 var(--fs-s4) 0; max-width: 110ch; }
+.fs-section-title { font-size: 1.05rem; font-weight: 650; margin: var(--fs-s5) 0 var(--fs-s2) 0; color: var(--fs-ink); }

@@ -1,0 +1,48 @@
+{
+  "companies": [
+    "ADBE",
+    "ADSK",
+    "CDNS",
+    "CRM",
+    "GEN",
+    "INTU",
+    "MSFT",
+    "NOW",
+    "ORCL",
+    "PTC",
+    "SNPS",
+    "TYL"
+  ],
+  "created_at_utc": "2026-10-17T09:05:56+00:00",
+  "events_included": [
+    "ev-0000769397-26-000061",
+    "ev-0000796343-26-000156",
+    "ev-0000813672-26-000092",
+    "ev-0000849399-26-000031",
+    "ev-0000860731-26-000050",
+    "ev-0000883241-26-000025",
+    "ev-0000896878-26-000025",
+    "ev-0000950123-10-009307",
+    "ev-0001108524-26-000190",
+    "ev-0001193125-10-015598",
+    "ev-0001193125-26-191507",
+    "ev-0001193125-26-328444",
+    "ev-0001193125-26-389274",
+    "ev-0001373715-26-000076"
+  ],
+  "excluded_content": [
+    "provider price bars",
+    "target-session open/close/returns",
+    "thresholds and labels",
+    "market (price-derived) features",
+    "raw filing HTML (link to SEC.gov instead)"
+  ],
+  "licensing": {
+    "loughran_mcdonald": "Dictionary file not included; only per-event derived rates are.",
+    "prices": "Yahoo Finance data (via yfinance) is not redistributable; not included.",
+    "sec_content": "SEC EDGAR filings are public records of the U.S. government."
+  },
+  "selection_rule": "(documented, outcome-blind): for each company, the most recent final-sample event that has a\nretrospective out-of-time prediction, plus the earliest final-sample event (training period, no prediction).",
+  "source_dataset_id": "ds-1698abec6cff",
+  "source_run_id": "20261017T090148Z-primary"
+}

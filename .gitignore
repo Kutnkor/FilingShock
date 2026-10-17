@@ -1,0 +1,12 @@
+# research data: SEC raw files are large; market data may not be redistributed
+data/
+!data/.gitkeep
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+.streamlit/secrets.toml
+docs/screenshots/*.tmp.png

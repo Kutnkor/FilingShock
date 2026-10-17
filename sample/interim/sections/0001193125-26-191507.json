@@ -1,0 +1,2511 @@
+{
+  "mdna": [
+    {
+      "block_idx": 349,
+      "char_end": 37,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Note About Forward-Looking Statements"
+    },
+    {
+      "block_idx": 350,
+      "char_end": 1551,
+      "char_start": 39,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "This report includes estimates, projections, statements relating to our business plans, objectives, and expected operating results that are \"forward-looking statements\" within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, and Section 21E of the Securities Exchange Act of 1934. Forward-looking statements may appear throughout this report, including the following sections: \"Management's Discussion and Analysis of Financial Condition and Results of Operations\" and \"Risk Factors\" (Part II, Item 1A of this Form 10-Q). These forward-looking statements generally are identified by the words \"believe,\" \"project,\" \"expect,\" \"anticipate,\" \"estimate,\" \"intend,\" \"strategy,\" \"future,\" \"opportunity,\" \"plan,\" \"may,\" \"should,\" \"will,\" \"would,\" \"will be,\" \"will continue,\" \"will likely result,\" and similar expressions. Forward-looking statements are based on current expectations and assumptions that are subject to risks and uncertainties that may cause actual results to differ materially. We describe risks and uncertainties that could cause actual results and events to differ materially in \"Management's Discussion and Analysis of Financial Condition and Results of Operations,\" \"Quantitative and Qualitative Disclosures About Market Risk\" (Part I, Item 3 of this Form 10-Q), and \"Risk Factors\". We undertake no obligation to update or revise publicly any forward-looking statements, whether because of new information, future events, or otherwise."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 2050,
+      "char_start": 1553,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "The following Management's Discussion and Analysis of Financial Condition and Results of Operations (\"MD&A\") is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A is provided as a supplement to, and should be read in conjunction with, our Annual Report on Form 10-K for the year ended June 30, 2025, and our consolidated financial statements and the accompanying Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 352,
+      "char_end": 2060,
+      "char_start": 2052,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "OVERVIEW"
+    },
+    {
+      "block_idx": 353,
+      "char_end": 2433,
+      "char_start": 2062,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "Microsoft is a technology company committed to making digital technology and artificial intelligence (\"AI\") available broadly and doing so responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, powered by AI, that deliver innovative solutions that meet the evolving needs of our customers."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 2967,
+      "char_start": 2435,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses; licensing and supporting an array of software products; delivering relevant online advertising to a global audience; and designing and selling devices. Our most significant expenses are related to compensating employees; supporting and investing in our cloud-based services, including datacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes."
+    },
+    {
+      "block_idx": 355,
+      "char_end": 3084,
+      "char_start": 2969,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Highlights from the third quarter of fiscal year 2026 compared with the third quarter of fiscal year 2025 included:"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 3141,
+      "char_start": 3086,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "Microsoft Cloud revenue increased 29% to $54.5 billion."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 3217,
+      "char_start": 3143,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Commercial remaining performance obligation increased 99% to $627 billion."
+    },
+    {
+      "block_idx": 361,
+      "char_end": 3272,
+      "char_start": 3219,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Microsoft 365 Commercial cloud revenue increased 19%."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 3325,
+      "char_start": 3274,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Microsoft 365 Consumer cloud revenue increased 33%."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 3358,
+      "char_start": 3327,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "LinkedIn revenue increased 12%."
+    },
+    {
+      "block_idx": 367,
+      "char_end": 3395,
+      "char_start": 3360,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "Dynamics 365 revenue increased 22%."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 3450,
+      "char_start": 3397,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Azure and other cloud services revenue increased 40%."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 3497,
+      "char_start": 3452,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Windows OEM and Devices revenue decreased 2%."
+    },
+    {
+      "block_idx": 373,
+      "char_end": 3546,
+      "char_start": 3499,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Xbox content and services revenue decreased 5%."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 3664,
+      "char_start": 3548,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Search advertising (formerly Search and news advertising) revenue excluding traffic acquisition costs increased 12%."
+    },
+    {
+      "block_idx": 379,
+      "char_end": 3699,
+      "char_start": 3666,
+      "is_heading": true,
+      "ordinal": 17,
+      "text": "Industry Trends and Opportunities"
+    },
+    {
+      "block_idx": 380,
+      "char_end": 4203,
+      "char_start": 3701,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces."
+    },
+    {
+      "block_idx": 381,
+      "char_end": 4710,
+      "char_start": 4205,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "We have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI's intellectual property, including models and infrastructure, for integration into our products."
+    },
+    {
+      "block_idx": 382,
+      "char_end": 4754,
+      "char_start": 4712,
+      "is_heading": true,
+      "ordinal": 20,
+      "text": "Economic Conditions, Challenges, and Risks"
+    },
+    {
+      "block_idx": 383,
+      "char_end": 5435,
+      "char_start": 4756,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "The markets for software, devices, and cloud-based services are dynamic and highly competitive. Our competitors are developing new software and devices, while also deploying competing cloud-based services for consumers and businesses. The devices and form factors customers prefer evolve rapidly, influencing how users access services in the cloud and, in some cases, the user's choice of which suite of cloud-based services to use. Aggregate demand for our software, services, and devices is also correlated to global macroeconomic and geopolitical factors, which remain dynamic. We must continue to evolve and adapt over an extended time in pace with this changing environment."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 6465,
+      "char_start": 5437,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "The investments we are making in cloud and AI infrastructure and devices will continue to increase our operating costs and may decrease our operating margins. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components. Our devices are primarily manufactured by third-party contract manufacturers. For the majority of our products, we have the ability to use other manufacturers if a current vendor becomes unavailable or unable to meet our requirements. However, some of our products contain certain components for which there are very few qualified suppliers. Extended disruptions at these suppliers could impact our ability to manufacture devices on time to meet consumer demand."
+    },
+    {
+      "block_idx": 385,
+      "char_end": 6873,
+      "char_start": 6467,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Our success is highly dependent on our ability to attract and retain qualified employees. We hire a mix of university and industry talent worldwide. We compete for talented individuals globally by offering an exceptional working environment, broad customer reach, scale in resources, the ability to grow one's career across many different products and businesses, and competitive compensation and benefits."
+    },
+    {
+      "block_idx": 386,
+      "char_end": 7352,
+      "char_start": 6875,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Our international operations provide a significant portion of our total revenue and expenses. Many of these revenue and expenses are denominated in currencies other than the U.S. dollar. As a result, changes in foreign exchange rates may significantly affect revenue and expenses. Fluctuations in the U.S. dollar relative to certain foreign currencies increased reported revenue and expenses from our international operations for the three and nine months ended March 31, 2026."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 7714,
+      "char_start": 7354,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Further, global, regional, and local economic developments and changes in global trade policies such as restrictions on international trade, including tariffs and other controls on imports or exports, could result in increased supply chain challenges, cost volatility, and consumer and economic uncertainty which may adversely affect our results of operations."
+    },
+    {
+      "block_idx": 388,
+      "char_end": 7825,
+      "char_start": 7716,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "Refer to Risk Factors (Part II, Item 1A of this Form 10-Q) for a discussion of these factors and other risks."
+    },
+    {
+      "block_idx": 389,
+      "char_end": 7838,
+      "char_start": 7827,
+      "is_heading": true,
+      "ordinal": 27,
+      "text": "Seasonality"
+    },
+    {
+      "block_idx": 390,
+      "char_end": 8042,
+      "char_start": 7840,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "Our revenue fluctuates quarterly and is generally higher in the fourth quarter of our fiscal year. Fourth quarter revenue is driven by a higher volume of multi-year contracts executed during the period."
+    },
+    {
+      "block_idx": 394,
+      "char_end": 8063,
+      "char_start": 8044,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Reportable Segments"
+    },
+    {
+      "block_idx": 395,
+      "char_end": 8331,
+      "char_start": 8065,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "We report our financial performance based on the following segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. The segment amounts included in MD&A are presented on a basis consistent with our internal management reporting."
+    },
+    {
+      "block_idx": 396,
+      "char_end": 8521,
+      "char_start": 8333,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "Additional information on our reportable segments is contained in Note 16 - Segment Information and Geographic Data of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 8530,
+      "char_start": 8523,
+      "is_heading": true,
+      "ordinal": 32,
+      "text": "Metrics"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 9342,
+      "char_start": 8532,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "We use metrics in assessing the performance of our business and to make informed decisions regarding the allocation of resources. We disclose metrics to enable investors to evaluate progress against our ambitions, provide transparency into performance trends, and reflect the continued evolution of our products and services. Our commercial and other business metrics are fundamentally connected based on how customers use our products and services. The metrics are disclosed in the MD&A or the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q). Financial metrics are calculated based on financial results prepared in accordance with accounting principles generally accepted in the United States of America (\"GAAP\"), and growth comparisons relate to the corresponding period of last fiscal year."
+    },
+    {
+      "block_idx": 399,
+      "char_end": 9562,
+      "char_start": 9344,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "In the first quarter of fiscal year 2026, we made updates to our metrics to align with how we manage and monitor certain businesses. As part of these updates, Microsoft 365 Consumer subscribers was removed as a metric."
+    },
+    {
+      "block_idx": 400,
+      "char_end": 9574,
+      "char_start": 9564,
+      "is_heading": true,
+      "ordinal": 35,
+      "text": "Commercial"
+    },
+    {
+      "block_idx": 401,
+      "char_end": 9986,
+      "char_start": 9576,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Our commercial business primarily consists of Server products and cloud services, Microsoft 365 Commercial products and cloud services, the commercial portion of LinkedIn, Dynamics products and cloud services, and Enterprise and partner services. Our commercial metrics allow management and investors to assess the overall health of our commercial business and include leading indicators of future performance."
+    },
+    {
+      "block_idx": 406,
+      "char_end": 10045,
+      "char_start": 9988,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Productivity and Business Processes and Intelligent Cloud"
+    },
+    {
+      "block_idx": 407,
+      "char_end": 10264,
+      "char_start": 10047,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within these segments. The metrics primarily reflect growth across our cloud services."
+    },
+    {
+      "block_idx": 409,
+      "char_end": 10289,
+      "char_start": 10266,
+      "is_heading": true,
+      "ordinal": 39,
+      "text": "More Personal Computing"
+    },
+    {
+      "block_idx": 410,
+      "char_end": 10400,
+      "char_start": 10291,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Metrics related to our More Personal Computing segment assess the performance of our key consumer businesses."
+    },
+    {
+      "block_idx": 412,
+      "char_end": 10431,
+      "char_start": 10402,
+      "is_heading": true,
+      "ordinal": 41,
+      "text": "SUMMARY RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 417,
+      "char_end": 10789,
+      "char_start": 10433,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Adjusted net income and adjusted diluted earnings per share (\"EPS\") are non-GAAP financial measures. These non-GAAP financial measures exclude net gains and losses from investments in OpenAI. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results."
+    },
+    {
+      "block_idx": 418,
+      "char_end": 10872,
+      "char_start": 10791,
+      "is_heading": true,
+      "ordinal": 43,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 419,
+      "char_end": 11241,
+      "char_start": 10874,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "Revenue increased $12.8 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue decreased with lower hardware sales across Devices and Gaming, offset in part by growth in Search advertising."
+    },
+    {
+      "block_idx": 420,
+      "char_end": 11325,
+      "char_start": 11243,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "Cost of revenue increased $4.9 billion or 22% driven by growth in Microsoft Cloud."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 11410,
+      "char_start": 11327,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Gross margin increased $7.9 billion or 16% with growth across each of our segments."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 11591,
+      "char_start": 11412,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Gross margin percentage decreased driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud."
+    },
+    {
+      "block_idx": 425,
+      "char_end": 11812,
+      "char_start": 11593,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Microsoft Cloud gross margin percentage decreased to 66% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud."
+    },
+    {
+      "block_idx": 426,
+      "char_end": 12071,
+      "char_start": 11814,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Operating expenses increased $1.5 billion or 9% primarily driven by continued investments in research and development compute capacity, AI talent, and data to support product development across the portfolio. Total company headcount declined year-over-year."
+    },
+    {
+      "block_idx": 427,
+      "char_end": 12198,
+      "char_start": 12073,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Operating income increased $6.4 billion or 20% driven by growth in Productivity and Business Processes and Intelligent Cloud."
+    },
+    {
+      "block_idx": 428,
+      "char_end": 12392,
+      "char_start": 12200,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 3%, 3%, and 4%, respectively. Cost of revenue included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 429,
+      "char_end": 12764,
+      "char_start": 12394,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Current year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income of $14 million. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $583 million and $0.08, respectively."
+    },
+    {
+      "block_idx": 430,
+      "char_end": 12845,
+      "char_start": 12766,
+      "is_heading": true,
+      "ordinal": 53,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 431,
+      "char_end": 13193,
+      "char_start": 12847,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Revenue increased $36.5 billion or 18% driven by growth in Microsoft Cloud. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue was relatively unchanged with growth in Search advertising offset by a decline in Gaming."
+    },
+    {
+      "block_idx": 432,
+      "char_end": 13278,
+      "char_start": 13195,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Cost of revenue increased $13.0 billion or 20% driven by growth in Microsoft Cloud."
+    },
+    {
+      "block_idx": 433,
+      "char_end": 13364,
+      "char_start": 13280,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "Gross margin increased $23.5 billion or 17% with growth across each of our segments."
+    },
+    {
+      "block_idx": 435,
+      "char_end": 13564,
+      "char_start": 13366,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "Gross margin percentage decreased slightly primarily driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains across the Microsoft Cloud."
+    },
+    {
+      "block_idx": 437,
+      "char_end": 13785,
+      "char_start": 13566,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "Microsoft Cloud gross margin percentage decreased to 67% driven by continued investments in AI infrastructure and growing AI product usage, offset in part by efficiency gains in Azure and Microsoft 365 Commercial cloud."
+    },
+    {
+      "block_idx": 438,
+      "char_end": 14137,
+      "char_start": 13787,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Operating expenses increased $3.1 billion or 7% driven by continued investments in research and development compute capacity, AI talent, and data to support product development across the portfolio, impairment and other related expenses in our Gaming business, and higher Copilot advertising expenses. Total company headcount declined year-over-year."
+    },
+    {
+      "block_idx": 439,
+      "char_end": 14265,
+      "char_start": 14139,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Operating income increased $20.4 billion or 22% driven by growth in Productivity and Business Processes and Intelligent Cloud."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 14462,
+      "char_start": 14267,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 3%, respectively. Operating expenses included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 444,
+      "char_end": 14875,
+      "char_start": 14464,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Current year net income and diluted EPS were positively impacted by net gains from investments in OpenAI, which resulted in an increase in net income and diluted EPS of $4.5 billion and $0.60, respectively. Prior year net income and diluted EPS were negatively impacted by net losses from investments in OpenAI, which resulted in a decrease in net income and diluted EPS of $2.0 billion and $0.28, respectively."
+    },
+    {
+      "block_idx": 445,
+      "char_end": 14906,
+      "char_start": 14877,
+      "is_heading": true,
+      "ordinal": 63,
+      "text": "SEGMENT RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 447,
+      "char_end": 14927,
+      "char_start": 14908,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "Reportable Segments"
+    },
+    {
+      "block_idx": 448,
+      "char_end": 15010,
+      "char_start": 14929,
+      "is_heading": true,
+      "ordinal": 65,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 449,
+      "char_end": 15047,
+      "char_start": 15012,
+      "is_heading": true,
+      "ordinal": 66,
+      "text": "Productivity and Business Processes"
+    },
+    {
+      "block_idx": 450,
+      "char_end": 15087,
+      "char_start": 15049,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Revenue increased $5.1 billion or 17%."
+    },
+    {
+      "block_idx": 452,
+      "char_end": 15474,
+      "char_start": 15089,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Microsoft 365 Commercial products and cloud services revenue increased $3.7 billion or 17%. Microsoft 365 Commercial cloud revenue grew 19% with growth in revenue per user driven by Microsoft 365 E5 and Microsoft 365 Copilot. Microsoft 365 Commercial seats grew 6% driven by small and medium businesses and frontline worker offerings. Microsoft 365 Commercial products revenue grew 1%."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 15700,
+      "char_start": 15476,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Microsoft 365 Consumer products and cloud services revenue increased $476 million or 26%. Microsoft 365 Consumer cloud revenue grew 33% driven by growth in revenue per user and Microsoft 365 Consumer subscriber growth of 7%."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 15790,
+      "char_start": 15702,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "LinkedIn revenue increased $521 million or 12% with growth across all lines of business."
+    },
+    {
+      "block_idx": 458,
+      "char_end": 15964,
+      "char_start": 15792,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Dynamics products and cloud services revenue increased $363 million or 19% driven by growth in Dynamics 365. Dynamics 365 revenue grew 22% with growth across all workloads."
+    },
+    {
+      "block_idx": 462,
+      "char_end": 16013,
+      "char_start": 15966,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Operating income increased $3.6 billion or 21%."
+    },
+    {
+      "block_idx": 464,
+      "char_end": 16159,
+      "char_start": 16015,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Cost of revenue increased $680 million or 12% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
+    },
+    {
+      "block_idx": 466,
+      "char_end": 16442,
+      "char_start": 16161,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "Gross margin increased $4.4 billion or 18% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage increased slightly driven by efficiency gains in Microsoft 365 Commercial cloud even with continued investments in AI infrastructure and growing AI product usage."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 16705,
+      "char_start": 16444,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Operating expenses increased $795 million or 11% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as higher Copilot advertising expenses."
+    },
+    {
+      "block_idx": 469,
+      "char_end": 16902,
+      "char_start": 16707,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 4%, 5%, and 7%, respectively. Operating expenses included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 470,
+      "char_end": 16921,
+      "char_start": 16904,
+      "is_heading": true,
+      "ordinal": 77,
+      "text": "Intelligent Cloud"
+    },
+    {
+      "block_idx": 471,
+      "char_end": 16961,
+      "char_start": 16923,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Revenue increased $7.9 billion or 30%."
+    },
+    {
+      "block_idx": 473,
+      "char_end": 17482,
+      "char_start": 16963,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "Server products and cloud services revenue increased $7.8 billion or 32% driven by Azure and other cloud services. Azure and other cloud services revenue grew 40% driven by demand for services across the platform with continued growth across all workloads. Server products revenue increased slightly, primarily driven by higher purchases of licenses running in multi-cloud environments, offset in part by renewals with lower in-period revenue recognition from the mix of contracts and continued customer shift to cloud."
+    },
+    {
+      "block_idx": 475,
+      "char_end": 17601,
+      "char_start": 17484,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Enterprise and partner services revenue increased $141 million or 7% driven by growth in Enterprise Support Services."
+    },
+    {
+      "block_idx": 476,
+      "char_end": 17650,
+      "char_start": 17603,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Operating income increased $2.7 billion or 24%."
+    },
+    {
+      "block_idx": 478,
+      "char_end": 17811,
+      "char_start": 17652,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Cost of revenue increased $4.8 billion or 47% driven by investments in AI infrastructure to support growing customer demand and increased GitHub Copilot usage."
+    },
+    {
+      "block_idx": 480,
+      "char_end": 18019,
+      "char_start": 17813,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Gross margin increased $3.1 billion or 19% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure, offset in part by efficiency gains in Azure."
+    },
+    {
+      "block_idx": 482,
+      "char_end": 18243,
+      "char_start": 18021,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "Operating expenses increased $459 million or 9% primarily driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+    },
+    {
+      "block_idx": 483,
+      "char_end": 18419,
+      "char_start": 18245,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Revenue included a favorable foreign currency impact of 2%. Cost of revenue and operating expenses included an unfavorable foreign currency impact of 3% and 2%, respectively."
+    },
+    {
+      "block_idx": 484,
+      "char_end": 18444,
+      "char_start": 18421,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "More Personal Computing"
+    },
+    {
+      "block_idx": 485,
+      "char_end": 18483,
+      "char_start": 18446,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Revenue decreased $179 million or 1%."
+    },
+    {
+      "block_idx": 487,
+      "char_end": 18737,
+      "char_start": 18485,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "Windows and Devices revenue decreased $103 million or 2%. Windows OEM and Devices revenue decreased 2% driven by a decline in Devices, offset in part by growth in Windows OEM as OEM partners continue to build inventory due to increasing memory pricing."
+    },
+    {
+      "block_idx": 492,
+      "char_end": 19060,
+      "char_start": 18739,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "Gaming revenue decreased $380 million or 7% driven by declines in Xbox content and services and Xbox hardware. Xbox content and services revenue decreased 5% on a prior year comparable that benefited from strong first-party content performance. Xbox hardware revenue decreased 33% driven by lower volume of consoles sold."
+    },
+    {
+      "block_idx": 494,
+      "char_end": 19310,
+      "char_start": 19062,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Search advertising revenue increased $304 million or 9%. Search advertising revenue excluding traffic acquisition costs increased 12% driven by higher search volume and revenue per search, as well as continued benefit from third-party partnerships."
+    },
+    {
+      "block_idx": 495,
+      "char_end": 19358,
+      "char_start": 19312,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "Operating income increased $146 million or 4%."
+    },
+    {
+      "block_idx": 497,
+      "char_end": 19447,
+      "char_start": 19360,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "Cost of revenue decreased $584 million or 10% primarily driven by lower hardware sales."
+    },
+    {
+      "block_idx": 499,
+      "char_end": 19630,
+      "char_start": 19449,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "Gross margin increased $405 million or 6% driven by growth in Search advertising and Gaming. Gross margin percentage increased driven by sales mix shift to higher margin businesses."
+    },
+    {
+      "block_idx": 501,
+      "char_end": 19909,
+      "char_start": 19632,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "Operating expenses increased $259 million or 7% driven by impairment and other related expenses in our Gaming business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+    },
+    {
+      "block_idx": 502,
+      "char_end": 20032,
+      "char_start": 19911,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 2%, and 3%, respectively."
+    },
+    {
+      "block_idx": 503,
+      "char_end": 20113,
+      "char_start": 20034,
+      "is_heading": true,
+      "ordinal": 96,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 504,
+      "char_end": 20150,
+      "char_start": 20115,
+      "is_heading": true,
+      "ordinal": 97,
+      "text": "Productivity and Business Processes"
+    },
+    {
+      "block_idx": 505,
+      "char_end": 20191,
+      "char_start": 20152,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Revenue increased $14.5 billion or 16%."
+    },
+    {
+      "block_idx": 507,
+      "char_end": 20682,
+      "char_start": 20193,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "Microsoft 365 Commercial products and cloud services revenue increased $10.6 billion or 17%. Microsoft 365 Commercial cloud revenue grew 18% with growth in revenue per user driven by Microsoft 365 E5 and Microsoft 365 Copilot, and continued Microsoft 365 Commercial seat growth. Microsoft 365 Commercial products revenue grew 10% driven by an increase in Office 2024 transactional purchasing, as well as growth in the Windows Commercial on-premises components of Microsoft 365 suite sales."
+    },
+    {
+      "block_idx": 509,
+      "char_end": 20916,
+      "char_start": 20684,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "Microsoft 365 Consumer products and cloud services revenue increased $1.4 billion or 27%. Microsoft 365 Consumer cloud revenue grew 29% driven by growth in revenue per user and continued growth in Microsoft 365 Consumer subscribers."
+    },
+    {
+      "block_idx": 511,
+      "char_end": 21006,
+      "char_start": 20918,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "LinkedIn revenue increased $1.4 billion or 11% with growth across all lines of business."
+    },
+    {
+      "block_idx": 513,
+      "char_end": 21180,
+      "char_start": 21008,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "Dynamics products and cloud services revenue increased $941 million or 17% driven by growth in Dynamics 365. Dynamics 365 revenue grew 20% with growth across all workloads."
+    },
+    {
+      "block_idx": 514,
+      "char_end": 21230,
+      "char_start": 21182,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "Operating income increased $11.2 billion or 22%."
+    },
+    {
+      "block_idx": 516,
+      "char_end": 21376,
+      "char_start": 21232,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Cost of revenue increased $1.6 billion or 10% driven by investments in AI infrastructure to support Microsoft 365 Copilot seat and usage growth."
+    },
+    {
+      "block_idx": 518,
+      "char_end": 21651,
+      "char_start": 21378,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "Gross margin increased $12.8 billion or 18% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage increased driven by efficiency gains in Microsoft 365 Commercial cloud even with continued investments in AI infrastructure and growing AI product usage."
+    },
+    {
+      "block_idx": 520,
+      "char_end": 21913,
+      "char_start": 21653,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "Operating expenses increased $1.6 billion or 8% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio, as well as higher Copilot advertising expenses."
+    },
+    {
+      "block_idx": 521,
+      "char_end": 22036,
+      "char_start": 21915,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "Revenue, gross margin, and operating income included a favorable foreign currency impact of 2%, 3%, and 4%, respectively."
+    },
+    {
+      "block_idx": 525,
+      "char_end": 22055,
+      "char_start": 22038,
+      "is_heading": true,
+      "ordinal": 108,
+      "text": "Intelligent Cloud"
+    },
+    {
+      "block_idx": 526,
+      "char_end": 22096,
+      "char_start": 22057,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "Revenue increased $22.1 billion or 29%."
+    },
+    {
+      "block_idx": 528,
+      "char_end": 22478,
+      "char_start": 22098,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "Server products and cloud services revenue increased $21.8 billion or 31% driven by Azure and other cloud services. Azure and other cloud services revenue grew 40% driven by demand for services across the platform with continued growth across all workloads. Server products revenue increased 1% primarily driven by higher purchases of licenses running in multi-cloud environments."
+    },
+    {
+      "block_idx": 530,
+      "char_end": 22597,
+      "char_start": 22480,
+      "is_heading": false,
+      "ordinal": 111,
+      "text": "Enterprise and partner services revenue increased $381 million or 7% driven by growth in Enterprise Support Services."
+    },
+    {
+      "block_idx": 531,
+      "char_end": 22646,
+      "char_start": 22599,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "Operating income increased $8.6 billion or 26%."
+    },
+    {
+      "block_idx": 533,
+      "char_end": 22773,
+      "char_start": 22648,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "Cost of revenue increased $12.7 billion or 45% driven by investments in AI infrastructure to support growing customer demand."
+    },
+    {
+      "block_idx": 535,
+      "char_end": 22981,
+      "char_start": 22775,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "Gross margin increased $9.4 billion or 20% driven by growth in Azure. Gross margin percentage decreased driven by the continued investments in AI infrastructure, offset in part by efficiency gains in Azure."
+    },
+    {
+      "block_idx": 537,
+      "char_end": 23195,
+      "char_start": 22983,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "Operating expenses increased $856 million or 5% driven by continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+    },
+    {
+      "block_idx": 538,
+      "char_end": 23267,
+      "char_start": 23197,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "Cost of revenue included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 539,
+      "char_end": 23292,
+      "char_start": 23269,
+      "is_heading": true,
+      "ordinal": 117,
+      "text": "More Personal Computing"
+    },
+    {
+      "block_idx": 540,
+      "char_end": 23327,
+      "char_start": 23294,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "Revenue was relatively unchanged."
+    },
+    {
+      "block_idx": 542,
+      "char_end": 23542,
+      "char_start": 23329,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "Windows and Devices revenue increased slightly. Windows OEM and Devices revenue increased 2% driven by Windows OEM growth of 8% with inventory levels that remained elevated, offset in part by a decline in Devices."
+    },
+    {
+      "block_idx": 544,
+      "char_end": 23909,
+      "char_start": 23544,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "Gaming revenue decreased $1.1 billion or 6% driven by declines in Xbox hardware and Xbox content and services. Xbox hardware revenue decreased 31% driven by lower volume of consoles sold. Xbox content and services revenue decreased 3% on a prior year comparable that benefited from strong first-party content performance, offset in part by growth in Xbox Game Pass."
+    },
+    {
+      "block_idx": 546,
+      "char_end": 24160,
+      "char_start": 23911,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "Search advertising revenue increased $1.0 billion or 10%. Search advertising revenue excluding traffic acquisition costs increased 13% driven by higher search volume and revenue per search, as well as continued benefit from third-party partnerships."
+    },
+    {
+      "block_idx": 547,
+      "char_end": 24208,
+      "char_start": 24162,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "Operating income increased $662 million or 6%."
+    },
+    {
+      "block_idx": 549,
+      "char_end": 24334,
+      "char_start": 24210,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "Cost of revenue decreased $1.3 billion or 7% driven by lower hardware sales, offset in part by growth in Search advertising."
+    },
+    {
+      "block_idx": 551,
+      "char_end": 24522,
+      "char_start": 24336,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "Gross margin increased $1.3 billion or 6% driven by growth in Search advertising and Windows OEM. Gross margin percentage increased driven by sales mix shift to higher margin businesses."
+    },
+    {
+      "block_idx": 553,
+      "char_end": 24801,
+      "char_start": 24524,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "Operating expenses increased $628 million or 6% driven by impairment and other related expenses in our Gaming business and continued investments in research and development compute capacity, AI talent, and data to support product development that benefits the entire portfolio."
+    },
+    {
+      "block_idx": 554,
+      "char_end": 24871,
+      "char_start": 24803,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "Operating income included a favorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 558,
+      "char_end": 24891,
+      "char_start": 24873,
+      "is_heading": true,
+      "ordinal": 127,
+      "text": "OPERATING EXPENSES"
+    },
+    {
+      "block_idx": 559,
+      "char_end": 24917,
+      "char_start": 24893,
+      "is_heading": true,
+      "ordinal": 128,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 561,
+      "char_end": 25344,
+      "char_start": 24919,
+      "is_heading": false,
+      "ordinal": 129,
+      "text": "Research and development expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with product development. Research and development expenses also include technology development costs, including AI training and other infrastructure costs, third-party development and programming costs, and the amortization of purchased software code and services content."
+    },
+    {
+      "block_idx": 562,
+      "char_end": 25427,
+      "char_start": 25346,
+      "is_heading": true,
+      "ordinal": 130,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 563,
+      "char_end": 25658,
+      "char_start": 25429,
+      "is_heading": false,
+      "ordinal": 131,
+      "text": "Research and development expenses increased $717 million or 9% driven by continued investments in compute capacity, AI talent, and data to support product development across the portfolio, with headcount declining year-over-year."
+    },
+    {
+      "block_idx": 564,
+      "char_end": 25739,
+      "char_start": 25660,
+      "is_heading": true,
+      "ordinal": 132,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 565,
+      "char_end": 26043,
+      "char_start": 25741,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "Research and development expenses increased $1.9 billion or 8% driven by continued investments in compute capacity, AI talent, and data to support product development across the portfolio, as well as impairment and other related expenses in our Gaming business, with headcount declining year-over-year."
+    },
+    {
+      "block_idx": 566,
+      "char_end": 26064,
+      "char_start": 26045,
+      "is_heading": true,
+      "ordinal": 134,
+      "text": "Sales and Marketing"
+    },
+    {
+      "block_idx": 568,
+      "char_end": 26333,
+      "char_start": 26066,
+      "is_heading": false,
+      "ordinal": 135,
+      "text": "Sales and marketing expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with sales and marketing personnel, and the costs of advertising, promotions, trade shows, seminars, and other programs."
+    },
+    {
+      "block_idx": 569,
+      "char_end": 26416,
+      "char_start": 26335,
+      "is_heading": true,
+      "ordinal": 136,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 570,
+      "char_end": 26649,
+      "char_start": 26418,
+      "is_heading": false,
+      "ordinal": 137,
+      "text": "Sales and marketing expenses increased $602 million or 10% primarily driven by higher Copilot advertising expenses, with headcount declining year-over-year. Sales and marketing included an unfavorable foreign currency impact of 3%."
+    },
+    {
+      "block_idx": 571,
+      "char_end": 26730,
+      "char_start": 26651,
+      "is_heading": true,
+      "ordinal": 138,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 572,
+      "char_end": 26952,
+      "char_start": 26732,
+      "is_heading": false,
+      "ordinal": 139,
+      "text": "Sales and marketing expenses increased $746 million or 4% driven by higher Copilot advertising expenses, with headcount declining year-over-year. Sales and marketing included an unfavorable foreign currency impact of 2%."
+    },
+    {
+      "block_idx": 573,
+      "char_end": 26980,
+      "char_start": 26954,
+      "is_heading": true,
+      "ordinal": 140,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 578,
+      "char_end": 27352,
+      "char_start": 26982,
+      "is_heading": false,
+      "ordinal": 141,
+      "text": "General and administrative expenses include payroll, employee benefits, stock-based compensation expense, employee severance expense incurred as part of a corporate program, and other headcount-related expenses associated with finance, legal, facilities, certain human resources and other administrative personnel, certain taxes, and legal and other administrative fees."
+    },
+    {
+      "block_idx": 579,
+      "char_end": 27435,
+      "char_start": 27354,
+      "is_heading": true,
+      "ordinal": 142,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 580,
+      "char_end": 27586,
+      "char_start": 27437,
+      "is_heading": false,
+      "ordinal": 143,
+      "text": "General and administrative expenses increased $194 million or 11% primarily driven by higher legal expenses, with headcount declining year-over-year."
+    },
+    {
+      "block_idx": 581,
+      "char_end": 27667,
+      "char_start": 27588,
+      "is_heading": true,
+      "ordinal": 144,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 582,
+      "char_end": 27807,
+      "char_start": 27669,
+      "is_heading": false,
+      "ordinal": 145,
+      "text": "General and administrative expenses increased $436 million or 8% driven by higher legal expenses, with headcount declining year-over-year."
+    },
+    {
+      "block_idx": 583,
+      "char_end": 27836,
+      "char_start": 27809,
+      "is_heading": true,
+      "ordinal": 146,
+      "text": "OTHER INCOME (EXPENSE), NET"
+    },
+    {
+      "block_idx": 584,
+      "char_end": 27900,
+      "char_start": 27838,
+      "is_heading": false,
+      "ordinal": 147,
+      "text": "The components of other income (expense), net were as follows:"
+    },
+    {
+      "block_idx": 586,
+      "char_end": 28261,
+      "char_start": 27902,
+      "is_heading": false,
+      "ordinal": 148,
+      "text": "We use derivative instruments to manage risks related to foreign currencies, interest rates, equity prices, and credit; to enhance investment returns; and to facilitate portfolio diversification. Gains and losses from changes in fair values of derivatives that are not designated as hedging instruments are primarily recognized in other income (expense), net."
+    },
+    {
+      "block_idx": 587,
+      "char_end": 28796,
+      "char_start": 28263,
+      "is_heading": false,
+      "ordinal": 149,
+      "text": "Other income (expense), net included $19 million of net losses and $5.9 billion of net gains for the three and nine months ended March 31, 2026, respectively, and $768 million and $2.7 billion of net losses for the three and nine months ended March 31, 2025, respectively, from investments in OpenAI, primarily net recognized gains (losses) on our equity method investment reflected in Other, net. The net gains recorded for the nine months ended March 31, 2026 primarily relate to the dilution gain from the OpenAI Recapitalization."
+    },
+    {
+      "block_idx": 588,
+      "char_end": 28879,
+      "char_start": 28798,
+      "is_heading": true,
+      "ordinal": 150,
+      "text": "Three Months Ended March 31, 2026 Compared with Three Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 589,
+      "char_end": 29487,
+      "char_start": 28881,
+      "is_heading": false,
+      "ordinal": 151,
+      "text": "Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Interest expense increased primarily due to higher finance lease interest expense, offset in part by higher capitalization of debt interest expense. Net recognized gains on investments increased primarily due to higher gains on equity securities in the current period. Net gains on derivatives decreased primarily due to lower gains on equity derivatives in the current period. Other, net primarily reflects net recognized gains (losses) on equity method investments, including OpenAI."
+    },
+    {
+      "block_idx": 590,
+      "char_end": 29568,
+      "char_start": 29489,
+      "is_heading": true,
+      "ordinal": 152,
+      "text": "Nine Months Ended March 31, 2026 Compared with Nine Months Ended March 31, 2025"
+    },
+    {
+      "block_idx": 591,
+      "char_end": 30234,
+      "char_start": 29570,
+      "is_heading": false,
+      "ordinal": 153,
+      "text": "Interest and dividends income increased primarily due to higher portfolio balances and higher yields on debt securities. Interest expense increased primarily due to higher finance lease interest expense, offset in part by higher capitalization of debt interest expense. Net recognized gains on investments increased primarily due to higher gains on equity securities and lower impairments in the current period. Net gains on derivatives increased primarily due to gains on equity derivatives in the current period as compared to losses in the prior period. Other, net primarily reflects net recognized gains (losses) on equity method investments, including OpenAI."
+    },
+    {
+      "block_idx": 595,
+      "char_end": 30248,
+      "char_start": 30236,
+      "is_heading": true,
+      "ordinal": 154,
+      "text": "INCOME TAXES"
+    },
+    {
+      "block_idx": 596,
+      "char_end": 30268,
+      "char_start": 30250,
+      "is_heading": true,
+      "ordinal": 155,
+      "text": "Effective Tax Rate"
+    },
+    {
+      "block_idx": 597,
+      "char_end": 30988,
+      "char_start": 30270,
+      "is_heading": false,
+      "ordinal": 156,
+      "text": "Our effective tax rate was 19% and 18% for the three months ended March 31, 2026 and 2025, respectively, and 20% and 18% for the nine months ended March 31, 2026 and 2025, respectively. The increase in our effective tax rate for the three months ended March 31, 2026 compared to the prior year was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries. The increase in our effective tax rate for the nine months ended March 31, 2026 compared to the prior year was primarily due to changes in the mix of our earnings and tax expenses between the U.S. and foreign countries and deferred tax expense attributable to the dilution gain from the OpenAI Recapitalization."
+    },
+    {
+      "block_idx": 598,
+      "char_end": 31310,
+      "char_start": 30990,
+      "is_heading": false,
+      "ordinal": 157,
+      "text": "Our effective tax rate was lower than the U.S. federal statutory rate for the three and nine months ended March 31, 2026, primarily due to earnings taxed at lower rates in foreign jurisdictions resulting from producing and distributing our products and services through our foreign regional operations center in Ireland."
+    },
+    {
+      "block_idx": 599,
+      "char_end": 31335,
+      "char_start": 31312,
+      "is_heading": true,
+      "ordinal": 158,
+      "text": "Uncertain Tax Positions"
+    },
+    {
+      "block_idx": 600,
+      "char_end": 32232,
+      "char_start": 31337,
+      "is_heading": false,
+      "ordinal": 159,
+      "text": "We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, we received Notices of Proposed Adjustment (\"NOPAs\") from the IRS. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. As of March 31, 2026, we believe our allowances for income tax contingencies are adequate. We disagree with the proposed adjustments and will vigorously contest the NOPAs through the IRS's administrative appeals office and, if necessary, judicial proceedings. We do not expect a final resolution of these issues in the next 12 months. Based on the information currently available, we do not anticipate a significant increase or decrease to our income tax contingencies for these issues within the next 12 months."
+    },
+    {
+      "block_idx": 601,
+      "char_end": 32563,
+      "char_start": 32234,
+      "is_heading": false,
+      "ordinal": 160,
+      "text": "We are subject to income tax in many jurisdictions outside the U.S., some of which are currently under audit by local tax authorities. The resolution of these audits is not expected to be material to our consolidated financial statements. Our operations in Ireland remain subject to examination for tax years 2021 and thereafter."
+    },
+    {
+      "block_idx": 602,
+      "char_end": 32592,
+      "char_start": 32565,
+      "is_heading": true,
+      "ordinal": 161,
+      "text": "NON-GAAP FINANCIAL MEASURES"
+    },
+    {
+      "block_idx": 603,
+      "char_end": 33255,
+      "char_start": 32594,
+      "is_heading": false,
+      "ordinal": 162,
+      "text": "Adjusted other income (expense), net, adjusted net income, and adjusted diluted EPS are non-GAAP financial measures which exclude net (gains) losses from investments in OpenAI. We believe these non-GAAP measures aid investors by providing additional insight into our financial performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These non-GAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP."
+    },
+    {
+      "block_idx": 607,
+      "char_end": 33373,
+      "char_start": 33257,
+      "is_heading": false,
+      "ordinal": 163,
+      "text": "The following table reconciles our financial results reported in accordance with GAAP to non-GAAP financial results:"
+    },
+    {
+      "block_idx": 609,
+      "char_end": 33406,
+      "char_start": 33375,
+      "is_heading": true,
+      "ordinal": 164,
+      "text": "LIQUIDITY AND CAPITAL RESOURCES"
+    },
+    {
+      "block_idx": 610,
+      "char_end": 33820,
+      "char_start": 33408,
+      "is_heading": false,
+      "ordinal": 165,
+      "text": "We expect existing cash, cash equivalents, short-term investments, cash flows from operations, and access to capital markets to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities, such as dividends, share repurchases, debt maturities, and material capital expenditures, for at least the next 12 months and thereafter for the foreseeable future."
+    },
+    {
+      "block_idx": 611,
+      "char_end": 33861,
+      "char_start": 33822,
+      "is_heading": true,
+      "ordinal": 166,
+      "text": "Cash, Cash Equivalents, and Investments"
+    },
+    {
+      "block_idx": 612,
+      "char_end": 34926,
+      "char_start": 33863,
+      "is_heading": false,
+      "ordinal": 167,
+      "text": "Cash, cash equivalents, and short-term investments totaled $78.3 billion and $94.6 billion as of March 31, 2026 and June 30, 2025, respectively. Equity and other investments were $33.7 billion and $15.4 billion as of March 31, 2026 and June 30, 2025, respectively. Our short-term investments are primarily intended to facilitate liquidity and capital preservation. They consist predominantly of highly liquid investment-grade fixed-income securities, diversified among industries and individual issuers. The investments are predominantly U.S. dollar-denominated securities, but also include foreign currency-denominated securities to diversify risk. Our fixed-income investments are exposed to interest rate risk and credit risk. The credit risk and average maturity of our fixed-income portfolio are managed to achieve economic returns that correlate to certain fixed-income indices. The settlement risk related to these investments is insignificant given that the short-term investments held are primarily highly liquid investment-grade fixed-income securities."
+    },
+    {
+      "block_idx": 613,
+      "char_end": 34937,
+      "char_start": 34928,
+      "is_heading": true,
+      "ordinal": 168,
+      "text": "Valuation"
+    },
+    {
+      "block_idx": 614,
+      "char_end": 35995,
+      "char_start": 34939,
+      "is_heading": false,
+      "ordinal": 169,
+      "text": "In general, and where applicable, we use quoted prices in active markets for identical assets or liabilities to determine the fair value of our financial instruments. This pricing methodology applies to our Level 1 investments, such as U.S. government securities, common and preferred stock, and mutual funds. If quoted prices in active markets for identical assets or liabilities are not available to determine fair value, then we use quoted prices for similar assets and liabilities or inputs other than the quoted prices that are observable either directly or indirectly. This pricing methodology applies to our Level 2 investments, such as commercial paper, certificates of deposit, U.S. agency securities, foreign government bonds, mortgage- and asset-backed securities, corporate notes and bonds, and municipal securities. Level 3 investments are valued using internally-developed models with unobservable inputs. Assets and liabilities measured at fair value on a recurring basis using unobservable inputs are an immaterial portion of our portfolio."
+    },
+    {
+      "block_idx": 618,
+      "char_end": 37126,
+      "char_start": 35997,
+      "is_heading": false,
+      "ordinal": 170,
+      "text": "A majority of our investments are priced by pricing vendors and are generally Level 1 or Level 2 investments as these vendors either provide a quoted market price in an active market or use observable inputs for their pricing without applying significant adjustments. Broker pricing is used mainly when a quoted price is not available, the investment is not priced by our pricing vendors, or when a broker price is more reflective of fair values in the market in which the investment trades. Our broker-priced investments are generally classified as Level 2 investments because the broker prices these investments based on similar assets without applying significant adjustments. In addition, all our broker-priced investments have a sufficient level of trading volume to demonstrate that the fair values used are appropriate for these investments. Our fair value processes include controls that are designed to ensure appropriate fair values are recorded. These controls include model validation, review of key model inputs, analysis of period-over-period fluctuations, and independent recalculation of prices where appropriate."
+    },
+    {
+      "block_idx": 619,
+      "char_end": 37138,
+      "char_start": 37128,
+      "is_heading": true,
+      "ordinal": 171,
+      "text": "Cash Flows"
+    },
+    {
+      "block_idx": 620,
+      "char_end": 38083,
+      "char_start": 37140,
+      "is_heading": false,
+      "ordinal": 172,
+      "text": "Cash from operations increased $34.0 billion to $127.5 billion for the nine months ended March 31, 2026, primarily due to an increase in cash received from customers and a decrease in cash used to pay income taxes, offset in part by an increase in cash paid to suppliers. Cash used in financing decreased $88 million to $40.8 billion for the nine months ended March 31, 2026, primarily due to a $6.0 billion decrease in cash used for repayments of debt, offset in part by a $3.8 billion increase in common stock repurchases and a $1.8 billion increase in dividends paid. Cash used in investing increased $42.6 billion to $84.7 billion for the nine months ended March 31, 2026, primarily due to a $32.7 billion increase in additions to property and equipment, a $9.1 billion increase in other investing primarily to facilitate the purchase of components, and a $3.8 billion decrease in cash from net investment purchases, sales, and maturities."
+    },
+    {
+      "block_idx": 621,
+      "char_end": 38098,
+      "char_start": 38085,
+      "is_heading": true,
+      "ordinal": 173,
+      "text": "Debt Proceeds"
+    },
+    {
+      "block_idx": 622,
+      "char_end": 38564,
+      "char_start": 38100,
+      "is_heading": false,
+      "ordinal": 174,
+      "text": "We issue debt to take advantage of favorable pricing and liquidity in the debt markets, reflecting our credit rating. The proceeds of these issuances were or will be used for general corporate purposes, which may include, among other things, funding for working capital, capital expenditures, repurchases of capital stock, acquisitions, and repayment of existing debt. Refer to Note 9 - Debt of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 623,
+      "char_end": 38582,
+      "char_start": 38566,
+      "is_heading": true,
+      "ordinal": 175,
+      "text": "Unearned Revenue"
+    },
+    {
+      "block_idx": 624,
+      "char_end": 39072,
+      "char_start": 38584,
+      "is_heading": false,
+      "ordinal": 176,
+      "text": "Unearned revenue comprises mainly unearned revenue related to volume licensing programs, which may include cloud services and Software Assurance (\"SA\"). Unearned revenue is generally invoiced annually at the beginning of each contract period for multi-year agreements and recognized ratably over the coverage period. Unearned revenue also includes payments for other offerings for which we have been paid in advance and earn the revenue when we transfer control of the product or service."
+    },
+    {
+      "block_idx": 625,
+      "char_end": 39176,
+      "char_start": 39074,
+      "is_heading": false,
+      "ordinal": 177,
+      "text": "The following table outlines the expected future recognition of unearned revenue as of March 31, 2026:"
+    },
+    {
+      "block_idx": 627,
+      "char_end": 39606,
+      "char_start": 39178,
+      "is_heading": false,
+      "ordinal": 178,
+      "text": "If our customers choose to license cloud-based versions of our products and services rather than licensing transaction-based products and services, the associated revenue will shift from being recognized at the time of the transaction to being recognized over the subscription period or upon consumption, as applicable. Refer to Note 11 - Unearned Revenue of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 631,
+      "char_end": 39656,
+      "char_start": 39608,
+      "is_heading": true,
+      "ordinal": 179,
+      "text": "Material Cash Requirements and Other Obligations"
+    },
+    {
+      "block_idx": 632,
+      "char_end": 39675,
+      "char_start": 39658,
+      "is_heading": true,
+      "ordinal": 180,
+      "text": "Share Repurchases"
+    },
+    {
+      "block_idx": 633,
+      "char_end": 40141,
+      "char_start": 39677,
+      "is_heading": false,
+      "ordinal": 181,
+      "text": "For the nine months ended March 31, 2026 and 2025, we repurchased 27 million shares and 23 million shares of our common stock for $13.3 billion and $9.8 billion, respectively, through our share repurchase program. All repurchases were made using cash resources. As of March 31, 2026, $44.0 billion remained of our $60 billion share repurchase program. Refer to Note 14 - Stockholders' Equity of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 634,
+      "char_end": 40152,
+      "char_start": 40143,
+      "is_heading": true,
+      "ordinal": 182,
+      "text": "Dividends"
+    },
+    {
+      "block_idx": 635,
+      "char_end": 40547,
+      "char_start": 40154,
+      "is_heading": false,
+      "ordinal": 183,
+      "text": "For the nine months ended March 31, 2026 and 2025, our Board of Directors declared dividends totaling $20.3 billion and $18.5 billion, respectively. We intend to continue returning capital to shareholders in the form of dividends, subject to declaration by our Board of Directors. Refer to Note 14 - Stockholders' Equity of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 636,
+      "char_end": 40578,
+      "char_start": 40549,
+      "is_heading": true,
+      "ordinal": 184,
+      "text": "Other Planned Uses of Capital"
+    },
+    {
+      "block_idx": 637,
+      "char_end": 41462,
+      "char_start": 40580,
+      "is_heading": false,
+      "ordinal": 185,
+      "text": "We will continue to invest in sales, marketing, product support infrastructure, and existing and advanced areas of technology, as well as acquisitions that align with our business strategy. Additions to property and equipment will continue, including new facilities, datacenters, and computer systems for research and development, sales and marketing, support, and administrative staff. We will continue to invest in capital expenditures to support growth in our cloud offerings and our investments in AI infrastructure and training. We have operating and finance leases for datacenters, corporate offices, research and development facilities, and certain equipment. We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources."
+    },
+    {
+      "block_idx": 638,
+      "char_end": 41490,
+      "char_start": 41464,
+      "is_heading": true,
+      "ordinal": 186,
+      "text": "RECENT ACCOUNTING GUIDANCE"
+    },
+    {
+      "block_idx": 639,
+      "char_end": 41602,
+      "char_start": 41492,
+      "is_heading": false,
+      "ordinal": 187,
+      "text": "Refer to Note 1 - Accounting Policies of the Notes to Financial Statements (Part I, Item 1 of this Form 10-Q)."
+    },
+    {
+      "block_idx": 640,
+      "char_end": 41633,
+      "char_start": 41604,
+      "is_heading": true,
+      "ordinal": 188,
+      "text": "CRITICAL ACCOUNTING ESTIMATES"
+    },
+    {
+      "block_idx": 641,
+      "char_end": 42309,
+      "char_start": 41635,
+      "is_heading": false,
+      "ordinal": 189,
+      "text": "Our consolidated financial statements and accompanying notes are prepared in accordance with GAAP. Preparing consolidated financial statements requires management to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, and expenses. Critical accounting estimates are those estimates that involve a significant level of estimation uncertainty and could have a material impact on our financial condition or results of operations. We have critical accounting estimates in the areas of revenue recognition, impairment of investment securities, goodwill, research and development costs, legal and other contingencies, and income taxes."
+    },
+    {
+      "block_idx": 642,
+      "char_end": 42330,
+      "char_start": 42311,
+      "is_heading": true,
+      "ordinal": 190,
+      "text": "Revenue Recognition"
+    },
+    {
+      "block_idx": 643,
+      "char_end": 43266,
+      "char_start": 42332,
+      "is_heading": false,
+      "ordinal": 191,
+      "text": "Our contracts with customers often include promises to transfer multiple products and services to a customer. Determining whether products and services are considered distinct performance obligations that should be accounted for separately versus together may require significant judgment. When a cloud-based service includes both on-premises software licenses and cloud services, judgment is required to determine whether the software license is considered distinct and accounted for separately, or not distinct and accounted for together with the cloud service and recognized over time. Certain cloud services, primarily Office 365, depend on a significant level of integration, interdependency, and interrelation between the desktop applications and cloud services, and are accounted for together as one performance obligation. Revenue from Office 365 is recognized ratably over the period in which the cloud services are provided."
+    },
+    {
+      "block_idx": 644,
+      "char_end": 43787,
+      "char_start": 43268,
+      "is_heading": false,
+      "ordinal": 192,
+      "text": "Judgment is required to determine the standalone selling price (\"SSP\") for each distinct performance obligation. We use a single amount to estimate SSP for items that are not sold separately, including on-premises licenses sold with SA or software updates provided at no additional charge. We use a range of amounts to estimate SSP when we sell each of the products and services separately and need to determine whether there is a discount to be allocated based on the relative SSP of the various products and services."
+    },
+    {
+      "block_idx": 648,
+      "char_end": 44289,
+      "char_start": 43789,
+      "is_heading": false,
+      "ordinal": 193,
+      "text": "In instances where SSP is not directly observable, such as when we do not sell the product or service separately, we determine the SSP using information that may include market conditions and other observable inputs. We typically have more than one SSP for individual products and services due to the stratification of those products and services by customers and circumstances. In these instances, we may use information such as the size of the customer and geographic region in determining the SSP."
+    },
+    {
+      "block_idx": 649,
+      "char_end": 44499,
+      "char_start": 44291,
+      "is_heading": false,
+      "ordinal": 194,
+      "text": "Due to the various benefits from and the nature of our SA program, judgment is required to assess the pattern of delivery, including the exercise pattern of certain benefits across our portfolio of customers."
+    },
+    {
+      "block_idx": 650,
+      "char_end": 45027,
+      "char_start": 44501,
+      "is_heading": false,
+      "ordinal": 195,
+      "text": "Our products are generally sold with a right of return, we may provide other credits or incentives, and in certain instances we estimate customer usage of our products and services, which are accounted for as variable consideration when determining the amount of revenue to recognize. Returns and credits are estimated at contract inception and updated at the end of each reporting period if additional information becomes available. Changes to our estimated variable consideration were not material for the periods presented."
+    },
+    {
+      "block_idx": 651,
+      "char_end": 45678,
+      "char_start": 45029,
+      "is_heading": false,
+      "ordinal": 196,
+      "text": "Remaining performance obligations represent the revenue we expect to recognize for our products and services for which control has not yet been transferred to customers. We estimate total consideration to be received at the outset of the agreement and throughout the term of the agreement. Estimating the total consideration and revenue that will be allocated to remaining performance obligation can involve significant judgments, including identifying and assessing variable consideration and potential renegotiation of commitments. We consider factors such as the nature of the terms and duration of the contract across our portfolio of contracts."
+    },
+    {
+      "block_idx": 652,
+      "char_end": 45715,
+      "char_start": 45680,
+      "is_heading": true,
+      "ordinal": 197,
+      "text": "Impairment of Investment Securities"
+    },
+    {
+      "block_idx": 653,
+      "char_end": 46746,
+      "char_start": 45717,
+      "is_heading": false,
+      "ordinal": 198,
+      "text": "We review debt investments quarterly for credit losses and impairment. If the cost of an investment exceeds its fair value, we evaluate, among other factors, general market conditions, credit quality of debt instrument issuers, and the extent to which the fair value is less than cost. This determination requires significant judgment. In making this judgment, we employ a systematic methodology that considers available quantitative and qualitative evidence in evaluating potential impairment of our investments. In addition, we consider specific adverse conditions related to the financial health of, and business outlook for, the investee. If we have plans to sell the security or it is more likely than not that we will be required to sell the security before recovery, then a decline in fair value below cost is recorded as an impairment charge in other income (expense), net and a new cost basis in the investment is established. If market, industry, and/or investee conditions deteriorate, we may incur future impairments."
+    },
+    {
+      "block_idx": 654,
+      "char_end": 47254,
+      "char_start": 46748,
+      "is_heading": false,
+      "ordinal": 199,
+      "text": "Equity investments without readily determinable fair values are written down to fair value if a qualitative assessment indicates that the investment is impaired and the fair value of the investment is less than carrying value. We perform a qualitative assessment on a periodic basis. We are required to estimate the fair value of the investment to determine the amount of the impairment loss. Once an investment is determined to be impaired, an impairment charge is recorded in other income (expense), net."
+    },
+    {
+      "block_idx": 655,
+      "char_end": 47264,
+      "char_start": 47256,
+      "is_heading": true,
+      "ordinal": 200,
+      "text": "Goodwill"
+    },
+    {
+      "block_idx": 656,
+      "char_end": 48059,
+      "char_start": 47266,
+      "is_heading": false,
+      "ordinal": 201,
+      "text": "We allocate goodwill to reporting units based on the reporting unit expected to benefit from the business combination. We evaluate our reporting units on an annual basis and, if necessary, reassign goodwill using a relative fair value allocation approach. Goodwill is tested for impairment at the reporting unit level (operating segment or one level below an operating segment) on an annual basis (May 1) and between annual tests if an event occurs or circumstances change that would more likely than not reduce the fair value of a reporting unit below its carrying value. These events or circumstances could include a significant change in the business climate, legal factors, operating performance indicators, competition, or sale or disposition of a significant portion of a reporting unit."
+    },
+    {
+      "block_idx": 657,
+      "char_end": 48763,
+      "char_start": 48061,
+      "is_heading": false,
+      "ordinal": 202,
+      "text": "Application of the goodwill impairment test requires judgment, including the identification of reporting units, assignment of assets and liabilities to reporting units, assignment of goodwill to reporting units, and determination of the fair value of each reporting unit. The fair value of each reporting unit is estimated primarily through the use of a discounted cash flow methodology. This analysis requires significant judgments, including estimation of future cash flows, which is dependent on internal forecasts, estimation of the long-term rate of growth for our business, estimation of the useful life over which cash flows will occur, and determination of our weighted average cost of capital."
+    },
+    {
+      "block_idx": 661,
+      "char_end": 49070,
+      "char_start": 48765,
+      "is_heading": false,
+      "ordinal": 203,
+      "text": "The estimates used to calculate the fair value of a reporting unit change from year to year based on operating results, market conditions, and other factors. Changes in these estimates and assumptions could materially affect the determination of fair value and goodwill impairment for each reporting unit."
+    },
+    {
+      "block_idx": 662,
+      "char_end": 49102,
+      "char_start": 49072,
+      "is_heading": true,
+      "ordinal": 204,
+      "text": "Research and Development Costs"
+    },
+    {
+      "block_idx": 663,
+      "char_end": 49907,
+      "char_start": 49104,
+      "is_heading": false,
+      "ordinal": 205,
+      "text": "Costs incurred internally in researching and developing a software product to be marketed or sold to external users are charged to expense until technological feasibility has been established for the product. Once technological feasibility is established, software costs are capitalized until the product is available for general release to customers. Judgment is required in determining when technological feasibility of a product is established. We have determined that technological feasibility for our software products is reached after all high-risk development issues have been resolved through coding and testing. Generally, this occurs shortly before the products are released to production. The amortization of these costs is included in cost of revenue over the estimated life of the products."
+    },
+    {
+      "block_idx": 664,
+      "char_end": 49938,
+      "char_start": 49909,
+      "is_heading": true,
+      "ordinal": 206,
+      "text": "Legal and Other Contingencies"
+    },
+    {
+      "block_idx": 665,
+      "char_end": 50584,
+      "char_start": 49940,
+      "is_heading": false,
+      "ordinal": 207,
+      "text": "The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty. An estimated loss from a loss contingency such as a legal proceeding or claim is accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated. In determining whether a loss should be accrued we evaluate, among other factors, the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss. Changes in these factors could materially impact our consolidated financial statements."
+    },
+    {
+      "block_idx": 666,
+      "char_end": 50598,
+      "char_start": 50586,
+      "is_heading": true,
+      "ordinal": 208,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 667,
+      "char_end": 51855,
+      "char_start": 50600,
+      "is_heading": false,
+      "ordinal": 209,
+      "text": "The objectives of accounting for income taxes are to recognize the amount of taxes payable or refundable for the current year, and deferred tax liabilities and assets for the future tax consequences of events that have been recognized in an entity's financial statements or tax returns. We recognize the tax benefit from an uncertain tax position only if it is more likely than not that the tax position will be sustained on examination by the taxing authorities, based on the technical merits of the position. The tax benefits recognized in the financial statements from such a position are measured based on the largest benefit that has a greater than 50% likelihood of being realized upon ultimate settlement. Accounting literature also provides guidance on derecognition of income tax assets and liabilities, classification of deferred income tax assets and liabilities, accounting for interest and penalties associated with tax positions, and income tax disclosures. Judgment is required in assessing the future tax consequences of events that have been recognized in our consolidated financial statements or tax returns. Variations in the actual outcome of these future tax consequences could materially impact our consolidated financial statements."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 694,
+      "char_end": 269,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely affect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock."
+    },
+    {
+      "block_idx": 695,
+      "char_end": 302,
+      "char_start": 271,
+      "is_heading": true,
+      "ordinal": 1,
+      "text": "STRATEGIC AND COMPETITIVE RISKS"
+    },
+    {
+      "block_idx": 696,
+      "char_end": 437,
+      "char_start": 304,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "We face intense competition across all markets for our products and services, which could adversely affect our results of operations."
+    },
+    {
+      "block_idx": 697,
+      "char_end": 475,
+      "char_start": 439,
+      "is_heading": true,
+      "ordinal": 3,
+      "text": "Competition in the technology sector"
+    },
+    {
+      "block_idx": 698,
+      "char_end": 1211,
+      "char_start": 477,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "Our competitors range in size from diversified global companies with significant research and development resources to small, specialized firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive technologies, shifting user needs, and frequent introductions of new products and services. If we do not continue to innovate and provide products, devices, and services that appeal to businesses and consumers, we may not remain competitive, which could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 699,
+      "char_end": 1256,
+      "char_start": 1213,
+      "is_heading": true,
+      "ordinal": 5,
+      "text": "Competition among platform-based ecosystems"
+    },
+    {
+      "block_idx": 700,
+      "char_end": 1768,
+      "char_start": 1258,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "An important element of our business model has been to create platform-based ecosystems on which many participants can build diverse solutions. A well-established ecosystem creates beneficial network effects among users, application developers, and the platform provider that can accelerate growth. Establishing significant scale in the marketplace is necessary to meet consumer demand and to achieve and maintain attractive margins. We face significant competition from firms that provide competing platforms."
+    },
+    {
+      "block_idx": 702,
+      "char_end": 2566,
+      "char_start": 1770,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "A competing vertically-integrated model, in which a single firm controls the hardware and software elements of a product and related services, has succeeded with some consumer products such as PCs, tablets, smartphones, gaming consoles, wearables, and other endpoint devices. Competitors pursuing this model also earn revenue from services integrated with the hardware and software platform, including applications and content sold through their integrated marketplaces. They may also be able to claim security and performance benefits from their vertically-integrated offer. We also offer some vertically-integrated hardware and software products and services. Shifting a portion of our business to a vertically-integrated model may increase our cost of revenue and reduce our operating margins."
+    },
+    {
+      "block_idx": 704,
+      "char_end": 3532,
+      "char_start": 2568,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "We derive substantial revenue from licenses of Windows operating systems on PCs. We face significant competition from competing platforms developed for new devices and form factors such as smartphones and tablets. These devices compete on multiple bases including price and the perceived utility of the device and its platform. Users continue to turn to these devices to perform functions that in the past were performed by PCs. Even if many users view these devices as complementary to a PC, the prevalence of these devices may make it more difficult to attract application developers to our PC operating system platforms. Competing with operating systems licensed at low or no cost may decrease our PC operating system margins. Popular products or services offered on competing platforms could increase their competitive strength. In addition, some of our devices compete with products made by our OEM partners, which may affect their commitment to our platform."
+    },
+    {
+      "block_idx": 709,
+      "char_end": 4392,
+      "char_start": 3534,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Competing platforms have content and application marketplaces with scale and significant installed bases. The variety and utility of content and applications available on a platform are important to device purchasing decisions. Users may incur costs to move data and buy new content and applications when switching platforms. To compete, we must successfully enlist developers to write applications for our platform and ensure that these applications have high quality, security, customer appeal, and value. Efforts to compete with competitors' content and application marketplaces may increase our cost of revenue and lower our operating margins. Competitors' rules governing their content and applications marketplaces may restrict our ability to distribute products and services through them in accordance with our technical and business model objectives."
+    },
+    {
+      "block_idx": 710,
+      "char_end": 4609,
+      "char_start": 4394,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "For all of these reasons, we may not be able to compete successfully against our current and future competitors, which could adversely affect our business, operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 711,
+      "char_end": 4637,
+      "char_start": 4611,
+      "is_heading": true,
+      "ordinal": 11,
+      "text": "Business model competition"
+    },
+    {
+      "block_idx": 712,
+      "char_end": 4711,
+      "char_start": 4639,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "Companies compete with us based on a growing variety of business models."
+    },
+    {
+      "block_idx": 714,
+      "char_end": 5038,
+      "char_start": 4713,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "A material part of our business involves cloud-based services available across the spectrum of computing devices. We and our competitors continue to devote significant resources to developing and deploying cloud-based strategies and services for consumers and business customers, and pricing and delivery models are evolving."
+    },
+    {
+      "block_idx": 716,
+      "char_end": 5640,
+      "char_start": 5040,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "We are investing in artificial intelligence (\"AI\") across the entire company and infusing AI capabilities into our consumer and commercial offerings. AI technology and services are a highly competitive and rapidly evolving market, and new competitors continue to enter the market. We will bear significant development and operational costs to build and support the AI models, services, platforms, and infrastructure necessary to meet the needs of our customers. To compete effectively we must also be responsive to technological change, new and potential regulatory developments, and public scrutiny."
+    },
+    {
+      "block_idx": 718,
+      "char_end": 6158,
+      "char_start": 5642,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Even as we transition more of our business to infrastructure-, platform-, and software-as-a-service business models, the license-based proprietary software model generates a substantial portion of our software revenue. We bear the costs of converting original ideas into software products through investments in research and development, offsetting these costs with the revenue received from licensing our products. Many of our competitors also develop and sell software to businesses and consumers under this model."
+    },
+    {
+      "block_idx": 720,
+      "char_end": 6472,
+      "char_start": 6160,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Other competitors develop and offer free applications, online services, and content, and make money by selling third-party advertising. Advertising revenue funds development of products and services these competitors provide to users at little or no cost, competing directly with our revenue-generating products."
+    },
+    {
+      "block_idx": 722,
+      "char_end": 6908,
+      "char_start": 6474,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Some companies compete with us by modifying and then distributing open-source software at little or no cost to end users, developing, making available, or using AI models that are open, and earning revenue on advertising or integrated products and services. These firms do not bear the full costs of research and development for the open-source products. Some open-source products mimic the features and functionality of our products."
+    },
+    {
+      "block_idx": 723,
+      "char_end": 7189,
+      "char_start": 6910,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "The competitive pressures described above may cause decreased sales volumes, price reductions, and/or increased operating costs, such as for research and development, marketing, and sales incentives, which could adversely affect our financial condition and results of operations."
+    },
+    {
+      "block_idx": 724,
+      "char_end": 7517,
+      "char_start": 7191,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Our focus on cloud-based and AI services presents execution and competitive risks. We are incurring significant costs to build and maintain infrastructure to support cloud-based and AI services, reducing operating margins. Whether we succeed in cloud-based and AI services depends on our execution in several areas, including:"
+    },
+    {
+      "block_idx": 726,
+      "char_end": 7651,
+      "char_start": 7519,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "Continuing to bring to market compelling cloud-based and AI services and products that generate increasing traffic and market share."
+    },
+    {
+      "block_idx": 728,
+      "char_end": 7859,
+      "char_start": 7653,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "Maintaining the utility, compatibility, and performance of our cloud-based and AI services on the growing array of computing devices, including PCs, smartphones, tablets, gaming consoles, and other devices."
+    },
+    {
+      "block_idx": 730,
+      "char_end": 7951,
+      "char_start": 7861,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Continuing to enhance the attractiveness of our cloud platforms to third-party developers."
+    },
+    {
+      "block_idx": 735,
+      "char_end": 8157,
+      "char_start": 7953,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Ensuring our cloud-based services meet the reliability expectations and specific requirements of our customers and maintain the security of their data as well as help them meet their own compliance needs."
+    },
+    {
+      "block_idx": 737,
+      "char_end": 8307,
+      "char_start": 8159,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Making our suite of cloud-based services platform-agnostic, available on a wide range of devices and ecosystems, including those of our competitors."
+    },
+    {
+      "block_idx": 738,
+      "char_end": 8817,
+      "char_start": 8309,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "It is uncertain whether our strategies will continue to attract users or generate the revenue required to succeed. If we are not effective in executing organizational and technical changes to increase efficiency and accelerate innovation, or if we fail to generate sufficient usage of our new products and services, we may not grow revenue in line with the infrastructure and development investments described above. This could adversely affect our operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 739,
+      "char_end": 9488,
+      "char_start": 8819,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "Our AI systems offer users powerful tools and capabilities. However, there may be instances where these systems are used in ways that are unintended or inappropriate. In addition, some users may also engage in fraudulent or abusive activities through our cloud-based and AI services, such as unauthorized account access, payment fraud, or terms of service violations including cryptocurrency mining or launching cyberattacks. While we are committed to detecting and controlling such misuse of our cloud-based and AI services, our efforts may not be effective, and we may incur reputational damage or experience adverse impacts to our business and results of operations."
+    },
+    {
+      "block_idx": 740,
+      "char_end": 9537,
+      "char_start": 9490,
+      "is_heading": true,
+      "ordinal": 27,
+      "text": "RISKS RELATING TO THE EVOLUTION OF OUR BUSINESS"
+    },
+    {
+      "block_idx": 741,
+      "char_end": 11331,
+      "char_start": 9539,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "We make significant investments in products and services that may not achieve expected returns. We will continue to make significant investments in research, development, and marketing for existing products, services, and technologies, including AI-based products and services. We also invest in the development and acquisition of a variety of hardware for productivity, communication, and entertainment, including PCs, tablets, and gaming devices. Investments in new technology are speculative. Commercial success depends on many factors, including innovation, developer support, and effective distribution and marketing. If customers do not perceive our latest offerings as providing significant new functionality or other value, they may reduce their purchases of new software and hardware products or upgrades, unfavorably affecting revenue. We may not achieve significant revenue from new product, service, and distribution channel investments for several years, if at all. New products and services may not be profitable or may not achieve operating margins as high as we have experienced historically. We may not get engagement in certain features that drive post-sale monetization opportunities. Our data-handling practices across our products and services will continue to be under scrutiny. Perceptions of mismanagement, driven by regulatory activity or negative public reaction to our practices or product experiences, could negatively impact product and feature adoption. Developing new technologies is complex. It can require long development and testing periods. We could experience significant delays in new releases or significant problems in creating new products or services. These factors could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 742,
+      "char_end": 13184,
+      "char_start": 11333,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "Acquisitions, joint ventures, and strategic alliances could have an adverse effect on our business. We expect to continue making acquisitions and entering into joint ventures and strategic alliances as part of our long-term business strategy. For example, in October 2023 we completed our acquisition of Activision Blizzard, Inc. Additionally, we have a long-term strategic partnership with OpenAI. Acquisitions and other transactions and arrangements involve significant challenges and risks, including that they do not advance our business strategy, that we get an unsatisfactory return on our investment, that they raise new compliance-related obligations and challenges, that we have difficulty integrating and retaining new employees, business systems, and technology, that they distract management from our other businesses, or that announced transactions may not be completed. If an arrangement fails to adequately anticipate changing circumstances and interests of a party, it may result in early termination or renegotiation of the arrangement. We also have limited ability to control or influence third parties with whom we have arrangements, which may impact our ability to realize the anticipated benefits. The success of these transactions and arrangements depend in part on our ability to leverage them to enhance our existing products and services or develop compelling new ones, as well as the acquired companies' ability to meet our policies and processes in areas such as data governance, privacy, digital safety, responsible AI, and cybersecurity. It may take longer than expected to realize the full economic benefits from these transactions and arrangements, such as increased revenue or enhanced efficiencies, or the benefits may ultimately be smaller than we expected, which could cause an impairment of goodwill or intangibles."
+    },
+    {
+      "block_idx": 746,
+      "char_end": 13687,
+      "char_start": 13186,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "We have recorded, and may in the future be required to record, a significant charge in our consolidated financial statements during the period in which any impairment of our goodwill or amortizable intangible assets is determined, negatively affecting our results of operations. In addition, these transactions and arrangements have been and may be subject to legal and regulatory challenge. These events could adversely affect our business, operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 747,
+      "char_end": 13742,
+      "char_start": 13689,
+      "is_heading": true,
+      "ordinal": 31,
+      "text": "CYBERSECURITY, DATA PRIVACY, AND PLATFORM ABUSE RISKS"
+    },
+    {
+      "block_idx": 748,
+      "char_end": 13902,
+      "char_start": 13744,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "Cyberattacks and security vulnerabilities could lead to reduced revenue, increased costs, liability claims, or harm to our reputation or competitive position."
+    },
+    {
+      "block_idx": 749,
+      "char_end": 13942,
+      "char_start": 13904,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Security of our information technology"
+    },
+    {
+      "block_idx": 750,
+      "char_end": 16724,
+      "char_start": 13944,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "Threats to security can take a variety of forms. Threat actors, including individual and groups of hackers and sophisticated organizations, including nation-states, state-sponsored organizations, or cybercriminal groups, continuously undertake attacks that pose threats to our customers and our internal infrastructure, and we have experienced cybersecurity incidents in which such actors have gained unauthorized access to our systems and data, including customer systems and data. These actors use a wide variety of methods, which include developing and deploying malicious software; exploiting known and potential vulnerabilities or intentionally designed processes in our or third-party hardware, software, or other infrastructure to attack our products and services or gain access to our networks and datacenters; using social engineering techniques to induce our employees, users, partners, or customers to disclose sensitive information, such as passwords, or take other actions to gain access to our data or our users' or customers' data; or acting in a coordinated manner or conducting coordinated attacks. For example, as previously disclosed in our Form 8-K filed with the Securities and Exchange Commission on January 19, 2024 and amended on March 8, 2024, beginning in late November 2023, a nation-state associated threat actor used a password spray attack to compromise a legacy test account and, in turn, gain access to Microsoft email accounts. The threat actor used information it obtained to gain unauthorized access to some of our source code repositories and internal systems, and the threat actor could continue to utilize this and other information to attempt to gain access to our systems or otherwise adversely affect our business and results of operations. This incident has and may continue to result in harm to our reputation and customer relationships. Nation-state and state-sponsored actors can sustain malicious activities for extended periods and deploy significant resources to plan and carry out attacks. Nation-state attacks against us, our customers, or our partners have and may continue to intensify due to our transparency to our customers, other stakeholders, and the public about cyberattacks, and during elections or periods of intense diplomatic or armed conflict. Challenges or failures to update or apply security patches to all hardware and devices connected to our systems, including end-of-life and end-of-support equipment, have and may continue to result in unauthorized access to our systems and data in the future. Cyber incidents and attacks, individually or in the aggregate, could adversely affect our financial condition, results of operations, competitive position, and reputation, or expose us to legal or regulatory risk."
+    },
+    {
+      "block_idx": 754,
+      "char_end": 19050,
+      "char_start": 16726,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "Cyberthreats are constantly evolving and becoming increasingly sophisticated and complex, increasing the difficulty of detecting and successfully defending against them. Threat actors also utilize emerging technologies such as AI and machine learning to, among other things, increase the speed and scale of attacks by generating and refining malicious content and code, automate reconnaissance and targeting, and rapidly iterate on attack techniques, which can broaden the scope, intensity, and sophistication of campaigns and reduce the time we have to identify and mitigate emerging threats. Our current capabilities may not detect certain vulnerabilities or new attack methods, which may allow them to persist in the environment over long periods of time. It may be difficult to determine the best way to investigate, mitigate, contain, and remediate the harm caused by a cyber incident. Such efforts may not be successful, and we may make errors or fail to take necessary actions. It is possible that threat actors may gain undetected access to other networks and systems after establishing a foothold on an internal system. Cyber incidents and attacks can have cascading impacts that unfold with increasing speed across our internal networks and systems, as well as those of our partners and customers. In addition, it may take considerable time for us to investigate and evaluate the full impact of incidents, particularly for sophisticated attacks. As a result of these and other factors, we may not be able to provide prompt, full, and reliable information about the incident to our customers, partners, regulators, and the public. Breaches of our facilities, network, or data security can disrupt the security of our systems and business applications, impair our ability to provide services to our customers and protect the privacy of their data, result in product development delays, compromise confidential or technical business information, result in theft or misuse of our intellectual property or other assets, subject us to ransomware attacks, require us to allocate more resources to improve technologies or remediate the impacts of attacks, or otherwise adversely affect our business. In addition, actions taken to remediate an incident could result in outages, data losses, and disruptions of our services."
+    },
+    {
+      "block_idx": 755,
+      "char_end": 19722,
+      "char_start": 19052,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Our internal environment continues to evolve. Often, we are early adopters of new devices and technologies. We embrace new ways of sharing data and communicating internally and with partners and customers using methods such as social networking and other consumer-oriented technologies. Increasing use of AI, including models, algorithms, copilots, and autonomous or semi-autonomous agents, in our internal or third-party systems may create new attack surfaces or methods for adversaries. Our business policies and internal security controls may not keep pace with these changes as new threats emerge or the emerging cybersecurity regulations in jurisdictions worldwide."
+    },
+    {
+      "block_idx": 756,
+      "char_end": 20633,
+      "char_start": 19724,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "Inadequate account security or organizational security practices, including those of companies we have acquired or those of the third parties we utilize, have resulted and may result in unauthorized access to our systems and data, including customer systems and data. For example, passwords may not be rotated and employee access may not be updated or removed on a timely basis. Further, third parties that we utilize may also face the AI-based enhanced cybersecurity risk as described elsewhere in these risk factors. Employees or third parties may intentionally compromise our or our users' security or systems or reveal confidential information, and laws in foreign jurisdictions may compel actions by such parties against our interests and could limit our recourse. Malicious actors may exploit the supply chain by introducing malware through software updates or compromised supplier accounts or hardware."
+    },
+    {
+      "block_idx": 760,
+      "char_end": 20699,
+      "char_start": 20635,
+      "is_heading": true,
+      "ordinal": 38,
+      "text": "Security of our products, services, devices, and customers' data"
+    },
+    {
+      "block_idx": 761,
+      "char_end": 22910,
+      "char_start": 20701,
+      "is_heading": false,
+      "ordinal": 39,
+      "text": "The security of our products and services is important in our customers' decisions to purchase or use our products or services across cloud and on-premises environments. Security threats are a significant challenge to companies like us, whose business is providing technology products and services to others. Threats to or attacks on our own infrastructure, such as the nation-state attack described in the prior risk factor, have also affected our customers and may do so in the future. The reliability of our cloud-based services and the protection of customer data depend on the security of our infrastructure, which includes hardware, software, and other elements provided by third parties. Adversaries tend to focus their efforts on the most popular operating systems, programs, and services, including many of ours, as well as customers with sensitive data, and we expect that to continue. In addition, adversaries can attack our customers' on-premises or cloud environments, sometimes exploiting previously unknown (\"zero-day\") vulnerabilities. Product vulnerabilities can persist even after we have issued security patches if customers have not installed the most recent updates, or if the attackers exploited the vulnerabilities before patching to install additional malware to further compromise customers' systems. Adversaries will continue to attack customers using our cloud services as customers embrace digital transformation. Adversaries that acquire user account information can use that information to compromise our users' accounts, including where accounts share the same attributes such as passwords. Inadequate account security practices may also result in unauthorized access, and user activity may result in ransomware or other malicious software impacting a customer's use of our products or services. Weaknesses in our development processes can result in vulnerabilities in our products. Open-source software can also contain vulnerabilities that may make our products susceptible to cyberattacks as we increasingly incorporate open-source software into our products. Additionally, software, including features that rely on or were generated by AI can be susceptible to cyberattacks."
+    },
+    {
+      "block_idx": 762,
+      "char_end": 24434,
+      "char_start": 22912,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Our customers operate complex systems with third-party hardware and software from multiple vendors that may include systems acquired over many years. They expect our products and services to support all these systems and products, including those that no longer incorporate the strongest current security advances or standards. As a result, we may not be able to discontinue support of our services for a product, service, standard, or feature solely because a more secure alternative is available. Failure to utilize the most current security advances and standards can increase our customers' vulnerability to attack. Further, the rapid evolution of AI technologies and use cases may outpace the development, deployment, and effectiveness of security products, controls, and industry standards, particularly in complex customer environments, increasing the risk that security measures will be insufficient to address newly emerging threats. Customers of widely varied sizes and technical sophistication use our technology, and consequently may still have limited capabilities and resources to help them adopt and implement state-of-the-art cybersecurity practices and technologies. In addition, we must account for this wide variation of technical sophistication when defining default settings for our products and services, including security default settings, as these settings may limit or otherwise impact other aspects of operations and some customers may have limited capability to review and reset these defaults."
+    },
+    {
+      "block_idx": 763,
+      "char_end": 25134,
+      "char_start": 24436,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Cyberattacks could adversely impact our customers even if our production services are not directly compromised. We are committed to notifying our customers whose systems have been impacted as we become aware and have actionable information for customers to help protect themselves. We are also committed to providing guidance and support on detection, tracking, and remediation. We may not be able to detect the existence or extent of these attacks for all of our customers or have information on how to detect or track an attack, especially where an attack involves on-premises software such as Exchange Server where we may have no or limited visibility into our customers' computing environments."
+    },
+    {
+      "block_idx": 764,
+      "char_end": 25324,
+      "char_start": 25136,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Any of the foregoing events could result in reputational harm, loss of revenue, increased costs, or otherwise adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 768,
+      "char_end": 25374,
+      "char_start": 25326,
+      "is_heading": true,
+      "ordinal": 43,
+      "text": "Development and deployment of defensive measures"
+    },
+    {
+      "block_idx": 769,
+      "char_end": 26415,
+      "char_start": 25376,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "To defend against security threats to our internal infrastructure, our cloud-based services, and our customers' systems, we must take a complex and multifaceted approach. This includes continuously engineering more secure products and services, and enhancing security, threat detection, and reliability features, including through the deployment of AI-based and automated defenses. We must also escalate and improve our development processes and the deployment of software updates to address security vulnerabilities in our own products as well as those provided by others in a timely manner. In addition, we must develop mitigation technologies that help to secure customers from attacks even when software updates are not deployed, and maintain the digital security infrastructure that protects the integrity of our network, products, and services. Further, we must provide security tools such as firewalls, anti-virus software, and advanced security and information about the need to deploy security measures and the impact of doing so."
+    },
+    {
+      "block_idx": 770,
+      "char_end": 28052,
+      "char_start": 26417,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "The cost of these measures to protect products and customer-facing services could reduce our operating margins. If we fail to do these things well, actual or perceived security vulnerabilities in our processes, products, and services, data corruption issues, or reduced performance could harm our reputation and lead customers to exercise contractual or other remedies against us, reduce or delay future purchases of products or subscriptions to services, or to use competing products or services. Customers and third parties granted access to customer systems may fail to update their systems, continue to run software or operating systems we no longer support, may fail to timely install or enable security patches, or may otherwise fail to adopt adequate security practices, including in response to enhanced AI-based threats. Customers may also spend more on protecting their existing computer systems from attack, which could delay adoption of additional products or services. Customers in certain industries such as financial services, health care, and government have enhanced or specialized expectations and requirements to which we must develop and engineer our products and services. Any of these could adversely affect our reputation and results of operations. Actual or perceived vulnerabilities may lead to claims against us. Our license agreements typically contain provisions that eliminate or limit our exposure to liability, but there is no assurance these provisions will withstand legal challenges. At times, to achieve commercial objectives, we may enter into agreements with larger liability exposure to customers."
+    },
+    {
+      "block_idx": 771,
+      "char_end": 28399,
+      "char_start": 28054,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Our products operate in conjunction with and are dependent on products and components across a broad ecosystem of third parties. If there is a security vulnerability in one of these components, and if there is a security exploit targeting it, we could experience adverse impacts to our results of operations, reputation, or competitive position."
+    },
+    {
+      "block_idx": 772,
+      "char_end": 30786,
+      "char_start": 28401,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Disclosure and misuse of personal data could result in liability and harm our reputation. As we continue to grow the number, breadth, and scale of our cloud-based offerings, we store and process increasingly large amounts of personal data of our customers and users. The continued occurrence of high-profile data breaches provides evidence of an external environment increasingly hostile to information security. Despite our efforts to improve the security controls across our business groups and geographies, it is possible our security controls over personal data, our training of employees and third parties on data security, and other practices we follow may not prevent the improper disclosure or misuse of customer or user data we or our vendors store and manage. Relatedly, despite our efforts to continuously improve security controls, it is possible that we may fail to identify or mitigate insider threat activities that could lead to the misuse of our systems or customer and user data. In addition, third parties who have limited access to our customer or user data may use this data in unauthorized ways. Improper disclosure or misuse could harm our reputation, lead to legal exposure to customers or users, or subject us to liability under laws that protect personal data, resulting in increased costs or loss of revenue. Our software products and services also enable our customers and users to store and process personal data on-premises or in a cloud-based environment we host. Government authorities can sometimes require us to produce customer or user data in response to valid legal orders. In the U.S. and elsewhere, we advocate for transparency concerning these requests and appropriate limitations on government authority to compel disclosure. Despite our efforts to protect customer and user data, perceptions that the collection, use, and retention of personal information is not satisfactorily protected could inhibit sales of our products or services and could limit adoption of our cloud-based solutions by consumers, businesses, and government entities. Additional security measures we take to address customer or user concerns, or constraints on our flexibility to determine where and how to operate datacenters in response to customer or user expectations or governmental rules or actions, may increase costs or hinder sales of our products and services."
+    },
+    {
+      "block_idx": 776,
+      "char_end": 31457,
+      "char_start": 30788,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "We may not be able to protect information in our products and services from use by others. LinkedIn and other Microsoft products and services contain valuable information and content protected by contractual restrictions or technical measures. In certain cases, we have made commitments to our members and users to limit access to or use of this information. Changes in the law or interpretations of the law may weaken our ability to prevent third parties from scraping or gathering information or content through use of bots or other measures and using it for their own benefit which could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 777,
+      "char_end": 31525,
+      "char_start": 31459,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Abuse of our platforms may harm our reputation or user engagement."
+    },
+    {
+      "block_idx": 778,
+      "char_end": 31593,
+      "char_start": 31527,
+      "is_heading": true,
+      "ordinal": 50,
+      "text": "Advertising, professional, marketplace, and gaming platform abuses"
+    },
+    {
+      "block_idx": 779,
+      "char_end": 32426,
+      "char_start": 31595,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "For platform products and services that provide content or host ads that come from or can be influenced by third parties, our reputation or user engagement may be negatively affected by activity that is hostile or inappropriate. This activity may come from users impersonating other people or organizations, including through the use of AI technologies, dissemination of information that may be viewed as misleading or intended to manipulate the opinions of our users, or the use of our products or services that violates our terms of service or otherwise for objectionable or illegal ends. Preventing or responding to these actions may require us to make substantial investments in people and technology and these investments may not be successful, adversely affecting our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 780,
+      "char_end": 32455,
+      "char_start": 32428,
+      "is_heading": true,
+      "ordinal": 52,
+      "text": "Other digital safety abuses"
+    },
+    {
+      "block_idx": 781,
+      "char_end": 33827,
+      "char_start": 32457,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "Our consumer services as well as our enterprise services may be used to find, generate, store, or disseminate harmful or illegal content in violation of our terms or applicable law. We may not proactively discover such content due to scale, the limitations of existing technologies, and conflicting legal frameworks. This content may negatively affect users, and may negatively affect our reputation, our brands, and user engagement, or could result in legal liability. Regulations and other initiatives have been enacted to make platforms responsible for preventing or eliminating harmful content online and for taking actions against user accounts responsible for such content. At the same time, regulations and other initiatives protecting freedom of expression and user privacy may conflict with these platform regulations. Duties to reduce risks to children are driving new obligations for effective age-assurance systems and parental controls across the online ecosystem, including within app stores and operating systems. The legal and regulatory environment in this area is complex and is not harmonized across jurisdictions. Failure to comply with content requirements may subject us to enhanced regulatory oversight, civil or criminal liability, or reputational damage, which could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 782,
+      "char_end": 35021,
+      "char_start": 33829,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Our products and services, how they are used by customers, and how third-party products and services interact with them, may present security, privacy, and execution risks. Our products and services may contain defects in design, manufacture, or operation that make them insecure or ineffective for their intended purposes. For example, customers control our products and services, including our AI products, within their environments, and may deploy them in high-risk scenarios or utilize them inappropriately. Our products may also collect large amounts of data in manners which may not satisfy customers or regulatory requirements. Our customers also operate complex systems with third-party hardware and software from multiple vendors whose products or personnel may take or fail to take actions which impact the reliability or security of our products and services. If our products and services do not work as intended, are utilized in methods not intended, violate the law, or harm individuals or businesses, we may be subject to legal claims or enforcement actions. These risks, if realized, may increase our costs, damage our reputation, or adversely affect our results of operations."
+    },
+    {
+      "block_idx": 786,
+      "char_end": 37815,
+      "char_start": 35023,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Issues in the development, deployment, and use of AI may result in reputational or competitive harm or liability. We are building AI into many of our offerings, including our productivity services, and we are also making AI available for our customers to use in solutions that they build. This AI may be developed by Microsoft or others, including our strategic partner, OpenAI. We expect these elements of our business to grow. We envision a future in which AI operating in devices, applications, and the cloud helps our customers be more productive in their work and personal lives. As with many innovations, AI presents risks and challenges that could affect its adoption, and therefore our business. AI algorithms or training methodologies may be flawed. Datasets may be overbroad, insufficient, or contain biased or inaccurate information. Content generated by AI systems may be offensive, illegal, inaccurate, or otherwise harmful. Ineffective or inadequate AI development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause harm to individuals, customers, or society, or result in our products and services not working as intended. Human review of certain inputs and outputs or other forms of human oversight may be required, including for agentic AI systems that can take actions autonomously. Companion or highly-personalized AI systems may result in over-reliance or dependence by users that is harmful. Our implementation of AI systems could result in legal liability, regulatory action, litigation, brand, reputational, or competitive harm, or other adverse impacts. These risks may stem from issues related to AI model and system capabilities, intellectual property, data privacy, product liability, and other claims associated with AI training, outputs, and system behavior. They are further compounded by the evolving regulatory landscape, with new laws emerging globally and increased scrutiny from regulators and lawmakers. Certain AI technologies and use cases present ethical issues or may have broad or uneven impacts on society or vulnerable groups within society. There is also rising divergence globally in how to address these issues and impacts, with the result that we will need to navigate a web of different tensions across geographies. If we enable or offer AI solutions that have unintended consequences, unintended usage or customization by our customers and partners, are contrary to our responsible AI policies and practices, or are otherwise controversial because of the impact on human rights, privacy, employment, or other social, economic, or political issues, our reputation, competitive position, business, financial condition, and results of operations could be adversely affected."
+    },
+    {
+      "block_idx": 787,
+      "char_end": 37834,
+      "char_start": 37817,
+      "is_heading": true,
+      "ordinal": 56,
+      "text": "OPERATIONAL RISKS"
+    },
+    {
+      "block_idx": 788,
+      "char_end": 40195,
+      "char_start": 37836,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "We may have excessive outages, data losses, and disruptions of our online services if we fail to maintain an adequate operations infrastructure. Our increasing user traffic, growth in services, and the complexity of our products and services demand more computing power. We spend substantial amounts to build, purchase, or lease datacenters and equipment and to upgrade our technology and network infrastructure to handle more traffic. Our datacenters depend on the availability of permitted and buildable land, predictable energy, networking supplies, and servers, including graphics processing units and other components. The cost or availability of these dependencies could be adversely affected by a variety of factors, including the transition to a clean energy economy, local and regional environmental regulations, and geopolitical disruptions. These demands continue to increase as we introduce new products and services and support the growth and the augmentation of existing services, and scale further the incorporation of AI features and/or functionality. We are rapidly growing our business of providing a platform and back-end hosting for services provided by third parties to their end users. Maintaining, securing, and expanding this infrastructure is expensive and complex, and requires development of principles for datacenter builds in geographies with higher safety and reliability risks. It requires that we maintain an Internet connectivity infrastructure and storage and compute capacity that is robust and reliable within competitive and regulatory constraints that continue to evolve. We also face community opposition, local moratoriums, and hyper-local dissent that may impede or delay infrastructure development. Inefficiencies or operational failures, including temporary or permanent loss of customer data, outages, insufficient Internet connectivity, insufficient or unavailable power or water supply, or inadequate storage and compute capacity could diminish the quality of our products, services, and user experience, resulting in contractual liability, claims by customers and other third parties, regulatory actions, damage to our reputation, and loss of current and potential users, subscribers, and advertisers, each of which could adversely affect our business, operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 792,
+      "char_end": 41522,
+      "char_start": 40197,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "We may experience supply or quality problems. There are limited suppliers for certain device and datacenter components. We continue to identify and evaluate opportunities to expand our datacenter locations and increase our server capacity to meet the evolving needs of our customers, particularly given the growing demand for AI services. Capacity available to us may be affected as competitors use some of the same suppliers and materials for hardware components. As components are delayed or become unavailable or more expensive, whether because of supplier capacity constraint, industry shortages, legal or regulatory changes that restrict supply sources, or other reasons, we may not obtain timely replacement supplies, resulting in reduced sales, higher costs, or inadequate datacenter capacity to support the delivery and continued development of our products and services. Component shortages, excess or obsolete inventory, or price reductions resulting in inventory adjustments have and may increase our cost of revenue. Datacenter servers, Xbox consoles, Surface devices, and other hardware are assembled in Asia and other geographies that may be subject to disruptions in the supply chain, resulting in shortages which could adversely affect our business, operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 793,
+      "char_end": 42847,
+      "char_start": 41524,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Our software products and services also have and may in the future experience quality or reliability problems. The processes we use to develop our software are imperfect. Like all software, our software contains bugs and other defects that interfere with their intended operation. Our customers increasingly rely on us for critical business functions and multiple workloads. Many of our products and services are interdependent on one another. Our products and services may be impacted by interaction with third-party products and services. Our customers may also utilize their own or third-party products and services whose reliability is dependent on interaction with our products and services. Each of these circumstances potentially magnifies the impact of quality or reliability issues. Weaknesses in our processes could result in defects we do not detect and fix in pre-release testing, which could cause reduced sales, damage to our reputation, repair or remediation costs, delays in the release of new products or versions, or legal liability, and could adversely affect our business, financial condition, and results of operations. Although our license agreements typically contain provisions that eliminate or limit our exposure to liability, there is no assurance these provisions will withstand legal challenge."
+    },
+    {
+      "block_idx": 794,
+      "char_end": 43201,
+      "char_start": 42849,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Our hardware products such as Xbox consoles, Surface devices, and other devices we design and market are highly complex. Failure to prevent, detect, or address defects in design, manufacture, or associated software could result in recalls, safety alerts, or product liability claims, which could adversely affect our business and results of operations."
+    },
+    {
+      "block_idx": 795,
+      "char_end": 43242,
+      "char_start": 43203,
+      "is_heading": true,
+      "ordinal": 61,
+      "text": "LEGAL, REGULATORY, AND LITIGATION RISKS"
+    },
+    {
+      "block_idx": 796,
+      "char_end": 44607,
+      "char_start": 43244,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "We are subject to a variety of new, existing, and evolving legal and regulatory requirements that could adversely affect our results of operations. We are subject to a wide range of laws, regulations, and legal requirements in the U.S. and globally, including those that may apply to our products and online services offerings, and those that impose requirements related to user privacy, cybersecurity, telecommunications, data storage and protection, digital accessibility, advertising, and online safety. Laws in several jurisdictions, including EU Member State laws under the European Electronic Communications Code, increasingly define certain of our services as regulated services. This trend may continue with our offerings becoming subject to additional data protection, security, digital safety, law enforcement surveillance, and other obligations. Regulators and private litigants may assert that our collection, use, and management of customer data and other information is inconsistent with their laws and regulations, including laws that apply to the tracking of users via technology such as cookies. In addition, laws requiring us to retrieve and produce customer data in response to compulsory legal demands from law enforcement and governmental authorities are expanding and the requests we are experiencing are increasing in volume and complexity."
+    },
+    {
+      "block_idx": 800,
+      "char_end": 45040,
+      "char_start": 44609,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "New, existing, and evolving laws and regulations, or interpretations or applications of existing laws and regulations in a manner inconsistent with our interpretations of such laws and regulations or our practices, may result in modification of our products and services, altered business models and operations, increased costs, reputational damage, and civil or criminal liability. Examples include laws and regulations regarding:"
+    },
+    {
+      "block_idx": 802,
+      "char_end": 46033,
+      "char_start": 45042,
+      "is_heading": false,
+      "ordinal": 64,
+      "text": "Competition laws and new market regulation: Government agencies closely scrutinize us under U.S. and foreign competition laws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital markets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. Some jurisdictions also allow competitors or consumers to assert claims of anti-competitive conduct. U.S. and foreign antitrust authorities have previously brought enforcement actions and continue to scrutinize our business. Competition law enforcement actions and court decisions along with new market regulations may result in fines or hinder our ability to provide the benefits of our software to consumers and businesses, reducing the attractiveness of our products and the revenue that comes from them. New competition law actions or obligations under market regulation schemes could be initiated, potentially using previous actions as precedent."
+    },
+    {
+      "block_idx": 804,
+      "char_end": 46462,
+      "char_start": 46035,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "AI: Legislative and regulatory action is evolving with respect to AI, which could increase costs or restrict opportunity. For example, the EU's AI Act may increase costs or impact the provision or operation of our AI models and services in the European market. AI regulatory areas include model and system development and deployment, frontier model safety, transparency, content provenance, digital replicas, and AI companions."
+    },
+    {
+      "block_idx": 806,
+      "char_end": 47154,
+      "char_start": 46464,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Anti-corruption: The Foreign Corrupt Practices Act (\"FCPA\") and other anti-corruption laws and regulations (\"Anti-Corruption Laws\") prohibit corrupt payments by our employees, vendors, or agents, and the accounting provisions of the FCPA require us to maintain accurate books and records and adequate internal controls. From time to time, we receive inquiries from authorities in the U.S. and elsewhere which may be based on reports from employees and others about our business activities and our compliance with Anti-Corruption Laws. Periodically, we receive such reports directly and investigate them and also cooperate with investigations by U.S. and foreign law enforcement authorities."
+    },
+    {
+      "block_idx": 808,
+      "char_end": 49316,
+      "char_start": 47156,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Trade: Increasing trade laws, policies, sanctions, and other regulatory requirements also affect our operations in and outside the U.S. relating to trade and investment. Economic sanctions in the U.S., the EU, and other countries could prohibit business with restricted entities or countries. U.S. export controls restrict Microsoft from offering many of its products and services to, or making investments in, certain entities in specified countries. U.S. import controls restrict us from integrating certain information and communication technologies into our supply chain and allow for government review of transactions involving information and communications technology from countries determined to be foreign adversaries. Supply chain regulations may impact the availability of goods or result in additional regulatory scrutiny. Restrictions on data flows and outbound investment and customer sensitivities may limit our ability to leverage parts of our global engineering footprint to provide services in certain jurisdictions. Increased geopolitical instabilities and changing U.S. Administration priorities create an unpredictable trade landscape. U.S. tariff, shifting AI export controls policies, and disagreements among governments on sanctions policies toward third countries, could increase operational costs, create uncertainty in the continuity of our products, and accelerate sovereignty initiatives among international partners and customers. The volatility of U.S. tariffs has triggered economic uncertainty and could impact cloud and devices supply chain cost competitiveness. The potential replacement of the rescinded AI Diffusion Rule, expanded export license conditions, and other potential AI-related rulemakings could adversely affect Microsoft's business, strategy, and operations. Periods of intense diplomatic or armed conflict, such as the conflicts in Ukraine and the Middle East could continue to result in (1) new and rapidly evolving sanctions and trade restrictions, which may impair trade with sanctioned individuals and countries, and (2) negative impacts to regional trade ecosystems among our customers, partners, and us."
+    },
+    {
+      "block_idx": 810,
+      "char_end": 49913,
+      "char_start": 49318,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Cybersecurity: Legislative and regulatory actions related to cybersecurity may increase the costs associated with developing, implementing, or securing our products and services. The legal and regulatory environment in this area is complex and continues to evolve across multiple jurisdictions. As a result, there is considerable uncertainty regarding both current and future compliance obligations. This uncertainty increases the risk that we may incur additional operational costs, face regulatory enforcement actions, or encounter challenges in the development and deployment of our products."
+    },
+    {
+      "block_idx": 815,
+      "char_end": 50855,
+      "char_start": 49915,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Handling of personal data: Legal requirements relating to the collection, storage, handling, and transfer of personal data globally continue to evolve. The growth of our Internet- and cloud-based services internationally relies on the movement of data across national boundaries. Data protection authorities and governments in the EU and other markets have and may again restrict and/or block the use of services that involve the transfer of data across borders. New and evolving rules and restrictions on the flow of data across borders could increase the cost and complexity of delivering our products and services. In addition, the EU General Data Protection Regulation and other similar regulations impose a range of compliance obligations regarding the handling of personal data. New requirements related to the use of data, including the Data Act, add additional rules and restrictions on the use of data in our products and services."
+    },
+    {
+      "block_idx": 817,
+      "char_end": 51800,
+      "char_start": 50857,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Environmental, Social, and Governance: Laws, regulations, and policies relating to environmental, social, and governance matters are being developed and formalized in Europe, the U.S., and elsewhere, which may include greenhouse gas emissions and energy usage caps, as well as specific, target-driven environmental, social, and governance frameworks and disclosure requirements. In addition, in 2020 we announced goals to become carbon negative, water positive, and zero waste by 2030. AI development and deployment has and may continue to raise energy use and emissions, making it harder to meet these goals. Any failure or perceived failure to meet our sustainability goals, or to meet various sustainability regulatory requirements, could result in claims and lawsuits, regulatory actions, penalties, or damage to our reputation, each of which could adversely affect our business, operations, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 818,
+      "char_end": 52651,
+      "char_start": 51802,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "How these laws and regulations apply to our business is often unclear, subject to change, and sometimes may be inconsistent from jurisdiction to jurisdiction. In addition, governments' approach to enforcement, and our products and services, are continuing to evolve. Compliance with existing, expanding, or new laws and regulations may involve significant costs and operational efforts, or require changes in products or business practices that could adversely affect our results of operations. Noncompliance could result in the imposition of penalties, criminal sanctions, or orders to cease the alleged noncompliant activity. If our products do not meet customer expectations or legal requirements, we could face regulatory or legal actions, and our business, operations, financial condition, and results of operations could be adversely affected."
+    },
+    {
+      "block_idx": 819,
+      "char_end": 53608,
+      "char_start": 52653,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "We have claims and lawsuits against us that may result in adverse outcomes. We are subject to a variety of claims and lawsuits. These claims may arise from a wide variety of business practices and initiatives, including major new product releases, AI services, significant business transactions, warranty or product claims, employment practices, and regulation. As we continue to expand our business and offerings, we may experience new and novel legal claims. Adverse outcomes in some or all of these claims may result in significant monetary damages or injunctive relief that could adversely affect our ability to conduct our business. Litigation and other claims are subject to inherent uncertainties and management's view of these matters may change in the future. An adverse impact to our financial condition and results of operations could occur for the period in which the effect of an unfavorable outcome becomes probable and reasonably estimable."
+    },
+    {
+      "block_idx": 820,
+      "char_end": 54706,
+      "char_start": 53610,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Our business with government customers may present additional uncertainties. We derive substantial revenue from government contracts. Government contracts and regulatory requirements can present risks and challenges not present in private commercial agreements. For instance, we are subject to government audits and investigations relating to these contracts, and we are required to provide assurance and attestations about our products and processes. If we do not satisfy contractual or regulatory requirements, we could be suspended or debarred as a governmental contractor, we could incur civil and criminal fines and penalties, and under certain circumstances contracts may be rescinded. Some agreements may allow a government to terminate without cause and provide for higher liability limits for certain losses. Some contracts may be subject to periodic funding approval, reductions, cancellations, or delays which could adversely impact public-sector demand for our products and services. These events could negatively impact our financial condition, results of operations, and reputation."
+    },
+    {
+      "block_idx": 824,
+      "char_end": 55625,
+      "char_start": 54708,
+      "is_heading": false,
+      "ordinal": 74,
+      "text": "We may have additional tax liabilities. We are subject to income taxes in the U.S. and many foreign jurisdictions. Significant judgment is required in determining our worldwide provision for income taxes. In the course of our business, there are many transactions and calculations where the ultimate tax determination is uncertain. We may recognize additional tax expense and be subject to additional tax liabilities due to changes in tax laws, regulations, and administrative practices and principles, including changes to the global tax framework, in various jurisdictions. In recent years, multiple domestic and international tax proposals were proposed to impose greater tax burdens on large multinational enterprises. For example, the Organisation for Economic Co-operation and Development continues to advance proposals or guidance in international taxation, including the establishment of a global minimum tax."
+    },
+    {
+      "block_idx": 825,
+      "char_end": 56620,
+      "char_start": 55627,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "We are regularly under audit by tax authorities in different jurisdictions. Although we believe that our provision for income taxes and our tax estimates are reasonable, tax authorities may disagree with certain positions we have taken. In addition, economic and political pressures to increase tax revenue in various jurisdictions may make resolving tax disputes favorably more difficult. We are currently under IRS audit for prior tax years and have received Notices of Proposed Adjustment (\"NOPAs\") from the IRS for the tax years 2004 to 2013. The primary issues in the NOPAs relate to intercompany transfer pricing. In the NOPAs, the IRS is seeking an additional tax payment of $28.9 billion plus penalties and interest. The final resolution of the proposed adjustments, and other audits or litigation, may differ from the amounts recorded in our consolidated financial statements and adversely affect our results of operations in the period or periods in which that determination is made."
+    },
+    {
+      "block_idx": 826,
+      "char_end": 57362,
+      "char_start": 56622,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "We earn a significant amount of our operating income outside the U.S. A change in the mix of earnings and losses in countries with differing statutory tax rates, changes in our business or structure, or the expiration of or disputes about certain tax agreements in a particular country may result in higher effective tax rates for the company. In addition, changes in U.S. federal and state or international tax laws applicable to corporate multinationals, other global fundamental law changes currently being considered by many countries, including in the U.S., and changes in taxing jurisdictions' administrative interpretations, decisions, policies, and positions could adversely affect our financial condition and results of operations."
+    },
+    {
+      "block_idx": 827,
+      "char_end": 57391,
+      "char_start": 57364,
+      "is_heading": true,
+      "ordinal": 77,
+      "text": "INTELLECTUAL PROPERTY RISKS"
+    },
+    {
+      "block_idx": 828,
+      "char_end": 57845,
+      "char_start": 57393,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "We face risks related to the protection and utilization of our intellectual property that may result in our business and operating results being harmed. Protecting our intellectual property rights and combating unlicensed copying and use of our software, source code, and other intellectual property on a global basis is difficult. Similarly, the absence of harmonized patent laws makes it more difficult to ensure consistent respect for patent rights."
+    },
+    {
+      "block_idx": 829,
+      "char_end": 58199,
+      "char_start": 57847,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "Changes in the law may continue to weaken our ability to prevent the use of patented technology. Our increasing engagement with open-source software will also cause us to license our intellectual property rights broadly in certain situations. If we are unable to protect our intellectual property, our results of operations could be adversely affected."
+    },
+    {
+      "block_idx": 830,
+      "char_end": 58728,
+      "char_start": 58201,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Source code, the detailed program commands for our operating systems and other software programs, is critical to our business. If our source code leaks, we might lose future trade secret protection for that code. It may then become easier for third parties to compete with our products by copying functionality, which could adversely affect our results of operations. Unauthorized access to or disclosure of source code or other intellectual property also increases the security risks described elsewhere in these risk factors."
+    },
+    {
+      "block_idx": 831,
+      "char_end": 59740,
+      "char_start": 58730,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Third parties may claim that we infringe their intellectual property. From time to time, others claim we infringe their intellectual property rights, including current copyright infringement and other claims arising from AI training and output. To resolve these claims, we may enter into royalty-bearing data access or licensing agreements on terms that are less favorable than currently available, stop selling or redesign affected products or services, or pay damages to satisfy indemnification commitments with our customers. Adverse outcomes could also include monetary damages or injunctive relief that may limit or prevent importing, marketing, and selling our products or services that have infringing technologies. We have paid significant amounts to settle claims related to the use of technology and intellectual property rights and to procure intellectual property rights as part of our strategy to manage this risk, and may continue to do so, which could adversely affect our results of operations."
+    },
+    {
+      "block_idx": 835,
+      "char_end": 59755,
+      "char_start": 59742,
+      "is_heading": true,
+      "ordinal": 82,
+      "text": "GENERAL RISKS"
+    },
+    {
+      "block_idx": 836,
+      "char_end": 60586,
+      "char_start": 59757,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "If our reputation or our brands are damaged, our business and results of operations may be harmed. Our reputation and brands are globally recognized and are important to our business. Our reputation and brands affect our ability to attract and retain consumer, business, and public-sector customers. There are numerous ways our reputation or brands could be damaged. These include product safety, quality, or accessibility issues, our environmental impact and sustainability, supply chain practices, or human rights record. We may experience backlash from customers, government entities, advocacy groups, employees, and other stakeholders that disagree with our product offering decisions, public policy positions, or corporate philanthropic initiatives. Damage to our reputation or our brands may occur from, among other things:"
+    },
+    {
+      "block_idx": 838,
+      "char_end": 60709,
+      "char_start": 60588,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "The introduction of new features, products, services, or terms of service that customers, users, or partners do not like."
+    },
+    {
+      "block_idx": 840,
+      "char_end": 60829,
+      "char_start": 60711,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Public scrutiny of our decisions regarding user privacy, data practices, content, or development and deployment of AI."
+    },
+    {
+      "block_idx": 842,
+      "char_end": 60973,
+      "char_start": 60831,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "Data security breaches, cybersecurity incidents, responsible AI failures, compliance failures, or actions of partners or individual employees."
+    },
+    {
+      "block_idx": 843,
+      "char_end": 61226,
+      "char_start": 60975,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Social media may increase the likelihood, speed, and magnitude of negative brand events. If our brands or reputation are damaged, it could adversely affect our business, results of operations, or ability to attract the most highly qualified employees."
+    },
+    {
+      "block_idx": 844,
+      "char_end": 61680,
+      "char_start": 61228,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "Adverse economic or market conditions could harm our business. Worsening economic conditions, including inflation, recession, pandemic, or other changes in economic conditions, may cause lower IT spending and adversely affect our results of operations. If demand for computing power, PCs, servers, and other computing devices declines, or consumer or business spending for those products declines, our results of operations could be adversely affected."
+    },
+    {
+      "block_idx": 845,
+      "char_end": 62014,
+      "char_start": 61682,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "Our product distribution system relies on an extensive partner and retail network. OEMs building devices that run our software have also been a significant means of distribution. The impact of economic conditions on our partners, such as the bankruptcy of a major distributor, OEM, or retailer, could cause sales channel disruption."
+    },
+    {
+      "block_idx": 846,
+      "char_end": 62244,
+      "char_start": 62016,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Challenging economic conditions also may impair the ability of our customers to pay for products and services they have purchased. As a result, allowances for doubtful accounts and write-offs of accounts receivable may increase."
+    },
+    {
+      "block_idx": 847,
+      "char_end": 63028,
+      "char_start": 62246,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "We maintain an investment portfolio of various holdings, types, and maturities. These investments are subject to general credit, liquidity, market, and interest rate risks, which may be exacerbated by market downturns or events that affect global financial markets. A significant part of our investment portfolio comprises U.S. government securities. If global financial markets decline for long periods, or if there is a downgrade of the U.S. government credit rating due to an actual or threatened default on government debt, our investment portfolio could be adversely affected and we could determine that more of our investments have experienced a decline in fair value, requiring impairment charges that could adversely affect our financial condition and results of operations."
+    },
+    {
+      "block_idx": 848,
+      "char_end": 64234,
+      "char_start": 63030,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "Catastrophic events or geopolitical conditions could disrupt our business. A disruption or failure of our systems, operations, or supply chain because of a major earthquake, weather event, cyberattack, terrorist attack, pandemic, or other catastrophic event could cause delays in completing sales, providing services, or performing other critical functions. Our corporate headquarters, a significant portion of our research and development activities, and certain other essential business operations are in the Seattle, Washington area, and we have other business operations in the Silicon Valley area of California, both of which are seismically active regions. A catastrophic event that results in the destruction or disruption of any of our critical business or systems, or the infrastructure or systems they rely on, such as power grids, could harm our ability to conduct normal business operations or adversely affect our results of operations. Providing our customers with more services and solutions in the cloud puts a premium on the resilience of our systems and strength of our business continuity management plans and magnifies the potential negative consequences of prolonged service outages."
+    },
+    {
+      "block_idx": 852,
+      "char_end": 65301,
+      "char_start": 64236,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "Abrupt political change, terrorist activity, and armed conflict, such as the conflicts in Ukraine and the Middle East, pose economic and other risks, which may negatively impact our ability to sell to and collect from customers, increase our operating costs, or otherwise disrupt our operations in markets both directly and indirectly impacted by such events. These conditions also may add uncertainty to the timing and budget for technology investment decisions by our customers and may cause supply chain disruptions. Geopolitical change may result in changing regulatory systems and requirements and market interventions that could impact our operating strategies, access to national, regional, and global markets, hiring, and profitability. Geopolitical instability may lead to sanctions and impact our ability to do business in some markets or with some public-sector customers. Any of these changes could adversely affect our results of operations. Changes in geopolitical conditions also increase the security risks described elsewhere in these risk factors."
+    },
+    {
+      "block_idx": 853,
+      "char_end": 65902,
+      "char_start": 65303,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "The occurrence of regional epidemics or a global pandemic, such as COVID-19, could adversely affect our business, operations, financial condition, and results of operations. The extent to which global pandemics impact our business going forward will depend on factors such as the duration and scope of the pandemic; governmental, business, and individuals' actions in response to the pandemic; and the impact on economic activity, including the possibility of recession or financial market instability. Measures to contain a global pandemic may intensify other risks described in these Risk Factors."
+    },
+    {
+      "block_idx": 854,
+      "char_end": 66403,
+      "char_start": 65904,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "The long-term effects of climate change on the global economy and the IT industry in particular are unclear. Environmental regulations or changes in the supply, demand, or available sources of energy or other resources may affect the availability or cost of goods and services, including natural resources, necessary to run our business. Changes in climate where we operate may increase the costs of powering and cooling computer hardware we use to develop software and provide cloud-based services."
+    },
+    {
+      "block_idx": 855,
+      "char_end": 67371,
+      "char_start": 66405,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "Our global business exposes us to operational and economic risks. Our customers, employees, and infrastructure are located throughout the world and a significant part of our revenue comes from international sales. The global nature of our business creates operational, economic, and geopolitical risks. Global, regional, and local economic developments, monetary policy, geopolitical tension, particularly between the U.S. and Europe, restrictions on international trade, such as tariffs and other controls on imports or exports, inflation, and recession, as well as political and military disputes, could adversely affect our results of operations. Non-compliance with sanctions as well as general ecosystem disruptions could result in reputational harm, operational delays, monetary fines, loss of revenue, increased costs, loss of export privileges, or criminal sanctions, which could adversely affect our business, financial condition, and results of operations."
+    },
+    {
+      "block_idx": 856,
+      "char_end": 68701,
+      "char_start": 67373,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "In addition, our international growth strategy includes certain markets, the developing nature of which presents several risks, including deterioration of social, political, labor, or economic conditions in a country or region, and difficulties in staffing and managing foreign operations. Emerging nationalist and protectionist trends and concerns about human rights, the environment, and political expression in specific countries may significantly alter the trade and commercial environments. Changes to trade policy or agreements as a result of populism, protectionism, or economic nationalism may result in higher tariffs, local sourcing initiatives, and non-local sourcing restrictions, disagreements among governments on export controls and sanctions toward third countries, investment restrictions, or other developments that make it more difficult to operate and sell our products in foreign countries. Disruptions of these kinds in developed or emerging markets could negatively impact demand for our products and services, impair our ability to operate in certain regions, or increase operating costs. Although we hedge a portion of our international currency exposure, significant fluctuations in foreign exchange rates between the U.S. dollar and foreign currencies could adversely affect our results of operations."
+    },
+    {
+      "block_idx": 860,
+      "char_end": 70643,
+      "char_start": 68703,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Our business depends on our ability to attract and retain talented employees. Our business is based on successfully attracting, training, and retaining talented employees representing diverse backgrounds, experiences, and skill sets. The market for highly skilled workers and leaders in our industry is extremely competitive. Maintaining our brand and reputation, as well as an inclusive work environment that enables all our employees to thrive, are important to our ability to recruit and retain employees. We are also limited in our ability to recruit internationally by restrictive domestic immigration laws. Restraints on the flow of technical and professional talent, including those derived from changes to U.S. immigration policies or laws, may inhibit our ability to adequately staff our research and development efforts. If we are less successful in our recruiting efforts, or if we cannot retain highly skilled workers and key leaders, our ability to develop and deliver successful products and services could be adversely affected. Effective succession planning is also important to our long-term success. Failure to ensure effective transfer of knowledge and smooth transitions involving key employees could hinder our strategic planning and execution. How employment-related laws are interpreted and applied to our workforce practices may result in increased operating costs and less flexibility in how we meet our workforce needs. Our global workforce is predominantly non-unionized, although we do have some employees in the U.S. and internationally who are represented by unions or works councils. In the U.S., there has been a general increase in workers exercising their right to form or join a union. The unionization of significant employee populations could result in higher costs and other operational changes necessary to respond to changing conditions and to establish new relationships with worker representatives."
+    }
+  ],
+  "summary": {
+    "accession_number": "0001193125-26-191507",
+    "cik": 789019,
+    "download_status": "ok",
+    "mdna_end_block": 670,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 49400,
+    "mdna_n_paragraphs": 152,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 11,
+    "mdna_n_words": 7373,
+    "mdna_start_block": 348,
+    "mdna_status": "extracted",
+    "n_blocks": 894,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "msft-20260331.htm",
+    "risk_end_block": 863,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 69872,
+    "risk_n_paragraphs": 84,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 10202,
+    "risk_start_block": 693,
+    "risk_status": "extracted",
+    "source_sha256": "6cd0d2b53602a1d6f12019fea91b4b9f95ef3319b59308a467b2c9cd350e6f5e",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191507/msft-20260331.htm"
+  }
+}

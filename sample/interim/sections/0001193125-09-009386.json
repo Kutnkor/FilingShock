@@ -1,0 +1,1415 @@
+{
+  "mdna": [
+    {
+      "block_idx": 293,
+      "char_end": 45,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Special Note About Forward-Looking Statements"
+    },
+    {
+      "block_idx": 294,
+      "char_end": 1409,
+      "char_start": 47,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "Certain statements in Management's Discussion and Analysis (\"MD&A\"), other than purely historical information, including estimates, projections, statements relating to our business plans, objectives, and expected operating results, and the assumptions upon which those statements are based, are \"forward-looking statements\" within the meaning of the Private Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, and Section 21E of the Securities Exchange Act of 1934. These forward-looking statements generally are identified by the words \"believe,\" \"project,\" \"expect,\" \"anticipate,\" \"estimate,\" \"intend,\" \"strategy,\" \"plan,\" \"may,\" \"should,\" \"will,\" \"would,\" \"will be,\" \"will continue,\" \"will likely result,\" and similar expressions. Forward-looking statements are based on current expectations and assumptions that are subject to risks and uncertainties, which may cause actual results to differ materially from the forward-looking statements. A detailed discussion of risks and uncertainties that could cause actual results and events to differ materially from such forward-looking statements is included in the section titled \"Risk Factors\" (refer to Part II, Item 1A). We undertake no obligation to update or revise publicly any forward-looking statements, whether as a result of new information, future events, or otherwise."
+    },
+    {
+      "block_idx": 295,
+      "char_end": 1419,
+      "char_start": 1411,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "OVERVIEW"
+    },
+    {
+      "block_idx": 296,
+      "char_end": 1766,
+      "char_start": 1421,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "The following Management's Discussion and Analysis (\"MD&A\") is intended to help the reader understand the results of operations and financial condition of Microsoft Corporation. MD&A is provided as a supplement to, and should be read in conjunction with, our financial statements and the accompanying notes to the financial statements (\"Notes\")."
+    },
+    {
+      "block_idx": 297,
+      "char_end": 3016,
+      "char_start": 1768,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "We generate revenue by developing, manufacturing, licensing, and supporting a wide range of software products and services for many different types of computing devices. Our software products and services include operating systems for personal computers, servers, and intelligent devices; server applications for distributed computing environments; information worker productivity applications; business solutions applications; high-performance computing applications; software development tools; and video games. We provide consulting and product support services, and we train and certify computer system integrators and developers. We also design and sell hardware including the Xbox 360 video game console, the Zune digital music and entertainment device, and peripherals. Online offerings and information are delivered through Live Search, Windows Live, Office Live, our MSN portals and channels, and the Microsoft Online Services platform which includes offerings for businesses such as Microsoft Dynamics CRM Online, Exchange Hosted Services, Exchange Online, and SharePoint Online. We enable the delivery of online advertising across our broad range of digital media properties and on Live Search through our proprietary adCenter\u00ae platform."
+    },
+    {
+      "block_idx": 298,
+      "char_end": 3566,
+      "char_start": 3018,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "Our revenue historically has fluctuated quarterly and has generally been the highest in the second quarter of our fiscal year due to corporate calendar year-end spending trends in our major markets and holiday season spending by consumers. Our Entertainment and Devices Division is particularly seasonal as its products are aimed at the consumer market and are in highest demand during the holiday shopping season. Typically, the Entertainment and Devices Division has generated over 40% of its yearly segment revenues in our second fiscal quarter."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 3575,
+      "char_start": 3568,
+      "is_heading": true,
+      "ordinal": 6,
+      "text": "Summary"
+    },
+    {
+      "block_idx": 303,
+      "char_end": 3664,
+      "char_start": 3577,
+      "is_heading": true,
+      "ordinal": 7,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 304,
+      "char_end": 4072,
+      "char_start": 3666,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Revenue growth was driven primarily by increased SQL Server and Windows Server revenue and increased Xbox 360 platform revenue, substantially offset by decreased revenue from Windows operating systems as a result of PC market weakness and a continued shift to lower priced netbook PCs. Revenue growth included a favorable impact from foreign currency exchange rates of $222 million or one percentage point."
+    },
+    {
+      "block_idx": 305,
+      "char_end": 4569,
+      "char_start": 4074,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Operating income decreased primarily reflecting increased headcount-related expenses and increased cost of revenue, partially offset by increased revenue. Headcount-related expenses increased 12%, reflecting a 14% increase in headcount during the past 12 months and an increase in salaries and benefits for existing headcount. Cost of revenue increased $364 million or 10%, reflecting increased online costs, including traffic acquisition and people costs, and increased Xbox 360 platform costs."
+    },
+    {
+      "block_idx": 306,
+      "char_end": 5020,
+      "char_start": 4571,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Diluted earnings per share declined primarily reflecting decreased other income (expense), partially offset by a decrease in provision for income taxes and share repurchases. Other income (expense) decreased reflecting increased net losses on derivatives and foreign currency remeasurements. Provision for income taxes decreased reflecting a decline in the recurring effective tax rate primarily as a result of foreign earnings taxed at lower rates."
+    },
+    {
+      "block_idx": 307,
+      "char_end": 5105,
+      "char_start": 5022,
+      "is_heading": true,
+      "ordinal": 11,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 308,
+      "char_end": 5514,
+      "char_start": 5107,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "Revenue growth was driven primarily by increased SQL Server and Windows Server revenue and increased licensing of the 2007 Microsoft Office system, partially offset by decreased revenue from Windows operating systems as a result of PC market weakness and a continued shift to lower priced netbook PCs. Foreign currency exchange rates accounted for a $660 million or two percentage point increase in revenue."
+    },
+    {
+      "block_idx": 309,
+      "char_end": 6119,
+      "char_start": 5516,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Operating income decreased primarily reflecting increased headcount-related expenses and cost of revenue, partially offset by increased revenue. Headcount-related expenses increased 17%, reflecting a 14% increase in headcount during the past 12 months and an increase in salaries and benefits for existing headcount. Cost of revenue increased $537 million or 9%, reflecting increased online costs, including traffic acquisition, data center and equipment, and people costs, and increased costs associated with the growth in our consulting services, partially offset by decreased Xbox 360 platform costs."
+    },
+    {
+      "block_idx": 310,
+      "char_end": 6570,
+      "char_start": 6121,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Diluted earnings per share declined primarily reflecting decreased other income (expense), partially offset by a decrease in provision for income taxes and share repurchases. Other income (expense) decreased reflecting increased net losses on derivatives and foreign currency remeasurements. Provision for income taxes decreased reflecting a decline in the recurring effective tax rate primarily as a result of foreign earnings taxed at lower rates."
+    },
+    {
+      "block_idx": 313,
+      "char_end": 6579,
+      "char_start": 6572,
+      "is_heading": true,
+      "ordinal": 15,
+      "text": "Outlook"
+    },
+    {
+      "block_idx": 314,
+      "char_end": 7013,
+      "char_start": 6581,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "Demand for our software, services, hardware, and online offerings are correlated with global macroeconomic factors. For the remainder of fiscal year 2009, we expect the economic conditions experienced during the first six months to further deteriorate. Given this, we are focused on executing in the areas we can control by continuing to provide high value products at the lowest total cost of ownership while managing our expenses."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 7791,
+      "char_start": 7015,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "On January 22, 2009, we announced a resource management program which includes a reduction in operating expenses, employee headcount, and capital expenditures. We plan to eliminate up to 5,000 jobs in research and development, marketing, sales, finance, legal, human resources, and IT, including 1,400 jobs this month. The net headcount in these functions is expected to decline by 2,000 to 3,000 over the next 18 months. Merit increases will be eliminated for employees in fiscal year 2010. Operating expenses will be reduced by cutting travel expenditures, reducing spending on vendors and contingent staff, reducing marketing spending, and scaling back capital expenditures. These initiatives will reduce our annual operating expense run rate by approximately $1.5 billion."
+    },
+    {
+      "block_idx": 316,
+      "char_end": 7941,
+      "char_start": 7793,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "These plans are being finalized, and the costs of implementation and employee severance will be included in our third quarter results of operations."
+    },
+    {
+      "block_idx": 317,
+      "char_end": 7990,
+      "char_start": 7943,
+      "is_heading": true,
+      "ordinal": 19,
+      "text": "SEGMENT PRODUCT REVENUE/OPERATING INCOME (LOSS)"
+    },
+    {
+      "block_idx": 318,
+      "char_end": 8817,
+      "char_start": 7992,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "Revenue and operating income (loss) amounts in this section are presented on a basis consistent with accounting principles generally accepted in the United States of America (\"U.S. GAAP\") and include certain reconciling items attributable to each of the segments. Segment information appearing in Note 15 - Segment Information is presented on a basis consistent with our current internal management reporting, in accordance with Statement of Financial Accounting Standards (\"SFAS\") No. 131, Disclosures about Segments of an Enterprise and Related Information. Certain corporate-level activity has been excluded from segment operating results and is analyzed separately. Prior period amounts have been recast to conform to the way we internally managed and monitored performance at the segment level during the current period."
+    },
+    {
+      "block_idx": 319,
+      "char_end": 8825,
+      "char_start": 8819,
+      "is_heading": true,
+      "ordinal": 21,
+      "text": "Client"
+    },
+    {
+      "block_idx": 321,
+      "char_end": 10078,
+      "char_start": 8827,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Client offerings consist of premium and standard edition Windows operating systems. Premium editions are those that include additional functionality and are sold at a price above our standard editions. Premium editions include Windows Vista Business, Windows Vista Home Premium, Windows Vista Ultimate, Windows Vista Enterprise, Windows XP Professional, Windows XP Media Center Edition, and Windows XP Tablet PC Edition. Standard editions include Windows Vista Home Basic and Windows XP Home. Client revenue growth is directly impacted by growth of PC purchases from OEMs that pre-install versions of Windows operating systems because the OEM channel accounts for over 80% of total Client revenue. The differences between unit growth rates and revenue growth rates from year to year are affected by changes in the mix of OEM Windows operating systems licensed with premium edition operating systems as a percentage of total OEM Windows operating systems licensed (\"OEM premium mix\"), including the impact from lower cost netbook PCs which are sold with a lower cost version of Windows, changes in the geographic mix, and changes in the channel mix of products sold by large, multi-national OEMs versus those sold by local and regional system builders."
+    },
+    {
+      "block_idx": 324,
+      "char_end": 10167,
+      "char_start": 10080,
+      "is_heading": true,
+      "ordinal": 23,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 325,
+      "char_end": 10888,
+      "char_start": 10169,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Client revenue decreased primarily as a result of PC market weakness and a continued shift to lower priced netbook PCs. OEM revenue decreased $465 million or 12% while OEM license units decreased 1%. The decline in OEM revenue reflects an 11 percentage point decrease in the OEM premium mix to 64%, primarily driven by growth of licenses related to sales of netbook PCs, as well as changes in the geographic and product mixes. Revenue from commercial and retail licensing of Windows operating systems increased $113 million or 19%. Based on our estimates, total worldwide PC shipments from all sources was approximately flat, driven by increased demand in emerging markets, offset by decreased demand in mature markets."
+    },
+    {
+      "block_idx": 326,
+      "char_end": 11133,
+      "char_start": 10890,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Client operating income decreased primarily reflecting decreased revenue and increased sales and marketing expenses. Sales and marketing expenses increased $80 million or 19%, primarily reflecting increased advertising and marketing campaigns."
+    },
+    {
+      "block_idx": 327,
+      "char_end": 11218,
+      "char_start": 11135,
+      "is_heading": true,
+      "ordinal": 26,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 328,
+      "char_end": 11946,
+      "char_start": 11220,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Client revenue decreased primarily as a result of PC market weakness and a continued shift to lower priced netbook PCs. OEM revenue decreased $510 million or 7% while OEM license units increased 3%. The decline in OEM revenue reflects a seven percentage point decrease in the OEM premium mix to 68%, primarily driven by growth of licenses related to sales of netbook PCs, as well as changes in the geographic and product mixes. Revenue from commercial and retail licensing of Windows operating systems increased $238 million or 20%. Based on our estimates, total worldwide PC shipments from all sources increased 4% to 7%, driven by increased demand in emerging markets, partially offset by decreased demand in mature markets."
+    },
+    {
+      "block_idx": 329,
+      "char_end": 12337,
+      "char_start": 11948,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "Client operating income decreased primarily reflecting decreased revenue and increased sales and marketing and research and development expenses. Sales and marketing expenses increased $203 million or 29%, primarily reflecting increased advertising and marketing campaigns. Research and development expenses increased $72 million or 15% as a result of increased headcount-related expenses."
+    },
+    {
+      "block_idx": 330,
+      "char_end": 12355,
+      "char_start": 12339,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Server and Tools"
+    },
+    {
+      "block_idx": 332,
+      "char_end": 13202,
+      "char_start": 12357,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Server and Tools concentrates on licensing products, applications, tools, content, and services that are designed to make information technology professionals and developers more productive and efficient. Server and Tools offerings consist of server software licenses and client access licenses (\"CAL\") for Windows Server, Microsoft SQL Server, and other server products. We also offer developer tools, training, certification, Microsoft Press, Premier and Professional product support services, and Microsoft Consulting Services. Server products can be run on-site, in a hosted environment, or in a Web-based environment. We use multiple channels for licensing, including pre-installed OEM versions, licenses through partners, and licenses directly to end customers. We sell licenses both as one-time licenses and as multi-year volume licenses."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 13291,
+      "char_start": 13204,
+      "is_heading": true,
+      "ordinal": 31,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 334,
+      "char_end": 14147,
+      "char_start": 13293,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "Server and Tools revenue increased reflecting growth in product and services revenue and included a favorable impact from foreign currency exchange rates of $82 million or three percentage points. Server and server application revenue (including CAL revenue) and developer tools revenue increased $378 million or 15%, primarily driven by growth in SQL Server and Windows Server revenue. This growth reflects recognition of deferred revenue from previously signed agreements and adoption of the Windows Platform and applications with the releases of Windows Server 2008 during the second half of fiscal year 2008 and the release of SQL Server 2008 during the first quarter of fiscal year 2009. Consulting and Premier and Professional product support services revenue increased $104 million or 16%, primarily due to revenue from annuity support agreements."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 14435,
+      "char_start": 14149,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "Server and Tools operating income increased primarily due to growth in high-margin product revenue, partially offset by increased research and development expenses. Research and development expenses increased $82 million or 18%, primarily driven by increased headcount-related expenses."
+    },
+    {
+      "block_idx": 339,
+      "char_end": 14520,
+      "char_start": 14437,
+      "is_heading": true,
+      "ordinal": 34,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 340,
+      "char_end": 15265,
+      "char_start": 14522,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "Server and Tools revenue increased reflecting growth in product and services revenue and included a favorable impact from foreign currency exchange rates of $211 million or three percentage points. Server and server application revenue (including CAL revenue) and developer tools revenue increased $790 million or 16%, primarily driven by growth in SQL Server and Windows Server revenue. This growth reflects recognition of deferred revenue from previously signed agreements and adoption of the Windows Platform and applications with the recent product releases as described above. Consulting and Premier and Professional product support services revenue increased $216 million or 17%, primarily due to revenue from annuity support agreements."
+    },
+    {
+      "block_idx": 341,
+      "char_end": 15679,
+      "char_start": 15267,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Server and Tools operating income increased primarily due to growth in high-margin product revenue, partially offset by increased research and development expenses and cost of revenue. Research and development expenses increased $177 million or 20%, primarily driven by increased headcount-related expenses. Cost of revenue increased $165 million or 14%, reflecting the growth in consulting and support services."
+    },
+    {
+      "block_idx": 342,
+      "char_end": 15705,
+      "char_start": 15681,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Online Services Business"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 16816,
+      "char_start": 15707,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Online Services Business (\"OSB\") consists of an online advertising platform with offerings for both publishers and advertisers, personal communications services such as email and instant messaging, online information offerings such as Live Search, and the MSN portals and channels around the world. We earn revenue primarily from online advertising, including search, display, and advertiser and publisher tools. Revenue is also generated through subscriptions and transactions generated from online paid services, digital marketing and advertising agency services, and from MSN narrowband Internet access subscribers. During the first quarter of fiscal year 2008, we completed our acquisition of aQuantive, Inc. (\"aQuantive\"), a digital marketing business. aQuantive was consolidated into our results of operations starting August 10, 2007, the acquisition date. Amounts during the six months ended December 31, 2008 included six months of aQuantive results whereas amounts during the six months ended December 31, 2007 included aQuantive results only from the acquisition date through the end of the period."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 16905,
+      "char_start": 16818,
+      "is_heading": true,
+      "ordinal": 39,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 346,
+      "char_end": 17339,
+      "char_start": 16907,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "OSB revenue was flat as a result of increased online advertising revenue, offset by decreased access and other OSB revenue. Online advertising revenue increased $43 million or 7%, to $664 million. This increase reflected growth in our search and display business. Access revenue decreased $19 million or 28%, to $48 million, reflecting continued migration of subscribers to broadband or other competitively-priced service providers."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 17724,
+      "char_start": 17341,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "OSB operating loss increased due to increased cost of revenue and research and development expenses. Cost of revenue increased $137 million or 28%, primarily driven by increased online costs, including traffic acquisition costs and data center and equipment costs. Research and development expenses increased $87 million or 32%, primarily due to increased headcount-related expenses."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 17809,
+      "char_start": 17726,
+      "is_heading": true,
+      "ordinal": 42,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 352,
+      "char_end": 18444,
+      "char_start": 17811,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "OSB revenue increased as a result of increased online advertising revenue and agency revenue, partially offset by decreased access revenue. Online advertising revenue increased $111 million or 10%, to $1.2 billion. This increase reflected growth in our search and display business. Agency revenue, which is solely derived from aQuantive, was $191 million during the six months ended December 31, 2008 and $154 million during the six months ended December 31, 2007. Access revenue decreased $39 million or 28%, to $98 million, reflecting continued migration of subscribers to broadband or other competitively-priced service providers."
+    },
+    {
+      "block_idx": 353,
+      "char_end": 18901,
+      "char_start": 18446,
+      "is_heading": false,
+      "ordinal": 44,
+      "text": "OSB operating loss increased due to increased cost of revenue and research and development expenses, partially offset by increased revenue. Cost of revenue increased $320 million or 37%, primarily driven by increased online costs, including traffic acquisition costs, data center and equipment costs, people costs, and agency expenses. Research and development expenses increased $141 million or 25%, primarily due to increased headcount-related expenses."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 18930,
+      "char_start": 18903,
+      "is_heading": true,
+      "ordinal": 45,
+      "text": "Microsoft Business Division"
+    },
+    {
+      "block_idx": 356,
+      "char_end": 20166,
+      "char_start": 18932,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Microsoft Business Division (\"MBD\") offerings consist of the Microsoft Office system and Microsoft Dynamics business solutions. Microsoft Office system products are designed to increase personal, team, and organization productivity through a range of programs, services, and software solutions. Growth of revenue from the Microsoft Office system offerings, which generate over 90% of MBD revenue, depends on our ability to add value to the core Office product set and to continue to expand our product offerings in other information worker areas such as enterprise content management, collaboration, unified communications, and business intelligence. Microsoft Dynamics products provide business solutions for financial management, customer relationship management, supply chain management, and analytics applications for small and mid-size businesses, large organizations, and divisions of global enterprises. We evaluate our results based upon the nature of the end user in two primary parts: business revenue, which includes Microsoft Office system revenue generated through volume licensing agreements and Microsoft Dynamics revenue; and consumer revenue, which includes revenue from retail packaged product sales and OEM revenue."
+    },
+    {
+      "block_idx": 357,
+      "char_end": 20255,
+      "char_start": 20168,
+      "is_heading": true,
+      "ordinal": 47,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 358,
+      "char_end": 20443,
+      "char_start": 20257,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "MBD revenue growth increased reflecting increased business revenue, partially offset by decreased consumer revenue and included a favorable impact from foreign currency exchange rates of"
+    },
+    {
+      "block_idx": 361,
+      "char_end": 20954,
+      "char_start": 20445,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "$167 million or four percentage points. Business revenue increased $285 million or 7%, primarily reflecting growth in volume licensing agreement revenue and included a 7% decrease in Microsoft Dynamics customer billings. The growth in volume licensing agreement revenue primarily reflects recognition of deferred revenue from previously signed agreements. Consumer revenue decreased $224 million or 23%, primarily as a result of decreased licensing of the 2007 Microsoft Office system through our OEM channel."
+    },
+    {
+      "block_idx": 362,
+      "char_end": 21382,
+      "char_start": 20956,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "MBD operating income decreased reflecting increased research and development expenses and cost of revenue, partially offset by increased revenue. Research and development expenses increased $54 million or 15%, primarily driven by an increase in headcount-related expenses associated with the April 2008 acquisition of Fast Search & Transfer ASA (\"FAST\"). Cost of revenue increased $46 million or 20%, primarily driven by FAST."
+    },
+    {
+      "block_idx": 363,
+      "char_end": 21467,
+      "char_start": 21384,
+      "is_heading": true,
+      "ordinal": 51,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 364,
+      "char_end": 22239,
+      "char_start": 21469,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "MBD revenue increased reflecting growth in our business revenue and consumer revenue and included a favorable impact from foreign currency exchange rates of $380 million or four percentage points. Business revenue increased $828 million or 12%, primarily reflecting growth in volume licensing agreement revenue partially offset by a 2% decrease in Microsoft Dynamics customer billings. The growth in volume licensing agreement revenue primarily reflects the recognition of deferred revenue from previously signed agreements. Consumer revenue increased $65 million or 4%, reflecting increased licensing of the 2007 Microsoft Office system from retail packaged product sales, partially offset by decreased licensing of 2007 Microsoft Office system through our OEM channel."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 22608,
+      "char_start": 22241,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "MBD operating income increased reflecting increased revenue, partially offset by increased cost of revenue and research and development expenses. Cost of revenue increased $110 million or 25%, primarily driven by FAST. Research and development expenses increased $110 million or 15%, primarily driven by an increase in headcount-related expenses associated with FAST."
+    },
+    {
+      "block_idx": 366,
+      "char_end": 22644,
+      "char_start": 22610,
+      "is_heading": true,
+      "ordinal": 54,
+      "text": "Entertainment and Devices Division"
+    },
+    {
+      "block_idx": 368,
+      "char_end": 23394,
+      "char_start": 22646,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Entertainment and Devices Division (\"EDD\") offerings include the Xbox 360 platform (which includes the Microsoft Xbox 360 video game console system, Xbox 360 video games, Xbox Live, and Xbox 360 accessories), the Zune digital music and entertainment platform, PC software games, online games and services, Mediaroom (our Internet protocol television software), the Surface computing platform, mobile and embedded device platforms, and other devices. EDD leads the development efforts for our line of consumer software and hardware products including application software for Apple's Macintosh computers and Microsoft PC hardware products, and is responsible for all retail sales and marketing for Microsoft Office and the Windows operating systems."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 23483,
+      "char_start": 23396,
+      "is_heading": true,
+      "ordinal": 56,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 370,
+      "char_end": 24182,
+      "char_start": 23485,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "EDD revenue increased primarily due to increased Xbox 360 platform and PC game revenue and other EDD product revenue, partially offset by decreased Zune platform revenue. Xbox 360 platform and PC game revenue increased $135 million or 6%, primarily as a result of an increase in Xbox 360 console and video game sales, partially offset by decreased revenue per Xbox 360 console due to price reductions during the past 12 months. We shipped 6.0 million Xbox 360 consoles during the second quarter of fiscal year 2009, compared with 4.3 million Xbox 360 consoles during the second quarter of fiscal year 2008. Zune platform revenue decreased $100 million or 54% reflecting a decrease in device sales."
+    },
+    {
+      "block_idx": 374,
+      "char_end": 24856,
+      "char_start": 24184,
+      "is_heading": false,
+      "ordinal": 58,
+      "text": "EDD operating income decreased primarily due to increased cost of revenue, research and development expenses, and sales and marketing expenses, partially offset by increased revenue. Cost of revenue increased $139 million or 7%, primarily driven by increased costs associated with the Xbox 360 platform reflecting the increase in console and video game sales. Research and development expenses increased $106 million or 29%, primarily reflecting increased headcount-related expenses associated with the Windows Mobile device platform. Sales and marketing expenses increased $83 million or 19%, primarily reflecting an increase in product advertising and channel marketing."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 24941,
+      "char_start": 24858,
+      "is_heading": true,
+      "ordinal": 59,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 25740,
+      "char_start": 24943,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "EDD revenue decreased primarily due to decreased Xbox 360 platform and PC game revenue, partially offset by increases in other EDD product revenue. Xbox 360 platform and PC game revenue decreased $196 million or 5%, primarily as a result of the $330 million of incremental revenue from the launch of Halo 3 in the first quarter of fiscal year 2008 and decreased revenue per Xbox 360 console as a result of price reductions during the past 12 months. We shipped 8.3 million Xbox 360 consoles during the first half of fiscal year 2009 compared with 6.1 million Xbox 360 consoles during the first half of fiscal year 2008. Other EDD product revenue increased $169 million or 15%, led by increased sales of application software for Apple's Macintosh computers and mobile and embedded device platforms."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 26206,
+      "char_start": 25742,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "EDD operating income decreased primarily due to increased research and development expenses, partially offset by decreased cost of revenue. Research and development expenses increased $251 million or 37%, primarily reflecting increased headcount-related expenses associated with the Windows Mobile device platform, driven by recent acquisitions. Cost of revenue decreased $112 million or 4%, primarily driven by decreased Xbox 360 manufacturing and warranty costs."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 26232,
+      "char_start": 26208,
+      "is_heading": true,
+      "ordinal": 62,
+      "text": "Corporate-Level Activity"
+    },
+    {
+      "block_idx": 380,
+      "char_end": 26981,
+      "char_start": 26234,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "Certain corporate-level activity is not allocated to our segments. Those results include expenses such as broad-based sales and marketing, product support services, human resources, legal, finance, information technology, corporate development and procurement activities, research and development and other costs, and legal settlements and contingencies. Corporate-level expenses decreased during the three months ended December 31, 2008, primarily due to decreased legal expenses, partially offset by increased headcount-related expenses. Corporate-level expenses increased during the six months ended December 31, 2008, primarily reflecting increased headcount-related expenses and partner payments, partially offset by decreased legal expenses."
+    },
+    {
+      "block_idx": 381,
+      "char_end": 27001,
+      "char_start": 26983,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "OPERATING EXPENSES"
+    },
+    {
+      "block_idx": 382,
+      "char_end": 27018,
+      "char_start": 27003,
+      "is_heading": true,
+      "ordinal": 65,
+      "text": "Cost of Revenue"
+    },
+    {
+      "block_idx": 386,
+      "char_end": 28181,
+      "char_start": 27020,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Cost of revenue includes manufacturing and distribution costs for products sold and programs licensed, operating costs related to product support service centers and product distribution centers, costs incurred to drive traffic to our website and/or acquire online advertising space (\"traffic acquisition costs\"), costs incurred to support and maintain Internet-based products and services, warranty costs, inventory valuation adjustments, costs associated with the delivery of consulting services, and the amortization of capitalized research and development costs associated with software products that have reached technological feasibility. Cost of revenue increased during the three months ended December 31, 2008, reflecting increased online costs, including traffic acquisition costs and people costs, and increased Xbox 360 platform costs. Cost of revenue increased during the six months ended December 31, 2008, reflecting increased online costs, including traffic acquisition, data center and equipment, and people costs, and increased costs associated with the growth in our consulting services, partially offset by decreased Xbox 360 platform costs."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 28207,
+      "char_start": 28183,
+      "is_heading": true,
+      "ordinal": 67,
+      "text": "Research and Development"
+    },
+    {
+      "block_idx": 389,
+      "char_end": 28896,
+      "char_start": 28209,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Research and development expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with product development. Research and development expenses also include third-party development and programming costs, localization costs incurred to translate software for international markets, the amortization of purchased software code and services content, and in-process research and development. The increase in research and development expenses during the three and six months ended December 31, 2008, was primarily driven by increased headcount-related expenses of 24% during the three and six months ended December 31, 2008."
+    },
+    {
+      "block_idx": 390,
+      "char_end": 28917,
+      "char_start": 28898,
+      "is_heading": true,
+      "ordinal": 69,
+      "text": "Sales and Marketing"
+    },
+    {
+      "block_idx": 392,
+      "char_end": 29711,
+      "char_start": 28919,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Sales and marketing expenses include payroll, employee benefits, stock-based compensation expense, and other headcount-related expenses associated with sales and marketing personnel and advertising, promotions, trade shows, seminars, and other programs. Sales and marketing expenses increased during the three months ended December 31, 2008, primarily as a result of increased corporate marketing and advertising campaigns, headcount-related expenses, and bad debt expenses. Sales and marketing expenses increased during the six months ended December 31, 2008, primarily as a result of increased headcount-related expenses and corporate marketing and advertising campaigns. Headcount-related expenses increased 4% during the three months and 12% during the six months ended December 31, 2008."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 30611,
+      "char_start": 29713,
+      "is_heading": false,
+      "ordinal": 71,
+      "text": "Effective July 1, 2008, we began presenting gains and losses resulting from foreign currency remeasurements as a component of other income (expense). Prior to July 1, 2008, we included gains and losses resulting from foreign currency remeasurements as a component of sales and marketing expense. We changed our presentation because this better reflects how we manage these foreign currency exposures, as such gains and losses arising from the remeasurement of foreign currency transactions are incidental to our operations. For the three and six months ended December 31, 2008, $350 million and $529 million of losses, respectively, were reported as other income (expense). For the three and six months ended December 31, 2007, $28 million and $97 million of gains, respectively, were previously recorded as a component of sales and marketing expense and have been recast as other income (expense)."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 30639,
+      "char_start": 30613,
+      "is_heading": true,
+      "ordinal": 72,
+      "text": "General and Administrative"
+    },
+    {
+      "block_idx": 399,
+      "char_end": 31288,
+      "char_start": 30641,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "General and administrative costs include payroll, employee benefits, stock-based compensation expense and other headcount-related expenses associated with finance, legal, facilities, certain human resources and other administrative headcount, and legal and other administrative fees. General and administrative expenses decreased during the three and six months ended December 31, 2008, primarily reflecting decreased costs for legal settlements and legal contingencies, partially offset by increased headcount-related expenses. Headcount-related expenses increased 6% during the three months and 17% during the six months ended December 31, 2008."
+    },
+    {
+      "block_idx": 400,
+      "char_end": 31329,
+      "char_start": 31290,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "OTHER INCOME (EXPENSE) AND INCOME TAXES"
+    },
+    {
+      "block_idx": 401,
+      "char_end": 31353,
+      "char_start": 31331,
+      "is_heading": true,
+      "ordinal": 75,
+      "text": "Other Income (Expense)"
+    },
+    {
+      "block_idx": 402,
+      "char_end": 31412,
+      "char_start": 31355,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "The components of other income (expense) were as follows:"
+    },
+    {
+      "block_idx": 404,
+      "char_end": 31430,
+      "char_start": 31414,
+      "is_heading": true,
+      "ordinal": 77,
+      "text": "* Not meaningful"
+    },
+    {
+      "block_idx": 405,
+      "char_end": 32330,
+      "char_start": 31432,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Effective July 1, 2008, we began presenting gains and losses resulting from foreign currency remeasurements as a component of other income (expense). Prior to July 1, 2008, we included gains and losses resulting from foreign currency remeasurements as a component of sales and marketing expense. We changed our presentation because this better reflects how we manage these foreign currency exposures, as such gains and losses arising from the remeasurement of foreign currency transactions are incidental to our operations. For the three and six months ended December 31, 2008, $350 million and $529 million of losses, respectively, were reported as other income (expense). For the three and six months ended December 31, 2007, $28 million and $97 million of gains, respectively, were previously recorded as a component of sales and marketing expense and have been recast as other income (expense)."
+    },
+    {
+      "block_idx": 408,
+      "char_end": 33267,
+      "char_start": 32332,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "Investments are considered to be impaired when a decline in fair value is judged to be other-than-temporary. We employ a systematic methodology that considers available evidence in evaluating potential impairment of our investments, including market declines subsequent to the period-end. If the cost of an investment exceeds its fair value, among other factors, we evaluate general market conditions, the duration and extent to which the fair value is less than cost, and our intent and ability to hold the investment. We also consider specific adverse conditions related to the financial health of and business outlook for the investee, including industry and sector performance, changes in technology, operational and financing cash flow factors, and rating agency actions. Once a decline in fair value is determined to be other-than-temporary, an impairment charge is recorded and a new cost basis in the investment is established."
+    },
+    {
+      "block_idx": 409,
+      "char_end": 33632,
+      "char_start": 33269,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "We lend certain fixed-income and equity securities to increase investment returns. The loaned securities continue to be carried as investments on our balance sheet. Collateral and/or security interest is determined based upon the underlying security and the creditworthiness of the borrower. Cash collateral is recorded as an asset with a corresponding liability."
+    },
+    {
+      "block_idx": 410,
+      "char_end": 34048,
+      "char_start": 33634,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "We use derivative instruments to manage exposures to interest rates, equity prices, and foreign currency markets, and to facilitate portfolio diversification. Gains and losses arising from derivatives not designated as accounting hedges are in large part economically offset by unrealized losses and gains, respectively, in the underlying securities which are recorded as a component of other comprehensive income."
+    },
+    {
+      "block_idx": 411,
+      "char_end": 34137,
+      "char_start": 34050,
+      "is_heading": true,
+      "ordinal": 82,
+      "text": "Three months ended December 31, 2008 compared with three months ended December 31, 2007"
+    },
+    {
+      "block_idx": 412,
+      "char_end": 35030,
+      "char_start": 34139,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "Dividends and interest income decreased primarily reflecting lower interest rates on our fixed-income investments. Net recognized gains on investments, which included other-than-temporary impairments of $262 million during the three months ended December 31, 2008, as compared with $54 million during the three months ended December 31, 2007, increased primarily due to sales of certain equity investments held in our strategic investments portfolio. Other-than-temporary impairments increased primarily due to declines in equity values as a result of continuing declines in equity markets. Net losses on derivatives increased primarily due to losses on equity, commodity, and interest rate derivatives in the current period as compared to gains in the prior period. Net losses on foreign currency remeasurements increased due to current period volatility in foreign currency exchange rates."
+    },
+    {
+      "block_idx": 413,
+      "char_end": 35115,
+      "char_start": 35032,
+      "is_heading": true,
+      "ordinal": 84,
+      "text": "Six months ended December 31, 2008 compared with six months ended December 31, 2007"
+    },
+    {
+      "block_idx": 414,
+      "char_end": 36141,
+      "char_start": 35117,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Dividends and interest income decreased primarily reflecting lower interest rates on our fixed-income investments. Net recognized gains on investments, which included other-than-temporary impairments of $334 million during the six months ended December 31, 2008, as compared with $69 million during the six months ended December 31, 2007, increased primarily due to sales of certain equity investments held in our strategic investments portfolio. Other-than-temporary impairments increased primarily due to declines in equity values as a result of continuing declines in equity markets. Net losses on derivatives increased primarily due to losses on equity, commodity, and interest rate derivatives in the current period as compared to gains in the prior period. Net losses on foreign currency remeasurements increased due to current period volatility in foreign currency exchange rates. Other of $136 million for the six months ended December 31, 2007 included the correction of several immaterial items from prior periods."
+    },
+    {
+      "block_idx": 415,
+      "char_end": 36155,
+      "char_start": 36143,
+      "is_heading": true,
+      "ordinal": 86,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 416,
+      "char_end": 36472,
+      "char_start": 36157,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Our effective tax rates were 26% for the three months and 27% for the six months ended December 31, 2008, and 31% for the three and six months ended December 31, 2007. The fiscal year 2009 rates reflected a decline in the recurring effective tax rates primarily as a result of foreign earnings taxed at lower rates."
+    },
+    {
+      "block_idx": 419,
+      "char_end": 36664,
+      "char_start": 36474,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "During the first quarter of fiscal year 2009, we paid the Internal Revenue Service (\"IRS\") approximately $3.1 billion as a result of our settlement with the IRS on its 2000-2003 examination."
+    },
+    {
+      "block_idx": 420,
+      "char_end": 36685,
+      "char_start": 36666,
+      "is_heading": true,
+      "ordinal": 89,
+      "text": "FINANCIAL CONDITION"
+    },
+    {
+      "block_idx": 421,
+      "char_end": 37811,
+      "char_start": 36687,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Cash, cash equivalents, and short-term investments totaled $20.7 billion as of December 31, 2008, compared with $23.7 billion as of June 30, 2008. Equity and other investments were $3.9 billion as of December 31, 2008, compared with $6.6 billion as of June 30, 2008. Our investments consist primarily of fixed-income securities, diversified among industries and individual issuers. Our investments are generally liquid and investment grade. The portfolio is invested predominantly in U.S. dollar-denominated securities, but also includes foreign-denominated securities in order to diversify financial risk. We invest primarily in short-term securities to facilitate rapid deployment for immediate cash needs. As a result of the special dividend paid in the second quarter of fiscal year 2005 and shares repurchased, our retained deficit, including accumulated other comprehensive income, was $26.9 billion at December 31, 2008. Our retained deficit is not expected to affect our future ability to operate, pay dividends, or repay our short-term debt given our continuing profitability and strong cash and financial position."
+    },
+    {
+      "block_idx": 422,
+      "char_end": 38759,
+      "char_start": 37813,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "In general, and where applicable, we use quoted prices in active markets for identical assets or liabilities to determine fair value. This pricing methodology applies to our Level 1 investments such as exchange-traded mutual funds, domestic and international equities, U.S. treasuries, and agency securities. If quoted prices in active markets for identical assets or liabilities are not available to determine fair value, then we use quoted prices for similar assets and liabilities or inputs other than the quoted prices that are observable either directly or indirectly. This pricing methodology applies to our Level 2 investments such as corporate notes and bonds, foreign government bonds, mortgage-backed securities, and certain agency securities. Level 3 investments are valued using internally developed models with unobservable inputs. Assets and liabilities measured using unobservable inputs are an immaterial portion of our portfolio."
+    },
+    {
+      "block_idx": 423,
+      "char_end": 39889,
+      "char_start": 38761,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "A majority of our investments are priced by pricing vendors and are generally Level 1 or Level 2 investments as these vendors either provide a quoted market price in an active market or use observable inputs for their pricing without applying significant adjustments. Broker pricing is used mainly when a quoted price is not available, the investment is not priced by our pricing vendors, or when a broker price is more reflective of fair values in the market in which the investment trades. Our broker-priced investments are generally labeled as Level 2 investments because the brokers price these investments based on similar assets without applying significant adjustments. In addition, all of our broker-priced investments have a sufficient level of trading volume to demonstrate that the fair values used are appropriate for these investments. Our fair value processes include controls that are designed to ensure appropriate fair values are recorded. Such controls include model validation, review of key model inputs, analysis of period-over-period fluctuations, and independent recalculation of prices where appropriate."
+    },
+    {
+      "block_idx": 424,
+      "char_end": 40422,
+      "char_start": 39891,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "While we own certain mortgage- and asset-backed fixed-income securities, our portfolio as of December 31, 2008 does not contain significant exposure to subprime mortgages or structured vehicles that derive their value from subprime collateral. The majority of the mortgage-backed securities are collateralized by prime residential mortgages and carry a 100% principal and interest guarantee, primarily from Federal National Mortgage Association, Federal Home Loan Mortgage Corporation, and Government National Mortgage Association."
+    },
+    {
+      "block_idx": 425,
+      "char_end": 40428,
+      "char_start": 40424,
+      "is_heading": true,
+      "ordinal": 94,
+      "text": "Debt"
+    },
+    {
+      "block_idx": 426,
+      "char_end": 40879,
+      "char_start": 40430,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "In September 2008, our Board of Directors authorized debt financings of up to $6.0 billion. Pursuant to the authorization, we established a commercial paper program providing for the issuance and sale of up to $2.0 billion in short-term commercial paper. As of December 31, 2008, $2.0 billion of the commercial paper was issued and outstanding with a weighted average interest rate, including issuance costs, of 0.3% and maturities of 29 to 93 days."
+    },
+    {
+      "block_idx": 430,
+      "char_end": 41554,
+      "char_start": 40881,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "In September 2008, we also entered into a $2.0 billion six-month senior unsecured credit facility, principally to support the commercial paper program. In November 2008, we replaced the six-month credit facility with a new $2.0 billion 364-day credit facility. The new credit facility expires on November 6, 2009. As of December 31, 2008, we were in compliance with the only financial covenant in the credit agreement, which requires us to maintain a coverage ratio of at least three times earnings before interest, taxes, depreciation, and amortization to interest expense. No amounts were drawn against the credit facility during the three months ended December 31, 2008."
+    },
+    {
+      "block_idx": 431,
+      "char_end": 41903,
+      "char_start": 41556,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "In November 2008, we filed a shelf registration statement with the U.S. Securities and Exchange Commission that allows us to issue debt securities from time to time pursuant to the September 2008 authorization for debt financings of up to $6.0 billion. As of December 31, 2008, no debt securities had been issued under this registration statement."
+    },
+    {
+      "block_idx": 432,
+      "char_end": 41921,
+      "char_start": 41905,
+      "is_heading": true,
+      "ordinal": 98,
+      "text": "Unearned Revenue"
+    },
+    {
+      "block_idx": 433,
+      "char_end": 42993,
+      "char_start": 41923,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "Unearned revenue from volume licensing programs represents customer billings, paid either upfront or annually at the beginning of each billing coverage period, which are accounted for as subscriptions with revenue recognized ratably over the billing coverage period. For certain other licensing arrangements, revenue attributable to undelivered elements, including free post-delivery telephone support and the right to receive unspecified upgrades/enhancements of Microsoft Internet Explorer on a when-and-if-available basis for Windows XP and previous PC operating systems, is recorded as unearned based on the sales price of those elements when sold separately, and is recognized ratably on a straight-line basis over the related product's life cycle. Other unearned revenue includes services, Microsoft Dynamics business solutions products, Xbox Live subscriptions, display advertising, Mediaroom, and other offerings for which we have been paid upfront and earn the revenue when we provide the service or software, or otherwise meet the revenue recognition criteria."
+    },
+    {
+      "block_idx": 434,
+      "char_end": 43093,
+      "char_start": 42995,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "The following table outlines the expected recognition of unearned revenue as of December 31, 2008:"
+    },
+    {
+      "block_idx": 436,
+      "char_end": 43143,
+      "char_start": 43095,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "See Note 11 - Unearned Revenue (Part I, Item 1)."
+    },
+    {
+      "block_idx": 437,
+      "char_end": 43155,
+      "char_start": 43145,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "Cash Flows"
+    },
+    {
+      "block_idx": 438,
+      "char_end": 43363,
+      "char_start": 43157,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "Cash flow from operations decreased $1.3 billion from the first six months of fiscal year 2008 to $9.2 billion due to payment of approximately $3.1 billion to the IRS during the first quarter of fiscal year"
+    },
+    {
+      "block_idx": 441,
+      "char_end": 43594,
+      "char_start": 43365,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "2009 as a result of our settlement of the 2000-2003 audit examination. This impact was partially offset by an increase in cash received from customers, including an increase of $2.1 billion from conversion of accounts receivable."
+    },
+    {
+      "block_idx": 442,
+      "char_end": 44179,
+      "char_start": 43596,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "Cash used for financing was $9.1 billion in the first six months of fiscal year 2009, an increase of $3.2 billion from the corresponding period in fiscal year 2008. The increase reflected $9.3 billion of common stock repurchases in the first six months of fiscal year 2009, compared with $7.0 billion in the first six months of fiscal year 2008 and a $2.7 billion decrease in proceeds from issuance of common stock. These impacts were partially offset by a $2.0 billion increase in cash proceeds from our commercial paper program established in the first quarter of fiscal year 2009."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 44692,
+      "char_start": 44181,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "Cash used for investing was $1.9 billion in the first six months of fiscal year 2009, a decrease of $1.4 billion from the first six months of fiscal year 2008. The decrease reflected a $5.0 billion decrease in cash paid for acquisitions of companies, resulting from the purchase of aQuantive in the first half of fiscal year 2008, partially offset by a $1.6 billion decline in cash from securities lending activities and a $1.6 billion decrease in cash from combined investment purchases, sales, and maturities."
+    },
+    {
+      "block_idx": 444,
+      "char_end": 45520,
+      "char_start": 44694,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "While we have short-term debt as described above, we currently have no long-term debt (see Financial Condition above). Stockholders' equity at December 31, 2008 was $34.5 billion. We will continue to invest in sales, marketing, product support infrastructure, and existing and advanced areas of technology. Additions to property and equipment will continue, including new facilities, data centers, and computer systems for research and development, sales and marketing, support, and administrative staff. We have operating leases for most U.S. and international sales and support offices and certain equipment. We have not engaged in any related party transactions or arrangements with unconsolidated entities or other persons that are reasonably likely to materially affect liquidity or the availability of capital resources."
+    },
+    {
+      "block_idx": 445,
+      "char_end": 46684,
+      "char_start": 45522,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "On September 22, 2008, we announced the completion of the two repurchase programs approved by our Board of Directors during the first quarter of fiscal year 2007 to buy back up to $40.0 billion of Microsoft common stock. On September 22, 2008, we also announced that our Board of Directors approved a new share repurchase program authorizing up to $40.0 billion in share repurchases with an expiration of September 30, 2013. During the three and six months ended December 31, 2008, we repurchased a total of 94 million and 318 million shares for $2.2 billion and $8.2 billion, respectively; 101 million shares were repurchased for $2.7 billion under the repurchase program approved by our Board of Directors during the first quarter of fiscal year 2007 and 217 million shares were repurchased for $5.5 billion under the repurchase program approved by our Board of Directors during the first quarter of fiscal year 2009. As of December 31, 2008, approximately $34.5 billion remained of the $40.0 billion approved repurchase amount. All repurchases were made using cash resources. The repurchase program may be suspended or discontinued at any time without notice."
+    },
+    {
+      "block_idx": 446,
+      "char_end": 46742,
+      "char_start": 46686,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "Our Board of Directors declared the following dividends:"
+    },
+    {
+      "block_idx": 450,
+      "char_end": 47533,
+      "char_start": 46744,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "We believe existing cash and cash equivalents and short-term investments, together with funds generated from operations, should be sufficient to meet operating requirements, regular quarterly dividends, debt repayment schedules, and share repurchases. Our philosophy regarding the maintenance of a balance sheet with a large component of cash and cash equivalents, short-term investments, and equity and other investments, reflects our views on potential future capital requirements relating to research and development, creation and expansion of sales distribution channels, investments and acquisitions, share dilution management, legal risks, and challenges to our business model. We regularly assess our investment management approach in view of our current and potential future needs."
+    },
+    {
+      "block_idx": 451,
+      "char_end": 47565,
+      "char_start": 47535,
+      "is_heading": true,
+      "ordinal": 111,
+      "text": "Off-Balance Sheet Arrangements"
+    },
+    {
+      "block_idx": 452,
+      "char_end": 48508,
+      "char_start": 47567,
+      "is_heading": false,
+      "ordinal": 112,
+      "text": "We provide indemnifications of varying scope and amount to certain customers against claims of intellectual property infringement made by third parties arising from the use of our products. We evaluate estimated losses for such indemnifications under SFAS No. 5, Accounting for Contingencies, as interpreted by Financial Accounting Standards Board (\"FASB\") Interpretation No. 45, Guarantor's Accounting and Disclosure Requirements for Guarantees, Including Indirect Guarantees of Indebtedness of Others - an interpretation of FASB statements No.5, 57 and 107 and rescission of FASB Interpretation No. 34. We consider factors such as the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss. To date, we have not encountered material costs as a result of such obligations and have not accrued any material liabilities related to such indemnifications in our financial statements."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 48542,
+      "char_start": 48510,
+      "is_heading": true,
+      "ordinal": 113,
+      "text": "RECENT ACCOUNTING PRONOUNCEMENTS"
+    },
+    {
+      "block_idx": 454,
+      "char_end": 48586,
+      "char_start": 48544,
+      "is_heading": true,
+      "ordinal": 114,
+      "text": "Recently Adopted Accounting Pronouncements"
+    },
+    {
+      "block_idx": 455,
+      "char_end": 49269,
+      "char_start": 48588,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "On July 1, 2008, we adopted SFAS No. 157, Fair Value Measurements for all financial assets and liabilities and nonfinancial assets and liabilities that are recognized or disclosed at fair value in the financial statements on a recurring basis (at least annually). SFAS No. 157 defines fair value, establishes a framework for measuring fair value in generally accepted accounting principles, and expands disclosures about fair value measurements. This statement does not require any new fair value measurements, but provides guidance on how to measure fair value by providing a fair value hierarchy used to classify the source of the information. See Note 4 - Financial Instruments."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 49923,
+      "char_start": 49271,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "SFAS No. 159, The Fair Value Option for Financial Assets and Financial Liabilities - Including an amendment of FASB Statement No. 115, became effective for us on July 1, 2008. SFAS No. 159 gives us the irrevocable option to elect fair value for the initial and subsequent measurement for certain financial assets and liabilities on a contract-by-contract basis with the difference between the carrying value before election of the fair value option and the fair value recorded upon election as an adjustment to beginning retained earnings. As of December 31, 2008, we had not elected the fair value option for any eligible financial asset or liability."
+    },
+    {
+      "block_idx": 457,
+      "char_end": 49973,
+      "char_start": 49925,
+      "is_heading": true,
+      "ordinal": 117,
+      "text": "Recent Accounting Pronouncements Not Yet Adopted"
+    },
+    {
+      "block_idx": 458,
+      "char_end": 50644,
+      "char_start": 49975,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "In March 2008, the FASB issued SFAS No. 161, Disclosures about Derivative Instruments and Hedging Activities - an amendment of FASB Statement No. 133, which requires additional disclosures about the objectives of derivative instruments and hedging activities, the method of accounting for such instruments under SFAS No. 133 and its related interpretations, and a tabular disclosure of the effects of such instruments and related hedged items on our financial position, financial performance, and cash flows. SFAS No. 161 is effective for us beginning January 1, 2009. We believe the adoption of SFAS No. 161 will not have a material impact on our financial statements."
+    },
+    {
+      "block_idx": 459,
+      "char_end": 51134,
+      "char_start": 50646,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "In February 2008, the FASB issued FASB Staff Position 157-2, Effective Date of FASB Statement No. 157, which delays the effective date of SFAS No. 157 to July 1, 2009 for us, for all nonfinancial assets and nonfinancial liabilities, except for items that are recognized or disclosed at fair value in the financial statements on a recurring basis (at least annually). We believe the adoption of the delayed items of SFAS No. 157 will not have a material impact on our financial statements."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 51837,
+      "char_start": 51136,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "In December 2007, the FASB issued SFAS No. 141R, Business Combinations, which replaces SFAS No. 141. The statement retains the purchase method of accounting for acquisitions, but requires a number of changes, including changes in the way assets and liabilities are recognized in the purchase accounting. It also requires the capitalization of in-process research and development at fair value and requires the expensing of acquisition-related costs as incurred. SFAS No. 141R is effective for us beginning July 1, 2009 and will apply prospectively to business combinations completed on or after that date. The impact of SFAS No. 141R will depend on the nature of acquisitions completed after adoption."
+    },
+    {
+      "block_idx": 464,
+      "char_end": 52879,
+      "char_start": 51839,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "In December 2007, the FASB issued SFAS No. 160, Noncontrolling Interests in Consolidated Financial Statements - an amendment of ARB No. 51, which changes the accounting and reporting for minority interests. Minority interests will be recharacterized as noncontrolling interests and will be reported as a component of equity separate from the parent's equity, and purchases or sales of equity interests that do not result in a change in control will be accounted for as equity transactions. In addition, net income attributable to the noncontrolling interest will be included in consolidated net income and, upon a loss of control, the interest sold, as well as any interest retained, will be recorded at fair value with any gain or loss recognized in net income. SFAS No. 160 is effective for us beginning July 1, 2009 and will apply prospectively, except for the presentation and disclosure requirements, which will apply retrospectively. We believe the adoption of SFAS No. 160 will not have a material impact on our financial statements."
+    },
+    {
+      "block_idx": 465,
+      "char_end": 52924,
+      "char_start": 52881,
+      "is_heading": true,
+      "ordinal": 122,
+      "text": "APPLICATION OF CRITICAL ACCOUNTING POLICIES"
+    },
+    {
+      "block_idx": 466,
+      "char_end": 53590,
+      "char_start": 52926,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "Our financial statements and accompanying notes are prepared in accordance with U.S. GAAP. Preparing financial statements requires management to make estimates and assumptions that affect the reported amounts of assets, liabilities, revenue, and expenses. These estimates and assumptions are affected by management's application of accounting policies. Critical accounting policies for us include revenue recognition, impairment of investment securities, impairment of goodwill, accounting for research and development costs, accounting for contingencies, accounting for income taxes, accounting for stock-based compensation, and accounting for product warranties."
+    },
+    {
+      "block_idx": 467,
+      "char_end": 54953,
+      "char_start": 53592,
+      "is_heading": false,
+      "ordinal": 124,
+      "text": "We account for the licensing of software in accordance with American Institute of Certified Public Accountants Statement of Position (\"SOP\") 97-2, Software Revenue Recognition. The application of SOP 97-2 requires judgment, including whether a software arrangement includes multiple elements, and if so, whether vendor-specific objective evidence (\"VSOE\") of fair value exists for those elements. For some of our products, customers receive certain elements of our products over a period of time. These elements include free post-delivery telephone support and the right to receive unspecified upgrades/enhancements of Microsoft Internet Explorer on a when-and-if-available basis. The fair value of these elements is recognized over the estimated life cycle for the Windows XP and previous PC operating systems. For Windows Vista, there are no significant undelivered elements and accordingly, no license revenue is deferred for Windows Vista sales. Changes to the elements in a software arrangement, the ability to identify VSOE for those elements, the fair value of the respective elements, and changes to a product's estimated life cycle could materially impact the amount of earned and unearned revenue. Judgment is also required to assess whether future releases of certain software represent new products or upgrades and enhancements to existing products."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 56284,
+      "char_start": 54955,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "SFAS No. 115, Accounting for Certain Investments in Debt and Equity Securities, and Staff Accounting Bulletin Topic 5M, Accounting for Noncurrent Marketable Equity Securities, provides guidance on determining when an investment is other-than-temporarily impaired. Investments are reviewed quarterly for indicators of other-than-temporary impairment. This determination requires significant judgment. In making this judgment, we employ a systematic methodology quarterly that considers available quantitative and qualitative evidence in evaluating potential impairment of our investments. If the cost of an investment exceeds its fair value, we evaluate, among other factors, general market conditions, the duration and extent to which the fair value is less than cost, and our intent and ability to hold the investment. We also consider specific adverse conditions related to the financial health of and business outlook for the investee, including industry and sector performance, changes in technology, operational and financing cash flow factors, and rating agency actions. Once a decline in fair value is determined to be other-than-temporary, an impairment charge is recorded and a new cost basis in the investment is established. If market, industry, and/or investee conditions deteriorate, we may incur future impairments."
+    },
+    {
+      "block_idx": 472,
+      "char_end": 57942,
+      "char_start": 56286,
+      "is_heading": false,
+      "ordinal": 126,
+      "text": "SFAS No. 142, Goodwill and Other Intangible Assets, requires that goodwill be tested for impairment at the reporting unit level (operating segment or one level below an operating segment) on an annual basis and between annual tests if an event occurs or circumstances change that would more likely than not reduce the fair value of a reporting unit below its carrying value. These events or circumstances could include a significant change in the business climate, legal factors, operating performance indicators, competition, or sale or disposition of a significant portion of a reporting unit. Application of the goodwill impairment test requires judgment, including the identification of reporting units, assignment of assets and liabilities to reporting units, assignment of goodwill to reporting units, and determination of the fair value of each reporting unit. The fair value of each reporting unit is estimated using a discounted cash flow methodology. This analysis requires significant judgments, including estimation of future cash flows, which is dependent on internal forecasts, estimation of the long-term rate of growth for our business, the useful life over which cash flows will occur, and determination of our weighted average cost of capital. Changes in these estimates and assumptions could materially affect the determination of fair value and goodwill impairment for each reporting unit. We allocate goodwill to reporting units based on the reporting unit expected to benefit from the combination. We evaluate our reporting units on an annual basis and, if necessary, reassign goodwill using a relative fair value allocation approach."
+    },
+    {
+      "block_idx": 473,
+      "char_end": 58863,
+      "char_start": 57944,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "During the second quarter of fiscal year 2009, we changed the date of our annual impairment test from July 1 to May 1. During fiscal year 2009, the annual impairment test was performed as of July 1, 2008 and will be performed again as of May 1, 2009. The change was made to more closely align the impairment testing date with our long-range planning and forecasting process. We believe the resulting change in accounting principle related to changing the annual impairment testing date will not delay, accelerate, or avoid an impairment charge. We have determined that this change in accounting principle is preferable under the circumstances and does not result in adjustments to our financial statements when applied retrospectively. The impact of the new impairment testing date, if material, will be disclosed in the fourth quarter of fiscal year 2009, which is the quarter in which the new testing date will occur."
+    },
+    {
+      "block_idx": 474,
+      "char_end": 59360,
+      "char_start": 58865,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "Given the continuing deterioration of economic conditions, we performed an interim impairment analysis of certain goodwill balances during the three months ended December 31, 2008 (goodwill is tested for impairment on an annual basis and between annual tests if indicators of potential impairment exist, using a fair-value-based approach). No impairment of goodwill was identified during the interim testing, nor has an impairment of goodwill been identified during any of the periods presented."
+    },
+    {
+      "block_idx": 475,
+      "char_end": 60353,
+      "char_start": 59362,
+      "is_heading": false,
+      "ordinal": 129,
+      "text": "We account for research and development costs in accordance with applicable accounting pronouncements, including SFAS No. 2, Accounting for Research and Development Costs, and SFAS No. 86, Accounting for the Costs of Computer Software to be Sold, Leased, or Otherwise Marketed. SFAS No. 86 specifies that costs incurred internally in researching and developing a computer software product should be charged to expense until technological feasibility has been established for the product. Once technological feasibility is established, all software costs should be capitalized until the product is available for general release to customers. Judgment is required in determining when technological feasibility of a product is established. We have determined that technological feasibility for our software products is reached after all high-risk development issues have been resolved through coding and testing. Generally, this occurs shortly before the products are released to manufacturing."
+    },
+    {
+      "block_idx": 479,
+      "char_end": 61206,
+      "char_start": 60355,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "The outcomes of legal proceedings and claims brought against us are subject to significant uncertainty. SFAS No. 5, Accounting for Contingencies, requires that an estimated loss from a loss contingency such as a legal proceeding or claim should be accrued by a charge to income if it is probable that an asset has been impaired or a liability has been incurred and the amount of the loss can be reasonably estimated. Disclosure of a contingency is required if there is at least a reasonable possibility that a loss has been incurred. In determining whether a loss should be accrued we evaluate, among other factors, the degree of probability of an unfavorable outcome and the ability to make a reasonable estimate of the amount of loss. Changes in these factors could materially impact our results of operations, financial position, or our cash flows."
+    },
+    {
+      "block_idx": 480,
+      "char_end": 62846,
+      "char_start": 61208,
+      "is_heading": false,
+      "ordinal": 131,
+      "text": "SFAS No. 109, Accounting for Income Taxes, establishes financial accounting and reporting standards for the effect of income taxes. The objectives of accounting for income taxes are to recognize the amount of taxes payable or refundable for the current year and deferred tax liabilities and assets for the future tax consequences of events that have been recognized in an entity's financial statements or tax returns. Accruals for uncertain tax positions are provided for in accordance with the requirements of FASB Interpretation No. 48 (\"FIN 48\") Accounting for Uncertainty in Income Taxes - an interpretation of FASB Statement No. 109. Under FIN 48, we may recognize the tax benefit from an uncertain tax position only if it is more likely than not that the tax position will be sustained on examination by the taxing authorities, based on the technical merits of the position. The tax benefits recognized in the financial statements from such a position should be measured based on the largest benefit that has a greater than 50% likelihood of being realized upon ultimate settlement. FIN 48 also provides guidance on derecognition of income tax assets and liabilities, classification of current and deferred income tax assets and liabilities, accounting for interest and penalties associated with tax positions, and income tax disclosures. Judgment is required in assessing the future tax consequences of events that have been recognized in our financial statements or tax returns. Variations in the actual outcome of these future tax consequences could materially impact our financial position, results of operations, or cash flows."
+    },
+    {
+      "block_idx": 481,
+      "char_end": 63570,
+      "char_start": 62848,
+      "is_heading": false,
+      "ordinal": 132,
+      "text": "We account for stock-based compensation in accordance with SFAS No. 123(R), Share-Based Payment. Under the fair value recognition provisions of this statement, share-based compensation cost is measured at the grant date based on the fair value of the award and is recognized as expense over the requisite service period. Determining the fair value of share-based awards at the grant date requires judgment, including estimating expected dividends. In addition, judgment is also required in estimating the amount of share-based awards that are expected to be forfeited. If actual results differ significantly from these estimates, stock-based compensation expense and our results of operations could be materially impacted."
+    },
+    {
+      "block_idx": 482,
+      "char_end": 64462,
+      "char_start": 63572,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "We account for product warranties in accordance with SFAS No. 5, Accounting for Contingencies. We provide for the estimated costs of hardware and software warranties at the time the related revenue is recognized. For hardware warranty, we estimate the costs based on historical and projected product failure rates, historical and projected repair costs, and knowledge of specific product failures (if any). The specific hardware warranty terms and conditions vary depending upon the product sold and country in which we do business, but generally include parts and labor over a period generally ranging from 90 days to three years. For software warranty, we estimate the costs to provide bug fixes, such as security patches, over the life of the software. We regularly reevaluate our estimates to assess the adequacy of the recorded warranty liabilities and adjust the amounts as necessary."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 516,
+      "char_end": 258,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely affect our business, financial condition, results of operations, cash flows, and the trading price of our common stock."
+    },
+    {
+      "block_idx": 517,
+      "char_end": 1609,
+      "char_start": 260,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "Challenges to our business model may reduce our revenues and operating margins. Our business model has been based upon customers paying a fee to license software that we develop and distribute. Under this license-based software model, software developers bear the costs of converting original ideas into software products through investments in research and development, offsetting these costs with the revenue received from the distribution of their products. Certain \"open source\" software business models challenge our license-based software model. Open source commonly refers to software whose source code is subject to a license allowing it to be modified, combined with other software and redistributed, subject to restrictions set forth in the license. A number of commercial firms compete with us using an open source business model by modifying and then distributing open source software to end users at nominal cost and earning revenue on complementary services and products. These firms do not bear the full costs of research and development for the software. Some of these firms may build upon Microsoft ideas that we provide to them free or at low royalties in connection with our interoperability initiatives. To the extent open source software gains increasing market acceptance, our sales, revenue, and operating margins may decline."
+    },
+    {
+      "block_idx": 518,
+      "char_end": 2543,
+      "char_start": 1611,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "Another development is the business model under which companies provide content, and software in the form of applications, data, and related services, over the Internet in exchange for revenues primarily from advertising or subscriptions. An example of an advertising-funded business model is Internet search, where providing a robust alternative is particularly important and challenging due to the scale effects enjoyed by a single market dominant competitor. Advances in computing and communications technologies have made this model viable and enabled the rapid growth of some of our competitors. We are devoting significant resources toward developing our own competing software plus services strategies including the Windows Azure Platform, our hosted computing platform designed to facilitate the rapid, flexible and scalable development of \"cloud-based\" services. It is uncertain whether these strategies will be successful."
+    },
+    {
+      "block_idx": 519,
+      "char_end": 3123,
+      "char_start": 2545,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "An important element of our business model has been to create platform-based ecosystems on which many participants can build diverse solutions. A competing vertically-integrated model, in which a single firm controls both the software and hardware elements of a product, has been successful with certain consumer products such as personal computers, mobile phones, and digital music players. We also offer vertically-integrated hardware and software products; however, efforts to compete with the vertically integrated model may increase our cost of sales and operating margins."
+    },
+    {
+      "block_idx": 523,
+      "char_end": 4449,
+      "char_start": 3125,
+      "is_heading": false,
+      "ordinal": 4,
+      "text": "We face intense competition. We continue to experience intense competition across all markets for our products and services. Our competitors range in size from Fortune 100 companies to small, specialized single-product businesses and open source community-based projects. Although we believe the breadth of our businesses and product portfolio is a competitive advantage, our competitors that are focused on narrower product lines may be more effective in devoting technical, marketing, and financial resources to compete with us. In addition, barriers to entry in our businesses generally are low and products, once developed, can be distributed broadly and quickly at relatively low cost. Open source software vendors are devoting considerable efforts to developing software that mimics the features and functionality of our products, in some cases on the basis of technical specifications for Microsoft technologies that we make available. In response to competition, we are developing versions of our products with basic functionality that are sold at lower prices than the standard versions. These competitive pressures may result in decreased sales volumes, price reductions, and/or increased operating costs, such as for marketing and sales incentives, resulting in lower revenue, gross margins, and operating income."
+    },
+    {
+      "block_idx": 524,
+      "char_end": 5480,
+      "char_start": 4451,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "We may not be able to adequately protect our intellectual property rights. Protecting our global intellectual property rights and combating unlicensed copying and use of software and other intellectual property is difficult. While piracy adversely affects U.S. revenue, the impact on revenue from outside the U.S. is more significant, particularly in countries where laws are less protective of intellectual property rights. Similarly, the absence of harmonized patent laws makes it more difficult to ensure consistent respect for patent rights. Throughout the world, we actively educate consumers about the benefits of licensing genuine products and obtaining indemnification benefits for intellectual property risks, and we educate lawmakers about the advantages of a business climate where intellectual property rights are protected. However, continued educational and enforcement efforts may fail to enhance revenue. Reductions in the legal protection for software intellectual property rights could adversely affect revenue."
+    },
+    {
+      "block_idx": 525,
+      "char_end": 6166,
+      "char_start": 5482,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Third parties may claim we infringe their intellectual property rights. From time to time we receive notices from others claiming we infringe their intellectual property rights. The number of these claims may grow. To resolve these claims we may enter into royalty and licensing agreements on less favorable terms, stop selling or redesign affected products, or pay damages to satisfy indemnification commitments with our customers. Such agreements may cause operating margins to decline. We have made and expect to continue making significant expenditures to settle claims related to the use of technology and intellectual property rights as part of our strategy to manage this risk."
+    },
+    {
+      "block_idx": 526,
+      "char_end": 7040,
+      "char_start": 6168,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "We may not be able to protect our source code from copying if there is an unauthorized disclosure of source code. Source code, the detailed program commands for our operating systems and other software programs, is critical to our business. Although we license portions of our application and operating system source code to a number of licensees, we take significant measures to protect the secrecy of large portions of our source code. If an unauthorized disclosure of a significant portion of our source code occurs, we could potentially lose future trade secret protection for that source code. This could make it easier for third parties to compete with our products by copying functionality, which could adversely affect our revenue and operating margins. Unauthorized disclosure of source code also could increase the security risks described in the next paragraph."
+    },
+    {
+      "block_idx": 527,
+      "char_end": 7688,
+      "char_start": 7042,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "Security vulnerabilities in our products could lead to reduced revenues or to liability claims. Maintaining the security of computers and computer networks is a critical issue for us and our customers. Hackers develop and deploy viruses, worms, and other malicious software programs that attack our products. Although this is an industry-wide problem that affects computers across all platforms, it affects our products in particular because hackers tend to focus their efforts on the most popular operating systems and programs and we expect them to continue to do so. We devote significant resources to address security vulnerabilities through:"
+    },
+    {
+      "block_idx": 531,
+      "char_end": 7725,
+      "char_start": 7690,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "\u2022 engineering more secure products;"
+    },
+    {
+      "block_idx": 532,
+      "char_end": 7789,
+      "char_start": 7727,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "\u2022 enhancing security and reliability features in our products;"
+    },
+    {
+      "block_idx": 533,
+      "char_end": 7916,
+      "char_start": 7791,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "\u2022 helping our customers make the best use of our products and services to protect against computer viruses and other attacks;"
+    },
+    {
+      "block_idx": 534,
+      "char_end": 8001,
+      "char_start": 7918,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "\u2022 improving the deployment of software updates to address security vulnerabilities;"
+    },
+    {
+      "block_idx": 535,
+      "char_end": 8138,
+      "char_start": 8003,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "\u2022 investing in mitigation technologies that help to secure customers from attacks even when such software updates are not deployed; and"
+    },
+    {
+      "block_idx": 536,
+      "char_end": 8305,
+      "char_start": 8140,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "\u2022 providing customers online automated security tools, published security guidance, and security software such as firewalls, anti-virus, and other security software."
+    },
+    {
+      "block_idx": 537,
+      "char_end": 9068,
+      "char_start": 8307,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "The cost of these steps could reduce our operating margins. Despite these efforts, actual or perceived security vulnerabilities in our products could lead some customers to seek to return products, to reduce or delay future purchases, or to use competing products. Customers may also increase their expenditures on protecting their existing computer systems from attack, which could delay adoption of new technologies. Any of these actions by customers could adversely affect our revenue. In addition, actual or perceived vulnerabilities may lead to claims against us. Although our license agreements typically contain provisions that eliminate or limit our exposure to such liability, there is no assurance these provisions will withstand all legal challenges."
+    },
+    {
+      "block_idx": 538,
+      "char_end": 9506,
+      "char_start": 9070,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "We are subject to government litigation and regulatory activity that affects how we design and market our products. As a leading global software maker, we receive close scrutiny from government agencies under U.S. and foreign competition laws. Some jurisdictions also provide private rights of action for competitors or consumers to assert claims of anti-competitive conduct. For example, we have been involved in the following actions."
+    },
+    {
+      "block_idx": 539,
+      "char_end": 10243,
+      "char_start": 9508,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Lawsuits brought by the U.S. Department of Justice, 18 states, and the District of Columbia in two separate actions were resolved through a Consent Decree that took effect in 2001 and a Final Judgment entered in 2002. These proceedings imposed various constraints on our Windows operating system businesses. These constraints include limits on certain contracting practices, mandated disclosure of certain software program interfaces and protocols, and rights for computer manufacturers to limit the visibility of certain Windows features in new PCs. We believe we are in full compliance with these rules. However, if we fail to comply with them, additional restrictions could be imposed on us that would adversely affect our business."
+    },
+    {
+      "block_idx": 540,
+      "char_end": 11218,
+      "char_start": 10245,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "The European Commission closely scrutinizes the design of high-volume Microsoft products and the terms on which we make certain technologies used in these products, such as file formats, programming interfaces, and protocols, available to other companies. In 2004, the Commission ordered us to create new versions of Windows that do not include certain multimedia technologies and to provide our competitors with specifications for how to implement certain proprietary Windows communications protocols in their own products. The Commission's impact on product design may limit our ability to innovate in Windows or other products in the future, diminish the developer appeal of the Windows platform, and increase our product development costs. The availability of licenses related to protocols and file formats may enable competitors to develop software products that better mimic the functionality of our own products which could result in decreased sales of our products."
+    },
+    {
+      "block_idx": 543,
+      "char_end": 11765,
+      "char_start": 11220,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Government regulatory actions and court decisions such as these may hinder our ability to provide the benefits of our software to consumers and businesses, thereby reducing the attractiveness of our products and the revenues that come from them. New actions could be initiated at any time, either by these or other governments or private claimants, including with respect to new versions of Windows or other Microsoft products. The outcome of such actions, or steps taken to avoid them, could adversely affect us in a variety of ways, including:"
+    },
+    {
+      "block_idx": 544,
+      "char_end": 12050,
+      "char_start": 11767,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "\u2022 We may have to choose between withdrawing products from certain geographies to avoid fines or designing and developing alternative versions of those products to comply with government rulings, which may entail removing functionality that customers want or on which developers rely."
+    },
+    {
+      "block_idx": 545,
+      "char_end": 12240,
+      "char_start": 12052,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "\u2022 We may be required to make available licenses to our proprietary technologies on terms that do not reflect their fair market value or do not protect our associated intellectual property."
+    },
+    {
+      "block_idx": 546,
+      "char_end": 12337,
+      "char_start": 12242,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "\u2022 The rulings described above may be cited as a precedent in other competition law proceedings."
+    },
+    {
+      "block_idx": 547,
+      "char_end": 12931,
+      "char_start": 12339,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Our software and services online offerings are subject to government regulation of the Internet domestically and internationally in many areas, including user privacy, telecommunications, data protection, and online content. The application of these laws and regulations to our business is often unclear and sometimes may conflict. Compliance with these regulations may involve significant costs or require changes in business practices that result in reduced revenue. Noncompliance could result in penalties being imposed on us or orders that we stop doing the alleged noncompliant activity."
+    },
+    {
+      "block_idx": 548,
+      "char_end": 13699,
+      "char_start": 12933,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "Our business depends on our ability to attract and retain talented employees. Our business is based on successfully attracting and retaining talented employees. The market for highly skilled workers and leaders in our industry is extremely competitive. We are limited in our ability to recruit internationally by restrictive domestic immigration laws. If we are less successful in our recruiting efforts, or if we are unable to retain key employees, our ability to develop and deliver successful products and services may be adversely affected. Effective succession planning is also important to our long-term success. Failure to ensure effective transfer of knowledge and smooth transitions involving key employees could hinder our strategic planning and execution."
+    },
+    {
+      "block_idx": 549,
+      "char_end": 14202,
+      "char_start": 13701,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "Delays in product development schedules may adversely affect our revenues. The development of software products is a complex and time-consuming process. New products and enhancements to existing products can require long development and testing periods. Our increasing focus on software plus services also presents new and complex development issues. Significant delays in new product or service releases or significant problems in creating new products or services could adversely affect our revenue."
+    },
+    {
+      "block_idx": 550,
+      "char_end": 15365,
+      "char_start": 14204,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "We make significant investments in new products and services that may not be profitable. We have made and will continue to make significant investments in research, development, and marketing for new products, services, and technologies, including the Windows PC operating system, the Microsoft Office system, Xbox 360, Live Search, Windows Server, Zune, Windows Live, the Windows Azure Services platform, and other software plus services offerings. Investments in new technology are speculative. Commercial success depends on many factors, including innovativeness, developer support, and effective distribution and marketing. If customers do not perceive our latest offerings as providing significant new functionality or other value, they may reduce their purchases of new software products or upgrades, unfavorably impacting revenue. We may not achieve significant revenue from new product and service investments for a number of years, if at all. Moreover, new products and services may not be profitable, and even if they are profitable, operating margins for new products and businesses may not be as high as the margins we have experienced historically."
+    },
+    {
+      "block_idx": 553,
+      "char_end": 16583,
+      "char_start": 15367,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Adverse economic conditions may harm our business. Unfavorable changes in economic conditions, including inflation, recession, or other changes in economic conditions, may result in lower information technology spending and adversely affect our revenue. If demand for PCs, servers, and other computing devices declines, or consumer or business spending for those products declines, our revenue will be adversely affected. Challenging economic conditions also may impair the ability of our customers to pay for products and services they have purchased. As a result, reserves for doubtful accounts and write-offs of accounts receivable may increase. We maintain an investment portfolio of various holdings, types, and maturities. These investments are subject to general credit, liquidity, market, and interest rate risks, which may be exacerbated by unusual events that have affected global financial markets. If the global credit market continues to deteriorate, our investment portfolio may be further impacted and we could determine that more of our investments have experienced an other-than-temporary decline in fair value, requiring further impairment charges that could adversely impact our financial results."
+    },
+    {
+      "block_idx": 554,
+      "char_end": 17451,
+      "char_start": 16585,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "We have claims and lawsuits against us that may result in adverse outcomes. We are subject to a variety of claims and lawsuits. Adverse outcomes in some or all of these claims may result in significant monetary damages or injunctive relief that could adversely affect our ability to conduct our business. Although management currently believes resolving all of these matters, individually or in the aggregate, will not have a material adverse impact on our financial position, results of operations, or cash flows, the litigation and other claims are subject to inherent uncertainties and management's view of these matters may change in the future. A material adverse impact on our financial position, results of operations, or cash flows also could occur for the period in which the effect of an unfavorable final outcome becomes probable and reasonably estimable."
+    },
+    {
+      "block_idx": 555,
+      "char_end": 18250,
+      "char_start": 17453,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "We may have additional tax liabilities. We are subject to income taxes in the United States and many foreign jurisdictions. Significant judgment is required in determining our worldwide provision for income taxes. In the ordinary course of our business, there are many transactions and calculations where the ultimate tax determination is uncertain. We regularly are under audit by tax authorities. Although we believe our tax estimates are reasonable, the final determination of tax audits and any related litigation could be materially different from our historical income tax provisions and accruals. The results of an audit or litigation could have a material effect on our financial position, results of operations, or cash flows in the period or periods for which that determination is made."
+    },
+    {
+      "block_idx": 556,
+      "char_end": 19315,
+      "char_start": 18252,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Our vertically-integrated hardware and software products may experience quality or supply problems. Our hardware products such as the Xbox 360 console are highly complex and can have defects in design, manufacture, or associated software. We could incur significant expenses, lost revenue, and reputational harm if we fail to detect or effectively address such issues through design, testing, or warranty repairs. We obtain some components of our hardware devices from sole suppliers. If a component delivery from a sole-source supplier is delayed or becomes unavailable or industry shortages occur, we may be unable to obtain timely replacement supplies, resulting in reduced sales. Either component shortages or excess or obsolete inventory may require us to record charges to cost of revenue. Xbox 360 consoles are assembled in Asia; disruptions in the supply chain may result in console shortages that would affect our revenues and operating margins. These same risks would apply to any other vertically-integrated hardware and software products we may offer."
+    },
+    {
+      "block_idx": 557,
+      "char_end": 20231,
+      "char_start": 19317,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "If our goodwill or amortizable intangible assets become impaired we may be required to record a significant charge to earnings. Under generally accepted accounting principles, we review our amortizable intangible assets for impairment when events or changes in circumstances indicate the carrying value may not be recoverable. Goodwill is tested for impairment at least annually. Factors that may be considered a change in circumstances, indicating that the carrying value of our goodwill or amortizable intangible assets may not be recoverable, include a decline in stock price and market capitalization, reduced future cash flow estimates, and slower growth rates in our industry. We may be required to record a significant charge in our financial statements during the period in which any impairment of our goodwill or amortizable intangible assets is determined, negatively impacting our results of operations."
+    },
+    {
+      "block_idx": 561,
+      "char_end": 21120,
+      "char_start": 20233,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "We operate a global business that exposes us to additional risks. We operate in over 100 countries and a significant part of our revenue comes from international sales. Pressure to make our pricing structure uniform might require that we reduce the sales price of our software in the United States and other countries. Operations outside the United States may be affected by changes in trade protection laws, policies and measures, and other regulatory requirements affecting trade and investment; changes in regulatory requirements for software; social, political, labor, or economic conditions in a specific country or region; and difficulties in staffing and managing foreign operations. Although we hedge a portion of our international currency exposure, significant fluctuations in exchange rates between the U.S. dollar and foreign currencies may adversely affect our net revenues."
+    },
+    {
+      "block_idx": 562,
+      "char_end": 22293,
+      "char_start": 21122,
+      "is_heading": false,
+      "ordinal": 33,
+      "text": "Catastrophic events or geo-political conditions may disrupt our business. A disruption or failure of our systems or operations in the event of a major earthquake, weather event, cyber-attack, terrorist attack, or other catastrophic event could cause delays in completing sales, providing services, or performing other mission-critical functions. Our corporate headquarters, a significant portion of our research and development activities, and certain other critical business operations are located in the Seattle, Washington area, and we have other business operations in the Silicon Valley area of California, both of which are near major earthquake faults. A catastrophic event that results in the destruction or disruption of any of our critical business or information technology systems could harm our ability to conduct normal business operations and our operating results. Abrupt political change, terrorist activity, and armed conflict pose a risk of general economic disruption in affected countries, which may increase our operating costs. These conditions also may add uncertainty to the timing and budget for technology investment decisions by our customers."
+    },
+    {
+      "block_idx": 563,
+      "char_end": 22922,
+      "char_start": 22295,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "Acquisitions and joint ventures may have an adverse effect on our business. We expect to continue making acquisitions or entering into joint ventures as part of our long-term business strategy. These transactions involve significant challenges and risks including that the transaction does not advance our business strategy, that we don't realize a satisfactory return on our investment, or that we experience difficulty in the integration of new employees, business systems, and technology, or diversion of management's attention from our other businesses. These events could harm our operating results or financial condition."
+    },
+    {
+      "block_idx": 564,
+      "char_end": 23685,
+      "char_start": 22924,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "Improper disclosure of personal data could result in liability and harm our reputation. We store and process large amounts of personally identifiable information. It is possible that our security controls over personal data, our training of employees and vendors on data security, and other practices we follow may not prevent the improper disclosure of personally identifiable information. Such disclosure could harm our reputation and subject us to liability under laws that protect personal data, resulting in increased costs or loss of revenue. Our software products also enable our customers to store and process personal data. Perceptions that our products do not adequately protect the privacy of personal information could inhibit sales of our products."
+    },
+    {
+      "block_idx": 565,
+      "char_end": 24596,
+      "char_start": 23687,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "We may experience outages and disruptions of our online services if we fail to maintain an adequate operations infrastructure. Our increasing user traffic and complexity of our products and services demand more computing power. We have spent and expect to continue to spend substantial amounts to purchase or lease data centers and equipment and to upgrade our technology and network infrastructure to handle increased traffic on our Web sites and to introduce new products and services and support existing services such as Xbox Live, Windows Live, and Office Live. This expansion is expensive, complex, and could result in inefficiencies or operational failures, which could diminish the quality of our products, services, and user experience, resulting in damage to our reputation and loss of current and potential users, subscribers, and advertisers, harming our operating results and financial condition."
+    },
+    {
+      "block_idx": 568,
+      "char_end": 24857,
+      "char_start": 24598,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "Other risks that may affect our business. Other factors that may affect our performance may include sales channel disruption, such as the bankruptcy of a major distributor, and our ability to implement operating cost structures that align with revenue growth."
+    }
+  ],
+  "summary": {
+    "accession_number": "0001193125-09-009386",
+    "cik": 789019,
+    "download_status": "ok",
+    "mdna_end_block": 485,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 62326,
+    "mdna_n_paragraphs": 91,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 14,
+    "mdna_n_words": 9169,
+    "mdna_start_block": 292,
+    "mdna_status": "extracted",
+    "n_blocks": 605,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "d10q.htm",
+    "risk_end_block": 569,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 24783,
+    "risk_n_paragraphs": 38,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 3677,
+    "risk_start_block": 515,
+    "risk_status": "extracted",
+    "source_sha256": "03b7d29802d604f92f52b7b348864db55d57ce83b65fe88cdec9a574bb0a9b70",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312509009386/d10q.htm"
+  }
+}

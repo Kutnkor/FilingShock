@@ -1,0 +1,935 @@
+{
+  "mdna": [
+    {
+      "block_idx": 340,
+      "char_end": 457,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "We begin Management's Discussion and Analysis of Financial Condition and Results of Operations with an overview of our businesses and significant trends. This overview is followed by a summary of our critical accounting estimates that we believe are important to understanding significant assumptions and judgments incorporated in our reported financial results. We then provide a more detailed analysis of our results of operations and financial condition."
+    },
+    {
+      "block_idx": 341,
+      "char_end": 476,
+      "char_start": 459,
+      "is_heading": true,
+      "ordinal": 1,
+      "text": "Business Overview"
+    },
+    {
+      "block_idx": 342,
+      "char_end": 1263,
+      "char_start": 478,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "Oracle provides products and services that address enterprise information technology (IT) needs. Our products and services include enterprise applications and infrastructure offerings that are delivered worldwide through a variety of flexible and interoperable IT deployment models. These models include on-premise, cloud-based and hybrid deployments (an approach that combines both on-premise and cloud-based deployments). Accordingly, we offer choice and flexibility to our customers and facilitate the product, service and deployment combinations that best suit our customers' needs. Through our worldwide sales force and Oracle Partner Network, we sell to customers all over the world including businesses of many sizes, government agencies, educational institutions and resellers."
+    },
+    {
+      "block_idx": 343,
+      "char_end": 1979,
+      "char_start": 1265,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "We have three businesses: cloud and software (formerly referred to as cloud and license); hardware; and services; each of which comprises a single operating segment. The descriptions set forth below as a part of this Item 2 Management's Discussion and Analysis of Financial Condition and Results of Operations and the information contained within Note 8 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report provide additional information related to our businesses and operating segments and align to how our chief operating decision makers (CODMs), which are our Chief Executive Officer and Chief Technology Officer, view our operating results and allocate resources."
+    },
+    {
+      "block_idx": 344,
+      "char_end": 2008,
+      "char_start": 1981,
+      "is_heading": true,
+      "ordinal": 4,
+      "text": "Cloud and Software Business"
+    },
+    {
+      "block_idx": 345,
+      "char_end": 2331,
+      "char_start": 2010,
+      "is_heading": false,
+      "ordinal": 5,
+      "text": "Our cloud and software business, which represented 86% of our total revenues on a trailing four-quarter basis, markets, sells and delivers a broad spectrum of enterprise applications and infrastructure technologies through our cloud and software offerings. Revenue streams included in our cloud and software business are:"
+    },
+    {
+      "block_idx": 347,
+      "char_end": 3133,
+      "char_start": 2333,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Cloud revenues, which are earned by providing customers access to Oracle Cloud applications and infrastructure technologies via cloud-based deployment models that Oracle develops, provides unspecified updates and enhancements for, deploys, hosts, manages and supports and that customers access by entering into a subscription agreement with us for a stated period. Oracle Cloud Applications and Oracle Cloud Infrastructure (collectively Oracle Cloud Services) arrangements generally: are billed in advance of the cloud services being delivered; have durations of one to four years; are renewed at the customer's option; and are recognized as revenues ratably over the contractual period of the cloud contract or, in the case of usage model contracts, as the cloud services are consumed over time; and"
+    },
+    {
+      "block_idx": 349,
+      "char_end": 3168,
+      "char_start": 3135,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "Software revenues, which include:"
+    },
+    {
+      "block_idx": 351,
+      "char_end": 5247,
+      "char_start": 3170,
+      "is_heading": false,
+      "ordinal": 8,
+      "text": "software license revenues, which are earned by providing the licensing of our software products including Oracle Applications, Oracle Database, Oracle Middleware and Java, among others, which our customers deploy within cloud-based, on-premise or other IT environments. Our software license transactions are generally perpetual in nature and are generally recognized as revenues up front at the point in time when the software is made available to the customer to download and use. Revenues from usage-based royalty arrangements for distinct software licenses are recognized at the point in time when the software end user usage occurs. The timing of a few large software license transactions can substantially affect our quarterly software license revenues due to the point-in-time nature of revenue recognition for software license transactions, which is different than the typical revenue recognition pattern for our cloud and software support revenues in which revenues are recognized over time. Software license customers have the option to purchase and renew software support contracts, as further described below; and software support revenues, which are earned by providing Oracle software support services to customers that have elected to purchase support services in connection with the purchase of Oracle applications and infrastructure software licenses for use in cloud, on-premise and other IT environments. Substantially all software support customers renew their support contracts with us upon expiration in order to continue to benefit from technical support services and the periodic issuance of unspecified updates and enhancements, which current software support customers are entitled to receive. Software support contracts are generally: priced as a percentage of the net fees paid by the customer to purchase a software license; billed in advance of the support services being performed; renewed at the customer's option; and recognized as revenues ratably over the contractual period that the support services are provided, which is generally one year."
+    },
+    {
+      "block_idx": 357,
+      "char_end": 6146,
+      "char_start": 5249,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Providing choice and flexibility to our customers as to when and how they deploy Oracle applications and infrastructure technologies are important elements of our corporate strategy. In recent periods, customer demand for our applications and infrastructure technologies delivered through our Oracle Cloud Services has increased. To address customer demand and enable customer choice, we have certain programs for customers to pivot their applications and infrastructure software licenses and the related software support to the Oracle Cloud for new deployments and to migrate to and expand with the Oracle Cloud for their existing workloads. The proportion of our cloud revenues relative to our total revenues has increased and we expect this trend to continue. Cloud revenues represented 48% and 42% of our total revenues for the three-month periods ended August 31, 2025 and 2024, respectively."
+    },
+    {
+      "block_idx": 358,
+      "char_end": 7102,
+      "char_start": 6148,
+      "is_heading": false,
+      "ordinal": 10,
+      "text": "Our cloud and software business' revenue growth is affected by many factors, including the strength of general economic and business conditions, including the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand; governmental budgetary constraints; the strategy for and competitive position of our offerings; customer satisfaction with our offerings; the continued renewal of our cloud and software support customer contracts by the customer contract base; substantially all customers continuing to purchase software support contracts in connection with their license purchases; the pricing of software support contracts sold in connection with the sales of licenses; the pricing, amounts and volumes of licenses and cloud services sold; our ability to manage Oracle Cloud capacity requirements to meet existing and prospective customer demand; and foreign currency rate fluctuations."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 7230,
+      "char_start": 7104,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "On a constant currency basis, we expect that our total cloud and software revenues generally will continue to increase due to:"
+    },
+    {
+      "block_idx": 361,
+      "char_end": 7275,
+      "char_start": 7232,
+      "is_heading": true,
+      "ordinal": 12,
+      "text": "expected growth in our cloud offerings; and"
+    },
+    {
+      "block_idx": 363,
+      "char_end": 7321,
+      "char_start": 7277,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "continued demand for our software offerings."
+    },
+    {
+      "block_idx": 364,
+      "char_end": 7673,
+      "char_start": 7323,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "We believe these factors should contribute to future growth in our cloud and software business' total revenues, which should enable us to continue to make investments in research and development and our cloud operations to develop, improve, increase the capacity of and expand the geographic footprint of our cloud and software products and services."
+    },
+    {
+      "block_idx": 365,
+      "char_end": 8908,
+      "char_start": 7675,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "Our cloud and software business' margin has historically trended upward over the course of the four quarters within a particular fiscal year due to the historical upward trend of our cloud and software business' revenues over those quarterly periods and because the majority of our costs for this business are generally fixed in the short term. The historical upward trend of our cloud and software business' revenues over the course of the four quarters within a particular fiscal year is primarily due to the addition of new cloud and software support contracts to the customer contract base, which we generally recognize as revenues ratably or based upon customer usage over the respective contractual terms and the renewal of existing customers' cloud and software support contracts over the course of each fiscal year, which we generally recognize as revenues in a similar manner; and the historical upward trend of our software license revenues, which we generally recognize at a point in time upon delivery; in each case over those four fiscal quarterly periods. Our margin for this business may be adversely impacted due to increases in supply chain and energy costs, the impact of tariffs and trade policy and other factors."
+    },
+    {
+      "block_idx": 366,
+      "char_end": 8927,
+      "char_start": 8910,
+      "is_heading": true,
+      "ordinal": 16,
+      "text": "Hardware Business"
+    },
+    {
+      "block_idx": 367,
+      "char_end": 10664,
+      "char_start": 8929,
+      "is_heading": false,
+      "ordinal": 17,
+      "text": "Our hardware business, which represented 5% of our total revenues on a trailing four-quarter basis, provides a broad selection of enterprise hardware products and hardware-related software products including Oracle Engineered Systems, servers, storage, industry-specific hardware offerings, operating systems, virtualization, management and other hardware-related software and related hardware support. Each hardware product and its related software, such as an operating system or firmware, are highly interdependent and interrelated and are accounted for as a combined performance obligation. The revenues for this combined performance obligation are generally recognized at the point in time that the hardware product and its related software are delivered to the customer and ownership is transferred to the customer. We expect to continue to make investments in research and development to improve existing hardware products and services and to develop new hardware products and services. The majority of our hardware products are sold through indirect channels, including independent distributors and value-added resellers. Our hardware support offerings provide customers with unspecified software updates for software components that are essential to the functionality of our hardware products and associated software products. Our hardware support offerings can also include product repairs, maintenance services and technical support services. Hardware support contracts are entered into and renewed at the option of the customer, are generally priced as a percentage of the net hardware products fees and are generally recognized as revenues ratably as the hardware support services are delivered over the contractual terms."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 10960,
+      "char_start": 10666,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "We generally expect our hardware business to have lower operating margins as a percentage of revenues than our cloud and software business due to the incremental costs we incur to produce and distribute these products and to provide support services, including direct materials and labor costs."
+    },
+    {
+      "block_idx": 372,
+      "char_end": 12402,
+      "char_start": 10962,
+      "is_heading": false,
+      "ordinal": 19,
+      "text": "Our quarterly hardware revenues are difficult to predict. Our hardware revenues, cost of hardware and hardware operating margins that we report are affected by many factors, including our manufacturing partners' abilities to timely and cost-effectively manufacture or deliver a few large hardware transactions; our strategy for and the pricing and position of our hardware products relative to competitor offerings; customer demand for competing offerings, including cloud infrastructure offerings; the strength of general economic and business conditions, including the effects of inflation, tariffs and trade policy, geopolitical conditions and other macroeconomic factors on customer demand; governmental budgetary constraints; whether customers decide to purchase hardware support contracts at or in close proximity to the time of hardware product sale; the percentage of our hardware support contract customer base that renews its support contracts; the effect of tariffs and other trade barriers on our costs, and our ability to pass such costs on to customers; the geographic locations of our customers; the close association between hardware products, which have a finite life, and customer demand for related hardware support as hardware products age; customer decisions to either maintain or upgrade their existing hardware infrastructure to newly developed technologies that are available; and foreign currency rate fluctuations."
+    },
+    {
+      "block_idx": 373,
+      "char_end": 12421,
+      "char_start": 12404,
+      "is_heading": true,
+      "ordinal": 20,
+      "text": "Services Business"
+    },
+    {
+      "block_idx": 374,
+      "char_end": 13494,
+      "char_start": 12423,
+      "is_heading": false,
+      "ordinal": 21,
+      "text": "Our services business, which represented 9% of our total revenues on a trailing four-quarter basis, helps customers and partners maximize the performance of their investments in Oracle applications and infrastructure technologies. We believe that our services are differentiated based on our focus on Oracle technologies, extensive experience, broad sets of intellectual property and best practices. Our services offerings include consulting services and advanced customer services. Our services business has lower margins than our cloud and software and hardware businesses. Our services revenues are affected by many factors including our strategy for, and the competitive position of, our services; customer demand for our cloud and software and hardware offerings and the related services that we may market and sell in connection with these offerings; general economic conditions; governmental budgetary constraints; personnel reductions in our customers' IT departments; tighter controls over customer discretionary spending; and foreign currency rate fluctuations."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 13508,
+      "char_start": 13496,
+      "is_heading": true,
+      "ordinal": 22,
+      "text": "Acquisitions"
+    },
+    {
+      "block_idx": 376,
+      "char_end": 13896,
+      "char_start": 13510,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "Our selective and active acquisition program is another important element of our corporate strategy. Historically, we have invested billions of dollars to acquire a number of complementary companies, products, services and technologies. As compelling opportunities become available, we may acquire companies, products, services and technologies in furtherance of our corporate strategy."
+    },
+    {
+      "block_idx": 377,
+      "char_end": 14362,
+      "char_start": 13898,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "We believe that we can fund our future acquisitions with our internally available cash, cash equivalents and marketable securities balances, cash generated from operations, additional borrowings or from the issuance of additional securities. We estimate the financial impact of any potential acquisition with regard to earnings, operating margin, cash flows and return on invested capital targets, among others, before deciding to move forward with an acquisition."
+    },
+    {
+      "block_idx": 380,
+      "char_end": 14407,
+      "char_start": 14364,
+      "is_heading": true,
+      "ordinal": 25,
+      "text": "Investment in Ampere Computing Holdings LLC"
+    },
+    {
+      "block_idx": 381,
+      "char_end": 14751,
+      "char_start": 14409,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "From time to time since 2017, we have made investments in Ampere Computing Holdings LLC (Ampere), an equity method investee, in the form of equity and convertible debt instruments. The total carrying value of our investments in Ampere, after accounting for losses under the equity method of accounting, was $1.7 billion as of August 31, 2025."
+    },
+    {
+      "block_idx": 382,
+      "char_end": 15592,
+      "char_start": 14753,
+      "is_heading": false,
+      "ordinal": 27,
+      "text": "Our equity investments in Ampere represent an ownership interest of approximately 29% as of August 31, 2025. We also own convertible debt investments in Ampere which, under the terms of an agreement with Ampere and other co-investors, will mature in June 2026 and are convertible into equity securities at the holder's option under certain circumstances. During the three months ended August 31, 2025, we invested an aggregate of $90 million in convertible debt instruments issued by Ampere. In accordance with the terms of an agreement with other co-investors, we are also a counterparty to certain put (exercisable by a co-investor) and call (exercisable by Oracle) options at prices of approximately $500 million to $1.5 billion, respectively, to acquire additional equity interests in Ampere from our co-investors through January 2027."
+    },
+    {
+      "block_idx": 383,
+      "char_end": 16198,
+      "char_start": 15594,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "On March 19, 2025, SoftBank Group Corp. announced that it had entered into an agreement with Ampere and its equity holders to acquire all of the equity interests of Ampere. The transaction is subject to customary closing conditions, including regulatory approvals. When the Ampere Acquisition closes, we will cease to be an investor in Ampere. During the period prior to the closing of the Ampere Acquisition, the amount of our investments in Ampere could increase for a variety of reasons and we will continue to recognize our share of loss in Ampere's net earnings until the closure of the acquisition."
+    },
+    {
+      "block_idx": 384,
+      "char_end": 16229,
+      "char_start": 16200,
+      "is_heading": true,
+      "ordinal": 29,
+      "text": "Critical Accounting Estimates"
+    },
+    {
+      "block_idx": 385,
+      "char_end": 17227,
+      "char_start": 16231,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Our consolidated financial statements are prepared in accordance with United States (U.S.) generally accepted accounting principles (GAAP), which requires us to make certain estimates, judgments and assumptions that can affect the reported amounts of assets, liabilities, revenues, expenses and related disclosures. Critical accounting estimates are those estimates that involve a significant level of estimation uncertainty and have had, or are reasonably likely to have, a material impact on our financial condition or results of operations. We believe that the estimates, judgments and assumptions upon which we rely are reasonable based upon information available to us at the time that these estimates, judgments and assumptions are made. To the extent that there are differences between these estimates, judgments or assumptions and actual results, our financial statements will be affected. We have critical accounting estimates in the areas of income taxes and non-marketable investments."
+    },
+    {
+      "block_idx": 386,
+      "char_end": 17645,
+      "char_start": 17229,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "During the first quarter of fiscal 2026, there were no significant changes to our critical accounting estimates. Refer to \"Critical Accounting Estimates\" under Management's Discussion and Analysis of Financial Condition and Results of Operations contained in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended May 31, 2025 for a more complete discussion of our critical accounting estimates."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 17668,
+      "char_start": 17647,
+      "is_heading": true,
+      "ordinal": 32,
+      "text": "Results of Operations"
+    },
+    {
+      "block_idx": 388,
+      "char_end": 17743,
+      "char_start": 17670,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "Presentation of Operating Segment Results and Other Financial Information"
+    },
+    {
+      "block_idx": 389,
+      "char_end": 18196,
+      "char_start": 17745,
+      "is_heading": false,
+      "ordinal": 34,
+      "text": "In our results of operations discussion below, we provide an overview of our total consolidated revenues, total consolidated operating expenses and total consolidated operating margin, all of which are presented on a GAAP basis. We also present a GAAP-based discussion below for substantially all of the other expense items as presented in our condensed consolidated statements of operations that are not directly attributable to our three businesses."
+    },
+    {
+      "block_idx": 390,
+      "char_end": 18860,
+      "char_start": 18198,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "In addition, we discuss below the results of each of our three businesses-cloud and software, hardware and services-which are our operating segments as defined pursuant to ASC 280, Segment Reporting. The financial reporting for our three businesses that is presented below is presented in a manner that is consistent with that used by our CODMs. Our operating segment presentation below reflects revenues, direct costs and sales and marketing expenses that correspond to and are directly attributable to each of our three businesses. We also utilize these inputs to calculate and present a segment margin for each of our three businesses in the discussion below."
+    },
+    {
+      "block_idx": 391,
+      "char_end": 19887,
+      "char_start": 18862,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Consistent with our internal management reporting processes, research and development expenses, general and administrative expenses, stock-based compensation expenses, amortization of intangible assets, certain other expense allocations, acquisition related and other expenses, restructuring expenses, interest expense, non-operating income, net and provision for income taxes are not attributed to our three operating segments because our management does not view the performance of our three businesses including such items and/or it is impracticable to do so. Refer to \"Supplemental Disclosure Related to Certain Charges\" below for additional discussion of certain of these items and Note 8 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for a reconciliation of the summations of total segment margin as presented in the discussion below to total income before income taxes as presented per our condensed consolidated statements of operations for all periods presented."
+    },
+    {
+      "block_idx": 395,
+      "char_end": 19919,
+      "char_start": 19889,
+      "is_heading": true,
+      "ordinal": 37,
+      "text": "Constant Currency Presentation"
+    },
+    {
+      "block_idx": 396,
+      "char_end": 21731,
+      "char_start": 19921,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "Our international operations have provided, and are expected to continue to provide, a significant portion of each of our businesses' revenues and expenses. As a result, each of our businesses' revenues and expenses and our total revenues and expenses will continue to be affected by changes in the U.S. Dollar against major international currencies. In order to provide a framework for assessing how our underlying businesses performed, excluding the effects of foreign currency rate fluctuations, we compare the percent change in the results from one period to another period in this Quarterly Report using constant currency. To present this information, current and comparative prior period results for entities reporting in currencies other than U.S. Dollars are converted into U.S. Dollars at constant exchange rates (i.e., the rates in effect on May 31, 2025, which was the last day of our prior fiscal year) rather than the actual exchange rates in effect during the respective periods. For example, if an entity reporting in Euros had revenues of 1.0 million Euros from products sold on August 31, 2025 and 2024, our financial statements would reflect reported revenues of $1.16 million in the first quarter of fiscal 2026 (using 1.16 as the applicable average exchange rate for the period) and $1.11 million in the first quarter of fiscal 2025 (using 1.11 as the applicable average exchange rate for the period). The constant currency presentation, however, would translate the results for each of the first quarters of fiscal 2026 and 2025 using the May 31, 2025 exchange rate and indicate, in this example, no change in revenues between the periods compared. In each of the tables below, we present the percent change based on actual, unrounded results in reported currency and in constant currency."
+    },
+    {
+      "block_idx": 397,
+      "char_end": 21770,
+      "char_start": 21733,
+      "is_heading": true,
+      "ordinal": 39,
+      "text": "Total Revenues and Operating Expenses"
+    },
+    {
+      "block_idx": 400,
+      "char_end": 21819,
+      "char_start": 21772,
+      "is_heading": true,
+      "ordinal": 40,
+      "text": "Comprised of Europe, the Middle East and Africa"
+    },
+    {
+      "block_idx": 401,
+      "char_end": 23184,
+      "char_start": 21821,
+      "is_heading": false,
+      "ordinal": 41,
+      "text": "Total revenues increased by $1.6 billion in reported currency in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to a $1.5 billion increase in cloud and software revenues, an $86 million increase in services revenues and a $15 million increase in hardware revenues, in each case during the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. The increase in our cloud and software business revenues was primarily due to growth in our cloud revenues as customers purchased our applications and infrastructure technologies and also renewed their related cloud contracts. In constant currency, cloud applications and cloud infrastructure contributed 23% and 77%, respectively, of the growth in cloud revenues in the first quarter of fiscal 2026. In our hardware business, the increase in revenues in the first quarter of fiscal 2026 was primarily due to growth in revenues from our Oracle Exadata and certain other strategic hardware product offerings. In our services business, the increase in revenues in the first quarter of fiscal 2026 was attributable to an increase in revenues in each of our primary services offerings. The Americas, the EMEA and the Asia Pacific regions contributed 89%, 6% and 5%, respectively, to the constant currency total revenue growth during the first quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 405,
+      "char_end": 24566,
+      "char_start": 23186,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Total GAAP operating expenses increased by $1.3 billion in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. The increase in GAAP operating expenses in reported currency during the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, was primarily due to a $1.0 billion increase in cloud and software expenses primarily due to higher infrastructure expenses and higher employee-related expenses, including higher expenses relating to stock-based compensation, that were incurred to support the growth in our cloud revenues; a $329 million increase in restructuring expenses; a $185 million increase in research and development expenses, primarily due to higher employee-related expenses, including higher stock-based compensation expenses; a $27 million increase in sales and marketing expenses; an $18 million increase in general and administrative expenses; and a $16 million increase in hardware expenses. These increases in GAAP operating expenses in reported currency during the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, were partially offset by a $204 million decrease in expenses for the amortization of intangible assets as certain of our assets were fully amortized; and a $48 million decrease in services expenses primarily due to a decrease in bad debt expenses."
+    },
+    {
+      "block_idx": 406,
+      "char_end": 24869,
+      "char_start": 24568,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Our total operating margin increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to higher revenues. Total margin as a percentage of revenues decreased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to higher expenses."
+    },
+    {
+      "block_idx": 407,
+      "char_end": 24921,
+      "char_start": 24871,
+      "is_heading": true,
+      "ordinal": 44,
+      "text": "Supplemental Disclosure Related to Certain Charges"
+    },
+    {
+      "block_idx": 408,
+      "char_end": 25131,
+      "char_start": 24923,
+      "is_heading": false,
+      "ordinal": 45,
+      "text": "To supplement our condensed consolidated financial information, we believe that the following information is helpful to an overall understanding of our past financial performance and prospects for the future."
+    },
+    {
+      "block_idx": 409,
+      "char_end": 25383,
+      "char_start": 25133,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Our operating results reported pursuant to GAAP included the following business combination accounting adjustments and expenses related to acquisitions and certain other expenses, including stock-based compensation, that affected our GAAP net income:"
+    },
+    {
+      "block_idx": 412,
+      "char_end": 25610,
+      "char_start": 25385,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Represents the amortization of intangible assets, all of which were acquired in connection with our acquisitions. As of August 31, 2025, estimated future amortization related to intangible assets was as follows (in millions):"
+    },
+    {
+      "block_idx": 417,
+      "char_end": 25881,
+      "char_start": 25612,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Acquisition related and other expenses consist of personnel-related costs for transitional and certain other employees, certain business combination adjustments including certain adjustments after the measurement period has ended and certain other operating items, net."
+    },
+    {
+      "block_idx": 419,
+      "char_end": 26654,
+      "char_start": 25883,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Restructuring expenses in the first quarter of fiscal 2026 primarily related to employee severance in connection with the Fiscal 2026 Oracle Restructuring Plan (2026 Restructuring Plan). Restructuring expenses in the first quarter of fiscal 2025 primarily related to employee severance in connection with the Fiscal 2024 Oracle Restructuring Plan (2024 Restructuring Plan). Additional information regarding certain of our restructuring plans is provided in management's discussion below under \"Restructuring Expenses,\" in Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report and in Note 7 of Notes to Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025."
+    },
+    {
+      "block_idx": 421,
+      "char_end": 26809,
+      "char_start": 26656,
+      "is_heading": false,
+      "ordinal": 50,
+      "text": "Stock-based compensation was included in the following operating expense line items of our condensed consolidated statements of operations (in millions):"
+    },
+    {
+      "block_idx": 424,
+      "char_end": 28261,
+      "char_start": 26811,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "For the first quarter of fiscal 2026, the applicable jurisdictional tax rate applied to our income before income taxes (after excluding the tax effects of items within the table above such as for stock-based compensation, amortization of intangible assets, restructuring and certain acquisition related and other items, and after excluding the impact of the U.S. One, Big, Beautiful Bill Act related to the remeasurement of a deferred tax liability and the net deferred tax effects associated with a previously recorded income tax benefit that resulted from a partial realignment of our legal entity structure), resulted in an effective tax rate of 20.5%, instead of 14.6%. This represented our effective tax rate as derived per our condensed consolidated statements of operations. For the first quarter of fiscal 2025, the applicable jurisdictional tax rate applied to our income before income taxes (after excluding the tax effects of items within the table above such as for stock-based compensation, amortization of intangible assets, restructuring and certain acquisition related and other items, and after excluding the net deferred tax effects associated with a previously recorded income tax benefit that resulted from a partial realignment of our legal entity structure), resulted in an effective tax rate of 18.9%, instead of 7.6%, which represented our effective tax rate as derived per our condensed consolidated statements of operations."
+    },
+    {
+      "block_idx": 425,
+      "char_end": 28290,
+      "char_start": 28263,
+      "is_heading": true,
+      "ordinal": 52,
+      "text": "Cloud and Software Business"
+    },
+    {
+      "block_idx": 426,
+      "char_end": 30332,
+      "char_start": 28292,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "Our cloud and software business engages in the sale and marketing of our applications and infrastructure technologies that are delivered through various deployment models and include: Oracle Cloud offerings; and software offerings, which include Oracle software license offerings and Oracle software support offerings. Our cloud offerings deliver applications and infrastructure technologies on a subscription basis via cloud-based deployment models that we develop, provide unspecified updates and enhancements for, deploy, host, manage and support. Revenues for our cloud offerings are generally recognized ratably over the contractual term, which is generally one to four years, or in the case of usage model contracts, as the cloud offerings are consumed. Software license revenues represent fees earned from granting customers licenses, generally on a perpetual basis, to use our database and middleware and our applications software products within cloud and on-premise IT environments and are generally recognized up front at the point in time when the software is made available to the customer to download and use. Software support revenues are typically generated through the sale of applications and infrastructure software support contracts related to software licenses; are purchased by our customers at their option; and are generally recognized as revenues ratably over the contractual term, which is generally one year. We continue to place significant emphasis, both domestically and internationally, on direct sales through our own sales force. We also continue to market certain of our offerings through indirect channels. Costs associated with our cloud and software business are included in cloud and software expenses and sales and marketing expenses. These costs are largely personnel- and infrastructure-related and include the cost of providing our cloud and software support offerings, salaries and commissions earned by our sales force for the sale of our cloud and software offerings and marketing program costs."
+    },
+    {
+      "block_idx": 432,
+      "char_end": 30709,
+      "char_start": 30334,
+      "is_heading": false,
+      "ordinal": 54,
+      "text": "Excludes stock-based compensation and certain expense allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segment results for purposes of reporting to and review by our CODMs, as further described under \"Presentation of Operating Segment Results and Other Financial Information\" above."
+    },
+    {
+      "block_idx": 433,
+      "char_end": 31415,
+      "char_start": 30711,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Our cloud and software business' total revenues increased by $1.5 billion in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025 primarily due to an increase in cloud revenues as customers purchased our applications and infrastructure technologies and renewed their related cloud contracts. In constant currency, cloud applications and cloud infrastructure contributed 23% and 77%, respectively, of the growth in cloud revenues in the first quarter of fiscal 2026. The Americas, the EMEA and the Asia Pacific regions contributed 86%, 9% and 5%, respectively, to the constant currency revenue growth for this business during the first quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 434,
+      "char_end": 32240,
+      "char_start": 31417,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "Our cloud and software business' total expenses increased by $1.0 billion in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the unfavorable effects of currency rate fluctuations of less than 1% in the first quarter of fiscal 2026, the constant currency increase in expenses in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025 was primarily due to a $929 million increase in infrastructure expenses and a $41 million increase in employee-related expenses. Our cloud and software expenses have grown in recent periods, and we expect this trend to continue during fiscal 2026 as we increase our existing data center capacity and establish data centers in new geographic locations in order to meet current and expected customer demand."
+    },
+    {
+      "block_idx": 435,
+      "char_end": 32698,
+      "char_start": 32242,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "Excluding the effects of currency rate fluctuations, our cloud and software business' total margin increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to increases in total revenues for this business. Total margin as a percentage of revenues in constant currency decreased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to an increase in total expenses for this business."
+    },
+    {
+      "block_idx": 438,
+      "char_end": 32717,
+      "char_start": 32700,
+      "is_heading": true,
+      "ordinal": 58,
+      "text": "Hardware Business"
+    },
+    {
+      "block_idx": 439,
+      "char_end": 34497,
+      "char_start": 32719,
+      "is_heading": false,
+      "ordinal": 59,
+      "text": "Our hardware business' revenues are generated from the sales of our Oracle Engineered Systems, server, storage and industry-specific hardware offerings. The hardware product and related software, such as an operating system or firmware, are highly interdependent and interrelated and are accounted for as a combined performance obligation. The revenues for this combined performance obligation are generally recognized at the point in time that the hardware product is delivered to the customer and ownership is transferred to the customer. Our hardware business also earns revenues from the sale of hardware support contracts purchased by our customers at their option and that are generally recognized as revenues ratably as the hardware support services are delivered over the contractual term, which is generally one year. The majority of our hardware products are sold through indirect channels such as independent distributors and value-added resellers and we also market and sell our hardware products through our direct sales force. Operating expenses associated with our hardware business include the cost of hardware products, which consists of expenses for materials and labor used to produce these products by our internal manufacturing operations or by third-party manufacturers, warranty and related expenses and the impact of periodic changes in inventory valuation, including the impact of inventory determined to be excess and obsolete; the cost of materials used to repair customer products with eligible support contracts; the cost of labor and infrastructure to provide support services; and sales and marketing expenses, which are largely personnel-related and include variable compensation earned by our sales force for the sales of our hardware offerings."
+    },
+    {
+      "block_idx": 442,
+      "char_end": 34874,
+      "char_start": 34499,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Excludes stock-based compensation and certain expense allocations. Also excludes amortization of intangible assets and certain other GAAP-based expenses, which were not allocated to our operating segment results for purposes of reporting to and review by our CODMs, as further described under \"Presentation of Operating Segment Results and Other Financial Information\" above."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 35512,
+      "char_start": 34876,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "Total hardware revenues increased by $15 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the favorable impact of currency rate fluctuations of 1% in the first quarter of fiscal 2026, the increase in hardware revenues was primarily due to growth in revenues from our Oracle Exadata and certain other strategic hardware product offerings. The constant currency increase in hardware revenues in the Americas region was partially offset by a constant currency decrease in hardware revenues in the EMEA and the Asia Pacific regions in the first quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 444,
+      "char_end": 36049,
+      "char_start": 35514,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Total hardware expenses increased by $6 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the unfavorable currency rate fluctuations effect of 2% in the first quarter of fiscal 2026, the constant currency increase in hardware expenses in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025 was due to a $14 million increase in hardware product and support costs, partially offset by a $12 million decrease in sales and marketing expenses."
+    },
+    {
+      "block_idx": 447,
+      "char_end": 36409,
+      "char_start": 36051,
+      "is_heading": false,
+      "ordinal": 63,
+      "text": "In constant currency, our hardware business' total margin increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to higher total revenues for this business. In constant currency, total margin as a percentage of revenues remained flat in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025."
+    },
+    {
+      "block_idx": 448,
+      "char_end": 36428,
+      "char_start": 36411,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "Services Business"
+    },
+    {
+      "block_idx": 449,
+      "char_end": 36918,
+      "char_start": 36430,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Our services offerings are designed to help maximize the performance of customer investments in Oracle applications and infrastructure technologies and include our consulting services and advanced customer services offerings. Services revenues are generally recognized over time as the services are performed. The cost of providing our services consists primarily of personnel-related expenses, technology infrastructure expenditures, facilities expenses and external contractor expenses."
+    },
+    {
+      "block_idx": 452,
+      "char_end": 37249,
+      "char_start": 36920,
+      "is_heading": false,
+      "ordinal": 66,
+      "text": "Excludes stock-based compensation and certain allocations. Also excludes certain other GAAP-based expenses, which were not allocated to our operating segment results for purposes of reporting to and review by our CODMs, as further described under \"Presentation of Operating Segment Results and Other Financial Information\" above."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 37702,
+      "char_start": 37251,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Total services revenues increased by $86 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025 due to an increase in revenues in each of our primary services offerings. The constant currency increase in services revenues in the Americas region was partially offset by a constant currency decrease in services revenues in the EMEA and the Asia Pacific regions in the first quarter of fiscal 2026."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 38171,
+      "char_start": 37704,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "Total services expenses decreased by $49 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the unfavorable effects of currency rate fluctuations of less than 1% in the first quarter of fiscal 2026, the constant currency decrease in services expenses in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025 was primarily due to a $55 million decrease in bad debt expenses."
+    },
+    {
+      "block_idx": 455,
+      "char_end": 38441,
+      "char_start": 38173,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "In constant currency, our services business' total margin and total margin as a percentage of revenues increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to higher total revenues and lower total expenses for this business."
+    },
+    {
+      "block_idx": 456,
+      "char_end": 38736,
+      "char_start": 38443,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Research and Development Expenses: Research and development expenses consist primarily of personnel-related expenditures. We intend to continue to invest significantly in our research and development efforts because, in our judgment, they are essential to maintaining our competitive position."
+    },
+    {
+      "block_idx": 461,
+      "char_end": 38772,
+      "char_start": 38738,
+      "is_heading": true,
+      "ordinal": 71,
+      "text": "Excluding stock-based compensation"
+    },
+    {
+      "block_idx": 462,
+      "char_end": 39293,
+      "char_start": 38774,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Total research and development expenses increased by $185 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the favorable effects of currency rate fluctuations of less than 1% in the first quarter of fiscal 2026, the increase in research and development expenses was primarily due to a $137 million increase in employee-related expenses, including higher stock-based compensation expenses, and a $38 million increase in computer equipment expenses."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 39481,
+      "char_start": 39295,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "General and Administrative Expenses: General and administrative expenses primarily consist of personnel-related expenditures for IT, finance, legal and human resources support functions."
+    },
+    {
+      "block_idx": 466,
+      "char_end": 39517,
+      "char_start": 39483,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "Excluding stock-based compensation"
+    },
+    {
+      "block_idx": 467,
+      "char_end": 39911,
+      "char_start": 39519,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Total general and administrative expenses increased by $18 million in reported currency in the first quarter of fiscal 2026 relative to the first quarter of fiscal 2025. Excluding the unfavorable effects of currency rate fluctuations of 1% in the first quarter of fiscal 2026, the increase in general and administrative expenses was primarily due to an increase in event sponsorship expenses."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 40507,
+      "char_start": 39913,
+      "is_heading": false,
+      "ordinal": 76,
+      "text": "Amortization of Intangible Assets: Substantially all our intangible assets were acquired through our business combinations. We amortize our intangible assets over, and monitor the appropriateness of, the estimated useful lives of these assets. We also periodically review these intangible assets for potential impairment based upon relevant facts and circumstances. Refer to Note 5 of Notes to Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025 for additional information regarding our intangible assets and related amortization."
+    },
+    {
+      "block_idx": 470,
+      "char_end": 40781,
+      "char_start": 40509,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Amortization of intangible assets decreased by $204 million in reported currency in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, due to a reduction in expenses associated with certain of our intangible assets that became fully amortized."
+    },
+    {
+      "block_idx": 473,
+      "char_end": 41086,
+      "char_start": 40783,
+      "is_heading": false,
+      "ordinal": 78,
+      "text": "Acquisition Related and Other Expenses: Acquisition related and other expenses consist of personnel-related costs for transitional and certain other employees, certain business combination adjustments, including adjustments after the measurement period has ended, and certain other operating items, net."
+    },
+    {
+      "block_idx": 475,
+      "char_end": 41104,
+      "char_start": 41088,
+      "is_heading": true,
+      "ordinal": 79,
+      "text": "* Not meaningful"
+    },
+    {
+      "block_idx": 476,
+      "char_end": 41262,
+      "char_start": 41106,
+      "is_heading": false,
+      "ordinal": 80,
+      "text": "Acquisition related and other expenses remained flat in reported currency in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025."
+    },
+    {
+      "block_idx": 477,
+      "char_end": 42035,
+      "char_start": 41264,
+      "is_heading": false,
+      "ordinal": 81,
+      "text": "Restructuring Expenses: Restructuring expenses resulted from the execution of management-approved restructuring plans that were generally developed to improve our cost structure and/or operations, often in conjunction with our acquisition integration strategies and/or other strategic initiatives. Restructuring expenses consist of employee severance costs, contract termination costs and certain other exit costs to improve our cost structure prospectively. For additional information regarding our restructuring plans, see Note 3 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report and Note 7 of Notes to Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025."
+    },
+    {
+      "block_idx": 479,
+      "char_end": 42670,
+      "char_start": 42037,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "Restructuring expenses in the first quarter of fiscal 2026 primarily related to the 2026 Restructuring Plan. Restructuring expenses in the first quarter of fiscal 2025 primarily related to the 2024 Restructuring Plan, which is substantially complete. Our management approved, committed to and initiated the 2026 Restructuring Plan and the 2024 Restructuring Plan in order to restructure and further improve efficiencies in our operations. We may incur additional restructuring expenses in future periods due to the initiation of new restructuring plans or from changes in estimated costs associated with existing restructuring plans."
+    },
+    {
+      "block_idx": 480,
+      "char_end": 43224,
+      "char_start": 42672,
+      "is_heading": false,
+      "ordinal": 83,
+      "text": "The majority of the initiatives undertaken by the 2026 Restructuring Plan were effected to implement our continued emphasis in developing, marketing, selling and delivering our cloud-based offerings. Certain of the cost savings realized pursuant to the 2026 Restructuring Plan initiatives were offset by investments in resources and geographies that we believe better address the development, marketing, sale and delivery of our cloud-based offerings, including investments in the development and delivery of our second-generation cloud infrastructure."
+    },
+    {
+      "block_idx": 481,
+      "char_end": 43243,
+      "char_start": 43226,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "Interest Expense:"
+    },
+    {
+      "block_idx": 483,
+      "char_end": 43628,
+      "char_start": 43245,
+      "is_heading": false,
+      "ordinal": 85,
+      "text": "Interest expense increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, primarily due to higher average borrowings resulting from our issuance of $14.0 billion of senior notes in fiscal 2025, partially offset by lower interest expense due to scheduled repayments of debt made during the first quarter of fiscal 2026 and full year of fiscal 2025."
+    },
+    {
+      "block_idx": 486,
+      "char_end": 44369,
+      "char_start": 43630,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "Non-Operating Income, net: Non-operating income, net consists primarily of interest income, net foreign currency exchange losses, the noncontrolling interests in the net profits of our majority-owned subsidiaries (primarily Oracle Financial Services Software Limited and Oracle Corporation Japan), net losses related to marketable and non-marketable investments, including losses attributable to equity method investments (primarily Ampere) and net other income and expenses, including net gains and losses from our investment portfolio related to our deferred compensation plan, for which an equal and offsetting amount was recorded to our operating expenses during the same period, and non-service net periodic pension income and losses."
+    },
+    {
+      "block_idx": 488,
+      "char_end": 44879,
+      "char_start": 44371,
+      "is_heading": false,
+      "ordinal": 87,
+      "text": "Our non-operating income, net increased by $53 million in reported currency in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, primarily due to a $43 million increase in gains from our investment portfolio related to our deferred compensation plan included in other income, net, a $19 million decrease in foreign currency losses and a $17 million decrease in losses from marketable and non-marketable investments, partially offset by a $30 million decrease in interest income."
+    },
+    {
+      "block_idx": 489,
+      "char_end": 45828,
+      "char_start": 44881,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "Provision for Income Taxes: Our effective income tax rates for each of the periods presented were the result of the mix of income earned and losses incurred in various tax jurisdictions that apply a broad range of income tax rates. Refer to Note 7 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report for a discussion regarding the differences between the effective income tax rates as presented for the periods below and the U.S. federal statutory income tax rates that were in effect during these periods. Future effective tax rates could be adversely affected by an unfavorable shift of earnings weighted to jurisdictions with higher tax rates, by unfavorable changes in tax laws and regulations, by adverse rulings in tax-related litigation, or by shortfalls in stock-based compensation realized by employees relative to stock-based compensation that was recorded for book purposes, among others."
+    },
+    {
+      "block_idx": 491,
+      "char_end": 46493,
+      "char_start": 45830,
+      "is_heading": false,
+      "ordinal": 89,
+      "text": "Provision for income taxes increased in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, primarily related to an unfavorable impact from the enactment of the U.S. One, Big, Beautiful Bill Act, which was signed into law on July 4, 2025, that required a remeasurement of a deferred tax liability previously recorded during fiscal 2021 as part of the partial realignment of our legal entity structure of $958 million and the absence of unrecognized tax benefits due to settlements with tax authorities and other events of $99 million, partially offset by an increase in tax benefits related to stock-based compensation of $853 million."
+    },
+    {
+      "block_idx": 492,
+      "char_end": 46526,
+      "char_start": 46495,
+      "is_heading": true,
+      "ordinal": 90,
+      "text": "Liquidity and Capital Resources"
+    },
+    {
+      "block_idx": 496,
+      "char_end": 47309,
+      "char_start": 46528,
+      "is_heading": false,
+      "ordinal": 91,
+      "text": "Working capital: The decrease in working capital as of August 31, 2025 in comparison to May 31, 2025 was primarily due to $8.5 billion of cash used for capital expenditures; $3.1 billion of long-term borrowings that were reclassified to current liabilities; $1.4 billion of cash used to pay dividends to our stockholders; $97 million of cash used for purchases of non-current investments; and $95 million of cash used for repurchases of our common stock, partially offset by favorable impacts from net income; and $1.2 billion of net cash proceeds from our employee stock programs, in each case during the first quarter of fiscal 2026. Our working capital may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
+    },
+    {
+      "block_idx": 497,
+      "char_end": 48587,
+      "char_start": 47311,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "Cash, cash equivalents and marketable securities: Cash and cash equivalents primarily consist of deposits held at major banks, money market funds and other securities with original maturities of 90 days or less. Marketable securities consist primarily of time deposits with original maturities at the time of purchase greater than 90 days. The decrease in cash, cash equivalents and marketable securities as of August 31, 2025 in comparison to May 31, 2025 was primarily due to $8.5 billion of cash used for capital expenditures; $1.4 billion of cash used to pay dividends to our stockholders; $1.1 billion of cash used for scheduled repayments of debt; $238 million of cash used for repayment of commercial paper notes, net of issuances; $97 million of cash used for purchases of investments; and $95 million of cash used for repurchases of our common stock, partially offset by $8.1 billion of cash inflows from our operations; $1.9 billion of cash inflows from other financing activities, net; and $1.2 billion of net cash provided by our employee stock programs, in each case during the first quarter of fiscal 2026. Our cash and cash equivalents may be impacted by some or all of the aforementioned factors in future periods, the amounts and timing of which are variable."
+    },
+    {
+      "block_idx": 499,
+      "char_end": 48605,
+      "char_start": 48589,
+      "is_heading": true,
+      "ordinal": 93,
+      "text": "* Not meaningful"
+    },
+    {
+      "block_idx": 500,
+      "char_end": 49265,
+      "char_start": 48607,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "Cash flows from operating activities: Our largest source of operating cash flows is cash collections from our customers following the purchase and renewal of their cloud and software support agreements. Customers for these agreements are generally billed in advance of services being provided. Over the course of a fiscal year, we also generate cash from the sales of software licenses, hardware offerings and other services. Our primary uses of cash from operating activities are typically for employee-related expenditures, material and manufacturing costs related to the production of our hardware products, taxes, interest payments and leased facilities."
+    },
+    {
+      "block_idx": 501,
+      "char_end": 49562,
+      "char_start": 49267,
+      "is_heading": false,
+      "ordinal": 95,
+      "text": "Net cash provided by operating activities increased by $713 million in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, primarily due to higher net income adjusted for certain non-cash charges, partially offset by lower cash favorable working capital changes, net."
+    },
+    {
+      "block_idx": 502,
+      "char_end": 49891,
+      "char_start": 49564,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "Cash flows from investing activities: The changes in cash flows from investing activities primarily relate to our investments in capital assets primarily to support the growth in our cloud and software business and acquisitions, purchases, maturities and sales of our investments in marketable securities and other instruments."
+    },
+    {
+      "block_idx": 503,
+      "char_end": 50095,
+      "char_start": 49893,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "Net cash used for investing activities increased by $6.0 billion in the first quarter of fiscal 2026, relative to the first quarter of fiscal 2025, primarily due to the increase in capital expenditures."
+    },
+    {
+      "block_idx": 504,
+      "char_end": 50355,
+      "char_start": 50097,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "Cash flows from financing activities: The changes in cash flows from financing activities primarily relate to borrowings and repayments related to our debt instruments, stock repurchases, dividend payments and net proceeds related to employee stock programs."
+    },
+    {
+      "block_idx": 505,
+      "char_end": 51210,
+      "char_start": 50357,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "Net cash provided by financing activities was $210 million in the first quarter of fiscal 2026 relative to the net cash used for financing activities of $4.6 billion in the first quarter of fiscal 2025. The increase in net cash provided by financing activities was primarily due to higher net cash provided by other financing activities of $2.1 billion; higher net cash proceeds from our employee stock programs of $1.8 billion; lower scheduled repayments of debt of $948 million; and lower repayments of commercial paper, net of issuances, of $158 million. These increases were partially offset by higher dividend payments of $310 million. Further, during the first quarter of fiscal 2025, we refinanced our term loan credit agreement that we entered into in fiscal 2023, which resulted in no net impact on financing cash flows for the period reported."
+    },
+    {
+      "block_idx": 508,
+      "char_end": 51834,
+      "char_start": 51212,
+      "is_heading": false,
+      "ordinal": 100,
+      "text": "Free cash flow: To supplement our statements of cash flows presented on a GAAP basis, we use non-GAAP measures of cash flows on a trailing four-quarter basis to analyze cash flows generated from our operations. We believe that free cash flow is also useful as one of the bases for comparing our performance with that of our competitors. The presentation of non-GAAP free cash flow is not meant to be considered in isolation or as an alternative to net income as an indicator of our performance, or as an alternative to cash flows from operating activities as a measure of liquidity. We calculate free cash flow as follows:"
+    },
+    {
+      "block_idx": 510,
+      "char_end": 51852,
+      "char_start": 51836,
+      "is_heading": true,
+      "ordinal": 101,
+      "text": "* Not meaningful"
+    },
+    {
+      "block_idx": 511,
+      "char_end": 52755,
+      "char_start": 51854,
+      "is_heading": false,
+      "ordinal": 102,
+      "text": "Contractual Obligations: During the first quarter of fiscal 2026, there were no significant changes to our estimates of future payments under our fixed contractual obligations and commitments as presented in Part II, Item 7 Management's Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025, other than an increase in our lease commitments as of August 31, 2025, substantially all for data centers. Additionally, subsequent to August 31, 2025, we entered into lease commitments for data centers. Refer to Note 5 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report and Note 9 of Notes to Consolidated Financial Statements included in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025 for more information about our lease commitments."
+    },
+    {
+      "block_idx": 512,
+      "char_end": 53323,
+      "char_start": 52757,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "We believe that our current cash, cash equivalents and marketable securities balances, cash generated from operations and our borrowing arrangements will be sufficient to meet our working capital, capital expenditures and contractual obligations requirements. In addition, we believe that we could fund our future acquisitions, dividend payments and repurchases of common stock or debt with our internally available cash, cash equivalents and marketable securities, cash generated from operations, additional borrowings or from the issuance of additional securities."
+    },
+    {
+      "block_idx": 513,
+      "char_end": 53388,
+      "char_start": 53325,
+      "is_heading": true,
+      "ordinal": 104,
+      "text": "Remaining Performance Obligations from Contracts with Customers"
+    },
+    {
+      "block_idx": 514,
+      "char_end": 53898,
+      "char_start": 53390,
+      "is_heading": false,
+      "ordinal": 105,
+      "text": "Remaining performance obligations were $455.3 billion and $99.1 billion as of August 31, 2025 and 2024, respectively. The increase in remaining performance obligations as of August 31, 2025 in comparison to August 31, 2024 was primarily attributable to certain significant cloud contracts that were entered into during the period. For more information about our remaining performance obligations, see Note 1 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report."
+    },
+    {
+      "block_idx": 517,
+      "char_end": 53918,
+      "char_start": 53900,
+      "is_heading": true,
+      "ordinal": 106,
+      "text": "Stock-Based Awards"
+    },
+    {
+      "block_idx": 518,
+      "char_end": 54141,
+      "char_start": 53920,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "Our stock-based compensation program is a key component of the compensation package we provide to attract and retain certain of our talented employees and align their interests with the interests of existing stockholders."
+    },
+    {
+      "block_idx": 519,
+      "char_end": 55606,
+      "char_start": 54143,
+      "is_heading": false,
+      "ordinal": 108,
+      "text": "We recognize that stock-based awards dilute existing stockholders and have sought to control the number of stock-based awards granted while providing competitive compensation packages. Consistent with these dual goals, our cumulative potential dilution since June 1, 2022 has been an annualized rate of 1.6% per year. The potential dilution percentage is calculated as the average annualized new stock-based awards granted and assumed, net of stock-based awards forfeited by employees leaving the company, divided by the weighted-average outstanding shares during the calculation period. This maximum potential dilution will only result if all stock-based awards vest and, if applicable, are exercised. Of the outstanding stock options as of August 31, 2025, which generally have a ten-year exercise period, substantially all have exercise prices lower than the market price of our common stock on such date. In recent years, our stock repurchase program has partially offset the dilutive effect of our stock-based compensation program. However, we may modify the levels of our stock repurchases in the future depending on a number of factors, including the amount of cash we have available for acquisitions, to pay dividends, to repay or repurchase indebtedness or for other purposes. As of August 31, 2025, the maximum potential dilution from all outstanding stock-based awards, regardless of when granted and regardless of whether vested or unvested, was 4.0%."
+    },
+    {
+      "block_idx": 520,
+      "char_end": 55640,
+      "char_start": 55608,
+      "is_heading": true,
+      "ordinal": 109,
+      "text": "Recent Accounting Pronouncements"
+    },
+    {
+      "block_idx": 521,
+      "char_end": 55900,
+      "char_start": 55642,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "For information with respect to recent accounting pronouncements, and the impact of these pronouncements on our consolidated financial statements, see Note 1 of Notes to Condensed Consolidated Financial Statements included elsewhere in this Quarterly Report."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 536,
+      "char_end": 668,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "In addition to the other information set forth in this Quarterly Report, you should carefully consider the factors discussed in Part I, Item 1A Risk Factors in our Annual Report on Form 10-K for the fiscal year ended May 31, 2025. The risks discussed in our Annual Report on Form 10-K could materially affect our business, financial condition and future results. The risks described in our Annual Report on Form 10-K are not the only risks facing us. Additional risks and uncertainties not currently known to us or that we currently deem to be insignificant also may materially and adversely affect our business, financial condition or operating results in the future."
+    }
+  ],
+  "summary": {
+    "accession_number": "0001193125-25-200095",
+    "cik": 1341439,
+    "download_status": "ok",
+    "mdna_end_block": 524,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 54896,
+    "mdna_n_paragraphs": 85,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 18,
+    "mdna_n_words": 8205,
+    "mdna_start_block": 339,
+    "mdna_status": "extracted",
+    "n_blocks": 561,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "orcl-20250831.htm",
+    "risk_end_block": 537,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 668,
+    "risk_n_paragraphs": 1,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 111,
+    "risk_start_block": 535,
+    "risk_status": "short_reference",
+    "source_sha256": "7fc79d09ff2b639245fe8e30aa1a8bf65290bf61321a21ef19cafd50d95c4b56",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312525200095/orcl-20250831.htm"
+  }
+}

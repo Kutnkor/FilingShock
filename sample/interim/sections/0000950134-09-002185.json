@@ -1,0 +1,1167 @@
+{
+  "mdna": [
+    {
+      "block_idx": 273,
+      "char_end": 69,
+      "char_start": 0,
+      "is_heading": true,
+      "ordinal": 0,
+      "text": "Forward-Looking Statements and Factors That May Affect Future Results"
+    },
+    {
+      "block_idx": 274,
+      "char_end": 1533,
+      "char_start": 71,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "The discussion below contains forward-looking statements, which are subject to safe harbors under the Securities Act of 1933, as amended, or the Securities Act, and the Exchange Act. Forward-looking statements include references to our ability to utilize our deferred tax assets, as well as statements including words such as \"expects,\" \"plans,\" \"anticipates,\" \"believes,\" \"estimates,\" \"predicts,\" \"projects,\" and similar expressions. In addition, statements that refer to projections of our future financial performance, anticipated growth and trends in our businesses and in our industries, the anticipated impacts of acquisitions, and other characterizations of future events or circumstances are forward-looking statements. These statements are only predictions, based on our current expectations about future events and may not prove to be accurate. We do not undertake any obligation to update these forward-looking statements to reflect events occurring or circumstances arising after the date of this report. These forward-looking statements involve risks and uncertainties, and our actual results, performance, or achievements could differ materially from those expressed or implied by the forward-looking statements on the basis of several factors, including those that we discuss in Risk Factors, set forth in Part I, Item 1A, of our annual report on Form 10-K for the fiscal year ended March 28, 2008. We encourage you to read that section carefully."
+    },
+    {
+      "block_idx": 275,
+      "char_end": 1550,
+      "char_start": 1535,
+      "is_heading": true,
+      "ordinal": 2,
+      "text": "Fiscal Calendar"
+    },
+    {
+      "block_idx": 276,
+      "char_end": 1963,
+      "char_start": 1552,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "We have a 52/53-week fiscal accounting year. Unless otherwise stated, references to three and nine month ended periods in this report relate to fiscal periods ended January 2, 2009 and December 28, 2007. The January 2, 2009 and December 28, 2007 quarters both consisted of 13 weeks. The nine months ended January 2, 2009 consisted of 40 weeks while the nine months ended December 28, 2007 consisted of 39 weeks."
+    },
+    {
+      "block_idx": 277,
+      "char_end": 1973,
+      "char_start": 1965,
+      "is_heading": true,
+      "ordinal": 4,
+      "text": "OVERVIEW"
+    },
+    {
+      "block_idx": 278,
+      "char_end": 1987,
+      "char_start": 1975,
+      "is_heading": true,
+      "ordinal": 5,
+      "text": "Our Business"
+    },
+    {
+      "block_idx": 279,
+      "char_end": 2499,
+      "char_start": 1989,
+      "is_heading": false,
+      "ordinal": 6,
+      "text": "Symantec is a global leader in providing security, storage and systems management solutions to help businesses and consumers secure and manage their information. We provide customers worldwide with software and services that protect, manage and control information risks related to security, data protection, storage, compliance, and systems management. We help our customers manage cost, complexity and compliance by protecting their IT infrastructure as they seek to maximize value from their IT investments."
+    },
+    {
+      "block_idx": 280,
+      "char_end": 2948,
+      "char_start": 2501,
+      "is_heading": false,
+      "ordinal": 7,
+      "text": "Despite a challenging economic environment, Symantec delivered solid revenue performance for the three and nine months ended January 2, 2009 due to the recurring nature of our business and the mission-critical nature of our storage, backup, data loss prevention and archiving products. In addition, we continued to tightly manage expenses. Foreign currency negatively impacted our fiscal 2009 third quarter results compared to the year ago period."
+    },
+    {
+      "block_idx": 281,
+      "char_end": 2972,
+      "char_start": 2950,
+      "is_heading": true,
+      "ordinal": 8,
+      "text": "Our Operating Segments"
+    },
+    {
+      "block_idx": 282,
+      "char_end": 3833,
+      "char_start": 2974,
+      "is_heading": false,
+      "ordinal": 9,
+      "text": "Our operating segments are significant strategic business units that offer different products and services, distinguished by customer needs. Since the March 2008 quarter, we have operated in five operating segments: Consumer Products, Security and Compliance, Storage and Server Management, Services, and Other. During the June 2008 quarter , we changed our reporting segments to better align our operating structure, resulting in the Altiris services that were formerly included in the Security and Compliance segment being moved to the Services segment. We revised the segment information for the prior year to conform to the new presentation. For further descriptions of our operating segments, see Note 16 of the Notes to Condensed Consolidated Financial Statements in this quarterly report. Our reportable segments are the same as our operating segments."
+    },
+    {
+      "block_idx": 283,
+      "char_end": 3863,
+      "char_start": 3835,
+      "is_heading": true,
+      "ordinal": 10,
+      "text": "Financial Results and Trends"
+    },
+    {
+      "block_idx": 284,
+      "char_end": 4618,
+      "char_start": 3865,
+      "is_heading": false,
+      "ordinal": 11,
+      "text": "Revenue for the three months ended January 2, 2009 declined slightly compared to the three months ended December 28, 2007. Revenue declined in the Europe, Middle East, Africa (\"EMEA\") region and in our Security and Compliance and Consumer Products segments for the three months ended January 2, 2009. The global economic slowdown increased competitive pricing pressures and led to longer lead times in the sales of some of our products. If the challenging economic conditions affecting global markets continue or deteriorate further, we may experience slower or negative revenue growth and our business and operating results might suffer. In light of these economic conditions, we will continue to align our cost structure with our revenue expectations."
+    },
+    {
+      "block_idx": 288,
+      "char_end": 4827,
+      "char_start": 4620,
+      "is_heading": false,
+      "ordinal": 12,
+      "text": "During the nine months ended January 2, 2009, we delivered revenue growth across all of our geographic regions as compared to the same periods last year and experienced revenue growth in all of our segments."
+    },
+    {
+      "block_idx": 289,
+      "char_end": 5261,
+      "char_start": 4829,
+      "is_heading": false,
+      "ordinal": 13,
+      "text": "Our net loss was $6.8 billion and $6.5 billion, for the three and nine months ended January 2, 2009, respectively, as compared to our net income of $132 million and $277 million for the three and nine months ended December 28, 2007, respectively. The lower net income for fiscal 2009 periods as compared to the same periods last year was primarily due to a non-cash impairment charge related to goodwill of approximately $7 billion."
+    },
+    {
+      "block_idx": 290,
+      "char_end": 5932,
+      "char_start": 5263,
+      "is_heading": false,
+      "ordinal": 14,
+      "text": "Fluctuations in the U.S. dollar compared to foreign currencies negatively impacted our international revenue by approximately $56 million during the three months ended January 2, 2009 and positively impacted our international revenue by $98 million during the nine months ended January 2, 2009, in each case as compared to the same period last year. We are unable to predict the extent to which revenues in future periods will be impacted by changes in foreign currency exchange rates. If our level of international sales and expenses increase in the future, changes in foreign exchange rates may have a potentially greater impact on our revenues and operating results."
+    },
+    {
+      "block_idx": 291,
+      "char_end": 6481,
+      "char_start": 5934,
+      "is_heading": false,
+      "ordinal": 15,
+      "text": "During our quarter ended January 2, 2009, based on a combination of factors, including the current economic environment and a sustained decline in our market capitalization, we concluded that there were sufficient indicators to require us to perform an interim goodwill impairment analysis. Although we have not yet completed this analysis, we have concluded that an impairment loss is probable and can be reasonably estimated. Accordingly, we have recorded a $7 billion non-cash goodwill impairment charge during the third quarter of fiscal 2009."
+    },
+    {
+      "block_idx": 292,
+      "char_end": 6697,
+      "char_start": 6483,
+      "is_heading": false,
+      "ordinal": 16,
+      "text": "We expect to finalize the goodwill impairment analysis during the fourth quarter of fiscal 2009. There could be material adjustments to the goodwill impairment charge when the goodwill impairment test is completed."
+    },
+    {
+      "block_idx": 293,
+      "char_end": 6728,
+      "char_start": 6699,
+      "is_heading": true,
+      "ordinal": 17,
+      "text": "Critical Accounting Estimates"
+    },
+    {
+      "block_idx": 294,
+      "char_end": 7112,
+      "char_start": 6730,
+      "is_heading": false,
+      "ordinal": 18,
+      "text": "Other than the changes set forth below, there have been no changes in our critical accounting estimates during the nine months ended January 2, 2009, as compared to the critical accounting estimates disclosed in Management's Discussion and Analysis of Financial Condition and Results of Operations included in our Annual Report on Form 10-K for the fiscal year ended March 28, 2008."
+    },
+    {
+      "block_idx": 295,
+      "char_end": 7126,
+      "char_start": 7114,
+      "is_heading": true,
+      "ordinal": 19,
+      "text": "Income Taxes"
+    },
+    {
+      "block_idx": 296,
+      "char_end": 8393,
+      "char_start": 7128,
+      "is_heading": false,
+      "ordinal": 20,
+      "text": "In July 2008, we reached an agreement with the Internal Revenue Service (\"IRS\") concerning our eligibility to claim a lower tax rate on a distribution made from a Veritas foreign subsidiary prior to the July 2005 acquisition. The distribution was intended to be made pursuant to the American Jobs Creation Act of 2004, and therefore eligible for a 5.25% effective U.S. federal rate of tax, in lieu of the 35% statutory rate. The final impact of this agreement is not yet known since this relates to the taxability of earnings that are otherwise the subject of the tax years 2000-2001 transfer pricing dispute which in turn is being addressed in the U.S. Tax Court. To the extent that we owe taxes as a result of the transfer pricing dispute, we anticipate that the incremental tax due from this negotiated agreement will decrease. We currently estimate that the most probable outcome from this negotiated agreement will be $13 million or less, for which an accrual has already been made. As previously disclosed in Form 10-K for the fiscal year ended March 28, 2008, we made a payment of $130 million to the IRS for this matter in May 2006. We applied $110 million of this payment as a deposit on the outstanding transfer pricing matter for the tax years 2000-2001."
+    },
+    {
+      "block_idx": 297,
+      "char_end": 8430,
+      "char_start": 8395,
+      "is_heading": true,
+      "ordinal": 21,
+      "text": "Fair Value of Financial Instruments"
+    },
+    {
+      "block_idx": 298,
+      "char_end": 8804,
+      "char_start": 8432,
+      "is_heading": false,
+      "ordinal": 22,
+      "text": "Beginning in the first fiscal quarter of 2009, the assessment of fair value for our financial instruments is based on the provisions of SFAS No. 157. SFAS No. 157 establishes a fair value hierarchy that is based on three levels of inputs and requires an entity to maximize the use of observable inputs and minimize the use of unobservable inputs when measuring fair value."
+    },
+    {
+      "block_idx": 301,
+      "char_end": 9131,
+      "char_start": 8806,
+      "is_heading": false,
+      "ordinal": 23,
+      "text": "As of January 2, 2009, our financial instruments measured at fair value on a recurring basis included $390 million of assets. Our cash equivalents, which primarily consist of money market funds and bank securities total $300 million which is 77% of our total financial instruments measured at fair value on a recurring basis."
+    },
+    {
+      "block_idx": 302,
+      "char_end": 9493,
+      "char_start": 9133,
+      "is_heading": false,
+      "ordinal": 24,
+      "text": "As of January 2, 2009, $268 million were classified as Level 1, most of which represents investments in money market funds. These were classified as Level 1 because their valuations were based on quoted prices for identical securities in active markets. Determining fair value for Level 1 instruments generally does not require significant management judgment."
+    },
+    {
+      "block_idx": 303,
+      "char_end": 10553,
+      "char_start": 9495,
+      "is_heading": false,
+      "ordinal": 25,
+      "text": "As of January 2, 2009, $123 million were classified as Level 2, $36 million and $50 million (22% together of total financial instruments fair valued on a recurring basis) of which represent investments in bank securities and government notes, respectively. These were classified as Level 2 because their valuations were based on pricing models with all significant inputs derived from or corroborated by observable market prices for identical securities in markets with insufficient volume or infrequent transactions (less active markets). Level 2 inputs also generally include non-binding market consensus prices that are corroborated by observable market data; quoted prices for similar instruments; model-derived valuations in which all significant inputs are observable or can be derived principally from or corroborated with observable market data for substantially the full term of the assets or liabilities or quoted prices for similar assets or liabilities. The level of judgment and subjectivity involved with Level 2 instruments generally includes:"
+    },
+    {
+      "block_idx": 305,
+      "char_end": 10979,
+      "char_start": 10555,
+      "is_heading": false,
+      "ordinal": 26,
+      "text": "As of January 2, 2009, we have no financial instruments with unobservable inputs as classified in Level 3 under the SFAS No. 157 hierarchy. Level 3 instruments generally would include unobservable inputs to the valuation methodology that are significant to the measurement of fair value of assets or liabilities. The determination of fair value for Level 3 instruments requires the most management judgment and subjectivity."
+    },
+    {
+      "block_idx": 306,
+      "char_end": 11043,
+      "char_start": 10981,
+      "is_heading": true,
+      "ordinal": 27,
+      "text": "Valuation of goodwill, intangible assets and long-lived assets"
+    },
+    {
+      "block_idx": 307,
+      "char_end": 11990,
+      "char_start": 11045,
+      "is_heading": false,
+      "ordinal": 28,
+      "text": "When we acquire businesses, we allocate the purchase price to tangible assets and liabilities and identifiable intangible assets acquired. Any residual purchase price is recorded as goodwill. The allocation of the purchase price requires management to make significant estimates in determining the fair values of assets acquired and liabilities assumed, especially with respect to intangible assets. These estimates are based on historical experience and information obtained from the management of the acquired companies. These estimates can include, but are not limited to, the cash flows that an asset is expected to generate in the future, the appropriate weighted-average cost of capital, and the cost savings expected to be derived from acquiring an asset. These estimates are inherently uncertain and unpredictable. In addition, unanticipated events and circumstances may occur which may affect the accuracy or validity of such estimates."
+    },
+    {
+      "block_idx": 311,
+      "char_end": 13051,
+      "char_start": 11992,
+      "is_heading": false,
+      "ordinal": 29,
+      "text": "We review goodwill for impairment on an annual basis and whenever events or changes in circumstances indicate the carrying value of goodwill may not be recoverable. In testing for a potential impairment of goodwill, we allocate goodwill to our various businesses to which the acquired goodwill relates; estimate the fair value of our businesses to which goodwill relates; and determine the carrying value (book value) of the assets and liabilities related to those businesses. The first step in the goodwill impairment analysis is to determine if the estimated fair value is less than the carrying value of each reporting unit. If the estimated fair value is in fact, less than the carrying value for a particular business, then we are required to perform a second step in the goodwill impairment analysis to estimate the fair value of all identifiable assets and liabilities of the business, in a manner similar to a purchase price allocation for an acquired business. Only after this process is completed is the amount of any goodwill impairment determined."
+    },
+    {
+      "block_idx": 312,
+      "char_end": 13545,
+      "char_start": 13053,
+      "is_heading": false,
+      "ordinal": 30,
+      "text": "Prior to performing our second step in the goodwill impairment analysis, we are required to assess long-lived assets for impairment. Such long-lived assets included tangible and intangible assets recorded in accordance with SFAS No. 144, Accounting for the Impairment of Long-Lived Assets and SFAS No. 86, Accounting for the Costs of Computer Software to Be Sold, Leased or Otherwise Marketed. Our preliminary conclusion is that such long-lived assets were not impaired as of January 2, 2009."
+    },
+    {
+      "block_idx": 313,
+      "char_end": 13907,
+      "char_start": 13547,
+      "is_heading": false,
+      "ordinal": 31,
+      "text": "The process of evaluating the potential impairment of goodwill requires significant judgment at many points during the analysis. In determining the carrying value of the reporting units, we had to apply judgment to allocate the assets and liabilities, such as accounts receivable and property and equipment, based on specific identification or relevant driver."
+    },
+    {
+      "block_idx": 314,
+      "char_end": 14409,
+      "char_start": 13909,
+      "is_heading": false,
+      "ordinal": 32,
+      "text": "In estimating the fair value of the businesses with recognized goodwill for the purposes of our annual or periodic analyses, we make estimates and judgments about the future cash flows of these businesses. Although our cash flow forecasts are based on assumptions that are consistent with the plans and estimates we are using to manage the underlying businesses, there is significant judgment in determining the cash flows attributable to these businesses over their estimated remaining useful lives."
+    },
+    {
+      "block_idx": 315,
+      "char_end": 14432,
+      "char_start": 14411,
+      "is_heading": true,
+      "ordinal": 33,
+      "text": "RESULTS OF OPERATIONS"
+    },
+    {
+      "block_idx": 316,
+      "char_end": 14452,
+      "char_start": 14434,
+      "is_heading": true,
+      "ordinal": 34,
+      "text": "Total Net Revenues"
+    },
+    {
+      "block_idx": 318,
+      "char_end": 15481,
+      "char_start": 14454,
+      "is_heading": false,
+      "ordinal": 35,
+      "text": "Net revenues decreased slightly for the three months ended January 2, 2009, as compared to the same period last year, primarily due to a $31 million decrease in Licenses revenues. This decrease was partially offset by a $29 million increase in Content, subscriptions, and maintenance revenues. This net decrease was primarily driven by decreased revenues in our Security and Compliance segment partially offset by increased revenues in our Services segment. Foreign currencies had a negative impact on net revenues for the three months ended January 2, 2009 as compared to the same period last year due to the strengthening U.S. dollar compared to the prior year period. Furthermore, the global economic slowdown has increased competitive pricing pressure and lead time to close on sales for some of our products. While we cannot predict the intensity or duration of this slowdown, we believe the recurring nature of our business and the mission-critical nature of our products position us well in this challenging environment."
+    },
+    {
+      "block_idx": 319,
+      "char_end": 15921,
+      "char_start": 15483,
+      "is_heading": false,
+      "ordinal": 36,
+      "text": "Net revenues increased for the nine months ended January 2, 2009, as compared to the same period last year, primarily due to a $298 million increase in Content, subscriptions, and maintenance revenues coupled with a $50 million increase in Licenses revenues. These increases were primarily related to increased revenues in our Storage and Server Management and Services segments. In addition, revenues for the nine months ended January 2,"
+    },
+    {
+      "block_idx": 322,
+      "char_end": 16107,
+      "char_start": 15923,
+      "is_heading": false,
+      "ordinal": 37,
+      "text": "2009 benefited from additional amortization of deferred revenue of approximately $75 million as a result of the fiscal 2009 period comprising one more week than the fiscal 2008 period."
+    },
+    {
+      "block_idx": 323,
+      "char_end": 16250,
+      "char_start": 16109,
+      "is_heading": false,
+      "ordinal": 38,
+      "text": "The revenue changes for the three and nine months ended January 2, 2009 discussed above are further described in the discussions that follow."
+    },
+    {
+      "block_idx": 324,
+      "char_end": 16300,
+      "char_start": 16252,
+      "is_heading": true,
+      "ordinal": 39,
+      "text": "Content, subscriptions, and maintenance revenues"
+    },
+    {
+      "block_idx": 326,
+      "char_end": 17815,
+      "char_start": 16302,
+      "is_heading": false,
+      "ordinal": 40,
+      "text": "Content, subscriptions, and maintenance revenues increased for the three and nine months ended January 2, 2009 as compared to the same periods last year primarily due to an increase in revenue from the Storage and Server Management and Services segments. For the three and nine months ended January 2, 2009, Storage and Server Management increased by $29 million and $135 million, respectively, and Services increased by $22 million and $87 million, respectively. The increase in these two segments' revenue is largely attributable to demand for our Storage and Server Management products and consulting services as a result of increased demand for security and storage solutions. This increased demand was driven by the proliferation of structured and unstructured data, and increasing sales of services in conjunction with our license sales as a result of our focus on offering our customers a more comprehensive IT solution. Furthermore, growth in our customer base through acquisitions and new license sales results in an increase to Content, subscriptions, and maintenance revenues because a large amount of our customers renew their annual maintenance contracts. Content, subscriptions, and maintenance revenues from our Consumer Products and Security and Compliance segments decreased by approximately $12 million and $9 million, respectively, for the three months ended January 2, 2009 and increased by approximately $33 million and $43 million, respectively, during the nine months ended January 2, 2009."
+    },
+    {
+      "block_idx": 327,
+      "char_end": 17834,
+      "char_start": 17817,
+      "is_heading": true,
+      "ordinal": 41,
+      "text": "Licenses revenues"
+    },
+    {
+      "block_idx": 329,
+      "char_end": 18184,
+      "char_start": 17836,
+      "is_heading": false,
+      "ordinal": 42,
+      "text": "Licenses revenues decreased for the three months ended January 2, 2009 as compared to the same period last year primarily due to a decrease of $22 million in revenue related to our Security and Compliance products. This decrease is primarily a result of the challenging economic environment and a decline in demand from small and medium businesses."
+    },
+    {
+      "block_idx": 330,
+      "char_end": 18542,
+      "char_start": 18186,
+      "is_heading": false,
+      "ordinal": 43,
+      "text": "Licenses revenues increased for the nine months ended January 2, 2009 as compared to the same period last year primarily due to an increase of $46 million in revenue related to our Storage and Server Management products. These increases are a result of increased demand for storage solutions driven by the proliferation of structured and unstructured data."
+    },
+    {
+      "block_idx": 333,
+      "char_end": 18587,
+      "char_start": 18544,
+      "is_heading": true,
+      "ordinal": 44,
+      "text": "Net revenue and operating income by segment"
+    },
+    {
+      "block_idx": 334,
+      "char_end": 18614,
+      "char_start": 18589,
+      "is_heading": true,
+      "ordinal": 45,
+      "text": "Consumer Products segment"
+    },
+    {
+      "block_idx": 336,
+      "char_end": 19162,
+      "char_start": 18616,
+      "is_heading": false,
+      "ordinal": 46,
+      "text": "Consumer Products revenues decreased for the three months ended January 2, 2009 as compared to the same period last year primarily due to a decrease from our core consumer security products in the retail channel and to a lesser extent due to the unfavorable impact of foreign currencies on the U.S. dollar. This decrease was partially offset by an increase in revenue for our consumer services and our PC Tools security products. The revenue from our consumer products is generally recognized ratably over the 12 months after the product is sold."
+    },
+    {
+      "block_idx": 337,
+      "char_end": 19615,
+      "char_start": 19164,
+      "is_heading": false,
+      "ordinal": 47,
+      "text": "Consumer Products revenues increased for the nine months ended January 2, 2009 as compared to the same period last year primarily due to an increase from our core consumer security products in our electronic channels and to a lesser extent due to a favorable impact of foreign currencies on the U.S. dollar. In addition, Consumer Products revenues increased from the sale of our consumer services and our the integration of acquired security products."
+    },
+    {
+      "block_idx": 338,
+      "char_end": 20090,
+      "char_start": 19617,
+      "is_heading": false,
+      "ordinal": 48,
+      "text": "Our electronic channel sales are derived from OEMs, subscriptions, upgrades, online sales, and renewals. For the three and nine months ended January 2, 2009, electronic channel revenue grew $26 million and $121 million, respectively, as compared to the same periods last year. Electronic sales constituted 81% and 79% of Consumer Products revenues for the three and nine months ended January 2, 2009 as compared to 74% and 73%, respectively, for the same periods last year."
+    },
+    {
+      "block_idx": 339,
+      "char_end": 20616,
+      "char_start": 20092,
+      "is_heading": false,
+      "ordinal": 49,
+      "text": "Operating income for this segment decreased slightly for the three months ended January 2, 2009 as compared to the same period last year, as the decrease in total expenses did not fully offset the decrease in revenue. Operating income for this segment increased for the nine months ended January 2, 2009 as compared to the same period last year, as revenues increased while expenses decreased. Our operating expenses for the three and nine months ended January 2, 2009 benefited from our continued cost containment measures."
+    },
+    {
+      "block_idx": 340,
+      "char_end": 20649,
+      "char_start": 20618,
+      "is_heading": true,
+      "ordinal": 50,
+      "text": "Security and Compliance segment"
+    },
+    {
+      "block_idx": 344,
+      "char_end": 21044,
+      "char_start": 20651,
+      "is_heading": false,
+      "ordinal": 51,
+      "text": "Security and Compliance revenues decreased for the three months ended January 2, 2009 as compared to the same period last year primarily due to decrease in revenue from sales of endpoint security products to small and medium businesses. This decrease was partially offset by increased revenues from our successful integration of acquired products into our product portfolio during fiscal 2009."
+    },
+    {
+      "block_idx": 345,
+      "char_end": 21364,
+      "char_start": 21046,
+      "is_heading": false,
+      "ordinal": 52,
+      "text": "Security and Compliance revenues increased for the nine months ended January 2, 2009 as compared to the same period last year as a result of strong demand for endpoint management products and archiving solutions, as well as the successful integration of acquired products into our product portfolio during fiscal 2009."
+    },
+    {
+      "block_idx": 346,
+      "char_end": 21716,
+      "char_start": 21366,
+      "is_heading": false,
+      "ordinal": 53,
+      "text": "Operating income for the Security and Compliance segment increased for both the three and nine months ended January 2, 2009 as compared to the same period last year, as expenses grew at a slower rate than revenues. Our operating expenses for the three and nine months ended January 2, 2009 also benefited from our continued cost containment measures."
+    },
+    {
+      "block_idx": 347,
+      "char_end": 21755,
+      "char_start": 21718,
+      "is_heading": true,
+      "ordinal": 54,
+      "text": "Storage and Server Management segment"
+    },
+    {
+      "block_idx": 349,
+      "char_end": 22222,
+      "char_start": 21757,
+      "is_heading": false,
+      "ordinal": 55,
+      "text": "Storage and Server Management revenues increased for the three months ended January 2, 2009 as compared to the same period last year primarily due to an increase in sales of core enterprise products related to standardization and simplification of data center infrastructures and disaster recovery. Offsetting this increase were decreases in sales of our backup products to small and medium businesses and in sales of our availability products to large enterprises."
+    },
+    {
+      "block_idx": 350,
+      "char_end": 22636,
+      "char_start": 22224,
+      "is_heading": false,
+      "ordinal": 56,
+      "text": "Storage and Server Management revenues increased for the nine months ended January 2, 2009 as compared to the same period last year due to a $190 million increase in sales of products related to the standardization and simplification of data center infrastructures, increased demand for products supporting high availability and disaster recovery and due to the proliferation of structured and unstructured data."
+    },
+    {
+      "block_idx": 351,
+      "char_end": 23022,
+      "char_start": 22638,
+      "is_heading": false,
+      "ordinal": 57,
+      "text": "Operating income for the Storage and Server Management segment increased for the three and nine months ended January 2, 2009 as compared to the same period, last year, as revenue growth was coupled with a decrease in expenses for the segment. Also, our operating expenses for the three and nine months ended January 2, 2009 also benefited from our continued cost containment measures."
+    },
+    {
+      "block_idx": 354,
+      "char_end": 23040,
+      "char_start": 23024,
+      "is_heading": true,
+      "ordinal": 58,
+      "text": "Services segment"
+    },
+    {
+      "block_idx": 356,
+      "char_end": 23069,
+      "char_start": 23042,
+      "is_heading": true,
+      "ordinal": 59,
+      "text": "* Percentage not meaningful"
+    },
+    {
+      "block_idx": 357,
+      "char_end": 23747,
+      "char_start": 23071,
+      "is_heading": false,
+      "ordinal": 60,
+      "text": "Services revenues increased for the three months ended January 2, 2009 as compared to the same period last year primarily due to an increase in software as a service revenues as a result of our November 14, 2008 acquisition of MessageLabs. The remaining increase in revenues was in our consulting services and Business Critical Services, as a result of increased demand for more comprehensive software implementation assistance and increased demand for our Business Critical Services. Customers are increasingly purchasing our service offerings in conjunction with the purchase of our products and augmenting the capabilities of their own IT staff with our onsite consultants."
+    },
+    {
+      "block_idx": 358,
+      "char_end": 23995,
+      "char_start": 23749,
+      "is_heading": false,
+      "ordinal": 61,
+      "text": "Services revenues increased for the nine months ended January 2, 2009 as compared to the same period last year primarily due to an increase in consulting services and Business Critical Services, as a result of increased demand as described above."
+    },
+    {
+      "block_idx": 359,
+      "char_end": 24165,
+      "char_start": 23997,
+      "is_heading": false,
+      "ordinal": 62,
+      "text": "Operating income for the Services segment increased for both the three and nine months ended January 2, 2009, as revenue growth exceeded expense growth for the segment."
+    },
+    {
+      "block_idx": 360,
+      "char_end": 24180,
+      "char_start": 24167,
+      "is_heading": true,
+      "ordinal": 63,
+      "text": "Other segment"
+    },
+    {
+      "block_idx": 362,
+      "char_end": 24209,
+      "char_start": 24182,
+      "is_heading": true,
+      "ordinal": 64,
+      "text": "* Percentage not meaningful"
+    },
+    {
+      "block_idx": 363,
+      "char_end": 24887,
+      "char_start": 24211,
+      "is_heading": false,
+      "ordinal": 65,
+      "text": "Revenue from our Other segment is comprised primarily of sunset products and products nearing the end of their life cycle. Our Other segment also includes general and administrative expenses; amortization of acquired product rights, other intangible assets, and other assets; goodwill impairment charges; charges such as stock-based compensation and restructuring; and certain indirect costs that are not charged to the other operating segments. The operating loss of our Other segment for the three and nine months ended January 2, 2009 primarily consists of the $7 billion charge related to impairment of goodwill that was incurred in the three months ended January 2, 2009."
+    },
+    {
+      "block_idx": 366,
+      "char_end": 24922,
+      "char_start": 24889,
+      "is_heading": true,
+      "ordinal": 66,
+      "text": "Net revenues by geographic region"
+    },
+    {
+      "block_idx": 368,
+      "char_end": 25518,
+      "char_start": 24924,
+      "is_heading": false,
+      "ordinal": 67,
+      "text": "Americas revenues increased in the three and nine months ended January 2, 2009 as compared to the same periods last year primarily due to increased revenues related to our Storage and Server Management, Security and Compliance, and Services segments, as a result of increased demand as discussed above coupled with the convergence of endpoint security and management. In addition, for the three and nine months ended January 2, 2009 as compared to the same period last year, Americas revenues related to our Consumer Products segment increased driven by demand for our Consumer Products suites."
+    },
+    {
+      "block_idx": 369,
+      "char_end": 26440,
+      "char_start": 25520,
+      "is_heading": false,
+      "ordinal": 68,
+      "text": "EMEA revenues decreased for the three months ended January 2, 2009 as compared to the same period last year, primarily due to decreased revenues related to our Consumer Products and Security and Compliance segments of $45 million, as a result of a strengthening U.S. dollar and a decrease in endpoint security product sales to small and medium sized businesses. EMEA revenues increased for the nine months ended January 2, 2009 as compared to the same period last year primarily due to increased revenues related to our Storage and Server Management and Services segments. This increase is due to continuing demand for products related to the standardization and simplification of data center infrastructures, the proliferation of structured and unstructured data, and increasing sales of services in conjunction with our license sales as a result of our focus on offering our customers a more comprehensive IT solution."
+    },
+    {
+      "block_idx": 370,
+      "char_end": 27473,
+      "char_start": 26442,
+      "is_heading": false,
+      "ordinal": 69,
+      "text": "Asia Pacific/Japan revenues remained constant for the three months ended January 2, 2009 as compared to the same period last year. Revenues related to our Consumer Products and Services segments decreased as a result of a strengthening U.S. dollar and decreased prior period demand for Consumer Products. This decrease was offset by an increase in revenues related to our Storage and Server Management segment as a result of increased demand discussed above. Asia Pacific/Japan revenues increased for the nine months ended January 2, 2009 as compared to the same period last year primarily due to increased revenues related to our Storage and Server Management and Services segments. This increase is due to continuing demand for products related to the standardization and simplification of data center infrastructures, the proliferation of structured and unstructured data, and increasing sales of services in conjunction with our license sales as a result of our focus on offering our customers a more comprehensive IT solution."
+    },
+    {
+      "block_idx": 371,
+      "char_end": 28679,
+      "char_start": 27475,
+      "is_heading": false,
+      "ordinal": 70,
+      "text": "Our international sales are and will continue to be a significant portion of our net revenues. As a result, net revenues will continue to be affected by foreign currency exchange rates as compared to the U.S. dollar. The recent trend of the strengthening U.S. dollar as compared to foreign currencies over the prior year period has had a negative impact on net revenues for the three months ended January 2, 2009 as compared to the same period last year. However, for the nine months ended January 2, 2009 foreign currencies had a favorable impact on net revenues as compared to the same period last year as the recent trend in the strengthening U.S. dollar has not yet exceeded the revenue benefit realized in the first half of fiscal 2009 from a weaker U.S. dollar. While the current global economic slowdown has continued to result in a strengthening U.S. dollar, we are unable to predict the extent to which revenues in future periods will be impacted by changes in foreign currency exchange rates. If international sales become a greater portion of our total sales in the future, changes in foreign currency exchange rates may have a potentially greater impact on our revenues and operating results."
+    },
+    {
+      "block_idx": 375,
+      "char_end": 28697,
+      "char_start": 28681,
+      "is_heading": true,
+      "ordinal": 71,
+      "text": "Cost of Revenues"
+    },
+    {
+      "block_idx": 377,
+      "char_end": 29018,
+      "char_start": 28699,
+      "is_heading": false,
+      "ordinal": 72,
+      "text": "Cost of revenues consists primarily of the amortization of acquired product rights, fee-based technical support costs, the costs of billable services, payments to OEMs under revenue-sharing arrangements, manufacturing and direct material costs, and royalties paid to third parties under technology licensing agreements."
+    },
+    {
+      "block_idx": 378,
+      "char_end": 29408,
+      "char_start": 29020,
+      "is_heading": false,
+      "ordinal": 73,
+      "text": "Gross margin remained stable for the three months ended January 2, 2009 as compared to the same period last year. For the nine months ended January 2, 2009 as compared to the same period last year gross margin increased slightly primarily due to higher revenues and, to a lesser extent, lower OEM royalty payments, partially offset by a year over year increase in technical support costs."
+    },
+    {
+      "block_idx": 379,
+      "char_end": 29457,
+      "char_start": 29410,
+      "is_heading": true,
+      "ordinal": 74,
+      "text": "Cost of content, subscriptions, and maintenance"
+    },
+    {
+      "block_idx": 381,
+      "char_end": 30020,
+      "char_start": 29459,
+      "is_heading": false,
+      "ordinal": 75,
+      "text": "Cost of content, subscriptions, and maintenance consists primarily of fee-based technical support costs, costs of billable services, and payments to OEMs under revenue-sharing agreements. Cost of content, subscriptions, and maintenance as a percentage of related revenue for the three months and nine months ended January 2, 2009 as compared to the same period last year decreased one percentage point. The decrease is primarily driven by lower OEM royalties and lower distribution costs partially offset by a year-over-year increase in technical support costs."
+    },
+    {
+      "block_idx": 382,
+      "char_end": 30038,
+      "char_start": 30022,
+      "is_heading": true,
+      "ordinal": 76,
+      "text": "Cost of licenses"
+    },
+    {
+      "block_idx": 384,
+      "char_end": 30442,
+      "char_start": 30040,
+      "is_heading": false,
+      "ordinal": 77,
+      "text": "Cost of licenses consists primarily of royalties paid to third parties under technology licensing agreements and manufacturing and direct material costs. Cost of licenses remained stable as a percentage of the related revenue for the three and nine months ended January 2, 2009 as compared to the same periods last year. Increases in royalties were offset by lower manufacturing and distribution costs."
+    },
+    {
+      "block_idx": 387,
+      "char_end": 30483,
+      "char_start": 30444,
+      "is_heading": true,
+      "ordinal": 78,
+      "text": "Amortization of acquired product rights"
+    },
+    {
+      "block_idx": 389,
+      "char_end": 31233,
+      "char_start": 30485,
+      "is_heading": false,
+      "ordinal": 79,
+      "text": "Acquired product rights are comprised of developed technologies and patents from acquired companies. The increase in amortization for the three months ended January 2, 2009 as compared to the same period last year is primarily due to the amortization associated with the SwapDrive, PC Tools and MessageLabs acquisitions during the fiscal 2009 period. The decrease in amortization for the nine months ended January 2, 2009 as compared to the same periods last year is primarily due to the APM business divestiture in the fiscal 2008 period and decreasing amortization associated with the Veritas and BindView acquisitions offset in part by amortization associated with SwapDrive, PC Tools and MessageLabs acquisitions during the fiscal 2009 periods."
+    },
+    {
+      "block_idx": 390,
+      "char_end": 31253,
+      "char_start": 31235,
+      "is_heading": true,
+      "ordinal": 80,
+      "text": "Operating Expenses"
+    },
+    {
+      "block_idx": 391,
+      "char_end": 31282,
+      "char_start": 31255,
+      "is_heading": true,
+      "ordinal": 81,
+      "text": "Operating expenses overview"
+    },
+    {
+      "block_idx": 392,
+      "char_end": 31882,
+      "char_start": 31284,
+      "is_heading": false,
+      "ordinal": 82,
+      "text": "As discussed above under \"Fiscal Calendar,\" our operating expenses for the nine months ended January 2, 2009 compared to the same period last year were adversely impacted by an additional week during fiscal 2009. Our international expenses during the three and nine months ended January 2, 2009 were favorably impacted by the strengthening of the U.S. dollar compared to foreign currencies during the same period last year and by the 2009 restructuring plan. In addition, our ongoing cost and expense discipline positively contributed to our increased operating margins for the fiscal 2009 periods."
+    },
+    {
+      "block_idx": 393,
+      "char_end": 31912,
+      "char_start": 31884,
+      "is_heading": true,
+      "ordinal": 83,
+      "text": "Sales and marketing expenses"
+    },
+    {
+      "block_idx": 395,
+      "char_end": 32216,
+      "char_start": 31914,
+      "is_heading": false,
+      "ordinal": 84,
+      "text": "As a percent of net revenues, sales and marketing expenses decreased to 38% and 39% for the three and nine months ended January 2, 2009 as compared to 41% for both the three and nine months ended December 28, 2007 after taking into account the items discussed above under \"Operating expenses overview.\""
+    },
+    {
+      "block_idx": 396,
+      "char_end": 32251,
+      "char_start": 32218,
+      "is_heading": true,
+      "ordinal": 85,
+      "text": "Research and development expenses"
+    },
+    {
+      "block_idx": 398,
+      "char_end": 32575,
+      "char_start": 32253,
+      "is_heading": false,
+      "ordinal": 86,
+      "text": "As a percent of net revenues, research and development expenses decreased to 14% for both the three and nine months ended January 2, 2009 as compared to 15% and 16% for the three and nine months ended December 28, 2007, respectively, after taking into account the items discussed above under \"Operating expenses overview.\""
+    },
+    {
+      "block_idx": 401,
+      "char_end": 32612,
+      "char_start": 32577,
+      "is_heading": true,
+      "ordinal": 87,
+      "text": "General and administrative expenses"
+    },
+    {
+      "block_idx": 403,
+      "char_end": 32927,
+      "char_start": 32614,
+      "is_heading": false,
+      "ordinal": 88,
+      "text": "As a percent of net revenues, general and administrative expenses were 6% for both the three and nine months ended January 2, 2009 as compared to 5% and 6% for the three and nine months ended December 28, 2007, respectively, after taking into account the items discussed above under \"Operating expenses overview.\""
+    },
+    {
+      "block_idx": 404,
+      "char_end": 32978,
+      "char_start": 32929,
+      "is_heading": true,
+      "ordinal": 89,
+      "text": "Amortization of other purchased intangible assets"
+    },
+    {
+      "block_idx": 406,
+      "char_end": 33193,
+      "char_start": 32980,
+      "is_heading": false,
+      "ordinal": 90,
+      "text": "Other purchased intangible assets are comprised of customer bases and tradenames. Amortization for the three and nine months ended January 2, 2009 compared to the same periods last year remained relatively stable."
+    },
+    {
+      "block_idx": 407,
+      "char_end": 33208,
+      "char_start": 33195,
+      "is_heading": true,
+      "ordinal": 91,
+      "text": "Restructuring"
+    },
+    {
+      "block_idx": 409,
+      "char_end": 33892,
+      "char_start": 33210,
+      "is_heading": false,
+      "ordinal": 92,
+      "text": "In the third quarter of fiscal 2009, management approved and initiated a restructuring plan (the \"2009 Plan\") to reduce operating costs through a headcount reduction and facility consolidation. Costs for both the three and nine months ended January 2, 2009 were $37 million related to severance and benefit costs. Severance payments related to the 2009 Plan are expected to be substantially completed in fiscal 2010. Total remaining severance costs related to the reduction in force are expected to be insignificant. Costs related to the facility consolidation have not been recognized as of January 2, 2009, and the costs are expected to be substantially recognized in fiscal 2010."
+    },
+    {
+      "block_idx": 410,
+      "char_end": 34575,
+      "char_start": 33894,
+      "is_heading": false,
+      "ordinal": 93,
+      "text": "In fiscal 2008, management approved and initiated a restructuring plan (the \"2008 Plan\") to reduce operating costs, outsource certain back office functions worldwide, implement management structure changes, optimize the business structure and discontinue certain products. Projects within the 2008 Plan began in the third quarter of fiscal 2008 and severance payments are expected to be completed in fiscal 2010. Severance and benefits costs were $15 million, and other costs, primarily for asset impairments and consulting services, were $12 million for the nine months ended January 2, 2009. Total remaining costs for the 2008 Plan are estimated to range from $40 to $70 million."
+    },
+    {
+      "block_idx": 413,
+      "char_end": 34691,
+      "char_start": 34577,
+      "is_heading": false,
+      "ordinal": 94,
+      "text": "We do not expect costs relating to plans prior to the 2008 Plan to have a significant impact on future net income."
+    },
+    {
+      "block_idx": 414,
+      "char_end": 34754,
+      "char_start": 34693,
+      "is_heading": true,
+      "ordinal": 95,
+      "text": "Impairment of goodwill and Impairment of assets held for sale"
+    },
+    {
+      "block_idx": 416,
+      "char_end": 35512,
+      "char_start": 34756,
+      "is_heading": false,
+      "ordinal": 96,
+      "text": "In accordance with SFAS No. 142, we evaluate goodwill for impairment at least annually and any time business conditions indicate a potential change in recoverability. Based on a combination of factors, including the current economic environment and a decline in our market capitalization, during the third quarter of fiscal 2009 we concluded that there were sufficient indicators to require us to perform an interim goodwill impairment analysis. As of the filing of this report, we have not completed this analysis. We have concluded, however, that an impairment loss can be reasonably estimated. Accordingly, we have recorded a $7 billion non-cash goodwill impairment charge in the financial statements for the three and nine months ended January 2, 2009."
+    },
+    {
+      "block_idx": 417,
+      "char_end": 35789,
+      "char_start": 35514,
+      "is_heading": false,
+      "ordinal": 97,
+      "text": "We expect to finalize the goodwill impairment analysis in connection with the completion of our financial statements for the fiscal year ended April 3, 2009. There could be material adjustments to the goodwill impairment charge when the goodwill impairment test is completed."
+    },
+    {
+      "block_idx": 418,
+      "char_end": 36126,
+      "char_start": 35791,
+      "is_heading": false,
+      "ordinal": 98,
+      "text": "During the three and nine months ended January 2, 2009, we recognized an impairment of $17 million and $43 million on certain land and buildings classified as held for sale. SFAS No. 144 provides that a long-lived asset classified as held for sale should be measured at the lower of its carrying amount or fair value less cost to sell."
+    },
+    {
+      "block_idx": 419,
+      "char_end": 36547,
+      "char_start": 36128,
+      "is_heading": false,
+      "ordinal": 99,
+      "text": "During the three and nine months ended December 28, 2007, we determined that the APM business in the Storage and Server Management segment (formerly the Data Center Management segment) did not meet the long-term strategic objectives of the segment. As a result, we recognized additional losses related to the impairment of assets of $6 million and $93 million, respectively, related to our disposition of this business."
+    },
+    {
+      "block_idx": 420,
+      "char_end": 36566,
+      "char_start": 36549,
+      "is_heading": true,
+      "ordinal": 100,
+      "text": "Patent settlement"
+    },
+    {
+      "block_idx": 422,
+      "char_end": 36799,
+      "char_start": 36568,
+      "is_heading": false,
+      "ordinal": 101,
+      "text": "During the third quarter of fiscal 2009, we settled a patent lawsuit in which the result was a gain of approximately $10 million reflected in the Condensed Consolidated Statement of Operations under the caption \"Patent settlement.\""
+    },
+    {
+      "block_idx": 425,
+      "char_end": 36833,
+      "char_start": 36801,
+      "is_heading": true,
+      "ordinal": 102,
+      "text": "Non-operating Income and Expense"
+    },
+    {
+      "block_idx": 427,
+      "char_end": 37106,
+      "char_start": 36835,
+      "is_heading": false,
+      "ordinal": 103,
+      "text": "The decrease in interest income during the three and nine months ended January 2, 2009 as compared to the same periods last year is primarily due to lower average cash balances outstanding and a lower average yield on our invested cash and short-term investment balances."
+    },
+    {
+      "block_idx": 428,
+      "char_end": 37322,
+      "char_start": 37108,
+      "is_heading": false,
+      "ordinal": 104,
+      "text": "Interest expense for the three months and nine months ended January 2, 2009 as compared to the same period last year remained flat. The increase in other income (expense), net related to a gain on foreign currency."
+    },
+    {
+      "block_idx": 429,
+      "char_end": 37350,
+      "char_start": 37324,
+      "is_heading": true,
+      "ordinal": 105,
+      "text": "Provision for income taxes"
+    },
+    {
+      "block_idx": 431,
+      "char_end": 38941,
+      "char_start": 37352,
+      "is_heading": false,
+      "ordinal": 106,
+      "text": "The effective tax rate was approximately (0.5)% and 36% for the three month periods and (3)% and 35% for the nine months ended January 2, 2009 and December 28, 2007, respectively. The tax expense for the three and nine months ended January 2, 2009 includes a $44 million tax benefit associated with the impairment of goodwill of $7 billion, materially impacting the overall effective tax rate. The effective tax rates for all periods otherwise reflect the benefits of lower-taxed foreign earnings, domestic manufacturing tax incentives, and research and development credits, offset by state income taxes and non-deductible stock-based compensation. The provision for the three months ended January 2, 2009 reflects a revised forecast tax rate for the year of 34% prior to taking into consideration the goodwill impairment, and a resulting 3% benefit to true-up estimated taxes provided in the first two quarters of the year. The provision for the nine months ended January 2, 2009 is 31% prior to taking into consideration the goodwill impairment, reflecting non-recurring tax benefits recorded in the June and September quarters (including a $5 million tax benefit in the June 2008 quarter related to a favorable Irish settlement; a $7 million tax benefit in the September 2008 quarter from interest savings as a result of the IRS agreement on the treatment of the 2005 dividend from a Veritas international subsidiary; and a $5 million tax benefit in the September 2008 quarter from favorable prior year items including the retroactive reinstatement of the U.S. federal research credit)."
+    },
+    {
+      "block_idx": 432,
+      "char_end": 40235,
+      "char_start": 38943,
+      "is_heading": false,
+      "ordinal": 107,
+      "text": "The $44 million net tax benefit arising from the impairment of goodwill consists of a $100 million tax benefit from elements of tax deductible goodwill, net of a $56 million tax provision resulting from an increase in our valuation allowances on certain deferred tax assets that will require an extended period of time to realize. As a result of the impairment of goodwill, we have cumulative pre-tax book losses, as measured by the current and prior two years. We considered the negative evidence of this cumulative pre-tax book loss position on our ability to continue to recognize deferred tax assets that are dependent upon future taxable income for realization. We considered the following as positive evidence: the vast majority of the goodwill impairment is not deductible for tax purposes and thus will not result in tax losses; we have a strong, consistent taxpaying history; we have substantial U.S. federal income tax carryback potential; we have substantial amounts of scheduled future reversals of taxable temporary differences from our deferred tax liabilities. We have concluded that this positive evidence outweighs the negative evidence and, thus, that those deferred tax assets not otherwise subject to a valuation allowance are realizable on a \"more likely than not\" basis."
+    },
+    {
+      "block_idx": 436,
+      "char_end": 40260,
+      "char_start": 40237,
+      "is_heading": true,
+      "ordinal": 108,
+      "text": "Loss from joint venture"
+    },
+    {
+      "block_idx": 438,
+      "char_end": 40649,
+      "char_start": 40262,
+      "is_heading": false,
+      "ordinal": 109,
+      "text": "On February 5, 2008, Symantec formed Huawei-Symantec, Inc. (\"joint venture\") with a subsidiary of Huawei Technologies Co., Ltd. (\"Huawei\"). The joint venture is domiciled in Hong Kong with principal operations in Chengdu, China. The joint venture develops, manufactures, markets and supports security and storage appliances to global telecommunications carriers and enterprise customers."
+    },
+    {
+      "block_idx": 439,
+      "char_end": 41335,
+      "char_start": 40651,
+      "is_heading": false,
+      "ordinal": 110,
+      "text": "As described further in Note 6 of the Notes to Condensed Consolidated Financial Statements in this quarterly report, we account for our investment in the joint venture under the equity method of accounting. Under this method, we record our proportionate share of the joint venture's net income or loss based on the quarterly financial statements of the joint venture. We record our proportionate share of net income or loss one quarter in arrears. For the nine months ended January 2, 2009, we recorded a loss of approximately $33 million related to our share of the joint venture's net loss incurred for the period from February 5, 2008 (its date of inception) to September 30, 2008."
+    },
+    {
+      "block_idx": 440,
+      "char_end": 41368,
+      "char_start": 41337,
+      "is_heading": true,
+      "ordinal": 111,
+      "text": "LIQUIDITY AND CAPITAL RESOURCES"
+    },
+    {
+      "block_idx": 441,
+      "char_end": 41385,
+      "char_start": 41370,
+      "is_heading": true,
+      "ordinal": 112,
+      "text": "Sources of Cash"
+    },
+    {
+      "block_idx": 442,
+      "char_end": 41701,
+      "char_start": 41387,
+      "is_heading": false,
+      "ordinal": 113,
+      "text": "We have historically relied on cash flow from operations, borrowings under a credit facility and issuances of convertible notes and equity securities for our liquidity needs. Key sources of cash are provided by operations, existing cash, cash equivalents, short-term investments, and our revolving credit facility."
+    },
+    {
+      "block_idx": 443,
+      "char_end": 42239,
+      "char_start": 41703,
+      "is_heading": false,
+      "ordinal": 114,
+      "text": "In the second quarter of fiscal 2007, we entered into a five-year $1 billion senior unsecured revolving credit facility that expires in July 2011. In order to be able to draw on the credit facility, we must maintain certain covenants, including a specified ratio of debt to earnings (before interest, taxes, depreciation, amortization and impairments) as well as various other non-financial covenants. As of January 2, 2009, we were in compliance with all required covenants, and there was no outstanding balance on the credit facility."
+    },
+    {
+      "block_idx": 444,
+      "char_end": 42531,
+      "char_start": 42241,
+      "is_heading": false,
+      "ordinal": 115,
+      "text": "As of January 2, 2009, we had cash and cash equivalents of $1.4 billion and short-term investments of $80 million resulting in a net liquidity position defined as unused availability of the credit facility, cash and cash equivalents and short-term investments of approximately $2.5 billion."
+    },
+    {
+      "block_idx": 445,
+      "char_end": 42780,
+      "char_start": 42533,
+      "is_heading": false,
+      "ordinal": 116,
+      "text": "We believe that our existing cash balances, the cash that we generate from operations and our borrowing capacity will be sufficient to satisfy our anticipated cash needs for working capital and capital expenditures for at least the next 12 months."
+    },
+    {
+      "block_idx": 446,
+      "char_end": 42794,
+      "char_start": 42782,
+      "is_heading": true,
+      "ordinal": 117,
+      "text": "Uses of Cash"
+    },
+    {
+      "block_idx": 447,
+      "char_end": 43014,
+      "char_start": 42796,
+      "is_heading": false,
+      "ordinal": 118,
+      "text": "Our principal cash requirements include working capital, capital expenditures and payments of taxes. In addition, we regularly evaluate our ability to repurchase stock, pay long-term debts and acquire other businesses."
+    },
+    {
+      "block_idx": 448,
+      "char_end": 43218,
+      "char_start": 43016,
+      "is_heading": false,
+      "ordinal": 119,
+      "text": "Line of Credit. During the first quarter of fiscal 2009, we repaid the entire $200 million principal amount plus $3 million of accrued interest related to our senior unsecured revolving credit facility."
+    },
+    {
+      "block_idx": 449,
+      "char_end": 43442,
+      "char_start": 43220,
+      "is_heading": false,
+      "ordinal": 120,
+      "text": "Acquisition-Related. We generally use cash to fund the acquisition of other businesses and, from time to time, use our revolving credit facility when necessary. In the third quarter of fiscal 2009, we acquired PC Tools for"
+    },
+    {
+      "block_idx": 452,
+      "char_end": 43737,
+      "char_start": 43444,
+      "is_heading": false,
+      "ordinal": 121,
+      "text": "$239 million and MessageLabs for $619 million, net of cash acquired. In the second quarter of fiscal 2009, we acquired nSuite for $20 million, net of cash acquired. In the first quarter of fiscal 2009, we acquired AppStream for $49 million and SwapDrive for $117 million, net of cash acquired."
+    },
+    {
+      "block_idx": 453,
+      "char_end": 44208,
+      "char_start": 43739,
+      "is_heading": false,
+      "ordinal": 122,
+      "text": "During the third quarter of fiscal 2008, we used approximately $298 million to complete our acquisition of Vontu, which was partially financed by our $200 million borrowing under our unsecured revolving credit facility. Furthermore, in the first quarter of fiscal 2008, we acquired the outstanding common stock of Altiris, Inc. and paid $841 million, net of cash acquired, which reflects $165 million of cash acquired and $17 million of cash paid for transaction costs."
+    },
+    {
+      "block_idx": 454,
+      "char_end": 44570,
+      "char_start": 44210,
+      "is_heading": false,
+      "ordinal": 123,
+      "text": "Stock Repurchases. In the third quarter of fiscal 2009, we repurchased 16 million shares, or $200 million, of our common stock. For the first three quarters of fiscal 2009, we repurchased 35 million shares, or $600 million, of our common stock. As of January 2, 2009, $400 million remained authorized for future repurchases from the 2007 Stock Repurchase Plan."
+    },
+    {
+      "block_idx": 455,
+      "char_end": 44582,
+      "char_start": 44572,
+      "is_heading": true,
+      "ordinal": 124,
+      "text": "Cash Flows"
+    },
+    {
+      "block_idx": 456,
+      "char_end": 44713,
+      "char_start": 44584,
+      "is_heading": false,
+      "ordinal": 125,
+      "text": "The following table summarizes, for the periods indicated, selected items in our Condensed Consolidated Statements of Cash Flows:"
+    },
+    {
+      "block_idx": 458,
+      "char_end": 44735,
+      "char_start": 44715,
+      "is_heading": true,
+      "ordinal": 126,
+      "text": "Operating Activities"
+    },
+    {
+      "block_idx": 459,
+      "char_end": 45199,
+      "char_start": 44737,
+      "is_heading": false,
+      "ordinal": 127,
+      "text": "Net cash provided by operating activities of $1.1 billion during the nine months ended January 2, 2009 primarily resulted from a net loss of $6.5 billion adjusted for non-cash items - goodwill impairment of $7.0 billion, depreciation and amortization charges of $626 million and stock-based compensation expense of $123 million. These amounts were partially offset by an increase in our Trade accounts receivable which is in line with our normal seasonal trends."
+    },
+    {
+      "block_idx": 460,
+      "char_end": 45814,
+      "char_start": 45201,
+      "is_heading": false,
+      "ordinal": 128,
+      "text": "Net cash provided by operating activities during the nine months ended December 28, 2007 resulted largely from net income of $277 million, adjusted for non-cash depreciation and amortization charges of $618 million, an impairment of assets of $94 million, and non-cash stock-based compensation expense of $121 million. These amounts were partially offset by an increase in our Trade accounts receivable which is in line with our normal seasonal trends. Income taxes payable also increased by $215 million, primarily due to the FIN 48 implementation and Altiris acquisition during the first quarter of fiscal 2008."
+    },
+    {
+      "block_idx": 461,
+      "char_end": 45836,
+      "char_start": 45816,
+      "is_heading": true,
+      "ordinal": 129,
+      "text": "Investing Activities"
+    },
+    {
+      "block_idx": 462,
+      "char_end": 46174,
+      "char_start": 45838,
+      "is_heading": false,
+      "ordinal": 130,
+      "text": "Net cash used in investing activities of $764 million for the nine months ended January 2, 2009 was primarily due to $1.0 billion paid for acquisitions and $215 million paid for capital expenditures, partially offset by net proceeds of $456 million from the sale of short-term investments which were used to partially fund acquisitions."
+    },
+    {
+      "block_idx": 463,
+      "char_end": 46569,
+      "char_start": 46176,
+      "is_heading": false,
+      "ordinal": 131,
+      "text": "The $1.4 billion cash used in investing activities for the nine months ended December 28, 2007 was primarily due to $1.1 billion used to fund the purchase of Altiris and Vontu, net of cash acquired. Additionally, we had purchases of short-term investments of $825 million and capital expenditures of $209 million, which were partially offset by sales of short-term investments of $831 million."
+    },
+    {
+      "block_idx": 466,
+      "char_end": 46591,
+      "char_start": 46571,
+      "is_heading": true,
+      "ordinal": 132,
+      "text": "Financing Activities"
+    },
+    {
+      "block_idx": 467,
+      "char_end": 47036,
+      "char_start": 46593,
+      "is_heading": false,
+      "ordinal": 133,
+      "text": "Net cash used in financing activities of $615 million for the nine months ended January 2, 2009 was primarily due to stock repurchases of 35.1 million shares of our common stock under the plan announced in June 2007 for $600 million and the repayment of $200 million on our senior unsecured revolving credit facility, partially offset by net proceeds of $189 million received from the issuance of our common stock through employee stock plans."
+    },
+    {
+      "block_idx": 468,
+      "char_end": 47534,
+      "char_start": 47038,
+      "is_heading": false,
+      "ordinal": 134,
+      "text": "Net cash used in financing activities was $931 million for the nine months ended December 28, 2007, primarily due to the repurchase of 70 million shares of our common stock, under the plans announced in January 2007 and June 2007, for $1.3 billion. This amount was partially offset by the net proceeds of $164 million received from the issuance of our common stock through employee stock plans and $200 million borrowed from our five-year, $1.0 billion senior unsecured revolving credit facility."
+    },
+    {
+      "block_idx": 469,
+      "char_end": 47559,
+      "char_start": 47536,
+      "is_heading": true,
+      "ordinal": 135,
+      "text": "Contractual Obligations"
+    },
+    {
+      "block_idx": 470,
+      "char_end": 47925,
+      "char_start": 47561,
+      "is_heading": false,
+      "ordinal": 136,
+      "text": "There have been no significant changes in our contractual obligations during the nine months ended January 2, 2009, as compared to the contractual obligations disclosed in Management's Discussion and Analysis of Financial Condition and Results of Operations, set forth in Part II, Item 7, of our Annual Report on Form 10-K for the fiscal year ended March 28, 2008."
+    }
+  ],
+  "parser_version": "fs-parser-1.1",
+  "risk": [
+    {
+      "block_idx": 487,
+      "char_end": 338,
+      "char_start": 0,
+      "is_heading": false,
+      "ordinal": 0,
+      "text": "A description of the risks associated with our business, financial condition, and results of operations is set forth in Part I, Item 1A, of our Annual Report on Form 10-K for the fiscal year ended March 28, 2008. There have been no material changes in our risks from such description, other than the addition of the following risk factor:"
+    },
+    {
+      "block_idx": 488,
+      "char_end": 439,
+      "char_start": 340,
+      "is_heading": false,
+      "ordinal": 1,
+      "text": "The recent global economic crisis may harm our business, operating results and financial condition."
+    },
+    {
+      "block_idx": 489,
+      "char_end": 1733,
+      "char_start": 441,
+      "is_heading": false,
+      "ordinal": 2,
+      "text": "The recent global economic crisis has caused a tightening in the credit markets, increases in the rates of default and bankruptcy, and extreme volatility in credit, equity and fixed income markets. These macroeconomic developments could negatively affect our business, operating results or financial condition under a number of different scenarios. For example, current or potential customers may delay or forgo decisions to license new products or additional instances of existing products, upgrade their existing hardware or operating environments (which upgrades are often a catalyst for new purchases of our software), or purchase services. Customers may also have difficulties in obtaining the requisite third-party financing to complete the purchase of our products and services. The current economic environment could also subject us to increased credit risk should customers be unable to pay us, or delay paying us, for previously purchased products and services. In addition, weakness in the market for end users of our products could harm the cash flow of our distributors and resellers who could then delay paying their obligations to us. This would further increase our credit risk exposure and, potentially, cause delays in our recognition of revenue on sales to these customers."
+    },
+    {
+      "block_idx": 490,
+      "char_end": 2777,
+      "char_start": 1735,
+      "is_heading": false,
+      "ordinal": 3,
+      "text": "In addition, financial institution difficulties and/or failures may make it more difficult either to utilize our existing debt capacity or otherwise obtain financing for our operations, investing activities (including potential acquisitions) or financing activities. Specific economic trends, such as declines in the demand for PCs, servers, and other computing devices, or softness in corporate information technology spending, could have an even more direct, and harmful, impact on our business. Finally, our cash and our investment portfolio, which includes short-term debt securities, is generally subject to general credit, liquidity, counterparty, market and interest rate risks that may be exacerbated by the recent global financial crisis. Our investment in our joint venture could also become impaired. If the banking system or the fixed income, credit or equity markets continue to deteriorate or remain volatile, our cash and our investment portfolio may be impacted and the values and liquidity of our investments could be harmed."
+    }
+  ],
+  "summary": {
+    "accession_number": "0000950134-09-002185",
+    "cik": 849399,
+    "download_status": "ok",
+    "mdna_end_block": 471,
+    "mdna_failure_reason": null,
+    "mdna_heuristic_quality": 1.0,
+    "mdna_method": "item_heading_longest_span",
+    "mdna_n_chars": 46374,
+    "mdna_n_paragraphs": 90,
+    "mdna_n_start_candidates": 1,
+    "mdna_n_tables": 25,
+    "mdna_n_words": 7283,
+    "mdna_start_block": 272,
+    "mdna_status": "extracted",
+    "n_blocks": 523,
+    "parser_version": "fs-parser-1.1",
+    "primary_document": "f51246e10vq.htm",
+    "risk_end_block": 493,
+    "risk_failure_reason": null,
+    "risk_heuristic_quality": 1.0,
+    "risk_method": "item_heading_longest_span",
+    "risk_n_chars": 2771,
+    "risk_n_paragraphs": 4,
+    "risk_n_start_candidates": 1,
+    "risk_n_tables": 0,
+    "risk_n_words": 420,
+    "risk_start_block": 486,
+    "risk_status": "extracted",
+    "source_sha256": "1d60be335e8d34483ec35f5aff82cb2ca20a65e8cab17cb14767e0e5ca4631a4",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/849399/000095013409002185/f51246e10vq.htm"
+  }
+}

@@ -1,0 +1,66 @@
+# FilingShock topic lexicon, version topics-1.0 (project-authored, 2026-10-17).
+# Purpose: flag paragraphs that discuss specific financial-condition topics.
+# Matching: case-insensitive regular expressions with word boundaries, applied to paragraph text.
+# This lexicon was written for this project from general accounting vocabulary. It is NOT a
+# validated instrument and it was written in 2026, so it is not "historically available" to a
+# forecaster in earlier years; terms are deliberately generic accounting language that was in
+# common use throughout the study period.
+version: topics-1.0
+topics:
+  liquidity:
+    - "liquidity"
+    - "working capital"
+    - "cash requirements?"
+    - "sources? of cash"
+    - "going concern"
+    - "cash (?:and cash equivalents )?(?:will be|are) sufficient"
+  debt:
+    - "indebtedness"
+    - "credit (?:facility|agreement|line)"
+    - "revolving (?:credit|loan)"
+    - "senior notes?"
+    - "convertible (?:senior )?notes?"
+    - "term loans?"
+    - "commercial paper"
+    - "covenants?"
+    - "borrowings?"
+  receivables_collection:
+    - "accounts receivable"
+    - "receivables?"
+    - "days sales outstanding"
+    - "collectib(?:le|ility)"
+    - "collectab(?:le|ility)"
+    - "allowance for (?:doubtful|credit) (?:accounts|losses)"
+    - "bad debts?"
+  demand:
+    - "demand"
+    - "bookings"
+    - "pipeline"
+    - "deal closures?"
+    - "lengthening (?:of )?(?:sales )?cycles?"
+    - "longer sales cycles?"
+    - "customer spending"
+    - "IT spending"
+    - "deferral of purchases"
+    - "macroeconomic"
+  customer_concentration:
+    - "customer concentration"
+    - "significant customers?"
+    - "largest customers?"
+    - "single customer"
+    - "(?:accounted|accounts) for (?:more than |over |approximately )?\\d+(?:\\.\\d+)?% of (?:our )?(?:total )?(?:net )?revenue"
+  litigation:
+    - "litigation"
+    - "lawsuits?"
+    - "legal proceedings"
+    - "class action"
+    - "subpoena"
+    - "investigation"
+    - "settlement"
+  financial_constraint:
+    - "restructuring"
+    - "impairment"
+    - "workforce reduction"
+    - "cost reduction"
+    - "material weakness"
+    - "restatement"

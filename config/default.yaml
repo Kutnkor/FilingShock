@@ -1,0 +1,100 @@
+# FilingShock configuration (protocol-bound values are marked PROTOCOL).
+# Changing a PROTOCOL value after final evaluation must be logged in docs/research_protocol.md.
+
+project:
+  name: FilingShock
+  data_dir: data            # relative to the project root
+
+sec:
+  # SEC Fair Access asks for a User-Agent that identifies the requester and a contact.
+  # This is an explicit placeholder. Set FILINGSHOCK_SEC_USER_AGENT in your environment
+  # (e.g. "Your Name your.email@domain.tld") before running larger downloads.
+  user_agent: "FilingShock/0.1 research-prototype contact-UNCONFIGURED@example.invalid"
+  max_requests_per_second: 4      # SEC published maximum is 10/s; we stay well below.
+  max_retries: 4
+  backoff_base_seconds: 2.0
+  timeout_seconds: 30
+
+universe:
+  # Fixed-company cohort (see docs/research_protocol.md section 2). Order is not meaningful.
+  # pilot: true marks the five companies used for the pipeline-validation pilot.
+  # Selection rule (docs/research_protocol.md section 2): a pre-specified list of established
+  # U.S. 10-Q filers classified by the SEC under SIC 7372 (Services-Prepackaged Software),
+  # including companies later acquired or delisted. Chosen before any outcome was inspected.
+  # pilot: true marks the five companies of the pipeline-validation pilot.
+  # symbol_history records ticker changes; prices are requested under provider_symbol.
+  companies:
+    - {cik: 796343,  ticker: ADBE, name: Adobe, pilot: true}
+    - {cik: 896878,  ticker: INTU, name: Intuit, pilot: true}
+    - {cik: 769397,  ticker: ADSK, name: Autodesk, pilot: true}
+    - {cik: 1341439, ticker: ORCL, name: Oracle, pilot: true}
+    - {cik: 1108524, ticker: CRM,  name: Salesforce, pilot: true}
+    - {cik: 789019,  ticker: MSFT, name: Microsoft}
+    - {cik: 813672,  ticker: CDNS, name: Cadence Design Systems}
+    - {cik: 883241,  ticker: SNPS, name: Synopsys}
+    - {cik: 857005,  ticker: PTC,  name: PTC, symbol_history: "PMTC until 2013 (Parametric Technology); PTC after"}
+    - {cik: 860731,  ticker: TYL,  name: Tyler Technologies}
+    - {cik: 1373715, ticker: NOW,  name: ServiceNow}
+    - {cik: 1169561, ticker: CVLT, name: Commvault Systems}
+    - {cik: 849399,  ticker: GEN,  name: Gen Digital, symbol_history: "SYMC until 2019-11; NLOK until 2022-11; GEN after"}
+    - {cik: 1056696, ticker: MANH, name: Manhattan Associates}
+    - {cik: 1013462, ticker: ANSS, name: ANSYS, delisted: true}
+    - {cik: 877890,  ticker: CTXS, name: Citrix Systems, delisted: true}
+    - {cik: 1124610, ticker: VMW,  name: VMware, delisted: true}
+    - {cik: 1385867, ticker: COUP, name: Coupa Software, delisted: true}
+    - {cik: 1353283, ticker: SPLK, name: Splunk, delisted: true}
+    - {cik: 1002517, ticker: NUAN, name: Nuance Communications, delisted: true}
+    - {cik: 356028,  ticker: CA,   name: "CA, Inc.", delisted: true}
+  filing_window:
+    accepted_from: "2010-01-01"     # PROTOCOL
+    accepted_to:   "2026-09-30"     # PROTOCOL (outcomes must have matured)
+  benchmark_symbols:
+    market: SPY
+    sector: IGV                     # iShares Expanded Tech-Software Sector ETF
+
+market_data:
+  provider: yfinance                # yfinance | csv
+  csv_dir: data/import/prices       # used by the csv provider: <SYMBOL>.csv with date,open,high,low,close,volume
+  history_start: "2009-01-01"
+  history_end: "2026-10-17"
+
+timing:                             # PROTOCOL (docs/timing_policy.md)
+  exchange_calendar: XNYS
+  cutoff_minutes_before_open: 30
+  availability_lag_minutes: 15      # conservative lag added to EDGAR acceptance time
+  edgar_after_hours_cutoff_et: "17:30"   # submissions after this are disseminated next business day
+  edgar_next_day_dissemination_et: "06:00"
+
+target:                             # PROTOCOL
+  lookback_sessions: 60
+  multiplier: 2.0
+  max_window_sessions: 90           # the 60 valid sessions must lie within the last 90 calendar sessions
+  min_denominator: 0.001            # mean |open-to-close| below 0.1% is treated as degenerate
+  max_abs_return_sanity: 0.5        # |r| above 50% is flagged as a probable data error, not silently used
+
+reference:                          # PROTOCOL
+  primary_policy: prior_year_same_quarter
+  period_tolerance_days: 21         # 52/53-week fiscal calendars shift period ends
+  secondary_policy: nearest_prior_10q
+
+features:
+  version: "fs-features-1.0"
+  dictionary: lm_master_1993_2025   # point-in-time membership via year flags
+  topic_lexicon: resources/dictionaries/topics_v1.yaml
+
+model:                              # PROTOCOL
+  family: logistic_l2
+  c_grid: [0.01, 0.03, 0.1, 0.3, 1.0]
+  class_weight: none                # natural frequencies; no resampling
+  calibration: platt_on_preceding_block
+  random_seed: 20261017
+  bootstrap_reps: 2000
+
+splits:                             # PROTOCOL
+  scheme: expanding_annual
+  first_test_year: 2014
+  last_test_year: 2026
+  calibration_years: 1             # calibration block = the year immediately before the test year
+  min_train_events: 60
+  min_train_positives: 10
+  min_calibration_positives: 4
