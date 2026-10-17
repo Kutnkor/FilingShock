@@ -45,7 +45,24 @@ class HashChainedLog:
     def records(self) -> list[dict]:
         if not self.path.exists():
             return []
-        return [json.loads(line) for line in self.path.read_text().splitlines() if line.strip()]
+        try:
+            text = self.path.read_text(encoding="utf-8")
+        except UnicodeError as exc:
+            raise LedgerError(f"{self.path.name}: invalid UTF-8") from exc
+        if text and not text.endswith("\n"):
+            raise LedgerError(f"{self.path.name}: incomplete final record (missing newline)")
+        records = []
+        for line_number, line in enumerate(text.splitlines(), 1):
+            if not line.strip():
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError as exc:
+                raise LedgerError(f"{self.path.name}: invalid JSON on line {line_number}") from exc
+            if not isinstance(rec, dict):
+                raise LedgerError(f"{self.path.name}: line {line_number} is not a record object")
+            records.append(rec)
+        return records
 
     @staticmethod
     def _hash(rec: dict) -> str:
@@ -53,14 +70,32 @@ class HashChainedLog:
         return hashlib.sha256(json.dumps(body, sort_keys=True).encode()).hexdigest()
 
     def verify_chain(self) -> tuple[bool, str]:
+        try:
+            records = self.records()
+        except LedgerError as exc:
+            return False, str(exc)
+        return self._verify_records(records)
+
+    @classmethod
+    def _verify_records(cls, records: list[dict]) -> tuple[bool, str]:
         prev = None
-        for i, rec in enumerate(self.records()):
+        for i, rec in enumerate(records):
+            if type(rec.get("sequence")) is not int or rec["sequence"] != i:
+                return False, f"record {i} has an invalid sequence"
             if rec.get("prev_record_sha256") != prev:
                 return False, f"record {i} breaks the chain"
-            if self._hash(rec) != rec.get("record_sha256"):
+            if cls._hash(rec) != rec.get("record_sha256"):
                 return False, f"record {i} content does not match its hash"
             prev = rec["record_sha256"]
         return True, "ok"
+
+    def verified_records(self) -> list[dict]:
+        """Read only records whose hashes, ordering and JSON framing are valid."""
+        records = self.records()
+        ok, msg = self._verify_records(records)
+        if not ok:
+            raise LedgerError(f"ledger integrity check failed: {msg}")
+        return records
 
     def _append_chained(self, rec: dict) -> dict:
         existing = self.records()

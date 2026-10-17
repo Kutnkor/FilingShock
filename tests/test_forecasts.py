@@ -43,3 +43,24 @@ def test_tampering_is_detected_and_blocks_appends(tmp_path):
     assert not ok
     with pytest.raises(LedgerError):
         led.append(rec(3), now=now)
+
+
+@pytest.mark.parametrize("blob", ["{broken}\n", "[]\n", "null\n", "{\"sequence\":0}", "\xff\n"])
+def test_corrupt_records_report_integrity_failures(tmp_path, blob):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    led.path.write_bytes(blob.encode("latin-1"))
+    ok, reason = led.verify_chain()
+    assert not ok and reason
+    with pytest.raises(LedgerError):
+        led.append(rec(1), now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+
+
+def test_rehashed_sequence_corruption_is_rejected(tmp_path):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    row = led.append(rec(1), now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+    row["sequence"] = 7
+    row["record_sha256"] = led._hash(row)
+    led.path.write_text(json.dumps(row) + "\n")
+    assert led.verify_chain() == (False, "record 0 has an invalid sequence")
+    with pytest.raises(LedgerError, match="invalid sequence"):
+        led.verified_records()
