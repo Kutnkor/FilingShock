@@ -70,3 +70,13 @@ a new retrieval timestamp, even though the cached bars were old. Prospective sco
 timestamp, so freshness must describe an actual successful fetch. A failed refresh now leaves both
 the good bars and their metadata unchanged and makes the command fail visibly. Initial coverage gaps
 still get an explicit unavailable status. Regression tests are offline in `tests/test_market.py`.
+
+## External cache paths
+
+The SEC API supplies the names of older submission pages and primary filing documents. Those names
+are data, not trusted local filesystem paths. Separators, traversal components, control characters and
+URL query/fragment delimiters are rejected before a cache path is read or written. The extractor also
+checks accession names before looking up an existing parsed document. Ordinary document identifiers
+and the historical research protocol are unchanged. Tests: `tests/test_sec_paths.py`.
+
+Reference: [SEC submissions API structure](https://www.sec.gov/search-filings/edgar-application-programming-interfaces).

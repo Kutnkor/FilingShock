@@ -19,7 +19,12 @@ log = logging.getLogger(__name__)
 
 def extract_filing(client: SecClient, layout: DataLayout, row: pd.Series, force: bool = False) -> dict:
     """Download (if needed) and extract MD&A + risk sections for one filing. Returns a summary row."""
-    out_path = layout.sections_dir / f"{row['accession_number']}.json"
+    # Validate external names before even reading a cached extraction path.
+    from filingshock.sources.sec import _cache_component
+
+    accession = _cache_component(row["accession_number"])
+    _cache_component(row["primary_document"])
+    out_path = layout.sections_dir / f"{accession}.json"
     if out_path.exists() and not force:
         doc = json.loads(out_path.read_text())
         if doc.get("parser_version") == PARSER_VERSION:

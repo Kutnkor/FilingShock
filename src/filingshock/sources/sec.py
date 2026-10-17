@@ -29,6 +29,15 @@ class SecAccessError(RuntimeError):
     """Raised when SEC content cannot be retrieved after bounded retries."""
 
 
+def _cache_component(value: str) -> str:
+    """SEC metadata is external input; a document name must remain one local path component."""
+    if (not isinstance(value, str) or not value or value in (".", "..")
+            or any(c in value for c in ("/", "\\", ":", "\0", "?", "#"))
+            or any(ord(c) < 32 for c in value)):
+        raise SecAccessError("invalid SEC document/cache path component")
+    return value
+
+
 @dataclass
 class Retrieval:
     url: str
@@ -125,7 +134,8 @@ class SecClient:
         doc = json.loads(main.path.read_bytes())
         older = []
         for f in doc.get("filings", {}).get("files", []):
-            r = self.fetch(f"{DATA_BASE}/submissions/{f['name']}", base / f["name"], max_age_days)
+            name = _cache_component(f["name"])
+            r = self.fetch(f"{DATA_BASE}/submissions/{name}", base / name, max_age_days)
             older.append(json.loads(r.path.read_bytes()))
         doc["_older"] = older
         doc["_sha256"] = main.sha256
@@ -139,10 +149,12 @@ class SecClient:
 
     @staticmethod
     def document_url(cik: int, accession: str, filename: str) -> str:
+        _cache_component(accession)
+        _cache_component(filename)
         return f"{ARCHIVE_BASE}/{int(cik)}/{accession.replace('-', '')}/{filename}"
 
     def document_path(self, cik: int, accession: str, filename: str) -> Path:
-        return self.layout.raw_sec / "filings" / str(int(cik)) / accession / filename
+        return self.layout.raw_sec / "filings" / str(int(cik)) / _cache_component(accession) / _cache_component(filename)
 
     def filing_document(self, cik: int, accession: str, filename: str) -> Retrieval:
         return self.fetch(self.document_url(cik, accession, filename),
