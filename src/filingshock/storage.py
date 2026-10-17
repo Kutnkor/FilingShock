@@ -2,15 +2,67 @@
 
 from __future__ import annotations
 
+import errno
 import hashlib
 import json
 import os
 import tempfile
+import time
+from contextlib import contextmanager
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
+
+
+@contextmanager
+def file_lock(path: Path, timeout: float = 10.0):
+    """Serialize cooperating writers using a stable sidecar, with a bounded wait.
+
+    The lock file must not be replaced or deleted while writers run. It is separate from the
+    atomically replaced data file so every process locks the same inode/byte range.
+    """
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("a+b") as fh:
+        if os.name == "nt":
+            import msvcrt
+
+            if fh.tell() == 0:
+                fh.write(b"\0")
+                fh.flush()
+
+            def acquire():
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+
+            def release():
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+        else:
+            import fcntl
+
+            def acquire():
+                fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+
+            def release():
+                fcntl.flock(fh, fcntl.LOCK_UN)
+
+        deadline = time.monotonic() + timeout
+        while True:
+            try:
+                acquire()
+                break
+            except OSError as exc:
+                if exc.errno not in (errno.EACCES, errno.EAGAIN, errno.EDEADLK):
+                    raise
+                if time.monotonic() >= deadline:
+                    raise TimeoutError(f"timed out waiting for writer lock: {path.name}") from exc
+                time.sleep(0.01)
+        try:
+            yield
+        finally:
+            release()
 
 
 @dataclass(frozen=True)

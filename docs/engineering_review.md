@@ -23,6 +23,13 @@ with a stable lock file and atomically replaces the ledger with its unchanged pr
 Readers then see a complete old or new snapshot. A local hash chain can detect accidental edits; it
 cannot prove publication time or prevent someone with filesystem access from rewriting the whole chain.
 
+Implemented: a bounded, process-level sidecar lock covers integrity checks, duplicate checks, sequence
+allocation and persistence. Outcome uniqueness is checked inside the same transaction. Readers need no
+write permission or lock files because replacement exposes complete snapshots. Existing record bytes
+are preserved. The ledger APIs are intended for a local filesystem with cooperating writers, not as a
+distributed database or externally anchored audit service. Never remove `.lock` files while writers run.
+Tests exercise independent ledger instances, simultaneous appends and duplicate forecasts/outcomes.
+
 References: [Python file locks](https://docs.python.org/3.11/library/fcntl.html#fcntl.flock),
 [Windows byte-range locks](https://docs.python.org/3.11/library/msvcrt.html#msvcrt.locking), and
 [atomic replacement](https://docs.python.org/3.11/library/os.html#os.replace).

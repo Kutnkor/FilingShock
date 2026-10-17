@@ -25,7 +25,7 @@ import pandas as pd
 
 from filingshock import __version__
 from filingshock.config import Config
-from filingshock.storage import DataLayout
+from filingshock.storage import DataLayout, file_lock, write_bytes_atomic
 
 log = logging.getLogger(__name__)
 LEDGER_NAME = "prospective_forecasts.jsonl"
@@ -97,39 +97,55 @@ class HashChainedLog:
             raise LedgerError(f"ledger integrity check failed: {msg}")
         return records
 
-    def _append_chained(self, rec: dict) -> dict:
-        existing = self.records()
-        rec = dict(rec)
-        rec["sequence"] = len(existing)
-        rec["prev_record_sha256"] = existing[-1]["record_sha256"] if existing else None
-        rec["record_sha256"] = self._hash(rec)
-        self.path.parent.mkdir(parents=True, exist_ok=True)
-        with open(self.path, "a") as fh:      # append-only
-            fh.write(json.dumps(rec, sort_keys=True) + "\n")
-        return rec
+    def _append_chained(self, rec: dict, prepare: Callable | None = None) -> dict:
+        """Validate and append one record as a transaction; preserve the previous bytes exactly.
+
+        Atomic replacement prevents readers from observing partial JSON. Append-only describes the
+        record history: previous records are never edited or removed by this API.
+        """
+        try:
+            with file_lock(self.path.with_name(self.path.name + ".lock")):
+                existing = self.verified_records()
+                rec = dict(rec)
+                if prepare is not None:
+                    rec = prepare(rec, existing)
+                rec["sequence"] = len(existing)
+                rec["prev_record_sha256"] = existing[-1]["record_sha256"] if existing else None
+                rec["record_sha256"] = self._hash(rec)
+                try:
+                    line = (json.dumps(rec, sort_keys=True, allow_nan=False) + "\n").encode("utf-8")
+                except (TypeError, ValueError) as exc:
+                    raise LedgerError("record contains values that cannot be stored as finite JSON") from exc
+                prefix = self.path.read_bytes() if self.path.exists() else b""
+                write_bytes_atomic(self.path, prefix + line)
+                return rec
+        except TimeoutError as exc:
+            raise LedgerError(str(exc)) from exc
 
 
 class ForecastLedger(HashChainedLog):
     def __init__(self, layout: DataLayout):
         super().__init__(layout.forecasts / LEDGER_NAME)
 
-    def append(self, rec: dict, now: datetime | None = None) -> dict:
-        now = now or datetime.now(timezone.utc)
-        cutoff = pd.Timestamp(rec["decision_cutoff_utc"])
-        observed = pd.Timestamp(rec["observed_at_utc"])
-        if pd.Timestamp(now) >= cutoff:
-            raise LedgerError("cannot record a prospective forecast at or after the decision cutoff")
-        if observed > cutoff:
-            raise LedgerError("filing was observed after the decision cutoff")
-        if observed > pd.Timestamp(now):
-            raise LedgerError("filing observation time is later than the generation time")
-        ok, msg = self.verify_chain()
-        if not ok:
-            raise LedgerError(f"ledger integrity check failed: {msg}")
-        rec = dict(rec)
-        rec["prediction_category"] = CATEGORY
-        rec["generated_at_utc"] = pd.Timestamp(now).isoformat()
-        return self._append_chained(rec)
+    def append(self, rec: dict, now: datetime | None = None,
+               *, clock: Callable[[], datetime] | None = None) -> dict:
+        def prepare(rec, existing):
+            current = pd.Timestamp(now if now is not None else (clock or (lambda: datetime.now(timezone.utc)))())
+            cutoff = pd.Timestamp(rec["decision_cutoff_utc"])
+            observed = pd.Timestamp(rec["observed_at_utc"])
+            if current >= cutoff:
+                raise LedgerError("cannot record a prospective forecast at or after the decision cutoff")
+            if observed > cutoff:
+                raise LedgerError("filing was observed after the decision cutoff")
+            if observed > current:
+                raise LedgerError("filing observation time is later than the generation time")
+            if any(r["forecast_id"] == rec["forecast_id"] for r in existing):
+                raise LedgerError(f"forecast {rec['forecast_id']} is already recorded (never overwritten)")
+            rec["prediction_category"] = CATEGORY
+            rec["generated_at_utc"] = current.isoformat()
+            return rec
+
+        return self._append_chained(rec, prepare)
 
 
 def find_pending_filings(cfg: Config, layout: DataLayout, now: datetime | None = None,
@@ -276,7 +292,7 @@ def record_pending_forecasts(cfg: Config, layout: DataLayout, client,
             raise RuntimeError(f"single-event features missing {sorted(needed - set(sf.features))}")
         probs = pm.predict(pd.DataFrame([sf.features]))
         try:
-            res["record"] = ledger.append(forecast_record(p, sf, pm, probs, cfg), now=clock())
+            res["record"] = ledger.append(forecast_record(p, sf, pm, probs, cfg), clock=clock)
         except LedgerError as exc:
             res["reason"] = str(exc)
             continue

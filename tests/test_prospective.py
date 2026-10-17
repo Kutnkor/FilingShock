@@ -341,7 +341,7 @@ def test_rescoring_adds_nothing_and_research_artifacts_are_untouched(live_layout
     assert [r["status"] for r in score_prospective_forecasts(cfg, layout, clock=lambda: SCORE_AT)] == ["scored"]
     after = _files(layout.root)
     added = set(after) - set(before)
-    assert added == {f"forecasts/{OUTCOMES_NAME}"}
+    assert added == {f"forecasts/{OUTCOMES_NAME}", f"forecasts/{OUTCOMES_NAME}.lock"}
     assert {k: v for k, v in after.items() if k not in added} == before       # ledger, research tables, metrics
     blob = (layout.forecasts / OUTCOMES_NAME).read_bytes()
     again = score_prospective_forecasts(cfg, layout, clock=lambda: SCORE_AT + pd.Timedelta(days=30))

@@ -1,6 +1,7 @@
 """Append-only, hash-chained prospective forecast ledger."""
 
 import json
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import pytest
@@ -75,3 +76,42 @@ def test_corrupt_ledgers_are_withheld_from_ui(tmp_path):
         log.path.write_text("{broken}\n")
         frame, ok, reason = reader(str(tmp_path), log.path.stat().st_mtime_ns)
         assert frame.empty and not ok and "invalid JSON" in reason
+
+
+def test_concurrent_writers_preserve_the_entire_chain(tmp_path):
+    layout = DataLayout(tmp_path).ensure()
+    now = datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc)
+
+    def append(i):
+        return ForecastLedger(layout).append(rec(i), now=now)
+
+    first = append(0)
+    prefix = ForecastLedger(layout).path.read_bytes()
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        rows = list(pool.map(append, range(1, 41)))
+    led = ForecastLedger(layout)
+    assert led.verify_chain() == (True, "ok")
+    assert len(led.records()) == 41
+    assert {r["forecast_id"] for r in [first, *rows]} == {f"f{i}" for i in range(41)}
+    assert led.path.read_bytes().startswith(prefix)
+
+
+@pytest.mark.parametrize("kind", ["forecast", "outcome"])
+def test_concurrent_duplicate_records_are_written_once(tmp_path, kind):
+    from filingshock.prospective_outcomes import OutcomeLog
+
+    layout = DataLayout(tmp_path).ensure()
+    log = ForecastLedger(layout) if kind == "forecast" else OutcomeLog(layout)
+    row = rec(1) if kind == "forecast" else {"forecast_id": "f1", "target_close_utc": "2029-12-01T21:00:00Z"}
+
+    def append(_):
+        try:
+            log.append(row, now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+            return True
+        except LedgerError as exc:
+            assert "already" in str(exc)
+            return False
+
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        assert sum(pool.map(append, range(16))) == 1
+    assert log.verify_chain() == (True, "ok") and len(log.records()) == 1

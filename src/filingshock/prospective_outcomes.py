@@ -45,18 +45,17 @@ class OutcomeLog(HashChainedLog):
         super().__init__(layout.forecasts / OUTCOMES_NAME)
 
     def append(self, rec: dict, now: datetime | None = None) -> dict:
-        now = _utc(now or datetime.now(timezone.utc))
-        if now < _utc(rec["target_close_utc"]) + SETTLE:
-            raise LedgerError("cannot score a prospective forecast before its target session has closed and settled")
-        ok, msg = self.verify_chain()
-        if not ok:
-            raise LedgerError(f"outcome log integrity check failed: {msg}")
-        if any(r["forecast_id"] == rec["forecast_id"] for r in self.records()):
-            raise LedgerError(f"forecast {rec['forecast_id']} is already scored (outcomes are never overwritten)")
-        rec = dict(rec)
-        rec["prediction_category"] = OUTCOME_CATEGORY
-        rec["scored_at_utc"] = now.isoformat()
-        return self._append_chained(rec)
+        def prepare(rec, existing):
+            current = _utc(now or datetime.now(timezone.utc))
+            if current < _utc(rec["target_close_utc"]) + SETTLE:
+                raise LedgerError("cannot score a prospective forecast before its target session has closed and settled")
+            if any(r["forecast_id"] == rec["forecast_id"] for r in existing):
+                raise LedgerError(f"forecast {rec['forecast_id']} is already scored (outcomes are never overwritten)")
+            rec["prediction_category"] = OUTCOME_CATEGORY
+            rec["scored_at_utc"] = current.isoformat()
+            return rec
+
+        return self._append_chained(rec, prepare)
 
 
 def stored_threshold(forecast: dict) -> Threshold:
