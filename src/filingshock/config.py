@@ -74,9 +74,17 @@ class Config:
             if not isinstance(self.raw[section].get(key), str) or not self.raw[section][key].strip():
                 errors.append(f"{section}.{key} must be a nonempty string")
 
+        def finite_number(value):
+            if isinstance(value, bool) or not isinstance(value, (int, float)):
+                return False
+            try:
+                return math.isfinite(value)
+            except OverflowError:
+                return False
+
         def number(section, key, minimum=0, integer=False, inclusive=False):
             value = self.raw[section].get(key)
-            valid = (not isinstance(value, bool) and isinstance(value, (int, float)) and math.isfinite(value)
+            valid = (finite_number(value)
                      and (not integer or isinstance(value, int))
                      and (value >= minimum if inclusive else value > minimum))
             if not valid:
@@ -103,7 +111,7 @@ class Config:
                 errors.append("splits.first_test_year must not exceed splits.last_test_year")
         grid = self.raw["model"].get("c_grid")
         if not isinstance(grid, list) or not grid or any(
-                isinstance(v, bool) or not isinstance(v, (int, float)) or not math.isfinite(v) or v <= 0 for v in grid):
+                not finite_number(v) or v <= 0 for v in grid):
             errors.append("model.c_grid must contain finite positive numbers")
         if self.raw["market_data"].get("provider") not in ("csv", "yfinance"):
             errors.append("market_data.provider must be csv or yfinance")

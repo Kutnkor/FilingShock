@@ -12,6 +12,7 @@ from filingshock.config import Config, ConfigurationError
     ("market_data.provider", "unknown"), ("universe.companies", []),
     ("splits.first_test_year", 3000), ("universe.filing_window.accepted_from", "not-a-date"),
     ("sec.user_agent", 123), ("timing.exchange_calendar", None),
+    ("sec.max_requests_per_second", 10**400), ("model.c_grid", [10**400]),
 ])
 def test_invalid_settings_are_rejected(key, value):
     with pytest.raises(ConfigurationError):
