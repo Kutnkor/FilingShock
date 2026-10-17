@@ -11,6 +11,7 @@ ledger is only read. Nothing here reads or writes the research tables, experimen
 from __future__ import annotations
 
 import logging
+import math
 from datetime import datetime, timezone
 from typing import Callable
 
@@ -19,7 +20,7 @@ import pandas as pd
 from filingshock import __version__
 from filingshock.config import Config
 from filingshock.events import _bars
-from filingshock.forecasts import ForecastLedger, HashChainedLog, LedgerError, _jsonable
+from filingshock.forecasts import ForecastLedger, HashChainedLog, LedgerError, _jsonable, ledger_timestamp
 from filingshock.sources.market import BAR_SETTLE_MINUTES, PriceStore
 from filingshock.storage import DataLayout
 from filingshock.target import Outcome, Threshold, realized_outcome
@@ -37,13 +38,44 @@ OUTCOME_COLUMNS = ["forecast_id", "forecast_record_sha256", "forecast_sequence",
 
 
 def _utc(ts) -> pd.Timestamp:
-    t = pd.Timestamp(ts)
-    return t.tz_localize("UTC") if t.tzinfo is None else t.tz_convert("UTC")
+    return ledger_timestamp(ts, "prospective outcome timestamp")
 
 
 class OutcomeLog(HashChainedLog):
     def __init__(self, layout: DataLayout):
         super().__init__(layout.forecasts / OUTCOMES_NAME)
+
+    @staticmethod
+    def _validate_outcome(rec: dict) -> None:
+        if not isinstance(rec.get("forecast_id"), str) or not rec["forecast_id"].strip():
+            raise LedgerError("forecast_id must be a nonempty identifier")
+        close = ledger_timestamp(rec.get("target_close_utc"), "target_close_utc")
+        scored = ledger_timestamp(rec.get("scored_at_utc"), "scored_at_utc")
+        if scored < close + SETTLE:
+            raise LedgerError("outcome was scored before the target session closed and settled")
+        if rec.get("outcome_status") == "ok":
+            y = rec.get("y")
+            if type(y) is not int or y not in (0, 1):
+                raise LedgerError("a scored outcome must have binary y")
+            for name in ("A", "B", "C", "constant"):
+                p, score = rec.get(f"p_{name}"), rec.get(f"brier_{name}")
+                if p is not None:
+                    if (not isinstance(p, (int, float)) or isinstance(p, bool) or not math.isfinite(p)
+                            or not 0 <= p <= 1 or not isinstance(score, (int, float)) or not math.isfinite(score)
+                            or not math.isclose(score, (p - y) ** 2, rel_tol=1e-12, abs_tol=1e-12)):
+                        raise LedgerError(f"brier_{name} does not match the stored probability and outcome")
+
+    @classmethod
+    def _verify_records(cls, records: list[dict]) -> tuple[bool, str]:
+        ok, msg = super()._verify_records(records)
+        if not ok:
+            return ok, msg
+        for i, rec in enumerate(records):
+            try:
+                cls._validate_outcome(rec)
+            except LedgerError as exc:
+                return False, f"record {i}: {exc}"
+        return True, "ok"
 
     def append(self, rec: dict, now: datetime | None = None) -> dict:
         def prepare(rec, existing):
@@ -54,6 +86,7 @@ class OutcomeLog(HashChainedLog):
                 raise LedgerError(f"forecast {rec['forecast_id']} is already scored (outcomes are never overwritten)")
             rec["prediction_category"] = OUTCOME_CATEGORY
             rec["scored_at_utc"] = current.isoformat()
+            self._validate_outcome(rec)
             return rec
 
         return self._append_chained(rec, prepare)

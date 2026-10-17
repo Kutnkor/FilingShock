@@ -15,6 +15,11 @@ numbers in [0, 1], and observed/generated/cutoff timestamps identify real timezo
 that order. `NaT` cannot silently bypass a comparison. Rehashing an invalid probability does not make
 it eligible for display.
 
+Outcome logs apply the same timestamp rules at the close/settlement boundary. A scored record must
+have a binary label, and each available stored probability must reproduce its Brier contribution.
+These checks run when recording and reading; an invalid outcome is withheld even if its hash was
+recomputed.
+
 The UI withholds records from a corrupt forecast or outcome log and displays its integrity failure.
 It never renders unverified probabilities or realized scores. Both adapters read one verified snapshot.
 

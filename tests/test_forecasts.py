@@ -142,3 +142,24 @@ def test_rehashed_invalid_probability_is_withheld_from_readers(tmp_path):
     led.path.write_text(json.dumps(row) + "\n")
     ok, reason = led.verify_chain()
     assert not ok and "finite probability" in reason
+
+
+@pytest.mark.parametrize("close", [None, "NaT", "2030-01-02T21:00:00", "invalid"])
+def test_invalid_close_times_cannot_bypass_outcome_settlement(tmp_path, close):
+    from filingshock.prospective_outcomes import OutcomeLog
+
+    log = OutcomeLog(DataLayout(tmp_path).ensure())
+    with pytest.raises(LedgerError, match="timezone-aware"):
+        log.append({"forecast_id": "f1", "target_close_utc": close}, now=datetime(2030, 1, 4, tzinfo=timezone.utc))
+    assert not log.path.exists()
+
+
+def test_inconsistent_outcome_scores_are_not_accepted(tmp_path):
+    from filingshock.prospective_outcomes import OutcomeLog
+
+    log = OutcomeLog(DataLayout(tmp_path).ensure())
+    row = {"forecast_id": "f1", "target_close_utc": "2030-01-02T21:00:00Z", "outcome_status": "ok",
+           "y": 1, "p_C": 0.2, "brier_C": 0.0}
+    with pytest.raises(LedgerError, match="brier_C"):
+        log.append(row, now=datetime(2030, 1, 4, tzinfo=timezone.utc))
+    assert not log.path.exists()
