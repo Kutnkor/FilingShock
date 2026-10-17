@@ -80,3 +80,11 @@ checks accession names before looking up an existing parsed document. Ordinary d
 and the historical research protocol are unchanged. Tests: `tests/test_sec_paths.py`.
 
 Reference: [SEC submissions API structure](https://www.sec.gov/search-filings/edgar-application-programming-interfaces).
+
+## Configuration failure boundaries
+
+Malformed YAML, missing sections, nonfinite/negative target settings, empty tuning grids, duplicate
+company identities and reversed date windows now fail as setup errors before data directories or
+downloads are started. Configuration overrides use the same checks. Existing valid values are not
+changed. An empty SEC User-Agent is treated as unconfigured rather than silently authorizing a request.
+Tests: `tests/test_config.py`.

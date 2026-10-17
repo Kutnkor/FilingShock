@@ -12,7 +12,7 @@ import logging
 import subprocess
 import sys
 
-from filingshock.config import PROJECT_ROOT, Config
+from filingshock.config import PROJECT_ROOT, Config, ConfigurationError
 from filingshock.storage import DataLayout, read_json
 
 log = logging.getLogger("filingshock")
@@ -410,6 +410,9 @@ def main(argv: list[str] | None = None) -> int:
     logging.getLogger("yfinance").setLevel(logging.CRITICAL)
     try:
         return args.fn(args)
+    except ConfigurationError as exc:
+        print(f"Invalid configuration: {exc}")
+        return EXIT_SETUP
     except FileNotFoundError as exc:
         print(f"Required data not found: {exc}")
         return EXIT_DATA
