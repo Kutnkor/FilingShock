@@ -41,6 +41,17 @@ class LedgerError(RuntimeError):
     pass
 
 
+def ledger_timestamp(value, field: str) -> pd.Timestamp:
+    """Evidence timestamps must identify a real instant, never NaT or an assumed local zone."""
+    try:
+        stamp = pd.Timestamp(value)
+        if pd.isna(stamp) or stamp.tzinfo is None:
+            raise ValueError("missing timestamp or timezone")
+    except (TypeError, ValueError, OverflowError) as exc:
+        raise LedgerError(f"{field} must be a valid timezone-aware timestamp") from exc
+    return stamp.tz_convert("UTC")
+
+
 class HashChainedLog:
     """Append-only JSONL file in which every record stores the SHA-256 of the previous one."""
 
@@ -116,8 +127,8 @@ class HashChainedLog:
                     rec = prepare(rec, existing)
                 rec["sequence"] = len(existing)
                 rec["prev_record_sha256"] = existing[-1]["record_sha256"] if existing else None
-                rec["record_sha256"] = self._hash(rec)
                 try:
+                    rec["record_sha256"] = self._hash(rec)
                     line = (json.dumps(rec, sort_keys=True, allow_nan=False) + "\n").encode("utf-8")
                 except (TypeError, ValueError) as exc:
                     raise LedgerError("record contains values that cannot be stored as finite JSON") from exc
@@ -132,24 +143,56 @@ class ForecastLedger(HashChainedLog):
     def __init__(self, layout: DataLayout):
         super().__init__(layout.forecasts / LEDGER_NAME)
 
+    @staticmethod
+    def _validate_forecast(rec: dict) -> None:
+        for field in ("forecast_id", "event_id", "model_version"):
+            if not isinstance(rec.get(field), str) or not rec[field].strip():
+                raise LedgerError(f"{field} must be a nonempty identifier")
+        for field in ("probability", "p_A", "p_B", "p_C", "p_constant", "p_A_raw", "p_B_raw", "p_C_raw"):
+            value = rec.get(field)
+            if field != "probability" and value is None:
+                continue
+            if (isinstance(value, (bool, np.bool_)) or not isinstance(value, (int, float, np.integer, np.floating))
+                    or not math.isfinite(float(value)) or not 0 <= value <= 1):
+                raise LedgerError(f"{field} must be a finite probability between 0 and 1")
+        generated = ledger_timestamp(rec.get("generated_at_utc"), "generated_at_utc")
+        observed = ledger_timestamp(rec.get("observed_at_utc"), "observed_at_utc")
+        cutoff = ledger_timestamp(rec.get("decision_cutoff_utc"), "decision_cutoff_utc")
+        if not observed <= generated < cutoff:
+            raise LedgerError("forecast times must satisfy observed <= generated < decision cutoff")
+
+    @classmethod
+    def _verify_records(cls, records: list[dict]) -> tuple[bool, str]:
+        ok, msg = super()._verify_records(records)
+        if not ok:
+            return ok, msg
+        for i, rec in enumerate(records):
+            try:
+                cls._validate_forecast(rec)
+            except LedgerError as exc:
+                return False, f"record {i}: {exc}"
+        return True, "ok"
+
     def append(self, rec: dict, now: datetime | None = None,
                *, clock: Callable[[], datetime] | None = None) -> dict:
         def prepare(rec, existing):
-            current = pd.Timestamp(now if now is not None else (clock or (lambda: datetime.now(timezone.utc)))())
-            cutoff = pd.Timestamp(rec["decision_cutoff_utc"])
-            observed = pd.Timestamp(rec["observed_at_utc"])
+            current = ledger_timestamp(now if now is not None else (clock or (lambda: datetime.now(timezone.utc)))(),
+                                       "generated_at_utc")
+            cutoff = ledger_timestamp(rec.get("decision_cutoff_utc"), "decision_cutoff_utc")
+            observed = ledger_timestamp(rec.get("observed_at_utc"), "observed_at_utc")
             if current >= cutoff:
                 raise LedgerError("cannot record a prospective forecast at or after the decision cutoff")
             if observed > cutoff:
                 raise LedgerError("filing was observed after the decision cutoff")
             if observed > current:
                 raise LedgerError("filing observation time is later than the generation time")
+            rec["prediction_category"] = CATEGORY
+            rec["generated_at_utc"] = current.isoformat()
+            self._validate_forecast(rec)
             if any(r["forecast_id"] == rec["forecast_id"] for r in existing):
                 raise LedgerError(f"forecast {rec['forecast_id']} is already recorded (never overwritten)")
             if any(forecast_model_key(r) == forecast_model_key(rec) for r in existing):
                 raise LedgerError("this event and model parameter set are already recorded (never overwritten)")
-            rec["prediction_category"] = CATEGORY
-            rec["generated_at_utc"] = current.isoformat()
             return rec
 
         return self._append_chained(rec, prepare)

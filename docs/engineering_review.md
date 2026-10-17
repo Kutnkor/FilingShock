@@ -10,6 +10,11 @@ numbers are contiguous; the reader checks both. A partial final write must block
 than be joined to the next record. Corrupt data must produce an integrity diagnostic, not an uncaught
 JSON parser traceback. Tests: `tests/test_forecasts.py`.
 
+Forecast semantics are checked on append and reuse: identifiers are nonempty, probabilities are finite
+numbers in [0, 1], and observed/generated/cutoff timestamps identify real timezone-aware instants in
+that order. `NaT` cannot silently bypass a comparison. Rehashing an invalid probability does not make
+it eligible for display.
+
 The UI withholds records from a corrupt forecast or outcome log and displays its integrity failure.
 It never renders unverified probabilities or realized scores. Both adapters read one verified snapshot.
 

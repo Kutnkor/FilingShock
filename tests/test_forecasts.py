@@ -115,3 +115,30 @@ def test_concurrent_duplicate_records_are_written_once(tmp_path, kind):
     with ThreadPoolExecutor(max_workers=8) as pool:
         assert sum(pool.map(append, range(16))) == 1
     assert log.verify_chain() == (True, "ok") and len(log.records()) == 1
+
+
+@pytest.mark.parametrize("probability", [float("nan"), float("inf"), -0.1, 1.1, True, "0.5", None])
+def test_invalid_forecast_probabilities_are_never_persisted(tmp_path, probability):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    row = {**rec(1), "probability": probability}
+    with pytest.raises(LedgerError, match="finite probability"):
+        led.append(row, now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+    assert not led.path.exists()
+
+
+@pytest.mark.parametrize("timestamp", [None, "NaT", "not-a-date", "2030-01-02T21:00:00"])
+def test_invalid_observation_times_do_not_bypass_cutoff_checks(tmp_path, timestamp):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    with pytest.raises(LedgerError, match="timezone-aware"):
+        led.append({**rec(1), "observed_at_utc": timestamp}, now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+    assert not led.path.exists()
+
+
+def test_rehashed_invalid_probability_is_withheld_from_readers(tmp_path):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    row = led.append(rec(1), now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
+    row["probability"] = 2.0
+    row["record_sha256"] = led._hash(row)
+    led.path.write_text(json.dumps(row) + "\n")
+    ok, reason = led.verify_chain()
+    assert not ok and "finite probability" in reason
