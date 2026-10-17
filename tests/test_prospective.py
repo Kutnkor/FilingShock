@@ -149,6 +149,21 @@ def test_changed_model_parameters_create_a_new_forecast(live_layout):
     assert len(ForecastLedger(layout).records()) == 2
 
 
+def test_tampered_model_manifest_blocks_recording(live_layout):
+    import json
+
+    cfg, layout = live_layout
+    record_pending_forecasts(cfg, layout, _client(cfg, layout), clock=lambda: BEFORE)
+    path = next((layout.forecasts / "models").glob("*.json"))
+    content = json.loads(path.read_text())
+    content["year"] = 1900
+    path.write_text(json.dumps(content))
+    res = record_pending_forecasts(cfg, layout, _client(cfg, layout), clock=lambda: BEFORE)
+    assert res[0]["status"] == "skipped" and "integrity verification" in res[0]["reason"]
+    assert len(ForecastLedger(layout).records()) == 1
+    assert json.loads(path.read_text())["year"] == 1900   # damaged evidence is not silently overwritten
+
+
 def test_filings_not_yet_accepted_or_seen_are_not_pending(live_layout):
     cfg, layout = live_layout
     early = datetime(2024, 10, 30, 11, 46, tzinfo=timezone.utc)      # 07:46 ET: accepted, not yet seen

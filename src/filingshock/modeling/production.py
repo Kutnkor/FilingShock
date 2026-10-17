@@ -28,7 +28,7 @@ from filingshock.modeling.experiment import (
     model_specs,
 )
 from filingshock.modeling.splits import Fold, make_fold
-from filingshock.storage import DataLayout, write_json_atomic
+from filingshock.storage import DataLayout, file_lock, read_json, write_json_atomic
 
 PRODUCTION_MODELS = ("B", "C")
 
@@ -95,7 +95,18 @@ def fit_production_model(cfg: Config, layout: DataLayout, year: int) -> Producti
 def save_production_manifest(layout: DataLayout, pm: ProductionModel) -> Path:
     """Written once per (version, parameter hash); an existing manifest is never overwritten."""
     path = layout.forecasts / "models" / f"{pm.version.replace(':', '__')}__{pm.parameters_sha256[:12]}.json"
-    if not path.exists():
-        write_json_atomic(path, {**pm.parameters(), "parameters_sha256": pm.parameters_sha256,
-                                 "fitted_at_utc": pm.fitted_at_utc})
+    with file_lock(path.with_suffix(".json.lock")):
+        if path.exists():
+            try:
+                stored = read_json(path)
+                parameters = {k: v for k, v in stored.items() if k not in ("parameters_sha256", "fitted_at_utc")}
+                digest = hashlib.sha256(json.dumps(parameters, sort_keys=True, default=str).encode()).hexdigest()
+                valid = stored.get("parameters_sha256") == pm.parameters_sha256 == digest
+            except (ValueError, AttributeError):
+                valid = False
+            if not valid:
+                raise ProductionModelNotReady(f"cached model manifest failed integrity verification: {path.name}")
+        else:
+            write_json_atomic(path, {**pm.parameters(), "parameters_sha256": pm.parameters_sha256,
+                                     "fitted_at_utc": pm.fitted_at_utc})
     return path

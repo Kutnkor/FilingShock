@@ -42,3 +42,7 @@ a repeated identical model is idempotent, while a changed model gets its own imm
 The original record remains available to the earliest-forecast-per-event evaluation rule.
 
 Reference: [scikit-learn model provenance and reproducibility](https://scikit-learn.org/stable/model_persistence.html).
+
+Production manifests are also checked against their actual canonical parameter hash when reused.
+A damaged JSON file, mismatched hash or changed parameters blocks recording instead of silently
+reusing or overwriting evidence. First creation is serialized with the same local lock primitive.
