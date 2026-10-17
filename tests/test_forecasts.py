@@ -1,8 +1,10 @@
 """Append-only, hash-chained prospective forecast ledger."""
 
 import json
-from concurrent.futures import ThreadPoolExecutor
+import multiprocessing
+from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 from datetime import datetime, timezone
+from pathlib import Path
 
 import pytest
 
@@ -14,6 +16,11 @@ def rec(i):
     return {"forecast_id": f"f{i}", "event_id": f"ev-{i}", "observed_at_utc": "2030-01-02T21:00:00+00:00",
             "decision_cutoff_utc": "2030-01-03T14:00:00+00:00", "probability": 0.2 + i / 100,
             "model_version": "logistic_l2:C:fold2030"}
+
+
+def _append_in_process(args):
+    root, i = args
+    return ForecastLedger(DataLayout(Path(root))).append(rec(i), now=datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc))
 
 
 def test_append_before_cutoff_and_chain(tmp_path):
@@ -94,6 +101,43 @@ def test_concurrent_writers_preserve_the_entire_chain(tmp_path):
     assert len(led.records()) == 41
     assert {r["forecast_id"] for r in [first, *rows]} == {f"f{i}" for i in range(41)}
     assert led.path.read_bytes().startswith(prefix)
+
+
+def test_independent_processes_preserve_the_chain(tmp_path):
+    layout = DataLayout(tmp_path).ensure()
+    with ProcessPoolExecutor(max_workers=3, mp_context=multiprocessing.get_context("spawn")) as pool:
+        list(pool.map(_append_in_process, [(str(tmp_path), i) for i in range(12)]))
+    led = ForecastLedger(layout)
+    assert led.verify_chain() == (True, "ok")
+    assert len(led.records()) == 12
+
+
+def test_failed_publication_preserves_previous_evidence(tmp_path, monkeypatch):
+    led = ForecastLedger(DataLayout(tmp_path).ensure())
+    now = datetime(2030, 1, 2, 22, 0, tzinfo=timezone.utc)
+    led.append(rec(1), now=now)
+    before = led.path.read_bytes()
+
+    def fail_replace(*args):
+        raise OSError("simulated filesystem publication failure")
+
+    with monkeypatch.context() as scoped:
+        scoped.setattr("filingshock.storage.os.replace", fail_replace)
+        with pytest.raises(OSError, match="publication failure"):
+            led.append(rec(2), now=now)
+    assert led.path.read_bytes() == before
+    assert led.verify_chain() == (True, "ok")
+    assert list(led.path.parent.glob(".*.tmp")) == []
+
+
+def test_contending_writer_wait_is_bounded(tmp_path):
+    from filingshock.storage import file_lock
+
+    path = tmp_path / "transaction.lock"
+    with file_lock(path):
+        with pytest.raises(TimeoutError, match="writer lock"):
+            with file_lock(path, timeout=0.01):
+                pytest.fail("a second writer acquired an already-held lock")
 
 
 @pytest.mark.parametrize("kind", ["forecast", "outcome"])

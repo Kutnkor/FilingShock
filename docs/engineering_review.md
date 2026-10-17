@@ -28,7 +28,7 @@ Reference: [Python JSON decoder and JSONDecodeError](https://docs.python.org/3.1
 ## Concurrency and persistence design
 
 The existing read/check/append operation is not one transaction. Concurrent writers can validate the
-same tail and produce conflicting sequence numbers. The intended fix serializes that whole operation
+same tail and produce conflicting sequence numbers. The fix serializes that whole operation
 with a stable lock file and atomically replaces the ledger with its unchanged prefix plus one record.
 Readers then see a complete old or new snapshot. A local hash chain can detect accidental edits; it
 cannot prove publication time or prevent someone with filesystem access from rewriting the whole chain.
@@ -39,6 +39,8 @@ write permission or lock files because replacement exposes complete snapshots. E
 are preserved. The ledger APIs are intended for a local filesystem with cooperating writers, not as a
 distributed database or externally anchored audit service. Never remove `.lock` files while writers run.
 Tests exercise independent ledger instances, simultaneous appends and duplicate forecasts/outcomes.
+Separate-process writers, a contended-lock timeout and a simulated publication failure are covered too;
+failed replacement leaves the previous evidence bytes unchanged and removes the temporary file.
 
 References: [Python file locks](https://docs.python.org/3.11/library/fcntl.html#fcntl.flock),
 [Windows byte-range locks](https://docs.python.org/3.11/library/msvcrt.html#msvcrt.locking), and
