@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 from filingshock.config import Config
-from filingshock.storage import DataLayout, sha256_file, write_parquet_atomic
+from filingshock.storage import DataLayout, file_lock, sha256_file, write_parquet_atomic
 
 log = logging.getLogger(__name__)
 
@@ -187,17 +187,18 @@ class PriceStore:
              error: str | None = None, extra: dict | None = None) -> None:
         self.path(symbol)  # Validate even unavailable symbols, which have no Parquet file.
         self.dir.mkdir(parents=True, exist_ok=True)
-        entry = {"symbol": symbol, "status": status, "error": error,
-                 "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "provider": provider.describe(), **(extra or {})}
-        if status == "ok":
-            write_parquet_atomic(self.path(symbol), df[BAR_COLUMNS])
-            entry.update({"rows": int(len(df)), "first": str(df["session"].min().date()),
-                          "last": str(df["session"].max().date()), "sha256": sha256_file(self.path(symbol))})
-        man = self._read_manifest()
-        man[symbol] = entry
-        from filingshock.storage import write_json_atomic
-        write_json_atomic(self.manifest, man)
+        with file_lock(self.manifest.with_suffix(".lock")):
+            entry = {"symbol": symbol, "status": status, "error": error,
+                     "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                     "provider": provider.describe(), **(extra or {})}
+            if status == "ok":
+                write_parquet_atomic(self.path(symbol), df[BAR_COLUMNS])
+                entry.update({"rows": int(len(df)), "first": str(df["session"].min().date()),
+                              "last": str(df["session"].max().date()), "sha256": sha256_file(self.path(symbol))})
+            man = self._read_manifest()
+            man[symbol] = entry
+            from filingshock.storage import write_json_atomic
+            write_json_atomic(self.manifest, man)
 
 
 def resolve_history_end(value, now: datetime | None = None) -> str:
