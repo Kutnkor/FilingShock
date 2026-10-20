@@ -80,3 +80,34 @@ def test_network_setup_check_requires_a_real_user_agent(tmp_path, monkeypatch, c
     monkeypatch.setenv("FILINGSHOCK_SEC_USER_AGENT", " ")
     assert main(["validate-setup", "--network"]) == EXIT_SETUP
     assert "no request was sent" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("status_code", [200, 403, 429, 503])
+def test_network_setup_check_reports_http_failures(tmp_path, monkeypatch, capsys, status_code):
+    from types import SimpleNamespace
+
+    import requests
+
+    from filingshock.cli import EXIT_OK, EXIT_SETUP, main
+
+    monkeypatch.setenv("FILINGSHOCK_DATA_DIR", str(tmp_path))
+    monkeypatch.setenv("FILINGSHOCK_SEC_USER_AGENT", "FilingShock test test@example.org")
+    monkeypatch.setattr(requests, "get", lambda *a, **k: SimpleNamespace(status_code=status_code))
+    assert main(["validate-setup", "--network"]) == (EXIT_OK if status_code == 200 else EXIT_SETUP)
+    if status_code != 200:
+        assert f"SEC reachability check failed: HTTP {status_code}" in capsys.readouterr().out
+
+
+def test_network_setup_timeout_does_not_report_success(tmp_path, monkeypatch, capsys):
+    import requests
+
+    from filingshock.cli import EXIT_SETUP, main
+
+    def timeout(*args, **kwargs):
+        raise requests.Timeout("simulated timeout")
+
+    monkeypatch.setenv("FILINGSHOCK_DATA_DIR", str(tmp_path))
+    monkeypatch.setenv("FILINGSHOCK_SEC_USER_AGENT", "FilingShock test test@example.org")
+    monkeypatch.setattr(requests, "get", timeout)
+    assert main(["validate-setup", "--network"]) == EXIT_SETUP
+    assert "PROBLEM: SEC not reachable: simulated timeout" in capsys.readouterr().out
