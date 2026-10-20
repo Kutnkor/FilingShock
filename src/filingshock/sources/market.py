@@ -30,6 +30,13 @@ class MarketDataUnavailable(RuntimeError):
     pass
 
 
+def _market_component(value: str) -> str:
+    if (not isinstance(value, str) or not value or value in (".", "..")
+            or any(c in value for c in ("/", "\\", ":")) or any(ord(c) < 32 for c in value)):
+        raise MarketDataUnavailable("invalid market-data path component")
+    return value
+
+
 class MarketDataProvider(ABC):
     name: str
 
@@ -107,7 +114,7 @@ class CsvImportProvider(MarketDataProvider):
                 "redistribution": "governed by the user's data licence"}
 
     def fetch_daily(self, symbol: str, start: str, end: str) -> pd.DataFrame:
-        path = self.directory / f"{symbol}.csv"
+        path = self.directory / f"{_market_component(symbol)}.csv"
         if not path.exists():
             raise MarketDataUnavailable(f"{symbol}: no import file at {path}")
         try:
@@ -151,11 +158,11 @@ class PriceStore:
     """Local cache of normalised daily bars, one Parquet file per provider/symbol."""
 
     def __init__(self, layout: DataLayout, provider_name: str):
-        self.dir = layout.raw_market / provider_name
+        self.dir = layout.raw_market / _market_component(provider_name)
         self.manifest = self.dir / "manifest.json"
 
     def path(self, symbol: str) -> Path:
-        return self.dir / f"{symbol}.parquet"
+        return self.dir / f"{_market_component(symbol)}.parquet"
 
     def has(self, symbol: str) -> bool:
         return self.path(symbol).exists()
@@ -178,6 +185,7 @@ class PriceStore:
 
     def save(self, symbol: str, df: pd.DataFrame, provider: MarketDataProvider, status: str,
              error: str | None = None, extra: dict | None = None) -> None:
+        self.path(symbol)  # Validate even unavailable symbols, which have no Parquet file.
         self.dir.mkdir(parents=True, exist_ok=True)
         entry = {"symbol": symbol, "status": status, "error": error,
                  "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
