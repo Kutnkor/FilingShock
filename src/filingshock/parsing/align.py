@@ -155,7 +155,8 @@ def align_paragraphs(ref: list[str], cur: list[str]) -> AlignmentResult:
             rows.append({"ref_ordinal": i, "cur_ordinal": None, "status": "removed", "jaccard": np.nan,
                          "edit_ratio": np.nan, "moved": False, "numeric_change": False,
                          "low_confidence": False})
-    pairs = pd.DataFrame(rows)
+    pairs = pd.DataFrame(rows, columns=["ref_ordinal", "cur_ordinal", "status", "jaccard", "edit_ratio",
+                                        "moved", "numeric_change", "low_confidence"])
     pairs["ref_ordinal"] = pairs["ref_ordinal"].astype("Int64")
     pairs["cur_ordinal"] = pairs["cur_ordinal"].astype("Int64")
     # display order: by current position, removed paragraphs placed after their reference predecessor

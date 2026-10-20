@@ -78,6 +78,7 @@ reference:                          # PROTOCOL
   secondary_policy: nearest_prior_10q
 
 features:
+  # Empty paragraph comparisons return no_matches with zero counts; they do not imply unchanged text.
   version: "fs-features-1.0"
   dictionary: lm_master_1993_2025   # point-in-time membership via year flags
   topic_lexicon: resources/dictionaries/topics_v1.yaml

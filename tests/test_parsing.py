@@ -82,3 +82,25 @@ def test_identical_repeated_paragraphs_match_once_each():
 def test_word_diff_marks_changes():
     ops = word_diff("revenue grew 10 percent", "revenue grew 12 percent")
     assert ("delete", "10") in ops and ("insert", "12") in ops
+
+
+def test_empty_alignment_has_a_complete_schema_and_no_matches(tmp_path):
+    import pandas as pd
+
+    empty = align_paragraphs([], [])
+    normal = align_paragraphs(["Revenue increased."], ["Revenue increased."])
+    assert empty.pairs.empty
+    assert list(empty.pairs.columns) == list(normal.pairs.columns)
+    assert empty.summary["n_ref"] == empty.summary["n_cur"] == 0
+    assert empty.summary["alignment_quality"] == "no_matches"
+    assert empty.summary["low_confidence_share"] is None
+    for name in ("added", "removed", "unchanged", "numeric_change", "low_confidence"):
+        assert empty.summary[f"n_{name}"] == 0
+    path = tmp_path / "empty.parquet"
+    empty.pairs.to_parquet(path, index=False)
+    pd.testing.assert_frame_equal(pd.read_parquet(path), empty.pairs)
+
+
+def test_one_empty_section_preserves_added_or_removed_paragraphs():
+    assert align_paragraphs([], ["New disclosure."]).summary["n_added"] == 1
+    assert align_paragraphs(["Old disclosure."], []).summary["n_removed"] == 1
