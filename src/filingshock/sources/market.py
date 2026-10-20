@@ -118,7 +118,14 @@ class CsvImportProvider(MarketDataProvider):
         missing = {"date", "open", "close"} - set(raw.columns)
         if missing:
             raise MarketDataUnavailable(f"{symbol}: import file lacks columns {sorted(missing)}")
-        out = pd.DataFrame({"session": pd.to_datetime(raw["date"]).dt.normalize()})
+        try:
+            sessions = pd.to_datetime(raw["date"].astype("string"), format="mixed", errors="raise")
+            if sessions.isna().any() or sessions.dt.tz is not None:
+                raise ValueError("use nonempty exchange-local dates without a timezone")
+            sessions = sessions.dt.normalize()
+        except (ValueError, TypeError, AttributeError) as exc:
+            raise MarketDataUnavailable(f"{symbol}: invalid session dates: {exc}") from exc
+        out = pd.DataFrame({"session": sessions})
         for c in ["open", "high", "low", "close", "volume", "dividends", "splits"]:
             out[c] = pd.to_numeric(raw[c], errors="coerce") if c in raw.columns else (
                 0.0 if c in ("dividends", "splits") else np.nan)

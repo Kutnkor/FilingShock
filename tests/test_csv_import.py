@@ -23,3 +23,18 @@ def test_broken_csv_does_not_abort_other_symbols(tmp_path):
                             now=pd.Timestamp("2024-01-04", tz="UTC"))
     assert results["BAD"].startswith("unavailable:")
     assert results["GOOD"].startswith("ok (")
+
+
+@pytest.mark.parametrize("date", ["not-a-date", "", "2024-02-30", "2024-01-02T00:00:00-05:00"])
+def test_invalid_or_ambiguous_session_dates_are_reported(tmp_path, date):
+    (tmp_path / "BAD.csv").write_text(f"date,open,close\n{date},100,101\n")
+    with pytest.raises(MarketDataUnavailable, match="BAD: invalid session dates"):
+        CsvImportProvider(tmp_path).fetch_daily("BAD", "2024-01-01", "2025-01-01")
+
+
+def test_naive_dates_are_normalized_sorted_and_end_exclusive(tmp_path):
+    (tmp_path / "GOOD.csv").write_text(
+        "date,open,close\n2024-01-03,100,101\n2024-01-02 16:00:00,90,91\n2024-01-04,110,111\n")
+    bars = CsvImportProvider(tmp_path).fetch_daily("GOOD", "2024-01-02", "2024-01-04")
+    assert bars["session"].tolist() == [pd.Timestamp("2024-01-02"), pd.Timestamp("2024-01-03")]
+    assert bars["open"].tolist() == [90, 100]
