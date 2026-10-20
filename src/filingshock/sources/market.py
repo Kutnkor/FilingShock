@@ -18,7 +18,7 @@ import numpy as np
 import pandas as pd
 
 from filingshock.config import Config
-from filingshock.storage import DataLayout, sha256_file, write_parquet_atomic
+from filingshock.storage import DataLayout, file_lock, sha256_file, write_parquet_atomic
 
 log = logging.getLogger(__name__)
 
@@ -28,6 +28,13 @@ BAR_SETTLE_MINUTES = 60      # a session's bar is treated as final only this lon
 
 class MarketDataUnavailable(RuntimeError):
     pass
+
+
+def _market_component(value: str) -> str:
+    if (not isinstance(value, str) or not value or value in (".", "..")
+            or any(c in value for c in ("/", "\\", ":")) or any(ord(c) < 32 for c in value)):
+        raise MarketDataUnavailable("invalid market-data path component")
+    return value
 
 
 class MarketDataProvider(ABC):
@@ -107,19 +114,33 @@ class CsvImportProvider(MarketDataProvider):
                 "redistribution": "governed by the user's data licence"}
 
     def fetch_daily(self, symbol: str, start: str, end: str) -> pd.DataFrame:
-        path = self.directory / f"{symbol}.csv"
+        path = self.directory / f"{_market_component(symbol)}.csv"
         if not path.exists():
             raise MarketDataUnavailable(f"{symbol}: no import file at {path}")
-        raw = pd.read_csv(path)
+        try:
+            raw = pd.read_csv(path)
+        except (OSError, UnicodeError, pd.errors.EmptyDataError, pd.errors.ParserError) as exc:
+            raise MarketDataUnavailable(f"{symbol}: cannot read import file: {exc}") from exc
         raw.columns = [c.strip().lower() for c in raw.columns]
         missing = {"date", "open", "close"} - set(raw.columns)
         if missing:
             raise MarketDataUnavailable(f"{symbol}: import file lacks columns {sorted(missing)}")
-        out = pd.DataFrame({"session": pd.to_datetime(raw["date"]).dt.normalize()})
+        try:
+            sessions = pd.to_datetime(raw["date"].astype("string"), format="mixed", errors="raise")
+            if sessions.isna().any() or sessions.dt.tz is not None:
+                raise ValueError("use nonempty exchange-local dates without a timezone")
+            sessions = sessions.dt.normalize()
+        except (ValueError, TypeError, AttributeError) as exc:
+            raise MarketDataUnavailable(f"{symbol}: invalid session dates: {exc}") from exc
+        out = pd.DataFrame({"session": sessions})
         for c in ["open", "high", "low", "close", "volume", "dividends", "splits"]:
             out[c] = pd.to_numeric(raw[c], errors="coerce") if c in raw.columns else (
                 0.0 if c in ("dividends", "splits") else np.nan)
         out = out[(out["session"] >= start) & (out["session"] < end)]
+        duplicate = out["session"].duplicated(keep=False)
+        if duplicate.any():
+            dates = out.loc[duplicate, "session"].dt.strftime("%Y-%m-%d").unique()
+            raise MarketDataUnavailable(f"{symbol}: duplicate session dates: {', '.join(dates[:5])}")
         return out.sort_values("session").reset_index(drop=True)
 
 
@@ -137,11 +158,11 @@ class PriceStore:
     """Local cache of normalised daily bars, one Parquet file per provider/symbol."""
 
     def __init__(self, layout: DataLayout, provider_name: str):
-        self.dir = layout.raw_market / provider_name
+        self.dir = layout.raw_market / _market_component(provider_name)
         self.manifest = self.dir / "manifest.json"
 
     def path(self, symbol: str) -> Path:
-        return self.dir / f"{symbol}.parquet"
+        return self.dir / f"{_market_component(symbol)}.parquet"
 
     def has(self, symbol: str) -> bool:
         return self.path(symbol).exists()
@@ -164,18 +185,20 @@ class PriceStore:
 
     def save(self, symbol: str, df: pd.DataFrame, provider: MarketDataProvider, status: str,
              error: str | None = None, extra: dict | None = None) -> None:
+        self.path(symbol)  # Validate even unavailable symbols, which have no Parquet file.
         self.dir.mkdir(parents=True, exist_ok=True)
-        entry = {"symbol": symbol, "status": status, "error": error,
-                 "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                 "provider": provider.describe(), **(extra or {})}
-        if status == "ok":
-            write_parquet_atomic(self.path(symbol), df[BAR_COLUMNS])
-            entry.update({"rows": int(len(df)), "first": str(df["session"].min().date()),
-                          "last": str(df["session"].max().date()), "sha256": sha256_file(self.path(symbol))})
-        man = self._read_manifest()
-        man[symbol] = entry
-        from filingshock.storage import write_json_atomic
-        write_json_atomic(self.manifest, man)
+        with file_lock(self.manifest.with_suffix(".lock")):
+            entry = {"symbol": symbol, "status": status, "error": error,
+                     "retrieved_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                     "provider": provider.describe(), **(extra or {})}
+            if status == "ok":
+                write_parquet_atomic(self.path(symbol), df[BAR_COLUMNS])
+                entry.update({"rows": int(len(df)), "first": str(df["session"].min().date()),
+                              "last": str(df["session"].max().date()), "sha256": sha256_file(self.path(symbol))})
+            man = self._read_manifest()
+            man[symbol] = entry
+            from filingshock.storage import write_json_atomic
+            write_json_atomic(self.manifest, man)
 
 
 def resolve_history_end(value, now: datetime | None = None) -> str:

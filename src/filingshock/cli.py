@@ -66,8 +66,10 @@ def cmd_validate_setup(args) -> int:
                 r = requests.get("https://data.sec.gov/submissions/CIK0000796343.json",
                                  headers={"User-Agent": cfg.sec_user_agent}, timeout=15)
                 print("SEC reachability:", r.status_code)
+                if r.status_code != 200:
+                    problems.append(f"SEC reachability check failed: HTTP {r.status_code}")
             except requests.RequestException as exc:
-                warnings.append(f"SEC not reachable: {exc}")
+                problems.append(f"SEC not reachable: {exc}")
     for w in warnings:
         print("WARNING:", w)
     for p in problems:

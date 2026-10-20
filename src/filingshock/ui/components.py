@@ -5,6 +5,7 @@ from __future__ import annotations
 import html
 import math
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import pandas as pd
 import streamlit as st
@@ -93,7 +94,13 @@ def facts(items: list[tuple[str, str]], raw_values: bool = False) -> None:
 
 
 def source_link(url: str | None, label: str) -> str:
-    if not url:
+    try:
+        parts = urlsplit(url) if isinstance(url, str) else None
+        valid = (parts is not None and parts.scheme.lower() in ("http", "https")
+                 and bool(parts.hostname) and not any(ord(c) < 32 for c in url))
+    except ValueError:
+        valid = False
+    if not valid:
         return esc(label) + " (source link unavailable)"
     return f'<a href="{esc(url)}" target="_blank" rel="noopener noreferrer">{esc(label)} ↗</a>'
 

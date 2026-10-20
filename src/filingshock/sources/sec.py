@@ -32,7 +32,7 @@ class SecAccessError(RuntimeError):
 def _cache_component(value: str) -> str:
     """SEC metadata is external input; a document name must remain one local path component."""
     if (not isinstance(value, str) or not value or value in (".", "..")
-            or any(c in value for c in ("/", "\\", ":", "\0", "?", "#"))
+            or any(c in value for c in ("/", "\\", ":", "\0", "?", "#", "%"))
             or any(ord(c) < 32 for c in value)):
         raise SecAccessError("invalid SEC document/cache path component")
     return value
@@ -170,9 +170,7 @@ def submissions_to_frame(doc: dict) -> pd.DataFrame:
     """Flatten recent + older submission blocks into one filings table (one row per accession)."""
     blocks = [doc["filings"]["recent"]] + list(doc.get("_older", []))
     frames = [pd.DataFrame(b) for b in blocks if b and len(b.get("accessionNumber", []))]
-    if not frames:
-        return pd.DataFrame()
-    df = pd.concat(frames, ignore_index=True)
+    df = pd.concat(frames, ignore_index=True) if frames else pd.DataFrame(columns=["accessionNumber"])
     df = df.rename(columns={
         "accessionNumber": "accession_number", "filingDate": "filing_date", "reportDate": "report_date",
         "acceptanceDateTime": "acceptance_raw", "form": "form_type", "primaryDocument": "primary_document",
@@ -180,16 +178,16 @@ def submissions_to_frame(doc: dict) -> pd.DataFrame:
         "isInlineXBRL": "is_inline_xbrl",
     })
     df = df.drop_duplicates("accession_number")
-    # The submissions API reports acceptanceDateTime in UTC ("...Z"); verified against index
-    # headers (which state Eastern time) in docs/timing_policy.md.
-    df["acceptance_utc"] = pd.to_datetime(df["acceptance_raw"], utc=True, errors="coerce")
-    df["cik"] = int(doc["cik"])
     keep = ["cik", "accession_number", "form_type", "filing_date", "report_date", "acceptance_raw",
             "acceptance_utc", "items", "primary_document", "primary_doc_description", "size",
             "is_xbrl", "is_inline_xbrl"]
     for k in keep:
         if k not in df.columns:
             df[k] = None
+    # The submissions API reports acceptanceDateTime in UTC ("...Z"); verified against index
+    # headers (which state Eastern time) in docs/timing_policy.md.
+    df["acceptance_utc"] = pd.to_datetime(df["acceptance_raw"], utc=True, errors="coerce")
+    df["cik"] = int(doc["cik"])
     return df[keep].sort_values("acceptance_utc").reset_index(drop=True)
 
 
