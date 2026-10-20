@@ -32,7 +32,7 @@ class SecAccessError(RuntimeError):
 def _cache_component(value: str) -> str:
     """SEC metadata is external input; a document name must remain one local path component."""
     if (not isinstance(value, str) or not value or value in (".", "..")
-            or any(c in value for c in ("/", "\\", ":", "\0", "?", "#"))
+            or any(c in value for c in ("/", "\\", ":", "\0", "?", "#", "%"))
             or any(ord(c) < 32 for c in value)):
         raise SecAccessError("invalid SEC document/cache path component")
     return value
