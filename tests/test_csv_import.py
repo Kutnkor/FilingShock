@@ -38,3 +38,17 @@ def test_naive_dates_are_normalized_sorted_and_end_exclusive(tmp_path):
     bars = CsvImportProvider(tmp_path).fetch_daily("GOOD", "2024-01-02", "2024-01-04")
     assert bars["session"].tolist() == [pd.Timestamp("2024-01-02"), pd.Timestamp("2024-01-03")]
     assert bars["open"].tolist() == [90, 100]
+
+
+@pytest.mark.parametrize("second_date", ["2024-01-02", "2024-01-02 16:00:00"])
+def test_duplicate_sessions_are_rejected_instead_of_counted_twice(tmp_path, second_date):
+    (tmp_path / "BAD.csv").write_text(f"date,open,close\n2024-01-02,100,101\n{second_date},100,102\n")
+    with pytest.raises(MarketDataUnavailable, match="duplicate session dates.*2024-01-02"):
+        CsvImportProvider(tmp_path).fetch_daily("BAD", "2024-01-01", "2025-01-01")
+
+
+def test_duplicate_sessions_outside_requested_window_do_not_block_import(tmp_path):
+    (tmp_path / "GOOD.csv").write_text(
+        "date,open,close\n2023-12-29,100,101\n2023-12-29,100,102\n2024-01-02,100,103\n")
+    bars = CsvImportProvider(tmp_path).fetch_daily("GOOD", "2024-01-01", "2025-01-01")
+    assert len(bars) == 1

@@ -130,6 +130,10 @@ class CsvImportProvider(MarketDataProvider):
             out[c] = pd.to_numeric(raw[c], errors="coerce") if c in raw.columns else (
                 0.0 if c in ("dividends", "splits") else np.nan)
         out = out[(out["session"] >= start) & (out["session"] < end)]
+        duplicate = out["session"].duplicated(keep=False)
+        if duplicate.any():
+            dates = out.loc[duplicate, "session"].dt.strftime("%Y-%m-%d").unique()
+            raise MarketDataUnavailable(f"{symbol}: duplicate session dates: {', '.join(dates[:5])}")
         return out.sort_values("session").reset_index(drop=True)
 
 
