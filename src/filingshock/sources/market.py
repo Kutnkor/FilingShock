@@ -110,7 +110,10 @@ class CsvImportProvider(MarketDataProvider):
         path = self.directory / f"{symbol}.csv"
         if not path.exists():
             raise MarketDataUnavailable(f"{symbol}: no import file at {path}")
-        raw = pd.read_csv(path)
+        try:
+            raw = pd.read_csv(path)
+        except (OSError, UnicodeError, pd.errors.EmptyDataError, pd.errors.ParserError) as exc:
+            raise MarketDataUnavailable(f"{symbol}: cannot read import file: {exc}") from exc
         raw.columns = [c.strip().lower() for c in raw.columns]
         missing = {"date", "open", "close"} - set(raw.columns)
         if missing:
